@@ -1,0 +1,62 @@
+[
+  {
+    "file": "statement_2024-06-12.html",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm",
+    "retrieved_utc": "2026-10-29T15:47:57.904955+00:00",
+    "sha256": "7b8e59c38978d22eadd78a99d0fc0ff4b0e9e7d7a17820d0205d7435a871472e"
+  },
+  {
+    "file": "statement_2024-07-31.html",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm",
+    "retrieved_utc": "2026-10-29T15:47:58.020308+00:00",
+    "sha256": "301355bb08e4d0563ea3751b17feb9b7d437f6bc460b3f9d759d3ac89ee7cbb5"
+  },
+  {
+    "file": "statement_2024-09-18.html",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+    "retrieved_utc": "2026-10-29T15:47:58.138383+00:00",
+    "sha256": "f8f9fc696c9f30a2339c9f301edaaba7d8c1c70bb2cfa00e047d018a547fdb99"
+  },
+  {
+    "file": "statement_2024-11-07.html",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm",
+    "retrieved_utc": "2026-10-29T15:47:58.224436+00:00",
+    "sha256": "481222889fb601a628cc1eddf20b938a74771d16222baefec5a4f66da5cd4e8d"
+  },
+  {
+    "file": "statement_2024-12-18.html",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm",
+    "retrieved_utc": "2026-10-29T15:47:58.317624+00:00",
+    "sha256": "cdb949db53105bbc99f5e0fd23f335da88d75d9962980b378a7019829eafe849"
+  },
+  {
+    "file": "monetary-policy-surprises.zip",
+    "url": "https://www.frbsf.org/wp-content/uploads/monetary-policy-surprises.zip",
+    "retrieved_utc": "2026-10-29T15:47:58.504250+00:00",
+    "sha256": "3e540482a62a9f0ff5803bef52c450b344d0555adc9b68f11d9b04c118515859"
+  },
+  {
+    "file": "XLK.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?period1=1717200000&period2=1735689600&interval=1d",
+    "retrieved_utc": "2026-10-29T15:47:58.638886+00:00",
+    "sha256": "a0239d833d366a2eb195fe29097d4674f2901f7d2e37f679681f6a16f449d5e4"
+  },
+  {
+    "file": "XLF.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLF?period1=1717200000&period2=1735689600&interval=1d",
+    "retrieved_utc": "2026-10-29T15:47:58.738332+00:00",
+    "sha256": "faea79d7996340e6d72711a41c0113e270cc3183a0c134e735ae29520613444f"
+  },
+  {
+    "file": "XLU.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLU?period1=1717200000&period2=1735689600&interval=1d",
+    "retrieved_utc": "2026-10-29T15:47:58.841374+00:00",
+    "sha256": "14bb12fd14be4979dfdecc1fc966e40b90cfdd0f55b6687f8ec2c87031b43702"
+  },
+  {
+    "file": "SPY.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1717200000&period2=1735689600&interval=1d",
+    "retrieved_utc": "2026-10-29T15:47:58.950365+00:00",
+    "sha256": "ef7e6039d8e793bbc8a75d98d63a0aef26e42e8ed9e3b80f8d7a686fc85c1f64"
+  }
+]
