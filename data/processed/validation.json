@@ -1,0 +1,10 @@
+{
+  "events": 5,
+  "sector_etfs": 3,
+  "final_rows": 15,
+  "trace_rows": 45,
+  "missing_policy_surprises": 0,
+  "duplicate_keys": 0,
+  "missing_required_window_prices": 0,
+  "sample_selection": "Last five scheduled FOMC meetings of 2024; feasibility only"
+}

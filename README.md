@@ -1,6 +1,6 @@
 # Data Science & AI for Finance — Final Project Kickoff
 
-> **Status:** Proposal and limited feasibility check only; no production pipeline or dashboard has been built. Research checked October 15, 2026.
+> **Update — October 29, 2026:** A runnable five-meeting proof of concept now produces 15 real meeting–ETF rows, source provenance, and independent arithmetic checks. Start with [run instructions](docs/PROOF_OF_CONCEPT.md), the [checkpoint memo](STATUS.md), and [results](data/processed/event_returns.csv). No dashboard or full-sample analysis has been built. The original October 15 planning notes and one-event check below are retained as historical context; new outputs use a later downloaded price vintage.
 
 ## Table of contents
 
