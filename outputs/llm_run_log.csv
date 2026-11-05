@@ -1,0 +1,4 @@
+ticker,model,run_date,protocol,model_input,score,validation
+AAPL,Codex GPT-6 (build identifier unavailable),2026-11-05,checkpoint1-excerpt-v1,Pre-event selected filing passage and Gunnar rubric,4,Pending independent human and masked checks
+NKE,Codex GPT-6 (build identifier unavailable),2026-11-05,checkpoint1-excerpt-v1,Pre-event selected filing passage and Gunnar rubric,4,Pending independent human and masked checks
+VZ,Codex GPT-6 (build identifier unavailable),2026-11-05,checkpoint1-excerpt-v1,Pre-event selected filing passage and Gunnar rubric,2,Pending independent human and masked checks

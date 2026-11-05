@@ -6,7 +6,7 @@ Owner: Gunnar Krein (product manager / dashboard)
 
 ```bash
 pip install -r requirements.txt
-python scripts/make_toy_data.py      # only needed until the real data exists
+python scripts/tariff_pilot.py        # rebuild the three real checkpoint rows
 streamlit run dashboard/app.py
 ```
 
@@ -17,7 +17,7 @@ streamlit run dashboard/app.py
 | `data/processed/tariff_firms.csv` | **Real** final dataset, written by the pipeline. If it exists, the app uses it. |
 | `data/toy/tariff_firms_FAKE.csv` | **Fake** data from `scripts/make_toy_data.py`, used until the real file exists. The app shows a red banner when it's using this. |
 
-Both files follow `docs/DATA_CONTRACT.md`. To switch to real data, the pipeline writes `data/processed/tariff_firms.csv` with those columns, and nothing in the app changes.
+Both files follow `docs/DATA_CONTRACT.md`. The checked-in real file contains the three-firm checkpoint pilot. Its overview and results show individual firm returns. The firm explorer links to each cited 10-K. Sector regressions are reserved for the larger sample.
 
 ## Pages (as the project rubric requires)
 
@@ -38,7 +38,7 @@ Comparing (3) to (2) answers the auditor question "does the 10-K measure beat si
 
 ## To do before the final version
 
-- [ ] Point the app at the real data once the pipeline produces it.
+- [x] Connect the app to the real checkpoint pilot.
 - [ ] Move the regression into an analysis script that saves `outputs/regressions.csv`, and have the app read that file (the rubric says every number on the dashboard should trace to `outputs/`).
 - [ ] Add the April 9 pause view (`car_pause_pp`) if we do the stretch goal.
 - [ ] Deploy on Streamlit Community Cloud and put the link in the main README.
