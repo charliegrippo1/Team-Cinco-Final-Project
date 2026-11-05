@@ -65,6 +65,7 @@ def run_regressions(df: pd.DataFrame, outcome: str) -> pd.DataFrame:
 
 
 df_all, is_fake = load_data()
+is_pilot = "sample" in df_all and df_all["sample"].eq("checkpoint_1_pilot").all()
 
 # ---------------------------------------------------------------- sidebar
 st.sidebar.header("Filters")
@@ -72,7 +73,7 @@ sectors = sorted(df_all.gics_sector.unique())
 picked = st.sidebar.multiselect("Sector", sectors, default=sectors)
 outcome_label = st.sidebar.radio(
     "Abnormal return measure",
-    ["Market-adjusted CAR (stock − SPY)", "Market-model CAR (beta-adjusted)"],
+    ["Market-adjusted CAR (stock − SPY)"] + (["Market-model CAR (beta-adjusted)"] if df_all.car_mm_pp.notna().any() else []),
     help="Market-adjusted assumes every stock has beta = 1. The market model estimates each firm's beta from the year before.",
 )
 outcome = "car_pp" if outcome_label.startswith("Market-adjusted") else "car_mm_pp"
@@ -91,6 +92,8 @@ if is_fake:
     )
 
 st.title("Who lost on Liberation Day?")
+if is_pilot:
+    st.info(f"Checkpoint 1 • {len(df_all)} real firms with preliminary filing scores. Explore the firm-level evidence below. Sector regressions and blind hand checks are planned for the larger sample.")
 st.markdown(
     "On **April 2, 2025**, after the market closed, the US announced sweeping new tariffs. "
     "We ask: **did firms whose own 10-Ks reveal more dependence on imports and China fall more** over the next two trading days?"
@@ -102,7 +105,10 @@ tab_overview, tab_method, tab_results, tab_explore = st.tabs(
 
 # ---------------------------------------------------------------- overview
 with tab_overview:
-    if len(df) < 10:
+    if is_pilot:
+        st.subheader("April 3–4 return relative to SPY")
+        st.bar_chart(df.set_index("ticker")["car_pp"], y_label="Percentage points")
+    elif len(df) < 10:
         st.warning("Too few firms selected. Widen the filters.")
     else:
         reg = run_regressions(df, outcome)
@@ -175,7 +181,7 @@ with tab_method:
     st.subheader("Threats to validity")
     st.markdown(
         """
-- **LLM leakage:** the model may already "know" which firms fell in April 2025. We never show it dates or returns, and we re-score with company names removed to test whether that matters.
+- **LLM leakage:** the model may already know which firms fell in April 2025. The pilot uses preliminary excerpt-based judgments. A separate blinded run with names, dates, and returns withheld is planned.
 - **Is exposure just industry?** Model (3) on the Results tab tests whether exposure still matters after controlling for sector.
 - **Day-0 timing:** the announcement came after the close, so April 2 returns do not include the news.
 - **Other news:** China announced retaliatory tariffs on April 4, inside our window.
@@ -191,7 +197,10 @@ with tab_method:
 
 # ---------------------------------------------------------------- results
 with tab_results:
-    if len(df) < 10:
+    if is_pilot:
+        st.dataframe(df[["ticker", "ret_apr3_pct", "ret_apr4_pct", "car_pp"]], hide_index=True)
+        st.caption("Two-day CAR is the sum of the two daily stock-minus-SPY returns, in percentage points.")
+    elif len(df) < 10:
         st.warning("Too few firms selected. Widen the filters.")
     else:
         st.subheader("Exposure vs. abnormal return")
@@ -252,20 +261,23 @@ with tab_explore:
     choice = st.selectbox("Firm", options)
     firm = df_all[df_all.ticker == choice.split(" — ")[0]].iloc[0]
 
-    pct = (df_all[outcome] < firm[outcome]).mean()
+    pct = (df_all[outcome] > firm[outcome]).sum() / max(len(df_all[outcome].dropna()) - 1, 1)
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Exposure score", EXPOSURE_LABELS[firm.exposure_score])
     c2.metric("Abnormal return, Apr 3–4", f"{firm[outcome]:+.2f} pp")
-    c3.metric("Did worse than", f"{1 - pct:.0%} of firms")
+    c3.metric("Peers with higher return", f"{pct:.0%}")
     c4.metric("Market cap", f"${firm.mktcap_usd_bn:,.1f}bn")
 
     st.markdown(f"**Sector:** {firm.gics_sector}")
     st.markdown(f"**Evidence from the 10-K** (filed {firm.tenk_filing_date}):")
     st.info(firm.exposure_evidence)
-    st.markdown(
-        f"[Open this firm's filings on EDGAR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={firm.cik}&type=10-K)"
-        + (" (fake CIK, link won't work)" if is_fake else "")
-    )
+    if "filing_url" in firm and pd.notna(firm.filing_url):
+        st.markdown(f"[Read the cited 10-K]({firm.filing_url})")
+    else:
+        st.markdown(
+            f"[Open this firm's filings on EDGAR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={firm.cik}&type=10-K)"
+            + (" (fake CIK, link won't work)" if is_fake else "")
+        )
 
     st.subheader("All firms")
     show = df[["ticker", "company", "gics_sector", "mktcap_usd_bn", "exposure_score", "car_pp", "car_mm_pp"]]
