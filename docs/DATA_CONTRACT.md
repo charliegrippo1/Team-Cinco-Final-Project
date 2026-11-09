@@ -36,7 +36,7 @@ The app loads the real file if it exists and otherwise falls back to the fake on
 | `hand_score` | int 0–4 | for the checked sample | A teammate's score for the same 10-K, done **without** looking at the LLM's score. Blank if not hand-checked. |
 | `ret_apr3_pct`, `ret_apr4_pct` | float | yes | Stock daily return (%) from adjusted closes. |
 | `mkt_apr3_pct`, `mkt_apr4_pct` | float | yes | Market return (%) on the same days. Benchmark: SPY. |
-| `car_pp` | float | yes | **Main outcome.** Sum over Apr 3–4 of (stock return − SPY return), in percentage points. Same convention as Carter's proof of concept. |
+| `car_pp` | float | yes | **Main outcome.** Sum over Apr 3–4 of (stock return − SPY return), in percentage points. |
 | `car_mm_pp` | float | nice to have | Same window, but abnormal return = stock − (alpha + beta × SPY), with alpha and beta estimated on the 250 trading days ending 2025-02-28. |
 | `car_pause_pp` | float | stretch | Stock − SPY on Apr 9, 2025. |
 
