@@ -1,0 +1,26 @@
+{
+  "built_utc": "2026-11-10T00:19:23+00:00",
+  "nport": {
+    "url": "https://www.sec.gov/Archives/edgar/data/884394/000175272425125179/primary_doc.xml",
+    "accession": "0001752724-25-125179",
+    "report_period": "2025-03-31",
+    "filed": "2025-05-28",
+    "sha256": "df54968c26da169e59cbf78ad0a0c95149d48faace6bdf379af0d8557cf2d00c"
+  },
+  "sec_ticker_file": {
+    "url": "https://www.sec.gov/files/company_tickers_exchange.json",
+    "sha256": "e1469df6a5e24ec90676d0bbd0059f857167207722b4e9952852b8f0806a9472",
+    "note": "today's file; used only to look up CIKs (CIKs never change)"
+  },
+  "openfigi": {
+    "url": "https://api.openfigi.com/v3/mapping",
+    "note": "today's tickers; provisional until 10-K cover check"
+  },
+  "securities_in_nport": 503,
+  "companies_kept": 500,
+  "share_classes_dropped": [
+    "GOOG",
+    "FOX",
+    "NWS"
+  ]
+}
