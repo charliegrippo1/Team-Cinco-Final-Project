@@ -81,3 +81,11 @@ After a rerun, git shows `tariff_firms.csv` as modified even though every value 
 
 ## Next audit
 Before Checkpoint 4 (Nov 19), rerun this checklist on the full sample and mark each finding above fixed or still open.
+
+## November 11 follow-up on the three-firm pilot
+
+**Finding 10.** The CSV writer now emits LF line endings explicitly. To repeat the byte check, run `python scripts/tariff_pilot.py` and compare `git hash-object --no-filters data/processed/tariff_firms.csv` with `git rev-parse HEAD:data/processed/tariff_firms.csv`. Both commands should print the same hash.
+
+**Dashboard check.** After the rebuild, run `python scripts/verify_tariff_pilot.py` and `python scripts/verify_pilot_dashboard.py` with the dashboard requirements installed. The first independently recomputes daily returns from adjusted closes. The second reads the Results table and selects each firm in the Streamlit explorer. On Windows, the explorer displayed AAPL −5.75 pp, NKE −0.65 pp and VZ +7.07 pp, each with the evidence from its own filing row. The successful run used the bundled Python numerical libraries after the project virtual environment timed out. [Dashboard check](../scripts/verify_pilot_dashboard.py) · [Linux workflow](../.github/workflows/pilot-audit.yml)
+
+**Nike illustrates the event-window risk.** Nike trailed SPY by 9.5116 percentage points on April 3 and beat it by 8.8590 points on April 4. The two-day sum was −0.6526 points. Its 2024 filing attributes about 95% of NIKE Brand footwear production to Vietnam, Indonesia and China combined. That passage supports the pilot's high overseas-manufacturing score, but the production shares alone cannot establish US tariff costs or explain the second day's reversal. [Nike 10-K, Item 1](https://www.sec.gov/Archives/edgar/data/320187/000032018724000044/nke-20240531.htm) · [Pilot inputs](../data/pilot/event_prices.csv)

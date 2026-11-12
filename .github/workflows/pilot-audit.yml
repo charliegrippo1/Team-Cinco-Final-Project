@@ -26,5 +26,5 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - run: python scripts/tariff_pilot.py
       - run: python scripts/verify_tariff_pilot.py
-      - run: git diff --ignore-cr-at-eol --exit-code -- data/processed/tariff_firms.csv
+      - run: git diff --exit-code -- data/processed/tariff_firms.csv
       - run: python scripts/verify_pilot_dashboard.py
