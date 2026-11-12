@@ -1,7 +1,8 @@
 """Turn the scored firms into the files people look at (last step of run_all.py).
 
 Reads  outputs/batch_v0/tariff_firms.csv   (written by scripts/tariff_batch.py)
-Writes data/processed/tariff_firms.csv     the dataset the dashboard reads
+Writes data/processed/tariff_firms.csv     the dataset the dashboard reads (with hand scores)
+       outputs/v0_hand_check.md            AI score vs blind human score, firm by firm
        outputs/v0_firms.md                 one row per firm: score, quote, return
        outputs/v0_regression.csv           CAR on exposure score, robust (HC3) errors
        outputs/v0_exposure_vs_car.png      the chart
@@ -11,7 +12,7 @@ not to answer the question. With 8 firms it cannot.
 
 Run from the repository root:  python scripts/make_outputs.py
 """
-import shutil
+
 from pathlib import Path
 
 import matplotlib
@@ -24,6 +25,24 @@ ROOT = Path(__file__).resolve().parents[1]
 BATCH = ROOT / "outputs/batch_v0"
 OUT = ROOT / "outputs"
 DASHBOARD_DATA = ROOT / "data/processed/tariff_firms.csv"
+HAND_CHECK = ROOT / "audits/hand_check_v0.csv"
+
+
+def write_hand_check(firms):
+    """outputs/v0_hand_check.md: AI score next to the blind human score, firm by firm."""
+    hc = firms.dropna(subset=["hand_score"])
+    diff = hc.hand_score - hc.exposure_score
+    lines = [f"Blind hand-check of the AI exposure scores ({len(hc)} complete v0 firms). "
+             f"Source: `audits/hand_check_v0.csv`.", "",
+             f"- Exact match: {(diff == 0).sum()} of {len(hc)}",
+             f"- Within one point: {(diff.abs() <= 1).sum()} of {len(hc)}",
+             f"- Mean absolute difference: {diff.abs().mean():.2f} points", "",
+             "| Ticker | AI score | Hand score | Difference | Hand-checker's reason |", "|---|---:|---:|---:|---|"]
+    for f, d in zip(hc.sort_values("ticker").itertuples(), diff.loc[hc.sort_values("ticker").index]):
+        reason = " ".join(str(f.hand_reason).split())
+        reason = reason if len(reason) <= 180 else reason[:177] + "..."
+        lines.append(f"| {f.ticker} | {f.exposure_score} | {int(f.hand_score)} | {int(d):+d} | {reason} |")
+    (OUT / "v0_hand_check.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def main():
@@ -39,9 +58,20 @@ def main():
     by_hand = (firms.ret_apr3_pct - firms.mkt_apr3_pct) + (firms.ret_apr4_pct - firms.mkt_apr4_pct)
     assert (by_hand - firms.car_pp).abs().max() < 1e-9, "car_pp does not match its parts"
 
-    # 1. The dataset the dashboard reads.
+    # 1. Blind human scores (checklist item 8): a teammate scored the same 10-Ks
+    #    without seeing the AI's scores. Join on ticker; each firm must match once.
+    if HAND_CHECK.exists():
+        hand = pd.read_csv(HAND_CHECK)
+        assert hand.ticker.is_unique and hand.hand_score.between(0, 4).all(), "bad hand-check file"
+        columns = list(firms.columns)
+        firms = firms.drop(columns="hand_score").merge(
+            hand[["ticker", "hand_score", "hand_reason"]], on="ticker", how="left", validate="one_to_one")
+        write_hand_check(firms)
+        firms = firms.drop(columns="hand_reason")[columns]
+
+    # 2. The dataset the dashboard reads.
     DASHBOARD_DATA.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(BATCH / "tariff_firms.csv", DASHBOARD_DATA)
+    firms.to_csv(DASHBOARD_DATA, index=False, lineterminator="\n")
 
     # 2. Firm table (Markdown, so it reads well on GitHub).
     rows = ["| Ticker | Sector | Exposure (0-4) | Apr 3-4 return minus SPY (pp) | Evidence quoted from the 10-K |",
