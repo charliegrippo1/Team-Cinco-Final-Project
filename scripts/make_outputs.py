@@ -47,6 +47,9 @@ def write_hand_check(firms):
 
 def main():
     firms = pd.read_csv(BATCH / "tariff_firms.csv", dtype={"cik": str})
+    # The same rows as text, untouched. The dashboard file is written from these so every
+    # pandas version produces the same bytes (number parsing can differ in the 16th digit).
+    text_rows = pd.read_csv(BATCH / "tariff_firms.csv", dtype=str, keep_default_na=False)
     failures = pd.read_csv(BATCH / "failures.csv")
     attempted = len(firms) + len(failures)
 
@@ -69,11 +72,13 @@ def main():
         write_hand_check(firms)
         firms = firms.drop(columns="hand_reason")[columns]
 
-    # 2. The dataset the dashboard reads.
+    # 2. The dataset the dashboard reads: the batch rows exactly as written, plus hand_score.
+    hand_text = firms.set_index("ticker").hand_score.map(lambda v: "" if pd.isna(v) else str(int(v)))
+    text_rows["hand_score"] = text_rows.ticker.map(hand_text)
     DASHBOARD_DATA.parent.mkdir(parents=True, exist_ok=True)
-    firms.to_csv(DASHBOARD_DATA, index=False, lineterminator="\n")
+    text_rows.to_csv(DASHBOARD_DATA, index=False, lineterminator="\n")
 
-    # 2. Firm table (Markdown, so it reads well on GitHub).
+    # 3. Firm table (Markdown, so it reads well on GitHub).
     rows = ["| Ticker | Sector | Exposure (0-4) | Apr 3-4 return minus SPY (pp) | Evidence quoted from the 10-K |",
             "|---|---|---:|---:|---|"]
     for f in firms.sort_values("exposure_score", ascending=False).itertuples():
@@ -84,13 +89,13 @@ def main():
     rows += [f"- {f.ticker}: {f.stage} step failed ({f.error})" for f in failures.itertuples()]
     (OUT / "v0_firms.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
 
-    # 3. Regression: CAR (pp) on exposure score, heteroskedasticity-robust (HC3) errors.
+    # 4. Regression: CAR (pp) on exposure score, heteroskedasticity-robust (HC3) errors.
     fit = smf.ols("car_pp ~ exposure_score", data=firms).fit(cov_type="HC3")
     pd.DataFrame({"term": fit.params.index, "coef": fit.params.values, "std_err_hc3": fit.bse.values,
                   "t": fit.tvalues.values, "p": fit.pvalues.values}).assign(
         n=int(fit.nobs), r2=fit.rsquared).round(6).to_csv(OUT / "v0_regression.csv", index=False)  # 6 decimals: same file on every computer
 
-    # 4. Chart: each firm's exposure score against its two-day market-adjusted return.
+    # 5. Chart: each firm's exposure score against its two-day market-adjusted return.
     fig, ax = plt.subplots(figsize=(7, 4.5), dpi=150)
     ax.axhline(0, color="#999999", linewidth=0.8)
     ax.scatter(firms.exposure_score, firms.car_pp, s=40, color="#1f5f8b", zorder=3)
