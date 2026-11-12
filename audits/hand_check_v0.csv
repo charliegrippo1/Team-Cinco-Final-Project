@@ -1,0 +1,11 @@
+ticker,company,10-K filed,"10-K link (read Items 1, 1A and 7)",your_score_0_to_4,your_reason_one_line,supporting_quote_optional,minutes_spent
+AAPL,Apple Inc,2024-11-01,https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm,,,,
+ADSK,Autodesk Inc,2025-03-06,https://www.sec.gov/Archives/edgar/data/769397/000076939725000019/adsk-20250131.htm,,,,
+ALLE,Allegion plc,2025-02-18,https://www.sec.gov/Archives/edgar/data/1579241/000157924125000008/alle-20241231.htm,,,,
+HES,Hess Corp,2025-02-27,https://www.sec.gov/Archives/edgar/data/4447/000162828025008716/hes-20241231.htm,,,,
+LLY,Eli Lilly & Co,2025-02-19,https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm,,,,
+NKE,NIKE Inc,2024-07-25,https://www.sec.gov/Archives/edgar/data/320187/000032018724000044/nke-20240531.htm,,,,
+ROP,Roper Technologies Inc,2025-02-24,https://www.sec.gov/Archives/edgar/data/882835/000088283525000008/rop-20241231.htm,,,,
+SLB,Schlumberger NV,2025-01-22,https://www.sec.gov/Archives/edgar/data/87347/000095017025007638/slb-20241231.htm,,,,
+TJX,TJX Cos Inc/The,2024-04-03,https://www.sec.gov/Archives/edgar/data/109198/000010919824000014/tjx-20240203.htm,,,,
+VZ,Verizon Communications Inc,2025-02-12,https://www.sec.gov/Archives/edgar/data/732712/000073271225000006/vz-20241231.htm,,,,
