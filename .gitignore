@@ -1,3 +1,10 @@
 __pycache__/
 .venv/
 data/raw/
+
+# 10-K item text (~100 MB for 500 firms); rebuilt by scripts/fetch_10k_text.py
+data/universe/text/
+
+# Mac system files and local secrets (never commit API keys)
+.DS_Store
+.env

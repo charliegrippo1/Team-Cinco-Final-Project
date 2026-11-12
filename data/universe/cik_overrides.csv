@@ -1,0 +1,26 @@
+cusip,nport_name,cik,note
+254709108,Discover Financial Services,0001393612,EDGAR company search; acquired by Capital One after the event
+934423104,Warner Bros Discovery Inc,0001437107,EDGAR company search; name punctuation differs
+29476L107,Equity Residential,0000906107,EDGAR company search; EDGAR's current name differs (Vivmark Residential)
+92532F100,Vertex Pharmaceuticals Inc,0000875320,EDGAR company search; EDGAR name has '/ MA' suffix
+42809H107,Hess Corp,0000004447,EDGAR company search; acquired by Chevron after the event
+23331A109,DR Horton Inc,0000882184,EDGAR company search; EDGAR name 'HORTON D R INC /DE/'
+806857108,Schlumberger NV,0000087347,EDGAR company search; EDGAR's current name SLB Limited
+931427108,Walgreens Boots Alliance Inc,0001618921,EDGAR company search; taken private after the event
+127097103,Coterra Energy Inc,0000858470,EDGAR company search; name punctuation differs
+831865209,A O Smith Corp,0000091142,EDGAR company search; EDGAR name 'SMITH A O CORP'
+92556H206,Paramount Global,0000813828,EDGAR company search; merged with Skydance after the event
+487836108,Kellanova,0000055067,EDGAR company search; acquired by Mars after the event
+15677J108,Dayforce Inc,0001725057,EDGAR company search; name punctuation differs
+084423102,W R Berkley Corp,0000011544,EDGAR company search; EDGAR name 'BERKLEY W R CORP'
+354613101,Franklin Resources Inc,0000038777,EDGAR company search; EDGAR's current name Franklin Templeton Inc
+48203R104,Juniper Networks Inc,0001043604,EDGAR CIK for Juniper Networks; acquired by HPE after the event
+053484101,AvalonBay Communities Inc,0000915912,EDGAR company search; name spacing differs
+808513105,Charles Schwab Corp/The,0000316709,EDGAR company search; EDGAR name 'SCHWAB CHARLES CORP'
+445658107,JB Hunt Transport Services Inc,0000728535,EDGAR company search; EDGAR name 'HUNT J B TRANSPORT SERVICES INC'
+285512109,Electronic Arts Inc,0000712515,EDGAR company search; name punctuation differs
+03662Q105,ANSYS Inc,0001013462,EDGAR company search; acquired by Synopsys after the event
+460690100,Interpublic Group of Cos Inc/The,0000051644,EDGAR company search; 'Cos' vs 'Companies'
+74144T108,T Rowe Price Group Inc,0001113169,EDGAR CIK for the parent (search also returned T. Rowe funds)
+436440101,Hologic Inc,0000859737,EDGAR CIK for Hologic Inc
+30231G102,Exxon Mobil Corp,0000034088,"Name match picked ExxonMobil Holdings Corp (CIK 0002115436), a holding company that first filed in 2026; the April 2025 index member is Exxon Mobil Corp"
