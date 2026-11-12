@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TJX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-12T00:30:24.608513+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TJX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 551712600,
+            "regularMarketTime": 1794431044,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 136.44,
+            "regularMarketChangePercent": -0.351,
+            "fulldayPrice": 135.797,
+            "fulldayChange": -1.123,
+            "fulldayChangePercent": -0.82,
+            "fiftyTwoWeekHigh": 170.0,
+            "fiftyTwoWeekLow": 122.78,
+            "regularMarketDayHigh": 136.766,
+            "regularMarketDayLow": 134.86,
+            "regularMarketVolume": 4736803,
+            "longName": "The TJX Companies, Inc.",
+            "shortName": "TJX Companies, Inc. (The)",
+            "chartPreviousClose": 122.72,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794387600,
+                "end": 1794407400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1794407400,
+                "end": 1794430800,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1794430800,
+                "end": 1794445200,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  5002000,
+                  11388100,
+                  12964000
+                ],
+                "high": [
+                  125.45999908447266,
+                  128.0,
+                  128.3300018310547
+                ],
+                "low": [
+                  121.80999755859375,
+                  123.12999725341797,
+                  121.80000305175781
+                ],
+                "open": [
+                  122.0,
+                  123.79000091552734,
+                  125.37000274658203
+                ],
+                "close": [
+                  124.93000030517578,
+                  125.43000030517578,
+                  122.16000366210938
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  122.6346435546875,
+                  123.12544250488281,
+                  119.91553497314453
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

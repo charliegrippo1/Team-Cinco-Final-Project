@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LLY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-12T00:29:52.462921+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LLY",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 76253400,
+            "regularMarketTime": 1794431034,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 1437.29,
+            "regularMarketChangePercent": 0.349,
+            "fulldayPrice": 1447.5,
+            "fulldayChange": 15.21,
+            "fulldayChangePercent": 1.062,
+            "fiftyTwoWeekHigh": 1453.0,
+            "fiftyTwoWeekLow": 850.51,
+            "regularMarketDayHigh": 1440.35,
+            "regularMarketDayLow": 1414.77,
+            "regularMarketVolume": 1865138,
+            "longName": "Eli Lilly and Company",
+            "shortName": "Eli Lilly and Company",
+            "chartPreviousClose": 805.23,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794387600,
+                "end": 1794407400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1794407400,
+                "end": 1794430800,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1794430800,
+                "end": 1794445200,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  2683800,
+                  2675100,
+                  5299400
+                ],
+                "open": [
+                  795.0399780273438,
+                  810.510009765625,
+                  762.1099853515625
+                ],
+                "high": [
+                  819.8499755859375,
+                  818.7899780273438,
+                  768.27001953125
+                ],
+                "close": [
+                  818.219970703125,
+                  789.0900268554688,
+                  738.2100219726562
+                ],
+                "low": [
+                  795.0399780273438,
+                  787.0599975585938,
+                  734.7000122070312
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  809.6502685546875,
+                  780.8255615234375,
+                  730.4783325195312
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

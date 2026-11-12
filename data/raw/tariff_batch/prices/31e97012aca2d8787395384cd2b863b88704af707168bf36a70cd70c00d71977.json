@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ROP?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-12T00:31:07.820561+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ROP",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 697991400,
+            "regularMarketTime": 1794430800,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 477.7,
+            "regularMarketChangePercent": 0.681,
+            "fulldayPrice": 477.73,
+            "fulldayChange": 3.26,
+            "fulldayChangePercent": 0.687,
+            "fiftyTwoWeekHigh": 507.24,
+            "fiftyTwoWeekLow": 305.96,
+            "regularMarketDayHigh": 478.12,
+            "regularMarketDayLow": 469.455,
+            "regularMarketVolume": 607437,
+            "longName": "Roper Technologies, Inc.",
+            "shortName": "Roper Technologies, Inc.",
+            "chartPreviousClose": 590.78,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794387600,
+                "end": 1794407400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1794407400,
+                "end": 1794430800,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1794430800,
+                "end": 1794445200,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  584.1900024414062,
+                  589.8599853515625,
+                  576.780029296875
+                ],
+                "volume": [
+                  411900,
+                  994200,
+                  1672600
+                ],
+                "low": [
+                  580.0700073242188,
+                  576.8099975585938,
+                  540.760009765625
+                ],
+                "close": [
+                  590.3599853515625,
+                  579.7000122070312,
+                  541.7999877929688
+                ],
+                "high": [
+                  592.9500122070312,
+                  590.5,
+                  578.3400268554688
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  582.0639038085938,
+                  571.5537719726562,
+                  534.9476318359375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

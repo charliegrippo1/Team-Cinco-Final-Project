@@ -15,7 +15,7 @@ def main():
     prices = {(r["ticker"], r["session"]): Decimal(r["adjusted_close"])
               for r in read("data/pilot/event_prices.csv")}
     filings = {r["ticker"]: r for r in read("data/pilot/filing_scores.csv")}
-    rows = read("data/processed/tariff_firms.csv")
+    rows = read("data/pilot/tariff_firms.csv")
     if len(rows) != 3 or {r["ticker"] for r in rows} != set(filings):
         raise ValueError("Expected one row per pilot firm")
     for row in rows:

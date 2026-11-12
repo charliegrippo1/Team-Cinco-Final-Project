@@ -18,10 +18,18 @@ docs/CARTER_PIPELINE.md exactly. Where each field comes from:
 Firms with more than one share class are listed in data/universe/manifest_review.csv
 for a manual check of the market cap (e.g. Berkshire's A shares = 1,500 B shares).
 
-Run from the repository root:  python scripts/build_manifest.py
+Run from the repository root:
+    python scripts/build_manifest.py --v0    # the 10-firm Checkpoint 2 sample only
+    python scripts/build_manifest.py         # every firm with extracted text (full run)
+
+The v0 sample is the 5 Checkpoint 1 pilot firms plus 5 drawn at random (fixed seed,
+so anyone gets the same 5) from firms that are easy to run end to end; the draw and
+its rules are written to data/universe/v0_sample.csv. We never pick firms by hand.
 """
+import argparse
 import csv
 import json
+import random
 import re
 import xml.etree.ElementTree as ET
 from html import unescape
@@ -32,6 +40,11 @@ FILINGS = ROOT / "data/universe/tenk_filings.csv"
 TEMPLATE = ROOT / "data/universe/manifest.template.csv"
 MANIFEST = ROOT / "data/universe/manifest.csv"
 REVIEW = ROOT / "data/universe/manifest_review.csv"
+SAMPLE = ROOT / "data/universe/v0_sample.csv"
+OVERRIDES = ROOT / "data/universe/cik_overrides.csv"
+# Checkpoint 1 pilot (Apple, Verizon, Nike) plus the two energy firms added for Step 4 testing.
+PILOT = ["0000320193", "0000732712", "0000320187", "0000087347", "0000004447"]
+SEED, N_RANDOM = 331, 5
 NS = "{http://www.sec.gov/edgar/nport}"
 
 SECTOR_TRUST_CIK = "0001064641"   # Select Sector SPDR Trust (XLK, XLF, ... 11 funds)
@@ -100,13 +113,54 @@ def pick_ticker(cover, figi_today):
     raise ValueError(f"cannot tell which cover ticker is the index security: {cover}")
 
 
+def draw_v0_sample(filings, universe):
+    """PILOT + N_RANDOM firms drawn with a fixed seed. A firm can be drawn only if it
+    runs cleanly end to end in v0: text extracted and under the pipeline's 350,000-
+    character limit, one plain cover ticker, one share class, and not a firm our
+    override notes say was acquired after the event (Yahoo has no prices for those).
+    The last rule uses post-event knowledge, so it is for this smoke test only; the full
+    run keeps every firm. Writes the sample and the rule to data/universe/v0_sample.csv."""
+    acquired = {r["cik"] for r in read_csv(OVERRIDES)
+                if re.search(r"acquired|taken private|merged", r["note"], re.I)}
+    eligible = []
+    for f in sorted(filings, key=lambda f: f["cik"]):
+        if f["status"] != "ok" or f["cik"] in PILOT or f["cik"] in acquired:
+            continue
+        if int(f["total_chars"]) > 350_000:
+            continue
+        try:
+            pick_ticker(f["cover_tickers"], universe[f["cik"]]["ticker_figi_today"])
+            if len(cover_shares(ROOT / "data/raw/tenk" / f["cik"] / f"{f['tenk_accession']}.htm")) != 1:
+                continue
+        except ValueError:
+            continue
+        eligible.append(f["cik"])
+    drawn = random.Random(SEED).sample(eligible, N_RANDOM)
+    rule = (f"random.Random({SEED}).sample of {len(eligible)} eligible firms (sorted by CIK): "
+            "text ok and <= 350,000 chars, one plain cover ticker, one share class, "
+            "not acquired after the event per cik_overrides.csv notes")
+    with SAMPLE.open("w", encoding="utf-8", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=["cik", "company", "how_chosen"])
+        w.writeheader()
+        for cik in PILOT:
+            w.writerow({"cik": cik, "company": universe[cik]["nport_name"], "how_chosen": "Checkpoint 1 pilot"})
+        for cik in drawn:
+            w.writerow({"cik": cik, "company": universe[cik]["nport_name"], "how_chosen": rule})
+    return set(PILOT) | set(drawn)
+
+
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--v0", action="store_true", help="only the 10-firm Checkpoint 2 sample")
+    args = parser.parse_args()
     columns = TEMPLATE.read_text(encoding="utf-8").strip().split(",")
     universe = {r["cik"]: r for r in read_csv(UNIVERSE)}
     sectors = sector_map()
+    filings = read_csv(FILINGS)
+    keep = draw_v0_sample(filings, universe) if args.v0 else None
     rows, review = [], []
-    for f in read_csv(FILINGS):
-        if f["status"] != "ok":
+    for f in filings:
+        if f["status"] != "ok" or (keep is not None and f["cik"] not in keep):
             continue
         u = universe[f["cik"]]
         key = u["cusip"] if u["cusip"] != "000000000" else u["isin"]

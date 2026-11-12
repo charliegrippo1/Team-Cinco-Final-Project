@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f43d362a7c3856d2c5b821ed243a6e0f5919bce249ede07ee10ad2fd89d931f5",
+  "prompt_sha256": "c813d3cafac3b6ac2bc8587046fa4f379c6fb1a0f71cd0d348b1c66c9c9ebf32",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:31:07.818477+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "473a40f092564ce512abc5f340ed5730",
+    "output_text": "```json\n{\"score\": 1, \"evidence\": \"Our businesses may also be impacted by additional domestic or foreign trade regulations, including trade restrictions, trade agreements, tariffs (including new, expanded, or retaliatory tariffs), and sanctions.\", \"rationale\": \"The filing mentions exposure to trade regulations and tariffs in a generic manner without specifying material dependence on imports, foreign manufacturing, or China. This indicates generic trade-policy boilerplate only, supporting a score of 1.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 17569,
+    "output_tokens": 99,
+    "cost_usd": 0.007186000000000001
+  }
+}

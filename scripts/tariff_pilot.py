@@ -10,7 +10,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 PILOT = ROOT / "data/pilot"
-OUT = ROOT / "data/processed/tariff_firms.csv"
+OUT = ROOT / "data/pilot/tariff_firms.csv"   # Checkpoint 1 pilot; data/processed/ now holds v0 from run_all.py
 DATES = ("2025-04-02", "2025-04-03", "2025-04-04")
 
 
