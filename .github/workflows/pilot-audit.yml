@@ -1,0 +1,30 @@
+name: Pilot audit
+
+on:
+  pull_request:
+    paths:
+      - 'dashboard/**'
+      - 'data/pilot/**'
+      - 'data/processed/tariff_firms.csv'
+      - 'scripts/*pilot*.py'
+      - 'requirements.txt'
+      - '.github/workflows/pilot-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/tariff_pilot.py
+      - run: python scripts/verify_tariff_pilot.py
+      - run: git diff --exit-code -- data/processed/tariff_firms.csv
+      - run: python scripts/verify_pilot_dashboard.py
