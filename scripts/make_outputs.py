@@ -81,7 +81,8 @@ def main():
     # 3. Firm table (Markdown, so it reads well on GitHub).
     rows = ["| Ticker | Sector | Exposure (0-4) | Apr 3-4 return minus SPY (pp) | Evidence quoted from the 10-K |",
             "|---|---|---:|---:|---|"]
-    for f in firms.sort_values("exposure_score", ascending=False).itertuples():
+    for f in firms.sort_values(["exposure_score", "ticker"], ascending=[False, True],
+                                 kind="stable").itertuples():  # ties by ticker: same order on every computer
         quote = " ".join(str(f.exposure_evidence).split())
         quote = quote if len(quote) <= 160 else quote[:157] + "..."
         rows.append(f"| {f.ticker} | {f.gics_sector} | {f.exposure_score} | {f.car_pp:+.2f} | {quote} |")
