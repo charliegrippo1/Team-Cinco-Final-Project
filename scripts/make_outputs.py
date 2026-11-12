@@ -88,7 +88,7 @@ def main():
     fit = smf.ols("car_pp ~ exposure_score", data=firms).fit(cov_type="HC3")
     pd.DataFrame({"term": fit.params.index, "coef": fit.params.values, "std_err_hc3": fit.bse.values,
                   "t": fit.tvalues.values, "p": fit.pvalues.values}).assign(
-        n=int(fit.nobs), r2=fit.rsquared).to_csv(OUT / "v0_regression.csv", index=False)
+        n=int(fit.nobs), r2=fit.rsquared).round(6).to_csv(OUT / "v0_regression.csv", index=False)  # 6 decimals: same file on every computer
 
     # 4. Chart: each firm's exposure score against its two-day market-adjusted return.
     fig, ax = plt.subplots(figsize=(7, 4.5), dpi=150)
