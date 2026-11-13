@@ -6,6 +6,52 @@
 
 We went through the 10-point auditor checklist from `00_PROJECT_SEEDS`, plus the three things the Seed 5 description says auditors will poke at: LLM leakage, whether exposure beats industry dummies, and day-0 timing.
 
+## Update for PR #8 (v0 end to end), Nov 12
+
+**Updated by:** Charlie Grippo, with Claude, on `charlie/checkpoint-2`. The original audit
+(findings 1–10, below) describes the repo at `c71fa5f` and is left as written. This section
+records what PR #8 fixed, what is still open and the plan for each, new findings from the v0
+run, and the 10-point checklist as of this PR.
+
+### Findings 1–10: status after PR #8
+
+| # | Status | What changed, or the plan |
+|---|---|---|
+| 1 | Partly fixed | v0 scores come from the full Items 1, 1A and 7 (no hand-picked passages), gpt-4.1-mini at temperature 0, whose training data reportedly ends mid-2024. The pilot's Codex scores now live only in `data/pilot/`. **Open:** run the masked (names hidden) pass before the full regression; confirm the model's cutoff in OpenAI's docs. |
+| 2 | Open | Same 30 firms. **Plan:** write section markers before the full run; report the main regression with and without any firms still missing. |
+| 3 | Fixed for v0 | Carter scored all 10 v0 firms blind ([hand_check_v0.csv](hand_check_v0.csv)): 6 of 10 exact, 8 of 10 within one point; 5 of 8 and 6 of 8 on the complete firms ([v0_hand_check.md](../outputs/v0_hand_check.md)). **Open:** a larger fixed-seed random sample for the full run (see #15). |
+| 4 | Fixed | `run_all.py` runs all six steps; the README has a one-minute check and the full rebuild; GitHub runs the checks on every PR. |
+| 5 | Partly fixed | v0 uses the 10-K-shares × March 31 price method everywhere; the vendor numbers remain only in the pilot files. **Open:** the v0 vs v1 market-cap decision (`specs_tried.md` #6), before full-sample results. |
+| 6 | Open | The v0 manifest has 10 firms. **Plan:** full ~470-firm manifest after fixing cover-ticker formats (e.g. BF.B) and Berkshire's two share classes. |
+| 7 | Fixed | README now has a threats-to-validity section. |
+| 8 | Partly fixed | `specs_tried.md` now has 17 entries. **Open:** Carter and Gunnar add the earlier choices (2-day window, SPY benchmark, rubric, Items 1/1A/7 scope). |
+| 9 | Fixed for v0 | Manifest tickers come from each 10-K's cover page (asserted in `validate_manifest.py`), and every firm must have prices for April 2, 3 and 4 (asserted in `tariff_batch.py`). Same checks apply to the full run. |
+| 10 | Fixed | Carter's LF line endings; GitHub confirms the pilot rebuilds byte for byte. |
+
+### New findings from the v0 run
+
+| Severity | # | Finding | Owner | Plan |
+|---|---|---|---|---|
+| High | 11 | The 0–4 rubric mixes import **costs** with foreign **sales**: the two large hand-check gaps are Autodesk (AI 0, hand 3: international revenue) and Verizon (AI 1, hand 3: overseas suppliers, not quantified). | Carter | Decide the wording before the full run, log it, and rescore v0 with the same wording. Not after seeing full-sample results. |
+| Medium | 12 | The model stitches separate sentences into one "quote". Nike was rejected twice by the exact-quote check, even with a two-sentence limit. | Carter | Decide before the full run whether to accept a list of up to 3 short quotes, each checked word for word. |
+| Medium | 13 | Firms acquired after April 2025 have no Yahoo prices (Hess in v0; about 14 in the universe), so the returns sample loses exactly the firms that disappeared. | Carter, Charlie | Find another source for their April 2–4 prices; otherwise list them and report how results change. |
+| Medium | 14 | 39 texts exceed the scorer's 350,000-character limit, mostly financials. | Carter | Score them in parts or raise the limit, decided and logged before the full run. |
+| Low | 15 | Apple, Nike and Verizon were pilot firms whose earlier scores were in the README, so their hand check was not fully blind. | Gunnar | Full-run hand-check sample drawn at random with a fixed seed, excluding the pilot firms, scored by someone who has not seen the AI scores. |
+| Low | 16 | The live dashboard is deployed from Gunnar's fork, so it can lag the repo. | Gunnar, Charlie | Gunnar syncs his fork after each merge; Charlie redeploys from the main repo once PR #8 is merged. |
+
+### 10-point checklist (as of PR #8)
+
+1. **It reproduces: OK.** `python run_all.py` rebuilds everything from raw SEC data; GitHub rebuilds the pilot and the v0 outputs byte for byte on Linux for every PR.
+2. **Provenance: OK.** Every raw input has its source, script and cache location in the README and fact sheet; downloads and model answers carry URLs, timestamps and hashes.
+3. **Unit of observation: OK.** One row per company; unique ticker and CIK asserted; the hand-check join uses `validate="one_to_one"`.
+4. **No look-ahead: OK.** 10-K filing dates are asserted before 2025-04-02 and checked against EDGAR; the universe is the March 31, 2025 holdings, not today's list.
+5. **No LLM leakage: problem (partly addressed).** Pre-event-cutoff model and full text only; the masked pass is not run yet (#1).
+6. **No p-hacking: OK so far.** 17 logged choices, including rejected ones; the v0 sample was drawn with a fixed seed; the v0 regression was run once.
+7. **Magnitudes: not yet.** Needs the full sample.
+8. **Checks by hand: OK for v0.** `car_pp` is recomputed from its parts in `make_outputs.py` and `verify_tariff_pilot.py`; the manifest is rechecked against EDGAR; the scores were hand-checked blind; `verify_dashboard.py` checks every number the dashboard shows.
+9. **Honest limits: OK.** README threats section plus this audit.
+10. **We understand it: in progress.** Team walkthrough of every step scheduled for Nov 12; each of us should be able to trace one number (e.g. Apple's −5.75 pp) from the SEC filing to the dashboard.
+
 ## Summary
 
 | Severity | # | Finding | Owner |
@@ -81,3 +127,11 @@ After a rerun, git shows `tariff_firms.csv` as modified even though every value 
 
 ## Next audit
 Before Checkpoint 4 (Nov 19), rerun this checklist on the full sample and mark each finding above fixed or still open.
+
+## November 11 follow-up on the three-firm pilot
+
+**Finding 10.** The CSV writer now emits LF line endings explicitly. To repeat the byte check, run `python scripts/tariff_pilot.py` and compare `git hash-object --no-filters data/pilot/tariff_firms.csv` with `git rev-parse HEAD:data/pilot/tariff_firms.csv` (the pilot moved from `data/processed/` to `data/pilot/` when the v0 rows took over the dashboard file). Both commands should print the same hash.
+
+**Dashboard check.** After the rebuild, run `python scripts/verify_tariff_pilot.py` and `python scripts/verify_dashboard.py` (renamed from `verify_pilot_dashboard.py`; it now checks whichever firms the dashboard file holds) with the dashboard requirements installed. The first independently recomputes daily returns from adjusted closes. The second reads the Results table and selects each firm in the Streamlit explorer. On Windows, the explorer displayed AAPL −5.75 pp, NKE −0.65 pp and VZ +7.07 pp, each with the evidence from its own filing row. The successful run used the bundled Python numerical libraries after the project virtual environment timed out. [Dashboard check](../scripts/verify_dashboard.py) · [Linux workflow](../.github/workflows/pilot-audit.yml)
+
+**Nike illustrates the event-window risk.** Nike trailed SPY by 9.5116 percentage points on April 3 and beat it by 8.8590 points on April 4. The two-day sum was −0.6526 points. Its 2024 filing attributes about 95% of NIKE Brand footwear production to Vietnam, Indonesia and China combined. That passage supports the pilot's high overseas-manufacturing score, but the production shares alone cannot establish US tariff costs or explain the second day's reversal. [Nike 10-K, Item 1](https://www.sec.gov/Archives/edgar/data/320187/000032018724000044/nke-20240531.htm) · [Pilot inputs](../data/pilot/event_prices.csv)

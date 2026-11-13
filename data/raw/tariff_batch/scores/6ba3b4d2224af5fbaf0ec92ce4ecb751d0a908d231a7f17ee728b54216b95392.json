@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "df5a12aadb0b67d9a901d45c4b7e6f0794937b9da9303a446e3c4b8e52306e66",
+  "prompt_sha256": "c813d3cafac3b6ac2bc8587046fa4f379c6fb1a0f71cd0d348b1c66c9c9ebf32",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:08:28.346327+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fd71aeca544f8aecefb1435627ee6a9b",
+    "output_text": "```json\n{\"score\":3,\"evidence\":\"Hess Guyana Exploration Limited (HGEL), a wholly-owned subsidiary of Hess, is currently in arbitration relating to the applicability of a right of first refusal (the Stabroek ROFR) contained in the operating agreement (the Stabroek JOA) among HGEL and affiliates of Exxon Mobil Corporation (Exxon Mobil) and China National Offshore Oil Corporation (CNOOC).\",\"rationale\":\"The filing shows material dependence on foreign manufacturing or imports through the involvement of China National Offshore Oil Corporation (CNOOC) as a partner in the Stabroek Block offshore Guyana, indicating significant China exposure in a core business area. The arbitration over the right of first refusal involving CNOOC evidences real and material foreign involvement, beyond generic trade-policy boilerplate or limited imports. However, the business is not built explicitly on imports or large China supply chains, so the score is 3 rather than 4.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35781,
+    "output_tokens": 201,
+    "cost_usd": 0.014634000000000001
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-11T23:30:01.431512+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "SPY",
+            "exchangeName": "PCX",
+            "fullExchangeName": "NYSEArca",
+            "instrumentType": "ETF",
+            "firstTradeDate": 728317800,
+            "regularMarketTime": 1794430801,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 759.81,
+            "regularMarketChangePercent": 1.319,
+            "fulldayPrice": 757.48,
+            "fulldayChange": 7.56,
+            "fulldayChangePercent": 1.008,
+            "fiftyTwoWeekHigh": 781.62,
+            "fiftyTwoWeekLow": 629.28,
+            "regularMarketDayHigh": 762.51,
+            "regularMarketDayLow": 754.91,
+            "regularMarketVolume": 37707134,
+            "longName": "State Street SPDR S&P 500 ETF Trust",
+            "shortName": "State Street SPDR S&P 500 ETF T",
+            "chartPreviousClose": 560.97,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1794407400,
+                "start": 1794387600,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1794430800,
+                "start": 1794407400,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1794445200,
+                "start": 1794430800,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  567.4199829101562,
+                  547.969970703125,
+                  525.8699951171875
+                ],
+                "close": [
+                  564.52001953125,
+                  536.7000122070312,
+                  505.2799987792969
+                ],
+                "volume": [
+                  76014500,
+                  125986000,
+                  217965100
+                ],
+                "low": [
+                  554.8099975585938,
+                  536.7000122070312,
+                  505.05999755859375
+                ],
+                "open": [
+                  555.0499877929688,
+                  545.1099853515625,
+                  523.6699829101562
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  555.3088989257812,
+                  527.9428100585938,
+                  497.0354309082031
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

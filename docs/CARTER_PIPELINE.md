@@ -120,3 +120,19 @@ manifest/filings and a configured API key were unavailable; no full-universe run
 or live API scoring has been completed. The existing pilot stays intact.
 
 API format reference: [OpenAI Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs).
+
+## Scoring with Expected Parrot instead of OpenAI
+
+The team has Expected Parrot keys, so scoring can also run through EDSL with
+`--backend parrot`. The prompt, the 0-4 scale and every check are unchanged; see
+`specs_tried.md` entry 11 for the differences. EDSL 1.0.x needs Python 3.10-3.13.
+If your default Python is 3.14, make a separate environment with `uv`:
+
+```bash
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python edsl
+read -s EXPECTED_PARROT_API_KEY && export EXPECTED_PARROT_API_KEY
+.venv/bin/python scripts/tariff_batch.py --backend parrot --model <model> --manifest data/universe/manifest.csv --limit 3 --output outputs/batch_smoke
+```
+
+Each person uses their own key; never paste it into chat or a file in the repo.

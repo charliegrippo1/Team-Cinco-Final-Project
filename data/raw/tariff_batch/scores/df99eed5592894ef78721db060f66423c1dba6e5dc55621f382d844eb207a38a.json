@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1e66be7dbcb181daeda3e7bea727013d5d5c1dd116a9196c9cbb047e76802f75",
+  "prompt_sha256": "5ac00708b66f951cf327b1381898ff3ed0cbc61fb241916357c61f057057afd7",
+  "masked": false,
+  "retrieved_utc": "2026-11-11T23:58:42.064120+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9953d62bc6cb76f21545dbc6673bd524",
+    "output_text": "{\"score\":4,\"evidence\":\"\\\"Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam... The Company relies on single-source outsourcing partners in the U.S., Asia and Europe to supply and manufacture many components, and on outsourcing partners primarily located in Asia, for final assembly of substantially all of the Company’s hardware products.\\\"\",\"rationale\":\"The filing explicitly states that substantially all manufacturing is outsourced and primarily located in China mainland and other Asian countries, indicating the core business is built on imports and explicit large China exposure.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18258,
+    "output_tokens": 130,
+    "cost_usd": 0.007511200000000001
+  }
+}

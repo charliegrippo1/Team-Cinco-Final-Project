@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "df5a12aadb0b67d9a901d45c4b7e6f0794937b9da9303a446e3c4b8e52306e66",
+  "prompt_sha256": "c83972e04f0fa4d09e66d7460ae4eb37c811816333165c078b4c7fab2f5d58cf",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:02:55.615818+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "383f9b67c24c37fb7d30ca1b72b4af48",
+    "output_text": "{\"score\":3,\"evidence\":\"Hess Guyana Exploration Limited (HGEL), a wholly-owned subsidiary of Hess, is currently in arbitration relating to the applicability of a right of first refusal (the Stabroek ROFR) contained in the operating agreement (the Stabroek JOA) among HGEL and affiliates of Exxon Mobil Corporation (Exxon Mobil) and China National Offshore Oil Corporation (CNOOC). The arbitration merits hearing about the applicability of the Stabroek ROFR to the Merger has been scheduled for May 2025, with a decision expected in the third quarter. We cannot predict the date on which the Merger will be completed because it is subject to conditions beyond our control, including the outcome of the arbitration.\",\"rationale\":\"The filing describes an ongoing arbitration involving Hess's wholly-owned subsidiary and China National Offshore Oil Corporation (CNOOC), indicating material involvement with a Chinese partner in a core offshore development (Stabroek Block). The arbitration relates to a right of first refusal affecting a merger, showing significant business dependence on foreign partners including China. Additionally, the company operates internationally with production in Guyana, Malaysia, and the Malaysia/Thailand Joint Development Area, indicating material foreign operations. However, there is no explicit statement that the core business is built on imports or large China exposure, nor that the business is explicitly built on imports or foreign manufacturing. Therefore, the dependence is material but not core or explicitly large China exposure, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35775,
+    "output_tokens": 306,
+    "cost_usd": 0.014799600000000001
+  }
+}

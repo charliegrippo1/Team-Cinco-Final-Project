@@ -1,0 +1,11 @@
+{
+  "manifest_sha256": "9776cec9d2b89457eb530a5b34b927329b5942994fcd69eb863890d52e932722",
+  "attempted": 10,
+  "completed_rows": 8,
+  "failed": 2,
+  "coverage": 0.8,
+  "stage": "all",
+  "masked": false,
+  "limited_run": false,
+  "created_utc": "2026-11-12T00:33:32.849542+00:00"
+}

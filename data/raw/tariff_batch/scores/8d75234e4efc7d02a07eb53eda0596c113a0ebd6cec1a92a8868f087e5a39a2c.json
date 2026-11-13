@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "db4748ec50118ad01d924d203e583e54c0f3e4c2c38294ffed0df745c1c96c89",
+  "prompt_sha256": "c83972e04f0fa4d09e66d7460ae4eb37c811816333165c078b4c7fab2f5d58cf",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:02:12.476475+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "51f1fd15bbbd905a0fd4886d1347bd44",
+    "output_text": "```json\n{\n  \"score\": 4,\n  \"evidence\": \"Nearly all of our footwear and apparel products are manufactured outside the United States by independent contract manufacturers (\\\"contract manufacturers\\\"), many of which operate multiple factories. As of May 31, 2024, our contract manufacturers operated 96 finished goods footwear factories located in 11 countries. For fiscal 2024, NIKE Brand footwear finished goods were manufactured by 15 contract manufacturers, many of which operate multiple factories. The largest single finished goods footwear factory accounted for approximately 9% of total fiscal 2024 NIKE Brand footwear production. For fiscal 2024, factories in Vietnam, Indonesia and China manufactured approximately 50%, 27% and 18% of total NIKE Brand footwear, respectively. For fiscal 2024, four footwear contract manufacturers each accounted for greater than 10% of footwear production and in the aggregate accounted for approximately 57% of NIKE Brand footwear production.\\n\\nAs of May 31, 2024, our contract manufacturers operated 285 finished goods apparel factories located in 33 countries. For fiscal 2024, NIKE Brand apparel finished goods were manufactured by 68 contract manufacturers, many of which operate multiple factories. The largest single finished goods apparel factory accounted for approximately 9% of total fiscal 2024 NIKE Brand apparel production. For fiscal 2024, factories in Vietnam, China and Cambodia manufactured approximately 28%, 16% and 15% of total NIKE Brand apparel, respectively. For fiscal 2024, one apparel contract manufacturer accounted for more than 10% of apparel production, and the top five contract manufacturers in the aggregate accounted for approximately 51% of NIKE Brand apparel production.\\n\\nNIKE's contract manufacturers buy raw materials for the manufacturing of our footwear, apparel and equipment products. Most raw materials are available and purchased by those contract manufacturers in the countries where manufacturing takes place.\\n\\nThe principal materials used in our footwear products are natural and synthetic rubber, plastic compounds, foam cushioning materials, natural and synthetic leather, nylon, polyester and natural fiber textiles, as well as polyurethane films used to make NIKE Air-Sole cushioning components. During fiscal 2024, Air Manufacturing Innovation, a wholly-owned subsidiary, with facilities near Beaverton, Oregon, in Dong Nai Province, Vietnam, and St. Charles, Missouri, as well as contract manufacturers in China and Vietnam, were our suppliers of NIKE Air-Sole and other cushioning components used in footwear.\",\n  \"rationale\": \"The filing explicitly states that nearly all footwear and apparel products are manufactured outside the United States by independent contract manufacturers, with significant production in China (18% of footwear and 16% of apparel production) and other foreign countries such as Vietnam and Indonesia. It also notes that raw materials and components are sourced internationally, including from China and Vietnam. This indicates a core business built on imports and explicit large China exposure, justifying the highest score of 4.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40853,
+    "output_tokens": 612,
+    "cost_usd": 0.0173204
+  }
+}

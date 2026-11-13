@@ -30,10 +30,26 @@ SCHEMA = {"type": "object", "additionalProperties": False,
           "properties": {"score": {"type": ["integer", "null"], "enum": [0, 1, 2, 3, 4, None]},
                          "evidence": {"type": "string"}, "rationale": {"type": "string"}},
           "required": ["score", "evidence", "rationale"]}
+# Expected Parrot (EDSL) cannot enforce SCHEMA the way OpenAI's Structured Outputs
+# does, so it gets the same PROMPT plus this format line, and the reply is checked
+# against the same rules below (score 0-4, exact verbatim quote, rationale).
+PARROT_FORMAT = ('Reply with only a JSON object and no other text, with exactly these keys: '
+                 '{"score": <0, 1, 2, 3, 4 or null>, "evidence": "<quote>", "rationale": "<text>"}. '
+                 'The evidence must be ONE continuous passage of at most two sentences, copied '
+                 'character for character from the filing: do not join separate passages, do '
+                 'not use ellipses, and do not add quotation marks around it.')
 FIRM_FIELDS = ["ticker", "company", "cik", "gics_sector", "mktcap_usd_bn",
                "tenk_filing_date", "tenk_accession", "filing_url", "exposure_score",
                "exposure_evidence", "hand_score", "ret_apr3_pct", "ret_apr4_pct",
                "mkt_apr3_pct", "mkt_apr4_pct", "car_pp", "car_mm_pp", "car_pause_pp", "sample"]
+
+
+def display_path(path):
+    """Repo-relative path when possible, so logs are the same on every computer."""
+    try:
+        return str(Path(path).resolve().relative_to(ROOT))
+    except ValueError:
+        return str(path)
 
 
 def digest(value):
@@ -104,12 +120,62 @@ def scoring_text(firm, masked):
     return text
 
 
-def score(firm, cache, model, masked=False, offline=False):
+def parrot_request(instructions, text, model, edsl_model=None):
+    """Send one scoring request through Expected Parrot's remote inference (EDSL 1.0.x,
+    needs Python 3.10-3.13 and the EXPECTED_PARROT_API_KEY environment variable).
+    Returns a dict shaped like the parts of an OpenAI response that score() reads,
+    plus the model, token counts and cost that Expected Parrot reports.
+    edsl_model lets tests pass EDSL's offline "test" model instead of a real one."""
+    from edsl import Model, QuestionFreeText, Scenario   # imported here so OpenAI runs don't need edsl
+    question = QuestionFreeText(
+        question_name="exposure",
+        question_text=instructions + "\n\nFILING TEXT:\n{{ scenario.filing }}")
+    # temperature 0: the same filing should get the same answer on a rerun.
+    # max_tokens 2000 matches the OpenAI path's max_output_tokens.
+    llm = edsl_model or Model(model, temperature=0, max_tokens=2000)
+    # Run on Expected Parrot's servers, paid with the Expected Parrot key. offload_execution
+    # is set explicitly so that if remote inference is unavailable (bad key, or "Remote
+    # inference" switched off in the account settings) EDSL stops with an error instead of
+    # quietly running on this computer with a provider key. Tests use EDSL's offline model.
+    where = {"disable_remote_inference": True} if edsl_model else {"offload_execution": True}
+    results = question.by(Scenario({"filing": text})).by(llm).run(
+        disable_remote_cache=True,      # never reuse someone else's cached answer; our cache handles reruns
+        fresh=True,                     # ignore EDSL's local cache too
+        remote_inference_results_visibility="private",
+        progress_bar=False, verbose=False, print_exceptions=False, **where)
+    pick = lambda column: results.select(column).to_list()[0]
+    # EDSL fills {{ }} templates, so make sure the filing reached the model unchanged.
+    if text not in str(pick("prompt.exposure_user_prompt")):
+        raise ValueError("EDSL changed the filing text before sending it; not scored")
+    reply = pick("answer.exposure")
+    return {"status": "completed" if reply else "empty", "model": pick("model.model"),
+            "id": pick("cache_keys.exposure_cache_key"), "output_text": reply or "",
+            "service": pick("model.inference_service"),
+            "system_prompt": str(pick("prompt.exposure_system_prompt")),
+            "input_tokens": pick("raw_model_response.exposure_input_tokens"),
+            "output_tokens": pick("raw_model_response.exposure_output_tokens"),
+            "cost_usd": pick("raw_model_response.exposure_cost")}
+
+
+def parse_reply(output):
+    """JSON from the model's reply; tolerates a ```json ... ``` wrapper, nothing else."""
+    output = re.sub(r"^\s*```(?:json)?\s*|\s*```\s*$", "", output)
+    try:
+        return json.loads(output)
+    except json.JSONDecodeError:
+        raise ValueError("Model reply was not valid JSON; inspect cached response") from None
+
+
+def score(firm, cache, model, masked=False, offline=False, backend="openai"):
     text = scoring_text(firm, masked)
-    body = {"model": model, "store": False, "instructions": PROMPT,
-            "input": text, "max_output_tokens": 2000,
-            "text": {"format": {"type": "json_schema", "name": "exposure",
-                                 "strict": True, "schema": SCHEMA}}}
+    if backend == "parrot":
+        body = {"backend": "parrot", "model": model,
+                "instructions": PROMPT + "\n" + PARROT_FORMAT, "input": text}
+    else:
+        body = {"model": model, "store": False, "instructions": PROMPT,
+                "input": text, "max_output_tokens": 2000,
+                "text": {"format": {"type": "json_schema", "name": "exposure",
+                                     "strict": True, "schema": SCHEMA}}}
     fingerprint = digest(json.dumps(body, sort_keys=True))
     path = cache / "scores" / f"{fingerprint}.json"
     if path.exists():
@@ -117,29 +183,38 @@ def score(firm, cache, model, masked=False, offline=False):
     else:
         if offline:
             raise ValueError("No cached score for this text, model and prompt")
-        key = os.environ.get("OPENAI_API_KEY")
-        if not key:
-            raise ValueError("OPENAI_API_KEY is not configured")
-        response = request_json("https://api.openai.com/v1/responses", body, key)
-        record = {"requested_model": model, "input_sha256": digest(text),
-                  "prompt_sha256": digest(PROMPT), "masked": masked,
+        if backend == "parrot":
+            if not os.environ.get("EXPECTED_PARROT_API_KEY"):
+                raise ValueError("EXPECTED_PARROT_API_KEY is not configured")
+            response = parrot_request(body["instructions"], text, model)
+        else:
+            key = os.environ.get("OPENAI_API_KEY")
+            if not key:
+                raise ValueError("OPENAI_API_KEY is not configured")
+            response = request_json("https://api.openai.com/v1/responses", body, key)
+        record = {"requested_model": model, "backend": backend, "input_sha256": digest(text),
+                  "prompt_sha256": digest(body["instructions"]), "masked": masked,
                   "retrieved_utc": datetime.now(timezone.utc).isoformat(), "response": response}
         save(path, record)
     response = record["response"]
     if response.get("status") != "completed":
         raise ValueError("Model response was not completed; inspect cached response")
-    output = "".join(c["text"] for item in response.get("output", [])
-                     for c in item.get("content", []) if c.get("type") == "output_text")
-    result = json.loads(output)
+    output = response.get("output_text") or "".join(
+        c["text"] for item in response.get("output", [])
+        for c in item.get("content", []) if c.get("type") == "output_text")
+    result = parse_reply(output)
     if type(result.get("score")) is not int or result["score"] not in range(5):
         raise ValueError("Model could not assign a supported score")
-    evidence = result.get("evidence", "")
+    # Quotation marks wrapped around the whole quote are not part of the filing; drop them.
+    # Everything inside must still be one exact, continuous passage of the filing.
+    evidence = re.sub(r'^\s*["“](.*)["”]\s*$', r"\1", result.get("evidence", ""), flags=re.S)
+    result["evidence"] = evidence
     if not evidence.strip() or evidence not in text or not result.get("rationale", "").strip():
         raise ValueError("Missing rationale or evidence is not an exact quote")
     return result, {"ticker": firm["ticker"], "masked": masked, "score": result["score"],
                     "model": response.get("model", model), "response_id": response.get("id", ""),
                     "input_sha256": digest(text), "request_sha256": fingerprint,
-                    "retrieved_utc": record["retrieved_utc"], "cache_path": str(path)}
+                    "retrieved_utc": record["retrieved_utc"], "cache_path": display_path(path)}
 
 
 def prices(symbol, cache, offline=False):
@@ -182,7 +257,8 @@ def run(args):
         try:
             scored = None
             if args.stage in ("score", "all"):
-                scored, log = score(firm, args.cache, args.model, args.masked, args.offline)
+                scored, log = score(firm, args.cache, args.model, args.masked, args.offline,
+                                     getattr(args, "backend", "openai"))
                 logs.append(log)
             if args.stage in ("prices", "all"):
                 stage = "prices"
@@ -240,6 +316,8 @@ def main():
     parser.add_argument("--limit", type=int)
     parser.add_argument("--masked", action="store_true")
     parser.add_argument("--offline", action="store_true")
+    parser.add_argument("--backend", choices=("openai", "parrot"), default="openai",
+                        help="openai: OPENAI_API_KEY; parrot: Expected Parrot (EDSL) with EXPECTED_PARROT_API_KEY")
     args = parser.parse_args()
     if args.stage != "prices" and not args.model:
         parser.error("Set --model to the team's chosen model snapshot or OPENAI_MODEL")

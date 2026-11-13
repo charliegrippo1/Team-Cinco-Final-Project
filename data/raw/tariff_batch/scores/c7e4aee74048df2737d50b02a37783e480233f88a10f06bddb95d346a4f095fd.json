@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e96d57a715959d96c20b517105d74d426f4f2fdaec0958395960f53f7f1e4a6c",
+  "prompt_sha256": "c813d3cafac3b6ac2bc8587046fa4f379c6fb1a0f71cd0d348b1c66c9c9ebf32",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:29:52.462058+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "371eab68568061c9f3ffcdc370d4abf4",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"Among these third parties, we, and the pharmaceutical industry generally, depend on China-based suppliers for portions of our supply chain. U.S. federal lawmakers are considering legislation that is intended to limit supply chain reliance on China, including the proposed BIOSECURE Act. In addition, historically, geopolitical tensions between the U.S. and China have led to the imposition of tariffs, sanctions, and certain other business restrictions between the U.S. and China. In February 2025, the U.S. presidential administration imposed new tariffs on China and China responded with tariffs on select U.S. goods. If new legislation or additional trade restrictions are adopted or geopolitical tensions were to increase and disrupt our operations in, or related to, China, such disruption could significantly impact our business and results of operations.\",\n  \"rationale\": \"The filing explicitly states material dependence on China-based suppliers for portions of the supply chain and acknowledges potential significant impact from disruptions related to China, indicating a material dependence on foreign manufacturing and imports linked to China. However, the core business is not built on imports nor is there explicit mention of large China exposure beyond supply chain reliance, so the score is 3.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38589,
+    "output_tokens": 254,
+    "cost_usd": 0.015842000000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "34ce6b3709e283758deb6c14611ff4015359fc8ce4b664cf0c5c580d1bc72751",
+  "prompt_sha256": "c83972e04f0fa4d09e66d7460ae4eb37c811816333165c078b4c7fab2f5d58cf",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:02:24.148023+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6b717638c00e9bae3c004cebe3af4960",
+    "output_text": "```json\n{\"score\":1,\"evidence\":\"Our operations are subject to international, regional, national, and local laws and regulations in every place where we operate, relating to matters such as environmental protection, health and safety, labor and employment, human rights, import/export controls, currency, emissions reporting, exchange, bribery and corruption, anti-money laundering, data privacy and cybersecurity, intellectual property, immigration, antitrust, and taxation. These laws and regulations are complex, frequently change, have tended to become more stringent over time, and could conflict among one another. In the event the scope of these laws and regulations expands in the future, the incremental cost of compliance could adversely affect our financial condition, results of operations, or cash flows.\",\"rationale\":\"The filing includes only generic references to compliance with import/export controls and trade sanctions laws, without specifying any material dependence on imports, foreign manufacturing, or China. There is no detailed discussion of supply chain reliance or revenue exposure linked to imports or China. Therefore, the score is 1 for generic trade-policy boilerplate only.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18838,
+    "output_tokens": 219,
+    "cost_usd": 0.007885600000000001
+  }
+}

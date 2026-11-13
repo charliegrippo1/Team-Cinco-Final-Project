@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1e66be7dbcb181daeda3e7bea727013d5d5c1dd116a9196c9cbb047e76802f75",
+  "prompt_sha256": "c83972e04f0fa4d09e66d7460ae4eb37c811816333165c078b4c7fab2f5d58cf",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:01:40.476455+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8e6be7dc6b8384a279e69a7e9ead709e",
+    "output_text": "{\"score\": 4, \"evidence\": \"The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost of the Company’s products and the components and raw materials that go into them, and can require the Company to take various actions, including changing suppliers, restructuring business relationships and operations, and ceasing to offer and distribute affected products, services and third-party applications to its customers. Changing the Company’s business and supply chain in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice, which can create uncertainty, and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions affecting the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business.\", \"rationale\": \"This passage explicitly states that substantially all manufacturing is performed by outsourcing partners primarily in China mainland and other Asian countries, indicating core business manufacturing dependence on China. It also highlights significant exposure to trade restrictions and tariffs involving China, showing large China exposure in the supply chain and revenues. This meets the criteria for score 4, as the core business is built on imports and explicit large China exposure.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18295,
+    "output_tokens": 428,
+    "cost_usd": 0.008002800000000001
+  }
+}

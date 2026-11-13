@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8f9c53c60b290fe452d142a49400caf73f7aba74324d3e355fc70dc3afdaa9ec",
+  "prompt_sha256": "c83972e04f0fa4d09e66d7460ae4eb37c811816333165c078b4c7fab2f5d58cf",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:01:52.013275+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ab022dafb8cfac519deae620676fb821",
+    "output_text": "```json\n{\"score\":1,\"evidence\":\"We operate a national network covering over 146 million wireless retail connections as of December 31, 2024. In addition to our significant U.S. infrastructure, we have a presence globally and relationships with many operators and partners allowing us to service multinational network needs.\",\"rationale\":\"The filing describes Verizon as operating a national network primarily in the U.S. with some global presence and partnerships, but does not indicate material dependence on imports, foreign manufacturing, or explicit China exposure. The text includes generic references to global presence and regulatory environments but no specific supply chain or revenue dependence on imports or China. Therefore, the dependence is limited to generic trade-policy boilerplate level.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37549,
+    "output_tokens": 146,
+    "cost_usd": 0.015253200000000001
+  }
+}
