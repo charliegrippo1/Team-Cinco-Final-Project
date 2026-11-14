@@ -50,7 +50,7 @@ run, and the 10-point checklist as of this PR.
 7. **Magnitudes: not yet.** Needs the full sample.
 8. **Checks by hand: OK for v0.** `car_pp` is recomputed from its parts in `make_outputs.py` and `verify_tariff_pilot.py`; the manifest is rechecked against EDGAR; the scores were hand-checked blind; `verify_dashboard.py` checks every number the dashboard shows.
 9. **Honest limits: OK.** README threats section plus this audit.
-10. **We understand it: in progress.** Team walkthrough of every step scheduled for Nov 12; each of us should be able to trace one number (e.g. Apple's −5.75 pp) from the SEC filing to the dashboard.
+10. **We understand it: OK.** The team held a walkthrough call covering every step of the pipeline, from the SEC filings to the dashboard.
 
 ## Summary
 
