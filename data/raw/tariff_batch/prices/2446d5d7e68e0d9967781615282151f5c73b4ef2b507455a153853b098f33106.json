@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NKE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-11T23:30:01.803793+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NKE",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 344615400,
+            "regularMarketTime": 1794430802,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 38.32,
+            "regularMarketChangePercent": -0.905,
+            "fulldayPrice": 38.25,
+            "fulldayChange": -0.42,
+            "fulldayChangePercent": -1.086,
+            "fiftyTwoWeekHigh": 69.14,
+            "fiftyTwoWeekLow": 31.97,
+            "regularMarketDayHigh": 38.49,
+            "regularMarketDayLow": 37.74,
+            "regularMarketVolume": 19007622,
+            "longName": "NIKE, Inc.",
+            "shortName": "Nike, Inc.",
+            "chartPreviousClose": 64.76,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1794407400,
+                "start": 1794387600,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1794430800,
+                "start": 1794407400,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1794445200,
+                "start": 1794430800,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  11161400,
+                  71499500,
+                  67775700
+                ],
+                "high": [
+                  65.4000015258789,
+                  58.68000030517578,
+                  59.220001220703125
+                ],
+                "open": [
+                  64.30000305175781,
+                  56.369998931884766,
+                  53.220001220703125
+                ],
+                "close": [
+                  64.95999908447266,
+                  55.58000183105469,
+                  57.25
+                ],
+                "low": [
+                  64.16000366210938,
+                  55.400001525878906,
+                  52.5
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  62.148372650146484,
+                  53.17436981201172,
+                  54.7720832824707
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

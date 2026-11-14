@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADSK?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-12T00:31:46.170177+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ADSK",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 488813400,
+            "regularMarketTime": 1794430801,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 260.01,
+            "regularMarketChangePercent": -0.038,
+            "fulldayPrice": 258.0,
+            "fulldayChange": -2.11,
+            "fulldayChangePercent": -0.811,
+            "fiftyTwoWeekHigh": 320.0,
+            "fiftyTwoWeekLow": 185.5,
+            "regularMarketDayHigh": 260.03,
+            "regularMarketDayLow": 254.91,
+            "regularMarketVolume": 1262659,
+            "longName": "Autodesk, Inc.",
+            "shortName": "Autodesk, Inc.",
+            "chartPreviousClose": 264.61,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794387600,
+                "end": 1794407400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1794407400,
+                "end": 1794430800,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1794430800,
+                "end": 1794445200,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  1245700,
+                  1791100,
+                  3161400
+                ],
+                "close": [
+                  267.92999267578125,
+                  257.1499938964844,
+                  245.50999450683594
+                ],
+                "open": [
+                  260.1199951171875,
+                  256.9800109863281,
+                  250.11000061035156
+                ],
+                "high": [
+                  269.6700134277344,
+                  260.42999267578125,
+                  252.66000366210938
+                ],
+                "low": [
+                  259.3500061035156,
+                  254.02999877929688,
+                  244.38999938964844
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  267.92999267578125,
+                  257.1499938964844,
+                  245.50999450683594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

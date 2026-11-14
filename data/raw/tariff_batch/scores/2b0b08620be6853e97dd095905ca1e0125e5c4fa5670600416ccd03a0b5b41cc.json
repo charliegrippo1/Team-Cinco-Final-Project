@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "34ce6b3709e283758deb6c14611ff4015359fc8ce4b664cf0c5c580d1bc72751",
+  "prompt_sha256": "c813d3cafac3b6ac2bc8587046fa4f379c6fb1a0f71cd0d348b1c66c9c9ebf32",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:07:32.790459+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "22b4701b1496a592eb260332be10ac33",
+    "output_text": "```json\n{\"score\": 1, \"evidence\": \"Our operations are subject to international, regional, national, and local laws and regulations in every place where we operate, relating to matters such as environmental protection, health and safety, labor and employment, human rights, import/export controls, currency, emissions reporting, exchange, bribery and corruption, anti-money laundering, data privacy and cybersecurity, intellectual property, immigration, antitrust, and taxation.\", \"rationale\": \"The filing includes generic references to compliance with import/export controls and trade sanctions laws but does not provide specific details on dependence of costs or revenues on imports, foreign manufacturing, or China. This generic boilerplate indicates awareness of trade regulations but no material or explicit dependence on imports or China exposure is described.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18844,
+    "output_tokens": 158,
+    "cost_usd": 0.007790400000000001
+  }
+}

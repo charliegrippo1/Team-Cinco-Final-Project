@@ -106,6 +106,70 @@ class BatchTests(unittest.TestCase):
         self.assertEqual(batch.read(args.output / 'tariff_firms.csv'), [])
         self.assertEqual(len(batch.read(args.output / 'failures.csv')), 503)
 
+    def parrot_reply(self, text):
+        return dict(status='completed', model='test', id='', output_text=text)
+
+    def test_parrot_backend_scores_caches_and_keeps_separate_cache(self):
+        reply = '```json\n' + json.dumps(dict(score=4, evidence='imports most of its goods from China.',
+                                               rationale='Substantial import dependence.')) + '\n```'
+        with patch.dict(batch.os.environ, {'EXPECTED_PARROT_API_KEY': 'test-only'}), patch.object(
+                batch, 'parrot_request', return_value=self.parrot_reply(reply)) as api:
+            result, log = batch.score(self.firm, self.root, 'test', backend='parrot')
+            self.assertEqual(result['score'], 4)
+            batch.score(self.firm, self.root, 'test', offline=True, backend='parrot')
+            self.assertEqual(api.call_count, 1)          # second call came from the cache
+            self.assertIn('Reply with only a JSON object', api.call_args.args[0])
+        # The OpenAI and Expected Parrot answers never share a cache file.
+        with self.assertRaisesRegex(ValueError, 'No cached score'):
+            batch.score(self.firm, self.root, 'test', offline=True)
+
+    def test_parrot_backend_rejects_bad_json_and_fabricated_quote(self):
+        with patch.dict(batch.os.environ, {'EXPECTED_PARROT_API_KEY': 'test-only'}):
+            with patch.object(batch, 'parrot_request', return_value=self.parrot_reply('Score: 4')):
+                with self.assertRaisesRegex(ValueError, 'not valid JSON'):
+                    batch.score(self.firm, self.root, 'a', backend='parrot')
+            fake = json.dumps(dict(score=4, evidence='not in the filing', rationale='x'))
+            with patch.object(batch, 'parrot_request', return_value=self.parrot_reply(fake)):
+                with self.assertRaisesRegex(ValueError, 'exact quote'):
+                    batch.score(self.firm, self.root, 'b', backend='parrot')
+
+    def test_parrot_request_with_real_edsl_offline_model(self):
+        # Runs the real EDSL code path with EDSL's built-in offline "test" model (no API call,
+        # no credits). Skipped when edsl is not installed (it needs Python 3.10-3.13).
+        try:
+            from edsl import Model
+        except ImportError:
+            self.skipTest('edsl not installed')
+        text = self.text.read_text(encoding='utf-8')
+        reply = json.dumps(dict(score=4, evidence='imports most of its goods from China.', rationale='r'))
+        out = batch.parrot_request('Score it.', text, 'unused',
+                                   edsl_model=Model('test', canned_response=reply))
+        self.assertEqual(out['status'], 'completed')
+        self.assertEqual(batch.parse_reply(out['output_text'])['score'], 4)
+        with self.assertRaisesRegex(ValueError, 'changed the filing text'):
+            batch.parrot_request('Score it.', 'A {{template}} in a filing', 'unused',
+                                 edsl_model=Model('test', canned_response=reply))
+
+    def test_wrapping_quote_marks_dropped_but_stitched_quotes_rejected(self):
+        self.text.write_text('Example Corp imports most of its goods from China. '
+                             'It also sells in Europe.', encoding='utf-8')
+        with patch.dict(batch.os.environ, {'EXPECTED_PARROT_API_KEY': 'test-only'}):
+            wrapped = json.dumps(dict(score=4, evidence='“imports most of its goods from China.”',
+                                      rationale='r'))
+            with patch.object(batch, 'parrot_request', return_value=self.parrot_reply(wrapped)):
+                result, _ = batch.score(self.firm, self.root, 'a', backend='parrot')
+                self.assertEqual(result['evidence'], 'imports most of its goods from China.')
+            stitched = json.dumps(dict(score=4, evidence='"imports most of its goods... sells in Europe."',
+                                       rationale='r'))
+            with patch.object(batch, 'parrot_request', return_value=self.parrot_reply(stitched)):
+                with self.assertRaisesRegex(ValueError, 'exact quote'):
+                    batch.score(self.firm, self.root, 'b', backend='parrot')
+
+    def test_parrot_backend_needs_its_own_key(self):
+        with patch.dict(batch.os.environ, {}, clear=True):
+            with self.assertRaisesRegex(ValueError, 'EXPECTED_PARROT_API_KEY'):
+                batch.score(self.firm, self.root, 'test', backend='parrot')
+
 
 if __name__ == '__main__':
     unittest.main()

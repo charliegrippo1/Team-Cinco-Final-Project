@@ -1,0 +1,46 @@
+name: Reproduce and audit
+
+# Runs on every pull request that touches the pipeline, outputs or dashboard.
+# Proves on a clean Linux machine that: the unit tests pass, the Checkpoint 1 pilot
+# rebuilds byte for byte, the v0 outputs rebuild from the saved batch results, and
+# the dashboard shows exactly what is in its data file. No API keys are used.
+on:
+  pull_request:
+    paths:
+      - 'dashboard/**'
+      - 'data/pilot/**'
+      - 'data/processed/**'
+      - 'outputs/**'
+      - 'audits/hand_check_v0.csv'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'requirements.txt'
+      - '.github/workflows/pilot-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Checkpoint 1 pilot rebuilds exactly
+        run: |
+          python scripts/tariff_pilot.py
+          python scripts/verify_tariff_pilot.py
+          git diff --exit-code -- data/pilot/tariff_firms.csv
+      - name: v0 outputs rebuild from the saved batch results
+        run: |
+          python scripts/make_outputs.py
+          git diff --exit-code -- data/processed/tariff_firms.csv outputs/v0_firms.md outputs/v0_regression.csv outputs/v0_hand_check.md
+      - name: Dashboard shows what the data file says
+        run: python scripts/verify_dashboard.py

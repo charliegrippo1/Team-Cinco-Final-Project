@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ffd97161e50553bbc3b5c781db13e40a8b15c393f04380599ec5cf177993bf2d",
+  "prompt_sha256": "c813d3cafac3b6ac2bc8587046fa4f379c6fb1a0f71cd0d348b1c66c9c9ebf32",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:31:58.995415+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d506f0a6abe8428853297e776180a90a",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"In February 2025, the US government announced tariffs on imports from Mexico, Canada and China, countries from which we manufacture and/or import products and components. Subsequently, the tariffs on imports from Mexico and Canada were paused. We are evaluating the potential impact of these actions and considering what, if any, steps, including pricing actions, we take to mitigate the impact of the tariffs.\",\n  \"rationale\": \"The filing explicitly states that the company manufactures and/or imports products and components from Mexico, Canada, and China, indicating material dependence on imports and foreign manufacturing. The mention of tariffs on these countries, including China, and the company's active evaluation of their impact further supports significant exposure to foreign supply chains and trade policy risks. This goes beyond generic boilerplate and shows real but material dependence on imports and foreign manufacturing, including China exposure.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29031,
+    "output_tokens": 187,
+    "cost_usd": 0.0119116
+  }
+}

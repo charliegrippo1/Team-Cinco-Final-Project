@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8f9c53c60b290fe452d142a49400caf73f7aba74324d3e355fc70dc3afdaa9ec",
+  "prompt_sha256": "c813d3cafac3b6ac2bc8587046fa4f379c6fb1a0f71cd0d348b1c66c9c9ebf32",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:06:50.959210+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f8f3dd02c00b143280b554462305bbfe",
+    "output_text": "```json\n{\"score\":1,\"evidence\":\"Our domestic operations are subject to regulation by the FCC and other federal, state, and local agencies, and our international operations are regulated by various foreign governments and international bodies. These regulatory regimes frequently restrict or impose conditions on our ability to operate in designated areas and provide specified products or services.\",\"rationale\":\"The filing contains only generic trade-policy boilerplate about regulation by domestic and international agencies without specific mention of dependence on imports, foreign manufacturing, or China. There is no detailed discussion of supply chain or revenue dependence on foreign or Chinese sources, only general regulatory context.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37555,
+    "output_tokens": 125,
+    "cost_usd": 0.015222000000000001
+  }
+}

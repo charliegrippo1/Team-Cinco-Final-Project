@@ -1,6 +1,9 @@
 __pycache__/
 .venv/
-data/raw/
+data/raw/*
+# Saved model answers and prices (~100 KB, no keys): kept so anyone can rebuild
+# the scored results without paying for the API again.
+!data/raw/tariff_batch/
 
 # 10-K item text (~100 MB for 500 firms); rebuilt by scripts/fetch_10k_text.py
 data/universe/text/

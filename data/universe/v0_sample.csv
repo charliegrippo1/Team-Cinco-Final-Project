@@ -1,0 +1,11 @@
+cik,company,how_chosen
+0000320193,Apple Inc,Checkpoint 1 pilot
+0000732712,Verizon Communications Inc,Checkpoint 1 pilot
+0000320187,NIKE Inc,Checkpoint 1 pilot
+0000087347,Schlumberger NV,Checkpoint 1 pilot
+0000004447,Hess Corp,Checkpoint 1 pilot
+0000882835,Roper Technologies Inc,"random.Random(331).sample of 360 eligible firms (sorted by CIK): text ok and <= 350,000 chars, one plain cover ticker, one share class, not acquired after the event per cik_overrides.csv notes"
+0000109198,TJX Cos Inc/The,"random.Random(331).sample of 360 eligible firms (sorted by CIK): text ok and <= 350,000 chars, one plain cover ticker, one share class, not acquired after the event per cik_overrides.csv notes"
+0000769397,Autodesk Inc,"random.Random(331).sample of 360 eligible firms (sorted by CIK): text ok and <= 350,000 chars, one plain cover ticker, one share class, not acquired after the event per cik_overrides.csv notes"
+0001579241,Allegion plc,"random.Random(331).sample of 360 eligible firms (sorted by CIK): text ok and <= 350,000 chars, one plain cover ticker, one share class, not acquired after the event per cik_overrides.csv notes"
+0000059478,Eli Lilly & Co,"random.Random(331).sample of 360 eligible firms (sorted by CIK): text ok and <= 350,000 chars, one plain cover ticker, one share class, not acquired after the event per cik_overrides.csv notes"

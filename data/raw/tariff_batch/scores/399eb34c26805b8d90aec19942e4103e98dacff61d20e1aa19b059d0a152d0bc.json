@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "db4748ec50118ad01d924d203e583e54c0f3e4c2c38294ffed0df745c1c96c89",
+  "prompt_sha256": "c813d3cafac3b6ac2bc8587046fa4f379c6fb1a0f71cd0d348b1c66c9c9ebf32",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:07:21.273897+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "70e0440ebd13084e2f81503e11781c14",
+    "output_text": "```json\n{\n  \"score\": 4,\n  \"evidence\": \"Nearly all of our footwear and apparel products are manufactured outside the United States by independent contract manufacturers (\\\"contract manufacturers\\\"), many of which operate multiple factories. As of May 31, 2024, our contract manufacturers operated 96 finished goods footwear factories located in 11 countries. For fiscal 2024, factories in Vietnam, Indonesia and China manufactured approximately 50%, 27% and 18% of total NIKE Brand footwear, respectively. As of May 31, 2024, our contract manufacturers operated 285 finished goods apparel factories located in 33 countries. For fiscal 2024, factories in Vietnam, China and Cambodia manufactured approximately 28%, 16% and 15% of total NIKE Brand apparel, respectively.\",\n  \"rationale\": \"The filing explicitly states that nearly all footwear and apparel products are manufactured outside the United States by independent contractors, with a significant portion produced in China (18% of footwear and 16% of apparel). This indicates a core business built on imports and explicit large China exposure, justifying the highest score of 4.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40859,
+    "output_tokens": 239,
+    "cost_usd": 0.016726
+  }
+}

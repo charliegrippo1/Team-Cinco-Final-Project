@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c98741a0789b65dfffa9fc6282a1eff9c5f41793d3042ee41d9c2c13ac8410d2",
+  "prompt_sha256": "c813d3cafac3b6ac2bc8587046fa4f379c6fb1a0f71cd0d348b1c66c9c9ebf32",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:30:24.607523+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6ae7c8d4e383f619dea737d14f07d4c1",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"Many of the products sold in our stores are sourced in locations (particularly in China, India, and southeastern Asia) other than the location in which they will be sold. Where we are the importer of record, we may be subject to regulatory or other requirements, including those similar to requirements imposed upon the manufacturer of such products.\",\n  \"rationale\": \"The filing explicitly states that many products are sourced from China and other foreign locations, indicating material dependence on imports and foreign manufacturing. The mention of being the importer of record and related regulatory requirements further supports significant exposure to imports and foreign supply chains, including China. However, the text does not indicate that the core business is built on imports or that there is explicit large China exposure to warrant a score of 4.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 24951,
+    "output_tokens": 172,
+    "cost_usd": 0.0102556
+  }
+}

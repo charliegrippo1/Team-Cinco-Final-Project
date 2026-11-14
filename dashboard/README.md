@@ -6,7 +6,7 @@ Owner: Gunnar Krein (product manager / dashboard)
 
 ```bash
 pip install -r requirements.txt
-python scripts/tariff_pilot.py        # rebuild the three real checkpoint rows
+python scripts/make_outputs.py       # rebuild the v0 rows from the saved results (or: python run_all.py)
 streamlit run dashboard/app.py
 ```
 
@@ -17,7 +17,7 @@ streamlit run dashboard/app.py
 | `data/processed/tariff_firms.csv` | **Real** final dataset, written by the pipeline. If it exists, the app uses it. |
 | `data/toy/tariff_firms_FAKE.csv` | **Fake** data from `scripts/make_toy_data.py`, used until the real file exists. The app shows a red banner when it's using this. |
 
-Both files follow `docs/DATA_CONTRACT.md`. The checked-in real file contains the three-firm checkpoint pilot. Its overview and results show individual firm returns. The firm explorer links to each cited 10-K. Sector regressions are reserved for the larger sample.
+Both files follow `docs/DATA_CONTRACT.md`. The checked-in real file holds the 8 complete v0 firms (Checkpoint 2), with blind hand scores. The Checkpoint 1 pilot now lives in `data/pilot/`. Its overview and results show individual firm returns. The firm explorer links to each cited 10-K. Sector regressions are reserved for the larger sample.
 
 ## Pages (as the project rubric requires)
 

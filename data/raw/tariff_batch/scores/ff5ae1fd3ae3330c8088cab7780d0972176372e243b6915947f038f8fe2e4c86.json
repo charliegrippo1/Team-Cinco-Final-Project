@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1eb9061c01bff2443f4bae358727d6db244cf9e141ffb42a72c09a7dcca30903",
+  "prompt_sha256": "c813d3cafac3b6ac2bc8587046fa4f379c6fb1a0f71cd0d348b1c66c9c9ebf32",
+  "masked": false,
+  "retrieved_utc": "2026-11-12T00:31:46.168881+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3e896ee4cc2ba8ee7bf8337a825d428d",
+    "output_text": "```json\n{\n  \"score\": 0,\n  \"evidence\": \"Our software is primarily developed internally; however, we also use independent firms and contractors to perform some of our product development activities. Additionally, we acquire or license products and technologies developed by third parties.\",\n  \"rationale\": \"The filing indicates that software development is primarily internal with some use of independent firms and contractors, and acquisitions or licenses of third-party technologies. There is no material dependence on imports, foreign manufacturing, or China explicitly stated. The supply chain is not described as materially dependent on foreign inputs or China. The text does not support a score above 0 as it lacks any mention of meaningful imports, foreign manufacturing, or China exposure that materially affects costs or revenues.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43793,
+    "output_tokens": 154,
+    "cost_usd": 0.0177636
+  }
+}
