@@ -119,8 +119,16 @@ def draw_v0_sample(filings, universe):
     character limit, one plain cover ticker, one share class, and not a firm our
     override notes say was acquired after the event (Yahoo has no prices for those).
     The last rule uses post-event knowledge, so it is for this smoke test only; the full
-    run keeps every firm. Writes the sample and the rule to data/universe/v0_sample.csv."""
-    acquired = {r["cik"] for r in read_csv(OVERRIDES)
+    run keeps every firm. Writes the sample and the rule to data/universe/v0_sample.csv.
+
+    The draw is made once. If v0_sample.csv already exists, its firms are reused: fixing
+    more 10-K extractions later (specs_tried.md #18) grows the eligible pool, and a fresh
+    draw would silently swap the v0 firms."""
+    if SAMPLE.exists():
+        drawn = [r["cik"] for r in read_csv(SAMPLE)]
+        assert drawn[:len(PILOT)] == list(PILOT) and len(drawn) == len(PILOT) + N_RANDOM, "v0_sample.csv changed"
+        return set(drawn)
+    acquired ={r["cik"] for r in read_csv(OVERRIDES)
                 if re.search(r"acquired|taken private|merged", r["note"], re.I)}
     eligible = []
     for f in sorted(filings, key=lambda f: f["cik"]):
