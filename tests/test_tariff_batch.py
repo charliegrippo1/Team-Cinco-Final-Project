@@ -47,6 +47,37 @@ class BatchTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'exact quote'):
                 batch.score(self.firm, self.root, 'test')
 
+    def test_rubric_change_cannot_reuse_legacy_scores(self):
+        with patch.dict(batch.os.environ, {'OPENAI_API_KEY': 'test-only'}), patch.object(
+                batch, 'request_json', return_value=self.response()) as api:
+            batch.score(self.firm, self.root, 'test', rubric='v0')
+            self.assertEqual(api.call_args.args[1]['instructions'], batch.LEGACY_PROMPT)
+            with self.assertRaisesRegex(ValueError, 'No cached score'):
+                batch.score(self.firm, self.root, 'test', offline=True)
+            batch.score(self.firm, self.root, 'test')
+            self.assertEqual(api.call_count, 2)
+            self.assertEqual(api.call_args.args[1]['instructions'], batch.PROMPT)
+            batch.score(self.firm, self.root, 'test', offline=True, rubric='v0')
+            batch.score(self.firm, self.root, 'test', offline=True, rubric='v1')
+            self.assertEqual(api.call_count, 2)
+
+    def test_oversize_excluded_before_paid_call_and_counted(self):
+        self.text.write_text('é' * 350000, encoding='utf-8')
+        self.assertEqual(len(batch.scoring_text(self.firm, False)), 350000)
+        self.text.write_text('é' * 350001, encoding='utf-8')
+        path = self.root / 'manifest.csv'
+        batch.write(path, [self.firm])
+        args = SimpleNamespace(manifest=path, limit=None, cache=self.root, model='test',
+                               masked=False, offline=False, stage='all', output=self.root / 'out')
+        with patch.object(batch, 'request_json') as api, patch('builtins.print'):
+            self.assertEqual(batch.run(args), 1)
+            api.assert_not_called()
+        coverage = batch.read(args.output / 'coverage.csv')
+        self.assertEqual(coverage[0]['status'], 'excluded_oversize')
+        self.assertIn('350001', coverage[0]['reason'])
+        sectors = batch.read(args.output / 'coverage_by_sector.csv')
+        self.assertEqual(sectors[0]['excluded_oversize'], '1')
+
     def test_price_sessions_and_missing_close(self):
         data = dict(meta=dict(symbol='EXM'), timestamp=[1743638400, 1743724800, 1743811200],
                     indicators=dict(adjclose=[dict(adjclose=[100, 90, 81])]))

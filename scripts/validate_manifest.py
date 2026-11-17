@@ -19,6 +19,7 @@ Uses the cached EDGAR filing histories in data/raw/universe/submissions/ (made b
 fetch_10k_text.py), so it runs offline. Older history pages are downloaded only if
 a filing is not in the cached "recent" list (needs SEC_USER_AGENT then).
 """
+import argparse
 import csv
 import json
 import re
@@ -50,6 +51,10 @@ def filing_history(cik):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--allow-oversize", action="store_true",
+                        help="validate full manifest, reporting long filings for batch exclusion")
+    args = parser.parse_args()
     template_cols = TEMPLATE.read_text(encoding="utf-8").strip().split(",")
     with MANIFEST.open(encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
@@ -101,7 +106,9 @@ def main():
         assert path.is_file(), f"{t}: text file missing {path}"
         text = path.read_text(encoding="utf-8-sig")
         assert text.strip(), f"{t}: text file is empty"
-        assert len(text) <= 350_000, f"{t}: text over 350,000 characters ({len(text)})"
+        if len(text) > 350_000:
+            assert args.allow_oversize, f"{t}: text over 350,000 characters ({len(text)})"
+            print(f"EXCLUDED FROM SCORING: {t}, {len(text)} characters (limit 350000)")
         assert not re.search(r"<(?:html|body|div|table|span)\b", text, re.I), f"{t}: HTML left in text"
 
         # 8: controls and their sources

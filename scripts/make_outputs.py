@@ -13,6 +13,7 @@ not to answer the question. With 8 firms it cannot.
 Run from the repository root:  python scripts/make_outputs.py
 """
 
+import argparse
 from pathlib import Path
 
 import matplotlib
@@ -20,6 +21,7 @@ matplotlib.use("Agg")                      # write files only, never open a wind
 import matplotlib.pyplot as plt
 import pandas as pd
 import statsmodels.formula.api as smf
+from sector_results import write_sector_results
 
 ROOT = Path(__file__).resolve().parents[1]
 BATCH = ROOT / "outputs/batch_v0"
@@ -28,12 +30,12 @@ DASHBOARD_DATA = ROOT / "data/processed/tariff_firms.csv"
 HAND_CHECK = ROOT / "audits/hand_check_v0.csv"
 
 
-def write_hand_check(firms):
+def write_hand_check(firms, prefix="v0"):
     """outputs/v0_hand_check.md: AI score next to the blind human score, firm by firm."""
     hc = firms.dropna(subset=["hand_score"])
     diff = hc.hand_score - hc.exposure_score
-    lines = [f"Blind hand-check of the AI exposure scores ({len(hc)} complete v0 firms). "
-             f"Source: `audits/hand_check_v0.csv`.", "",
+    lines = [f"Blind hand-check of the AI exposure scores ({len(hc)} complete {prefix} firms). "
+             f"Source: `{HAND_CHECK.relative_to(ROOT).as_posix() if HAND_CHECK.is_relative_to(ROOT) else HAND_CHECK}`.", "",
              f"- Exact match: {(diff == 0).sum()} of {len(hc)}",
              f"- Within one point: {(diff.abs() <= 1).sum()} of {len(hc)}",
              f"- Mean absolute difference: {diff.abs().mean():.2f} points", "",
@@ -42,10 +44,24 @@ def write_hand_check(firms):
         reason = " ".join(str(f.hand_reason).split())
         reason = reason if len(reason) <= 180 else reason[:177] + "..."
         lines.append(f"| {f.ticker} | {f.exposure_score} | {int(f.hand_score)} | {int(d):+d} | {reason} |")
-    (OUT / "v0_hand_check.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (OUT / f"{prefix}_hand_check.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def main():
+    global BATCH, OUT, DASHBOARD_DATA, HAND_CHECK
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--batch", type=Path, default=BATCH)
+    parser.add_argument("--out", type=Path, default=OUT)
+    parser.add_argument("--prefix", default="v0")
+    parser.add_argument("--dashboard-data", type=Path)
+    parser.add_argument("--hand-check", type=Path)
+    args = parser.parse_args()
+    if not args.prefix.replace("_", "").isalnum():
+        parser.error("--prefix must contain only letters, numbers and underscores")
+    BATCH, OUT = args.batch, args.out
+    DASHBOARD_DATA = args.dashboard_data or (DASHBOARD_DATA if args.prefix == "v0" else OUT / f"{args.prefix}_tariff_firms.csv")
+    HAND_CHECK = args.hand_check or (HAND_CHECK if args.prefix == "v0" else None)
+    OUT.mkdir(parents=True, exist_ok=True)
     firms = pd.read_csv(BATCH / "tariff_firms.csv", dtype={"cik": str})
     # The same rows as text, untouched. The dashboard file is written from these so every
     # pandas version produces the same bytes (number parsing can differ in the 16th digit).
@@ -60,16 +76,17 @@ def main():
     # car_pp is the sum of the two daily stock-minus-SPY returns; recompute it by hand.
     by_hand = (firms.ret_apr3_pct - firms.mkt_apr3_pct) + (firms.ret_apr4_pct - firms.mkt_apr4_pct)
     assert (by_hand - firms.car_pp).abs().max() < 1e-9, "car_pp does not match its parts"
+    write_sector_results(firms, OUT, args.prefix)
 
     # 1. Blind human scores (checklist item 8): a teammate scored the same 10-Ks
     #    without seeing the AI's scores. Join on ticker; each firm must match once.
-    if HAND_CHECK.exists():
+    if HAND_CHECK is not None and HAND_CHECK.exists():
         hand = pd.read_csv(HAND_CHECK)
         assert hand.ticker.is_unique and hand.hand_score.between(0, 4).all(), "bad hand-check file"
         columns = list(firms.columns)
         firms = firms.drop(columns="hand_score").merge(
             hand[["ticker", "hand_score", "hand_reason"]], on="ticker", how="left", validate="one_to_one")
-        write_hand_check(firms)
+        write_hand_check(firms, args.prefix)
         firms = firms.drop(columns="hand_reason")[columns]
 
     # 2. The dataset the dashboard reads: the batch rows exactly as written, plus hand_score.
@@ -88,13 +105,13 @@ def main():
         rows.append(f"| {f.ticker} | {f.gics_sector} | {f.exposure_score} | {f.car_pp:+.2f} | {quote} |")
     rows += ["", f"{len(firms)} of {attempted} firms complete. Not included:"]
     rows += [f"- {f.ticker}: {f.stage} step failed ({f.error})" for f in failures.itertuples()]
-    (OUT / "v0_firms.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
+    (OUT / f"{args.prefix}_firms.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
 
     # 4. Regression: CAR (pp) on exposure score, heteroskedasticity-robust (HC3) errors.
     fit = smf.ols("car_pp ~ exposure_score", data=firms).fit(cov_type="HC3")
     pd.DataFrame({"term": fit.params.index, "coef": fit.params.values, "std_err_hc3": fit.bse.values,
                   "t": fit.tvalues.values, "p": fit.pvalues.values}).assign(
-        n=int(fit.nobs), r2=fit.rsquared).round(6).to_csv(OUT / "v0_regression.csv", index=False)  # 6 decimals: same file on every computer
+        n=int(fit.nobs), r2=fit.rsquared).round(6).to_csv(OUT / f"{args.prefix}_regression.csv", index=False)  # 6 decimals: same file on every computer
 
     # 5. Chart: each firm's exposure score against its two-day market-adjusted return.
     fig, ax = plt.subplots(figsize=(7, 4.5), dpi=150)
@@ -107,15 +124,16 @@ def main():
             label=f"OLS fit: {fit.params['exposure_score']:+.2f} pp per point (n={int(fit.nobs)})")
     ax.set_xticks(range(5))
     ax.set_xlim(-0.4, 4.6)
-    ax.set_xlabel("Import / China exposure score from the pre-event 10-K (0 = none, 4 = very high)")
+    ax.set_xlabel("Import / China exposure score from the pre-event 10-K (0 = none, 4 = very high)"
+                  if args.prefix == "v0" else "Import / foreign production dependence from the pre-event 10-K (0-4)")
     ax.set_ylabel("Apr 3-4, 2025 return minus SPY (pp)")
-    ax.set_title(f"v0 sample: {len(firms)} firms (smoke test, too few to conclude anything)", fontsize=10)
+    ax.set_title(f"{args.prefix} sample: {len(firms)} firms" +
+                 (" (smoke test, too few to conclude anything)" if args.prefix == "v0" else ""), fontsize=10)
     ax.legend(fontsize=8, loc="upper center", frameon=False)
     fig.tight_layout()
-    fig.savefig(OUT / "v0_exposure_vs_car.png")
+    fig.savefig(OUT / f"{args.prefix}_exposure_vs_car.png")
 
-    print(f"{len(firms)} firms -> {DASHBOARD_DATA.relative_to(ROOT)}, outputs/v0_firms.md, "
-          f"outputs/v0_regression.csv, outputs/v0_exposure_vs_car.png")
+    print(f"{len(firms)} firms -> {DASHBOARD_DATA}; results in {OUT} ({args.prefix})")
 
 
 if __name__ == "__main__":

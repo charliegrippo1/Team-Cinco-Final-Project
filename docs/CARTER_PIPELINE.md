@@ -4,6 +4,67 @@ The three-firm pilot remains reproducible with `scripts/tariff_pilot.py`.
 `scripts/tariff_batch.py` extends that workflow to an arbitrary number of firms.
 It does not claim that the full sample has been collected or scored yet.
 
+## v1 handoff (November 17, 2026)
+
+Built on `charlie/v1`. The scorer defaults to `--rubric v1`:
+
+| Score | Evidence in the pre-event filing |
+|---|---|
+| 0 | Supports little or no meaningful dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. |
+| 1 | General tariff/trade risks without a specific operational dependence. |
+| 2 | Specific imports, foreign-made inputs, or overseas suppliers, but limited evidence of substantial dependence. |
+| 3 | Substantial reliance that could materially affect costs or operations. |
+| 4 | Imports or overseas manufacturing are central: most products or critical inputs depend on them. |
+
+Foreign sales alone do not increase exposure. China receives the same treatment
+as other foreign production locations; mention it in the rationale when supported.
+Insufficient evidence returns null and is reported as a failed score, never zero.
+Missing keywords alone cannot justify zero. Each accepted score needs an exact
+continuous quote and a rationale. These rules are instructions to the model;
+human review is still needed to assess whether it applied them correctly.
+
+The original wording remains available through `--rubric v0`; `run_all.py`
+explicitly uses it to replay the frozen v0. Prompt hashes separate the caches.
+All firms in the full run must use v1, including the ten previously scored firms.
+
+**Long filings:** exclude extracted texts over 350,000 Unicode characters without
+truncation or splitting. Charlie reported 46 such filings; 454/500 (90.8%) is
+therefore the maximum coverage before scoring and price failures, below the
+existing >95% target. This is a disclosed limitation, not a passed coverage gate.
+Keep all firms in the manifest. `--allow-oversize` allows validation to continue
+while reporting exclusions; the batch runner records them in `failures.csv`,
+`coverage.csv`, and `coverage_by_sector.csv`. Exclusion may favor firms with
+shorter filings, so inspect the sector breakdown before interpreting results.
+
+After Charlie builds the full manifest and adds full mode to `run_all.py`, the
+equivalent individual commands are (the scoring command spends API credits):
+
+```powershell
+python scripts/validate_manifest.py --allow-oversize
+python scripts/tariff_batch.py --backend parrot --model gpt-4.1-mini --rubric v1 --manifest data/universe/manifest.csv --output outputs/batch_v1
+python scripts/make_outputs.py --batch outputs/batch_v1 --prefix v1 --out outputs/v1
+```
+
+The batch exits 1 for reported firm failures; inspect them before generating
+outputs. Other errors must stop the pipeline. Non-v0 outputs remain in staging;
+they do not replace the dashboard or attach old hand scores by default.
+
+`v1_sector_regressions.csv` reports exposure-only, sector-only, and sector-plus-
+exposure models on identical complete rows. The primary outcome is `car_pp`
+(April 3-4 stock-minus-SPY returns). `v1_sector_comparison.csv` gives the change
+in adjusted R-squared and an HC3 robust Wald F-test of adding exposure to sector
+controls. `apr3_pp` is the secondary April 3-only outcome. Rank-deficient or
+insufficient-residual models have explicit statuses and no HC3 significance.
+The analysis CSV identifies every included firm. These are associations, not
+proof that tariffs caused the returns.
+
+**Still separate work:** the paid A2 masked v0 test requires advance notice and
+the same v0 rubric/model on both sides; it has not been run here. Missing prices
+for acquired firms remain failures until the original security's April 2-4
+adjusted prices can be verified; never substitute its acquirer's ticker. The
+new 20-firm blind human check happens after the full run and cannot be completed
+by this automated scorer.
+
 ## Charlie's handoff
 
 Supply `data/universe/manifest.csv`, one unique ticker per row, and UTF-8 plain-text

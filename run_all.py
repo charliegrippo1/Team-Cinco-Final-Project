@@ -43,7 +43,7 @@ def main():
     run("scripts/fetch_10k_text.py")
     run("scripts/build_manifest.py", "--v0")
     run("scripts/validate_manifest.py")
-    run("scripts/tariff_batch.py", "--backend", "parrot", "--model", MODEL,
+    run("scripts/tariff_batch.py", "--backend", "parrot", "--model", MODEL, "--rubric", "v0",
         "--manifest", "data/universe/manifest.csv", "--output", "outputs/batch_v0",
         *([] if live else ["--offline"]), allow_firm_failures=True)
     run("scripts/make_outputs.py")
