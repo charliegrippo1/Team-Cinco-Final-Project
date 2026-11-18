@@ -1,7 +1,12 @@
-"""Write data/universe/manifest.csv, the file Carter's pipeline reads.
+"""Write the manifest, the file Carter's pipeline reads.
 
-One row for every firm whose 10-K text was extracted successfully
-(status "ok" in data/universe/tenk_filings.csv). Columns follow
+  --v0  -> data/universe/manifest.csv       the 10-firm Checkpoint 2 sample (kept fixed)
+  (none)-> data/universe/manifest_full.csv  every firm whose 10-K text was extracted
+                                            successfully (status "ok" in tenk_filings.csv)
+
+The full manifest keeps firms whose text is over the scorer's 350,000-character limit:
+the scorer lists them in failures.csv instead of silently dropping them, until the
+team decides how to handle them (see specs_tried.md). Columns follow
 docs/CARTER_PIPELINE.md exactly. Where each field comes from:
 
   ticker            the firm's ticker printed on its 10-K cover (as of the filing,
@@ -20,7 +25,7 @@ for a manual check of the market cap (e.g. Berkshire's A shares = 1,500 B shares
 
 Run from the repository root:
     python scripts/build_manifest.py --v0    # the 10-firm Checkpoint 2 sample only
-    python scripts/build_manifest.py         # every firm with extracted text (full run)
+    python scripts/build_manifest.py         # every firm with extracted text (full run, v1)
 
 The v0 sample is the 5 Checkpoint 1 pilot firms plus 5 drawn at random (fixed seed,
 so anyone gets the same 5) from firms that are easy to run end to end; the draw and
@@ -38,10 +43,15 @@ from build_universe import OUT as UNIVERSE, RAW, ROOT, sec_get
 
 FILINGS = ROOT / "data/universe/tenk_filings.csv"
 TEMPLATE = ROOT / "data/universe/manifest.template.csv"
-MANIFEST = ROOT / "data/universe/manifest.csv"
+MANIFEST = ROOT / "data/universe/manifest.csv"            # v0 sample
 REVIEW = ROOT / "data/universe/manifest_review.csv"
+MANIFEST_FULL = ROOT / "data/universe/manifest_full.csv"  # full sample (v1)
+REVIEW_FULL = ROOT / "data/universe/manifest_full_review.csv"
 SAMPLE = ROOT / "data/universe/v0_sample.csv"
 OVERRIDES = ROOT / "data/universe/cik_overrides.csv"
+TICKER_FIXES = ROOT / "data/universe/ticker_fixes.csv"   # 4 firms whose cover ticker needs a hand fix, with reasons
+SPLIT_FIXES = ROOT / "data/universe/split_fixes.csv"     # 4 firms that split their stock after the 10-K
+BERKSHIRE, BRK_A_IN_B = "0001067983", 1500   # one Berkshire class A share converts into 1,500 class B shares
 # Checkpoint 1 pilot (Apple, Verizon, Nike) plus the two energy firms added for Step 4 testing.
 PILOT = ["0000320193", "0000732712", "0000320187", "0000087347", "0000004447"]
 SEED, N_RANDOM = 331, 5
@@ -88,23 +98,38 @@ def sector_map():
 
 
 def cover_shares(html_path):
-    """Shares outstanding per class from the 10-K cover (inline XBRL), one number per class."""
+    """Shares outstanding per class from the 10-K cover (inline XBRL), one number per class.
+    Combined filings (utilities, Dow, UAL, ...) also report each subsidiary's shares,
+    tagged to that subsidiary on the LegalEntityAxis; those are skipped, so only the
+    parent's own shares count toward its market cap."""
     html = html_path.read_text(encoding="utf-8", errors="replace")
     per_class = {}
     for m in re.finditer(r"<ix:nonFraction([^>]*name=\"dei:EntityCommonStockSharesOutstanding\"[^>]*)>(.*?)</ix:nonFraction>",
                          html, re.S | re.I):
         attrs, raw = m.group(1), unescape(re.sub(r"<[^>]+>", "", m.group(2)))
         context = re.search(r'contextRef="([^"]+)"', attrs).group(1)
+        definition = re.search(r'<(?:xbrli:)?context id="%s">(.*?)</(?:xbrli:)?context>' % re.escape(context), html, re.S)
+        assert definition, f"context {context} not defined in {html_path.name}"
+        if "LegalEntityAxis" in definition.group(1):
+            continue                                   # a subsidiary's shares, not the parent's
         scale = int((re.search(r'scale="(-?\d+)"', attrs) or [0, 0])[1])
-        per_class[context] = float(raw.replace(",", "")) * 10 ** scale
+        # A few covers write a class's share count in words ("no", "one", "None").
+        words = {"no": 0, "none": 0, "one": 1}
+        raw = raw.strip()
+        number = words[raw.lower()] if raw.lower() in words else float(raw.replace(",", ""))
+        per_class[context] = number * 10 ** scale
     if not per_class:
         raise ValueError("no shares-outstanding figure on the 10-K cover")
     return list(per_class.values())
 
 
 def pick_ticker(cover, figi_today):
-    """The cover ticker for the security SPY held (plain stock symbols only)."""
-    stock = [t for t in cover.split("|") if t and " " not in t]       # drops bonds like "VZ 26"
+    """The cover ticker for the security SPY held (plain stock symbols only).
+    Drops notes and preferred shares listed on the cover: symbols with a space
+    ("VZ 26"), a slash ("BK/P", "AMCR/29") or ending in a digit, maybe plus one letter ("XOM28",
+    "FI31A"); also strips an exchange note like "(NYSE)"."""
+    tokens = [re.sub(r"\s*\(\w+\)$", "", t).strip(" \"\u201c\u201d") for t in cover.split("|")]   # also drops quotes
+    stock = [t for t in tokens if t and " " not in t and "/" not in t and not re.search(r"\d[A-Z]?$", t)]
     same = [t for t in stock if t.replace("-", ".") == figi_today]
     if same:
         return same[0]
@@ -165,17 +190,28 @@ def main():
     universe = {r["cik"]: r for r in read_csv(UNIVERSE)}
     sectors = sector_map()
     filings = read_csv(FILINGS)
+    fixes = {r["cik"]: r["ticker"] for r in read_csv(TICKER_FIXES)}
+    splits = {r["cik"]: r for r in read_csv(SPLIT_FIXES)}
     keep = draw_v0_sample(filings, universe) if args.v0 else None
+    manifest_path, review_path = (MANIFEST, REVIEW) if args.v0 else (MANIFEST_FULL, REVIEW_FULL)
     rows, review = [], []
     for f in filings:
         if f["status"] != "ok" or (keep is not None and f["cik"] not in keep):
             continue
         u = universe[f["cik"]]
         key = u["cusip"] if u["cusip"] != "000000000" else u["isin"]
-        ticker = pick_ticker(f["cover_tickers"], u["ticker_figi_today"]).replace("-", ".")
+        if f["cik"] in fixes:
+            ticker = fixes[f["cik"]]
+        else:
+            ticker = pick_ticker(f["cover_tickers"], u["ticker_figi_today"]).replace("-", ".")
         price = float(u["spy_value_usd"]) / float(u["spy_shares"])        # 2025-03-31 price
         classes = cover_shares(ROOT / "data/raw/tenk" / f["cik"] / f"{f['tenk_accession']}.htm")
-        cap_bn = sum(classes) * price / 1e9
+        split = splits.get(f["cik"])
+        ratio = int(split["split_ratio"]) if split else 1      # cover shares are pre-split; price is post-split
+        if f["cik"] == BERKSHIRE:   # price is the B share's; restate the A shares in B shares first
+            assert len(classes) == 2 and min(classes) < 1e6 < max(classes), "Berkshire cover changed"
+            classes = [min(classes) * BRK_A_IN_B, max(classes)]
+        cap_bn = sum(classes) * ratio * price / 1e9
         rows.append({
             "ticker": ticker,
             "company": u["nport_name"],
@@ -188,8 +224,10 @@ def main():
             "text_path": f["text_path"],
             "membership_date": u["membership_date"],
             "membership_source": u["membership_source"],
-            "cap_source": (f"v0: 10-K cover shares outstanding (accession {f['tenk_accession']}, "
-                           f"{len(classes)} class(es) summed) x 2025-03-31 price ${price:.2f} "
+            "cap_source": (f"{'v0' if args.v0 else 'v1'}: 10-K cover shares outstanding (accession {f['tenk_accession']}, "
+                           f"{len(classes)} class(es) summed"
+                           + (f", x{ratio} for the {split['split_effective']} stock split" if split else "")
+                           + f") x 2025-03-31 price ${price:.2f} "
                            f"from SPY N-PORT accession 0001752724-25-125179"),
             "price_symbol": "",
             "mask_aliases": "",
@@ -202,16 +240,17 @@ def main():
 
     assert rows, "no firms with extracted 10-K text yet"
     assert len({r["ticker"] for r in rows}) == len(rows), "duplicate tickers"
-    with MANIFEST.open("w", encoding="utf-8", newline="") as fh:
+    with manifest_path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=columns)
         w.writeheader()
         w.writerows(rows)
-    with REVIEW.open("w", encoding="utf-8", newline="") as fh:
+    with review_path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=["ticker", "company", "share_classes", "shares_by_class",
                                            "price_used", "mktcap_usd_bn", "why"])
         w.writeheader()
         w.writerows(review)
-    print(f"{len(rows)} firms -> {MANIFEST.relative_to(ROOT)}; {len(review)} need a market-cap check")
+    print(f"{len(rows)} firms -> {manifest_path.relative_to(ROOT)}; {len(review)} need a market-cap check "
+          f"({review_path.relative_to(ROOT)})")
 
 
 if __name__ == "__main__":

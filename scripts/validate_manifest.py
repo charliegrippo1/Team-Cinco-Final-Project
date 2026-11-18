@@ -9,16 +9,23 @@ says which firm broke it. Checks:
   5. it is the LAST eligible 10-K: re-read the firm's EDGAR filing history and
      confirm no other 10-K was filed after it and before the cutoff, and that the
      accession number really is a 10-K filed on that date
-  6. the manifest ticker is printed on that 10-K's cover page
+  6. the manifest ticker is printed on that 10-K's cover page, or the firm is one of the
+     4 hand fixes in data/universe/ticker_fixes.csv (each with its reason)
   7. text_path exists, is not empty, is plain text (no HTML), and is under the
      pipeline's 350,000-character limit
   8. sector is one of the 11 GICS sectors; market cap is positive; sources filled in
 
-Run from the repository root:  python scripts/validate_manifest.py
+Run from the repository root:
+    python scripts/validate_manifest.py                      # v0 manifest: every check must pass
+    python scripts/validate_manifest.py --full               # data/universe/manifest_full.csv
+With --full, text over the 350,000-character limit is listed (and counted) instead of
+stopping the check: those firms stay in the manifest and the scorer reports them in
+failures.csv, until the team decides how to handle them (specs_tried.md).
 Uses the cached EDGAR filing histories in data/raw/universe/submissions/ (made by
 fetch_10k_text.py), so it runs offline. Older history pages are downloaded only if
 a filing is not in the cached "recent" list (needs SEC_USER_AGENT then).
 """
+import argparse
 import csv
 import json
 import re
@@ -27,8 +34,10 @@ from pathlib import Path
 from build_universe import OUT as UNIVERSE, ROOT, sec_get
 
 MANIFEST = ROOT / "data/universe/manifest.csv"
+MANIFEST_FULL = ROOT / "data/universe/manifest_full.csv"
 TEMPLATE = ROOT / "data/universe/manifest.template.csv"
 FILINGS = ROOT / "data/universe/tenk_filings.csv"
+TICKER_FIXES = ROOT / "data/universe/ticker_fixes.csv"
 SUBS = ROOT / "data/raw/universe/submissions"
 CUTOFF = "2025-04-02"
 SECTORS = {"Communication Services", "Consumer Discretionary", "Consumer Staples", "Energy",
@@ -50,15 +59,24 @@ def filing_history(cik):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--full", action="store_true", help="check manifest_full.csv; list over-limit text")
+    full = parser.parse_args().full
+    manifest = MANIFEST_FULL if full else MANIFEST
+    too_long = []
     template_cols = TEMPLATE.read_text(encoding="utf-8").strip().split(",")
-    with MANIFEST.open(encoding="utf-8-sig", newline="") as f:
+    with manifest.open(encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
         assert reader.fieldnames == template_cols, f"columns differ from template: {reader.fieldnames}"
         rows = list(reader)
     assert rows, "manifest is empty"
 
     universe = {r["cik"] for r in read_csv(UNIVERSE)}
-    covers = {r["cik"]: r["cover_tickers"].split("|") for r in read_csv(FILINGS) if r["status"] == "ok"}
+    # Same cleanup as build_manifest.pick_ticker: drop quotes and an exchange note like "(NYSE)".
+    covers = {r["cik"]: [re.sub(r"\s*\(\w+\)$", "", c).strip(' "\u201c\u201d') for c in r["cover_tickers"].split("|")]
+              for r in read_csv(FILINGS) if r["status"] == "ok"}
+    fixes = {r["cik"]: r for r in read_csv(TICKER_FIXES)}
+    assert all(r["why"].strip() for r in fixes.values()), "every ticker fix needs a reason"
 
     tickers = [r["ticker"] for r in rows]
     ciks = [r["cik"] for r in rows]
@@ -94,14 +112,19 @@ def main():
         assert r["tenk_accession"].replace("-", "") in r["filing_url"], f"{t}: filing_url/accession mismatch"
 
         # 6: ticker as printed on that 10-K's cover
-        assert t in covers.get(cik, []), f"{t}: not among cover tickers {covers.get(cik)}"
+        if cik in fixes:
+            assert t == fixes[cik]["ticker"], f"{t}: differs from ticker_fixes.csv"
+        else:
+            assert t in covers.get(cik, []), f"{t}: not among cover tickers {covers.get(cik)}"
 
         # 7: the text file Carter's pipeline will score
         path = Path(r["text_path"]) if Path(r["text_path"]).is_absolute() else ROOT / r["text_path"]
         assert path.is_file(), f"{t}: text file missing {path}"
         text = path.read_text(encoding="utf-8-sig")
         assert text.strip(), f"{t}: text file is empty"
-        assert len(text) <= 350_000, f"{t}: text over 350,000 characters ({len(text)})"
+        if len(text) > 350_000:
+            assert full, f"{t}: text over 350,000 characters ({len(text)})"
+            too_long.append(f"{t} ({len(text):,})")
         assert not re.search(r"<(?:html|body|div|table|span)\b", text, re.I), f"{t}: HTML left in text"
 
         # 8: controls and their sources
@@ -109,7 +132,10 @@ def main():
         assert float(r["mktcap_usd_bn"]) > 0, f"{t}: market cap must be positive"
         assert r["cap_source"].strip(), f"{t}: cap_source missing"
 
-    print(f"OK: {len(rows)} manifest rows passed all checks")
+    print(f"OK: {len(rows)} rows in {manifest.relative_to(ROOT)} passed all checks")
+    if too_long:
+        print(f"{len(too_long)} firms are over the scorer's 350,000-character limit "
+              f"(they will be listed in failures.csv): {', '.join(too_long)}")
 
 
 if __name__ == "__main__":

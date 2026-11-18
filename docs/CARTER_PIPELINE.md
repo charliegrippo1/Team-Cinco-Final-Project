@@ -6,6 +6,9 @@ It does not claim that the full sample has been collected or scored yet.
 
 ## Charlie's handoff
 
+Full sample (v1): `data/universe/manifest_full.csv` has the same columns for all 500 firms
+(`python run_all.py --full` builds, validates and scores it into `outputs/batch_v1`).
+
 Supply `data/universe/manifest.csv`, one unique ticker per row, and UTF-8 plain-text
 files containing each firm's pre-event 10-K Items 1, 1A and 7. Paths are relative
 to the repository root (absolute paths also work). Preserve the text verbatim;
