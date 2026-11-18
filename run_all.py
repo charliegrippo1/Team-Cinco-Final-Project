@@ -18,10 +18,12 @@ Downloads are cached under data/raw/, so a rerun makes no new requests.
     needs no API key and costs nothing. Use  python run_all.py --live  to also score
     firms that have no saved answer; that needs edsl (Python 3.10-3.13) and the
     EXPECTED_PARROT_API_KEY environment variable, and it uses Expected Parrot credits.
-  - With --full, step 6 is skipped for now: make_outputs.py still reads the v0 batch.
-    The full-sample tables (A1 sector regressions) are added in a later change.
+  - v0 replays the original rubric wording (--rubric v0); --full scores with the v1
+    rubric and writes the full-sample tables, including the A1 sector regressions,
+    to outputs/v1/ (staging: the dashboard still reads the v0 data until it is switched).
 """
 import argparse
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -51,11 +53,16 @@ def main():
     run("scripts/fetch_10k_text.py")
     run("scripts/build_manifest.py", *([] if args.full else ["--v0"]))
     run("scripts/validate_manifest.py", *(["--full"] if args.full else []))
+    # v0 replays the frozen Checkpoint 2 wording; the full sample is scored with the
+    # v1 rubric (specs_tried.md #21), including the ten firms scored in v0.
     run("scripts/tariff_batch.py", "--backend", "parrot", "--model", MODEL,
-        "--manifest", manifest, "--output", output,
+        "--rubric", "v1" if args.full else "v0", "--manifest", manifest, "--output", output,
         *([] if args.live else ["--offline"]), allow_firm_failures=True)
+    completed = json.loads((ROOT / output / "summary.json").read_text())["completed_rows"]
+    if args.full and completed == 0:
+        sys.exit("Stopped: no firm has a v1 score yet. Run  python run_all.py --full --live  to score them.")
     if args.full:
-        print("\nSkipping make_outputs.py: it still reads the v0 batch (full-sample tables come later).")
+        run("scripts/make_outputs.py", "--batch", output, "--prefix", "v1", "--out", "outputs/v1")
     else:
         run("scripts/make_outputs.py")
     print(f"\nDone. Failed firms (if any) are listed in {output}/failures.csv")

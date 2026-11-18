@@ -60,7 +60,8 @@ def filing_history(cik):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--full", action="store_true", help="check manifest_full.csv; list over-limit text")
+    parser.add_argument("--full", "--allow-oversize", dest="full", action="store_true",
+                        help="check manifest_full.csv; report long filings for batch exclusion instead of stopping")
     full = parser.parse_args().full
     manifest = MANIFEST_FULL if full else MANIFEST
     too_long = []
@@ -124,7 +125,8 @@ def main():
         assert text.strip(), f"{t}: text file is empty"
         if len(text) > 350_000:
             assert full, f"{t}: text over 350,000 characters ({len(text)})"
-            too_long.append(f"{t} ({len(text):,})")
+            print(f"EXCLUDED FROM SCORING: {t}, {len(text)} characters (limit 350000)")
+            too_long.append(t)
         assert not re.search(r"<(?:html|body|div|table|span)\b", text, re.I), f"{t}: HTML left in text"
 
         # 8: controls and their sources
@@ -134,8 +136,8 @@ def main():
 
     print(f"OK: {len(rows)} rows in {manifest.relative_to(ROOT)} passed all checks")
     if too_long:
-        print(f"{len(too_long)} firms are over the scorer's 350,000-character limit "
-              f"(they will be listed in failures.csv): {', '.join(too_long)}")
+        print(f"{len(too_long)} firms are over the scorer's 350,000-character limit; they stay in the "
+              f"manifest and the batch records them as excluded_oversize (specs_tried.md #23)")
 
 
 if __name__ == "__main__":
