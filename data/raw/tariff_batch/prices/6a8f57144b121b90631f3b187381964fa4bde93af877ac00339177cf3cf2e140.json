@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DHR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:15.558074+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DHR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 283789800,
+            "regularMarketTime": 1795035785,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 228.58,
+            "regularMarketChangePercent": 1.245,
+            "fulldayPrice": 228.58,
+            "fulldayChange": 2.81,
+            "fulldayChangePercent": 1.245,
+            "fiftyTwoWeekHigh": 242.8,
+            "fiftyTwoWeekLow": 160.93,
+            "regularMarketDayHigh": 230.0,
+            "regularMarketDayLow": 225.5,
+            "regularMarketVolume": 2941725,
+            "longName": "Danaher Corporation",
+            "shortName": "Danaher Corporation",
+            "chartPreviousClose": 200.39,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  199.24000549316406,
+                  202.3000030517578,
+                  195.4600067138672
+                ],
+                "close": [
+                  205.16000366210938,
+                  197.89999389648438,
+                  181.77000427246094
+                ],
+                "high": [
+                  205.47999572753906,
+                  204.5800018310547,
+                  195.4600067138672
+                ],
+                "low": [
+                  199.24000549316406,
+                  197.5,
+                  181.1999969482422
+                ],
+                "volume": [
+                  2974500,
+                  5413100,
+                  7117800
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  202.97434997558594,
+                  195.7916717529297,
+                  179.83352661132812
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

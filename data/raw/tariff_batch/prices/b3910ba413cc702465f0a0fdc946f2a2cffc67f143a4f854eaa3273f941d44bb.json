@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/GM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:28.987393+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "GM",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1290090600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 82.13,
+            "regularMarketChangePercent": -2.284,
+            "fulldayPrice": 82.13,
+            "fulldayChange": -1.92,
+            "fulldayChangePercent": -2.284,
+            "fiftyTwoWeekHigh": 93.7,
+            "fiftyTwoWeekLow": 67.61,
+            "regularMarketDayHigh": 85.02,
+            "regularMarketDayLow": 81.93,
+            "regularMarketVolume": 7680391,
+            "longName": "General Motors Company",
+            "shortName": "General Motors Company Common Stock",
+            "chartPreviousClose": 47.26,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  46.869998931884766,
+                  45.849998474121094,
+                  42.72999954223633
+                ],
+                "open": [
+                  46.869998931884766,
+                  46.95000076293945,
+                  44.459999084472656
+                ],
+                "volume": [
+                  12305600,
+                  18871200,
+                  26717400
+                ],
+                "close": [
+                  47.97999954223633,
+                  45.900001525878906,
+                  44.18000030517578
+                ],
+                "high": [
+                  48.27000045776367,
+                  47.779998779296875,
+                  44.72999954223633
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  47.296268463134766,
+                  45.24590301513672,
+                  43.550418853759766
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:17.655737+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AMT",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 888589800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 184.82,
+            "regularMarketChangePercent": 0.895,
+            "fulldayPrice": 184.82,
+            "fulldayChange": 1.64,
+            "fulldayChangePercent": 0.895,
+            "fiftyTwoWeekHigh": 202.5,
+            "fiftyTwoWeekLow": 160.06,
+            "regularMarketDayHigh": 186.52,
+            "regularMarketDayLow": 179.985,
+            "regularMarketVolume": 3080528,
+            "longName": "American Tower Corporation",
+            "shortName": "American Tower Corporation (REI",
+            "chartPreviousClose": 219.44,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  217.89999389648438,
+                  228.19000244140625,
+                  220.1699981689453
+                ],
+                "open": [
+                  219.8800048828125,
+                  225.0,
+                  233.14999389648438
+                ],
+                "high": [
+                  220.47999572753906,
+                  231.02999877929688,
+                  233.8000030517578
+                ],
+                "volume": [
+                  2794100,
+                  5852900,
+                  9877200
+                ],
+                "low": [
+                  216.2899932861328,
+                  220.0,
+                  220.02999877929688
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  204.25038146972656,
+                  213.89581298828125,
+                  206.37820434570312
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

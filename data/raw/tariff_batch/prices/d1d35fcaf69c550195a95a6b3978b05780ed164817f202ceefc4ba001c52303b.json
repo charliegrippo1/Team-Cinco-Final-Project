@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CARR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:27.211124+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CARR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1584624600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 52.06,
+            "regularMarketChangePercent": 1.442,
+            "fulldayPrice": 52.06,
+            "fulldayChange": 0.74,
+            "fulldayChangePercent": 1.442,
+            "fiftyTwoWeekHigh": 76.76,
+            "fiftyTwoWeekLow": 50.24,
+            "regularMarketDayHigh": 53.005,
+            "regularMarketDayLow": 50.99,
+            "regularMarketVolume": 6506560,
+            "longName": "Carrier Global Corporation",
+            "shortName": "Carrier Global Corporation",
+            "chartPreviousClose": 63.54,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  62.75,
+                  63.0,
+                  58.900001525878906
+                ],
+                "volume": [
+                  3159800,
+                  5760500,
+                  6934400
+                ],
+                "high": [
+                  65.22000122070312,
+                  63.810001373291016,
+                  59.099998474121094
+                ],
+                "low": [
+                  62.5099983215332,
+                  60.59000015258789,
+                  55.869998931884766
+                ],
+                "close": [
+                  65.04000091552734,
+                  60.720001220703125,
+                  57.18000030517578
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  63.38935089111328,
+                  59.17898178100586,
+                  55.728824615478516
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

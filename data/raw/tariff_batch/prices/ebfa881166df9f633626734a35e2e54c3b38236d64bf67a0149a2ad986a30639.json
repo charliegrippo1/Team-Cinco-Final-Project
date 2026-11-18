@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/IVZ?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:02.651998+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "IVZ",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 809357400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 28.65,
+            "regularMarketChangePercent": -1.002,
+            "fulldayPrice": 28.65,
+            "fulldayChange": -0.29,
+            "fulldayChangePercent": -1.002,
+            "fiftyTwoWeekHigh": 33.66,
+            "fiftyTwoWeekLow": 21.82,
+            "regularMarketDayHigh": 29.255,
+            "regularMarketDayLow": 28.43,
+            "regularMarketVolume": 5537348,
+            "longName": "Invesco Ltd.",
+            "shortName": "Invesco Ltd",
+            "chartPreviousClose": 15.19,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  15.829999923706055,
+                  14.800000190734863,
+                  13.420000076293945
+                ],
+                "low": [
+                  14.9399995803833,
+                  13.739999771118164,
+                  12.350000381469727
+                ],
+                "close": [
+                  15.6899995803833,
+                  13.829999923706055,
+                  12.8100004196167
+                ],
+                "volume": [
+                  6157300,
+                  10158100,
+                  13890800
+                ],
+                "open": [
+                  14.949999809265137,
+                  14.710000038146973,
+                  13.350000381469727
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  14.744107246398926,
+                  12.99623966217041,
+                  12.037734031677246
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

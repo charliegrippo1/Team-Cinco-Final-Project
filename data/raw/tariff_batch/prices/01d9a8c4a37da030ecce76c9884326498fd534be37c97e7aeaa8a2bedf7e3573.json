@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BNY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:41:32.220061+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BNY",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 105283800,
+            "regularMarketTime": 1795035722,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 147.8,
+            "regularMarketChangePercent": -1.329,
+            "fulldayPrice": 148.5,
+            "fulldayChange": -1.29,
+            "fulldayChangePercent": -0.861,
+            "fiftyTwoWeekHigh": 165.84,
+            "fiftyTwoWeekLow": 105.42,
+            "regularMarketDayHigh": 149.84,
+            "regularMarketDayLow": 147.71,
+            "regularMarketVolume": 3107883,
+            "longName": "The Bank of New York Mellon Corporation",
+            "shortName": "The Bank of New York Mellon Cor",
+            "chartPreviousClose": 83.77,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  84.55000305175781,
+                  81.94999694824219,
+                  78.7300033569336
+                ],
+                "close": [
+                  84.22000122070312,
+                  79.91000366210938,
+                  73.30999755859375
+                ],
+                "open": [
+                  83.01000213623047,
+                  81.23999786376953,
+                  77.04000091552734
+                ],
+                "low": [
+                  82.55999755859375,
+                  79.77999877929688,
+                  72.93000030517578
+                ],
+                "volume": [
+                  3191100,
+                  5262500,
+                  6696700
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  81.40831756591797,
+                  77.2422103881836,
+                  70.862548828125
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

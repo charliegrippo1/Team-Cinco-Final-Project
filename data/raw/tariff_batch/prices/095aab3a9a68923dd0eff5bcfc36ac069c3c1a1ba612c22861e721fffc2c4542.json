@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HAS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:01.255143+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HAS",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 118.64,
+            "regularMarketChangePercent": 0.841,
+            "fulldayPrice": 118.64,
+            "fulldayChange": 0.8,
+            "fulldayChangePercent": 0.68,
+            "fiftyTwoWeekHigh": 124.62,
+            "fiftyTwoWeekLow": 74.78,
+            "regularMarketDayHigh": 119.66,
+            "regularMarketDayLow": 117.64,
+            "regularMarketVolume": 1990138,
+            "longName": "Hasbro, Inc.",
+            "shortName": "Hasbro, Inc.",
+            "chartPreviousClose": 62.14,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  61.70000076293945,
+                  58.79999923706055,
+                  52.84000015258789
+                ],
+                "close": [
+                  62.689998626708984,
+                  54.9900016784668,
+                  53.959999084472656
+                ],
+                "volume": [
+                  968400,
+                  4110600,
+                  3044000
+                ],
+                "low": [
+                  61.439998626708984,
+                  53.810001373291016,
+                  51.119998931884766
+                ],
+                "high": [
+                  62.90999984741211,
+                  59.02000045776367,
+                  54.5
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  59.58327102661133,
+                  52.264869689941406,
+                  51.28590774536133
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

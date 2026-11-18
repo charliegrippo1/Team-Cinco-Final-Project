@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/FIS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:32.860330+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "FIS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 993043800,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 26.73,
+            "regularMarketChangePercent": -2.694,
+            "fulldayPrice": 26.79,
+            "fulldayChange": -0.68,
+            "fulldayChangePercent": -2.475,
+            "fiftyTwoWeekHigh": 68.37,
+            "fiftyTwoWeekLow": 26.715,
+            "regularMarketDayHigh": 27.45,
+            "regularMarketDayLow": 26.715,
+            "regularMarketVolume": 7407072,
+            "longName": "Fidelity National Information Services, Inc.",
+            "shortName": "Fidelity National Information S",
+            "chartPreviousClose": 74.57,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  75.88999938964844,
+                  76.37000274658203,
+                  73.66000366210938
+                ],
+                "volume": [
+                  2732800,
+                  4952700,
+                  8785900
+                ],
+                "open": [
+                  74.18000030517578,
+                  74.25,
+                  73.22000122070312
+                ],
+                "low": [
+                  73.81999969482422,
+                  73.94999694824219,
+                  69.69999694824219
+                ],
+                "close": [
+                  75.73999786376953,
+                  74.51000213623047,
+                  69.9000015258789
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  72.17252349853516,
+                  71.00047302246094,
+                  66.60760498046875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

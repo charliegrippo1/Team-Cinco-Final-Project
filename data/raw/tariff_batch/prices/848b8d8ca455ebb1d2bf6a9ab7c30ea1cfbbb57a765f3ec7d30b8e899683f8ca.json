@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CDW?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:45.565773+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CDW",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1372339800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 169.01,
+            "regularMarketChangePercent": 3.643,
+            "fulldayPrice": 169.01,
+            "fulldayChange": 5.94,
+            "fulldayChangePercent": 3.643,
+            "fiftyTwoWeekHigh": 175.19,
+            "fiftyTwoWeekLow": 97.12,
+            "regularMarketDayHigh": 169.91,
+            "regularMarketDayLow": 161.03,
+            "regularMarketVolume": 1317376,
+            "longName": "CDW Corporation",
+            "shortName": "CDW Corporation",
+            "chartPreviousClose": 162.08,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  160.1699981689453,
+                  150.38999938964844,
+                  141.8000030517578
+                ],
+                "open": [
+                  160.32000732421875,
+                  157.2899932861328,
+                  149.6999969482422
+                ],
+                "close": [
+                  164.47000122070312,
+                  151.57000732421875,
+                  144.49000549316406
+                ],
+                "volume": [
+                  860100,
+                  3559300,
+                  4384200
+                ],
+                "high": [
+                  165.42999267578125,
+                  158.17999267578125,
+                  149.6999969482422
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  160.03726196289062,
+                  147.48495483398438,
+                  140.5957489013672
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

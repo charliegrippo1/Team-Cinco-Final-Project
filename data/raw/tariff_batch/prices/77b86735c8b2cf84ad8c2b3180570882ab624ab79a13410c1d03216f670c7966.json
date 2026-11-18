@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HII?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:01.427974+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HII",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1300800600,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 287.89,
+            "regularMarketChangePercent": -3.211,
+            "fulldayPrice": 287.89,
+            "fulldayChange": -9.55,
+            "fulldayChangePercent": -3.211,
+            "fiftyTwoWeekHigh": 460.0,
+            "fiftyTwoWeekLow": 255.36,
+            "regularMarketDayHigh": 297.39,
+            "regularMarketDayLow": 286.0,
+            "regularMarketVolume": 433665,
+            "longName": "Huntington Ingalls Industries, Inc.",
+            "shortName": "Huntington Ingalls Industries, ",
+            "chartPreviousClose": 202.2,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  500100,
+                  690700,
+                  855800
+                ],
+                "high": [
+                  205.42999267578125,
+                  206.92999267578125,
+                  195.92999267578125
+                ],
+                "close": [
+                  204.92999267578125,
+                  199.22000122070312,
+                  184.9499969482422
+                ],
+                "open": [
+                  200.0,
+                  202.5,
+                  194.13999938964844
+                ],
+                "low": [
+                  198.9499969482422,
+                  197.22999572753906,
+                  184.60000610351562
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  199.38063049316406,
+                  193.82525634765625,
+                  179.9416961669922
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

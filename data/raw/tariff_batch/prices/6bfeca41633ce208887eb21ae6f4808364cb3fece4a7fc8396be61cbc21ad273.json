@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HPE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:46.771450+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HPE",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1445261400,
+            "regularMarketTime": 1795035826,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 45.78,
+            "regularMarketChangePercent": -0.673,
+            "fulldayPrice": 45.5,
+            "fulldayChange": -0.59,
+            "fulldayChangePercent": -1.28,
+            "fiftyTwoWeekHigh": 73.56,
+            "fiftyTwoWeekLow": 19.84,
+            "regularMarketDayHigh": 47.195,
+            "regularMarketDayLow": 45.329,
+            "regularMarketVolume": 11090857,
+            "longName": "Hewlett Packard Enterprise Company",
+            "shortName": "Hewlett Packard Enterprise Comp",
+            "chartPreviousClose": 15.64,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  16.200000762939453,
+                  15.300000190734863,
+                  13.3100004196167
+                ],
+                "close": [
+                  16.1200008392334,
+                  13.680000305175781,
+                  12.789999961853027
+                ],
+                "low": [
+                  15.390000343322754,
+                  13.600000381469727,
+                  11.96500015258789
+                ],
+                "volume": [
+                  23638200,
+                  35325800,
+                  32655000
+                ],
+                "open": [
+                  15.390000343322754,
+                  15.130000114440918,
+                  13.3100004196167
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  15.636842727661133,
+                  13.269974708557129,
+                  12.406649589538574
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

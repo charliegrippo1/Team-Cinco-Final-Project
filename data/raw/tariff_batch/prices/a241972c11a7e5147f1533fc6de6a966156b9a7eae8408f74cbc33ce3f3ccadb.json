@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/FANG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:37.926627+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "FANG",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1350048600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 174.32,
+            "regularMarketChangePercent": -1.553,
+            "fulldayPrice": 174.32,
+            "fulldayChange": -2.75,
+            "fulldayChangePercent": -1.553,
+            "fiftyTwoWeekHigh": 216.9,
+            "fiftyTwoWeekLow": 139.41,
+            "regularMarketDayHigh": 177.68,
+            "regularMarketDayLow": 173.29,
+            "regularMarketVolume": 2889349,
+            "longName": "Diamondback Energy, Inc.",
+            "shortName": "Diamondback Energy, Inc.",
+            "chartPreviousClose": 160.87,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  161.77999877929688,
+                  153.02000427246094,
+                  135.82000732421875
+                ],
+                "close": [
+                  161.49000549316406,
+                  141.27999877929688,
+                  123.37000274658203
+                ],
+                "open": [
+                  159.0399932861328,
+                  151.05999755859375,
+                  134.0500030517578
+                ],
+                "low": [
+                  158.25999450683594,
+                  141.10000610351562,
+                  123.1500015258789
+                ],
+                "volume": [
+                  1394900,
+                  5414200,
+                  5425100
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  154.4702911376953,
+                  135.13877868652344,
+                  118.00729370117188
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

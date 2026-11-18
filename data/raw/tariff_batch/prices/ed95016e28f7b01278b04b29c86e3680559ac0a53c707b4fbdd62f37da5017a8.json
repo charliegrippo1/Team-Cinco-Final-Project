@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PNR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:53.590109+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PNR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 105283800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 68.37,
+            "regularMarketChangePercent": 2.228,
+            "fulldayPrice": 68.37,
+            "fulldayChange": 1.49,
+            "fulldayChangePercent": 2.228,
+            "fiftyTwoWeekHigh": 109.09,
+            "fiftyTwoWeekLow": 51.13,
+            "regularMarketDayHigh": 68.845,
+            "regularMarketDayLow": 65.8,
+            "regularMarketVolume": 1900255,
+            "longName": "Pentair plc",
+            "shortName": "Pentair plc.",
+            "chartPreviousClose": 88.04,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  89.08999633789062,
+                  81.54000091552734,
+                  78.76000213623047
+                ],
+                "volume": [
+                  911300,
+                  2114200,
+                  2765100
+                ],
+                "low": [
+                  86.58999633789062,
+                  81.29000091552734,
+                  76.16000366210938
+                ],
+                "high": [
+                  89.48999786376953,
+                  85.43000030517578,
+                  81.04000091552734
+                ],
+                "open": [
+                  86.91999816894531,
+                  85.43000030517578,
+                  80.26000213623047
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  87.10810089111328,
+                  79.72606658935547,
+                  77.00790405273438
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

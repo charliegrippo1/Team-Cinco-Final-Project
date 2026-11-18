@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MGM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:02.903689+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MGM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 578583000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 33.74,
+            "regularMarketChangePercent": 1.169,
+            "fulldayPrice": 33.343,
+            "fulldayChange": -0.007,
+            "fulldayChangePercent": -0.022,
+            "fiftyTwoWeekHigh": 51.59,
+            "fiftyTwoWeekLow": 26.71,
+            "regularMarketDayHigh": 34.0,
+            "regularMarketDayLow": 32.87,
+            "regularMarketVolume": 3389392,
+            "longName": "MGM Resorts International",
+            "shortName": "MGM Resorts International",
+            "chartPreviousClose": 29.94,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  29.469999313354492,
+                  28.90999984741211,
+                  26.8799991607666
+                ],
+                "low": [
+                  29.469999313354492,
+                  27.5,
+                  25.610000610351562
+                ],
+                "volume": [
+                  5133600,
+                  13214400,
+                  11275500
+                ],
+                "high": [
+                  30.940000534057617,
+                  29.139999389648438,
+                  27.579999923706055
+                ],
+                "close": [
+                  30.75,
+                  27.899999618530273,
+                  26.860000610351562
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  30.75,
+                  27.899999618530273,
+                  26.860000610351562
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ISRG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:11.887312+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ISRG",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 961162200,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 420.95,
+            "regularMarketChangePercent": -2.225,
+            "fulldayPrice": 420.95,
+            "fulldayChange": -9.53,
+            "fulldayChangePercent": -2.214,
+            "fiftyTwoWeekHigh": 603.88,
+            "fiftyTwoWeekLow": 328.57,
+            "regularMarketDayHigh": 437.325,
+            "regularMarketDayLow": 420.84,
+            "regularMarketVolume": 2204837,
+            "longName": "Intuitive Surgical, Inc.",
+            "shortName": "Intuitive Surgical, Inc.",
+            "chartPreviousClose": 496.36,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  488.6000061035156,
+                  487.5799865722656,
+                  476.8399963378906
+                ],
+                "close": [
+                  507.04998779296875,
+                  494.6099853515625,
+                  451.5799865722656
+                ],
+                "volume": [
+                  1432200,
+                  2729000,
+                  4108600
+                ],
+                "low": [
+                  486.42999267578125,
+                  484.8800048828125,
+                  451.0199890136719
+                ],
+                "high": [
+                  508.6199951171875,
+                  504.0899963378906,
+                  480.55999755859375
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  507.04998779296875,
+                  494.6099853515625,
+                  451.5799865722656
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

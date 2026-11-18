@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:39.150495+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DELL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1471440600,
+            "regularMarketTime": 1795035876,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 313.11,
+            "regularMarketChangePercent": -2.999,
+            "fulldayPrice": 309.735,
+            "fulldayChange": -13.055,
+            "fulldayChangePercent": -4.044,
+            "fiftyTwoWeekHigh": 595.51,
+            "fiftyTwoWeekLow": 110.22,
+            "regularMarketDayHigh": 329.25,
+            "regularMarketDayLow": 308.926,
+            "regularMarketVolume": 6431027,
+            "longName": "Dell Technologies Inc.",
+            "shortName": "Dell Technologies Inc.",
+            "chartPreviousClose": 91.96,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  6245800,
+                  30868500,
+                  17449100
+                ],
+                "low": [
+                  89.83000183105469,
+                  76.72000122070312,
+                  69.41999816894531
+                ],
+                "open": [
+                  89.97000122070312,
+                  85.75,
+                  74.66000366210938
+                ],
+                "close": [
+                  95.33000183105469,
+                  77.2300033569336,
+                  71.62999725341797
+                ],
+                "high": [
+                  95.72000122070312,
+                  86.20999908447266,
+                  74.94000244140625
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  93.02106475830078,
+                  75.35945892333984,
+                  69.89508819580078
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

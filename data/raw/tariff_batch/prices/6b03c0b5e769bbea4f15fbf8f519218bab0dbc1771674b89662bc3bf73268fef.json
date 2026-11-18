@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ANET?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:20.668160+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ANET",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1402061400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 193.94,
+            "regularMarketChangePercent": 4.034,
+            "fulldayPrice": 193.127,
+            "fulldayChange": 6.707,
+            "fulldayChangePercent": 3.598,
+            "fiftyTwoWeekHigh": 217.41,
+            "fiftyTwoWeekLow": 114.52,
+            "regularMarketDayHigh": 195.23,
+            "regularMarketDayLow": 182.425,
+            "regularMarketVolume": 6717126,
+            "longName": "Arista Networks, Inc.",
+            "shortName": "Arista Networks, Inc.",
+            "chartPreviousClose": 78.49,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  80.16000366210938,
+                  71.2699966430664,
+                  64.37000274658203
+                ],
+                "high": [
+                  81.20999908447266,
+                  75.55000305175781,
+                  68.80000305175781
+                ],
+                "open": [
+                  75.7249984741211,
+                  73.22000122070312,
+                  67.5199966430664
+                ],
+                "low": [
+                  75.5,
+                  71.13999938964844,
+                  62.41999816894531
+                ],
+                "volume": [
+                  7163700,
+                  19579700,
+                  21792400
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  80.16000366210938,
+                  71.2699966430664,
+                  64.37000274658203
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

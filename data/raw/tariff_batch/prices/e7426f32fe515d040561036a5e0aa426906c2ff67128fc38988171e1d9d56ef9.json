@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/WFC?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:09.356340+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "WFC",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 76253400,
+            "regularMarketTime": 1795035663,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 80.92,
+            "regularMarketChangePercent": -2.141,
+            "fulldayPrice": 80.92,
+            "fulldayChange": -1.77,
+            "fulldayChangePercent": -2.141,
+            "fiftyTwoWeekHigh": 97.76,
+            "fiftyTwoWeekLow": 72.78,
+            "regularMarketDayHigh": 82.549,
+            "regularMarketDayLow": 80.82,
+            "regularMarketVolume": 10246044,
+            "longName": "Wells Fargo & Company",
+            "shortName": "Wells Fargo & Company",
+            "chartPreviousClose": 71.31,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  72.47000122070312,
+                  68.72000122070312,
+                  63.56999969482422
+                ],
+                "close": [
+                  72.26000213623047,
+                  65.66999816894531,
+                  60.97999954223633
+                ],
+                "low": [
+                  70.22000122070312,
+                  65.41000366210938,
+                  59.709999084472656
+                ],
+                "volume": [
+                  8854100,
+                  25880300,
+                  31050800
+                ],
+                "open": [
+                  70.55999755859375,
+                  67.77999877929688,
+                  62.75
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  69.50899505615234,
+                  63.16986846923828,
+                  58.65843200683594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

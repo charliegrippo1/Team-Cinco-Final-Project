@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/POOL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:56.539047+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "POOL",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 813591000,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 213.41,
+            "regularMarketChangePercent": 2.935,
+            "fulldayPrice": 213.41,
+            "fulldayChange": 6.085,
+            "fulldayChangePercent": 2.935,
+            "fiftyTwoWeekHigh": 278.17,
+            "fiftyTwoWeekLow": 152.7,
+            "regularMarketDayHigh": 214.2,
+            "regularMarketDayLow": 204.0,
+            "regularMarketVolume": 523639,
+            "longName": "Pool Corporation",
+            "shortName": "Pool Corporation",
+            "chartPreviousClose": 318.13,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  315.6499938964844,
+                  309.739990234375,
+                  301.42999267578125
+                ],
+                "open": [
+                  315.6499938964844,
+                  315.760009765625,
+                  314.989990234375
+                ],
+                "volume": [
+                  341200,
+                  958600,
+                  789900
+                ],
+                "high": [
+                  326.70001220703125,
+                  317.3500061035156,
+                  320.05999755859375
+                ],
+                "close": [
+                  325.6600036621094,
+                  313.8500061035156,
+                  315.04998779296875
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  313.3315124511719,
+                  301.96868896484375,
+                  303.1231689453125
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

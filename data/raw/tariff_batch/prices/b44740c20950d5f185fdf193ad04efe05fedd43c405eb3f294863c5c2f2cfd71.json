@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/RMD?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:36.221501+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "RMD",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 802099800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 242.61,
+            "regularMarketChangePercent": 2.001,
+            "fulldayPrice": 242.489,
+            "fulldayChange": 4.639,
+            "fulldayChangePercent": 1.95,
+            "fiftyTwoWeekHigh": 277.67,
+            "fiftyTwoWeekLow": 180.27,
+            "regularMarketDayHigh": 246.12,
+            "regularMarketDayLow": 236.25,
+            "regularMarketVolume": 1218306,
+            "longName": "ResMed Inc.",
+            "shortName": "ResMed Inc.",
+            "chartPreviousClose": 222.3,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  219.74000549316406,
+                  217.0,
+                  209.66000366210938
+                ],
+                "low": [
+                  219.08999633789062,
+                  211.72000122070312,
+                  204.50999450683594
+                ],
+                "volume": [
+                  625900,
+                  1511700,
+                  2065600
+                ],
+                "close": [
+                  223.0,
+                  213.35000610351562,
+                  205.1699981689453
+                ],
+                "high": [
+                  223.55999755859375,
+                  218.52999877929688,
+                  211.5500030517578
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  219.12118530273438,
+                  209.6390380859375,
+                  201.601318359375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

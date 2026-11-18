@@ -1,0 +1,119 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/VLTO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:43.113580+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "VLTO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1696426200,
+            "regularMarketTime": 1795035698,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 117.87,
+            "regularMarketChangePercent": -0.431,
+            "fulldayPrice": 117.87,
+            "fulldayChange": -0.51,
+            "fulldayChangePercent": -0.431,
+            "fiftyTwoWeekHigh": 120.35,
+            "fiftyTwoWeekLow": 80.03,
+            "regularMarketDayHigh": 118.795,
+            "regularMarketDayLow": 117.06,
+            "regularMarketVolume": 2073620,
+            "longName": "Veralto Corporation",
+            "shortName": "Veralto Corp",
+            "chartPreviousClose": 97.62,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  96.43000030517578,
+                  93.7300033569336,
+                  88.68000030517578
+                ],
+                "volume": [
+                  790900,
+                  1780500,
+                  2531500
+                ],
+                "open": [
+                  97.13999938964844,
+                  97.1500015258789,
+                  92.81999969482422
+                ],
+                "close": [
+                  98.68000030517578,
+                  93.9000015258789,
+                  88.81999969482422
+                ],
+                "high": [
+                  98.77999877929688,
+                  98.13999938964844,
+                  92.81999969482422
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  97.91806030273438,
+                  93.17497253417969,
+                  88.1341781616211
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

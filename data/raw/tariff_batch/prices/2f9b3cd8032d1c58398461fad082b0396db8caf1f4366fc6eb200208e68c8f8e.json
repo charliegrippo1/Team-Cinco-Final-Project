@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TRV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:25.209545+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TRV",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 185466600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 391.58,
+            "regularMarketChangePercent": -1.509,
+            "fulldayPrice": 391.58,
+            "fulldayChange": -6.0,
+            "fulldayChangePercent": -1.509,
+            "fiftyTwoWeekHigh": 418.0,
+            "fiftyTwoWeekLow": 268.0,
+            "regularMarketDayHigh": 396.44,
+            "regularMarketDayLow": 388.44,
+            "regularMarketVolume": 1647668,
+            "longName": "The Travelers Companies, Inc.",
+            "shortName": "The Travelers Companies, Inc.",
+            "chartPreviousClose": 264.54,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  264.489990234375,
+                  263.1000061035156,
+                  242.25999450683594
+                ],
+                "volume": [
+                  1050200,
+                  1519700,
+                  2471800
+                ],
+                "low": [
+                  260.7300109863281,
+                  260.7799987792969,
+                  239.83999633789062
+                ],
+                "high": [
+                  265.1600036621094,
+                  266.2200012207031,
+                  258.010009765625
+                ],
+                "open": [
+                  262.8299865722656,
+                  262.57000732421875,
+                  257.2200012207031
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  258.3951110839844,
+                  257.0371398925781,
+                  236.67738342285156
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

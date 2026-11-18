@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PFE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:14.281582+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PFE",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 76253400,
+            "regularMarketTime": 1795035725,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 28.06,
+            "regularMarketChangePercent": -1.44,
+            "fulldayPrice": 28.05,
+            "fulldayChange": -0.42,
+            "fulldayChangePercent": -1.475,
+            "fiftyTwoWeekHigh": 31.44,
+            "fiftyTwoWeekLow": 23.62,
+            "regularMarketDayHigh": 28.536,
+            "regularMarketDayLow": 28.0,
+            "regularMarketVolume": 37368306,
+            "longName": "Pfizer Inc.",
+            "shortName": "Pfizer, Inc.",
+            "chartPreviousClose": 24.54,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  41965000,
+                  53501800,
+                  80002600
+                ],
+                "low": [
+                  24.309999465942383,
+                  24.280000686645508,
+                  22.950000762939453
+                ],
+                "high": [
+                  24.739999771118164,
+                  24.8700008392334,
+                  24.100000381469727
+                ],
+                "close": [
+                  24.700000762939453,
+                  24.290000915527344,
+                  22.969999313354492
+                ],
+                "open": [
+                  24.5,
+                  24.739999771118164,
+                  23.940000534057617
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  21.944578170776367,
+                  21.5803165435791,
+                  20.40756607055664
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:49.110526+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TSN",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 64.25,
+            "regularMarketChangePercent": 0.943,
+            "fulldayPrice": 64.25,
+            "fulldayChange": 0.6,
+            "fulldayChangePercent": 0.943,
+            "fiftyTwoWeekHigh": 69.48,
+            "fiftyTwoWeekLow": 49.96,
+            "regularMarketDayHigh": 64.85,
+            "regularMarketDayLow": 63.22,
+            "regularMarketVolume": 4336298,
+            "longName": "Tyson Foods, Inc.",
+            "shortName": "Tyson Foods, Inc.",
+            "chartPreviousClose": 63.11,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  63.279998779296875,
+                  63.369998931884766,
+                  62.02000045776367
+                ],
+                "low": [
+                  62.5099983215332,
+                  63.02000045776367,
+                  59.7400016784668
+                ],
+                "volume": [
+                  1528500,
+                  2595600,
+                  3322600
+                ],
+                "close": [
+                  62.75,
+                  63.560001373291016,
+                  59.810001373291016
+                ],
+                "high": [
+                  63.720001220703125,
+                  64.36000061035156,
+                  63.0
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  59.543087005615234,
+                  60.31169128417969,
+                  56.75333786010742
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

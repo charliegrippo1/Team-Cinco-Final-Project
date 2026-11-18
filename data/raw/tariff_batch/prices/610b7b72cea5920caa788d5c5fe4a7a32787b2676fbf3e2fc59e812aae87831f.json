@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/XYL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:38.726198+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "XYL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1318512600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 95.2,
+            "regularMarketChangePercent": 0.581,
+            "fulldayPrice": 95.2,
+            "fulldayChange": 0.55,
+            "fulldayChangePercent": 0.581,
+            "fiftyTwoWeekHigh": 146.55,
+            "fiftyTwoWeekLow": 87.4,
+            "regularMarketDayHigh": 95.93,
+            "regularMarketDayLow": 92.71,
+            "regularMarketVolume": 2695810,
+            "longName": "Xylem Inc.",
+            "shortName": "Xylem Inc.",
+            "chartPreviousClose": 119.88,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  119.05000305175781,
+                  110.98999786376953,
+                  104.5999984741211
+                ],
+                "high": [
+                  119.25,
+                  116.27999877929688,
+                  108.27999877929688
+                ],
+                "low": [
+                  117.73999786376953,
+                  110.87999725341797,
+                  104.23999786376953
+                ],
+                "volume": [
+                  2648400,
+                  2755600,
+                  2835500
+                ],
+                "open": [
+                  118.51000213623047,
+                  115.45999908447266,
+                  108.0
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  116.70680236816406,
+                  108.80545043945312,
+                  102.54122161865234
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

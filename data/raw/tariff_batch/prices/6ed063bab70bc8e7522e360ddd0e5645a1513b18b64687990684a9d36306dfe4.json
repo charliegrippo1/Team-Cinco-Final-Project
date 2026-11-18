@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ABT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:09.475939+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ABT",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 104.48,
+            "regularMarketChangePercent": -0.22,
+            "fulldayPrice": 104.48,
+            "fulldayChange": -0.23,
+            "fulldayChangePercent": -0.22,
+            "fiftyTwoWeekHigh": 131.49,
+            "fiftyTwoWeekLow": 81.97,
+            "regularMarketDayHigh": 105.905,
+            "regularMarketDayLow": 103.34,
+            "regularMarketVolume": 7018442,
+            "longName": "Abbott Laboratories",
+            "shortName": "Abbott Laboratories",
+            "chartPreviousClose": 131.69,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  4236200,
+                  6239200,
+                  10776900
+                ],
+                "open": [
+                  130.63999938964844,
+                  131.91000366210938,
+                  131.22999572753906
+                ],
+                "close": [
+                  131.92999267578125,
+                  131.6300048828125,
+                  124.44000244140625
+                ],
+                "low": [
+                  129.75999450683594,
+                  131.47999572753906,
+                  124.0
+                ],
+                "high": [
+                  132.1300048828125,
+                  133.63999938964844,
+                  132.39999389648438
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  126.99952697753906,
+                  126.71074676513672,
+                  119.78946685791016
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

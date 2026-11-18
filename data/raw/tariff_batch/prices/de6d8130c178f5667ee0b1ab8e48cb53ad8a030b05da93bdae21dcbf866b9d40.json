@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:11.552062+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DIS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035837,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 122.36,
+            "regularMarketChangePercent": 4.635,
+            "fulldayPrice": 122.343,
+            "fulldayChange": 5.403,
+            "fulldayChangePercent": 4.62,
+            "fiftyTwoWeekHigh": 123.37,
+            "fiftyTwoWeekLow": 92.19,
+            "regularMarketDayHigh": 123.37,
+            "regularMarketDayLow": 116.65,
+            "regularMarketVolume": 17500325,
+            "longName": "The Walt Disney Company",
+            "shortName": "Walt Disney Company (The)",
+            "chartPreviousClose": 97.68,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  96.62000274658203,
+                  94.51000213623047,
+                  86.0
+                ],
+                "low": [
+                  96.44999694824219,
+                  88.61000061035156,
+                  83.08000183105469
+                ],
+                "close": [
+                  97.87999725341797,
+                  88.83999633789062,
+                  83.52999877929688
+                ],
+                "volume": [
+                  7959900,
+                  19353400,
+                  22580900
+                ],
+                "high": [
+                  98.30999755859375,
+                  94.77999877929688,
+                  87.54000091552734
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  96.0732192993164,
+                  87.20008087158203,
+                  81.98810577392578
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

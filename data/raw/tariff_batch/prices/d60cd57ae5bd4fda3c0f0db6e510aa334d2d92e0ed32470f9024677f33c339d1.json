@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADP?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:16.266424+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ADP",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 305.57,
+            "regularMarketChangePercent": -0.882,
+            "fulldayPrice": 305.57,
+            "fulldayChange": -2.72,
+            "fulldayChangePercent": -0.882,
+            "fiftyTwoWeekHigh": 316.14,
+            "fiftyTwoWeekLow": 188.16,
+            "regularMarketDayHigh": 309.085,
+            "regularMarketDayLow": 304.77,
+            "regularMarketVolume": 1895846,
+            "longName": "Automatic Data Processing, Inc.",
+            "shortName": "Automatic Data Processing, Inc.",
+            "chartPreviousClose": 306.54,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  304.92999267578125,
+                  304.69000244140625,
+                  305.5799865722656
+                ],
+                "high": [
+                  307.9700012207031,
+                  309.5,
+                  306.0
+                ],
+                "volume": [
+                  1089300,
+                  1998800,
+                  3769200
+                ],
+                "low": [
+                  303.75,
+                  303.4800109863281,
+                  285.8999938964844
+                ],
+                "close": [
+                  307.2300109863281,
+                  305.3900146484375,
+                  286.1300048828125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  295.5453796386719,
+                  293.7753601074219,
+                  275.2478332519531
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

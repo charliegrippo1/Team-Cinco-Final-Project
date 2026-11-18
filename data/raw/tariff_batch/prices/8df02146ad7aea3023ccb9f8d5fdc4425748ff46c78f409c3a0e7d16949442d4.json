@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAA?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:47.612813+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MAA",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 759767400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 115.46,
+            "regularMarketChangePercent": -0.68,
+            "fulldayPrice": 115.46,
+            "fulldayChange": -0.79,
+            "fulldayChangePercent": -0.68,
+            "fiftyTwoWeekHigh": 144.41,
+            "fiftyTwoWeekLow": 113.95,
+            "regularMarketDayHigh": 116.37,
+            "regularMarketDayLow": 114.835,
+            "regularMarketVolume": 973163,
+            "longName": "Mid-America Apartment Communities, Inc.",
+            "shortName": "Mid-America Apartment Communiti",
+            "chartPreviousClose": 167.48,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  167.52000427246094,
+                  166.24000549316406,
+                  162.72999572753906
+                ],
+                "low": [
+                  166.64999389648438,
+                  163.1199951171875,
+                  152.6999969482422
+                ],
+                "close": [
+                  168.0,
+                  163.63999938964844,
+                  153.0800018310547
+                ],
+                "high": [
+                  168.7100067138672,
+                  168.4499969482422,
+                  164.1300048828125
+                ],
+                "volume": [
+                  511400,
+                  1011500,
+                  1386500
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  155.18069458007812,
+                  151.15338134765625,
+                  141.399169921875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

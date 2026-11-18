@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CPT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:55.926274+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CPT",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 743347800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 97.7,
+            "regularMarketChangePercent": -0.316,
+            "fulldayPrice": 97.7,
+            "fulldayChange": -0.31,
+            "fulldayChangePercent": -0.316,
+            "fiftyTwoWeekHigh": 119.81,
+            "fiftyTwoWeekLow": 95.3,
+            "regularMarketDayHigh": 98.25,
+            "regularMarketDayLow": 96.5,
+            "regularMarketVolume": 880963,
+            "longName": "Camden Property Trust",
+            "shortName": "Camden Property Trust",
+            "chartPreviousClose": 121.92,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  121.25,
+                  118.66999816894531,
+                  110.2699966430664
+                ],
+                "close": [
+                  122.80000305175781,
+                  118.88999938964844,
+                  110.43000030517578
+                ],
+                "high": [
+                  123.13999938964844,
+                  123.30999755859375,
+                  117.62999725341797
+                ],
+                "open": [
+                  121.94999694824219,
+                  121.52999877929688,
+                  117.62999725341797
+                ],
+                "volume": [
+                  844500,
+                  1079800,
+                  1960400
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  115.64566802978516,
+                  111.96346282958984,
+                  103.99634552001953
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

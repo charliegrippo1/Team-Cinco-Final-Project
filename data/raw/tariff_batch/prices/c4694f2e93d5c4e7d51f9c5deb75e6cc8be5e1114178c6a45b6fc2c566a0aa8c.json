@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/O?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:27.711818+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "O",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 782487000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 58.28,
+            "regularMarketChangePercent": 0.414,
+            "fulldayPrice": 57.99,
+            "fulldayChange": -0.05,
+            "fulldayChangePercent": -0.086,
+            "fiftyTwoWeekHigh": 67.94,
+            "fiftyTwoWeekLow": 53.15,
+            "regularMarketDayHigh": 58.53,
+            "regularMarketDayLow": 57.45,
+            "regularMarketVolume": 6400266,
+            "longName": "Realty Income Corporation",
+            "shortName": "Realty Income Corporation",
+            "chartPreviousClose": 57.15,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  57.54999923706055,
+                  58.15999984741211,
+                  56.9900016784668
+                ],
+                "close": [
+                  57.119998931884766,
+                  57.060001373291016,
+                  55.150001525878906
+                ],
+                "low": [
+                  56.68000030517578,
+                  56.380001068115234,
+                  55.06999969482422
+                ],
+                "volume": [
+                  4765600,
+                  9623700,
+                  12097500
+                ],
+                "open": [
+                  57.36000061035156,
+                  57.5099983215332,
+                  56.33000183105469
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  52.39369201660156,
+                  52.338661193847656,
+                  50.58669662475586
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

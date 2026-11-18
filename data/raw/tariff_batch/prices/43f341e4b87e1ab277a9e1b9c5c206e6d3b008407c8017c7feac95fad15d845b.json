@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CAG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:56.144056+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CAG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 14.83,
+            "regularMarketChangePercent": 1.091,
+            "fulldayPrice": 14.83,
+            "fulldayChange": 0.16,
+            "fulldayChangePercent": 1.091,
+            "fiftyTwoWeekHigh": 20.32,
+            "fiftyTwoWeekLow": 12.53,
+            "regularMarketDayHigh": 14.98,
+            "regularMarketDayLow": 14.4,
+            "regularMarketVolume": 10525702,
+            "longName": "Conagra Brands, Inc.",
+            "shortName": "ConAgra Brands, Inc.",
+            "chartPreviousClose": 26.6,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  26.3799991607666,
+                  26.780000686645508,
+                  26.68000030517578
+                ],
+                "volume": [
+                  8200700,
+                  11473400,
+                  11257600
+                ],
+                "low": [
+                  26.040000915527344,
+                  26.200000762939453,
+                  26.530000686645508
+                ],
+                "open": [
+                  26.700000762939453,
+                  27.0,
+                  26.700000762939453
+                ],
+                "high": [
+                  26.739999771118164,
+                  27.649999618530273,
+                  27.68000030517578
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  23.389738082885742,
+                  23.74439811706543,
+                  23.655729293823242
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

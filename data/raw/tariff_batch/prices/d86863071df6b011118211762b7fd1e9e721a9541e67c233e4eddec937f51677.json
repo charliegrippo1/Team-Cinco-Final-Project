@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:25.043477+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "APO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1301491800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 117.26,
+            "regularMarketChangePercent": -0.058,
+            "fulldayPrice": 117.26,
+            "fulldayChange": -0.067,
+            "fulldayChangePercent": -0.058,
+            "fiftyTwoWeekHigh": 153.29,
+            "fiftyTwoWeekLow": 99.56,
+            "regularMarketDayHigh": 117.87,
+            "regularMarketDayLow": 115.17,
+            "regularMarketVolume": 2880871,
+            "longName": "Apollo Global Management, Inc.",
+            "shortName": "Apollo Global Management, Inc. ",
+            "chartPreviousClose": 138.37,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  135.1699981689453,
+                  122.13999938964844,
+                  105.61000061035156
+                ],
+                "high": [
+                  142.77999877929688,
+                  128.89999389648438,
+                  117.18000030517578
+                ],
+                "open": [
+                  135.1699981689453,
+                  128.52999877929688,
+                  116.43000030517578
+                ],
+                "close": [
+                  141.52000427246094,
+                  123.44999694824219,
+                  108.68000030517578
+                ],
+                "volume": [
+                  2418300,
+                  11819600,
+                  13261700
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  138.2156219482422,
+                  120.5675277709961,
+                  106.14241027832031
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

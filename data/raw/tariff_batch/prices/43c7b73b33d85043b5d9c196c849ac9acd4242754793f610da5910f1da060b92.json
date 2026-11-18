@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:00.826862+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ALB",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 761927400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 85.82,
+            "regularMarketChangePercent": -2.11,
+            "fulldayPrice": 85.82,
+            "fulldayChange": -1.85,
+            "fulldayChangePercent": -2.11,
+            "fiftyTwoWeekHigh": 221.0,
+            "fiftyTwoWeekLow": 85.22,
+            "regularMarketDayHigh": 87.71,
+            "regularMarketDayLow": 85.22,
+            "regularMarketVolume": 2156993,
+            "longName": "Albemarle Corporation",
+            "shortName": "Albemarle Corporation",
+            "chartPreviousClose": 71.82,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  1831600,
+                  3725000,
+                  6136900
+                ],
+                "low": [
+                  70.33000183105469,
+                  66.1500015258789,
+                  57.529998779296875
+                ],
+                "open": [
+                  70.69999694824219,
+                  69.2300033569336,
+                  63.2400016784668
+                ],
+                "close": [
+                  72.25,
+                  66.5,
+                  58.5099983215332
+                ],
+                "high": [
+                  73.63999938964844,
+                  69.76000213623047,
+                  64.9800033569336
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  70.5849838256836,
+                  64.9675064086914,
+                  57.16162872314453
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

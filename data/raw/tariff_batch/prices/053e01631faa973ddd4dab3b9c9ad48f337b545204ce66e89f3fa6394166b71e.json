@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LYV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:46.498548+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LYV",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1135175400,
+            "regularMarketTime": 1795035698,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 181.56,
+            "regularMarketChangePercent": 2.984,
+            "fulldayPrice": 181.56,
+            "fulldayChange": 5.26,
+            "fulldayChangePercent": 2.984,
+            "fiftyTwoWeekHigh": 189.25,
+            "fiftyTwoWeekLow": 125.34,
+            "regularMarketDayHigh": 182.385,
+            "regularMarketDayLow": 176.095,
+            "regularMarketVolume": 3367022,
+            "longName": "Live Nation Entertainment, Inc.",
+            "shortName": "Live Nation Entertainment, Inc.",
+            "chartPreviousClose": 132.01,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  134.8300018310547,
+                  130.36000061035156,
+                  123.04000091552734
+                ],
+                "low": [
+                  129.99000549316406,
+                  125.56999969482422,
+                  117.83000183105469
+                ],
+                "close": [
+                  134.64999389648438,
+                  126.05999755859375,
+                  120.83999633789062
+                ],
+                "open": [
+                  129.99000549316406,
+                  127.88999938964844,
+                  121.80000305175781
+                ],
+                "volume": [
+                  2607200,
+                  3396700,
+                  3786000
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  134.64999389648438,
+                  126.05999755859375,
+                  120.83999633789062
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

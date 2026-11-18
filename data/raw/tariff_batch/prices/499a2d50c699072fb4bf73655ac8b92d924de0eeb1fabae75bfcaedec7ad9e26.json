@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:42.396976+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ATO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 441469800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 171.66,
+            "regularMarketChangePercent": -0.145,
+            "fulldayPrice": 171.66,
+            "fulldayChange": -0.25,
+            "fulldayChangePercent": -0.145,
+            "fiftyTwoWeekHigh": 192.51,
+            "fiftyTwoWeekLow": 154.72,
+            "regularMarketDayHigh": 173.37,
+            "regularMarketDayLow": 170.94,
+            "regularMarketVolume": 979769,
+            "longName": "Atmos Energy Corporation",
+            "shortName": "Atmos Energy Corporation",
+            "chartPreviousClose": 154.94,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  155.6199951171875,
+                  157.6199951171875,
+                  156.0
+                ],
+                "volume": [
+                  718500,
+                  1159000,
+                  1431800
+                ],
+                "close": [
+                  155.2100067138672,
+                  155.2899932861328,
+                  147.80999755859375
+                ],
+                "open": [
+                  154.75,
+                  155.58999633789062,
+                  154.47999572753906
+                ],
+                "low": [
+                  153.60000610351562,
+                  155.07000732421875,
+                  147.07000732421875
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  150.0740203857422,
+                  150.15139770507812,
+                  142.91888427734375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HSY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:41.544997+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HSY",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 175.94,
+            "regularMarketChangePercent": 1.284,
+            "fulldayPrice": 175.94,
+            "fulldayChange": 2.23,
+            "fulldayChangePercent": 1.284,
+            "fiftyTwoWeekHigh": 239.48,
+            "fiftyTwoWeekLow": 156.16,
+            "regularMarketDayHigh": 176.91,
+            "regularMarketDayLow": 171.88,
+            "regularMarketVolume": 1554674,
+            "longName": "The Hershey Company",
+            "shortName": "The Hershey Company",
+            "chartPreviousClose": 169.62,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  163.9499969482422,
+                  166.8300018310547,
+                  162.24000549316406
+                ],
+                "volume": [
+                  1644900,
+                  3022000,
+                  2504500
+                ],
+                "open": [
+                  169.97000122070312,
+                  163.64999389648438,
+                  168.0
+                ],
+                "high": [
+                  171.25,
+                  167.47999572753906,
+                  171.5800018310547
+                ],
+                "low": [
+                  163.42999267578125,
+                  162.27000427246094,
+                  161.22000122070312
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  155.3143310546875,
+                  158.04261779785156,
+                  153.69439697265625
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:08.289190+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CVX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035848,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 205.88,
+            "regularMarketChangePercent": -3.951,
+            "fulldayPrice": 205.88,
+            "fulldayChange": -8.47,
+            "fulldayChangePercent": -3.951,
+            "fiftyTwoWeekHigh": 236.48,
+            "fiftyTwoWeekLow": 146.49,
+            "regularMarketDayHigh": 213.58,
+            "regularMarketDayLow": 205.73,
+            "regularMarketVolume": 9907782,
+            "longName": "Chevron Corporation",
+            "shortName": "Chevron Corporation",
+            "chartPreviousClose": 168.51,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  167.97999572753906,
+                  161.35000610351562,
+                  152.4600067138672
+                ],
+                "low": [
+                  165.85000610351562,
+                  155.8000030517578,
+                  142.75
+                ],
+                "close": [
+                  166.47000122070312,
+                  156.1199951171875,
+                  143.27999877929688
+                ],
+                "open": [
+                  167.39999389648438,
+                  160.1199951171875,
+                  151.75999450683594
+                ],
+                "volume": [
+                  7044900,
+                  15501000,
+                  20374700
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  156.4896240234375,
+                  146.76010131835938,
+                  134.68991088867188
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

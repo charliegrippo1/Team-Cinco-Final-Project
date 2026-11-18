@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LDOS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:50.246902+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LDOS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1161091800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 125.71,
+            "regularMarketChangePercent": -1.981,
+            "fulldayPrice": 125.71,
+            "fulldayChange": -2.54,
+            "fulldayChangePercent": -1.981,
+            "fiftyTwoWeekHigh": 205.0,
+            "fiftyTwoWeekLow": 98.86,
+            "regularMarketDayHigh": 128.01,
+            "regularMarketDayLow": 125.0,
+            "regularMarketVolume": 803141,
+            "longName": "Leidos Holdings, Inc.",
+            "shortName": "Leidos Holdings, Inc.",
+            "chartPreviousClose": 134.96,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  142.94000244140625,
+                  139.49000549316406,
+                  133.13999938964844
+                ],
+                "low": [
+                  132.42999267578125,
+                  138.00999450683594,
+                  133.11000061035156
+                ],
+                "high": [
+                  143.5500030517578,
+                  143.9600067138672,
+                  140.30999755859375
+                ],
+                "volume": [
+                  3736900,
+                  2090400,
+                  2770600
+                ],
+                "open": [
+                  133.1699981689453,
+                  139.13999938964844,
+                  136.8000030517578
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  140.6181182861328,
+                  137.22415161132812,
+                  130.97731018066406
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

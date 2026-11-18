@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MOH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:48.854907+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MOH",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1057152600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 206.56,
+            "regularMarketChangePercent": -6.623,
+            "fulldayPrice": 206.56,
+            "fulldayChange": -14.65,
+            "fulldayChangePercent": -6.623,
+            "fiftyTwoWeekHigh": 244.89,
+            "fiftyTwoWeekLow": 121.06,
+            "regularMarketDayHigh": 220.66,
+            "regularMarketDayLow": 203.58,
+            "regularMarketVolume": 1331890,
+            "longName": "Molina Healthcare, Inc.",
+            "shortName": "Molina Healthcare Inc",
+            "chartPreviousClose": 327.71,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  384100,
+                  1509400,
+                  1049800
+                ],
+                "open": [
+                  326.82000732421875,
+                  332.79998779296875,
+                  351.5299987792969
+                ],
+                "high": [
+                  329.32000732421875,
+                  357.5,
+                  359.9700012207031
+                ],
+                "low": [
+                  322.5299987792969,
+                  332.1700134277344,
+                  341.54998779296875
+                ],
+                "close": [
+                  328.489990234375,
+                  353.239990234375,
+                  346.7099914550781
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  328.489990234375,
+                  353.239990234375,
+                  346.7099914550781
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

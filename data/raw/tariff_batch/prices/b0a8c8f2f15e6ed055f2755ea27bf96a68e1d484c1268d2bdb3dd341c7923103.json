@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DAL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:39.580110+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DAL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1178199000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 84.88,
+            "regularMarketChangePercent": 0.688,
+            "fulldayPrice": 85.0,
+            "fulldayChange": 0.7,
+            "fulldayChangePercent": 0.83,
+            "fiftyTwoWeekHigh": 95.68,
+            "fiftyTwoWeekLow": 55.28,
+            "regularMarketDayHigh": 86.36,
+            "regularMarketDayLow": 84.29,
+            "regularMarketVolume": 3973145,
+            "longName": "Delta Air Lines, Inc.",
+            "shortName": "Delta Air Lines, Inc.",
+            "chartPreviousClose": 42.42,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  10066500,
+                  18127900,
+                  22165500
+                ],
+                "high": [
+                  43.560001373291016,
+                  40.68000030517578,
+                  37.79999923706055
+                ],
+                "low": [
+                  41.38999938964844,
+                  38.650001525878906,
+                  34.7400016784668
+                ],
+                "open": [
+                  41.439998626708984,
+                  40.56999969482422,
+                  37.279998779296875
+                ],
+                "close": [
+                  43.369998931884766,
+                  38.709999084472656,
+                  37.25
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  42.5052375793457,
+                  37.93815612792969,
+                  36.507266998291016
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/COST?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:07.012998+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "COST",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 521299800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 1096.62,
+            "regularMarketChangePercent": -1.213,
+            "fulldayPrice": 1097.6,
+            "fulldayChange": -12.48,
+            "fulldayChangePercent": -1.124,
+            "fiftyTwoWeekHigh": 1123.67,
+            "fiftyTwoWeekLow": 844.06,
+            "regularMarketDayHigh": 1113.81,
+            "regularMarketDayLow": 1096.01,
+            "regularMarketVolume": 2227518,
+            "longName": "Costco Wholesale Corporation",
+            "shortName": "Costco Wholesale Corporation",
+            "chartPreviousClose": 954.4,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  965.0800170898438,
+                  967.0800170898438,
+                  916.47998046875
+                ],
+                "volume": [
+                  1719900,
+                  3096900,
+                  5167000
+                ],
+                "open": [
+                  950.8400268554688,
+                  931.0800170898438,
+                  955.0
+                ],
+                "high": [
+                  970.8900146484375,
+                  981.3499755859375,
+                  964.52001953125
+                ],
+                "low": [
+                  950.0,
+                  928.0,
+                  914.1400146484375
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  955.4954833984375,
+                  957.4755859375,
+                  907.3779907226562
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

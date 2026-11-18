@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AJG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:19.510995+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AJG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 456586200,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 282.22,
+            "regularMarketChangePercent": -0.233,
+            "fulldayPrice": 282.22,
+            "fulldayChange": -0.66,
+            "fulldayChangePercent": -0.233,
+            "fiftyTwoWeekHigh": 294.53,
+            "fiftyTwoWeekLow": 190.75,
+            "regularMarketDayHigh": 283.39,
+            "regularMarketDayLow": 278.09,
+            "regularMarketVolume": 1133927,
+            "longName": "Arthur J. Gallagher & Co.",
+            "shortName": "Arthur J. Gallagher & Co.",
+            "chartPreviousClose": 343.86,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  340.42999267578125,
+                  342.9200134277344,
+                  341.5899963378906
+                ],
+                "close": [
+                  344.07000732421875,
+                  344.3999938964844,
+                  319.25
+                ],
+                "low": [
+                  339.0199890136719,
+                  340.8500061035156,
+                  316.6300048828125
+                ],
+                "volume": [
+                  1271600,
+                  1322200,
+                  2901900
+                ],
+                "high": [
+                  345.0,
+                  350.70001220703125,
+                  344.8800048828125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  338.66058349609375,
+                  338.9853820800781,
+                  314.2308044433594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

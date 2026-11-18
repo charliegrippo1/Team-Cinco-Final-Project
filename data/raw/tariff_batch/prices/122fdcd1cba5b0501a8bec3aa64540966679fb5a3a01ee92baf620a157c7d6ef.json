@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/COF?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:23.055510+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "COF",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 784996200,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 184.3,
+            "regularMarketChangePercent": -1.328,
+            "fulldayPrice": 184.3,
+            "fulldayChange": -2.48,
+            "fulldayChangePercent": -1.328,
+            "fiftyTwoWeekHigh": 259.64,
+            "fiftyTwoWeekLow": 174.24,
+            "regularMarketDayHigh": 187.96,
+            "regularMarketDayLow": 183.39,
+            "regularMarketVolume": 6647496,
+            "longName": "Capital One Financial Corporation",
+            "shortName": "Capital One Financial Corporati",
+            "chartPreviousClose": 178.22,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  175.0,
+                  166.0,
+                  156.89999389648438
+                ],
+                "high": [
+                  184.30999755859375,
+                  176.4499969482422,
+                  158.5
+                ],
+                "low": [
+                  173.30999755859375,
+                  158.52000427246094,
+                  146.19000244140625
+                ],
+                "volume": [
+                  3579000,
+                  13576300,
+                  11073800
+                ],
+                "close": [
+                  182.17999267578125,
+                  164.0399932861328,
+                  150.57000732421875
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  177.604248046875,
+                  159.9198455810547,
+                  146.78819274902344
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

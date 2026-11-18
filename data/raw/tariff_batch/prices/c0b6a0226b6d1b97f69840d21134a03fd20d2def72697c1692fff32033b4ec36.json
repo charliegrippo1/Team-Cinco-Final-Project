@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:44.578116+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CMS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 69.74,
+            "regularMarketChangePercent": 0.475,
+            "fulldayPrice": 69.74,
+            "fulldayChange": 0.33,
+            "fulldayChangePercent": 0.475,
+            "fiftyTwoWeekHigh": 80.36,
+            "fiftyTwoWeekLow": 62.29,
+            "regularMarketDayHigh": 70.03,
+            "regularMarketDayLow": 69.05,
+            "regularMarketVolume": 2552902,
+            "longName": "CMS Energy Corporation",
+            "shortName": "CMS Energy Corporation",
+            "chartPreviousClose": 75.14,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  75.44999694824219,
+                  76.44999694824219,
+                  76.37999725341797
+                ],
+                "close": [
+                  74.66000366210938,
+                  75.51000213623047,
+                  72.69000244140625
+                ],
+                "volume": [
+                  2172000,
+                  3543300,
+                  4395200
+                ],
+                "low": [
+                  74.47000122070312,
+                  74.66999816894531,
+                  72.38999938964844
+                ],
+                "open": [
+                  75.19999694824219,
+                  75.66999816894531,
+                  76.37999725341797
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  70.75788116455078,
+                  71.56346130371094,
+                  68.89086151123047
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

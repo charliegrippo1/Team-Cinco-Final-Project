@@ -1,0 +1,119 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:20.275008+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "GEV",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1711546200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 772.22,
+            "regularMarketChangePercent": -0.986,
+            "fulldayPrice": 769.18,
+            "fulldayChange": -10.73,
+            "fulldayChangePercent": -1.376,
+            "fiftyTwoWeekHigh": 1195.94,
+            "fiftyTwoWeekLow": 530.16,
+            "regularMarketDayHigh": 800.53,
+            "regularMarketDayLow": 770.0,
+            "regularMarketVolume": 3135030,
+            "longName": "GE Vernova Inc.",
+            "shortName": "GE Vernova Inc.",
+            "chartPreviousClose": 315.64,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  335.7850036621094,
+                  315.8699951171875,
+                  283.4700012207031
+                ],
+                "open": [
+                  307.0799865722656,
+                  306.9549865722656,
+                  277.1600036621094
+                ],
+                "low": [
+                  306.0,
+                  293.4750061035156,
+                  252.25
+                ],
+                "close": [
+                  330.79998779296875,
+                  297.6600036621094,
+                  271.4800109863281
+                ],
+                "volume": [
+                  4203200,
+                  5752200,
+                  8095800
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  329.46282958984375,
+                  296.4568176269531,
+                  270.38262939453125
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

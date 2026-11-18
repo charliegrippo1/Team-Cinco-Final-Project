@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:08.969480+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1205760600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 192.73,
+            "regularMarketChangePercent": -0.849,
+            "fulldayPrice": 192.73,
+            "fulldayChange": -1.65,
+            "fulldayChangePercent": -0.849,
+            "fiftyTwoWeekHigh": 214.35,
+            "fiftyTwoWeekLow": 146.35,
+            "regularMarketDayHigh": 194.04,
+            "regularMarketDayLow": 191.07,
+            "regularMarketVolume": 6227983,
+            "longName": "Philip Morris International Inc.",
+            "shortName": "Philip Morris International Inc",
+            "chartPreviousClose": 158.09,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  158.08999633789062,
+                  159.44000244140625,
+                  161.27000427246094
+                ],
+                "high": [
+                  158.3699951171875,
+                  163.0800018310547,
+                  162.0
+                ],
+                "close": [
+                  156.1699981689453,
+                  162.07000732421875,
+                  150.6199951171875
+                ],
+                "low": [
+                  154.72000122070312,
+                  158.25,
+                  150.08999633789062
+                ],
+                "volume": [
+                  3889000,
+                  10581500,
+                  11951700
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  148.313720703125,
+                  153.91693115234375,
+                  143.0429229736328
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

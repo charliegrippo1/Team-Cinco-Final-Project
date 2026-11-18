@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMI?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:31.073971+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CMI",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035718,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 427.16,
+            "regularMarketChangePercent": -1.569,
+            "fulldayPrice": 427.16,
+            "fulldayChange": -6.81,
+            "fulldayChangePercent": -1.569,
+            "fiftyTwoWeekHigh": 737.76,
+            "fiftyTwoWeekLow": 426.51,
+            "regularMarketDayHigh": 435.64,
+            "regularMarketDayLow": 426.51,
+            "regularMarketVolume": 1474994,
+            "longName": "Cummins Inc.",
+            "shortName": "Cummins Inc.",
+            "chartPreviousClose": 315.36,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  321.239990234375,
+                  308.1099853515625,
+                  286.5899963378906
+                ],
+                "low": [
+                  310.1199951171875,
+                  294.29998779296875,
+                  273.0
+                ],
+                "close": [
+                  319.989990234375,
+                  295.3500061035156,
+                  277.6199951171875
+                ],
+                "open": [
+                  310.75,
+                  308.1099853515625,
+                  285.3800048828125
+                ],
+                "volume": [
+                  611000,
+                  1594600,
+                  1466000
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  312.0037536621094,
+                  287.9787292480469,
+                  270.69122314453125
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

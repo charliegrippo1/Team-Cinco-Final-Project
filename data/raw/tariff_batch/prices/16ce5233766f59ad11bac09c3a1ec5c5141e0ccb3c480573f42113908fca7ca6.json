@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSCO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:38.391213+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TSCO",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 761495400,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 39.01,
+            "regularMarketChangePercent": 1.351,
+            "fulldayPrice": 38.425,
+            "fulldayChange": -0.065,
+            "fulldayChangePercent": -0.168,
+            "fiftyTwoWeekHigh": 56.28,
+            "fiftyTwoWeekLow": 28.36,
+            "regularMarketDayHigh": 39.71,
+            "regularMarketDayLow": 37.6,
+            "regularMarketVolume": 14721114,
+            "longName": "Tractor Supply Company",
+            "shortName": "Tractor Supply Company",
+            "chartPreviousClose": 55.13,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  55.95000076293945,
+                  56.189998626708984,
+                  55.79999923706055
+                ],
+                "low": [
+                  54.25,
+                  54.619998931884766,
+                  52.290000915527344
+                ],
+                "volume": [
+                  3245900,
+                  7008400,
+                  7533400
+                ],
+                "close": [
+                  55.619998931884766,
+                  55.77000045776367,
+                  52.400001525878906
+                ],
+                "open": [
+                  54.560001373291016,
+                  55.63999938964844,
+                  53.5099983215332
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  53.86261749267578,
+                  54.00788497924805,
+                  50.744361877441406
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

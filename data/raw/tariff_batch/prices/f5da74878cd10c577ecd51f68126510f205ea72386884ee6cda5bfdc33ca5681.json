@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CZR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:03.386169+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CZR",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1411392600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 29.35,
+            "regularMarketChangePercent": 0.514,
+            "fulldayPrice": 29.35,
+            "fulldayChange": 0.15,
+            "fulldayChangePercent": 0.514,
+            "fiftyTwoWeekHigh": 30.88,
+            "fiftyTwoWeekLow": 17.86,
+            "regularMarketDayHigh": 29.43,
+            "regularMarketDayLow": 29.2,
+            "regularMarketVolume": 2620040,
+            "longName": "Caesars Entertainment, Inc.",
+            "shortName": "Caesars Entertainment, Inc.",
+            "chartPreviousClose": 24.83,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  24.75,
+                  24.399999618530273,
+                  22.690000534057617
+                ],
+                "low": [
+                  24.6299991607666,
+                  23.46500015258789,
+                  21.399999618530273
+                ],
+                "volume": [
+                  6309300,
+                  12087200,
+                  10237500
+                ],
+                "high": [
+                  26.450000762939453,
+                  24.81999969482422,
+                  23.639999389648438
+                ],
+                "close": [
+                  26.270000457763672,
+                  23.770000457763672,
+                  23.18000030517578
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  26.270000457763672,
+                  23.770000457763672,
+                  23.18000030517578
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

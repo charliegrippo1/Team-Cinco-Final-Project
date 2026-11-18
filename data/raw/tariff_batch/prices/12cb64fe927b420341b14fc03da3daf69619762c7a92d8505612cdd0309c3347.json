@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CFG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:49.450350+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CFG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1411565400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 62.03,
+            "regularMarketChangePercent": -1.602,
+            "fulldayPrice": 62.34,
+            "fulldayChange": -0.7,
+            "fulldayChangePercent": -1.11,
+            "fiftyTwoWeekHigh": 75.33,
+            "fiftyTwoWeekLow": 50.2,
+            "regularMarketDayHigh": 63.37,
+            "regularMarketDayLow": 62.005,
+            "regularMarketVolume": 3515386,
+            "longName": "Citizens Financial Group, Inc.",
+            "shortName": "Citizens Financial Group, Inc.",
+            "chartPreviousClose": 40.59,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  41.68000030517578,
+                  39.5,
+                  34.89500045776367
+                ],
+                "open": [
+                  40.04999923706055,
+                  39.5,
+                  34.310001373291016
+                ],
+                "low": [
+                  40.04999923706055,
+                  36.20000076293945,
+                  32.599998474121094
+                ],
+                "close": [
+                  41.65999984741211,
+                  36.220001220703125,
+                  34.27000045776367
+                ],
+                "volume": [
+                  3274800,
+                  6962300,
+                  8827700
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  39.332515716552734,
+                  34.19643783569336,
+                  32.355384826660156
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

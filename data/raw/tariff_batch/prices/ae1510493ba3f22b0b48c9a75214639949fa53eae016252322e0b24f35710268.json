@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BKNG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:13.692679+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BKNG",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 922890600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 153.28,
+            "regularMarketChangePercent": -0.764,
+            "fulldayPrice": 153.28,
+            "fulldayChange": -2.07,
+            "fulldayChangePercent": -1.34,
+            "fiftyTwoWeekHigh": 220.806,
+            "fiftyTwoWeekLow": 146.28,
+            "regularMarketDayHigh": 155.66,
+            "regularMarketDayLow": 152.39,
+            "regularMarketVolume": 4362437,
+            "longName": "Booking Holdings Inc.",
+            "shortName": "Booking Holdings Inc. Common St",
+            "chartPreviousClose": 187.43,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  184.97720336914062,
+                  179.56959533691406,
+                  172.8887939453125
+                ],
+                "volume": [
+                  4835000,
+                  9857500,
+                  12712500
+                ],
+                "high": [
+                  189.1840057373047,
+                  180.9503936767578,
+                  180.52999877929688
+                ],
+                "low": [
+                  184.97720336914062,
+                  175.33839416503906,
+                  171.3607940673828
+                ],
+                "close": [
+                  187.57200622558594,
+                  178.0211944580078,
+                  171.3607940673828
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  185.23118591308594,
+                  175.79959106445312,
+                  169.2223358154297
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PKG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:50.427463+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PKG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 949069800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 243.0,
+            "regularMarketChangePercent": -0.593,
+            "fulldayPrice": 243.0,
+            "fulldayChange": -1.45,
+            "fulldayChangePercent": -0.593,
+            "fiftyTwoWeekHigh": 262.59,
+            "fiftyTwoWeekLow": 191.5,
+            "regularMarketDayHigh": 247.16,
+            "regularMarketDayLow": 242.3,
+            "regularMarketVolume": 561198,
+            "longName": "Packaging Corporation of America",
+            "shortName": "Packaging Corporation of Americ",
+            "chartPreviousClose": 199.93,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  202.47000122070312,
+                  197.22000122070312,
+                  187.24000549316406
+                ],
+                "close": [
+                  201.36000061035156,
+                  189.16000366210938,
+                  183.4199981689453
+                ],
+                "low": [
+                  197.22999572753906,
+                  186.5,
+                  178.85000610351562
+                ],
+                "open": [
+                  197.77999877929688,
+                  197.22000122070312,
+                  185.0500030517578
+                ],
+                "volume": [
+                  680100,
+                  1537100,
+                  1554600
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  193.98167419433594,
+                  182.2287139892578,
+                  176.6990203857422
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

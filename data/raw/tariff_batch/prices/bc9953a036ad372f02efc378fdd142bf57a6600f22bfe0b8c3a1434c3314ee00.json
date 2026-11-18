@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMCSA?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:14.679775+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CMCSA",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 25.24,
+            "regularMarketChangePercent": -0.277,
+            "fulldayPrice": 25.19,
+            "fulldayChange": -0.12,
+            "fulldayChangePercent": -0.474,
+            "fiftyTwoWeekHigh": 32.86,
+            "fiftyTwoWeekLow": 20.48,
+            "regularMarketDayHigh": 25.53,
+            "regularMarketDayLow": 24.99,
+            "regularMarketVolume": 19080619,
+            "longName": "Comcast Corporation",
+            "shortName": "Comcast Corporation",
+            "chartPreviousClose": 34.414,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  34.029991149902344,
+                  34.311153411865234,
+                  32.73664474487305
+                ],
+                "low": [
+                  33.84254837036133,
+                  33.36457443237305,
+                  31.246484756469727
+                ],
+                "high": [
+                  34.34864044189453,
+                  34.35801315307617,
+                  33.130271911621094
+                ],
+                "volume": [
+                  20089049,
+                  28631985,
+                  39814678
+                ],
+                "close": [
+                  34.311153411865234,
+                  33.4770393371582,
+                  31.283973693847656
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  31.93216896057129,
+                  31.15589141845703,
+                  29.114879608154297
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

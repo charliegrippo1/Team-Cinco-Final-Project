@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/GRMN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:35.680780+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "GRMN",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 976285800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 279.52,
+            "regularMarketChangePercent": 0.793,
+            "fulldayPrice": 279.52,
+            "fulldayChange": 2.2,
+            "fulldayChangePercent": 0.793,
+            "fiftyTwoWeekHigh": 314.28,
+            "fiftyTwoWeekLow": 186.67,
+            "regularMarketDayHigh": 281.9,
+            "regularMarketDayLow": 274.565,
+            "regularMarketVolume": 458785,
+            "longName": "Garmin Ltd.",
+            "shortName": "Garmin Ltd.",
+            "chartPreviousClose": 217.57,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  214.25,
+                  189.24000549316406,
+                  179.52000427246094
+                ],
+                "close": [
+                  218.07000732421875,
+                  185.33999633789062,
+                  178.4600067138672
+                ],
+                "high": [
+                  219.1199951171875,
+                  191.0,
+                  183.1300048828125
+                ],
+                "volume": [
+                  911300,
+                  2810000,
+                  2506500
+                ],
+                "low": [
+                  213.74000549316406,
+                  181.9199981689453,
+                  175.11000061035156
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  212.76930236816406,
+                  180.83485412597656,
+                  174.12208557128906
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

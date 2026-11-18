@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/OTIS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:32.411694+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "OTIS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1584624600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 77.67,
+            "regularMarketChangePercent": 0.857,
+            "fulldayPrice": 77.67,
+            "fulldayChange": 0.66,
+            "fulldayChangePercent": 0.857,
+            "fiftyTwoWeekHigh": 94.565,
+            "fiftyTwoWeekLow": 63.575,
+            "regularMarketDayHigh": 78.01,
+            "regularMarketDayLow": 75.76,
+            "regularMarketVolume": 3222091,
+            "longName": "Otis Worldwide Corporation",
+            "shortName": "Otis Worldwide Corporation",
+            "chartPreviousClose": 104.06,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  104.03500366210938,
+                  105.94999694824219,
+                  102.9000015258789
+                ],
+                "low": [
+                  102.68000030517578,
+                  103.22000122070312,
+                  94.7699966430664
+                ],
+                "close": [
+                  103.94000244140625,
+                  104.30000305175781,
+                  94.97000122070312
+                ],
+                "open": [
+                  103.16000366210938,
+                  103.63999938964844,
+                  102.45999908447266
+                ],
+                "volume": [
+                  1922600,
+                  4133800,
+                  5319500
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  100.24970245361328,
+                  100.596923828125,
+                  91.59819030761719
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

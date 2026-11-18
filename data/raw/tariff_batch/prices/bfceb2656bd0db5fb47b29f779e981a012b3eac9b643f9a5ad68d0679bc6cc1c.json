@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:12.506565+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "QCOM",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 692634600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 159.81,
+            "regularMarketChangePercent": -4.116,
+            "fulldayPrice": 159.294,
+            "fulldayChange": -7.376,
+            "fulldayChangePercent": -4.425,
+            "fiftyTwoWeekHigh": 259.92,
+            "fiftyTwoWeekLow": 121.99,
+            "regularMarketDayHigh": 167.31,
+            "regularMarketDayLow": 158.565,
+            "regularMarketVolume": 9148938,
+            "longName": "QUALCOMM Incorporated",
+            "shortName": "QUALCOMM Incorporated",
+            "chartPreviousClose": 153.05,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  150.3699951171875,
+                  138.55999755859375,
+                  126.68000030517578
+                ],
+                "volume": [
+                  5377200,
+                  16465000,
+                  19018600
+                ],
+                "open": [
+                  150.7899932861328,
+                  147.0,
+                  134.33999633789062
+                ],
+                "high": [
+                  155.4600067138672,
+                  147.39999389648438,
+                  135.86000061035156
+                ],
+                "close": [
+                  154.0800018310547,
+                  139.4199981689453,
+                  127.45999908447266
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  149.1864776611328,
+                  134.99208068847656,
+                  123.41193389892578
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DLR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:29.712478+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DLR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1099056600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 178.31,
+            "regularMarketChangePercent": 1.008,
+            "fulldayPrice": 178.31,
+            "fulldayChange": 1.78,
+            "fulldayChangePercent": 1.008,
+            "fiftyTwoWeekHigh": 208.14,
+            "fiftyTwoWeekLow": 146.23,
+            "regularMarketDayHigh": 178.98,
+            "regularMarketDayLow": 175.57,
+            "regularMarketVolume": 2158475,
+            "longName": "Digital Realty Trust, Inc.",
+            "shortName": "Digital Realty Trust, Inc.",
+            "chartPreviousClose": 146.05,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  143.9499969482422,
+                  139.75,
+                  135.52999877929688
+                ],
+                "volume": [
+                  2164400,
+                  3789300,
+                  3800800
+                ],
+                "high": [
+                  149.27000427246094,
+                  144.36000061035156,
+                  140.32000732421875
+                ],
+                "close": [
+                  148.67999267578125,
+                  141.08999633789062,
+                  137.5
+                ],
+                "open": [
+                  144.83999633789062,
+                  143.13999938964844,
+                  139.91000366210938
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  142.53211975097656,
+                  135.25595092773438,
+                  131.81442260742188
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNA?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:50.055651+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "SNA",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 361.97,
+            "regularMarketChangePercent": 0.316,
+            "fulldayPrice": 361.97,
+            "fulldayChange": 1.14,
+            "fulldayChangePercent": 0.316,
+            "fiftyTwoWeekHigh": 423.02,
+            "fiftyTwoWeekLow": 327.71,
+            "regularMarketDayHigh": 367.6,
+            "regularMarketDayLow": 357.14,
+            "regularMarketVolume": 714097,
+            "longName": "Snap-on Incorporated",
+            "shortName": "Snap-On Incorporated",
+            "chartPreviousClose": 339.58,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  336.1600036621094,
+                  331.44000244140625,
+                  320.8599853515625
+                ],
+                "close": [
+                  342.20001220703125,
+                  327.45001220703125,
+                  314.989990234375
+                ],
+                "low": [
+                  336.04998779296875,
+                  324.9200134277344,
+                  313.32000732421875
+                ],
+                "volume": [
+                  302400,
+                  571400,
+                  649000
+                ],
+                "high": [
+                  343.42999267578125,
+                  336.57000732421875,
+                  322.70001220703125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  328.8334045410156,
+                  314.6595153808594,
+                  302.6861572265625
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/UAL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:44.393036+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "UAL",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1139236200,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 107.63,
+            "regularMarketChangePercent": 1.204,
+            "fulldayPrice": 107.8,
+            "fulldayChange": 1.45,
+            "fulldayChangePercent": 1.363,
+            "fiftyTwoWeekHigh": 138.77,
+            "fiftyTwoWeekLow": 84.64,
+            "regularMarketDayHigh": 109.545,
+            "regularMarketDayLow": 106.26,
+            "regularMarketVolume": 3724466,
+            "longName": "United Airlines Holdings, Inc.",
+            "shortName": "United Airlines Holdings, Inc.",
+            "chartPreviousClose": 68.2,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  71.43000030517578,
+                  65.63999938964844,
+                  58.869998931884766
+                ],
+                "close": [
+                  71.37000274658203,
+                  60.22999954223633,
+                  57.66999816894531
+                ],
+                "low": [
+                  66.16000366210938,
+                  60.029998779296875,
+                  52.0
+                ],
+                "open": [
+                  66.16000366210938,
+                  65.43000030517578,
+                  55.88999938964844
+                ],
+                "volume": [
+                  8199600,
+                  16694400,
+                  18036600
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  71.37000274658203,
+                  60.22999954223633,
+                  57.66999816894531
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

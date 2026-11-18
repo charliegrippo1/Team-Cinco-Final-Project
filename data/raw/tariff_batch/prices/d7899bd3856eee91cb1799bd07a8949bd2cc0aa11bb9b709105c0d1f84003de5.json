@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/FSLR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:55.402327+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "FSLR",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1163773800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 150.98,
+            "regularMarketChangePercent": -1.301,
+            "fulldayPrice": 151.44,
+            "fulldayChange": -1.53,
+            "fulldayChangePercent": -1.0,
+            "fiftyTwoWeekHigh": 320.95,
+            "fiftyTwoWeekLow": 150.25,
+            "regularMarketDayHigh": 156.416,
+            "regularMarketDayLow": 150.25,
+            "regularMarketVolume": 2523401,
+            "longName": "First Solar, Inc.",
+            "shortName": "First Solar, Inc.",
+            "chartPreviousClose": 127.57,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  127.08999633789062,
+                  128.85000610351562,
+                  134.47999572753906
+                ],
+                "low": [
+                  125.55000305175781,
+                  128.57000732421875,
+                  125.36000061035156
+                ],
+                "close": [
+                  129.82000732421875,
+                  136.22999572753906,
+                  128.69000244140625
+                ],
+                "high": [
+                  129.97000122070312,
+                  140.52000427246094,
+                  134.8699951171875
+                ],
+                "volume": [
+                  1950700,
+                  8819800,
+                  4689300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  129.82000732421875,
+                  136.22999572753906,
+                  128.69000244140625
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

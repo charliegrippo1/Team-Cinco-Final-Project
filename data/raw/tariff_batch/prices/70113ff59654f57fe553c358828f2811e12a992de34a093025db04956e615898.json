@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ERIE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:58.305283+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ERIE",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 812640600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 276.18,
+            "regularMarketChangePercent": 1.198,
+            "fulldayPrice": 276.18,
+            "fulldayChange": 3.27,
+            "fulldayChangePercent": 1.198,
+            "fiftyTwoWeekHigh": 301.61,
+            "fiftyTwoWeekLow": 204.63,
+            "regularMarketDayHigh": 278.145,
+            "regularMarketDayLow": 269.5,
+            "regularMarketVolume": 153345,
+            "longName": "Erie Indemnity Company",
+            "shortName": "Erie Indemnity Company",
+            "chartPreviousClose": 411.0,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  416.6300048828125,
+                  423.7300109863281,
+                  417.80999755859375
+                ],
+                "open": [
+                  410.7300109863281,
+                  417.75,
+                  417.6400146484375
+                ],
+                "low": [
+                  407.3299865722656,
+                  409.2099914550781,
+                  393.0799865722656
+                ],
+                "close": [
+                  415.55999755859375,
+                  421.55999755859375,
+                  396.57000732421875
+                ],
+                "volume": [
+                  156400,
+                  162600,
+                  277100
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  401.24359130859375,
+                  407.03692626953125,
+                  382.9078674316406
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

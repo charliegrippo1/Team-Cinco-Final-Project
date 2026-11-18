@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CAT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:13.562976+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CAT",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 558.77,
+            "regularMarketChangePercent": -2.106,
+            "fulldayPrice": 558.7,
+            "fulldayChange": -12.09,
+            "fulldayChangePercent": -2.118,
+            "fiftyTwoWeekHigh": 1073.46,
+            "fiftyTwoWeekLow": 537.08,
+            "regularMarketDayHigh": 578.0,
+            "regularMarketDayLow": 551.43,
+            "regularMarketVolume": 3504246,
+            "longName": "Caterpillar Inc.",
+            "shortName": "Caterpillar, Inc.",
+            "chartPreviousClose": 330.57,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  336.3500061035156,
+                  324.70001220703125,
+                  294.2900085449219
+                ],
+                "volume": [
+                  1747600,
+                  4638700,
+                  7216800
+                ],
+                "open": [
+                  326.1300048828125,
+                  319.6700134277344,
+                  285.0
+                ],
+                "low": [
+                  326.1000061035156,
+                  305.0,
+                  281.5
+                ],
+                "close": [
+                  334.6600036621094,
+                  305.760009765625,
+                  288.0799865722656
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  328.1000061035156,
+                  299.7664794921875,
+                  282.4330749511719
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TPL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:41.830861+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TPL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 285.9,
+            "regularMarketChangePercent": -0.674,
+            "fulldayPrice": 285.25,
+            "fulldayChange": -2.59,
+            "fulldayChangePercent": -0.9,
+            "fiftyTwoWeekHigh": 547.2,
+            "fiftyTwoWeekLow": 265.31,
+            "regularMarketDayHigh": 293.125,
+            "regularMarketDayLow": 285.69,
+            "regularMarketVolume": 325876,
+            "longName": "Texas Pacific Land Corporation",
+            "shortName": "Texas Pacific Land Corporation",
+            "chartPreviousClose": 450.947,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  304500,
+                  543000,
+                  858000
+                ],
+                "low": [
+                  440.57000732421875,
+                  406.82000732421875,
+                  349.4666748046875
+                ],
+                "close": [
+                  463.80999755859375,
+                  406.99334716796875,
+                  359.6666564941406
+                ],
+                "open": [
+                  440.57000732421875,
+                  430.51666259765625,
+                  393.1666564941406
+                ],
+                "high": [
+                  464.0,
+                  431.4333190917969,
+                  393.1666564941406
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  459.5245056152344,
+                  403.23284912109375,
+                  356.34344482421875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

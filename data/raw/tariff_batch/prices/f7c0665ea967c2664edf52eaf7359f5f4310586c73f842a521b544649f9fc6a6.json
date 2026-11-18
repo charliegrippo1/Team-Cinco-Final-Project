@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AOS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:01.883725+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AOS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 433776600,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 64.55,
+            "regularMarketChangePercent": 1.798,
+            "fulldayPrice": 64.55,
+            "fulldayChange": 1.14,
+            "fulldayChangePercent": 1.798,
+            "fiftyTwoWeekHigh": 81.87,
+            "fiftyTwoWeekLow": 54.16,
+            "regularMarketDayHigh": 65.455,
+            "regularMarketDayLow": 62.66,
+            "regularMarketVolume": 1371710,
+            "longName": "A. O. Smith Corporation",
+            "shortName": "A.O. Smith Corporation",
+            "chartPreviousClose": 65.6,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  65.01000213623047,
+                  64.48999786376953,
+                  62.63999938964844
+                ],
+                "close": [
+                  66.12000274658203,
+                  63.65999984741211,
+                  61.9900016784668
+                ],
+                "high": [
+                  66.25,
+                  64.80000305175781,
+                  63.7400016784668
+                ],
+                "low": [
+                  64.91999816894531,
+                  63.02000045776367,
+                  61.88999938964844
+                ],
+                "volume": [
+                  1437900,
+                  1649800,
+                  1853100
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  63.65766525268555,
+                  61.28926467895508,
+                  59.681461334228516
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

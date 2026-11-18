@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NEM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:25.839741+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NEM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 104.53,
+            "regularMarketChangePercent": -6.049,
+            "fulldayPrice": 104.0,
+            "fulldayChange": -7.26,
+            "fulldayChangePercent": -6.525,
+            "fiftyTwoWeekHigh": 135.29,
+            "fiftyTwoWeekLow": 81.34,
+            "regularMarketDayHigh": 107.6,
+            "regularMarketDayLow": 102.355,
+            "regularMarketVolume": 8515235,
+            "longName": "Newmont Corporation",
+            "shortName": "Newmont Corporation",
+            "chartPreviousClose": 48.29,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  48.70000076293945,
+                  46.70000076293945,
+                  46.869998931884766
+                ],
+                "volume": [
+                  9130000,
+                  17433100,
+                  21182600
+                ],
+                "close": [
+                  48.72999954223633,
+                  48.33000183105469,
+                  44.18000030517578
+                ],
+                "high": [
+                  48.849998474121094,
+                  49.31999969482422,
+                  47.0
+                ],
+                "low": [
+                  47.83000183105469,
+                  46.56999969482422,
+                  43.59000015258789
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  47.892948150634766,
+                  47.499820709228516,
+                  43.421104431152344
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DTE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:38.901098+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DTE",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 136.86,
+            "regularMarketChangePercent": 0.33,
+            "fulldayPrice": 136.86,
+            "fulldayChange": 0.45,
+            "fulldayChangePercent": 0.33,
+            "fiftyTwoWeekHigh": 155.75,
+            "fiftyTwoWeekLow": 119.68,
+            "regularMarketDayHigh": 137.75,
+            "regularMarketDayLow": 135.36,
+            "regularMarketVolume": 967149,
+            "longName": "DTE Energy Company",
+            "shortName": "DTE Energy Company",
+            "chartPreviousClose": 137.92,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  138.94000244140625,
+                  140.38999938964844,
+                  140.32000732421875
+                ],
+                "open": [
+                  137.66000366210938,
+                  139.3000030517578,
+                  139.6999969482422
+                ],
+                "volume": [
+                  1055900,
+                  1946800,
+                  1732000
+                ],
+                "low": [
+                  136.5500030517578,
+                  137.67999267578125,
+                  130.63999938964844
+                ],
+                "close": [
+                  138.0,
+                  139.49000549316406,
+                  131.8000030517578
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  131.27505493164062,
+                  132.6924591064453,
+                  125.37718963623047
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

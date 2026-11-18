@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/UNP?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:14.406321+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "UNP",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 315671400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 300.9,
+            "regularMarketChangePercent": 1.303,
+            "fulldayPrice": 300.9,
+            "fulldayChange": 3.87,
+            "fulldayChangePercent": 1.303,
+            "fiftyTwoWeekHigh": 315.99,
+            "fiftyTwoWeekLow": 219.97,
+            "regularMarketDayHigh": 303.18,
+            "regularMarketDayLow": 295.0,
+            "regularMarketVolume": 3068603,
+            "longName": "Union Pacific Corporation",
+            "shortName": "Union Pacific Corporation",
+            "chartPreviousClose": 237.17,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  235.13999938964844,
+                  231.35000610351562,
+                  220.0
+                ],
+                "high": [
+                  238.50999450683594,
+                  232.97999572753906,
+                  221.75
+                ],
+                "low": [
+                  234.61000061035156,
+                  223.0800018310547,
+                  212.5500030517578
+                ],
+                "volume": [
+                  2023600,
+                  5754800,
+                  6784500
+                ],
+                "close": [
+                  238.4600067138672,
+                  223.97000122070312,
+                  213.25999450683594
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  230.69085693359375,
+                  216.67294311523438,
+                  206.3118896484375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

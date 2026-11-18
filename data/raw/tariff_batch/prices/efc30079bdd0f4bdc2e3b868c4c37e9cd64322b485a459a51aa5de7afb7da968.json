@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/JKHY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:55.565238+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "JKHY",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 501345000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 174.58,
+            "regularMarketChangePercent": -0.632,
+            "fulldayPrice": 174.58,
+            "fulldayChange": -1.11,
+            "fulldayChangePercent": -0.632,
+            "fiftyTwoWeekHigh": 193.39,
+            "fiftyTwoWeekLow": 121.04,
+            "regularMarketDayHigh": 176.07,
+            "regularMarketDayLow": 173.565,
+            "regularMarketVolume": 566113,
+            "longName": "Jack Henry & Associates, Inc.",
+            "shortName": "Jack Henry & Associates, Inc.",
+            "chartPreviousClose": 184.02,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  182.19000244140625,
+                  182.5399932861328,
+                  172.36000061035156
+                ],
+                "open": [
+                  185.0,
+                  184.0800018310547,
+                  183.61000061035156
+                ],
+                "close": [
+                  184.11000061035156,
+                  184.60000610351562,
+                  172.6199951171875
+                ],
+                "volume": [
+                  585100,
+                  648300,
+                  879700
+                ],
+                "high": [
+                  185.00999450683594,
+                  189.2100067138672,
+                  185.94000244140625
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  180.1295166015625,
+                  180.60891723632812,
+                  168.88790893554688
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

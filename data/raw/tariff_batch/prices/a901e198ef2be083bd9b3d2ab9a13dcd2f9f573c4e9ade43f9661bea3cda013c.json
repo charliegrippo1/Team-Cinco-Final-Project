@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MTB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:38.014910+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MTB",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 214.17,
+            "regularMarketChangePercent": -0.774,
+            "fulldayPrice": 214.17,
+            "fulldayChange": -1.67,
+            "fulldayChangePercent": -0.774,
+            "fiftyTwoWeekHigh": 255.95,
+            "fiftyTwoWeekLow": 180.49,
+            "regularMarketDayHigh": 216.6,
+            "regularMarketDayLow": 213.92,
+            "regularMarketVolume": 819078,
+            "longName": "M&T Bank Corporation",
+            "shortName": "M&T Bank Corporation",
+            "chartPreviousClose": 176.37,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  174.86000061035156,
+                  170.88999938964844,
+                  158.32000732421875
+                ],
+                "volume": [
+                  822200,
+                  2143500,
+                  2483300
+                ],
+                "high": [
+                  180.00999450683594,
+                  171.3800048828125,
+                  158.8300018310547
+                ],
+                "low": [
+                  174.58999633789062,
+                  163.22999572753906,
+                  152.25999450683594
+                ],
+                "close": [
+                  179.7100067138672,
+                  163.36000061035156,
+                  157.02000427246094
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  172.1227264404297,
+                  156.4630126953125,
+                  150.39068603515625
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AZO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:24.129721+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AZO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 670602600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 3308.69,
+            "regularMarketChangePercent": 0.902,
+            "fulldayPrice": 3308.69,
+            "fulldayChange": 29.57,
+            "fulldayChangePercent": 0.902,
+            "fiftyTwoWeekHigh": 3996.25,
+            "fiftyTwoWeekLow": 2730.65,
+            "regularMarketDayHigh": 3323.59,
+            "regularMarketDayLow": 3243.12,
+            "regularMarketVolume": 116344,
+            "longName": "AutoZone, Inc.",
+            "shortName": "AutoZone, Inc.",
+            "chartPreviousClose": 3813.27,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  100000,
+                  182000,
+                  209900
+                ],
+                "high": [
+                  3822.840087890625,
+                  3916.81005859375,
+                  3845.10009765625
+                ],
+                "low": [
+                  3760.919921875,
+                  3770.89990234375,
+                  3652.219970703125
+                ],
+                "close": [
+                  3809.260009765625,
+                  3826.14990234375,
+                  3653.239990234375
+                ],
+                "open": [
+                  3778.0,
+                  3770.89990234375,
+                  3792.719970703125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  3809.260009765625,
+                  3826.14990234375,
+                  3653.239990234375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

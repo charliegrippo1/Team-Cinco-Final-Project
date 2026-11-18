@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ENPH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:01.039816+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ENPH",
+            "exchangeName": "NGM",
+            "fullExchangeName": "NasdaqGM",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1333114200,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 22.66,
+            "regularMarketChangePercent": -1.735,
+            "fulldayPrice": 22.55,
+            "fulldayChange": -0.51,
+            "fulldayChangePercent": -2.212,
+            "fiftyTwoWeekHigh": 73.74,
+            "fiftyTwoWeekLow": 22.15,
+            "regularMarketDayHigh": 23.65,
+            "regularMarketDayLow": 22.15,
+            "regularMarketVolume": 5672070,
+            "longName": "Enphase Energy, Inc.",
+            "shortName": "Enphase Energy, Inc.",
+            "chartPreviousClose": 62.39,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  61.72999954223633,
+                  59.04999923706055,
+                  56.7599983215332
+                ],
+                "high": [
+                  63.70000076293945,
+                  60.65999984741211,
+                  57.810001373291016
+                ],
+                "close": [
+                  62.52000045776367,
+                  58.77000045776367,
+                  57.27000045776367
+                ],
+                "volume": [
+                  2081800,
+                  4312800,
+                  4407400
+                ],
+                "low": [
+                  61.459999084472656,
+                  57.02000045776367,
+                  53.52000045776367
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  62.52000045776367,
+                  58.77000045776367,
+                  57.27000045776367
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

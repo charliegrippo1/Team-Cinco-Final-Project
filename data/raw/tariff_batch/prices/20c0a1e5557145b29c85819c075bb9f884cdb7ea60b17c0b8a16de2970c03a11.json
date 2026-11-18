@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TMO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:11.461056+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TMO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 692.74,
+            "regularMarketChangePercent": 0.866,
+            "fulldayPrice": 692.74,
+            "fulldayChange": 5.95,
+            "fulldayChangePercent": 0.866,
+            "fiftyTwoWeekHigh": 727.56,
+            "fiftyTwoWeekLow": 435.27,
+            "regularMarketDayHigh": 694.105,
+            "regularMarketDayLow": 680.29,
+            "regularMarketVolume": 1991931,
+            "longName": "Thermo Fisher Scientific Inc.",
+            "shortName": "Thermo Fisher Scientific Inc",
+            "chartPreviousClose": 482.97,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  489.05999755859375,
+                  470.0299987792969,
+                  437.9100036621094
+                ],
+                "high": [
+                  491.3599853515625,
+                  485.9100036621094,
+                  464.1099853515625
+                ],
+                "low": [
+                  479.6000061035156,
+                  468.1700134277344,
+                  437.2200012207031
+                ],
+                "volume": [
+                  2068700,
+                  2813600,
+                  3894200
+                ],
+                "open": [
+                  480.5,
+                  481.8900146484375,
+                  461.489990234375
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  486.40618896484375,
+                  467.4794921875,
+                  435.5337829589844
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

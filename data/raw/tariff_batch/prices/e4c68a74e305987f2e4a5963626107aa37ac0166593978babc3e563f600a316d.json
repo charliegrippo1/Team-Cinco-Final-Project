@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/KMI?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:25.622945+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "KMI",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1297434600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 31.36,
+            "regularMarketChangePercent": -1.073,
+            "fulldayPrice": 31.42,
+            "fulldayChange": -0.28,
+            "fulldayChangePercent": -0.883,
+            "fiftyTwoWeekHigh": 34.81,
+            "fiftyTwoWeekLow": 26.24,
+            "regularMarketDayHigh": 31.82,
+            "regularMarketDayLow": 31.35,
+            "regularMarketVolume": 8843854,
+            "longName": "Kinder Morgan, Inc.",
+            "shortName": "Kinder Morgan, Inc.",
+            "chartPreviousClose": 28.63,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  28.940000534057617,
+                  28.649999618530273,
+                  27.09000015258789
+                ],
+                "open": [
+                  28.3799991607666,
+                  27.860000610351562,
+                  26.719999313354492
+                ],
+                "close": [
+                  28.920000076293945,
+                  27.719999313354492,
+                  25.290000915527344
+                ],
+                "low": [
+                  28.360000610351562,
+                  27.6299991607666,
+                  25.110000610351562
+                ],
+                "volume": [
+                  8662500,
+                  16704000,
+                  29083900
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  26.975814819335938,
+                  25.85648536682129,
+                  23.589845657348633
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

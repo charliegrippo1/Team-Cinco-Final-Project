@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CBOE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:43.342813+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CBOE",
+            "exchangeName": "BTS",
+            "fullExchangeName": "Cboe US",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1276608600,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 359.91,
+            "regularMarketChangePercent": -2.745,
+            "fulldayPrice": 358.0,
+            "fulldayChange": -12.07,
+            "fulldayChangePercent": -3.262,
+            "fiftyTwoWeekHigh": 379.76,
+            "fiftyTwoWeekLow": 227.15,
+            "regularMarketDayHigh": 369.91,
+            "regularMarketDayLow": 359.83,
+            "regularMarketVolume": 1017402,
+            "longName": "Cboe Global Markets, Inc.",
+            "shortName": "Cboe Global Markets, Inc.",
+            "chartPreviousClose": 225.04,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  224.32000732421875,
+                  225.07000732421875,
+                  213.9199981689453
+                ],
+                "open": [
+                  225.0800018310547,
+                  227.5500030517578,
+                  227.0
+                ],
+                "close": [
+                  224.47999572753906,
+                  225.8000030517578,
+                  215.08999633789062
+                ],
+                "volume": [
+                  699900,
+                  1335400,
+                  1916000
+                ],
+                "high": [
+                  228.00999450683594,
+                  234.3699951171875,
+                  230.35000610351562
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  222.22186279296875,
+                  223.52859497070312,
+                  212.9263153076172
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

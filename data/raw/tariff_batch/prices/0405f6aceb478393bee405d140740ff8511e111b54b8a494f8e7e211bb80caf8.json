@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AEP?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:25.341327+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AEP",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 126.5,
+            "regularMarketChangePercent": 0.421,
+            "fulldayPrice": 125.201,
+            "fulldayChange": -0.769,
+            "fulldayChangePercent": -0.611,
+            "fiftyTwoWeekHigh": 140.58,
+            "fiftyTwoWeekLow": 112.54,
+            "regularMarketDayHigh": 127.25,
+            "regularMarketDayLow": 125.42,
+            "regularMarketVolume": 4859561,
+            "longName": "American Electric Power Company, Inc.",
+            "shortName": "American Electric Power Company",
+            "chartPreviousClose": 108.37,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  108.80000305175781,
+                  110.45999908447266,
+                  110.4800033569336
+                ],
+                "close": [
+                  107.75,
+                  109.11000061035156,
+                  104.4800033569336
+                ],
+                "volume": [
+                  3279800,
+                  6063300,
+                  7368600
+                ],
+                "open": [
+                  108.80000305175781,
+                  109.76000213623047,
+                  110.12000274658203
+                ],
+                "low": [
+                  107.2699966430664,
+                  107.75,
+                  103.91999816894531
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  101.96037292480469,
+                  103.247314453125,
+                  98.8660888671875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

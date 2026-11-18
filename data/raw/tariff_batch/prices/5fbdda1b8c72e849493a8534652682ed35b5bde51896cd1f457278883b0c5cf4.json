@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LOW?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:15.368482+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LOW",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035793,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 222.78,
+            "regularMarketChangePercent": 1.052,
+            "fulldayPrice": 223.99,
+            "fulldayChange": 3.53,
+            "fulldayChangePercent": 1.601,
+            "fiftyTwoWeekHigh": 293.06,
+            "fiftyTwoWeekLow": 178.45,
+            "regularMarketDayHigh": 223.02,
+            "regularMarketDayLow": 211.0,
+            "regularMarketVolume": 5265721,
+            "longName": "Lowe's Companies, Inc.",
+            "shortName": "Lowe's Companies, Inc.",
+            "chartPreviousClose": 234.01,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  232.13999938964844,
+                  222.7899932861328,
+                  220.64999389648438
+                ],
+                "high": [
+                  236.11000061035156,
+                  226.1699981689453,
+                  229.8300018310547
+                ],
+                "close": [
+                  235.27999877929688,
+                  222.52000427246094,
+                  223.2899932861328
+                ],
+                "volume": [
+                  2534400,
+                  4475000,
+                  4829800
+                ],
+                "low": [
+                  232.13999938964844,
+                  220.61000061035156,
+                  219.0399932861328
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  226.6840362548828,
+                  214.3902130126953,
+                  215.13206481933594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

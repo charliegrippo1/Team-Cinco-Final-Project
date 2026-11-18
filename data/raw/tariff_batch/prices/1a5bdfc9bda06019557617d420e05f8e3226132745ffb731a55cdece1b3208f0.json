@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/REGN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:23.248098+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "REGN",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 670602600,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 945.53,
+            "regularMarketChangePercent": -1.277,
+            "fulldayPrice": 945.53,
+            "fulldayChange": -15.76,
+            "fulldayChangePercent": -1.646,
+            "fiftyTwoWeekHigh": 991.73,
+            "fiftyTwoWeekLow": 591.52,
+            "regularMarketDayHigh": 972.0,
+            "regularMarketDayLow": 943.26,
+            "regularMarketVolume": 704317,
+            "longName": "Regeneron Pharmaceuticals, Inc.",
+            "shortName": "Regeneron Pharmaceuticals, Inc.",
+            "chartPreviousClose": 617.0,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  628.0,
+                  628.0,
+                  612.989990234375
+                ],
+                "close": [
+                  625.5999755859375,
+                  610.6400146484375,
+                  573.4500122070312
+                ],
+                "volume": [
+                  902600,
+                  1047500,
+                  1547700
+                ],
+                "low": [
+                  610.0999755859375,
+                  607.8800048828125,
+                  572.0
+                ],
+                "open": [
+                  613.530029296875,
+                  626.25,
+                  610.6500244140625
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  620.5479736328125,
+                  605.7088012695312,
+                  568.8191528320312
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

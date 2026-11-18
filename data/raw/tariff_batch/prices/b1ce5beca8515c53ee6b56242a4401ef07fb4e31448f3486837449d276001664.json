@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LMT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:18.892598+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LMT",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 578.19,
+            "regularMarketChangePercent": -2.058,
+            "fulldayPrice": 578.19,
+            "fulldayChange": -12.15,
+            "fulldayChangePercent": -2.058,
+            "fiftyTwoWeekHigh": 692.0,
+            "fiftyTwoWeekLow": 437.25,
+            "regularMarketDayHigh": 585.165,
+            "regularMarketDayLow": 570.659,
+            "regularMarketVolume": 1055662,
+            "longName": "Lockheed Martin Corporation",
+            "shortName": "Lockheed Martin Corporation",
+            "chartPreviousClose": 448.64,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  452.8699951171875,
+                  454.7799987792969,
+                  432.1499938964844
+                ],
+                "low": [
+                  445.010009765625,
+                  450.79998779296875,
+                  432.1300048828125
+                ],
+                "high": [
+                  455.9200134277344,
+                  461.8800048828125,
+                  454.92999267578125
+                ],
+                "volume": [
+                  1270300,
+                  1813800,
+                  2392700
+                ],
+                "open": [
+                  446.2200012207031,
+                  453.510009765625,
+                  450.0
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  435.2672424316406,
+                  437.1029968261719,
+                  415.35260009765625
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

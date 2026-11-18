@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ECL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:24.202470+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ECL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035699,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 300.68,
+            "regularMarketChangePercent": -0.631,
+            "fulldayPrice": 300.68,
+            "fulldayChange": -1.91,
+            "fulldayChangePercent": -0.631,
+            "fiftyTwoWeekHigh": 318.93,
+            "fiftyTwoWeekLow": 243.15,
+            "regularMarketDayHigh": 302.45,
+            "regularMarketDayLow": 298.78,
+            "regularMarketVolume": 1256875,
+            "longName": "Ecolab Inc.",
+            "shortName": "Ecolab Inc.",
+            "chartPreviousClose": 254.27,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  253.74000549316406,
+                  257.55999755859375,
+                  251.1999969482422
+                ],
+                "low": [
+                  251.11000061035156,
+                  249.50999450683594,
+                  236.5500030517578
+                ],
+                "close": [
+                  253.66000366210938,
+                  250.24000549316406,
+                  237.77000427246094
+                ],
+                "open": [
+                  252.3300018310547,
+                  250.38999938964844,
+                  247.99000549316406
+                ],
+                "volume": [
+                  1055900,
+                  1610800,
+                  2595500
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  249.70835876464844,
+                  246.3416290283203,
+                  234.06590270996094
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

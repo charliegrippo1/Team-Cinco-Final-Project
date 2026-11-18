@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MDT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:16.847369+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MDT",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 105197400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 100.72,
+            "regularMarketChangePercent": -1.564,
+            "fulldayPrice": 100.72,
+            "fulldayChange": -1.6,
+            "fulldayChangePercent": -1.564,
+            "fiftyTwoWeekHigh": 106.33,
+            "fiftyTwoWeekLow": 73.31,
+            "regularMarketDayHigh": 102.46,
+            "regularMarketDayLow": 99.59,
+            "regularMarketVolume": 6472577,
+            "longName": "Medtronic plc",
+            "shortName": "Medtronic plc.",
+            "chartPreviousClose": 88.49,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  88.98999786376953,
+                  89.54000091552734,
+                  88.0999984741211
+                ],
+                "open": [
+                  88.43000030517578,
+                  88.5999984741211,
+                  87.98999786376953
+                ],
+                "close": [
+                  88.86000061035156,
+                  87.88999938964844,
+                  82.87999725341797
+                ],
+                "low": [
+                  87.45999908447266,
+                  87.69000244140625,
+                  82.68000030517578
+                ],
+                "volume": [
+                  5577200,
+                  7663100,
+                  12034000
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  84.65838623046875,
+                  83.7342529296875,
+                  78.96113586425781
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

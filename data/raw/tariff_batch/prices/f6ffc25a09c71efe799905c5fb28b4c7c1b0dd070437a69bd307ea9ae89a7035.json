@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:59.761968+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MRNA",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1544193000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 196.79,
+            "regularMarketChangePercent": -4.84,
+            "fulldayPrice": 192.54,
+            "fulldayChange": -14.26,
+            "fulldayChangePercent": -6.896,
+            "fiftyTwoWeekHigh": 280.8,
+            "fiftyTwoWeekLow": 22.28,
+            "regularMarketDayHigh": 208.68,
+            "regularMarketDayLow": 196.52,
+            "regularMarketVolume": 6912807,
+            "longName": "Moderna, Inc.",
+            "shortName": "Moderna, Inc.",
+            "chartPreviousClose": 27.16,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  11865200,
+                  12768800,
+                  16053000
+                ],
+                "high": [
+                  28.780000686645508,
+                  27.200000762939453,
+                  25.770000457763672
+                ],
+                "open": [
+                  26.790000915527344,
+                  26.65999984741211,
+                  25.19499969482422
+                ],
+                "low": [
+                  26.260000228881836,
+                  25.69499969482422,
+                  23.76099967956543
+                ],
+                "close": [
+                  27.719999313354492,
+                  25.729999542236328,
+                  25.110000610351562
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  27.719999313354492,
+                  25.729999542236328,
+                  25.110000610351562
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

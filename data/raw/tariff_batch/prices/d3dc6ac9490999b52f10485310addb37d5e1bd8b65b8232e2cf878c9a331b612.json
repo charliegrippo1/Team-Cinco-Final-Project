@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TXT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:55.767106+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TXT",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 82.79,
+            "regularMarketChangePercent": 1.421,
+            "fulldayPrice": 82.79,
+            "fulldayChange": 1.16,
+            "fulldayChangePercent": 1.421,
+            "fiftyTwoWeekHigh": 101.57,
+            "fiftyTwoWeekLow": 71.87,
+            "regularMarketDayHigh": 86.53,
+            "regularMarketDayLow": 81.91,
+            "regularMarketVolume": 2602149,
+            "longName": "Textron Inc.",
+            "shortName": "Textron Inc.",
+            "chartPreviousClose": 72.16,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  71.23999786376953,
+                  66.83000183105469,
+                  60.380001068115234
+                ],
+                "volume": [
+                  1148300,
+                  1977100,
+                  3237500
+                ],
+                "high": [
+                  73.0199966430664,
+                  71.08999633789062,
+                  64.83999633789062
+                ],
+                "close": [
+                  72.4800033569336,
+                  66.87000274658203,
+                  60.720001220703125
+                ],
+                "open": [
+                  71.25,
+                  70.29000091552734,
+                  64.83999633789062
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  72.37751007080078,
+                  66.77543640136719,
+                  60.6341438293457
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

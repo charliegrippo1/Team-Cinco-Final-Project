@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSI?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:21.919063+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MSI",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 524.53,
+            "regularMarketChangePercent": -0.308,
+            "fulldayPrice": 524.53,
+            "fulldayChange": -1.62,
+            "fulldayChangePercent": -0.308,
+            "fiftyTwoWeekHigh": 548.29,
+            "fiftyTwoWeekLow": 359.36,
+            "regularMarketDayHigh": 531.15,
+            "regularMarketDayLow": 518.645,
+            "regularMarketVolume": 897088,
+            "longName": "Motorola Solutions, Inc.",
+            "shortName": "Motorola Solutions, Inc.",
+            "chartPreviousClose": 435.99,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  430.44000244140625,
+                  427.94000244140625,
+                  401.7099914550781
+                ],
+                "volume": [
+                  822700,
+                  1497700,
+                  1726300
+                ],
+                "open": [
+                  431.6600036621094,
+                  427.94000244140625,
+                  428.7099914550781
+                ],
+                "high": [
+                  439.5799865722656,
+                  441.2099914550781,
+                  439.8800048828125
+                ],
+                "close": [
+                  436.989990234375,
+                  435.5,
+                  402.1300048828125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  429.862548828125,
+                  428.3968811035156,
+                  395.5711364746094
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

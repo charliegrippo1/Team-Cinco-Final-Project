@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/VTR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:37.815053+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "VTR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 862839000,
+            "regularMarketTime": 1795035645,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 88.2,
+            "regularMarketChangePercent": 0.182,
+            "fulldayPrice": 88.2,
+            "fulldayChange": 0.16,
+            "fulldayChangePercent": 0.182,
+            "fiftyTwoWeekHigh": 101.6,
+            "fiftyTwoWeekLow": 73.82,
+            "regularMarketDayHigh": 88.9,
+            "regularMarketDayLow": 87.07,
+            "regularMarketVolume": 3716162,
+            "longName": "Ventas, Inc.",
+            "shortName": "Ventas, Inc.",
+            "chartPreviousClose": 69.27,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  69.97000122070312,
+                  71.36000061035156,
+                  69.33999633789062
+                ],
+                "open": [
+                  69.1500015258789,
+                  69.18000030517578,
+                  69.29000091552734
+                ],
+                "low": [
+                  68.98999786376953,
+                  69.18000030517578,
+                  65.20999908447266
+                ],
+                "volume": [
+                  6049400,
+                  5570000,
+                  4202600
+                ],
+                "close": [
+                  69.38999938964844,
+                  69.5999984741211,
+                  65.51000213623047
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  66.73841094970703,
+                  66.94038391113281,
+                  63.006675720214844
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

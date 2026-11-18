@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/UHS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:57.782950+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "UHS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 363533400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 186.07,
+            "regularMarketChangePercent": -3.078,
+            "fulldayPrice": 186.07,
+            "fulldayChange": -5.91,
+            "fulldayChangePercent": -3.078,
+            "fiftyTwoWeekHigh": 246.33,
+            "fiftyTwoWeekLow": 140.08,
+            "regularMarketDayHigh": 192.29,
+            "regularMarketDayLow": 185.72,
+            "regularMarketVolume": 674000,
+            "longName": "Universal Health Services, Inc.",
+            "shortName": "Universal Health Services, Inc.",
+            "chartPreviousClose": 187.81,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  184.80999755859375,
+                  186.72000122070312,
+                  183.36000061035156
+                ],
+                "low": [
+                  184.80999755859375,
+                  185.8699951171875,
+                  173.6199951171875
+                ],
+                "volume": [
+                  585500,
+                  886400,
+                  1577200
+                ],
+                "close": [
+                  188.77999877929688,
+                  188.72999572753906,
+                  174.52999877929688
+                ],
+                "high": [
+                  189.5500030517578,
+                  190.6699981689453,
+                  185.2100067138672
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  187.5570831298828,
+                  187.50741577148438,
+                  173.39939880371094
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

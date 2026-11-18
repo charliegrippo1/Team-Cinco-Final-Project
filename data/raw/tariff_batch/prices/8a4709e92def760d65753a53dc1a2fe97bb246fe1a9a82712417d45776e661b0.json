@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/OKE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:24.748797+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "OKE",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 339255000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 87.72,
+            "regularMarketChangePercent": -0.937,
+            "fulldayPrice": 87.72,
+            "fulldayChange": -0.83,
+            "fulldayChangePercent": -0.937,
+            "fiftyTwoWeekHigh": 99.85,
+            "fiftyTwoWeekLow": 68.2,
+            "regularMarketDayHigh": 88.857,
+            "regularMarketDayLow": 87.59,
+            "regularMarketVolume": 2805432,
+            "longName": "ONEOK, Inc.",
+            "shortName": "ONEOK, Inc.",
+            "chartPreviousClose": 99.5,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  100.37000274658203,
+                  92.69999694824219,
+                  80.86000061035156
+                ],
+                "open": [
+                  98.27999877929688,
+                  95.81999969482422,
+                  88.44999694824219
+                ],
+                "high": [
+                  100.56999969482422,
+                  97.41000366210938,
+                  89.5999984741211
+                ],
+                "low": [
+                  98.20999908447266,
+                  92.5199966430664,
+                  80.45999908447266
+                ],
+                "volume": [
+                  2150400,
+                  5845700,
+                  11054300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  91.81480407714844,
+                  84.79857635498047,
+                  73.96778106689453
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

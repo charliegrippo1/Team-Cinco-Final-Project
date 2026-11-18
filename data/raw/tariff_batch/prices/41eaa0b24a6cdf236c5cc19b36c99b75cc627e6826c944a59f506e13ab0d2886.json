@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HPQ?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:40.807935+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HPQ",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 28.66,
+            "regularMarketChangePercent": -0.174,
+            "fulldayPrice": 28.65,
+            "fulldayChange": -0.06,
+            "fulldayChangePercent": -0.209,
+            "fiftyTwoWeekHigh": 36.23,
+            "fiftyTwoWeekLow": 17.56,
+            "regularMarketDayHigh": 29.199,
+            "regularMarketDayLow": 28.595,
+            "regularMarketVolume": 10189086,
+            "longName": "HP Inc.",
+            "shortName": "HP Inc.",
+            "chartPreviousClose": 27.79,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  27.8799991607666,
+                  23.780000686645508,
+                  22.610000610351562
+                ],
+                "volume": [
+                  6050300,
+                  23089300,
+                  22865100
+                ],
+                "high": [
+                  28.06999969482422,
+                  25.940000534057617,
+                  23.459999084472656
+                ],
+                "open": [
+                  27.489999771118164,
+                  25.8799991607666,
+                  23.31999969482422
+                ],
+                "low": [
+                  27.489999771118164,
+                  22.950000762939453,
+                  21.959999084472656
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  25.967086791992188,
+                  22.14839744567871,
+                  21.05867576599121
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

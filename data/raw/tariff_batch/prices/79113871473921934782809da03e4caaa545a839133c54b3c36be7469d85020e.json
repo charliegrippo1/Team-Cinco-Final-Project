@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZBH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:44.465916+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ZBH",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 996067800,
+            "regularMarketTime": 1795035820,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 103.32,
+            "regularMarketChangePercent": 1.205,
+            "fulldayPrice": 103.32,
+            "fulldayChange": 1.23,
+            "fulldayChangePercent": 1.205,
+            "fiftyTwoWeekHigh": 112.55,
+            "fiftyTwoWeekLow": 79.12,
+            "regularMarketDayHigh": 103.805,
+            "regularMarketDayLow": 100.71,
+            "regularMarketVolume": 2344366,
+            "longName": "Zimmer Biomet Holdings, Inc.",
+            "shortName": "Zimmer Biomet Holdings, Inc.",
+            "chartPreviousClose": 112.37,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  111.86000061035156,
+                  111.83000183105469,
+                  110.61000061035156
+                ],
+                "high": [
+                  112.97000122070312,
+                  114.44000244140625,
+                  113.52999877929688
+                ],
+                "low": [
+                  110.8499984741211,
+                  111.41000366210938,
+                  107.2699966430664
+                ],
+                "volume": [
+                  1145700,
+                  2920600,
+                  3853000
+                ],
+                "close": [
+                  112.5,
+                  112.66000366210938,
+                  107.33999633789062
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  110.74909973144531,
+                  110.90660095214844,
+                  105.6694107055664
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

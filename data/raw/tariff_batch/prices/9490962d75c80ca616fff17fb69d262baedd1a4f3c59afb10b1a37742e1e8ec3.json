@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/EXR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:36.922341+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "EXR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1092663000,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 157.04,
+            "regularMarketChangePercent": 0.313,
+            "fulldayPrice": 157.04,
+            "fulldayChange": 0.49,
+            "fulldayChangePercent": 0.313,
+            "fiftyTwoWeekHigh": 163.18,
+            "fiftyTwoWeekLow": 125.71,
+            "regularMarketDayHigh": 157.81,
+            "regularMarketDayLow": 154.59,
+            "regularMarketVolume": 1168201,
+            "longName": "Extra Space Storage Inc.",
+            "shortName": "Extra Space Storage Inc",
+            "chartPreviousClose": 147.84,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  147.47000122070312,
+                  144.16000366210938,
+                  138.2100067138672
+                ],
+                "open": [
+                  147.32000732421875,
+                  146.0500030517578,
+                  142.83999633789062
+                ],
+                "low": [
+                  145.4499969482422,
+                  143.39999389648438,
+                  137.89999389648438
+                ],
+                "volume": [
+                  1442500,
+                  1530000,
+                  1378900
+                ],
+                "high": [
+                  148.14999389648438,
+                  148.5399932861328,
+                  144.2899932861328
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  137.7605438232422,
+                  134.66848754882812,
+                  129.11026000976562
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

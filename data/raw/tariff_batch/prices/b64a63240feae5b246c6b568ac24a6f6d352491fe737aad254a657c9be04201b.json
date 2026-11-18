@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:05.284669+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "JPM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 324.11,
+            "regularMarketChangePercent": -1.773,
+            "fulldayPrice": 323.83,
+            "fulldayChange": -6.13,
+            "fulldayChangePercent": -1.858,
+            "fiftyTwoWeekHigh": 366.5,
+            "fiftyTwoWeekLow": 279.1,
+            "regularMarketDayHigh": 330.09,
+            "regularMarketDayLow": 323.71,
+            "regularMarketVolume": 6674408,
+            "longName": "JPMorgan Chase & Co.",
+            "shortName": "JP Morgan Chase & Co.",
+            "chartPreviousClose": 243.66,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  241.4600067138672,
+                  227.3000030517578,
+                  208.92999267578125
+                ],
+                "high": [
+                  247.25,
+                  235.13999938964844,
+                  217.6999969482422
+                ],
+                "volume": [
+                  7758800,
+                  17188500,
+                  27170700
+                ],
+                "open": [
+                  241.60000610351562,
+                  234.27000427246094,
+                  215.30999755859375
+                ],
+                "close": [
+                  245.82000732421875,
+                  228.69000244140625,
+                  210.27999877929688
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  237.3952178955078,
+                  220.85227966308594,
+                  204.32406616210938
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

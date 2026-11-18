@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADI?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:18.089544+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ADI",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 381.98,
+            "regularMarketChangePercent": -0.44,
+            "fulldayPrice": 381.01,
+            "fulldayChange": -2.66,
+            "fulldayChangePercent": -0.693,
+            "fiftyTwoWeekHigh": 445.91,
+            "fiftyTwoWeekLow": 224.25,
+            "regularMarketDayHigh": 390.02,
+            "regularMarketDayLow": 376.43,
+            "regularMarketVolume": 3063306,
+            "longName": "Analog Devices, Inc.",
+            "shortName": "Analog Devices, Inc.",
+            "chartPreviousClose": 199.18,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  199.58999633789062,
+                  180.8800048828125,
+                  164.60000610351562
+                ],
+                "high": [
+                  202.3000030517578,
+                  193.1999969482422,
+                  176.41000366210938
+                ],
+                "open": [
+                  195.75999450683594,
+                  191.82000732421875,
+                  174.61000061035156
+                ],
+                "volume": [
+                  2437500,
+                  6970800,
+                  9633900
+                ],
+                "low": [
+                  195.75999450683594,
+                  180.39999389648438,
+                  164.13999938964844
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  195.45811462402344,
+                  177.1354522705078,
+                  161.19247436523438
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

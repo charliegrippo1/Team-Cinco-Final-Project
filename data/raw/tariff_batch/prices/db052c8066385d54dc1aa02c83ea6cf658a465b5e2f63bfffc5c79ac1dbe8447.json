@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:17.967426+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "SO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 378657000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 94.41,
+            "regularMarketChangePercent": 0.865,
+            "fulldayPrice": 94.41,
+            "fulldayChange": 0.81,
+            "fulldayChangePercent": 0.865,
+            "fiftyTwoWeekHigh": 99.58,
+            "fiftyTwoWeekLow": 81.69,
+            "regularMarketDayHigh": 94.59,
+            "regularMarketDayLow": 93.13,
+            "regularMarketVolume": 6979373,
+            "longName": "The Southern Company",
+            "shortName": "Southern Company (The)",
+            "chartPreviousClose": 91.82,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  90.70999908447266,
+                  92.0,
+                  88.48999786376953
+                ],
+                "open": [
+                  92.0,
+                  92.7300033569336,
+                  93.20999908447266
+                ],
+                "close": [
+                  91.30000305175781,
+                  92.55999755859375,
+                  88.94000244140625
+                ],
+                "high": [
+                  92.05000305175781,
+                  93.30000305175781,
+                  93.6500015258789
+                ],
+                "volume": [
+                  4704500,
+                  6392600,
+                  8268800
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  86.24882507324219,
+                  87.43910217285156,
+                  84.0193862915039
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

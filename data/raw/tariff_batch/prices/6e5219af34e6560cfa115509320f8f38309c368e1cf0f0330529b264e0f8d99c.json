@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRSN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:46.253643+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "VRSN",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 886170600,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 307.12,
+            "regularMarketChangePercent": 0.465,
+            "fulldayPrice": 307.12,
+            "fulldayChange": 1.42,
+            "fulldayChangePercent": 0.465,
+            "fiftyTwoWeekHigh": 324.63,
+            "fiftyTwoWeekLow": 208.86,
+            "regularMarketDayHigh": 308.15,
+            "regularMarketDayLow": 302.815,
+            "regularMarketVolume": 530723,
+            "longName": "VeriSign, Inc.",
+            "shortName": "VeriSign, Inc.",
+            "chartPreviousClose": 254.98,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  255.5,
+                  255.42999267578125,
+                  240.1999969482422
+                ],
+                "high": [
+                  257.010009765625,
+                  258.6700134277344,
+                  253.3699951171875
+                ],
+                "open": [
+                  253.72999572753906,
+                  254.22999572753906,
+                  246.77999877929688
+                ],
+                "low": [
+                  251.86000061035156,
+                  252.8000030517578,
+                  239.63999938964844
+                ],
+                "volume": [
+                  723700,
+                  1450300,
+                  1875300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  250.94525146484375,
+                  250.8765106201172,
+                  235.9180145263672
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

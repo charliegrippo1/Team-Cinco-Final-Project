@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NTRS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:48.062537+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NTRS",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 171.56,
+            "regularMarketChangePercent": -0.458,
+            "fulldayPrice": 171.56,
+            "fulldayChange": -0.79,
+            "fulldayChangePercent": -0.458,
+            "fiftyTwoWeekHigh": 195.78,
+            "fiftyTwoWeekLow": 124.25,
+            "regularMarketDayHigh": 172.85,
+            "regularMarketDayLow": 170.79,
+            "regularMarketVolume": 1060835,
+            "longName": "Northern Trust Corporation",
+            "shortName": "Northern Trust Corporation",
+            "chartPreviousClose": 97.95,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  99.20999908447266,
+                  94.22000122070312,
+                  87.69999694824219
+                ],
+                "low": [
+                  96.41999816894531,
+                  90.44000244140625,
+                  83.8499984741211
+                ],
+                "volume": [
+                  1246800,
+                  2009200,
+                  2982700
+                ],
+                "open": [
+                  96.41999816894531,
+                  93.54000091552734,
+                  86.80999755859375
+                ],
+                "close": [
+                  98.7300033569336,
+                  90.58000183105469,
+                  86.01000213623047
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  95.40864562988281,
+                  87.5328140258789,
+                  83.1165542602539
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

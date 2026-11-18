@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NI?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:48.423189+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NI",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035702,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 44.92,
+            "regularMarketChangePercent": 1.24,
+            "fulldayPrice": 44.92,
+            "fulldayChange": 0.55,
+            "fulldayChangePercent": 1.24,
+            "fiftyTwoWeekHigh": 49.21,
+            "fiftyTwoWeekLow": 38.42,
+            "regularMarketDayHigh": 45.07,
+            "regularMarketDayLow": 44.05,
+            "regularMarketVolume": 6215861,
+            "longName": "NiSource Inc.",
+            "shortName": "NiSource Inc",
+            "chartPreviousClose": 40.4,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  40.209999084472656,
+                  40.63999938964844,
+                  39.7599983215332
+                ],
+                "volume": [
+                  2585200,
+                  8705600,
+                  8391100
+                ],
+                "close": [
+                  40.63999938964844,
+                  39.75,
+                  37.220001220703125
+                ],
+                "high": [
+                  40.72999954223633,
+                  40.72999954223633,
+                  39.849998474121094
+                ],
+                "low": [
+                  40.08000183105469,
+                  39.66999816894531,
+                  36.86000061035156
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  38.78010940551758,
+                  37.930843353271484,
+                  35.51663589477539
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/FTV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:41.927425+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "FTV",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1467725400,
+            "regularMarketTime": 1795035817,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 66.73,
+            "regularMarketChangePercent": 0.999,
+            "fulldayPrice": 66.73,
+            "fulldayChange": 0.66,
+            "fulldayChangePercent": 0.999,
+            "fiftyTwoWeekHigh": 68.94,
+            "fiftyTwoWeekLow": 50.09,
+            "regularMarketDayHigh": 66.825,
+            "regularMarketDayLow": 65.66,
+            "regularMarketVolume": 2070413,
+            "longName": "Fortive Corporation",
+            "shortName": "Fortive Corporation",
+            "chartPreviousClose": 55.388,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  54.77015686035156,
+                  50.866615295410156,
+                  47.66767120361328
+                ],
+                "close": [
+                  55.983421325683594,
+                  50.95704650878906,
+                  48.32705307006836
+                ],
+                "high": [
+                  56.152976989746094,
+                  54.05802536010742,
+                  49.645816802978516
+                ],
+                "open": [
+                  54.815372467041016,
+                  53.69253921508789,
+                  49.45742416381836
+                ],
+                "volume": [
+                  1522865,
+                  5585343,
+                  6453865
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  55.606292724609375,
+                  50.6137809753418,
+                  48.00150680541992
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

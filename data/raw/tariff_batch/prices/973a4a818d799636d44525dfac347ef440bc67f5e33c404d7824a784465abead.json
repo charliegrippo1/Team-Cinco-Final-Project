@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:09.804989+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "IBM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 228.53,
+            "regularMarketChangePercent": -1.108,
+            "fulldayPrice": 228.229,
+            "fulldayChange": -2.861,
+            "fulldayChangePercent": -1.238,
+            "fiftyTwoWeekHigh": 332.46,
+            "fiftyTwoWeekLow": 199.19,
+            "regularMarketDayHigh": 232.845,
+            "regularMarketDayLow": 228.4,
+            "regularMarketVolume": 4220546,
+            "longName": "International Business Machines Corporation",
+            "shortName": "International Business Machines",
+            "chartPreviousClose": 250.34,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  247.22999572753906,
+                  242.52999877929688,
+                  226.8800048828125
+                ],
+                "open": [
+                  248.22000122070312,
+                  242.7100067138672,
+                  238.0
+                ],
+                "volume": [
+                  4080800,
+                  5309600,
+                  7407100
+                ],
+                "close": [
+                  249.97999572753906,
+                  243.49000549316406,
+                  227.47999572753906
+                ],
+                "high": [
+                  252.7899932861328,
+                  250.61000061035156,
+                  240.16000366210938
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  238.759033203125,
+                  232.5603485107422,
+                  217.2689971923828
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

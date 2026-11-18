@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AEE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:39.910398+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AEE",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 883751400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 112.82,
+            "regularMarketChangePercent": 0.786,
+            "fulldayPrice": 112.82,
+            "fulldayChange": 0.88,
+            "fulldayChangePercent": 0.786,
+            "fiftyTwoWeekHigh": 118.32,
+            "fiftyTwoWeekLow": 96.57,
+            "regularMarketDayHigh": 113.195,
+            "regularMarketDayLow": 111.04,
+            "regularMarketVolume": 1742988,
+            "longName": "Ameren Corporation",
+            "shortName": "Ameren Corporation",
+            "chartPreviousClose": 100.67,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  101.08999633789062,
+                  101.88999938964844,
+                  102.4800033569336
+                ],
+                "high": [
+                  101.62999725341797,
+                  102.94000244140625,
+                  102.54000091552734
+                ],
+                "volume": [
+                  1916600,
+                  3775500,
+                  3099100
+                ],
+                "close": [
+                  100.83999633789062,
+                  101.68000030517578,
+                  95.79000091552734
+                ],
+                "low": [
+                  100.06999969482422,
+                  100.9000015258789,
+                  95.05000305175781
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  96.63516998291016,
+                  97.44014739990234,
+                  91.79576110839844
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

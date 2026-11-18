@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ELV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:17.858176+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ELV",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1004452200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 400.84,
+            "regularMarketChangePercent": -7.626,
+            "fulldayPrice": 392.83,
+            "fulldayChange": -41.1,
+            "fulldayChangePercent": -9.472,
+            "fiftyTwoWeekHigh": 450.69,
+            "fiftyTwoWeekLow": 274.84,
+            "regularMarketDayHigh": 435.96,
+            "regularMarketDayLow": 400.12,
+            "regularMarketVolume": 1907866,
+            "longName": "Elevance Health, Inc.",
+            "shortName": "Elevance Health, Inc.",
+            "chartPreviousClose": 432.68,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  430.1499938964844,
+                  433.9100036621094,
+                  450.2900085449219
+                ],
+                "low": [
+                  426.30999755859375,
+                  433.9100036621094,
+                  428.4700012207031
+                ],
+                "close": [
+                  429.3299865722656,
+                  452.69000244140625,
+                  428.8900146484375
+                ],
+                "high": [
+                  432.67999267578125,
+                  454.4599914550781,
+                  458.7300109863281
+                ],
+                "volume": [
+                  1156300,
+                  3314800,
+                  4515500
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  416.8370056152344,
+                  439.5173034667969,
+                  416.4098815917969
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

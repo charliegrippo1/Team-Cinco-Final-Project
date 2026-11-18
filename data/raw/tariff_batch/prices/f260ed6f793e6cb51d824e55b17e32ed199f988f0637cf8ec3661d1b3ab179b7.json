@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:19.229176+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LRCX",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 452525400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 211.67,
+            "regularMarketChangePercent": 0.465,
+            "fulldayPrice": 210.23,
+            "fulldayChange": -0.46,
+            "fulldayChangePercent": -0.218,
+            "fiftyTwoWeekHigh": 438.5,
+            "fiftyTwoWeekLow": 135.5,
+            "regularMarketDayHigh": 214.9,
+            "regularMarketDayLow": 206.43,
+            "regularMarketVolume": 7609280,
+            "longName": "Lam Research Corporation",
+            "shortName": "Lam Research Corporation",
+            "chartPreviousClose": 72.83,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  71.72000122070312,
+                  70.22000122070312,
+                  62.5099983215332
+                ],
+                "high": [
+                  74.80000305175781,
+                  70.55000305175781,
+                  63.06999969482422
+                ],
+                "low": [
+                  71.55999755859375,
+                  65.11000061035156,
+                  57.970001220703125
+                ],
+                "close": [
+                  73.77999877929688,
+                  65.22000122070312,
+                  59.09000015258789
+                ],
+                "volume": [
+                  7641400,
+                  19479400,
+                  26250900
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  73.11410522460938,
+                  64.63137817382812,
+                  58.556697845458984
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

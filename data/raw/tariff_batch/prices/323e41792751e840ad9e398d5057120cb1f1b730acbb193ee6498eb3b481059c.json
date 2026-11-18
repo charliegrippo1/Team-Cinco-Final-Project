@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HD?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:08.037047+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HD",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 370013400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 337.64,
+            "regularMarketChangePercent": -0.404,
+            "fulldayPrice": 337.64,
+            "fulldayChange": -1.37,
+            "fulldayChangePercent": -0.404,
+            "fiftyTwoWeekHigh": 397.63,
+            "fiftyTwoWeekLow": 277.15,
+            "regularMarketDayHigh": 340.62,
+            "regularMarketDayLow": 330.311,
+            "regularMarketVolume": 5107102,
+            "longName": "The Home Depot, Inc.",
+            "shortName": "Home Depot, Inc. (The)",
+            "chartPreviousClose": 365.52,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  370.8900146484375,
+                  355.9100036621094,
+                  353.8999938964844
+                ],
+                "high": [
+                  372.30999755859375,
+                  360.0400085449219,
+                  365.44000244140625
+                ],
+                "volume": [
+                  3189500,
+                  5407100,
+                  7531100
+                ],
+                "open": [
+                  362.55999755859375,
+                  355.7799987792969,
+                  350.7099914550781
+                ],
+                "low": [
+                  362.260009765625,
+                  351.7099914550781,
+                  349.0400085449219
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  356.4264221191406,
+                  342.03057861328125,
+                  340.0989685058594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

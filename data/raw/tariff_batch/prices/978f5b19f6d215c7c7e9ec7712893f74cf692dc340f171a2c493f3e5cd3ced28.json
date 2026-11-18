@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZTS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:21.737412+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ZTS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1359729000,
+            "regularMarketTime": 1795035796,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 85.57,
+            "regularMarketChangePercent": 2.504,
+            "fulldayPrice": 85.527,
+            "fulldayChange": 2.047,
+            "fulldayChangePercent": 2.452,
+            "fiftyTwoWeekHigh": 132.49,
+            "fiftyTwoWeekLow": 68.77,
+            "regularMarketDayHigh": 86.58,
+            "regularMarketDayLow": 82.15,
+            "regularMarketVolume": 4663438,
+            "longName": "Zoetis Inc.",
+            "shortName": "Zoetis Inc.",
+            "chartPreviousClose": 161.91,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  161.52000427246094,
+                  163.61000061035156,
+                  156.0
+                ],
+                "low": [
+                  160.8000030517578,
+                  159.25999450683594,
+                  151.17999267578125
+                ],
+                "high": [
+                  163.64999389648438,
+                  166.33999633789062,
+                  157.69000244140625
+                ],
+                "close": [
+                  163.5,
+                  159.61000061035156,
+                  151.72999572753906
+                ],
+                "volume": [
+                  2027200,
+                  3275500,
+                  3612000
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  158.27491760253906,
+                  154.50924682617188,
+                  146.88107299804688
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

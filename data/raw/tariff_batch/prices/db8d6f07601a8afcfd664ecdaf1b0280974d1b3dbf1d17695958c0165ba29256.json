@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/KIM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:54.127844+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "KIM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 690820200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 25.66,
+            "regularMarketChangePercent": 0.234,
+            "fulldayPrice": 25.66,
+            "fulldayChange": 0.06,
+            "fulldayChangePercent": 0.234,
+            "fiftyTwoWeekHigh": 26.65,
+            "fiftyTwoWeekLow": 19.76,
+            "regularMarketDayHigh": 25.84,
+            "regularMarketDayLow": 25.37,
+            "regularMarketVolume": 7482882,
+            "longName": "Kimco Realty Corporation",
+            "shortName": "Kimco Realty Corporation (HC)",
+            "chartPreviousClose": 21.14,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  20.950000762939453,
+                  19.829999923706055,
+                  19.209999084472656
+                ],
+                "open": [
+                  21.079999923706055,
+                  20.979999542236328,
+                  19.84000015258789
+                ],
+                "close": [
+                  21.450000762939453,
+                  20.06999969482422,
+                  19.31999969482422
+                ],
+                "volume": [
+                  3704500,
+                  10085500,
+                  12695300
+                ],
+                "high": [
+                  21.520000457763672,
+                  21.040000915527344,
+                  19.940000534057617
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  20.00492286682129,
+                  18.717891693115234,
+                  18.01841926574707
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

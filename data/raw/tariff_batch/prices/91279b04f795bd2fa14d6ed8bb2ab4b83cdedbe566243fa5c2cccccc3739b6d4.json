@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/EXPE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:46.165538+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "EXPE",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1121952600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 245.79,
+            "regularMarketChangePercent": 1.282,
+            "fulldayPrice": 245.79,
+            "fulldayChange": 2.92,
+            "fulldayChangePercent": 1.203,
+            "fiftyTwoWeekHigh": 342.0,
+            "fiftyTwoWeekLow": 185.34,
+            "regularMarketDayHigh": 251.38,
+            "regularMarketDayLow": 241.52,
+            "regularMarketVolume": 1389590,
+            "longName": "Expedia Group, Inc.",
+            "shortName": "Expedia Group, Inc.",
+            "chartPreviousClose": 167.7,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  165.1999969482422,
+                  152.19000244140625,
+                  139.1699981689453
+                ],
+                "close": [
+                  167.85000610351562,
+                  152.3699951171875,
+                  141.86000061035156
+                ],
+                "high": [
+                  169.1999969482422,
+                  160.05999755859375,
+                  146.75
+                ],
+                "open": [
+                  165.55999755859375,
+                  158.9499969482422,
+                  144.97000122070312
+                ],
+                "volume": [
+                  1915900,
+                  3400900,
+                  4650800
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  165.90232849121094,
+                  150.6019287109375,
+                  140.21388244628906
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HIG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:34.676162+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HIG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 819037800,
+            "regularMarketTime": 1795035679,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 135.97,
+            "regularMarketChangePercent": -0.184,
+            "fulldayPrice": 135.97,
+            "fulldayChange": -0.25,
+            "fulldayChangePercent": -0.184,
+            "fiftyTwoWeekHigh": 146.07,
+            "fiftyTwoWeekLow": 120.42,
+            "regularMarketDayHigh": 136.61,
+            "regularMarketDayLow": 134.32,
+            "regularMarketVolume": 1609005,
+            "longName": "The Hartford Insurance Group, Inc.",
+            "shortName": "The Hartford Insurance Group, I",
+            "chartPreviousClose": 124.39,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  125.08000183105469,
+                  125.0,
+                  121.1500015258789
+                ],
+                "volume": [
+                  1349400,
+                  2192900,
+                  2389900
+                ],
+                "close": [
+                  124.86000061035156,
+                  123.44000244140625,
+                  113.56999969482422
+                ],
+                "open": [
+                  123.26000213623047,
+                  123.04000091552734,
+                  120.88999938964844
+                ],
+                "low": [
+                  122.7300033569336,
+                  121.9800033569336,
+                  113.04000091552734
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  121.68997955322266,
+                  120.3060302734375,
+                  110.6866226196289
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

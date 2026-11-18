@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NEE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:14.060762+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NEE",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 84.78,
+            "regularMarketChangePercent": 0.426,
+            "fulldayPrice": 84.78,
+            "fulldayChange": 0.36,
+            "fulldayChangePercent": 0.426,
+            "fiftyTwoWeekHigh": 98.75,
+            "fiftyTwoWeekLow": 74.41,
+            "regularMarketDayHigh": 85.075,
+            "regularMarketDayLow": 83.8,
+            "regularMarketVolume": 10773610,
+            "longName": "NextEra Energy, Inc.",
+            "shortName": "NextEra Energy, Inc.",
+            "chartPreviousClose": 70.92,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  71.08999633789062,
+                  71.66999816894531,
+                  72.79000091552734
+                ],
+                "high": [
+                  71.29000091552734,
+                  72.95999908447266,
+                  73.41999816894531
+                ],
+                "volume": [
+                  8480100,
+                  13652700,
+                  20993500
+                ],
+                "close": [
+                  70.4800033569336,
+                  72.13999938964844,
+                  66.91000366210938
+                ],
+                "low": [
+                  70.12999725341797,
+                  71.37000274658203,
+                  66.86000061035156
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  67.43965148925781,
+                  69.02803039550781,
+                  64.0236587524414
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

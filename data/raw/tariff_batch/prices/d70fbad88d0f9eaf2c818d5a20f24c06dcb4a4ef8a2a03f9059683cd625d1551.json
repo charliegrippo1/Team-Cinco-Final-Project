@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/URI?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:32.218877+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "URI",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 882455400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 1088.32,
+            "regularMarketChangePercent": 0.536,
+            "fulldayPrice": 1088.14,
+            "fulldayChange": 5.62,
+            "fulldayChangePercent": 0.519,
+            "fiftyTwoWeekHigh": 1202.12,
+            "fiftyTwoWeekLow": 701.59,
+            "regularMarketDayHigh": 1091.78,
+            "regularMarketDayLow": 1068.31,
+            "regularMarketVolume": 752201,
+            "longName": "United Rentals, Inc.",
+            "shortName": "United Rentals, Inc.",
+            "chartPreviousClose": 631.99,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  618.7000122070312,
+                  604.1699829101562,
+                  572.5
+                ],
+                "close": [
+                  646.1699829101562,
+                  591.1699829101562,
+                  564.5700073242188
+                ],
+                "high": [
+                  647.5800170898438,
+                  610.0,
+                  583.3099975585938
+                ],
+                "volume": [
+                  512000,
+                  760600,
+                  1180700
+                ],
+                "low": [
+                  616.47998046875,
+                  587.9000244140625,
+                  544.3200073242188
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  636.9845581054688,
+                  582.7662963867188,
+                  556.5444946289062
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

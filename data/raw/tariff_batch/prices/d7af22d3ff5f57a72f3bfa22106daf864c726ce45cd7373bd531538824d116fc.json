@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DVN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:42.296869+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DVN",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 490887000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 41.96,
+            "regularMarketChangePercent": -3.451,
+            "fulldayPrice": 42.07,
+            "fulldayChange": -1.39,
+            "fulldayChangePercent": -3.198,
+            "fiftyTwoWeekHigh": 52.71,
+            "fiftyTwoWeekLow": 34.23,
+            "regularMarketDayHigh": 43.8,
+            "regularMarketDayLow": 41.83,
+            "regularMarketVolume": 14749107,
+            "longName": "Devon Energy Corporation",
+            "shortName": "Devon Energy Corporation",
+            "chartPreviousClose": 37.57,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  37.040000915527344,
+                  33.040000915527344,
+                  29.059999465942383
+                ],
+                "close": [
+                  37.91999816894531,
+                  33.15999984741211,
+                  29.309999465942383
+                ],
+                "high": [
+                  37.959999084472656,
+                  35.90999984741211,
+                  32.290000915527344
+                ],
+                "volume": [
+                  5355500,
+                  16227400,
+                  23073700
+                ],
+                "open": [
+                  37.040000915527344,
+                  35.40999984741211,
+                  32.0
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  36.465518951416016,
+                  31.888097763061523,
+                  28.185768127441406
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

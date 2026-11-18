@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BIIB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:46.851694+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BIIB",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 685114200,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 251.41,
+            "regularMarketChangePercent": 0.247,
+            "fulldayPrice": 251.41,
+            "fulldayChange": 0.62,
+            "fulldayChangePercent": 0.247,
+            "fiftyTwoWeekHigh": 261.0,
+            "fiftyTwoWeekLow": 160.36,
+            "regularMarketDayHigh": 252.79,
+            "regularMarketDayLow": 247.0,
+            "regularMarketVolume": 1144675,
+            "longName": "Biogen Inc.",
+            "shortName": "Biogen Inc.",
+            "chartPreviousClose": 132.03,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  134.0,
+                  133.77000427246094,
+                  129.9499969482422
+                ],
+                "close": [
+                  131.32000732421875,
+                  130.7100067138672,
+                  122.9800033569336
+                ],
+                "open": [
+                  132.5800018310547,
+                  132.3699951171875,
+                  129.22000122070312
+                ],
+                "low": [
+                  128.75,
+                  130.0500030517578,
+                  122.7699966430664
+                ],
+                "volume": [
+                  1944900,
+                  1755600,
+                  3090700
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  131.32000732421875,
+                  130.7100067138672,
+                  122.9800033569336
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

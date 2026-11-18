@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SYF?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:46.343374+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "SYF",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1406813400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 70.16,
+            "regularMarketChangePercent": -0.482,
+            "fulldayPrice": 70.16,
+            "fulldayChange": -0.34,
+            "fulldayChangePercent": -0.482,
+            "fiftyTwoWeekHigh": 88.77,
+            "fiftyTwoWeekLow": 63.08,
+            "regularMarketDayHigh": 71.505,
+            "regularMarketDayLow": 70.001,
+            "regularMarketVolume": 4015282,
+            "longName": "Synchrony Financial",
+            "shortName": "Synchrony Financial",
+            "chartPreviousClose": 53.26,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  55.43000030517578,
+                  51.349998474121094,
+                  44.665000915527344
+                ],
+                "close": [
+                  55.04999923706055,
+                  46.560001373291016,
+                  43.810001373291016
+                ],
+                "volume": [
+                  3212200,
+                  11259300,
+                  9503800
+                ],
+                "low": [
+                  52.22999954223633,
+                  46.34000015258789,
+                  41.310001373291016
+                ],
+                "open": [
+                  52.22999954223633,
+                  50.779998779296875,
+                  44.349998474121094
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  53.37188720703125,
+                  45.14069747924805,
+                  42.474525451660156
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

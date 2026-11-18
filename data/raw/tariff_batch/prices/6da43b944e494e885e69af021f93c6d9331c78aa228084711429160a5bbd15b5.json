@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/J?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:53.141620+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "J",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 157.24,
+            "regularMarketChangePercent": -0.626,
+            "fulldayPrice": 157.24,
+            "fulldayChange": -0.99,
+            "fulldayChangePercent": -0.626,
+            "fiftyTwoWeekHigh": 162.0,
+            "fiftyTwoWeekLow": 105.68,
+            "regularMarketDayHigh": 158.72,
+            "regularMarketDayLow": 155.995,
+            "regularMarketVolume": 569209,
+            "longName": "Jacobs Solutions Inc.",
+            "shortName": "Jacobs Solutions Inc.",
+            "chartPreviousClose": 120.772,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  119.24752807617188,
+                  117.0197982788086,
+                  109.8019790649414
+                ],
+                "high": [
+                  123.5445556640625,
+                  119.47525024414062,
+                  114.9802017211914
+                ],
+                "volume": [
+                  592466,
+                  1135947,
+                  1046259
+                ],
+                "open": [
+                  119.35643768310547,
+                  118.81188201904297,
+                  114.31683349609375
+                ],
+                "close": [
+                  123.2871322631836,
+                  117.30693054199219,
+                  110.3465347290039
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  121.41535949707031,
+                  115.52593994140625,
+                  108.67122650146484
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALGN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:57.387095+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ALGN",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 980865000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 163.96,
+            "regularMarketChangePercent": 0.306,
+            "fulldayPrice": 163.96,
+            "fulldayChange": 0.5,
+            "fulldayChangePercent": 0.306,
+            "fiftyTwoWeekHigh": 200.44,
+            "fiftyTwoWeekLow": 131.95,
+            "regularMarketDayHigh": 165.0,
+            "regularMarketDayLow": 160.65,
+            "regularMarketVolume": 892043,
+            "longName": "Align Technology, Inc.",
+            "shortName": "Align Technology, Inc.",
+            "chartPreviousClose": 158.08,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  155.35000610351562,
+                  150.8000030517578,
+                  143.0
+                ],
+                "close": [
+                  163.97999572753906,
+                  154.24000549316406,
+                  153.50999450683594
+                ],
+                "volume": [
+                  799300,
+                  1873300,
+                  2165200
+                ],
+                "open": [
+                  155.74000549316406,
+                  160.58999633789062,
+                  150.55999755859375
+                ],
+                "high": [
+                  164.1300048828125,
+                  160.58999633789062,
+                  155.39999389648438
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  163.97999572753906,
+                  154.24000549316406,
+                  153.50999450683594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

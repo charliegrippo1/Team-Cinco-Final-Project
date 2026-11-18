@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HWM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:26.873160+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HWM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1478007000,
+            "regularMarketTime": 1795035809,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 221.15,
+            "regularMarketChangePercent": 2.717,
+            "fulldayPrice": 221.15,
+            "fulldayChange": 5.85,
+            "fulldayChangePercent": 2.717,
+            "fiftyTwoWeekHigh": 310.0,
+            "fiftyTwoWeekLow": 183.52,
+            "regularMarketDayHigh": 222.32,
+            "regularMarketDayLow": 211.91,
+            "regularMarketVolume": 5408776,
+            "longName": "Howmet Aerospace Inc.",
+            "shortName": "Howmet Aerospace Inc.",
+            "chartPreviousClose": 131.78,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  129.0,
+                  124.80000305175781,
+                  109.41999816894531
+                ],
+                "volume": [
+                  1749400,
+                  2372600,
+                  6664400
+                ],
+                "close": [
+                  133.89999389648438,
+                  125.0,
+                  112.33000183105469
+                ],
+                "open": [
+                  129.1699981689453,
+                  127.80000305175781,
+                  115.94999694824219
+                ],
+                "high": [
+                  134.1300048828125,
+                  130.0,
+                  117.22000122070312
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  133.35572814941406,
+                  124.49189758300781,
+                  111.8734130859375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

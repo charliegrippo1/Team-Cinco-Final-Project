@@ -287,6 +287,8 @@ def run(args):
                     spy = daily(spy_closes)
                     price_rows.extend(price_snapshot("SPY", "SPY", spy_closes, spy_record))
                 symbol = firm.get("price_symbol") or firm["ticker"].replace(".", "-")
+                if symbol == "none":   # data/universe/price_fixes.csv: no verified price series
+                    raise ValueError("No verified price series (see data/universe/price_fixes.csv)")
                 closes, record = prices(symbol, args.cache, args.offline)
                 price_rows.extend(price_snapshot(firm["ticker"], symbol, closes, record))
                 r3, r4 = daily(closes)

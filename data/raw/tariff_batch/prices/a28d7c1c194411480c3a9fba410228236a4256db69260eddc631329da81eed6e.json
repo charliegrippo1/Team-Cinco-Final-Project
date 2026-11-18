@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/IEX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:54.876684+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "IEX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 612797400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 233.14,
+            "regularMarketChangePercent": 0.236,
+            "fulldayPrice": 233.14,
+            "fulldayChange": 0.55,
+            "fulldayChangePercent": 0.236,
+            "fiftyTwoWeekHigh": 243.8,
+            "fiftyTwoWeekLow": 160.6,
+            "regularMarketDayHigh": 234.41,
+            "regularMarketDayLow": 231.665,
+            "regularMarketVolume": 427992,
+            "longName": "IDEX Corporation",
+            "shortName": "IDEX Corporation",
+            "chartPreviousClose": 181.15,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  179.19000244140625,
+                  178.3699951171875,
+                  165.30999755859375
+                ],
+                "high": [
+                  183.67999267578125,
+                  178.3699951171875,
+                  165.8300018310547
+                ],
+                "volume": [
+                  477100,
+                  779100,
+                  1053500
+                ],
+                "low": [
+                  179.16000366210938,
+                  168.44000244140625,
+                  160.1300048828125
+                ],
+                "close": [
+                  183.3000030517578,
+                  168.67999267578125,
+                  162.49000549316406
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  178.68484497070312,
+                  164.43296813964844,
+                  158.39881896972656
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

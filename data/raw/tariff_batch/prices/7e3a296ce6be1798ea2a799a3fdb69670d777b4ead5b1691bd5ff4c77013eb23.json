@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ROK?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:38.623643+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ROK",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 378657000,
+            "regularMarketTime": 1795035706,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 395.86,
+            "regularMarketChangePercent": 1.176,
+            "fulldayPrice": 395.86,
+            "fulldayChange": 4.6,
+            "fulldayChangePercent": 1.176,
+            "fiftyTwoWeekHigh": 497.36,
+            "fiftyTwoWeekLow": 347.53,
+            "regularMarketDayHigh": 400.78,
+            "regularMarketDayLow": 390.27,
+            "regularMarketVolume": 912970,
+            "longName": "Rockwell Automation, Inc.",
+            "shortName": "Rockwell Automation, Inc.",
+            "chartPreviousClose": 258.74,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  255.27999877929688,
+                  250.42999267578125,
+                  232.10000610351562
+                ],
+                "low": [
+                  253.7899932861328,
+                  237.5,
+                  218.47999572753906
+                ],
+                "volume": [
+                  1142400,
+                  1432400,
+                  1585200
+                ],
+                "high": [
+                  262.6199951171875,
+                  250.47999572753906,
+                  232.10000610351562
+                ],
+                "close": [
+                  260.8599853515625,
+                  239.16000366210938,
+                  227.11000061035156
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  254.4244384765625,
+                  233.25982666015625,
+                  221.50709533691406
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

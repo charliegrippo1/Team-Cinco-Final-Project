@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BDX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:23.714202+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BDX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 216.08,
+            "regularMarketChangePercent": 0.306,
+            "fulldayPrice": 216.08,
+            "fulldayChange": 0.66,
+            "fulldayChangePercent": 0.306,
+            "fiftyTwoWeekHigh": 220.36,
+            "fiftyTwoWeekLow": 140.11,
+            "regularMarketDayHigh": 216.96,
+            "regularMarketDayLow": 212.76,
+            "regularMarketVolume": 1316147,
+            "longName": "Becton, Dickinson and Company",
+            "shortName": "Becton, Dickinson and Company",
+            "chartPreviousClose": 177.704,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  178.3018798828125,
+                  178.20755004882812,
+                  173.30975341796875
+                ],
+                "open": [
+                  176.7059783935547,
+                  177.83018493652344,
+                  172.57861328125
+                ],
+                "close": [
+                  178.00314331054688,
+                  174.2059783935547,
+                  163.00314331054688
+                ],
+                "low": [
+                  175.73899841308594,
+                  173.1446533203125,
+                  161.12420654296875
+                ],
+                "volume": [
+                  2078448,
+                  3418500,
+                  8425474
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  171.6860809326172,
+                  168.02366638183594,
+                  157.21839904785156
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

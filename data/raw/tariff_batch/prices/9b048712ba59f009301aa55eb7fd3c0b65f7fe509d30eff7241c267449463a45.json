@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MTD?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:42.140145+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MTD",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 879517800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 1737.26,
+            "regularMarketChangePercent": 1.419,
+            "fulldayPrice": 1736.391,
+            "fulldayChange": 23.441,
+            "fulldayChangePercent": 1.368,
+            "fiftyTwoWeekHigh": 1806.58,
+            "fiftyTwoWeekLow": 1023.05,
+            "regularMarketDayHigh": 1743.0,
+            "regularMarketDayLow": 1687.105,
+            "regularMarketVolume": 157747,
+            "longName": "Mettler-Toledo International Inc.",
+            "shortName": "Mettler-Toledo International, I",
+            "chartPreviousClose": 1156.38,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  1139.43994140625,
+                  1150.3499755859375,
+                  1075.4100341796875
+                ],
+                "low": [
+                  1139.43994140625,
+                  1087.719970703125,
+                  1000.719970703125
+                ],
+                "close": [
+                  1172.5,
+                  1095.239990234375,
+                  1022.6599731445312
+                ],
+                "volume": [
+                  131700,
+                  227900,
+                  424800
+                ],
+                "high": [
+                  1175.510009765625,
+                  1150.3499755859375,
+                  1075.4100341796875
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  1172.5,
+                  1095.239990234375,
+                  1022.6599731445312
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

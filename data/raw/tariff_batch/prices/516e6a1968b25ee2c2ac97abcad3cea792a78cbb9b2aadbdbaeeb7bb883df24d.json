@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CSX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:25.519905+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CSX",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 342109800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 51.33,
+            "regularMarketChangePercent": 0.372,
+            "fulldayPrice": 51.133,
+            "fulldayChange": -0.007,
+            "fulldayChangePercent": -0.013,
+            "fiftyTwoWeekHigh": 53.6,
+            "fiftyTwoWeekLow": 33.63,
+            "regularMarketDayHigh": 51.7,
+            "regularMarketDayLow": 50.81,
+            "regularMarketVolume": 7085805,
+            "longName": "CSX Corporation",
+            "shortName": "CSX Corporation",
+            "chartPreviousClose": 29.54,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  29.760000228881836,
+                  28.979999542236328,
+                  27.729999542236328
+                ],
+                "close": [
+                  29.739999771118164,
+                  27.989999771118164,
+                  27.209999084472656
+                ],
+                "low": [
+                  29.139999389648438,
+                  27.899999618530273,
+                  26.950000762939453
+                ],
+                "open": [
+                  29.280000686645508,
+                  28.969999313354492,
+                  27.56999969482422
+                ],
+                "volume": [
+                  9470300,
+                  21170800,
+                  26481200
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  29.124692916870117,
+                  27.410898208618164,
+                  26.647035598754883
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

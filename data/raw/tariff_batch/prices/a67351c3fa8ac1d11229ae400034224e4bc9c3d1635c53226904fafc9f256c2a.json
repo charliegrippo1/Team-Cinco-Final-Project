@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TROW?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:46.575995+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TROW",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 512836200,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 109.76,
+            "regularMarketChangePercent": 2.255,
+            "fulldayPrice": 109.76,
+            "fulldayChange": 2.42,
+            "fulldayChangePercent": 2.255,
+            "fiftyTwoWeekHigh": 122.0,
+            "fiftyTwoWeekLow": 85.22,
+            "regularMarketDayHigh": 110.9,
+            "regularMarketDayLow": 106.6,
+            "regularMarketVolume": 2442785,
+            "longName": "T. Rowe Price Group, Inc.",
+            "shortName": "T. Rowe Price Group, Inc.",
+            "chartPreviousClose": 92.27,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  91.36000061035156,
+                  90.01000213623047,
+                  84.4800033569336
+                ],
+                "high": [
+                  94.52999877929688,
+                  90.02999877929688,
+                  85.55999755859375
+                ],
+                "low": [
+                  91.1500015258789,
+                  85.73999786376953,
+                  82.33999633789062
+                ],
+                "volume": [
+                  1517200,
+                  3286000,
+                  4564400
+                ],
+                "close": [
+                  93.9000015258789,
+                  86.22000122070312,
+                  82.5999984741211
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  86.95238494873047,
+                  79.84062957763672,
+                  76.48847198486328
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

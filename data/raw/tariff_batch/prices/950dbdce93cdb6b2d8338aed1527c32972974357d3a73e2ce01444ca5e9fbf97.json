@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PCAR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:27.289876+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PCAR",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 103.81,
+            "regularMarketChangePercent": -0.765,
+            "fulldayPrice": 103.81,
+            "fulldayChange": -0.8,
+            "fulldayChangePercent": -0.765,
+            "fiftyTwoWeekHigh": 139.24,
+            "fiftyTwoWeekLow": 96.2,
+            "regularMarketDayHigh": 104.73,
+            "regularMarketDayLow": 103.24,
+            "regularMarketVolume": 1979181,
+            "longName": "PACCAR Inc",
+            "shortName": "PACCAR Inc.",
+            "chartPreviousClose": 98.29,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  99.25,
+                  96.37999725341797,
+                  93.97000122070312
+                ],
+                "low": [
+                  96.80999755859375,
+                  92.20999908447266,
+                  89.66999816894531
+                ],
+                "close": [
+                  99.08999633789062,
+                  92.36000061035156,
+                  90.87999725341797
+                ],
+                "volume": [
+                  2001200,
+                  4165800,
+                  6326900
+                ],
+                "open": [
+                  97.5999984741211,
+                  95.72000122070312,
+                  90.61000061035156
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  95.74044799804688,
+                  89.23794555664062,
+                  87.80797576904297
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

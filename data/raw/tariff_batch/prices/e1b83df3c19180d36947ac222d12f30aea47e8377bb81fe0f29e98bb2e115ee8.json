@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CDNS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:22.538317+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CDNS",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 550330200,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 305.82,
+            "regularMarketChangePercent": -0.375,
+            "fulldayPrice": 305.82,
+            "fulldayChange": -1.15,
+            "fulldayChangePercent": -0.375,
+            "fiftyTwoWeekHigh": 416.69,
+            "fiftyTwoWeekLow": 262.75,
+            "regularMarketDayHigh": 315.86,
+            "regularMarketDayLow": 305.43,
+            "regularMarketVolume": 1621237,
+            "longName": "Cadence Design Systems, Inc.",
+            "shortName": "Cadence Design Systems, Inc.",
+            "chartPreviousClose": 258.79,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  265.7300109863281,
+                  255.19000244140625,
+                  246.22000122070312
+                ],
+                "volume": [
+                  1859500,
+                  2995200,
+                  4203200
+                ],
+                "close": [
+                  264.94000244140625,
+                  248.91000366210938,
+                  232.8800048828125
+                ],
+                "open": [
+                  253.52000427246094,
+                  252.33999633789062,
+                  243.52999877929688
+                ],
+                "low": [
+                  253.44000244140625,
+                  245.4199981689453,
+                  232.3699951171875
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  264.94000244140625,
+                  248.91000366210938,
+                  232.8800048828125
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

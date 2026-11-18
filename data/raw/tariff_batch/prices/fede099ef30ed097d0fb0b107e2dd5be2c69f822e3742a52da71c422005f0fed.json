@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:27.616485+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "RCL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 736003800,
+            "regularMarketTime": 1795035831,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 320.65,
+            "regularMarketChangePercent": 4.314,
+            "fulldayPrice": 320.62,
+            "fulldayChange": 13.23,
+            "fulldayChangePercent": 4.304,
+            "fiftyTwoWeekHigh": 356.39,
+            "fiftyTwoWeekLow": 222.22,
+            "regularMarketDayHigh": 323.49,
+            "regularMarketDayLow": 306.66,
+            "regularMarketVolume": 1822732,
+            "longName": "Royal Caribbean Cruises Ltd.",
+            "shortName": "Royal Caribbean Cruises Ltd.",
+            "chartPreviousClose": 208.12,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  212.0500030517578,
+                  188.64999389648438,
+                  177.92999267578125
+                ],
+                "high": [
+                  213.13999938964844,
+                  195.99000549316406,
+                  184.58999633789062
+                ],
+                "open": [
+                  204.11000061035156,
+                  195.99000549316406,
+                  179.5
+                ],
+                "volume": [
+                  2137500,
+                  5152500,
+                  5322100
+                ],
+                "low": [
+                  204.08999633789062,
+                  187.57000732421875,
+                  172.0
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  206.6710968017578,
+                  183.8646697998047,
+                  173.41661071777344
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}
