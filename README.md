@@ -53,8 +53,15 @@ Albemarle and others). This is an association over two days, not a causal estima
   company names removed gave the same score for 8 of the 9 that could be compared and one
   point lower for Roper; mean absolute difference 0.11, inside the bar set before the run
   ([table](outputs/v1/v1_masked_agreement.md)).
-- *Blind hand-check:* **[added Thursday]** 20 firms drawn at random before scoring
-  (`audits/hand_check_v1_draw.csv`, #27), scored by Carter and Gunnar without seeing the AI score.
+- *Blind hand-check:* 20 firms drawn at random before scoring
+  (`audits/hand_check_v1_draw.csv`, #27; HSY, KVUE and TPR skipped because they failed),
+  scored by Carter and Gunnar from the 10-K without seeing the AI score. The AI matched
+  exactly on 10 of 20 and was within one point on 18 of 20 (90%); mean absolute difference
+  0.65 (v0: 0.75 on 8 firms). Hand scores were lower than the AI's for 5 firms and higher
+  for 5, so no lean either way. The two large misses: Norwegian Cruise (AI 0, hand 3; the AI
+  looked at everyday supplies and missed ships built in European yards) and Dominion (AI 4,
+  hand 2; the AI weighted foreign-currency contracts for one offshore wind project)
+  ([table](outputs/v1/v1_hand_check.md), [scores and quotes](audits/hand_check_v1.csv)).
 - *Quotes:* every score cites a passage that is checked against the filing word for word;
   424 scores passed (396 exact, 18 differing only in spacing or quote marks, 10 stitched
   from several exact pieces, rule in #29).
@@ -137,7 +144,9 @@ in percentage points, with the April 2 close as the base. Column definitions:
   recognize some firms.
 - **The score is a judgment.** The v1 rubric scores only imports and overseas production
   (foreign sales do not count), which fixed the main disagreement in the v0 hand-check
-  (Autodesk, Verizon). The v1 blind hand-check is reported above.
+  (Autodesk, Verizon). In the v1 blind hand-check, 18 of 20 scores were within one point;
+  the two large misses were firms whose foreign exposure sits in big one-off purchases
+  (cruise ships, an offshore wind farm) rather than everyday imports.
 - **Missing firms are not random.** 92 of 500 firms are not in the regression. Financials
   are hit hardest (47 of 73 complete) because big banks' and insurers' filings exceed the
   length limit; Utilities (22 of 31) and Consumer Staples (28 of 38) are also below average.

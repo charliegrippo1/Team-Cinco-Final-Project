@@ -62,7 +62,9 @@ def main():
     if args.full and completed == 0:
         sys.exit("Stopped: no firm has a v1 score yet. Run  python run_all.py --full --live  to score them.")
     if args.full:
-        run("scripts/make_outputs.py", "--batch", output, "--prefix", "v1", "--out", "outputs/v1")
+        # The 20 blind hand scores drawn before scoring (specs_tried.md #27).
+        run("scripts/make_outputs.py", "--batch", output, "--prefix", "v1", "--out", "outputs/v1",
+            "--hand-check", "audits/hand_check_v1.csv")
     else:
         run("scripts/make_outputs.py")
     print(f"\nDone. Failed firms (if any) are listed in {output}/failures.csv")

@@ -64,7 +64,11 @@ All numbers below are copied from the committed files in `outputs/v1/` (full run
 - Full-sample manifest checks found and fixed wrong cover tickers and market caps
   (#24, #25); prices were verified against SPY's N-PORT before scoring (#26), which
   caught Paramount's reused ticker.
-- The v1 hand-check firms were drawn before scoring (#27).
+- The v1 hand-check firms were drawn before scoring (#27). Carter and Gunnar scored the
+  first 20 complete firms in that order from the 10-K, each before seeing the AI score
+  (`audits/hand_check_v1.csv`, with a quote and reason per firm). The AI matched exactly on
+  10 of 20 and was within one point on 18 of 20; mean absolute difference 0.65, with hand
+  scores lower for 5 firms and higher for 5 (`outputs/v1/v1_hand_check.md`).
 - Quote rule for v1, decided during the run before any result was viewed (#29): quotes
   with the same words but different spacing or quote marks, and quotes stitched from
   several exact pieces, count; any word not in the filing still fails.
