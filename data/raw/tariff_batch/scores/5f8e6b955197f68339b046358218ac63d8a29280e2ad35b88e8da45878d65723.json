@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0ed264a221638bc5a320e0c57b52c0fc08d1c948bc4990ee991536fcb8f08bfa",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": true,
+  "retrieved_utc": "2026-11-19T03:22:45.211423+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "01e3fb31894f826619e2e19a1b7e6248",
+    "output_text": "{\"score\":3,\"evidence\":\"Many of the products sold in our stores are sourced in locations (particularly in China, India, and southeastern Asia) other than the location in which they will be sold. Where we are the importer of record, we may be subject to regulatory or other requirements, including those similar to requirements imposed upon the manufacturer of such products.\",\"rationale\":\"The filing identifies specific foreign sourcing locations including China and other Asian countries, indicating substantial reliance on imported goods. It also highlights risks related to international sourcing and importing, implying that overseas manufacturing and foreign-made inputs materially affect costs and operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 25018,
+    "output_tokens": 123,
+    "cost_usd": 0.010204000000000001
+  }
+}

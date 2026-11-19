@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ad90b904e95e9f7b5aad35396cecc39a04717f820bbb32940a6b187a37286917",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": true,
+  "retrieved_utc": "2026-11-19T03:19:07.083875+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ebc3b8155f2ea41704f9564840feea1b",
+    "output_text": "{\"score\":4,\"evidence\":\"Nearly all footwear and apparel products are manufactured outside the United States, while equipment products are manufactured both in the United States and abroad.\",\"rationale\":\"The filing states that nearly all footwear and apparel products are manufactured outside the United States, indicating that imports and overseas manufacturing are central to the business and most products depend on these arrangements. This supports the highest dependence score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40902,
+    "output_tokens": 84,
+    "cost_usd": 0.0164952
+  }
+}

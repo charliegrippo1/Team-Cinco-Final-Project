@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "79c44cddb16a5f6338f6c104876e0e015062dd9e5c6fd0c01cec1c0046c6311a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:55:25.319719+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8a7c071ae5e4dc804db59cd110b2ce81",
+    "output_text": "{\"score\":0,\"evidence\":\"We provide our customers with a suite of broadband connectivity services, including fixed Internet, WiFi and mobile, which when bundled together provides our customers with a differentiated converged connectivity experience while saving consumers money.\",\"rationale\":\"The filing describes the company’s broadband connectivity services and network evolution but does not identify any specific imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of tariffs, trade restrictions, or reliance on overseas suppliers or manufacturing, including China. The focus is on network services and infrastructure within the U.S., with no evidence of material dependence on imports or foreign manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37662,
+    "output_tokens": 128,
+    "cost_usd": 0.015269600000000001
+  }
+}

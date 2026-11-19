@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b5592bcd5e3f821d63abf68eda6275bec3ea7da9f519dcc4b8888d456d62de72",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:55:13.705291+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f59b0791fbd21196f15117aaaa6168d2",
+    "output_text": "{\"score\":3,\"evidence\":\"CooperVision manufactures molded contact lenses, which represent the majority of our contact lens revenues, primarily at our facilities in Costa Rica, Hungary, Puerto Rico, the United Kingdom and the United States, with other smaller facilities also existing in multiple locations around the world. CooperSurgical manufactures the majority of its products in Costa Rica, the United Kingdom and the United States, with other smaller locations also existing in multiple locations around the world.\",\"rationale\":\"The filing identifies multiple manufacturing facilities for both CooperVision and CooperSurgical located outside the United States, including Costa Rica, Hungary, Puerto Rico, the United Kingdom and others, indicating substantial reliance on overseas manufacturing. This reliance could materially affect costs or operations if disrupted. While specific imported goods or inputs are not detailed, the global manufacturing footprint supports a score of 3 rather than 2. China is mentioned in regulatory context but not as a manufacturing location, so it is noted but not central to the rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35978,
+    "output_tokens": 200,
+    "cost_usd": 0.014711200000000002
+  }
+}

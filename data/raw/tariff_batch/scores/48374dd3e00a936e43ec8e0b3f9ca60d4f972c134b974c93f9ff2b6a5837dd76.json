@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "233c4867109b92f2e3be1aa91bd1eac8b11ecc2c93ae595bc3d24bc3362ef951",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:59:07.001473+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1d2adfa52171e56687cb668ccaf1668a",
+    "output_text": "```json\n{\"score\":0,\"evidence\":\"MAA, an S&P 500 company, is a multifamily-focused, self-administered and self-managed real estate investment trust, or REIT. We own, operate, acquire and selectively develop apartment communities primarily located in the Southeast, Southwest and Mid-Atlantic regions of the U.S.\",\"rationale\":\"The filing describes a real estate investment trust focused on owning and operating apartment communities within the U.S., with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational dependence on imports or overseas manufacturing, nor mention of tariffs or trade restrictions affecting operations. The business is geographically concentrated in U.S. regions, and no foreign production or supply chain reliance is indicated.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31991,
+    "output_tokens": 157,
+    "cost_usd": 0.013047600000000001
+  }
+}

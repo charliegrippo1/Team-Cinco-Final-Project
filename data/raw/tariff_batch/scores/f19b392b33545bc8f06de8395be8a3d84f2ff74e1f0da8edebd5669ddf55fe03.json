@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ccd96cf222af893aa990d6fe6234b7716ec47ed47d7fd88f61d080cff9604459",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:44:42.452835+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6a6a3e2aad2a972e22b5d6959015304f",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a multi-state diversified regional bank holding company organized under Maryland law in 1966 and headquartered in Columbus, Ohio. Through the Bank, we are committed to making people’s lives better, helping businesses thrive, and strengthening the communities we serve, and we have been servicing the financial needs of our customers since 1866.\",\"rationale\":\"The filing describes a bank holding company and its banking operations, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is financial services focused, with no evidence of operational reliance on imports or overseas manufacturing. Therefore, there is insufficient evidence of dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 64347,
+    "output_tokens": 143,
+    "cost_usd": 0.025967600000000004
+  }
+}

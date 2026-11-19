@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6e424e4c5b021d1631879f6e8bbf9c672e1fb8dc18e2050277429a8f8351db79",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:30:55.934624+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4300e0f7a058f7730635b768df076cf2",
+    "output_text": "{\"score\":3,\"evidence\":\"We operate in multiple countries and maintain a complex global supply chain and distribution network which exposes us to a variety of risks from U.S. and other countries’ international trade and tariff policies. Changes to tariffs, trade restrictions and protection measures applicable to trade with certain countries, trade in certain types of goods, or otherwise; new import or export requirements; changes to trade agreements; new or increased tariffs, trade embargoes, sanctions and other trade barriers may prevent us from shipping products to or from a particular market, restrict our access to certain sources of raw materials and other inputs, increase our operating costs and disrupt our ability to collect payment for our products and services in particular markets.\",\"rationale\":\"The filing identifies a complex global supply chain and distribution network with exposure to tariffs, trade restrictions, and trade barriers that may prevent shipping products or restrict access to raw materials and inputs, increasing costs and disrupting operations. This indicates substantial reliance on imports, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations. China is mentioned as a country subject to tariffs and trade restrictions, supporting inclusion in the rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27567,
+    "output_tokens": 229,
+    "cost_usd": 0.011393200000000001
+  }
+}

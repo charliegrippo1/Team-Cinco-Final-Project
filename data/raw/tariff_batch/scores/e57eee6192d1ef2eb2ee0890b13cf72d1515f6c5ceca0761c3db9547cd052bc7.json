@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0ae12c5b1abd3451585d4d25c9bb22dd8cc3ecf34710f7d81cb80bf136102a6d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:40:56.099169+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e9f0e8ddaaaca5b8798c1449c3c7acfe",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Content purchase obligations include commitments associated with third-party producers and sports associations for content that airs on our television networks and DTC services. Production and licensing contracts generally require the purchase of a specified number of episodes and payments during production or over the term of a license, and include both programs that have been delivered and are available for airing and programs that have not yet been produced or sporting events that have not yet taken place. If the content is ultimately never produced, our commitments expire without obligation. We expect to enter into additional production contracts and content licenses to meet our future content needs.\",\n  \"rationale\": \"The filing identifies specific content purchase obligations with third-party producers and sports associations, indicating reliance on externally sourced content, which may include foreign-made inputs or overseas production. However, the evidence does not quantify the extent or centrality of this dependence, nor does it specify that imports or overseas manufacturing are central to the business. Therefore, the dependence is specific but the substantiality is limited, supporting a score of 2.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37482,
+    "output_tokens": 223,
+    "cost_usd": 0.015349600000000001
+  }
+}

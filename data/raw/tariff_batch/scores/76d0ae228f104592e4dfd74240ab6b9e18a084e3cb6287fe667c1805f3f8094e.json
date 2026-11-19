@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d94eb5d544ba11697545e8572499e8d4fd10277cfb98546c9069ce7a6e2cdb81",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:51:06.833856+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8e485767329553065c2c61b8dfb2d157",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Grainger's products are purchased from more than 5,000 primary suppliers located in various countries around the world, not one of which accounted for more than 5% of total purchases. Further, Grainger sources products from Asia and other areas of the world. This increases the risk of supply disruption due to the additional lead time required, distances involved, and the range of potential consequences of various geopolitical risks.\",\n  \"rationale\": \"The filing identifies specific foreign suppliers and sourcing from Asia (including China implicitly as part of Asia) and other global locations, indicating some dependence on imported goods and overseas suppliers. However, it does not indicate that this dependence is substantial or central to the business, nor does it specify that most products or critical inputs depend on these arrangements. Therefore, the dependence is more than a general risk but less than substantial reliance, supporting a score of 2.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 21085,
+    "output_tokens": 196,
+    "cost_usd": 0.008747600000000001
+  }
+}

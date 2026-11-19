@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d0c9f91e3751d64e193a05a739d9deef14c2eb990765fabd5053a66a22a96090",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:01:30.668841+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "903bd7bd2ea3bf0c2f6c2a4e39c4efdb",
+    "output_text": "{\"score\":3,\"evidence\":\"We conduct our operations principally from our Silicon Valley headquarters, Taiwan and Netherlands facilities. We are in the process of adding capacity at our existing sites and are adding a new facility in Malaysia.\",\"rationale\":\"The filing identifies substantial reliance on overseas manufacturing facilities in Taiwan, the Netherlands, and Malaysia, indicating that overseas manufacturing could materially affect costs or operations. This supports a score of 3, reflecting substantial reliance on overseas manufacturing that could materially affect the business.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 48771,
+    "output_tokens": 99,
+    "cost_usd": 0.0196668
+  }
+}

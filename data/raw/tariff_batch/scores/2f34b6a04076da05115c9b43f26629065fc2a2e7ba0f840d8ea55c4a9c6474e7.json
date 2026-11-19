@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3a4523368f7c05149d52e47e095a2f6f7f1322cd2220fe384d83118e84fe98f3",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:32:50.743658+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ba21c084aa37f85b55b37087cca71831",
+    "output_text": "{\"score\":3,\"evidence\":\"During 2024, the Company reported net income attributable to common stock of $804 million, or $2.27 per diluted share, compared to net income of $2.9 billion, or $9.25 per diluted share, in 2023. Net income in 2024 was primarily impacted by impairments of $1.1 billion, which included oil and gas property impairments of $796 million in the North Sea and $315 million in the U.S., and lower realized crude oil and natural gas prices during the year compared to 2023. The Company also recorded higher oil and gas revenues and associated operating expenses resulting from the Callon acquisition.\",\"rationale\":\"The filing identifies specific overseas manufacturing and imported physical goods dependence through its international operations in Egypt, the U.K. North Sea, and offshore Suriname, including a $796 million impairment in the North Sea and a $315 million impairment in the U.S. related to these assets. The North Sea operations are subject to significant regulatory and tax burdens affecting economic viability, leading to cessation of production by 2030. The company also relies on imported equipment and offshore FPSO units for Suriname development. These factors indicate substantial reliance on overseas operations and imported inputs that could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45143,
+    "output_tokens": 273,
+    "cost_usd": 0.018494000000000003
+  }
+}

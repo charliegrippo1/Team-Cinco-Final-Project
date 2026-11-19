@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a0e7abe65f27770c5f8a8a4b815ec482e523b9fb822a9cd7c8a1f7958b8a1c63",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:26:06.985321+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6428e8956eda4ac172a57f41411882a4",
+    "output_text": "{\"score\":3,\"evidence\":\"Recent developments in trade relations and the imposition of new and/or additional tariffs by the United States and other countries, including following the United States’ February 2025 executive orders imposing tariffs on imports from Canada, Mexico and China, may contribute to inflationary pressures and, as a result, may impact consumer demand for our products. We are following the dynamic situation closely and evaluating the impact of such tariffs and any retaliatory actions taken by other countries on our business, results of operations, cash flows and financial condition.\",\"rationale\":\"The filing identifies specific tariffs imposed by the United States on imports from Canada, Mexico and China as recent developments that may impact costs and consumer demand. It also discusses supply chain and raw material cost impacts related to geopolitical conflicts and trade relations. This indicates substantial reliance on imported goods and overseas manufacturing that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34608,
+    "output_tokens": 187,
+    "cost_usd": 0.014142400000000001
+  }
+}

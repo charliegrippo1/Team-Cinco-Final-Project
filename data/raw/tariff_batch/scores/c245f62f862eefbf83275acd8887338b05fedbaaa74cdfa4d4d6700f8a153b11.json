@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "679a109bd53645bb92b7bbc57777d2c6beb9334d0db54cfe5205b2363d37cc60",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:01:34.345673+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "92932aefdaf9e191b8dc9f3e90b22248",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"As a provider of telecommunications and technology services, we sell handsets, wireless data cards, wireless computing devices and customer premises equipment manufactured by various suppliers for use with our voice and data services and depend on suppliers to provide us, directly or through other suppliers, with items such as network equipment, customer premises equipment, and wireless-related equipment such as mobile hotspots, handsets, wirelessly enabled computers, wireless data cards and other connected devices for our customers. In recent years, the costs of these inputs and the costs of labor necessary to develop, deploy and maintain our networks and our products and services have increased.\",\n  \"rationale\": \"The filing identifies specific imported goods and foreign-made inputs such as handsets, wireless data cards, network equipment, and other wireless-related devices supplied by various suppliers. It also notes dependence on suppliers for these critical inputs. While the filing does not quantify the extent of this dependence, the detailed description of reliance on these imported physical goods and overseas suppliers, combined with the potential impact on costs and operations, supports a score of 3 indicating substantial reliance that could materially affect costs or operations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28583,
+    "output_tokens": 242,
+    "cost_usd": 0.011820400000000002
+  }
+}

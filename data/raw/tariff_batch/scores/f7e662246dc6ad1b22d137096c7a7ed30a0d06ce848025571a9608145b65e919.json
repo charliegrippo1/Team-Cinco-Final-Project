@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5f6702bb8a6ac47b1484b744d95ce72bee751abb4f3b6a58e733c830c43eca20",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:28:56.198548+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a2a8bc55499f94275ab0c7fdbb97e824",
+    "output_text": "{\"score\":0,\"evidence\":\"Our primary focus is the leasing of antenna space on our multi-tenant towers to a variety of wireless service providers under long-term lease contracts in the United States, South America, Central America, Canada, and Africa.\",\"rationale\":\"The filing describes the company's business as leasing antenna space on towers it owns or operates across various countries, but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The operations are primarily infrastructure leasing and site development, with no mention of reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38074,
+    "output_tokens": 133,
+    "cost_usd": 0.015442400000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8eb221aa6ded078b359d919b73ef04aadfec38c9fd20ddb532892c7f05a53b6f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:20:45.489470+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b5cbad935fb10b856331c1afd58c5311",
+    "output_text": "{\"score\":3,\"evidence\":\"Our sourcing, production, and distribution network is managed globally. We believe we have advanced manufacturing and assembly production capabilities across our global manufacturing network. Our manufacturing is supported by a global distribution network.\",\"rationale\":\"The filing states that Solventum's sourcing, production, and distribution network is managed globally with advanced manufacturing and assembly capabilities across a global manufacturing network, supported by a global distribution network. This indicates substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations, consistent with a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43408,
+    "output_tokens": 113,
+    "cost_usd": 0.017544
+  }
+}

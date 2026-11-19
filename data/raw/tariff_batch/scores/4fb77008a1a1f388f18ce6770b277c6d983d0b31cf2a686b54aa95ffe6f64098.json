@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b19b9cc8884096665e723edc05524674d13c378d1fea10a4a8b6cdf2b62c022a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:04:41.659927+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "163d8722e076ffeb89c39b6932c5e058",
+    "output_text": "{\"score\":3,\"evidence\":\"We source our raw materials and manufactured components from suppliers both domestically and internationally. These purchases include unformed materials and rough and finished parts. Unformed materials include a variety of steel products, which are then cut or formed to shape and machined in our facilities. Rough parts include various sized steel and iron castings and forgings, which are machined to final specification levels inside our facilities. Finished parts are ready to assemble components, which are made either to Caterpillar specifications or to supplier developed specifications. We machine and assemble some of the components used in our machines, engines and power generation units and to support our after-market dealer parts sales. We also purchase various goods and services used in production, logistics, offices and product development processes. We maintain global strategic sourcing models to meet our global facilities’ production needs while building long-term supplier relationships and leveraging enterprise spend. We expect our suppliers to maintain, at all times, industry-leading levels of quality and the ability to timely deliver raw materials and component products for our machine and engine products. However, in some cases, increases in demand or supply chain disruptions have led to parts and components constraints across some products. We use a variety of agreements with suppliers to protect our intellectual property and processes to monitor and mitigate risks of the supply base causing a business disruption. The risks monitored include supplier financial viability, the ability to increase or decrease production levels, business continuity, quality and delivery.\",\"rationale\":\"The filing explicitly identifies specific imported goods and foreign-made inputs sourced both domestically and internationally, including steel products, castings, forgings, and finished parts, which are critical to manufacturing. It also notes supply chain disruptions and parts constraints, indicating substantial reliance on these imported inputs that could materially affect costs or operations. While it does not state that imports or overseas manufacturing are central to the business, the detailed description of global sourcing and supply chain risks supports a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39663,
+    "output_tokens": 392,
+    "cost_usd": 0.016492400000000004
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c5f229f5ffd02d17a2370797e992cf59b3688b5fda24238e9273e83abfb3c613",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:05:54.722922+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a425eb33ef43e4b29ba3fcf64c7294da",
+    "output_text": "{\"score\": 2, \"evidence\": \"Certain of these materials and components are purchased from single sources due to quality considerations, expertise, costs or constraints resulting from regulatory requirements. In certain cases, we may not be able to establish additional or replacement vendors for such materials or components in a timely or cost effective manner, largely as a result of FDA regulations that require validation of materials and components prior to their use in our products and the complex nature of our and many of our vendors' manufacturing processes.\", \"rationale\": \"The filing identifies specific materials and components sourced from single suppliers due to regulatory and quality constraints, indicating dependence on foreign-made inputs or imports. However, it does not provide evidence that this dependence is substantial or central to the business, so the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 44658,
+    "output_tokens": 159,
+    "cost_usd": 0.0181176
+  }
+}

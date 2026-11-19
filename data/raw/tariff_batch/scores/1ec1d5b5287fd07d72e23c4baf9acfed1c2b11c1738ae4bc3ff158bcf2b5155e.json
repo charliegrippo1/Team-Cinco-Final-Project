@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "759d68e48ec83de018dcfdd276c39d31dca6cefc967a18b70036ed94ce8faed0",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:02:01.490589+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "542c2fedc7f9be8f330c1fa4a071a4e7",
+    "output_text": "{\"score\":3,\"evidence\":\"We are dependent on a global supply chain for a wide range of raw materials, commodities, components, and services. Some of our products require relatively scarce raw materials. In some instances, we depend upon a single source of supply or participate in commodity markets that may be subject to allocations of limited supplies by suppliers. In addition, in some cases, we must comply with specific procurement requirements, which may limit the suppliers and subcontractors we may utilize. We are largely dependent upon foreign sources for certain raw materials, such as cobalt, tantalum, chromium, rhenium, nickel, and titanium, and we rely on foreign suppliers as single-source suppliers of some components.\",\"rationale\":\"The filing identifies specific foreign-made inputs and raw materials (cobalt, tantalum, chromium, rhenium, nickel, titanium) and reliance on foreign suppliers as single-source suppliers for some components, indicating a substantial reliance on imports and foreign-made inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 58005,
+    "output_tokens": 203,
+    "cost_usd": 0.0235268
+  }
+}

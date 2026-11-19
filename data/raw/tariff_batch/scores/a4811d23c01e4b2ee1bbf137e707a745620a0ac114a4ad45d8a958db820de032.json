@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "63699af2d6d2879e623b8e96672da16a7a86846e5286eda7d6ed19ffa210c1d7",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:20:54.616167+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "989d84af8bd0c098f0b6a2fc0bc916af",
+    "output_text": "{\"score\":3,\"evidence\":\"We have manufacturing facilities primarily in the United States, Ireland and Southeast Asia. Our IC products are fabricated on proprietary processes at our internal production facilities in Wilmington, Massachusetts; Camas, Washington; Beaverton, Oregon; and Limerick, Ireland and also on a mix of proprietary and non-proprietary processes at third-party wafer fabricators. We currently source more than half of our wafer requirements annually from third-party wafer fabrication foundries, such as Taiwan Semiconductor Manufacturing Company (TSMC) and others, and the remainder is sourced internally. In addition, we operate an assembly, wafer sort and testing facility in Penang, Malaysia and wafer sort and test facilities in the Philippines and Thailand. We also make extensive use of third-party subcontractors for the assembly and testing of our products.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations in Ireland and Southeast Asia (Malaysia, Philippines, Thailand), and reliance on third-party wafer fabrication foundries including TSMC (Taiwan). More than half of wafer requirements are sourced from third-party foundries, indicating substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29208,
+    "output_tokens": 238,
+    "cost_usd": 0.012064000000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "79399f3142c283492d1820b82eb6db57e84fd7bc5fc00903fb8e194d020a77d7",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:56:23.995660+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4613ef88cab3d4fa4fb707928c61fb85",
+    "output_text": "{\"score\":3,\"evidence\":\"We and our bottling partners use various ingredients in our business, such as sucrose, high fructose corn syrup (“HFCS”), aspartame, acesulfame potassium, sucralose, saccharin, cyclamate, steviol glycosides, ascorbic acid, citric acid, phosphoric acid, caffeine, caramel color and flavors; other raw materials such as orange and other fruit juices and juice concentrates, milk, coffee and tea; packaging materials such as polyethylene terephthalate (“PET”), bio-based PET and recycled PET for bottles; and aluminum cans, glass bottles and other containers.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs including sweeteners sourced from the U.S. and China, orange juice from Florida and Brazil, and packaging materials. It also describes reliance on bottling partners worldwide, including in China, and notes that some packaging materials are from limited suppliers. While the filing does not state that imports or overseas manufacturing are central to the business, it shows substantial reliance on foreign-made inputs and overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 47992,
+    "output_tokens": 232,
+    "cost_usd": 0.019568
+  }
+}

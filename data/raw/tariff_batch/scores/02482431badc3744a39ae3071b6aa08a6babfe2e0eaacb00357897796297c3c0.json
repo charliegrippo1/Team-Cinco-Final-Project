@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b7bb3dbab6d6647ad8a948d1f22d22059dc160146a5c88df983e48121fdbed3b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:37:54.930089+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6ca24dd25b4ce4337edcd329cf562e6d",
+    "output_text": "{\"score\":3,\"evidence\":\"We obtain a significant volume of the products we distribute from third parties, with whom we generally do not have long-term contracts. While there is typically more than one source of supply, some key suppliers, in the aggregate, supply a significant portion of the products we sell. Additionally, where we are the manufacturer of certain dental specialty products we sell in the areas of oral surgery, implants, orthodontics and endodontics, we are dependent upon third parties for raw materials and purchased components.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs, including raw materials and components sourced from third parties, and indicates substantial reliance on these suppliers for manufacturing dental specialty products. This dependence could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 51842,
+    "output_tokens": 159,
+    "cost_usd": 0.0209912
+  }
+}

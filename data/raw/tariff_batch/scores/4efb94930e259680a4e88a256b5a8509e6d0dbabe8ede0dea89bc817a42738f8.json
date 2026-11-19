@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "435fab74ace7d319f20baebd3936c99b615b5e9670d4410c1523aaaf502e5f1c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:52:32.882169+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b627dc8ac1d82eed08918d9cc5252472",
+    "output_text": "{\"score\":3,\"evidence\":\"We manufacture a wide variety of engine products including: •Engines with a displacement range of 2.8 to 15 liters and horsepower ranging from 48 to 715; and •New and remanufactured parts and engines, which are sold and serviced primarily through our extensive distribution network.\",\"rationale\":\"The filing identifies specific engine products manufactured with a wide displacement range and horsepower, indicating substantial reliance on manufacturing physical goods. The global manufacturing and distribution network supports the scale of operations. While the filing does not explicitly quantify the extent of overseas manufacturing or imported inputs, the global nature of the business and the detailed description of manufacturing activities imply that substantial reliance on imports, foreign-made inputs, or overseas manufacturing exists that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39231,
+    "output_tokens": 159,
+    "cost_usd": 0.0159468
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "30a33ac8f3a6ef895d13139489c5e4f807ba25b3ef242dc486809fa46f3c76b0",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:32:18.412368+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "14a06b3a0eb51db5f8000c0a027d6c3a",
+    "output_text": "```json\n{\"score\":0,\"evidence\":\"CarMax, Inc. delivers an unrivaled customer experience by offering a broad selection of quality used vehicles and related products and services at competitive, no-haggle prices using a customer-friendly sales process.\",\"rationale\":\"The filing describes CarMax as a retailer of used vehicles and related services without mentioning any dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific evidence of reliance on imports or overseas production, nor mention of tariffs or trade restrictions affecting operations. The business model focuses on sourcing used vehicles domestically through consumer trade-ins, auctions, and dealers. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27472,
+    "output_tokens": 147,
+    "cost_usd": 0.011224000000000001
+  }
+}

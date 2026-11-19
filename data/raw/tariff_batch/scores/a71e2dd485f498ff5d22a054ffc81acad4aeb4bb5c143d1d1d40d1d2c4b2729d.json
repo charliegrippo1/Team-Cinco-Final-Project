@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ebc3cd50c09b73c6937af3ab2f11ea412221d98a186b6011217949bf709e78b3",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:25:44.803816+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8992f32250258a9db49906d0625f24b4",
+    "output_text": "{\"score\":0,\"evidence\":\"DTE Electric owns generating facilities that are located in the State of Michigan. Substantially all of DTE Electric's property is subject to the lien of a mortgage.\",\"rationale\":\"The filing indicates that DTE Electric's generating facilities and properties are located in Michigan, with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or foreign suppliers identified. Tariffs or trade restrictions are not discussed as operational risks. Therefore, the evidence supports little or no meaningful dependence on imported or foreign-made inputs or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30454,
+    "output_tokens": 124,
+    "cost_usd": 0.01238
+  }
+}

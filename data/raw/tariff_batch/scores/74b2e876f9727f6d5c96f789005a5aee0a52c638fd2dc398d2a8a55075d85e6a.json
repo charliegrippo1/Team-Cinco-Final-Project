@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "feaddfa29c44c8d9765788b311f3478509ac2779c60e87233f134739d34953b5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:52:09.497378+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "111c57d2baf3cd9b0d4a55137b1a59a2",
+    "output_text": "{\"score\": 4, \"evidence\": \"We operate front-end wafer fabrication facilities in the United States, the Czech Republic, Japan, South Korea, and Malaysia and back-end assembly and test site facilities in Canada, China, Malaysia, the Philippines, Vietnam and the United States. In addition to these front-end and back-end manufacturing operations, our facility in Hudson, New Hampshire manufactures SiC crystal boules and our facilities in Ro\\u017Enov pod Radho\\u0161t\\u011Bm, the Czech Republic and Bucheon, South Korea manufacture silicon and SiC wafers that are used by a number of our facilities.\", \"rationale\": \"The filing identifies multiple front-end wafer fabrication facilities and back-end assembly and test sites located internationally, including in China, Malaysia, the Philippines, Vietnam, South Korea, and the Czech Republic, showing that overseas manufacturing is central to the business. It also mentions manufacturing of critical inputs like SiC crystal boules and wafers at specific facilities, indicating most products or critical inputs depend on these overseas manufacturing arrangements. China is explicitly mentioned as a location for back-end assembly and test operations, supporting the rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31818,
+    "output_tokens": 235,
+    "cost_usd": 0.0131032
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9beffea897907464db2cb7ccb1bb48c5578c93c95160141a5ef48ab95e43767c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:34:39.665492+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1536bb6f967fcd045517a98573d9e5a9",
+    "output_text": "```json\n{\"score\":2,\"evidence\":\"The products we sell are sourced from a wide variety of domestic and international suppliers. Global sourcing of many of the products we sell is an important factor in our financial performance. We require all our suppliers to comply with applicable laws, including labor and environmental laws, and otherwise be certified as meeting our required supplier standards of conduct. Our ability to find qualified suppliers who meet our standards, and to access products in a timely and efficient manner, is a significant challenge, especially with respect to suppliers located and goods sourced outside the U.S. Political and economic stability in the countries in which foreign suppliers are located, the financial stability of suppliers, suppliers' failure to meet our supplier standards, labor problems experienced by our suppliers, the availability of raw materials to suppliers, currency exchange rates, transport availability and cost, inflation and other factors relating to the suppliers and the countries in which they are located are beyond our control. In addition, U.S. and foreign trade policies, tariffs and other impositions on imported goods, trade sanctions imposed on certain countries, the limitation on the importation of certain types of goods or of goods containing certain materials from other countries and other factors relating to foreign trade are beyond our control. These and other factors, including the potential negative impact of global health pandemics affecting our suppliers and our access to products could adversely affect our consolidated results of operations.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs sourced from a wide variety of domestic and international suppliers and acknowledges global sourcing as an important factor in financial performance. However, it does not provide evidence that this dependence is substantial or central to the business, nor does it indicate that most products or critical inputs depend on imports or overseas manufacturing. Therefore, the score is 2.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18821,
+    "output_tokens": 361,
+    "cost_usd": 0.008106
+  }
+}

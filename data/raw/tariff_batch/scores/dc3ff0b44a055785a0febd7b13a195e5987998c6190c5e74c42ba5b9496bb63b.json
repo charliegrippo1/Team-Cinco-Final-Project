@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f43d362a7c3856d2c5b821ed243a6e0f5919bce249ede07ee10ad2fd89d931f5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:39:12.108576+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5b8fe282b8abb14f060cdb98f212f926",
+    "output_text": "```json\n{\n  \"score\": 1,\n  \"evidence\": \"We are subject to numerous domestic and foreign regulations relating to our operations worldwide. In particular, our sales activities must comply with restrictions relating to the export of controlled technology and sales to denied or sanctioned parties contained in the U.S. Export Administration Regulations, U.S. International Traffic in Arms Regulations (ITAR), and sanctions administered by the Office of Foreign Assets Control of the U.S. Department of the Treasury (OFAC). Our businesses may also be impacted by additional domestic or foreign trade regulations, including trade restrictions, trade agreements, tariffs (including new, expanded, or retaliatory tariffs), and sanctions.\",\n  \"rationale\": \"The filing identifies tariffs and trade restrictions as general risks affecting the company's operations but does not specify particular imported physical goods, foreign-made inputs, or overseas manufacturing dependencies. Therefore, the dependence on imported goods or overseas manufacturing is acknowledged only as a general risk, supporting a score of 1.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 17636,
+    "output_tokens": 202,
+    "cost_usd": 0.007377600000000001
+  }
+}

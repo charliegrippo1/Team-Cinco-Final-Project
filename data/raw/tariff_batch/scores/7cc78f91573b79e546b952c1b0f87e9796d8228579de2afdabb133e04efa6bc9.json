@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b9a18abee5dbca864c25a93d833c3ee33cf713587a3ff987e59858ee049beb6c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:23:33.703602+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "50a9802e1a375d04f07738238fbc6f80",
+    "output_text": "{\"score\":0,\"evidence\":\"CME Group enables clients to trade futures, options, cash and over-the-counter (OTC) products, optimize portfolios, and analyze data - empowering market participants worldwide the ability to efficiently manage risk and capture opportunities.\",\"rationale\":\"The filing describes CME Group as a financial exchange and clearing house providing trading and clearing services for derivatives and cash products globally. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on electronic trading platforms, clearing services, and market data, with no operational reliance on physical imports or manufacturing abroad, including China. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34614,
+    "output_tokens": 146,
+    "cost_usd": 0.014079200000000002
+  }
+}

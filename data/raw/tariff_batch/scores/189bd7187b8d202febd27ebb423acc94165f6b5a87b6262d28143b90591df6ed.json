@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b885bf361655b7fa8a70846f31cc1613321597b76ce750adf87c4cf5cca839b2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:24:55.715853+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f46ddbc7ad43cde7767fab1ddb5c80a5",
+    "output_text": "{\"score\":2,\"evidence\":\"\\\"Proposed tariffs to be imposed by the U.S. on imports from certain countries and potential counter-tariffs in response, could lead to increased costs and supply chain disruptions. If we are not able to navigate these changes, it could have a material adverse effect on our business and results of operations, as well as on the price of our common stock.\\\"\",\"rationale\":\"The filing identifies specific risks related to tariffs and supply chain disruptions due to imports from certain countries, indicating some operational dependence on imported goods or overseas suppliers. However, it does not provide evidence that this dependence is substantial or central to the business. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 46809,
+    "output_tokens": 141,
+    "cost_usd": 0.0189492
+  }
+}

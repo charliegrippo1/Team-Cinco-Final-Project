@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "465f5b2458d2f9261ed5a3867439de7b7488c712b09b164b98ec57b041ab1afc",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:12:02.533288+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fe3fa2761f6bf078845ad74f7756b68a",
+    "output_text": "{\"score\":3,\"evidence\":\"The imposition of tariffs, non-tariff barriers, and other import and export restrictions have contributed to increased global economic uncertainty. The rise of economic nationalism could make it more difficult for us to attract new customers, retain existing customers, continue to produce and source in an optimal manner, or maintain sales at existing levels, both in the United States and in other countries. Geopolitical and economic risks have increased over the past few years in many regions of the world, including in the United States. Our operations expose us to the risk that increased trade protectionism may adversely affect our business. For example, in late 2024 and early 2025, the United States, China, and the European Union each announced either new tariffs, non-tariff barriers (principally related to participation in public procurement of healthcare equipment), or export controls. Any of these risks, ensuing retaliation, or the further deterioration of trade relations between countries could make our offerings more expensive or non-competitive in the affected countries.\",\"rationale\":\"The filing identifies specific tariffs and trade restrictions imposed by the United States, China, and the European Union in late 2024 and early 2025, which have materially affected the company's ability to produce and source optimally, impacting costs and operations. This indicates substantial reliance on imports, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations, justifying a score of 3. China is explicitly mentioned as a location of tariffs and trade restrictions.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 48381,
+    "output_tokens": 307,
+    "cost_usd": 0.019843600000000003
+  }
+}

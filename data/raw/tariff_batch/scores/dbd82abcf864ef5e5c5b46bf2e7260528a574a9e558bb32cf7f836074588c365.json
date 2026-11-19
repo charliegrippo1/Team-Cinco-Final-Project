@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "47f2d9fea3d96feecc9d34ef03518ad349390a35c7106426a2c68784a3d1982d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:07:48.642985+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c857ce55fbf7f14a0b35f2cc7a918a5b",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a global financial services firm that, through our subsidiaries and affiliates, advises, and originates, trades, manages and distributes capital for governments, institutions and individuals.\",\"rationale\":\"The filing describes a financial services firm whose business is centered on advising, trading, managing and distributing capital, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational reliance on imports or overseas production, including China, and no specific risks related to tariffs or trade restrictions beyond general geopolitical risks. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 51161,
+    "output_tokens": 133,
+    "cost_usd": 0.0206772
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ab4c34b33c10a512846402e9513aeb102757793162fa82d6c2b0fe44ff8690cc",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:53:07.959187+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "acc14474b28226ddc38109b05588c9af",
+    "output_text": "{\"score\":3,\"evidence\":\"The U.S. Healthcare Solutions segment grew its revenue by $30.6 billion, or 13.0%, from the prior fiscal year due to overall market growth primarily driven by unit volume growth, including increased sales of $8.6 billion, or 43.4%, of products labeled for diabetes and/or weight loss in the GLP-1 class, increased sales of specialty products to physician practices and health systems, and increased sales of COVID-19 therapies and vaccines.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs, such as specialty products and vaccines, and indicates substantial reliance on these products as they materially contribute to revenue growth. The mention of increased sales of specialty products and vaccines, which are often imported or manufactured overseas, supports a substantial reliance that could materially affect costs or operations, justifying a score of 3. China is treated like other foreign locations but is not specifically mentioned here.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35462,
+    "output_tokens": 194,
+    "cost_usd": 0.014495200000000001
+  }
+}

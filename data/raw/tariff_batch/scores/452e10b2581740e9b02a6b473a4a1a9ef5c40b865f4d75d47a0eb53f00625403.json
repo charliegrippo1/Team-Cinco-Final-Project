@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d319b5fdde4ee8ef562941f68f633769a00d742651802cadb0bd63c2143c5932",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:36:23.971121+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9a335447d0452b608cdd238d0c67cecc",
+    "output_text": "{\"score\":0,\"evidence\":\"We are one of the largest energy infrastructure companies in North America. As of December 31, 2024, we owned an interest in or operated approximately 79,000 miles of pipelines, 139 terminals, approximately 700 Bcf of working natural gas storage capacity and RNG generation capacity of approximately 6.1 Bcf per year of gross production.\",\"rationale\":\"The filing describes extensive operations and assets located in North America, with no mention of reliance on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas suppliers, nor mention of tariffs or trade restrictions affecting operations. The business is focused on domestic infrastructure and energy transportation, with no evidence of material dependence on foreign arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43167,
+    "output_tokens": 157,
+    "cost_usd": 0.017518000000000002
+  }
+}

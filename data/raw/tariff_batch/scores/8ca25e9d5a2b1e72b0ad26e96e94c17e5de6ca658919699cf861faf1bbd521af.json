@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cff3bb2ebfb47011a5b77cbec84eb9d2afb7d3c5454e9d44592a853d4368df69",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:46:38.644030+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8c8e0af5d2df3e53ce2551fcfc404529",
+    "output_text": "{\"score\":3,\"evidence\":\"We produce our products at our highly automated manufacturing facility in Acton, Massachusetts and, beginning in June 2024, also at our new highly automated manufacturing plant in Malaysia, which we constructed to support our international expansion strategy and further ensure product supply. We also produce our devices on manufacturing lines at a facility in China operated by a contract manufacturer. This contract manufacturing agreement expires in October 2025 and is subject to automatic renewal, unless canceled by either party under the terms of the contract.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations in China and Malaysia, and a substantial manufacturing facility in the U.S., indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. The mention of China as a contract manufacturing location supports inclusion of China in the rationale. This supports a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31969,
+    "output_tokens": 171,
+    "cost_usd": 0.013061200000000002
+  }
+}

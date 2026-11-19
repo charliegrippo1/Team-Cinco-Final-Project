@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3b2a05dc4adee7f19fd3ef19d311d0bf37cfeceb152177fd14b4222acb3c8bfb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:36:56.061688+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1de062a798df5232ad5c3942bf22d352",
+    "output_text": "{\"score\":0,\"evidence\":\"Synopsys, Inc. (Synopsys, we, our or us) delivers trusted and comprehensive silicon to systems design solutions, from electronic design automation (EDA), including system verification and validation solutions, to silicon intellectual property (IP).\",\"rationale\":\"The filing describes Synopsys as a software and IP provider for chip design and verification, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software solutions rather than physical manufacturing or hardware production dependent on imports. Therefore, there is little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36796,
+    "output_tokens": 132,
+    "cost_usd": 0.014929600000000001
+  }
+}

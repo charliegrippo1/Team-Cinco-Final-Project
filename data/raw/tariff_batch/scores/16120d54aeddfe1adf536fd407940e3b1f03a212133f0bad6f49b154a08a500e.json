@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "25cccfd392374b75758b9b957245886c1f07015db74110af5ae02d71f093ab99",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:12:22.792378+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7201e500c00724d4c90b61bb768bc153",
+    "output_text": "{\"score\":0,\"evidence\":\"Our business is organized around three pillars which represent our core growth areas.\",\"rationale\":\"The filing describes ADP as a global technology company providing cloud-based human capital management solutions, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software and services delivered globally, with no operational reliance on imports or overseas manufacturing. Thus, there is little or no meaningful dependence on such arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29463,
+    "output_tokens": 96,
+    "cost_usd": 0.011938800000000001
+  }
+}

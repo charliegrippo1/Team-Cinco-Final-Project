@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6c82a4fcf4ce51aad4bbd6a35f9112598e5e609e2f23b10f25aa95414986b42e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:52:04.530077+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fe0f7404545c24bba174b4b15087ea53",
+    "output_text": "{\"score\":0,\"evidence\":\"We provide vehicle sellers with a full range of services to process and sell vehicles primarily over the internet through our Virtual Bidding Third Generation internet auction-style sales technology, which we refer to as VB3.\",\"rationale\":\"The filing describes the company as a provider of online vehicle auction and remarketing services, facilitating sales of existing vehicles primarily through an internet platform. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model focuses on remarketing salvage and used vehicles rather than manufacturing or importing physical goods. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32576,
+    "output_tokens": 135,
+    "cost_usd": 0.0132464
+  }
+}

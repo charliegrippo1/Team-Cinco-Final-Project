@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "fc2bb886b91333632ab2e20e3f47f717179edf1341ed0eb8f21907cffbb17b4f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:33:12.927668+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "0b22d60e2b08a15fe196fdeffc5cb6ff",
+    "output_text": "{\"score\":3,\"evidence\":\"We engage with global contract manufacturers who manufacture the majority of our products, across a diverse network of manufacturing locations worldwide, including facilities for our products in Mexico, Malaysia and Canada. We also manufacture, assemble, customize, stage and integrate products in the U.S.\",\"rationale\":\"The filing states that the majority of products are manufactured by global contract manufacturers in multiple foreign countries (Mexico, Malaysia, Canada), indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39779,
+    "output_tokens": 103,
+    "cost_usd": 0.0160764
+  }
+}

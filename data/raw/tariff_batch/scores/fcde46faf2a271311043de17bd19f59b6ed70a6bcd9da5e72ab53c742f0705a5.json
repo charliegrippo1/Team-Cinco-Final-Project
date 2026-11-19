@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "fead6cd0275fa4ef4391e9eac44162fd6ef8e981af920a07fbc631feca79720f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:53:25.603862+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c7efc578588c4606f07d552f46624596",
+    "output_text": "{\"score\":3,\"evidence\":\"We purchase tobacco leaf of various types, grades and styles throughout the world, mostly through independent international tobacco suppliers. In 2024, we also contracted directly with farmers in several countries, including Argentina, Brazil, Italy, Pakistan and Poland. In 2024, direct sourcing from farmers represented approximately 18% of PMI’s global leaf requirements. The largest supplies of tobacco leaf are sourced from Argentina, Brazil, China, India, Italy, Indonesia (mostly for domestic use in kretek products), Malawi, Mozambique, the Philippines, Turkey and the United States.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs, notably tobacco leaf sourced globally including from China, and direct sourcing from farmers in multiple countries representing a significant portion (18%) of global leaf requirements. It also describes reliance on various suppliers for direct materials and electronic manufacturing services for devices. These details indicate substantial reliance on imports and overseas suppliers that could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 57592,
+    "output_tokens": 207,
+    "cost_usd": 0.023368000000000003
+  }
+}

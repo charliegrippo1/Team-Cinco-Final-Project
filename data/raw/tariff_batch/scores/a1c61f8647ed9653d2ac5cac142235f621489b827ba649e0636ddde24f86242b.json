@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "12e73e2e931068ea6ca35b330923fcdb2226550741e6cc1d5fbd3413a590bdad",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:00:04.294620+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3f4461c6022d267068e799571120294b",
+    "output_text": "{\"score\":0,\"evidence\":\"WTW is a leading global advisory, broking and solutions company that provides data-driven, insight-led solutions in the areas of people, risk and capital.\",\"rationale\":\"The filing describes WTW as a global advisory, broking and solutions company focused on services and consulting, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational reliance on imports or overseas manufacturing. The business is service-based, and foreign sales alone do not increase the score. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 55704,
+    "output_tokens": 129,
+    "cost_usd": 0.022488
+  }
+}

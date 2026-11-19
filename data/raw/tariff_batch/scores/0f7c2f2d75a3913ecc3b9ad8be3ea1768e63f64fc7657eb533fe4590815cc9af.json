@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "89acfc0f575d7c66594f5973f8d8171c95b302265314163408f2759994454b35",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:13:19.284345+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "dba455e7e4fbf40e3cae4563492b9415",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a strategic holding company providing data-inspired, creative marketing and sales solutions to many of the largest global companies.\",\"rationale\":\"The filing describes the company as a strategic holding company providing marketing and sales solutions, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is service-oriented, focusing on marketing and communications, and does not indicate reliance on physical imports or manufacturing abroad, including China or other countries.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32344,
+    "output_tokens": 99,
+    "cost_usd": 0.013096
+  }
+}

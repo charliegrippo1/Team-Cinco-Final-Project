@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2c471a70379133d43429705cb4d696d831cd33993d557b8a199072ce93c9dbeb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:48:04.640728+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "068bba4fee958d4f8a71e213e4a51320",
+    "output_text": "{\"score\":4,\"evidence\":\"We also have a long history of operating in Asia where we manufacture and source the majority of our products and materials. We store the majority of our product inventory in our warehouse in Malaysia and our presence in Asia places us in close proximity to many of our customers’ manufacturing facilities.\",\"rationale\":\"The filing explicitly states that the company manufactures and sources the majority of its products and materials in Asia, including China as part of Asia, and stores the majority of its inventory in Malaysia. This indicates that imports and overseas manufacturing are central to the business, with most products or critical inputs dependent on these arrangements, justifying the highest score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35040,
+    "output_tokens": 137,
+    "cost_usd": 0.0142352
+  }
+}

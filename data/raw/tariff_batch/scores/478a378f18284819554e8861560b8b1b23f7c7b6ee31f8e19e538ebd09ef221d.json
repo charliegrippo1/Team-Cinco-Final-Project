@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d69e96075858373b3ede6bb5c40436b5e4b8420deb5bf55aa7c3ce85ba6b8449",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:31:37.169637+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "78c025b7e8bfcd959f65fd2e55837ae2",
+    "output_text": "{\"score\":3,\"evidence\":\"Inventories are purchased from numerous domestic and foreign suppliers. The Company does not believe that the loss of any one supplier or group of suppliers under common control would have a material adverse effect on its business or that of any of its segments.\",\"rationale\":\"The filing states inventories are sourced from numerous domestic and foreign suppliers, indicating reliance on imports and foreign-made inputs. It also notes supply chain disruptions as a risk factor, implying substantial reliance on these arrangements that could materially affect costs or operations. However, it does not indicate that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so the score is 3 rather than 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 52411,
+    "output_tokens": 142,
+    "cost_usd": 0.0211916
+  }
+}

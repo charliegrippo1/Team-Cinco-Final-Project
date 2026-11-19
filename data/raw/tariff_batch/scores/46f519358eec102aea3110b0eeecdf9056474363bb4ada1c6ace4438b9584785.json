@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5b5fa46facd1a781d4865d49af327d7b4570f6a699df0fab7ed460dbeaeb0315",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:39:47.374134+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "581ee7d0f1fc772796c22223361e4ebb",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"The Company and franchisees of the Concepts are substantial purchasers of a number of food and paper products, equipment and other restaurant supplies. The principal items purchased include chicken, cheese, beef and pork products, paper and packaging materials. Prices paid for these supplies fluctuate. When prices increase, the Concepts may attempt to pass on such increases to their customers, although there is no assurance that this can be done in practice. The Company does not typically experience significant continuous shortages of supplies, and alternative sources for most of these supplies are generally available.\",\n  \"rationale\": \"The filing identifies specific imported goods and inputs such as chicken, cheese, beef, pork, paper and packaging materials as principal items purchased, indicating some dependence on these inputs. However, it also states that alternative sources are generally available and does not indicate that this dependence is substantial or central to the business. There is no detailed evidence of overseas manufacturing or critical reliance on imports. Therefore, the dependence is specific but limited in scale.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37840,
+    "output_tokens": 216,
+    "cost_usd": 0.015481600000000002
+  }
+}

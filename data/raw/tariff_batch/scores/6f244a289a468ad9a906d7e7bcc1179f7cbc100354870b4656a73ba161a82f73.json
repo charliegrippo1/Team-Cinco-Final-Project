@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e7e0944b67f00d7f85b150395eeea88a57c2218f046d51dcfb11175dec8b5db6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:33:39.360228+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6b6965a7f4ab752f17daf3315bbf657b",
+    "output_text": "{\"score\":0,\"evidence\":\"We deliver energy products and services vital to an advancing world. We are a leading midstream service provider of gathering, processing, fractionation, transportation, storage and marine export services. As one of the largest diversified energy infrastructure companies in North America, we are delivering energy that makes a difference in the lives of people in the U.S. and around the world.\",\"rationale\":\"The filing describes the company as a midstream service provider focused on gathering, processing, transportation, storage and export services primarily within North America, with no specific mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The operations and assets described are domestic and infrastructure-based, indicating little or no meaningful dependence on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45986,
+    "output_tokens": 154,
+    "cost_usd": 0.018640800000000003
+  }
+}

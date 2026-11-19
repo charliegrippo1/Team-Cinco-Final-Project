@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "96bf39a7923d9b70b5653d7890d1f0fa88a9ac222fcea791fac0332dbdf9aea5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:25:40.236280+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2210d9d4b2be974b5ae0c00e1a243a2c",
+    "output_text": "{\"score\":3,\"evidence\":\"We have a global manufacturing and assembly footprint, with production facilities in Europe, North America, Latin America, Asia and the Middle East. All of our businesses require various parts and raw materials, the availability and prices of which may fluctuate. Parts and raw materials commonly used in our products include motors, fabricated parts, castings, magnets, bearings, seals, batteries, printed circuit boards (\\\"PCBs\\\") and electronic components, including semiconductors, as well as commodities, including steel, brass, nickel, copper, aluminum, rare earth minerals, and plastics. While we may recover some cost increases through operational improvements, we are still exposed to pricing risk, including due to duty and tariff assessments by the U.S. or other governments on foreign imports. We attempt to control costs through fixed-priced contracts with suppliers and various other programs, such as our global procurement initiative.\",\"rationale\":\"The filing identifies a substantial global manufacturing footprint including Asia (which includes China) and reliance on imported parts and raw materials such as semiconductors and rare earth minerals. It also discusses exposure to tariffs and trade restrictions that could materially affect costs and operations, indicating substantial reliance on imports and overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43399,
+    "output_tokens": 245,
+    "cost_usd": 0.017751600000000003
+  }
+}

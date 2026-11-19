@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c8bd593c18d09bc8444599bbf688defb41551f2c5bbbff73cfc4632cee705079",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:38:28.883907+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "be9c94e2891acf71d5ff638a2993d22b",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"In addition, we source some ingredients (including avocados, tomatoes, beef, pork, limes and peppers) restaurant equipment, packaging and paper products outside the U.S. (including from Mexico, Canada and China), which could subject them to increased tariffs, trade sanctions or taxes.\",\n  \"rationale\": \"The filing identifies specific imported goods and foreign-made inputs sourced from outside the U.S., including China, Mexico, and Canada, indicating some dependence on overseas suppliers. However, the text does not provide evidence that this dependence is substantial or central to the business, only that these imports exist and could be affected by tariffs or trade restrictions.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 19994,
+    "output_tokens": 148,
+    "cost_usd": 0.008234400000000001
+  }
+}

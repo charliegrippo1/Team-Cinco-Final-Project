@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "47b2a654bb7baaae8b2fbfa65e319cd5850a80b82d10b857e8a4e0170a7336b9",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:02:29.371926+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c5a630be9a7cc80489c0c767a90dbba7",
+    "output_text": "{\"score\":3,\"evidence\":\"The Company purchases raw materials from numerous unaffiliated U.S. and international suppliers, some of which are sole source or single-source suppliers. Interruptions in the delivery of these materials could adversely impact the Company. Key raw materials used by the Company include resin, non-woven fabrics for wipes products, sodium hypochlorite, corrugated cardboard, soybean oil, solvent, derivatives of amines and other chemicals and agricultural commodities. Raw materials were generally available during fiscal year 2024 with minimal constraints. While the Company does not expect supply constraints in fiscal year 2025, supply risk may result from external factors outside of the Company's control.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs (e.g., resin, non-woven fabrics, chemicals, agricultural commodities) and notes reliance on international suppliers, some sole or single source, indicating substantial reliance on overseas inputs that could materially affect costs or operations. However, it does not state that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so the score is 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53515,
+    "output_tokens": 226,
+    "cost_usd": 0.0217676
+  }
+}

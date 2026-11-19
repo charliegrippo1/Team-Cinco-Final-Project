@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5088aa44a940bf5481290d08787ac8bd6dcf2ce3e4cb9bc56c1d6bdb330a564b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:07:38.175858+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "173e5b9a5c2056e521d52c6efde60007",
+    "output_text": "{\"score\":3,\"evidence\":\"Increased costs or interruption in our third-party vendors’ overseas sourcing operations could disrupt production, shipment, or receipt of some of our merchandise, which could result in lost sales and could increase our costs.\\n\\nWe directly source the majority of our Ulta Beauty Collection components and Ulta Beauty branded gifts with purchase and other promotional products through third-party vendors using foreign factories. In addition, many of our vendors use overseas sourcing to varying degrees to manufacture some or all of their products. Any event causing a disruption of manufacturing or imports from such foreign countries, including the imposition of import restrictions, increased customs duties, tariffs, trade barriers (including quotas), geopolitical events, political changes, and legal or economic restrictions on overseas suppliers’ ability to produce and deliver products, could result in substantial disruptions in our supply chain (including inventory availability) and materially harm our operations.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs sourced through third-party vendors using foreign factories, including overseas manufacturing for Ulta Beauty Collection components and promotional products. It also details risks that disruptions in these overseas operations could materially harm supply chain and operations, indicating substantial reliance on imports and overseas manufacturing that could materially affect costs or operations. China is not specifically mentioned, but foreign sourcing is clearly central to supply chain risks.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26247,
+    "output_tokens": 267,
+    "cost_usd": 0.010926000000000002
+  }
+}

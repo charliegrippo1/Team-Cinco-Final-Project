@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "10c2ec09956a6c38645240ae58775e0dbae47f3f4bc6988778a536df3c485a73",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:44:57.458298+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7d9c98ce0fb60a4af8df4e9ea27d65ce",
+    "output_text": "{\"score\":0,\"evidence\":\"SCE is an investor-owned public utility primarily engaged in the business of supplying and delivering electricity through SCE's electrical infrastructure to an approximately 50,000 square-mile area of southern California.\",\"rationale\":\"The filing describes SCE as a public utility supplying electricity within southern California, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The focus is on regulated electricity supply and infrastructure within the U.S., with no evidence of material reliance on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53086,
+    "output_tokens": 109,
+    "cost_usd": 0.021408800000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "179b2d49ea99b66e0c6c55caf481cdb8f76db3331a2411c7d875d1a3749ddbbd",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:49:58.602451+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "33bdeef1689662ce13c7f55ef6c5715c",
+    "output_text": "{\"score\": 0, \"evidence\": \"Our business is highly sensitive to public tastes and is dependent on our ability to secure popular artists and other live music events, and we and our ticketing clients may be unable to anticipate or respond to changes in consumer preferences, which may result in decreased demand for our services.\", \"rationale\": \"The filing discusses the company's live entertainment business, ticketing, and sponsorship activities without mentioning any dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing described, nor are tariffs or trade restrictions discussed as operational risks. The business is focused on live events, venues, ticketing platforms, and sponsorships globally, but no evidence indicates reliance on imported goods or overseas manufacturing. Therefore, the score is 0.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36297,
+    "output_tokens": 166,
+    "cost_usd": 0.014784400000000001
+  }
+}

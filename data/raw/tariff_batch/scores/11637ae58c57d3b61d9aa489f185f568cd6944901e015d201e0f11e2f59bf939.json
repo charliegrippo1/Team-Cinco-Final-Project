@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7b263b9eb02c0e544c401d91639dac6ef69a9411d556ebe93e97d14c9ba30761",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:17:46.014833+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9143d0732cdb444db8abe915324f4aad",
+    "output_text": "```json\n{\n  \"score\": 4,\n  \"evidence\": \"We do not manufacture our products or raw materials and rely on suppliers and manufacturers located predominantly in APAC and China Mainland. We also source other materials used in our products, including items such as content labels, elastics, buttons, clasps, and drawcords from suppliers located primarily in this region. Based on cost, during 2024: •Approximately 40% of our products were manufactured in Vietnam, 17% in Cambodia, 11% in Sri Lanka, 11% in Indonesia, and 7% in Bangladesh, and the remainder in other regions. •Approximately 35% of the fabric used in our products originated from Taiwan, 28% from China Mainland, 11% from South Korea, and the remainder from other regions.\",\n  \"rationale\": \"The filing explicitly states that lululemon relies entirely on overseas manufacturing and suppliers predominantly in Asia Pacific and China Mainland for both product manufacturing and fabric sourcing, with substantial percentages (40% manufacturing in Vietnam alone, 28% fabric from China Mainland) indicating that imports and overseas manufacturing are central to the business and critical inputs depend on these arrangements.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27351,
+    "output_tokens": 246,
+    "cost_usd": 0.011334
+  }
+}

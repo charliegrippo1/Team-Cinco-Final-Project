@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "94fa4a625435555d85535433749ad35aa38c4196859428775f88384b28738f85",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:18:35.615006+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "41372d0fa6531e9d5f77d03b51606917",
+    "output_text": "{\"score\":0,\"evidence\":\"Our primary business is the leasing of space on communications sites to wireless service providers, radio and television broadcast companies, wireless data providers, government agencies and municipalities and tenants in a number of other industries.\",\"rationale\":\"The filing describes the company's business as leasing space on communications sites and related services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The operations focus on real estate and infrastructure leasing rather than manufacturing or importing physical goods. Therefore, there is little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 49820,
+    "output_tokens": 118,
+    "cost_usd": 0.0201168
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "128b364259836d269464f8c799e79f1ff28a2c799e6ffd3f70cb71c0f5d584d5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:56:40.107378+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3f4a9df4169b89f59552959bc60b37a8",
+    "output_text": "{\"score\":3,\"evidence\":\"We maintain a global sourcing program to obtain high-quality and innovative products directly from manufacturers in the U.S. and around the world. During fiscal 2024, in addition to our U.S. sourcing operations, we maintained sourcing offices in Mexico, Canada, China, India, Vietnam, Taiwan, and Europe.\",\"rationale\":\"The filing identifies specific overseas sourcing locations including China and other countries, indicating substantial reliance on imports and foreign-made inputs that could materially affect costs or operations. The global sourcing program and multiple international sourcing offices support a score of 3 rather than 0, 1, or 2. However, imports or overseas manufacturing are not described as central to the business with most products dependent on them, so score 4 is not supported.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26816,
+    "output_tokens": 160,
+    "cost_usd": 0.0109824
+  }
+}

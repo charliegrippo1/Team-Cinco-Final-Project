@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "adbf56fcedc70749f0ea4cb9595345249bbc61d1ddcbfb482f859365dc80f3b8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:27:30.092463+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3c0a30d898a19697cf800d896413d3dd",
+    "output_text": "{\"score\":3,\"evidence\":\"Many key suppliers to our businesses, whether direct or indirect, are based in China. These and other tariffs, trade restrictions and retaliatory measures could result in revenue reduction, price increases on material used in our products or significant production delays, which could adversely affect our business, financial condition, operational results and cash flows.\",\"rationale\":\"The filing identifies specific reliance on suppliers based in China and indicates that tariffs, trade restrictions, and retaliatory measures could cause significant production delays and price increases, which would materially affect costs or operations. This supports a score of 3 for substantial reliance on overseas suppliers that could materially affect operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31387,
+    "output_tokens": 133,
+    "cost_usd": 0.012767600000000002
+  }
+}

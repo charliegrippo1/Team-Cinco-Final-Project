@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c5eb49f0bb5e1b637e287b370f6bdd28ca793eeafd5ce9ad5e1d3303eceab1b5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:52:26.126631+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "00b79a126e98b1d5291a4ba1530205c0",
+    "output_text": "{\"score\":0,\"evidence\":\"We operate throughout North America, but the physical collection and recycling or disposal of material is very much a local business, and the dynamics and opportunities differ in each of the markets we serve.\",\"rationale\":\"The filing emphasizes that the company's operations are local in nature across North America, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas suppliers identified, nor any indication that such arrangements could materially affect costs or operations. The filing does not mention China or any foreign production locations as central or substantial to the business. Therefore, the evidence supports little or no meaningful dependence on imported or foreign-made inputs or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 49239,
+    "output_tokens": 147,
+    "cost_usd": 0.019930800000000002
+  }
+}

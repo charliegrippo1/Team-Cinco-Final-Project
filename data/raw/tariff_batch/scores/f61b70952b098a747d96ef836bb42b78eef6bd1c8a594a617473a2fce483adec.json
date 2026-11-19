@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2c74fe8c4937a2c736cdcaf5fdff5b55e2f245386ecb685ec6e29835aa92856a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:56:18.098683+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e68a6efb7d24f9cc89ef0789f61756a4",
+    "output_text": "{\"score\":2,\"evidence\":\"The Company’s Business Could Be Impacted by Its Relationships with Critical Suppliers: IBM’s business employs a wide variety of components (hardware and software), supplies, services and raw materials from a substantial number of suppliers around the world. Certain of the company’s businesses rely on a single or a limited number of suppliers, including for server processor technology for certain semiconductors. Changes in the business condition (financial or otherwise) of these suppliers could subject the company to losses and affect its ability to bring products to market. Further, the failure of the company’s suppliers to deliver components, supplies, services and raw materials in sufficient quantities, in a timely or secure manner, and in compliance with all applicable laws and regulations could adversely affect the company’s business. In addition, any defective components, supplies or materials, or inadequate services received from suppliers could reduce the reliability of the company’s products and services and harm the company’s reputation.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs such as server processor technology and components sourced from suppliers worldwide, indicating operational dependence on these imports. However, it does not establish that this dependence is central or substantial enough to materially affect costs or operations at a high level, nor does it indicate that most products or critical inputs depend on overseas manufacturing. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40953,
+    "output_tokens": 273,
+    "cost_usd": 0.016818000000000003
+  }
+}

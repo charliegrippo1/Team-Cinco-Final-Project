@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "4c2601e4812454ce9d9aad6950f9f137b7da522a241a557312bddc632769934f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:22:23.618604+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "03a91fba122c83912a29fff1c8f8f41b",
+    "output_text": "{\"score\":3,\"evidence\":\"We utilize outsourced manufacturers (“OMs”) around the world to manufacture HP-designed products to generate cost efficiencies, reduce time to market, and maintain flexibility in our supply chain and manufacturing processes. We also manufacture finished products from components and sub-assemblies that we acquire from a wide range of vendors.\",\"rationale\":\"The filing states that HP relies on outsourced manufacturers globally and acquires components and sub-assemblies from a wide range of vendors, indicating substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31375,
+    "output_tokens": 114,
+    "cost_usd": 0.0127324
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d538523e600aec91bb2fc862f68adcc54cf5b0e9bb8152571bae152084d71f50",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:14:31.073597+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c0e30218c2b1740d7414023de6cffa61",
+    "output_text": "{\"score\":3,\"evidence\":\"The operations and business plans of the Evergy Companies depend on the global supply chain to procure the equipment, materials and other resources necessary to build and provide services in a safe and reliable manner. The delivery of components, materials, equipment and other resources that are critical to the Evergy Companies' business operations and corporate strategy has been restricted by domestic and global supply chain turmoil. This has resulted in the shortage of critical items. International tensions from any source, including the ramifications of regional conflict or increased tariffs, could further exacerbate the global supply chain turmoil. These disruptions and shortages could adversely impact business operations and corporate strategy. The current presidential administration has implemented tariffs on certain imported goods and may impose additional tariffs. The constraints in the supply chain could restrict the availability and delay the construction, maintenance or repair of items that are needed to support normal operations or are required to execute on the Evergy Companies' corporate strategy for continued capital investment in utility equipment and impact the strategy to transition its generation fleet. These disruptions and constraints could have a material adverse effect on the business, results of operations, financial position and cash flows of the Evergy Companies.\",\"rationale\":\"The filing identifies specific supply chain disruptions and shortages of critical items, mentions tariffs on imported goods, and states these constraints could restrict availability and delay construction, maintenance or repair of items needed for normal operations and capital investment, impacting the generation fleet transition strategy. This indicates substantial reliance on imported physical goods or overseas inputs that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38548,
+    "output_tokens": 314,
+    "cost_usd": 0.0159216
+  }
+}

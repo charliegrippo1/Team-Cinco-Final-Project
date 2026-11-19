@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d88f3b70fe4027149daef1f2d8dfaec9d04b8b75afca0bedc0c0d6b71a3c7dfa",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:39:33.416705+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "0747be4c1386e2d2f97358048011a88a",
+    "output_text": "{\"score\":3,\"evidence\":\"We utilize a significant number of outsourced and contract manufacturers around the world to manufacture products that we design. The use of outsourced and contract manufacturers is intended to generate cost efficiencies and reduce time to market for our products as well as create manufacturing flexibility in our supply chain and processes. In some circumstances, third-party OEMs produce products that we purchase and resell under our brand. In addition to our use of outsourced and contract manufacturers, we currently manufacture a limited number of finished products from components and subassemblies that we acquire from a wide range of vendors.\",\"rationale\":\"The filing states that the company relies heavily on outsourced and contract manufacturers worldwide to produce its products, indicating substantial reliance on overseas manufacturing. It also mentions purchasing components and subassemblies from a wide range of vendors, implying dependence on foreign-made inputs. This reliance could materially affect costs or operations, supporting a score of 3. China is mentioned as a location of manufacturing and suppliers, consistent with the rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 56478,
+    "output_tokens": 203,
+    "cost_usd": 0.022916000000000002
+  }
+}

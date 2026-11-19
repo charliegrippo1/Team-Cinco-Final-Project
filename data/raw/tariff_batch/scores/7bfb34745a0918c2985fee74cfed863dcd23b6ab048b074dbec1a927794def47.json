@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "218db3eea61463f927c90779f539826110d7308502f3a05bb68273953c00934b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:41:04.290327+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "63ba294f4440a1c02ac808de5bb7a8e7",
+    "output_text": "{\"score\":3,\"evidence\":\"As of December 31, 2024, we purchased approximately 20,000 different raw materials sourced from an extensive network of domestic and international suppliers and distributors.\",\"rationale\":\"The filing identifies a large number of raw materials sourced from both domestic and international suppliers, indicating substantial reliance on imported physical goods and foreign-made inputs. The mention of an extensive international supplier network and manufacturing facilities in about 40 countries, including China, supports the conclusion that overseas manufacturing and imports could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39198,
+    "output_tokens": 117,
+    "cost_usd": 0.0158664
+  }
+}

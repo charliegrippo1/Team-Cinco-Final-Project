@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7afff46f7ba6974019fdf640ad7f228394ae8fff30f1f708a91634f512e78ba4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:35:46.334437+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ef998946df669c7769eaa6f06cf128f8",
+    "output_text": "{\"score\":0,\"evidence\":\"We operate 34 manufacturing facilities in the United States and Canada.\",\"rationale\":\"The filing states that manufacturing facilities are located in the U.S. and Canada, but does not indicate substantial reliance on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of dependence on imports or overseas manufacturing that could materially affect costs or operations. Foreign sales alone do not increase the score, and China is mentioned only as an export market, not as a manufacturing location or source of inputs. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43210,
+    "output_tokens": 125,
+    "cost_usd": 0.017484
+  }
+}

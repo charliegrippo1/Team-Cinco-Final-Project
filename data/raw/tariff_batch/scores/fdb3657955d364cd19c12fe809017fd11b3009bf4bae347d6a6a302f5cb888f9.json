@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "00e41395e70ea9e9673ff62de3cf91cb3195ac633cb8a7db137a7c9b23da78f4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:59:14.914932+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a3cb8ce7a91e565af0e70881ec6eb65f",
+    "output_text": "{\"score\":3,\"evidence\":\"Abbott purchases, in the ordinary course of business, raw materials and supplies essential to Abbott’s operations from numerous suppliers in the United States and around the world. There have been no recent significant availability problems or supply shortages for raw materials or supplies.\",\"rationale\":\"The filing states Abbott sources raw materials and supplies globally, indicating substantial reliance on imported physical goods and overseas suppliers that could materially affect costs or operations, but does not indicate that imports or overseas manufacturing are central to the business or that most products depend on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27338,
+    "output_tokens": 113,
+    "cost_usd": 0.011116000000000001
+  }
+}

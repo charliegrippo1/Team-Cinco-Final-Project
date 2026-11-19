@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1ef465d99ff33f560b3b4f76f8960287de45da2553bf4e3a52d0846882a2e0f8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:43:59.462975+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "42f95b7e72e1cf00dcd191392825e9b0",
+    "output_text": "{\"score\":2,\"evidence\":\"NRG's fuel requirements consist of various forms of fossil fuel. The prices of fossil fuels can be volatile. The Company obtains its fossil fuels from multiple suppliers and through multiple transporters. Although availability is generally not an issue, localized shortages, transportation availability, delays arising from extreme weather conditions and supplier financial stability issues can and do occur.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs (fossil fuels) and suppliers, and notes risks such as localized shortages and transportation delays, but does not provide evidence that dependence on these imports or overseas manufacturing is substantial or central to the business. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 54549,
+    "output_tokens": 138,
+    "cost_usd": 0.0220404
+  }
+}

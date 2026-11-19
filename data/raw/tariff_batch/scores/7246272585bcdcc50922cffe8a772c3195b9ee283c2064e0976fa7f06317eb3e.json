@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "188af94316f4d5ae16a91814a19e37e30bb540e8da9159a38fd4458a60955492",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:31:44.047101+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7efb565eccca75abb90300c2998a5cd4",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Our non-U.S. operations are subject to risks in addition to those facing our domestic operations, including: •transportation delays and other supply chain disruptions; •government embargoes, sanctions or trade restrictions, including possible further restrictions on trade and/or obstacles to conducting business in China; •the imposition of duties and tariffs and other trade barriers; •import and export controls;\",\n  \"rationale\": \"The filing identifies specific risks related to non-U.S. operations including transportation delays, trade restrictions, tariffs, and import/export controls, and mentions China explicitly as a location with possible trade obstacles. However, it does not provide detailed evidence that imports, foreign-made inputs, or overseas manufacturing are substantial or central to the business, only that these factors pose risks. Therefore, the dependence is specific but the extent of substantial reliance is limited.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 20513,
+    "output_tokens": 186,
+    "cost_usd": 0.008502800000000001
+  }
+}

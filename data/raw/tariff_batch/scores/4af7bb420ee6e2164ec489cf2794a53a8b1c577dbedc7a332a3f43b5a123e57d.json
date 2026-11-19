@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6e30ad900e24cf4d21cc284581adfbdbbafc1115d931adaefb2ff2a5bc6c81cd",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:35:29.288890+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "14be6924562b3acf1f18b4b2c6ffe7b6",
+    "output_text": "{\"score\":0,\"evidence\":\"EOG's operations are all crude oil and natural gas exploration and production related.\",\"rationale\":\"The filing describes EOG's business as focused on exploration, development, production and marketing of crude oil, natural gas liquids and natural gas primarily in the United States and Trinidad, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing identified, nor are tariffs or trade restrictions discussed as operational factors. The business is centered on domestic and some foreign exploration and production, but not on importing physical goods or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38105,
+    "output_tokens": 142,
+    "cost_usd": 0.015469200000000002
+  }
+}

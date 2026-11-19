@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "29acac70ca90ac0740c00d57d1da0fad00278b7a6239c87fd7bd4806e6589f3a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:16:01.294908+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "83476593cecc9e3a5925fd5457615b77",
+    "output_text": "{\"score\":4,\"evidence\":\"We currently contract with several suppliers to manufacture our wafers in foundries located in China, Taiwan, South Korea and Singapore. Once our silicon wafers have been produced, they are shipped to the facilities in China, Taiwan, and Singapore that we and our partners utilize for wafer sort, which is a testing process performed to identify non-functioning dies. Our semiconductor products are then assembled and packaged by independent subcontractors in China, Taiwan and Malaysia. The assembled ICs are then sent for final testing to the facilities in China, Taiwan and Malaysia that we and our partners utilize prior to shipping to our customers. Our strategy is to maintain a diversified supply chain.\",\"rationale\":\"The filing explicitly states that wafer manufacturing, wafer sorting, assembly, packaging, and final testing are performed in China and other Asian countries, showing that imports and overseas manufacturing are central to the business and most products depend on these arrangements. This indicates a high level of operational dependence on foreign-made inputs and overseas manufacturing, including China, justifying the highest score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30885,
+    "output_tokens": 217,
+    "cost_usd": 0.012701200000000001
+  }
+}

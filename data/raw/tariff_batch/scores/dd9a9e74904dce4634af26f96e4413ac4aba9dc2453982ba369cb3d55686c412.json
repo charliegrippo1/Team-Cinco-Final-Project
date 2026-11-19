@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "54dad2deaf93c6d5bad147a586efe73452c55f635fa6691e9a54b21a058fcdcb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:45:56.906127+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "85a5ab3ac3a7465668ba1a30abbf89ce",
+    "output_text": "{\"score\":0,\"evidence\":\"The Allstate Corporation was incorporated under the laws of the State of Delaware on November 5, 1992, to serve as the holding company for Allstate Insurance Company. Its business is conducted principally through Allstate Insurance Company and other subsidiaries (collectively, including The Allstate Corporation, “Allstate”).\",\"rationale\":\"The filing describes Allstate as an insurance holding company conducting business principally through insurance subsidiaries, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational reliance on imports or overseas production. The business is focused on insurance products and services, which do not inherently require physical goods imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 67199,
+    "output_tokens": 159,
+    "cost_usd": 0.027134000000000002
+  }
+}

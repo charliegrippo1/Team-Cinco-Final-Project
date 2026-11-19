@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8c8003ec0b0c8fa82146980067ae3478987a85e49fb615534de56176451d9e8b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:40:26.358468+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5f50ded6fa54b531abb44480aa49dbe2",
+    "output_text": "{\"score\":0,\"evidence\":\"HCA Healthcare, Inc. is one of the leading health care services companies in the United States. At December 31, 2024, we operated 190 hospitals, comprised of 180 general, acute care hospitals; six behavioral hospitals; and four rehabilitation hospitals. In addition, we operated 124 freestanding ambulatory surgery centers (\\\"ASCs\\\") and 26 freestanding endoscopy centers. Our facilities are located in 20 states and England.\",\"rationale\":\"The filing describes HCA Healthcare as a U.S.-based health care services company with facilities located in 20 states and England, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The text focuses on domestic operations and does not identify any specific imported goods, overseas suppliers, or manufacturing central to the business. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 59913,
+    "output_tokens": 187,
+    "cost_usd": 0.024264400000000002
+  }
+}

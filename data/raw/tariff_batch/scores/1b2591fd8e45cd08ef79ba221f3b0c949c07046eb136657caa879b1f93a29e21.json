@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c3a9a5c5f692a814ec42d00972f8310168903a9f402efcffc1e20858466a1738",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:09:16.702942+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c54a5b33d806d330f60a5a02e37ebf8f",
+    "output_text": "{\"score\":0,\"evidence\":\"Our business is extensively regulated by the states in which we operate and by the federal government. Changes in political party, or administrations at the state or federal level may change the attitude or public commentary towards healthcare programs and result in changes to the existing legislative or regulatory environment, changes in the application of existing laws and regulations, or changes to funding available for healthcare programs.\",\"rationale\":\"The filing describes extensive regulation and potential changes in laws and regulations but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on healthcare services primarily in the U.S. with no mention of reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45421,
+    "output_tokens": 154,
+    "cost_usd": 0.018414800000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "89f720f7a5ac2cc7d3d7b4fcddbec8be28e718224dbe68dc793b961c6fbf10c6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:59:35.539362+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e5039e09594332ce3c555b0dfa18ce5d",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a leading provider of critical decision support tools and solutions for the global investment community. Our mission-critical offerings help investors navigate the complexities of a dynamic and evolving investment landscape.\",\"rationale\":\"The filing describes the company as a provider of decision support tools and solutions, focusing on data, indexes, analytics, and technology for investment purposes. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is primarily service and data driven, with no operational reliance on physical imports or overseas manufacturing. Therefore, the score is 0.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43106,
+    "output_tokens": 123,
+    "cost_usd": 0.017439200000000002
+  }
+}

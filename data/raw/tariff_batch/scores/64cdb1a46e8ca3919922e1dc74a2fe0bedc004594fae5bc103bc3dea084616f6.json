@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a6faee296514ab7b1242ab5693b504cc3aba8efbc66f6b62db8a2f7748e3ca1d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:02:59.549171+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8d76642e6463f6a47308ad31850b1f18",
+    "output_text": "{\"score\":3,\"evidence\":\"We have sizeable operations in China, including 18 principal manufacturing sites. In addition, approximately 20% of our net sales in fiscal 2024 were made to customers in China. Economic conditions in China have been, and may continue to be, volatile and uncertain. In addition, the legal and regulatory system in China continues to evolve and is subject to change. There also continues to be significant uncertainty about the relationship between the U.S. and China, including with respect to geopolitics, trade policies, treaties, government regulations, and tariffs. The current political climate has intensified concerns about trade tensions between the U.S. and China in connection with each country’s recent or proposed tariffs on the other country’s products. Accordingly, our operations and transactions with customers in China could be adversely affected by changes to market conditions, changes to the regulatory environment, increased trade barriers, tariffs, or restrictions, or interpretation of Chinese law.\",\"rationale\":\"The filing identifies 18 principal manufacturing sites in China and notes that 20% of net sales were to customers in China, highlighting substantial reliance on operations in China. It also discusses risks related to trade tensions, tariffs, and regulatory changes affecting operations and transactions in China. This indicates that overseas manufacturing and imported inputs, including those in China, could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30865,
+    "output_tokens": 279,
+    "cost_usd": 0.0127924
+  }
+}

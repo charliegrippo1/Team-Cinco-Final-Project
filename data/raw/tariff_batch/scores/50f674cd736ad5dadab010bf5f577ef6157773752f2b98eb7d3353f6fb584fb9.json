@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bc0943752f13d3ea4c7d011e27573abc540de0fe383a2fb41511666c9548fa76",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:37:33.043791+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a91df453e746538a6149682f0af288a9",
+    "output_text": "{\"score\":3,\"evidence\":\"The refineries process a wide variety of condensate and light and heavy crude oils purchased from various domestic and foreign suppliers.\",\"rationale\":\"The filing identifies specific imported crude oils from foreign suppliers as inputs to the refineries, indicating substantial reliance on foreign-made inputs that could materially affect costs or operations. China is treated like other foreign locations but is not specifically mentioned here.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 50099,
+    "output_tokens": 82,
+    "cost_usd": 0.020170800000000003
+  }
+}

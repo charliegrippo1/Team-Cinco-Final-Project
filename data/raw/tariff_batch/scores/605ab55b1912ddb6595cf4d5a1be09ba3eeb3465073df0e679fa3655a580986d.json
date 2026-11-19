@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "65843813dfba531eec95811d88c473b10178d95683eeabeabd507aa693cc09f5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:03:57.252238+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "285656cdd788f88ae87e2ad0559f0506",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a vertically integrated natural gas company with production, gathering and transmission operations focused in the Appalachian Basin.\",\"rationale\":\"The filing describes the company as a vertically integrated natural gas producer with operations focused in the Appalachian Basin, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of tariffs or trade restrictions as operational risks, no identification of specific imported goods or overseas suppliers, and no indication that imports or overseas manufacturing are central to the business. The business is domestic and natural gas focused, with no mention of China or other foreign production locations. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 58707,
+    "output_tokens": 146,
+    "cost_usd": 0.023716400000000002
+  }
+}

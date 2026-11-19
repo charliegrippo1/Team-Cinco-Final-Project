@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a0914b244037bc2419ce11523895ed128c05a13bb4f3dff4688fcf502f8525e2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:46:30.287320+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "55f9b3203458f45a3c363833b0941fab",
+    "output_text": "{\"score\":3,\"evidence\":\"In addition, because China-based sellers account for significant portions of our third-party seller services and advertising revenues, and China-based suppliers provide significant portions of our components and finished goods, regulatory and trade restrictions, data protection and cybersecurity laws, economic factors, geopolitical events, security issues, or other factors negatively impacting China-based sellers and suppliers could adversely affect our operating results.\",\"rationale\":\"The filing identifies China-based suppliers as providing significant portions of components and finished goods, indicating substantial reliance on foreign-made inputs that could materially affect costs or operations. This supports a score of 3, as imports and overseas manufacturing are important but not described as central to the entire business.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22686,
+    "output_tokens": 140,
+    "cost_usd": 0.009298400000000002
+  }
+}

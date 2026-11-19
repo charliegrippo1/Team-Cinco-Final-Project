@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b0d69efb8aa4d33aa654bd2aea1d03cf2c83e1055f72abcb375022b771f63536",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:50:47.508720+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d3b6913bba0a6cf4ccc49229025c147f",
+    "output_text": "{\"score\":0,\"evidence\":\"We primarily derive revenues from monthly membership fees for services related to streaming content to our members.\",\"rationale\":\"The filing describes Netflix's business as primarily providing streaming content services to members, with revenues derived from membership fees. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The service is digital streaming, and no operational reliance on imports or overseas manufacturing is indicated.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 21687,
+    "output_tokens": 89,
+    "cost_usd": 0.008817200000000002
+  }
+}

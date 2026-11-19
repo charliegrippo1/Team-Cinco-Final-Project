@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c397658e3a5a1a154e3e25db73cca92e56948f0a479a4dbdc1135232ba4cab94",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:00:01.554628+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9f53a50fa6aa558ed6e396826c65cbcd",
+    "output_text": "{\"score\":0,\"evidence\":\"Intuit is a global financial technology platform with a mission to power prosperity around the world. Our platform helps consumers and small and mid-market businesses prosper by delivering financial management, compliance, and marketing products and services.\",\"rationale\":\"The filing describes Intuit as a financial technology platform providing software and services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is primarily software and online services, with no evidence of material reliance on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40622,
+    "output_tokens": 108,
+    "cost_usd": 0.0164216
+  }
+}

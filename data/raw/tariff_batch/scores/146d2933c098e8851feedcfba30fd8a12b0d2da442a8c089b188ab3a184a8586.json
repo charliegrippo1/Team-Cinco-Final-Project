@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bdccf319cb0e69aa7084d02d3a0bf8c7e509f0f0bc962527803d9652fb37dfa4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:38:53.789382+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "70b68d0a5486f501f7134e5a43971a59",
+    "output_text": "{\"score\":3,\"evidence\":\"The Company’s significant manufacturing, warehousing and distribution activities are located primarily in the U.S., Puerto Rico, Singapore, India, Australia, China, and certain EU countries, including Ireland. In addition, we maintain administrative facilities around the world. While many of these key facilities are owned, Viatris also leases certain facilities from third parties.\",\"rationale\":\"The filing identifies substantial manufacturing, warehousing and distribution activities in multiple foreign countries including China, India, and EU countries, indicating substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 62916,
+    "output_tokens": 123,
+    "cost_usd": 0.025363200000000002
+  }
+}

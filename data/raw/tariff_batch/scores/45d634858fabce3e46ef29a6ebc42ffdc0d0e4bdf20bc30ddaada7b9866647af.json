@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1e46eb049172469ad4e675fcdf940de693f6b297adb6b6a368b74a47c5b05031",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:03:53.455212+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8e26cf8dd9c871da48d5d2148180de66",
+    "output_text": "{\"score\":1,\"evidence\":\"We will continue to monitor the factors that could impact our loss costs for both our personal vehicle and property businesses, which may include new and used car prices, miles driven, driving patterns, loss severity, weather events, building materials, construction costs, inflation, tariffs, and other factors, on a state-by-state basis.\",\"rationale\":\"The filing identifies tariffs as a general risk factor that could impact loss costs but does not specify particular imported physical goods, foreign-made inputs, or overseas manufacturing dependencies. Tariffs appear only as a general risk without evidence of substantial operational dependence or centrality to the business.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 49395,
+    "output_tokens": 129,
+    "cost_usd": 0.0199644
+  }
+}

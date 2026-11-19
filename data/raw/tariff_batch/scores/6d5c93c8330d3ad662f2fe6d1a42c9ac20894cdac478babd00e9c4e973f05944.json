@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "85f4a38a35e1c435c37de75ed90ab3a083e628be3b042af6e8ec8618bef5916e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:15:32.442726+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4f27f7b102859894a7d466d921f79f04",
+    "output_text": "{\"score\":3,\"evidence\":\"Platform manufacturers, such as Sony, Microsoft, and Nintendo, either manufacture or control the selection of approved manufacturers of physical copies of software products sold for use on their respective hardware platforms. We place a purchase order for the manufacture of our products with Sony, Nintendo, or Microsoft's approved replicator and then send software code to the manufacturer, together with related artwork, user instructions, warranty information, brochures and packaging designs for approval, defect testing and manufacture.\",\"rationale\":\"The filing states that physical copies of software products are manufactured by platform manufacturers or their approved manufacturers, indicating substantial reliance on overseas manufacturing and foreign-made inputs. This reliance on third-party manufacturers for physical product copies could materially affect costs or operations, supporting a score of 3. China is mentioned as a location of internal development studios but not specifically for manufacturing, so the rationale focuses on the manufacturing arrangements described.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45949,
+    "output_tokens": 181,
+    "cost_usd": 0.018669200000000004
+  }
+}

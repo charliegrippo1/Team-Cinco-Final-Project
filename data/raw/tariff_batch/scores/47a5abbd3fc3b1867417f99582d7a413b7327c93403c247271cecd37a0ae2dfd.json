@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d334352e1eef635b64f1bfb25b8033283c7b4eb606174a5df2b161d49c0521c8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:28:03.125124+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "231603140eee75216bbf1a32116b0007",
+    "output_text": "{\"score\":0,\"evidence\":\"Consistent with its legal structure as a reciprocal insurer, the Exchange does not have any employees or officers. Therefore, it enters into contractual relationships by and through the subscribers' attorney-in-fact.\",\"rationale\":\"The filing describes the company as a service provider and attorney-in-fact for an insurance exchange that does not have employees or officers, indicating no direct manufacturing or import dependence. There is no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on insurance services within the U.S., with no operational dependence on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 24735,
+    "output_tokens": 124,
+    "cost_usd": 0.0100924
+  }
+}

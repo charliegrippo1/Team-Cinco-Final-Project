@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d5bb4bdb1d2f6446a83644e21636b661ea5262b8d5e9eb65c0c4ece03a3f1f40",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:56:18.358689+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4301d351c3443976299c4beab10951c0",
+    "output_text": "{\"score\":3,\"evidence\":\"We participate in several manufacturing joint ventures in Saudi Arabia, China, Poland, South Korea, and Thailand. We do not hold majority interests in any of these joint ventures, nor do we have operational control. These joint ventures provide us with annual production capacity of approximately 1.8 million tons of PP, approximately 1.3 million tons of olefins and approximately 760 thousand tons of PE. These capacities are based on our percentage ownership interest in the joint ventures’ total capacities.\",\"rationale\":\"The filing identifies specific overseas manufacturing joint ventures in multiple countries including China, with substantial production capacities contributing to the company's overall output. Although the company does not have majority control, the scale of these joint ventures indicates substantial reliance on overseas manufacturing that could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33287,
+    "output_tokens": 172,
+    "cost_usd": 0.013590000000000001
+  }
+}

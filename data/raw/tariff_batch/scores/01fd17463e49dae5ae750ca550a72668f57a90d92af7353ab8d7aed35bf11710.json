@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "101a130770e92d01970eb66412c355f4532adea6a5a124caab5a4350fae4705d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:45:55.871185+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4799c93b35c64421155ddc493df2afab",
+    "output_text": "{\"score\":3,\"evidence\":\"AEP’s Vertically Integrated Utilities procure coal under a combination of purchasing arrangements, including long-term contracts, and spot agreements with various producers and marketers. Coal consumption increased 12.7% in 2024 from 2023.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs (coal) procured under long-term contracts and spot agreements, indicating a reliance on these inputs. The substantial coal consumption and procurement arrangements suggest that dependence on imported or externally sourced physical goods could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 61660,
+    "output_tokens": 120,
+    "cost_usd": 0.024856000000000003
+  }
+}

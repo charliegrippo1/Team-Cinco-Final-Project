@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "46bc467e404e79c69b42b60ae812fdf6c4047d300ba42856df79468f66015a95",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:32:58.318149+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "aac9a6bc4b01e68028b9702add0e4f88",
+    "output_text": "{\"score\":0,\"evidence\":\"Our business has the following attributes: Large, Diversified, Global Business The world’s most heavily regulated organizations trust us with the storage of their records. Our mission-critical storage offerings and related services generated approximately $6.1 billion in annual revenue in 2024. Our business has a highly diverse customer base of more than 240,000 customers - with no single customer accounting for more than approximately 1% of revenue during the year ended December 31, 2024 - and operates in 61 countries globally.\",\"rationale\":\"The filing describes a global business with operations in 61 countries and a diverse customer base, but it does not identify specific imported physical goods, foreign-made inputs, or overseas manufacturing as material to the business. There is no mention of reliance on imports or overseas manufacturing affecting costs or operations. Foreign sales alone do not increase the score. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37141,
+    "output_tokens": 199,
+    "cost_usd": 0.0151748
+  }
+}

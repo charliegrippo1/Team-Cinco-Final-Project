@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "727d86ac3784c8499d1091fd685dc8684364227cbc9e4fb7f03bc48f3d7cbbc2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:12:19.699447+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d698591f85ad67fb3135e3b7dce95d1c",
+    "output_text": "{\"score\":3,\"evidence\":\"Certain aircraft parts and components that Boeing procures are subject to these tariffs. We are mitigating import costs through Duty Drawback Customs procedures. Overall, the U.S.-China trade relationship remains stalled as economic and national security concerns continue to be a challenge.\",\"rationale\":\"The filing identifies specific imported aircraft parts and components subject to tariffs, indicating reliance on foreign-made inputs. It also mentions mitigation efforts but does not quantify the extent of dependence. China is explicitly mentioned as a significant market and source of risk. This supports a substantial reliance that could materially affect costs or operations, consistent with a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32635,
+    "output_tokens": 130,
+    "cost_usd": 0.013262000000000001
+  }
+}

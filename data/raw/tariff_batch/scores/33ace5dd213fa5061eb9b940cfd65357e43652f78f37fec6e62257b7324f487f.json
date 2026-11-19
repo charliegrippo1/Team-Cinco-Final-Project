@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "daa6eaf5b24f7eda927029f823b4fc7dee5e9284377d6b3b294099a45a5e2255",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:11:04.530836+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3949fd6798631db03eb873300e91dbca",
+    "output_text": "{\"score\":3,\"evidence\":\"We continue to take steps to diversify our supply chain and global manufacturing footprint, which positions us well to manage supply chain disruptions. Material availability has mostly stabilized from prior supply chain challenges while general levels of risk continue to exist in all businesses that manufacture products. Supplier decommitments remain a top area of risk. However, we have put programs in place to mitigate this risk. We proactively manage our supply chain down to third tier suppliers to mitigate and overcome material shortages. These actions align to our strategic model to help meet strong product demand while also preparing us to stagger factory work schedules as needed, which enables us to meet compressed build schedules over short periods of time. We continue to adjust strategic inventory levels in both raw materials and finished goods based on areas of risk to mitigate potential supply disruptions.\",\"rationale\":\"The filing identifies a broad domestic and international supplier base and ongoing supply chain risks, including material shortages and supplier decommitments, indicating substantial reliance on imported physical goods or overseas suppliers. The company performs light manufacturing and final assembly domestically but depends on a global supply chain for components. This reliance could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41684,
+    "output_tokens": 241,
+    "cost_usd": 0.0170592
+  }
+}

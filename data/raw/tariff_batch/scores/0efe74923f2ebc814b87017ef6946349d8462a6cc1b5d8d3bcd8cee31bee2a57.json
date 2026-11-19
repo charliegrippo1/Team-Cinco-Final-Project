@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "20c21d78833b42f1468e7872279aca44364484ef03ef0ea5a89d0545fe02b4d1",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:21:05.472626+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "18efa180b2f2a532adde1d2292d00db8",
+    "output_text": "{\"score\":3,\"evidence\":\"Our products are manufactured at sites operated by us and sites operated by third-party contract manufacturing organizations, which we refer to as CMOs. We have a global manufacturing network of 22 sites operated by us.\\n\\nOur global manufacturing network is comprised of the following sites:\\n\\nSite Location Site Location\\n\\nBuellton California, U.S. Olot Spain\\n\\nCampinas Brazil Overhalla Norway\\n\\nCatania Italy Rathdrum Ireland\\n\\nCharles City Iowa, U.S. Rutherford Australia\\n\\nDurham North Carolina, U.S. San Diego California, U.S.\\n\\nFarum Denmark Suzhou China\\n\\nKalamazoo Michigan, U.S. Tallaght Ireland\\n\\nKlofta Norway Tullamore Ireland\\n\\nLincoln Nebraska, U.S. Union City California, U.S.\\n\\nLouvain-la-Neuve Belgium Wellington New Zealand\\n\\nMelbourne Australia White Hall Illinois, U.S.\\n\\nWe own the majority of these sites, with the exception of our facilities in Buellton, California (U.S.), Durham, North Carolina (U.S.), Klofta (Norway), Melbourne (Australia), San Diego, California (U.S.), and Union City, California (U.S.), which are leased sites. In addition, a portion of our facilities in Tullamore (Ireland) is leased.\\n\\nWe regularly evaluate the adequacy of our manufacturing capabilities. We are currently in the process of expanding these capabilities at certain existing sites. Additionally, we purchased a manufacturing site outside Atlanta, Georgia in 2023, where we plan to begin commercial production in the future. In 2024, we ceased all operations at our Weibern, Austria site, and completed the divestiture of our medicated feed additive product portfolio, certain water soluble products and related assets, which included sites manufacturing those products in Chicago Heights, Illinois (U.S.); Eagle Grove, Iowa (U.S.); Medolla, Italy; Salisbury, Maryland (U.S.); Suzhou, China; and Willow Island, West Virginia (U.S.).\",\"rationale\":\"The filing describes a substantial global manufacturing network with 22 sites operated by the company across multiple countries including China, Australia, Brazil, and several European and U.S. locations. It also mentions over 110 third-party contract manufacturing organizations (CMOs). The company owns most sites but leases several, including in China and Australia. The network is actively managed and expanded, indicating substantial reliance on overseas manufacturing and foreign-made inputs. This level of global manufacturing presence and reliance on CMOs could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 50309,
+    "output_tokens": 549,
+    "cost_usd": 0.021002000000000003
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2329c05eec006b44454e773ed8d21e508cdb9a6a3d6296dac6f9bf985449ba39",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:01:15.926307+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9ee3d04abf220a557e91cd4e3fed9d0a",
+    "output_text": "{\"score\":0,\"evidence\":\"Electronic Arts is a global leader in digital interactive entertainment. We develop, market, publish and deliver games, content and services that can be experienced on game consoles, PCs, mobile phones and tablets.\",\"rationale\":\"The filing describes Electronic Arts as a digital interactive entertainment company focused on software development and digital delivery of games and services across various platforms. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model centers on digital products and online services, with no evidence of material reliance on physical imports or overseas production.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22680,
+    "output_tokens": 120,
+    "cost_usd": 0.009264
+  }
+}

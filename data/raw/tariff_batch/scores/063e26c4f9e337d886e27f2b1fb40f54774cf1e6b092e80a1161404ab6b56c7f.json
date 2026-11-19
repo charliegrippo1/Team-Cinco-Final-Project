@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b7e3c4b3ab6497b98eb8b706ec61cd37d5ceb8d5c41d06777f1b76ffc77ec5a4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:48:02.824316+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fb2e5469e8152bffb7ed038c2264d699",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a worldwide operator, franchisor, and licensor of hotel, residential, timeshare, and other lodging properties under more than 30 brand names at different price and service points. Consistent with our focus on management, franchising, and licensing, we own or lease very few of our lodging properties (less than one percent of our system).\",\"rationale\":\"The filing describes the company as primarily an operator, franchisor, and licensor with very limited ownership or leasing of properties, indicating minimal direct dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of reliance on imports or overseas manufacturing affecting costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22672,
+    "output_tokens": 142,
+    "cost_usd": 0.009296
+  }
+}

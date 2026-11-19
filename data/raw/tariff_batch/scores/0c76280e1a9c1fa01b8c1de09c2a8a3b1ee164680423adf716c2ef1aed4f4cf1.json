@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "72f844a8e1c66e258c4d7f3781e19a0aae1bfb19806ed14beb77406d724c2658",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:57:39.944228+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4554ff9a57643b00b0c5df4072df5dcc",
+    "output_text": "{\"score\": 3, \"evidence\": \"Certain instruments that we sell are manufactured by third parties. We rely on third parties in our supply chain to supply us, and our direct suppliers, with certain important components, raw materials, and consumables used in or with our products. In some cases, these third parties are sole or single-source suppliers. From time to time, we seek to qualify alternative suppliers.\", \"rationale\": \"The filing identifies reliance on third-party manufacturers and suppliers for important components, raw materials, and consumables, including sole or single-source suppliers, indicating substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42462,
+    "output_tokens": 135,
+    "cost_usd": 0.017200800000000002
+  }
+}

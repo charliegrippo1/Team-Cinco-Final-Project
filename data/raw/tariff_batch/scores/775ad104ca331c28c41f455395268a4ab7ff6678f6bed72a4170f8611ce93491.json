@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0736d74a1134acffbb9a7994ee57ca2e7cccc760ff97d21e82ed97e4263cb3d5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:27:31.131536+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "18848da8a68d7e2211a6baf97520e920",
+    "output_text": "{\"score\":3,\"evidence\":\"We have established a worldwide design and manufacturing footprint with a regional service model that enables us to efficiently and effectively serve our global customers from best cost countries. This regional model is structured primarily to service the North American market from Mexico, the South American market from Brazil, the European market from Eastern Europe and North Africa, and the Asia Pacific market from China.\",\"rationale\":\"The filing identifies a substantial reliance on overseas manufacturing and foreign-made inputs, with a global footprint and regional service model that includes manufacturing in Mexico, Brazil, Eastern Europe, North Africa, and China to serve major markets. This indicates that overseas manufacturing is material to the company's operations and could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 50370,
+    "output_tokens": 144,
+    "cost_usd": 0.0203784
+  }
+}

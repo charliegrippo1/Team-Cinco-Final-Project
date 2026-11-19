@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6993628872cb2dd8806a9bf7a0597e0635b583e8cdc755978ea97b91c5c33d88",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": true,
+  "retrieved_utc": "2026-11-19T03:16:39.392054+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "22bb2dcfec94d575b152ef72d18c9203",
+    "output_text": "{\"score\":4,\"evidence\":\"Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, and a significant concentration of this manufacturing is currently performed by a small number of outsourcing partners, often in single locations.\",\"rationale\":\"The filing states that substantially all manufacturing is outsourced to partners primarily located in China and other Asian countries, indicating that imports and overseas manufacturing are central to the business and most products depend on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18391,
+    "output_tokens": 110,
+    "cost_usd": 0.007532400000000001
+  }
+}

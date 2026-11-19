@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ec0b5b7602ab8f9f460ec5d704b4794e0bbe268d10700b357c3d4ba47759ce8e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:41:10.849889+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "79695d19ec9b5228ff400cfcc028a53f",
+    "output_text": "{\"score\":0,\"evidence\":\"Southwest Airlines Co. (the “Company” or “Southwest”) operates Southwest Airlines, a major passenger airline that provides scheduled air transportation in the United States and near-international markets.\",\"rationale\":\"The filing describes Southwest Airlines as a passenger airline operating primarily in the U.S. and near-international markets, with no specific mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The text focuses on airline operations, fleet, routes, and regulatory environment, without identifying substantial reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 63470,
+    "output_tokens": 130,
+    "cost_usd": 0.025596
+  }
+}

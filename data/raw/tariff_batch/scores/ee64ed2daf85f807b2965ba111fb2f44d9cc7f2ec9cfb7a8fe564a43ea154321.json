@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e7830ce5c6de4d5ca36ed1ae4f0663288407f6273a19a48ea8cfc219868b1969",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:41:59.849030+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "83f9313fc2dfb42207c0bdd1bb328076",
+    "output_text": "{\"score\":0,\"evidence\":\"Workday provides more than 11,000 organizations with cloud solutions powered by artificial intelligence (“AI\\\") to help solve some of today’s most complex business challenges, including supporting and empowering their workforce, managing their finances and spend in an ever-changing environment, and planning for the unexpected.\",\"rationale\":\"The filing describes Workday as a provider of cloud software solutions and AI-powered applications, with no mention of reliance on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing identified, nor any mention of tariffs or trade restrictions affecting operations. The business is focused on software and services delivered globally, primarily through direct sales and partners, without evidence of material dependence on physical imports or overseas production.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35883,
+    "output_tokens": 157,
+    "cost_usd": 0.014604400000000002
+  }
+}

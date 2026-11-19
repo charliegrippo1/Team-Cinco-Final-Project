@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7829a0babac41bbe17c9a595aa230f6dd89e858a9ad0781e3bfde93063e8b146",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:24:55.270799+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1469be8d97c00cff2007e90e1c873ac7",
+    "output_text": "{\"score\":3,\"evidence\":\"Our Agribusiness segment is an integrated, global business principally involved in the purchase, storage, transportation, processing and sale of agricultural commodities and commodity products. Our Agribusiness operations and assets are located in North and South America, Europe, and Asia-Pacific, and we have merchandising and distribution offices throughout the world.\",\"rationale\":\"The filing identifies specific overseas manufacturing and processing operations in multiple regions including Asia-Pacific and Europe, indicating substantial reliance on overseas manufacturing and foreign-made inputs. The global footprint and integrated operations suggest that these overseas arrangements could materially affect costs or operations, supporting a score of 3. China is included as part of Asia-Pacific, so the rationale includes mention of China as supported.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 44154,
+    "output_tokens": 148,
+    "cost_usd": 0.017898400000000002
+  }
+}

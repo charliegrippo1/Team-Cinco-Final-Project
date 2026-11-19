@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8605c56791b28dba080ddf0c9702735895c7005930725e7728f0b567f64a0c08",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:18:36.366999+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5bcbd7a0c8cdc8af1db474fd98a23bbc",
+    "output_text": "{\"score\":0,\"evidence\":\"Pinnacle West is a holding company incorporated in Arizona that conducts business through its subsidiaries. We derive essentially all of our revenues and earnings from our wholly-owned subsidiary, APS.\",\"rationale\":\"The filing describes Pinnacle West as a holding company with its main operating subsidiary APS, which is a vertically-integrated electric utility serving Arizona. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on local generation and retail electric service within Arizona, with no indication of reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 50382,
+    "output_tokens": 133,
+    "cost_usd": 0.0203656
+  }
+}

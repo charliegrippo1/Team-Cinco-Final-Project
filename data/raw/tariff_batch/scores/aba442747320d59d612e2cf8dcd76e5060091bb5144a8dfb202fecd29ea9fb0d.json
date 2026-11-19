@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "451cd20f2a34079cf3497651ce429a3f626ce118298dd74f24fe6c9fd1a3f4bf",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:04:07.873983+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "bd9b50eb55204ba68d186477c2926556",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"We own and operate semiconductor manufacturing facilities in North America, Asia, Japan and Europe. These include both wafer fabrication and assembly/test facilities.\",\n  \"rationale\": \"The filing identifies specific overseas manufacturing locations in Asia, Japan, and Europe, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. The mention of multiple international manufacturing sites supports a score of 3 rather than 0, 1, or 2. However, the filing does not state that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so a score of 4 is not supported.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 12068,
+    "output_tokens": 142,
+    "cost_usd": 0.0050544000000000006
+  }
+}

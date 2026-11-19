@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "38280c21d9a91faa99bf861261ab360ba050eec60faf25d751b5571a053f6d93",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:00:28.923127+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1ac7c8a5a146a12b5343816ea3f038d3",
+    "output_text": "{\"score\":0,\"evidence\":\"Leidos Holdings, Inc. (“Leidos”), a Delaware corporation, is a holding company whose direct 100%-owned subsidiary and principal operating company is Leidos, Inc.\",\"rationale\":\"The filing describes Leidos as a holding company with a principal operating subsidiary but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is primarily focused on services and solutions for U.S. government customers, with no mention of reliance on imports or overseas manufacturing. Foreign sales are noted but do not imply dependence on foreign production. There is no mention of China or any other foreign country as a critical source of inputs or manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41155,
+    "output_tokens": 155,
+    "cost_usd": 0.016710000000000003
+  }
+}

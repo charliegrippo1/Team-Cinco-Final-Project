@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d53b7e85caa254d8db3ce63f706b97c80eb24d2e00f57a51cde02101c68f9556",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:31:58.472729+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4730675c6f062e20c974238043be0ce4",
+    "output_text": "{\"score\":3,\"evidence\":\"We use a wide range of materials and components in the global production of our products, which come from numerous suppliers around the world. Because some key parts may be available only from a single supplier or a limited group of suppliers, we are subject to supply and pricing risk. In addition, certain proprietary component parts used in some of our products are provided by single-source unaffiliated third-party suppliers. We would be unable to obtain these proprietary components for an indeterminate period of time if these single-source suppliers were to cease or interrupt production or otherwise fail to supply these components to us, which could adversely affect our product sales and operating results.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs sourced globally, including single-source proprietary components critical to production, indicating substantial reliance on overseas suppliers that could materially affect costs or operations if disrupted.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30951,
+    "output_tokens": 177,
+    "cost_usd": 0.012663600000000002
+  }
+}

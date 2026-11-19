@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a15a000fb2ace0648e3d4f6ccb6d2d3e823dc86efee323323e0fe4528cc10093",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:11:01.085088+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4f1770a4d3d4d45630b337549c8b4328",
+    "output_text": "{\"score\":2,\"evidence\":\"We also offer for sale to customers a wide selection of wireless devices, including smartphones, wearables, tablets, home broadband routers and other mobile communication devices that are manufactured by various suppliers.\",\"rationale\":\"The filing identifies specific foreign-made inputs in the form of wireless devices manufactured by various suppliers, indicating some dependence on imported physical goods. However, the extent of this dependence is not detailed or quantified, and there is no indication that imports or overseas manufacturing are central to the business or that substantial reliance could materially affect costs or operations. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36633,
+    "output_tokens": 122,
+    "cost_usd": 0.014848400000000001
+  }
+}

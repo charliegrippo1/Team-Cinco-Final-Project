@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ffade85efd1e0844ba9c5d7d41088dbc7851d407c15f483f780e1039592288f9",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:35:24.401201+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "690c65d2e6759bb45236a18ad765717f",
+    "output_text": "{\"score\":0,\"evidence\":\"Dayforce, Inc. is a global human capital management (“HCM”) software company. Dayforce, our flagship Cloud HCM platform, provides a full suite of HCM functionality, including global human resources (“HR”), payroll and tax, workforce management, benefits, and talent intelligence functionality.\",\"rationale\":\"The filing describes Dayforce, Inc. as a software company providing cloud-based HCM solutions, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software and services, not physical goods or manufacturing, and there is no specific operational dependence on imports or overseas suppliers.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34448,
+    "output_tokens": 135,
+    "cost_usd": 0.013995200000000001
+  }
+}

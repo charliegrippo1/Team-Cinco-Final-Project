@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "85a3bc35e6be588082d60bdaf3132fa9ba5e5cdb40cc7060f407618315395694",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:39:11.027887+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4d5e7a154568ff834abd6e0775d1a521",
+    "output_text": "{\"score\":3,\"evidence\":\"We utilize a sourcing strategy that emphasizes global procurement of materials and product manufacturing in lower cost regions. We outsource the manufacturing of our products to third-party contract manufacturers. Flex Ltd. and affiliates (“Flex”), Salcomp Plc. and affiliates (“Salcomp”), and Sunwoda Electric Co. Ltd. (“Sunwoda”) to assemble and test our IQ microinverters, IQ Battery storage systems, EV chargers and IQ Gateway products. Prices for such services are agreed to by the parties on a quarterly basis, and we are obligated to purchase manufactured products and raw materials that cannot be resold upon the termination of the corresponding agreement. Flex also provides receiving, kitting, storage, transportation, inventory visibility and other value-added logistics services at locations managed by Flex. In addition, we rely on several unaffiliated companies to supply certain components used in the fabrication of our products.\",\"rationale\":\"The filing identifies specific overseas contract manufacturers in China and other lower cost regions assembling and testing key products, and reliance on global procurement of materials. It also notes reliance on several unaffiliated companies for components. This indicates substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43665,
+    "output_tokens": 245,
+    "cost_usd": 0.017858000000000002
+  }
+}

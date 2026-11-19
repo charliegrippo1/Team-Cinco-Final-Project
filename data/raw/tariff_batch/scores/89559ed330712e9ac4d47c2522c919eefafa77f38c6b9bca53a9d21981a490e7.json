@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "af458866f0f01c8a81e543d64c16764fe9c007c381be8139eea29f4173c40bfb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:48:21.730659+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d086693953260aa9934b382daae60e1f",
+    "output_text": "{\"score\":3,\"evidence\":\"China\\nSuzhou(2)\\nEngine Products; Fastening Systems; Forged Wheels\\nFasteners, Rings and Wheels Machining\",\"rationale\":\"The filing identifies substantial manufacturing operations in China across multiple segments (Engine Products, Fastening Systems, Forged Wheels) producing fasteners, rings, and wheels. This indicates substantial reliance on overseas manufacturing that could materially affect costs or operations, consistent with a score of 3. The presence of China as a foreign manufacturing location is explicitly mentioned.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29449,
+    "output_tokens": 108,
+    "cost_usd": 0.011952400000000002
+  }
+}

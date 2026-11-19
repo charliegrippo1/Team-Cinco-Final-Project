@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "61a234c7b437e050443458a9ef9ec7d0d34b10e357de5bd7e766fa6db4199365",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:18:58.764858+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6809990199c4b6d1a984554c87b64acd",
+    "output_text": "{\"score\":0,\"evidence\":\"Our principal business is owning and operating, through our subsidiaries, acute care hospitals and outpatient facilities and behavioral health care facilities.\",\"rationale\":\"The filing describes the company as a healthcare services provider operating hospitals and outpatient facilities, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing, nor are tariffs or trade restrictions discussed as operational risks. The business is primarily service-based and domestic, with some facilities in the U.K. and Puerto Rico, but no indication that imports or overseas manufacturing are central or substantial to the business. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 67392,
+    "output_tokens": 147,
+    "cost_usd": 0.027192000000000004
+  }
+}

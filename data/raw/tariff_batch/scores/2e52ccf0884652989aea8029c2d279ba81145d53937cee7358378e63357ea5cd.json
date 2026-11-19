@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "768e2dfbf83b2181dbcf065ab8d8c7ce70eb062348832c770cdceb057f150fb1",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:46:59.570633+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2d9f8b894c23151f29f4cfcb0040cfcc",
+    "output_text": "{\"score\":0,\"evidence\":\"Our operations are primarily concentrated in three core operating areas—the Permian Basin in west Texas and southeast New Mexico, the Marcellus Shale in northeast Pennsylvania and the Anadarko Basin in the Mid-Continent region in Oklahoma.\",\"rationale\":\"The filing describes operations concentrated in U.S. domestic basins with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or foreign suppliers. Tariffs or trade restrictions are not discussed as operational risks. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35595,
+    "output_tokens": 128,
+    "cost_usd": 0.0144428
+  }
+}

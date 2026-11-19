@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "deda1da5b04141eb8be861e4d7cd55bf70b5095d3163f8d872262e70c0ad1ab5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:30:05.278463+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "87f86644af8676a3471618c31d66b1ec",
+    "output_text": "```json\n{\n  \"score\": 0,\n  \"evidence\": \"Formed on May 25, 1993, Camden Property Trust, a Texas real estate investment trust (\\\"REIT\\\"), and all consolidated subsidiaries are primarily engaged in the ownership, management, development, reposition, redevelopment, acquisition, and construction of multifamily apartment communities.\",\n  \"rationale\": \"The filing describes the company as a real estate investment trust focused on multifamily apartment communities within the United States, with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational dependence on imports or overseas manufacturing, nor any mention of China or other foreign production locations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18535,
+    "output_tokens": 143,
+    "cost_usd": 0.007642800000000001
+  }
+}

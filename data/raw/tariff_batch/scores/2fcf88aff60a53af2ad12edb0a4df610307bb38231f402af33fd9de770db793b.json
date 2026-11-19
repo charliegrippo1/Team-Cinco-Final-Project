@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e98f6fab575e34c63e8d61d9a4603f4b92b6e933c151240a9a152a4228a6378f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:50:16.541161+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "83d5f12f4e4e45db56821a373ea9a9f2",
+    "output_text": "```json\n{\"score\":0,\"evidence\":\"We operate eight mills and 86 corrugated products plants and related facilities. We are headquartered in Lake Forest, Illinois and operate primarily in the United States.\",\"rationale\":\"The filing states that the company operates primarily in the United States with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific evidence of dependence on imports or foreign manufacturing, only domestic operations are described.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 20919,
+    "output_tokens": 94,
+    "cost_usd": 0.008518000000000001
+  }
+}

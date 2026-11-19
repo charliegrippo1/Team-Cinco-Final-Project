@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d34d7a8ee560c6354184e8fd4351ba4a53c789f42c420fdf3de5312672d5525d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:41:13.181157+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1989606cf002c0c2b2c0df419582ad8c",
+    "output_text": "{\"score\":2,\"evidence\":\"The imposition of new tariffs, or any increase in existing tariffs, on the importation of commercial aircraft or commercial aircraft parts that the Company orders may also result in higher costs. In addition, to the extent our key aircraft suppliers are affected by tariffs and seek to pass those costs onto us, our costs of acquiring new aircraft or aircraft parts could increase.\",\"rationale\":\"The filing identifies specific imported goods (commercial aircraft and aircraft parts) and suppliers (Boeing and Airbus) that are subject to tariffs, which could materially affect costs. However, the evidence does not establish that this dependence is central or that most products or critical inputs depend on imports or overseas manufacturing. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39452,
+    "output_tokens": 151,
+    "cost_usd": 0.016022400000000003
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2fbacde04ba69dc740ef7be81c54b5b3e8750577d8285bbeee5fe0b32f6b7518",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:57:52.668370+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "faa99db02dc61fd89dc13aae0d437842",
+    "output_text": "{\"score\":0,\"evidence\":\"Salesforce is a global leader in customer relationship management (“CRM”) technology, enabling companies of every size and industry to connect with their customers through the power of data, artificial intelligence (“AI”), CRM and trust.\",\"rationale\":\"The filing describes Salesforce as a technology and software company providing cloud-based CRM and AI services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software and cloud services rather than physical products or manufacturing, and no specific foreign suppliers or imports are identified. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37900,
+    "output_tokens": 134,
+    "cost_usd": 0.015374400000000002
+  }
+}

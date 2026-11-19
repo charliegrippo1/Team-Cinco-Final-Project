@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "11a8e0468732582f2f1fcdb4e2da279b20a6107816c685ed48a6615faacf3405",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:12:33.774709+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8cc4493017dad224a09dbf58ba64ee7e",
+    "output_text": "{\"score\":0,\"evidence\":\"The Company’s Regulated Businesses generally own the physical assets used to store, pump, treat and deliver water to its customers and collect, treat, transport and recycle wastewater. Typically, the Company does not own the water.\",\"rationale\":\"The filing states that the Company’s Regulated Businesses own physical assets for water and wastewater services but typically do not own the water itself, indicating limited dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of reliance on imports, foreign suppliers, or overseas manufacturing. The water supply is sourced domestically from surface water, groundwater, or purchased water, with no indication of foreign dependence.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53891,
+    "output_tokens": 139,
+    "cost_usd": 0.021778800000000004
+  }
+}

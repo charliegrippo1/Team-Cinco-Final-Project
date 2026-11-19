@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "378a21bf2352d67cae4b0aef7c20154015ae14507170a0feea9639ed1a67b6ae",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:28:35.277778+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9e9cecfd02cdcf3442389a3f8c4a0534",
+    "output_text": "{\"score\":2,\"evidence\":\"Raw materials are sourced from multiple suppliers globally, typically within the geographic region where our products are being manufactured. A portion of specialized resins and other products are manufactured in house. We also purchase a variety of products for resale that are highly complementary to our paint and coating offerings, notably spray equipment and parts, floorcovering and assorted sundries. We attempt, if feasible, to mitigate our potential risk associated with the sourcing of our raw materials and other products through inventory management, strategic relationships with key suppliers, alternative sourcing strategies and long-term investments to expand our manufacturing capabilities.\",\"rationale\":\"The filing identifies that raw materials are sourced globally and that some specialized resins and products are manufactured in-house, indicating specific imported goods and foreign-made inputs are part of the supply chain. However, the evidence does not establish that this dependence is substantial or central to the business, nor does it specify reliance on overseas manufacturing to a degree that could materially affect costs or operations. Therefore, a score of 2 is appropriate.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30387,
+    "output_tokens": 210,
+    "cost_usd": 0.0124908
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cbad1ce20e8be7565952465811153b0a5ce855204deae66a555cf899125a5c5e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:42:48.170375+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5e4cde788cead3772df1dfe04a7e7139",
+    "output_text": "{\"score\": 3, \"evidence\": \"We purchase raw materials, sub-assemblies, components, and other supplies needed in our operations from numerous suppliers in the United States and internationally. The principal raw materials and supplies used in our operations include stainless and carbon steel, organic and inorganic chemicals, fuel, and plastic components. These raw materials and supplies are generally available from several suppliers and in sufficient quantities. However, in fiscal 2023 and 2024 we experienced delays in receiving materials and significant cost increases. Our supply chain challenges eased during the second half of fiscal 2024 and we do not currently expect significant disruption to our operations due to sourcing delays in fiscal 2025. We anticipate continued inflation pressures in fiscal 2025 but not at the significant level experienced in fiscal 2024 and 2023.We have long-term supply contracts for certain materials for which there are few suppliers, or those that are single-sourced in certain regions of the world, such as ethylene oxide (\\\"EO\\\") and cobalt-60, which are necessary to our AST operations. In addition, we continue to expand our irradiation processing capacity with accelerator-based technologies, in order to help mitigate the potential cobalt-60 supply risk.\", \"rationale\": \"The filing identifies specific imported raw materials and components sourced internationally, including single-sourced materials like ethylene oxide and cobalt-60 critical to AST operations. It also discusses supply chain delays and cost increases impacting operations materially in recent years, indicating substantial reliance on overseas suppliers and imported inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42097,
+    "output_tokens": 316,
+    "cost_usd": 0.0173444
+  }
+}

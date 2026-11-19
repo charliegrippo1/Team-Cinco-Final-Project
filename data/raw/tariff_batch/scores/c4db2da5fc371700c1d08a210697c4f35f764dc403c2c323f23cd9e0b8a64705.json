@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c98741a0789b65dfffa9fc6282a1eff9c5f41793d3042ee41d9c2c13ac8410d2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:07:32.888557+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "19b0795bfd34763a5fba358af42dd04a",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"Many of the products sold in our stores are sourced in locations (particularly in China, India, and southeastern Asia) other than the location in which they will be sold. Where we are the importer of record, we may be subject to regulatory or other requirements, including those similar to requirements imposed upon the manufacturer of such products. Risks related to sourcing merchandise include: –potential disruptions in manufacturing and supply; –transport availability, capacity, and costs; –problems with third-party distribution and warehousing, logistics, transportation and other supply chain interruptions; –information technology challenges; –compliance with laws and regulations including labor, environmental, supply chain, international trade, and other laws in relevant countries, and those concerning ethical business practices; –duties, tariffs, border adjustment taxes, trade restrictions, sanctions, quotas, and voluntary export restrictions on imported merchandise; –changes to the United States Mexico Canada Agreement (the successor to the North American Free Trade Agreement) or successor or other trade agreements; –pandemics and epidemics (such as the COVID-19 pandemic) affecting sourcing, including manufacturing, buying or delivery; –strikes, threats of strikes, and other events affecting delivery; –consumer perceptions of the safety or quality of imported merchandise; –compliance with product laws and regulations of the destination country; –product liability claims from customers or investigations, enforcement or penalties from government agencies relating to products that are recalled, defective, or otherwise noncompliant or alleged to be harmful; –intellectual property enforcement and infringement issues; –concerns about environmental impact where materials are sourced and merchandise is produced, including relating to greenhouse gas emissions, waste, water usage, deforestation, biodiversity, and the impact of these activities on human health and local communities; –concerns about human rights, working conditions, and other labor rights and conditions in countries where merchandise is produced or materials are sourced, such as concerns related to treatment of the Uyghur population in the Xinjiang province of China; –currency exchange rates and financial or economic instability (including potential financial instability related to banking institutions); and –political, military, or other disruptions in regions and /or countries from, to or through which merchandise is imported, including in Ukraine and Russia, the Middle East, and the Red Sea and surrounding waterways.\",\n  \"rationale\": \"The filing explicitly states that many products are sourced from foreign locations including China, India, and Southeast Asia, and details numerous risks related to sourcing merchandise internationally. This indicates substantial reliance on imported physical goods and overseas manufacturing that could materially affect costs or operations, but does not indicate that imports or overseas manufacturing are central to the business or that most products depend on these arrangements. Therefore, a score of 3 is appropriate.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 25018,
+    "output_tokens": 570,
+    "cost_usd": 0.0109192
+  }
+}

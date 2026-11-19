@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a3474a7bfcbdae6c5d9057c1cb3ad1294d2f738c774fb07ce70b24852a59c1d1",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:12:09.774157+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b4503c4c93edc467bc02319dc699578c",
+    "output_text": "{\"score\":3,\"evidence\":\"Our significant manufacturing operations in the U.S., Puerto Rico, Switzerland, Ireland, and the Netherlands.\",\"rationale\":\"The filing identifies significant manufacturing operations in multiple foreign locations including Puerto Rico, Switzerland, Ireland, and the Netherlands, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. While China is not specifically mentioned, the presence of multiple overseas manufacturing sites supports a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 57277,
+    "output_tokens": 89,
+    "cost_usd": 0.023053200000000003
+  }
+}

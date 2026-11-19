@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "34ce6b3709e283758deb6c14611ff4015359fc8ce4b664cf0c5c580d1bc72751",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:41:42.110545+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "562b647a00b5b3829d842dcd732f9950",
+    "output_text": "{\"score\":1,\"evidence\":\"Disruptions in the political, regulatory, economic, and social environments of the countries in which we operate or globally could adversely affect our reputation, financial condition, results of operations and cash flows.\\n\\nWe are a global technology company, and our non-US operations accounted for approximately 85% of our consolidated revenue in 2024, and 84% in 2023 and 2022.\",\"rationale\":\"The filing indicates that SLB operates globally with a significant portion of revenue from non-US operations, and mentions risks related to trade sanctions and supply chain disruptions, but does not specify substantial reliance on imported physical goods, foreign-made inputs, or overseas manufacturing that materially affect costs or operations. Tariffs and trade restrictions are mentioned only as general risks without specific operational dependence.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18911,
+    "output_tokens": 165,
+    "cost_usd": 0.007828400000000001
+  }
+}

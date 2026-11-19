@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "134506f01b491357f897b5f7c359e5671328dfebb7482781ea30da5e3aaab2bb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:08:03.358948+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "601a2e970de7a71ed738eb55d17b04e8",
+    "output_text": "{\"score\":4,\"evidence\":\"Merchandise imported directly typically accounts for approximately 40% of our Dollar Tree segment’s total retail value purchases, with the remaining merchandise purchased domestically. Among our foreign suppliers, China is the source of a vast majority of our direct imports and we believe that a significant portion of our goods purchased from domestic vendors is imported.\",\"rationale\":\"The filing states that approximately 40% of Dollar Tree segment’s retail value purchases are imported directly, with China as the vast majority source of these imports, and that a significant portion of goods from domestic vendors is also imported. This indicates that imports and overseas manufacturing are central to the business, with most products or critical inputs dependent on these arrangements, justifying the highest score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26524,
+    "output_tokens": 155,
+    "cost_usd": 0.0108576
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b00162f225e2b397f56f58e825a03f5115618530f36edb6d2f80bce84587a8df",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T03:07:44.613871+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ad39166c64ec3ee7ed0e0d9a94934eaa",
+    "output_text": "{\"score\":4,\"evidence\":\"In addition to developing and supplying lithium compounds, we provide technical services, including the handling and use of reactive lithium products. We also offer our customers recycling services for lithium-containing by-products resulting from synthesis with organolithium products, lithium metal and other reagents. We plan to continue to focus on the development of new products and applications.\",\"rationale\":\"The filing identifies multiple lithium production facilities and lithium compound manufacturing plants in various countries including Australia, Chile, China, and the U.S., with substantial operations and investments in lithium extraction and conversion. It describes lithium concentrate sourcing from joint ventures in Australia and Chile, lithium processing plants in China, and significant capital expenditures on lithium-related facilities. The lithium business is central to the company, with most products and critical inputs dependent on overseas mining and processing, including China. This indicates imports and overseas manufacturing are central to the business, justifying the highest dependence score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53654,
+    "output_tokens": 192,
+    "cost_usd": 0.0217688
+  }
+}

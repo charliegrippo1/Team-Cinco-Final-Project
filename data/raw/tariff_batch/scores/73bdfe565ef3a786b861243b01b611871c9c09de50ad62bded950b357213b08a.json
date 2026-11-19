@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "79ab47f2f10b75ceedcf55be7e3980f693f9e51ab72ee340609cca4e576b5769",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:30:33.498463+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6fcdcad40fbcb10e61141963d2e33a17",
+    "output_text": "{\"score\":3,\"evidence\":\"Our contract manufacturing partners procure components needed to build our products and assemble our products according to our design specifications. This allows us to leverage the purchasing power of our contract manufacturing partners. We retain complete control over the bill of materials, qualified component suppliers, test procedures and quality assurance programs. Our personnel work closely with our partners and review on an ongoing basis forecasts, inventory levels, processes, capacity, yields and overall quality. Our contract manufacturing partners procure components and assemble our products based on our demand forecasts. These forecasts represent our estimates of future demand for our products based upon historical trends and analyses from our sales and product management functions as adjusted for overall market conditions. For example, when industry-wide supply chain shortages resulted in extended lead times for components, we were required to extend the time horizon of our demand forecasts and increase our purchase commitments for long lead time components.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations (Malaysia, Vietnam, Mexico, and others) and contract manufacturers (Jabil, Sanmina, Flex, Foxconn) that produce the majority of products internationally. It also describes reliance on key imported components, including merchant silicon from Broadcom, and the need to extend purchase commitments due to supply chain shortages and long lead times. These details show substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 55621,
+    "output_tokens": 274,
+    "cost_usd": 0.0226868
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ccbd9682ad65179bc743c37312a5207b70dee4721cab0f53ecae807dc72c3a85",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:55:17.747080+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "bed44231da4e6b85a83ddab7a59c976e",
+    "output_text": "{\"score\":3,\"evidence\":\"AbbVie purchases, in the ordinary course of business, raw materials and supplies essential to its operations from numerous suppliers around the world. In addition, certain medical devices and components necessary for the manufacture of AbbVie products are provided by unaffiliated third party suppliers. AbbVie has robust business continuity and supplier monitoring programs.\",\"rationale\":\"The filing identifies that AbbVie relies on numerous suppliers worldwide for raw materials and components essential to its operations, including medical devices and components from third parties, indicating substantial reliance on imported physical goods and overseas suppliers that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37835,
+    "output_tokens": 123,
+    "cost_usd": 0.015330800000000002
+  }
+}

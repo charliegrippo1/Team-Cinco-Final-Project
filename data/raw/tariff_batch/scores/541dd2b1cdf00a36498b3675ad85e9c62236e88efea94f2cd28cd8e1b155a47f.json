@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cdf1fe8d0186ecd4c9db4f3ac57a9089f9121dce5a108403d78a6bf79121c8db",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:31:21.394083+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1368272ce4abc02c50837bf2f0d71f95",
+    "output_text": "{\"score\":3,\"evidence\":\"The Company currently assembles a portion of its LC instruments at its facility in Milford, Massachusetts, where it performs machining, assembly and testing. The Milford facility maintains quality management and environmental management systems in accordance with the requirements of ISO 9001:2015, ISO 13485:2016, ISO 45001:2018 and ISO 14001:2015, and adheres to applicable regulatory requirements (including the FDA Quality System Regulation and the European In-Vitro Diagnostic Directive). The Company outsources manufacturing of certain electronic components, such as computers, monitors and circuit boards, to outside vendors that meet the Company’s quality requirements. In addition, the Company outsources the manufacturing of certain LC instrument systems and components to well-established contract manufacturing firms in Singapore. The Company’s Singapore entity is ISO 9001:2015 certified and manages all Asian outsourced manufacturing as well as the distribution of all products from Asia. The Company may pursue outsourcing opportunities as they arise but believes it maintains adequate supply chain and manufacturing capabilities in the event of disruption or natural disasters.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations, including contract manufacturing in Singapore and component outsourcing, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. China is mentioned as a foreign location but not specifically in manufacturing context here. This supports a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31940,
+    "output_tokens": 280,
+    "cost_usd": 0.013224000000000001
+  }
+}

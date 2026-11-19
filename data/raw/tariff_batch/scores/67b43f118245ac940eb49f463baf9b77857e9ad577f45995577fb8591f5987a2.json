@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "35791ffa654e1fa0115cd30a877a97a2b1809d5c093ff3653c2f35598559a665",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:09:14.319317+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "706a8829481383e4287203ce72f58abb",
+    "output_text": "{\"score\": \"2\", \"evidence\": \"Green coffee, along with certain other raw materials, is sourced solely from foreign countries, and its supply and price is subject to high volatility due to factors such as weather, global supply and demand, product scarcity, plant disease, investor speculation, geopolitical conflicts (including the ongoing conflicts between Russia and Ukraine and Israel and Hamas), changes in governmental agricultural and energy policies and regulations, and political and economic conditions in the source countries.\", \"rationale\": \"The filing identifies green coffee as a specific imported good sourced solely from foreign countries, with supply and price subject to volatility from various factors. This indicates a specific dependence on foreign-made inputs, but the filing does not provide evidence that this dependence is central or substantial enough to materially affect costs or operations overall. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38432,
+    "output_tokens": 169,
+    "cost_usd": 0.0156432
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f5273ecd99a2da34de905da2af3eb1e15d6e76af3c870f407137a5556b6b6814",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:39:40.653815+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "13ba52282ebe4987715f438a80d298fc",
+    "output_text": "{\"score\":0,\"evidence\":\"We operate a global marketplace, where hosts offer guests stays and experiences on our platform.\",\"rationale\":\"The filing describes a platform business model facilitating stays and experiences globally but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of tariffs, trade restrictions, or reliance on overseas suppliers or manufacturing. The business is service-based and does not involve physical goods production or import reliance.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43629,
+    "output_tokens": 95,
+    "cost_usd": 0.0176036
+  }
+}

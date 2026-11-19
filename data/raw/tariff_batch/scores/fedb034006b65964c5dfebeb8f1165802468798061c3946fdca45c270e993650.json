@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e10ca7c3c465103ee24623c37f26a439f1929d12f815447a94d3d1d9d9a6dd9c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:24:10.523280+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fca5751be01e3021b38dac4603457697",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a leading payments technology company delivering innovative software and services to our customers globally, with worldwide reach spanning North America, Europe, Asia-Pacific and Latin America.\",\"rationale\":\"The filing describes the company as a payments technology provider delivering software and services globally, but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The focus is on technology and services rather than physical goods or manufacturing, and no specific operational dependence on imports or overseas manufacturing is indicated.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41461,
+    "output_tokens": 107,
+    "cost_usd": 0.016755600000000002
+  }
+}

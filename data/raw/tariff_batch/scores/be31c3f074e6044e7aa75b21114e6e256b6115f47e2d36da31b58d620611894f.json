@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5d8b3f83756bad676d5082ef024324fd83c1ef92fa923bcc879b6521ab0e07c5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:08:14.179774+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ee3d38e3cc61f8d09cd629d49bab0805",
+    "output_text": "{\"score\":3,\"evidence\":\"We procure raw materials essential to our business from numerous suppliers worldwide. In general, these materials have been available in sufficient quantities to support our demand and in many cases are available from multiple suppliers. We do not anticipate the availability of raw materials to have a significant impact on our operations in 2025, but are monitoring potential supply chain disruptions as a result of ongoing geopolitical and trade negotiations, which could, among other things, impact costs. We are continuing to monitor and implement mitigation strategies to reduce any potential risk or impact including active supplier management, qualification of additional suppliers and advanced purchasing to the extent possible.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs as essential raw materials procured worldwide, indicating substantial reliance on imports and overseas suppliers that could materially affect costs or operations. Although the company monitors risks and implements mitigation strategies, the dependence is significant enough to warrant a score of 3. China is mentioned as a key international market, supporting the rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53684,
+    "output_tokens": 202,
+    "cost_usd": 0.0217968
+  }
+}

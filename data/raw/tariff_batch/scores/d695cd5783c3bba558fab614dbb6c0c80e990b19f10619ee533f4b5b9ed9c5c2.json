@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d111b6a43ccc23bf2dbcdd1790f7f4a43ed2b069facbff1f5f9cdde325c88ffa",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:00:50.229286+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "0cc4653d386e6b801d1e0bfa5991df7c",
+    "output_text": "{\"score\":3,\"evidence\":\"Currently, a material portion of the company’s crop protection inputs are sourced directly or indirectly from China. While the company utilizes dual- or multi- source supply chains to minimize business disruptions, these strategies may not be adequate to address the scope of disruptions created by such a conflict.\",\"rationale\":\"The filing identifies a material portion of crop protection inputs sourced directly or indirectly from China, indicating substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations. The mention of dual- or multi-source supply chains suggests some mitigation but does not eliminate substantial dependence. Therefore, the score is 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45549,
+    "output_tokens": 130,
+    "cost_usd": 0.018427600000000002
+  }
+}

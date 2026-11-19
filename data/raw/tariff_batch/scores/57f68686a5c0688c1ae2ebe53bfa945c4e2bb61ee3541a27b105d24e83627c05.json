@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3f13b5a9f9c392f0652f00d8d356940422be984f52f1c0804cb8d7bf813cb7d2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:50:35.802333+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "398ee3a507e682892fcac03d6e6bb6a9",
+    "output_text": "{\"score\":0,\"evidence\":\"Simon Property Group, Inc. is a Delaware corporation that operates as a self-administered and self-managed real estate investment trust, or REIT, under the Internal Revenue Code of 1986, as amended, or the Internal Revenue Code.\",\"rationale\":\"The filing describes Simon Property Group as a REIT owning and managing retail real estate properties primarily in the U.S. and internationally, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on real estate investment and management, not on manufacturing or importing physical goods. There is no specific operational dependence on imports or overseas manufacturing identified, nor are tariffs or trade restrictions discussed as operational risks. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39039,
+    "output_tokens": 165,
+    "cost_usd": 0.0158796
+  }
+}

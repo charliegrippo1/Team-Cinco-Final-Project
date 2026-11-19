@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e83a0a78093bb4ba9359dfa0b4755483627e61610a4aec168b3b7ec77ca69d01",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:24:50.775237+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "bd7c1d3b489689e1a142b9c08f8eb053",
+    "output_text": "{\"score\":0,\"evidence\":\"Our operations are concentrated in various onshore areas in the U.S.\",\"rationale\":\"The filing describes operations focused on onshore U.S. locations without identifying specific imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of reliance on imports or overseas manufacturing, nor specific foreign suppliers. Tariffs and trade restrictions are only mentioned as general risks without operational dependence. Therefore, the evidence supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26984,
+    "output_tokens": 103,
+    "cost_usd": 0.0109584
+  }
+}

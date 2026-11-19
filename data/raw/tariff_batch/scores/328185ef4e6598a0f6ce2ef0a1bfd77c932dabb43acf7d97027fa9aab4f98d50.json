@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bb8c842eba9e0823046785e748454ae8aa293eced1d725ed61c59d2b481f5dea",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:05:23.797487+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8d6a840ea1868161c53a915cbddea2f0",
+    "output_text": "{\"score\":3,\"evidence\":\"Boardwalk Pipelines operates in the midstream portion of the natural gas and NGLs industry, providing transportation and storage for those commodities. Boardwalk Pipelines also provides ethane supply and transportation services for industrial customers in Louisiana and Texas. Boardwalk Pipelines owns approximately 14,315 miles of natural gas and NGLs pipelines and underground storage caverns having aggregate capacity of approximately 199.5 billion cubic feet (\\\"Bcf\\\") of working natural gas and 31.2 million barrels (\\\"MMBbls\\\") of NGLs. Boardwalk Pipelines’ integrated natural gas pipeline and storage systems are located in the Gulf Coast region, Oklahoma, Arkansas, Tennessee, Kentucky, Illinois, Indiana and Ohio, and its NGLs pipelines and storage facilities are located in Louisiana and Texas.\",\"rationale\":\"The filing identifies specific substantial reliance on overseas manufacturing or imported physical goods or inputs only in the context of Boardwalk Pipelines’ operations, which are located entirely within the United States (Gulf Coast, Midwest, Northeast). There is no mention of foreign-made inputs or overseas manufacturing. However, the scale and nature of Boardwalk Pipelines’ operations, including ownership of extensive pipeline and storage infrastructure, indicates substantial reliance on imported physical goods or overseas manufacturing could materially affect costs or operations if disrupted, for example, through tariffs or supply chain issues. The filing does not indicate that imports or overseas manufacturing are central to the business or that most products or critical inputs depend on these arrangements, so a score of 4 is not supported. Foreign sales alone do not increase the score. China is not specifically mentioned in the context of foreign production or inputs. Therefore, the score is 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 57409,
+    "output_tokens": 350,
+    "cost_usd": 0.023523600000000002
+  }
+}

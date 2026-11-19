@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e07e7cd79029c0b2ff28139b4608e807b64dd5e3951dd50fe6cb6aa64bd50642",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:27:29.028885+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a7172cef073c06f024510545bcf21f37",
+    "output_text": "{\"score\":3,\"evidence\":\"Veralto purchases raw materials from a large number of independent sources around the world. No single supplier is material, although for some components that require particular specifications or regulatory or other qualifications there may be a single supplier or a limited number of suppliers that can readily provide such components.\",\"rationale\":\"The filing identifies that Veralto purchases raw materials globally from many independent sources, indicating reliance on imported physical goods and foreign-made inputs. While no single supplier is material, some components require specific suppliers, suggesting some operational dependence. This supports a substantial reliance on imports or foreign-made inputs that could materially affect costs or operations, but does not indicate that imports or overseas manufacturing are central to the business or that most products depend on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32543,
+    "output_tokens": 152,
+    "cost_usd": 0.013260400000000002
+  }
+}

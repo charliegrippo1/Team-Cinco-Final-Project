@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8a5d19e3c68d3371196d81d722b1970e0e3a64022b9385945ebbebf910c18300",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:10:11.781187+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "724565681882165c921cc01551310d30",
+    "output_text": "{\"score\":0,\"evidence\":\"Citigroup is a global diversified financial services holding company whose businesses provide consumers, corporations, governments and institutions with a broad, yet focused, range of financial products and services, including consumer banking and credit, corporate and investment banking, securities brokerage, trade and securities services and wealth management.\",\"rationale\":\"The filing describes Citigroup as a financial services company with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on financial products and services globally, but there is no operational dependence on imports or overseas manufacturing indicated in the text.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42563,
+    "output_tokens": 123,
+    "cost_usd": 0.017222
+  }
+}

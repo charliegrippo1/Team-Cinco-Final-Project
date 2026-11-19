@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e40190aa211b80c3fd0ace1db259e0f88cff328bab6bec1860c4c3651af37dac",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:50:54.004113+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f6348a6278dfbb446c6e31526da603de",
+    "output_text": "{\"score\":0,\"evidence\":\"UnitedHealth Group Incorporated is a health care and well-being company with a mission to help people live healthier lives and help make the health system work better for everyone.\",\"rationale\":\"The filing describes UnitedHealth Group as a health care and well-being company focused on services and insurance products, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific evidence of reliance on imports or overseas manufacturing, nor mention of tariffs or trade restrictions affecting operations. The business is primarily service-based and domestic in nature, with no indication that imports or foreign manufacturing are material to its operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28805,
+    "output_tokens": 131,
+    "cost_usd": 0.011731600000000002
+  }
+}

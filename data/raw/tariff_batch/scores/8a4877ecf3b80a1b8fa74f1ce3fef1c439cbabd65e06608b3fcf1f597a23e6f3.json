@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "44d08d03d56bf256f41bd7b724f0d2579297de87f624affd84de5802a9f4f887",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:37:52.737677+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "08d90a214266c7c033d943c3f1a46429",
+    "output_text": "{\"score\":2,\"evidence\":\"Sales of $12.1 billion decreased 4%, or $499.4, primarily due to 5% lower energy cost pass-through driven by lower natural gas prices in North America and Europe. Sales in our on-site business, which typically represent approximately half our total company sales, fluctuate with power and fuel prices due to contract provisions that allow us to pass through changes in energy costs to our customers.\",\"rationale\":\"The filing identifies specific imported inputs such as natural gas and power, which are critical cost components and affect sales through pass-through pricing provisions. It also mentions international operations and joint ventures in multiple countries including China. However, the dependence on imported physical goods or overseas manufacturing is not described as substantial or central to the business, and the evidence indicates some exposure but limited to cost pass-through and energy inputs rather than core manufacturing or product dependence. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33464,
+    "output_tokens": 187,
+    "cost_usd": 0.0136848
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "244e8e3fe017555595f4a0f3f72bb91040a5acfd960f375bf03223da02d0ca1f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:42:30.488930+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7678c2249d89f48c198847c8a05d707e",
+    "output_text": "{\"score\":0,\"evidence\":\"The Company offers its services through a sales force focused on serving the specific needs of customers in different market segments. The Company’s sales force is responsible for both new sales and for customer retention and relationship building.\",\"rationale\":\"The filing describes the Company's sales and customer service approach but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of tariffs, trade restrictions, or reliance on foreign suppliers or manufacturing, including China. Therefore, the evidence supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45431,
+    "output_tokens": 118,
+    "cost_usd": 0.0183612
+  }
+}

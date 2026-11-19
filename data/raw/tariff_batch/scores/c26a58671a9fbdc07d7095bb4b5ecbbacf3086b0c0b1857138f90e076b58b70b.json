@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d49950b18874355bb6bb063f24796c6dd3ef354cf2f68b69ab105dc5ca6ed646",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:10:42.460636+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a33a9ecba6f348b2e68d1f960bb54d5f",
+    "output_text": "{\"score\":3,\"evidence\":\"While we directly import approximately 2% to 3% of our overall assortment, our complex supply chain is heavily reliant on vendor imports from China and Mexico, which we currently estimate make up approximately 55% and 20%, respectively, of the products we purchase. Moreover, the consumer electronics we sell and our underlying technological infrastructure are dependent on rare earth elements, predominantly processed in China.\",\"rationale\":\"The filing identifies specific substantial reliance on imports from China and Mexico, comprising approximately 75% of products purchased, and notes dependence on rare earth elements processed in China, indicating that overseas manufacturing and imported inputs could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 24560,
+    "output_tokens": 137,
+    "cost_usd": 0.0100432
+  }
+}

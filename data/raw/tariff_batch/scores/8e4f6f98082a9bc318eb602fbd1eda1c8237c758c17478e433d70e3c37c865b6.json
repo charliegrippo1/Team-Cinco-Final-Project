@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "43d08d1934fd35b1223cb773abc63df85cd9980924b6b05b5b5713a4821145d3",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:58:18.537872+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7431ab6dfeecd34b4bab40a07cb56bef",
+    "output_text": "{\"score\":3,\"evidence\":\"We manufacture our products primarily in our own facilities in The Americas (United States and Canada); in Europe, the Middle East & Africa (Belgium, Switzerland and the United Kingdom); and in Asia/Pacific (Japan), and we also leverage global third-party manufacturing networks.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations in multiple regions and the use of global third-party manufacturing networks, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34639,
+    "output_tokens": 100,
+    "cost_usd": 0.014015600000000001
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cbbaa95b9d72acbc11968e1d51743e18aa1a274dd4c8230ce275c80585bd1425",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:31:34.067206+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "07b62bcee5b556cc5d6b9719015428b0",
+    "output_text": "{\"score\":3,\"evidence\":\"We utilize a combination of both in-house manufacturing and contract manufacturers to maximize our productivity and our ability to respond to market conditions. Our in-house manufacturing efforts are focused on the highest value added, more complex and highly technical aspects of production. We use contract manufacturers for assembly and printed circuit board production. We have centralized manufacturing in Penang, Malaysia, our largest manufacturing facility, which focuses on the final assembly of our most sophisticated instruments and on tuning, calibration and test of instruments across the broader portfolio. Our other principal finished good manufacturing facilities are in California and Colorado in the United States, and Germany and Japan outside of the United States. We also operate three technology centers located in Santa Rosa, California; Colorado Springs, Colorado; and Boeblingen, Germany that collectively provide key components and sub-systems for our instruments, including microwave monolithic integrated circuits, thick and thin film circuits, optical components, high-speed probes, precision machining, and plating. Our technology centers provide a competitive advantage by developing and manufacturing differentiated technology components with performance levels that are not commercially available.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations (Malaysia, Germany, Japan) and contract manufacturers for assembly and PCB production, with centralized manufacturing in Malaysia for final assembly and calibration. It also details technology centers in the U.S. and Germany producing key components. This indicates substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations, consistent with a score of 3. The mention of China as a foreign production location is included in the R&D centers but not explicitly in manufacturing; however, the substantial overseas manufacturing presence supports the score.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38887,
+    "output_tokens": 334,
+    "cost_usd": 0.0160892
+  }
+}

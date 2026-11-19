@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "16fdd1d9820e9624939d2cb0bab2ef929506dd583550dea744174652ddec581a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": true,
+  "retrieved_utc": "2026-11-19T03:23:40.378103+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b5d5f4b4c8885a633d936adf20200c50",
+    "output_text": "```json\n{\n  \"score\": 0,\n  \"evidence\": \"We believe most materials and supplies we use are readily available from numerous sources and suppliers throughout the world. However, some components and sub-assemblies are currently available from only a limited number of suppliers for which we regularly investigate and identify alternative sources where possible.\",\n  \"rationale\": \"The filing indicates that materials and supplies are generally readily available globally, with some components from limited suppliers but does not specify reliance on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of China or specific foreign manufacturing dependence, and tariffs or trade restrictions are only mentioned as general risks without operational dependence. Therefore, the evidence supports little or no meaningful dependence on imported or foreign-made inputs.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 17636,
+    "output_tokens": 157,
+    "cost_usd": 0.007305600000000001
+  }
+}

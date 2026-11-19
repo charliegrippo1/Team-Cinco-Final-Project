@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "06f3effd29f7bec728682500f2997c513144892d125c3d6f990302a0affedd61",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:11:27.988865+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c3911a305bb1b9bca0626432b1dcb777",
+    "output_text": "{\"score\":2,\"evidence\":\"Changes in import policy or trade relations, interruptions in our supply chain or increased commodity or supply chain costs could adversely affect our results of operations.\\n\\nBecause we source certain products from outside the United States, major changes in tax policy, import or export regulations, other trade restrictions or trade relations, such as the imposition of additional tariffs or duties on imported products, could adversely affect our business, results of operations, effective income tax rate, liquidity and net income.\",\"rationale\":\"The filing identifies that the company sources certain products from outside the United States and that changes in import policy, tariffs, or trade restrictions could adversely affect operations. However, it does not specify the extent of this dependence or indicate that imports or overseas manufacturing are central to the business. Therefore, the dependence is specific but the evidence of substantial reliance is limited, supporting a score of 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29194,
+    "output_tokens": 182,
+    "cost_usd": 0.011968800000000002
+  }
+}

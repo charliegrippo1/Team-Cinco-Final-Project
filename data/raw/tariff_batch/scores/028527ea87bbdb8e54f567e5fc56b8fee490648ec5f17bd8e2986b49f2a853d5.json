@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "360a297f3c21657efc124742627a5fdfa70175bacc1a4cdc08a9e98949141ff6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:03:51.217242+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a908ce96ed44ca3dcd7becf9b73f561a",
+    "output_text": "{\"score\":0,\"evidence\":\"ServiceNow was founded on a simple premise: to make work flow better. Our intelligent platform—the Now Platform—is a cloud-based solution that helps enterprises and organizations across public and private sectors digitize workflows, in line with our purpose of making the world work better for everyone.\",\"rationale\":\"The filing describes ServiceNow as a cloud-based software platform focused on digital workflows and AI-enabled enterprise software. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is primarily software and services delivered via cloud, with no operational reliance on physical imports or overseas manufacturing. Thus, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32462,
+    "output_tokens": 142,
+    "cost_usd": 0.013212000000000002
+  }
+}

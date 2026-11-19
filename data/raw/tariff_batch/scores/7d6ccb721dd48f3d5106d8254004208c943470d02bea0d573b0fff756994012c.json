@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "227b30183d1f53d48e223cf4f62016f927e34d77ca89db5a00e08a96c80d2c7e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T03:08:40.527311+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "089e141f0dec26ef908ed6464f9716eb",
+    "output_text": "{\"score\":4,\"evidence\":\"The majority of our toy and game products are manufactured in third-party facilities principally in the U.S. and the Far East, primarily China, Vietnam, India and Japan. We continually look to diversify our manufacturing footprint.\",\"rationale\":\"The filing explicitly states that most products are manufactured overseas in third-party facilities, primarily in China and other Far East countries, indicating that imports and overseas manufacturing are central to the business and most products depend on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30903,
+    "output_tokens": 98,
+    "cost_usd": 0.012518000000000001
+  }
+}

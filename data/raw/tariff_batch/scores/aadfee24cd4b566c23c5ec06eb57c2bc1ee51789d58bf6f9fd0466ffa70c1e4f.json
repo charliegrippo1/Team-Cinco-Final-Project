@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "66b8cd58b3d83f4c91ae90b98709ca321fed0e5f7b38b23dea4fa963818f7341",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:59:13.915153+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1e982e43184821d14b979cc843f726d4",
+    "output_text": "{\"score\":0,\"evidence\":\"Everest is a Bermuda-based reinsurance and insurance organization. As part of the Standard & Poor’s (“S&P”) 500 Index, we are a leading financial services institution focused on diversifying our portfolio and geographic presence.\",\"rationale\":\"The filing describes Everest as a reinsurance and insurance organization with a focus on financial services and geographic diversification, but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is centered on underwriting insurance and reinsurance products globally, which does not inherently require physical goods or overseas manufacturing. There is no mention of tariffs, trade restrictions, or reliance on foreign suppliers or manufacturing. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 51363,
+    "output_tokens": 158,
+    "cost_usd": 0.020798000000000004
+  }
+}

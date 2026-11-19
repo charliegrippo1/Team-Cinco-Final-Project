@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "dfe195abe20faff0a86021501b7dc5c5fa10e66d80285b4abafd9981cd79e744",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:09:02.145550+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f39fb7e901ef7f6ffa92e3d5328169ba",
+    "output_text": "{\"score\":0,\"evidence\":\"We are an independent oil and natural gas company focused on the acquisition, development, exploration and exploitation of unconventional, onshore oil and natural gas reserves primarily in the Permian Basin in West Texas.\",\"rationale\":\"The filing describes the company as focused on onshore oil and natural gas reserves in the Permian Basin in Texas and New Mexico, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The operations and assets are geographically concentrated in the U.S. Permian Basin, with no indication of reliance on imports or overseas manufacturing. Foreign sales alone do not increase the score, and China or other foreign production locations are not mentioned as relevant. Therefore, the filing supports little or no meaningful dependence on imported physical goods, foreign-made inputs, or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 54207,
+    "output_tokens": 167,
+    "cost_usd": 0.02195
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ef4b305f1a70ccab13fdcaebfa22242d763ca30206be14160358b07a4fbcc192",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:57:47.780811+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d03e592e8fd74e7c7f85a94a035e213b",
+    "output_text": "{\"score\":2,\"evidence\":\"The Companies have been impacted, and expect to continue to be impacted by, global and U.S. supply chain disruptions and shortages of materials, equipment, labor and other resources that are critical to the Companies’ business operations, primarily the Utilities’ electric transmission and distribution operations. Such disruptions and shortages have resulted in increased prices and lead times for critical orders of materials and equipment needed by the Companies in their operations, such as certain raw materials, microprocessors, semiconductors, microchips, vehicles and transformers.\",\"rationale\":\"The filing identifies specific imported goods and materials (e.g., microprocessors, semiconductors, microchips) and supply chain disruptions affecting critical equipment needed for operations, indicating some dependence on foreign-made inputs. However, the evidence does not establish that this dependence is substantial or central to the business, nor does it quantify the extent of reliance or impact on costs or operations. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 54482,
+    "output_tokens": 195,
+    "cost_usd": 0.0221048
+  }
+}

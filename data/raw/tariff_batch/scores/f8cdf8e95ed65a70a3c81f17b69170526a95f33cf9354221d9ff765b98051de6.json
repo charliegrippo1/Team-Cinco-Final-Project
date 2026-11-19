@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "02e2aad04edf1415b89f76f55d466a1c1ec3b1bf41e07b61ff187af3794dd4f4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:31:04.372128+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f62021bbea793150309c4b9264e81265",
+    "output_text": "{\"score\":3,\"evidence\":\"We augment our internal manufacturing capabilities by outsourcing a significant portion of our wafer production requirements to third-party wafer foundries, including all of our 300mm wafer requirements and some of our 200mm and 150mm specialty process technologies. In fiscal 2024, approximately 64% of our sales came from products that were produced at outside wafer foundries.\",\"rationale\":\"The filing states that a significant portion of wafer production is outsourced to third-party foundries, including all 300mm wafer requirements, and that 64% of sales in fiscal 2024 were from products produced at outside wafer foundries. This indicates substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations, justifying a score of 3. China is mentioned as a key foreign market but not specifically as a manufacturing location in this passage.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 44988,
+    "output_tokens": 177,
+    "cost_usd": 0.018278400000000004
+  }
+}

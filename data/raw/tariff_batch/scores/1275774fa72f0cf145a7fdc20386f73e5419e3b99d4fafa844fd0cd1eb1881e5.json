@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7b1e7de1542ab6d54d9da0b77144c71a5269d8f783cb5c5b43eca41724efcb22",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:20:11.107737+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "167732172139a9a5244a311c763c7abb",
+    "output_text": "{\"score\":3,\"evidence\":\"We purchase and use a large volume of agricultural and other raw materials, which are purchased through supply contracts with third parties, to produce our products (including barley, malted barley, hops, corn and other various adjuncts), as well as water and packaging materials (including aluminum cans and bottles, glass bottles, paperboard and carbon dioxide from a small number of suppliers. The demand for such input materials in the beverage industry has increased in recent years, and resulted in a shortage of capacity and increases in costs. In addition, consolidation of packaging materials suppliers has reduced local supply alternatives and increased risks of supply disruptions. The inability of any of these suppliers to meet our production requirements without sufficient time to develop an alternative source could have a material adverse effect on our business and financial results.\",\"rationale\":\"The filing identifies specific imported goods and packaging materials sourced from a small number of suppliers, notes shortages and increased costs, and highlights risks of supply disruptions and consolidation reducing alternatives. These factors indicate substantial reliance on foreign-made inputs and overseas suppliers that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41868,
+    "output_tokens": 228,
+    "cost_usd": 0.017112
+  }
+}

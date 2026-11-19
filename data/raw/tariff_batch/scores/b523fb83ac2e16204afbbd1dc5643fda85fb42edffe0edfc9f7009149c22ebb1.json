@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "01a0404fedb7ae43d993c51c9f375af7a631be172def8a2f73ebeb8564802414",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:28:25.757534+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2bdf331e52089adc1b24bb8e29ec517c",
+    "output_text": "{\"score\":3,\"evidence\":\"Annually, we purchase approximately $20 billion in materials and components sourced from over 100 countries. We face various supply chain challenges, many of which are industry-wide or arise from geopolitical and economic conditions beyond our control. These include global conflicts, global economic trends, geopolitical dynamics like sanctions, tariffs and other trade tensions, inflation, logistics issues, human rights landscape shifts, and regulatory changes. Additionally, potential disruptions such as natural disasters and other extreme weather conditions, global pandemics, and cyber-attacks could significantly impact our operations, financial performance, and ability to meet customer commitments.\",\"rationale\":\"The filing states that GE Vernova annually purchases about $20 billion in materials and components from over 100 countries, indicating a substantial reliance on imported physical goods and foreign-made inputs. It also discusses supply chain challenges arising from geopolitical and economic conditions, tariffs, and trade tensions, which implies that overseas manufacturing and imports materially affect costs and operations. This supports a score of 3, reflecting substantial reliance that could materially affect the company.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 57445,
+    "output_tokens": 214,
+    "cost_usd": 0.0233204
+  }
+}

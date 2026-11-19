@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bb301a0159fd9f8ccf406428af5958cc715b1c88371dd76f0ae007dc67f4a92a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:06:44.900433+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "182c4219fe742c702a08a3fb8e4ab5e6",
+    "output_text": "{\"score\":3,\"evidence\":\"We have 11 R&D centers and 17 factories around the world, including major locations in China, India, Japan, France, Germany, Spain and the United States.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations including China, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32426,
+    "output_tokens": 71,
+    "cost_usd": 0.013084000000000002
+  }
+}

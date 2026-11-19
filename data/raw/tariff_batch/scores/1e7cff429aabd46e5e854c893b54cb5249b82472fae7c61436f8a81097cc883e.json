@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "da980e80643da5e43f7df2ecc2e7d9f8d1123ac3b9bc22ddf3ff1aa1097b004c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:28:56.381557+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3bef0262cafa4f52681ffd8a2780c6b4",
+    "output_text": "{\"score\":0,\"evidence\":\"MarketAxess Holdings Inc. (the “Company” or “MarketAxess”) operates leading electronic trading platforms delivering greater trading efficiency, a diversified pool of liquidity and significant cost savings to our clients across the global fixed-income markets.\",\"rationale\":\"The filing describes MarketAxess as an electronic trading platform company focused on fixed-income securities and related services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is technology and service-based, with no evidence of material reliance on imports or overseas manufacturing. Foreign sales or international operations are discussed only in terms of client base and regulatory environment, not physical goods or manufacturing. Therefore, the score is 0.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45497,
+    "output_tokens": 148,
+    "cost_usd": 0.0184356
+  }
+}

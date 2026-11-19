@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b12aadb1dc4d0a6b691aa615281b8f46364f455ec34716f586d89a7eca48a28f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:01:17.611836+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "011b42fac4c69564db7ef6a78c5033b2",
+    "output_text": "{\"score\":0,\"evidence\":\"Our products, services and solutions are used around the world to imagine, create, manage, deliver, measure, optimize and engage with content across surfaces and fuel digital experiences.\",\"rationale\":\"The filing describes Adobe's products and services as digital and cloud-based solutions used globally, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational reliance on imports or overseas manufacturing affecting costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37548,
+    "output_tokens": 98,
+    "cost_usd": 0.015176000000000002
+  }
+}

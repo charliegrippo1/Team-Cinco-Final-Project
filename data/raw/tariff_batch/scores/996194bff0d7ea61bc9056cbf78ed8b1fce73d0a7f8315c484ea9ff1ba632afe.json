@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9690c12024097f59ed9cd791ecf9bb205cb927bbb8d40e1642177be6dd0ad0a9",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:10:12.117316+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6b87617253850865205d7748205852dc",
+    "output_text": "{\"score\": 2, \"evidence\": \"Each of our businesses uses a wide variety of raw materials, key components and supplies that are generally available from alternate sources of supply and in adequate quantities from domestic and foreign sources. We generally have multi-year contracts, with no minimum purchase requirements, with our suppliers. For certain critical raw materials, key components and supplies required for the production of some of our principal products, we have qualified only a limited or a single source of supply. We periodically purchase quantities of some of these critical raw materials in excess of current requirements, in anticipation of future manufacturing needs. With sufficient lead times, we believe we would be able to qualify alternative suppliers for each of these raw materials and key components.\", \"rationale\": \"The filing identifies specific critical raw materials and key components sourced from limited or single suppliers, including foreign sources, indicating some dependence on imported physical goods or foreign-made inputs. However, it also states that these materials are generally available from alternate domestic and foreign sources and that the company believes it can qualify alternative suppliers with sufficient lead time. This suggests dependence exists but is not characterized as substantial or central to the business, supporting a score of 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 25016,
+    "output_tokens": 240,
+    "cost_usd": 0.010390400000000001
+  }
+}

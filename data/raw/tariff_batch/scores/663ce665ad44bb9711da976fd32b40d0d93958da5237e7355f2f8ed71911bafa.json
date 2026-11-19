@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1d0a3e4d96fd41683f5356407dc5d726351941c877e195d4b7a858f9ec385e15",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:00:10.499572+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b08fcc3e280efae59f71efcea37462b2",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"We serve customers in approximately 120 countries. Manufacturing and service operations are carried out at 67 facilities located in 22 states in the United States and Puerto Rico, of which 24 are owned, and at 67 facilities located in 24 other countries, of which 34 are owned.\",\n  \"rationale\": \"The filing identifies a substantial global manufacturing and service footprint with 67 facilities in 24 countries outside the U.S., indicating significant overseas manufacturing and operations. This global supply chain and manufacturing presence suggests substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations. While specific imported goods or suppliers are not detailed, the scale and geographic spread imply meaningful dependence beyond general risk statements, justifying a score of 3.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34783,
+    "output_tokens": 170,
+    "cost_usd": 0.0141852
+  }
+}

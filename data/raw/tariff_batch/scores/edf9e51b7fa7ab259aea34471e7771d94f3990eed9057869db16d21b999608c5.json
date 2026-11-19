@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "19c58f4c619a6622cd59dc9fbcc2218d01d1d0e1e05566f7f359442e8af97a65",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:43:37.094682+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "28c0bf9b3c1657791bdfa5e83c74a111",
+    "output_text": "{\"score\":3,\"evidence\":\"We operate manufacturing facilities in various geographies around the world. We manufacture our TAVR, TMTT, and Surgical products primarily in the United States, Singapore, Costa Rica, and Ireland.\",\"rationale\":\"The filing identifies multiple overseas manufacturing locations (Singapore, Costa Rica, Ireland) as primary sites for its main product groups, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26468,
+    "output_tokens": 90,
+    "cost_usd": 0.010731200000000002
+  }
+}

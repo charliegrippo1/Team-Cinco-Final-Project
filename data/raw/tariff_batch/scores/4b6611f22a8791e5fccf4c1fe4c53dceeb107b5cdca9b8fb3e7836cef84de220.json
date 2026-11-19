@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "197b962887b3f708dfb5f82265a10b163311e44d7837dca2f9717a48a816569e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:57:43.160095+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d55c942a92f71a76caab79f8be2c4a66",
+    "output_text": "{\"score\":3,\"evidence\":\"The company manufactures and distributes its industrial gas products through networks of thousands of production plants, pipeline complexes, distribution centers and delivery vehicles. Major pipeline complexes are primarily located in the United States and China. These networks are a competitive advantage, providing the foundation of reliable product supply to the company’s customer base.\",\"rationale\":\"The filing identifies major pipeline complexes in the United States and China, indicating substantial reliance on overseas manufacturing and imported inputs, especially given the global scale of production plants and distribution networks. This reliance could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 24809,
+    "output_tokens": 123,
+    "cost_usd": 0.010120400000000002
+  }
+}

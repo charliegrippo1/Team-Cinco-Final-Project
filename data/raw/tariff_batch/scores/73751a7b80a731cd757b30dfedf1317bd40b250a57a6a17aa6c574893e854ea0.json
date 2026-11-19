@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1e5885194e11e3722df878dbde89502f1ce727b0ae4e04b752b15bd51f105f93",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:32:36.563981+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c3792ad2b22d55b7ceb8d0479db9e08a",
+    "output_text": "{\"score\":3,\"evidence\":\"The cycle of production and utilization of nuclear fuel includes the mining and milling of uranium ore into uranium concentrates, the conversion of uranium concentrates to uranium hexafluoride, the enrichment of the uranium hexafluoride, and the fabrication of fuel assemblies. Nuclear fuel is obtained predominantly through long-term contracts for uranium concentrates, conversion services, enrichment services, (or a combination thereof) and fabrication services, including contracts sourced from Russia. We have inventory in various forms and engage a diverse set of domestic and international suppliers to secure the nuclear fuel needed to continue to operate our nuclear fleet. We manage various risks around our nuclear fuel requirements in accordance with our fuel procurement policy limiting our transactions with each supplier to mitigate concentration of risk. The size of our inventory holdings and forward contractual coverage considers our refueling needs across multiple years to protect against supply disruptions and near-term price volatility, while allowing for capital flexibility. Our fuel procurement activities comply with all U.S. and international trade laws and we continue to take advantage of all available avenues to ensure continuity in our nuclear fuel supply, including working with the U.S. Government and our diverse set of suppliers to secure the nuclear fuel needed to continue to operate our nuclear fleet long-term. See ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK for additional information.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs, including nuclear fuel components sourced from Russia, and describes a substantial reliance on these overseas suppliers that could materially affect costs or operations. The company manages risks through diverse suppliers and inventory holdings but the dependence on foreign-made nuclear fuel inputs is significant and operationally material. Therefore, the score is 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 48359,
+    "output_tokens": 348,
+    "cost_usd": 0.019900400000000002
+  }
+}

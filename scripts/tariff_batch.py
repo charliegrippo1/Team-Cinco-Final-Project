@@ -184,6 +184,39 @@ def parse_reply(output):
         raise ValueError("Model reply was not valid JSON; inspect cached response") from None
 
 
+def normalize_quote(s):
+    """Same words, ignoring spacing, curly vs straight quotes and dash style."""
+    for a, b in (("’", "'"), ("‘", "'"), ("“", '"'), ("”", '"'), ("—", "-"), ("–", "-")):
+        s = s.replace(a, b)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def quote_match(evidence, text):
+    """How a v1 quote matches the filing: 'formatting' (same words, different spacing or
+    quote marks), 'stitched' (several pieces, each copied exactly from the filing), or None
+    (some words are not in the filing: rejected)."""
+    ev, txt = normalize_quote(evidence), normalize_quote(text)
+    if ev in txt:
+        return "formatting"
+    # Split at sentence ends, semicolons and "..." (the model's mark for a gap), then join
+    # neighbouring parts back together while the joined text is still one passage of the
+    # filing, so "U.S." or a list of places does not count as a separate piece.
+    parts = re.split(r"((?<=[.;:!?])\s+|\s*(?:\.\.\.|…)\s*)", ev)
+    pieces, current = [], parts[0]
+    for sep, part in zip(parts[1::2], parts[2::2]):
+        if current + sep + part in txt:
+            current += sep + part
+        else:
+            pieces.append(current)
+            current = part
+    pieces = [p.strip(" .…") for p in pieces + [current]]
+    pieces = [p for p in pieces if p]
+    # Every piece must be a real stretch of the filing (at least 20 characters), not a fragment.
+    if len(pieces) > 1 and all(len(p) >= 20 and p in txt for p in pieces):
+        return "stitched"
+    return None
+
+
 def score(firm, cache, model, masked=False, offline=False, backend="openai", rubric="v1"):
     text = scoring_text(firm, masked)
     prompt = {"v0": LEGACY_PROMPT, "v1": PROMPT}[rubric]
@@ -225,15 +258,21 @@ def score(firm, cache, model, masked=False, offline=False, backend="openai", rub
     if type(result.get("score")) is not int or result["score"] not in range(5):
         raise ValueError("Model could not assign a supported score")
     # Quotation marks wrapped around the whole quote are not part of the filing; drop them.
-    # Everything inside must still be one exact, continuous passage of the filing.
     evidence = re.sub(r'^\s*["“](.*)["”]\s*$', r"\1", result.get("evidence", ""), flags=re.S)
     result["evidence"] = evidence
-    if not evidence.strip() or evidence not in text or not result.get("rationale", "").strip():
+    if not evidence.strip() or not result.get("rationale", "").strip():
+        raise ValueError("Missing rationale or evidence is not an exact quote")
+    # v0 keeps its original rule (one exact passage) so the v0 results never change.
+    # v1 (specs_tried.md #29) also accepts the same words with different spacing or quote
+    # marks, and quotes stitched from several places whose every piece is in the filing.
+    match = "exact" if evidence in text else (quote_match(evidence, text) if rubric == "v1" else None)
+    if match is None:
         raise ValueError("Missing rationale or evidence is not an exact quote")
     return result, {"ticker": firm["ticker"], "masked": masked, "score": result["score"],
                     "model": response.get("model", model), "response_id": response.get("id", ""),
                     "input_sha256": digest(text), "request_sha256": fingerprint,
-                    "retrieved_utc": record["retrieved_utc"], "cache_path": display_path(path)}
+                    "retrieved_utc": record["retrieved_utc"], "cache_path": display_path(path),
+                    "quote_match": match}
 
 
 def prices(symbol, cache, offline=False):
@@ -319,7 +358,7 @@ def run(args):
     # Always overwrite reports, including empty ones, so a rerun cannot show stale success.
     for name, records, fields in (("tariff_firms.csv", rows, FIRM_FIELDS),
                                   ("failures.csv", failures, ["ticker", "stage", "error"]),
-                                  ("llm_run_log.csv", logs, ["ticker", "masked", "score", "model", "response_id", "input_sha256", "request_sha256", "retrieved_utc", "cache_path"]),
+                                  ("llm_run_log.csv", logs, ["ticker", "masked", "score", "model", "response_id", "input_sha256", "request_sha256", "retrieved_utc", "cache_path", "quote_match"]),
                                   ("event_prices.csv", price_rows, ["ticker", "price_symbol", "session", "adjusted_close", "source_url", "retrieved_utc", "response_sha256"])):
         if records:
             write(args.output / name, records)

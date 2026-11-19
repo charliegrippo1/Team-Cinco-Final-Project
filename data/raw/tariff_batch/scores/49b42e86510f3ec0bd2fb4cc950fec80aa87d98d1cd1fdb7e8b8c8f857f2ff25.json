@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9f14f8828a90a0574a57bd73f42675148c29f9fcf093d9905e059e81facca17e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:56:53.844188+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d4cd4ea7dc73bdf08b7ee33944572ae0",
+    "output_text": "{\"score\":0,\"evidence\":\"KeyCorp, organized in 1958 under the laws of the State of Ohio, is headquartered in Cleveland, Ohio. We are a BHC under the BHCA and one of the nation’s largest bank-based financial services companies, with consolidated total assets of approximately $187.2 billion at December 31, 2024.\",\"rationale\":\"The filing describes KeyCorp as a bank holding company providing financial services primarily in the United States, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on banking and financial services, with no operational dependence on imports or overseas manufacturing. Foreign sales are immaterial and do not affect the score. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 68342,
+    "output_tokens": 165,
+    "cost_usd": 0.0276008
+  }
+}

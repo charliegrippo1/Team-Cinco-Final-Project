@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b15da34445a6d6599c2bbbdb5cf4e1db7438508dbaa20d25ca4c438e43b464ad",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:05:40.875572+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "83b1a4897e0c69f7e31dc88aeff631a5",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"We engineer and design most of our single serve brewers and utilize third-party contract manufacturers located in various countries in Asia for brewer appliance manufacturing. We distribute our brewers using third-party distributors, retail partners and directly to consumers through our website at www.keurig.com.\",\n  \"rationale\": \"The filing explicitly states that most single serve brewers are manufactured overseas by third-party contract manufacturers in Asia, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. The mention of Asia includes China as a foreign production location. While specific imported goods or inputs are not detailed, the overseas manufacturing of critical products (brewers) is central enough to warrant a score of 3.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27662,
+    "output_tokens": 156,
+    "cost_usd": 0.011314400000000002
+  }
+}

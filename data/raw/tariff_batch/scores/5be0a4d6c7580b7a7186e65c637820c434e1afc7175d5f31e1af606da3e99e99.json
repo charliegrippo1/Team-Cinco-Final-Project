@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5bf357d3241fb3c6f0b0e4c4a3368c83f6d3149d921a31dd0b7f3565b3564b8f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:09:20.951569+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fe36fb60deeaf0dcec9274cebb6b0664",
+    "output_text": "{\"score\": 4, \"evidence\": \"We maintain strong oversight of the supply chain process for each of our brands from design through manufacturing. We are able to do this by maintaining sourcing management offices in Vietnam, mainland China, the Philippines, Cambodia and Spain that work closely with our independent manufacturers. This broad-based, global manufacturing strategy is designed to optimize the mix of cost, lead times and construction capabilities.\\n\\nDuring fiscal 2024, manufacturers of Coach products were primarily located in Vietnam, Cambodia, the Philippines and India and no individual vendor provided 10% or more of the brand's total inventory purchases. During fiscal 2024, Kate Spade products were manufactured primarily in Vietnam, Cambodia, mainland China, and the Philippines and no individual vendor provided 10% or more of the brand's total inventory purchases. Stuart Weitzman products were primarily manufactured in Spain. During fiscal 2024, Stuart Weitzman had two vendors, both located in Spain, who individually provided over 10% of the brand's total units (approximately 23% across both, in the aggregate).\", \"rationale\": \"The filing explicitly states that manufacturing is global and centered in several foreign countries including mainland China, Vietnam, Cambodia, the Philippines, Spain, and India, with no single vendor dominating inventory purchases except for Stuart Weitzman in Spain. This indicates that imports and overseas manufacturing are central to the business and most products or critical inputs depend on these arrangements, supporting the highest dependence score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35257,
+    "output_tokens": 307,
+    "cost_usd": 0.014594000000000001
+  }
+}

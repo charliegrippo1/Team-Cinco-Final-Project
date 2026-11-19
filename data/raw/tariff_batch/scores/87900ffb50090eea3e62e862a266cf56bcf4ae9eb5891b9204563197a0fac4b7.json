@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0b9e06089000026d5664a92c707767ca3d2fb377819e6aafffe828975681a658",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:38:32.506875+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "423f5cc57bf069de444dde8cdcba846c",
+    "output_text": "{\"score\":0,\"evidence\":\"T. Rowe Price Group, Inc. (\\\"T. Rowe Price Group\\\", \\\"T. Rowe Price\\\", \\\"the firm\\\", \\\"we\\\", \\\"us\\\", or \\\"our\\\") is a financial services holding company that provides global investment advisory services through its subsidiaries to investors worldwide.\",\"rationale\":\"The filing describes a financial services company providing investment advisory services globally, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is service-based, not manufacturing or goods-based, and there is no evidence of operational reliance on imports or overseas production.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40550,
+    "output_tokens": 127,
+    "cost_usd": 0.016423200000000002
+  }
+}

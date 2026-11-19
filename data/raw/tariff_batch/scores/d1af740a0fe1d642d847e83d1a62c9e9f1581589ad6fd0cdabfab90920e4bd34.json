@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "98b0aaba920ae884dcf371df1564218280cc91fe194d9eb4fdb3ad0e72e48290",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:44:58.322529+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6de00b4a81fa9e4d59a08266b0a87498",
+    "output_text": "{\"score\":0,\"evidence\":\"NiSource Inc. is an energy holding company under the Public Utility Holding Company Act of 2005 whose primary subsidiaries are fully regulated natural gas and electric utility companies, serving approximately 3.8 million customers in six states.\",\"rationale\":\"The filing describes NiSource as a holding company with fully regulated subsidiaries serving customers in six states, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific identification of imported goods, overseas suppliers, or manufacturing, nor any indication that such arrangements materially affect costs or operations. The text focuses on regulated utility operations within the U.S. and does not mention China or other foreign production locations. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38657,
+    "output_tokens": 162,
+    "cost_usd": 0.015722
+  }
+}

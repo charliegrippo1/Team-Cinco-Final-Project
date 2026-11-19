@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1d47cc2387c663828a9e87ffe1a71933eebb18b93ae14dd06b9bd61d80b6bd49",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": true,
+  "retrieved_utc": "2026-11-19T03:20:53.454520+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8dbde168f2fb1385b8e1ec24171c7c53",
+    "output_text": "{\"score\":2,\"evidence\":\"Our Midstream operating segment, which is comprised of the Company Corporation’s approximate 38% consolidated ownership interest in the Company Midstream LP at December 31, 2024, provides fee-based services, including gathering, compressing and processing natural gas and fractionating NGL; gathering, terminaling, loading and transporting crude oil and NGL; storing and terminaling propane, and water handling services primarily in the Bakken shale play in the Williston Basin area of North Dakota.\",\"rationale\":\"The filing identifies specific imported goods, foreign-made inputs, or overseas suppliers in the form of offshore production operations and international exploration activities (e.g., Guyana, Malaysia, JDA), and mentions overseas manufacturing of FPSOs offshore Guyana. However, the evidence does not establish that this dependence is substantial or central to the business, nor does it indicate that most products or critical inputs depend on imports or overseas manufacturing. The Midstream segment is primarily U.S.-based and fee-based, with no explicit mention of reliance on imports or overseas manufacturing. Therefore, the score is 2, reflecting identified specific foreign operations but limited evidence of substantial dependence.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35981,
+    "output_tokens": 238,
+    "cost_usd": 0.014773200000000002
+  }
+}

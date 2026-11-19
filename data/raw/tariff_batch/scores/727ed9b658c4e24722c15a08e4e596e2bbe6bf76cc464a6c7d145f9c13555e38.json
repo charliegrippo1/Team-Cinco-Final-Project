@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "510a8bc9aa59a81cba13b72eade563b5fad76d32d26e4ff9d3ef31c355db4c61",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:35:46.037854+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "caabe29c9d344bdc9e950eed4ccbbcfa",
+    "output_text": "{\"score\":2,\"evidence\":\"Our international sourcing subjects us to a number of potential risks in addition to the risks associated with third-party sourcing generally. Such risks include: inflation or changes in political and economic conditions; logistical challenges, including extended container port congestion, and higher logistics costs; unstable regulatory environments; changes in import and export duties; domestic and foreign customs and tariffs; currency rate fluctuations; trade restrictions; labor or civil unrest; geopolitical conflict such as that experienced in Ukraine or the Middle East; disputes in our relationships with certain contract manufacturers or suppliers; communications challenges; and other restraints and burdensome taxes.\",\"rationale\":\"The filing identifies international sourcing of components primarily in Asia and Europe, exposing the company to various risks including tariffs, customs, trade restrictions, and geopolitical conflicts. While specific foreign suppliers or products are not detailed, the mention of international sourcing and related risks indicates a meaningful dependence on imported physical goods and overseas manufacturing that could materially affect operations, supporting a score of 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38093,
+    "output_tokens": 200,
+    "cost_usd": 0.015557200000000002
+  }
+}

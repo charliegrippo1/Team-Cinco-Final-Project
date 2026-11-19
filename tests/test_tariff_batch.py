@@ -196,6 +196,30 @@ class BatchTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 'exact quote'):
                     batch.score(self.firm, self.root, 'b', backend='parrot')
 
+    def test_v1_quote_rule_specs_29(self):
+        # v1 accepts the same words with other spacing/quote marks, and stitched quotes whose
+        # every piece is in the filing; paraphrases and short fragments still fail; v0 is unchanged.
+        self.assertEqual(batch.quote_match('imports  most of its\ngoods', 'It imports most of its goods.'),
+                         'formatting')
+        self.assertEqual(batch.quote_match('the Company’s plants', "the Company's plants"), 'formatting')
+        text = 'We import most of our goods from China. Other text here. We also own plants in Mexico.'
+        self.assertEqual(batch.quote_match('We import most of our goods from China. We also own plants in Mexico.',
+                                           text), 'stitched')
+        self.assertEqual(batch.quote_match('We import most of our goods... We also own plants in Mexico.',
+                                           text), 'stitched')
+        self.assertIsNone(batch.quote_match('We import most of our goods from China. We own many plants abroad.',
+                                            text))
+        self.assertIsNone(batch.quote_match('We import most of our goods... Mexico.', text))
+        stitched = json.dumps(dict(score=4, evidence='We import most of our goods from China. '
+                                   'We also own plants in Mexico.', rationale='r'))
+        self.text.write_text(text, encoding='utf-8')
+        with patch.dict(batch.os.environ, {'EXPECTED_PARROT_API_KEY': 'test-only'}):
+            with patch.object(batch, 'parrot_request', return_value=self.parrot_reply(stitched)):
+                _, log = batch.score(self.firm, self.root, 'a', backend='parrot', rubric='v1')
+                self.assertEqual(log['quote_match'], 'stitched')
+                with self.assertRaisesRegex(ValueError, 'exact quote'):
+                    batch.score(self.firm, self.root, 'a', backend='parrot', rubric='v0')
+
     def test_parrot_backend_needs_its_own_key(self):
         with patch.dict(batch.os.environ, {}, clear=True):
             with self.assertRaisesRegex(ValueError, 'EXPECTED_PARROT_API_KEY'):

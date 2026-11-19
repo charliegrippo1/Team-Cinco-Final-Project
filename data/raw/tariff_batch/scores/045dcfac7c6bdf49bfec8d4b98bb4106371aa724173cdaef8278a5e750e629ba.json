@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "373cb60c5f0d587bdd0b14ed62dbfbd2fe13b5225d08a23df0278639c8bd20a4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:01:12.924062+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9ffa253090f86302032f22e4188f17f0",
+    "output_text": "```json\n{\"score\":0,\"evidence\":\"PTC is a global software company that enables manufacturers and product companies to digitally transform how they design, manufacture, and service the physical products that the world relies on.\",\"rationale\":\"The filing describes PTC as a software company focused on digital transformation and software solutions, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is centered on software products and services rather than physical goods or manufacturing, so there is little or no meaningful dependence on imports or overseas manufacturing.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 19530,
+    "output_tokens": 114,
+    "cost_usd": 0.0079944
+  }
+}

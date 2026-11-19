@@ -51,6 +51,7 @@ SAMPLE = ROOT / "data/universe/v0_sample.csv"
 OVERRIDES = ROOT / "data/universe/cik_overrides.csv"
 TICKER_FIXES = ROOT / "data/universe/ticker_fixes.csv"   # 4 firms whose cover ticker needs a hand fix, with reasons
 SPLIT_FIXES = ROOT / "data/universe/split_fixes.csv"     # 4 firms that split their stock after the 10-K
+MASK_ALIASES = ROOT / "data/universe/mask_aliases.csv"   # extra names hidden in the masked test (audit A2)
 PRICE_FIXES = ROOT / "data/universe/price_fixes.csv"     # Yahoo symbol when it differs from the ticker ("none" = no verified prices)
 BERKSHIRE, BRK_A_IN_B = "0001067983", 1500   # one Berkshire class A share converts into 1,500 class B shares
 # Checkpoint 1 pilot (Apple, Verizon, Nike) plus the two energy firms added for Step 4 testing.
@@ -194,6 +195,7 @@ def main():
     fixes = {r["cik"]: r["ticker"] for r in read_csv(TICKER_FIXES)}
     splits = {r["cik"]: r for r in read_csv(SPLIT_FIXES)}
     price_symbols = {r["cik"]: r["price_symbol"] for r in read_csv(PRICE_FIXES)}
+    aliases = {r["cik"]: r["mask_aliases"] for r in read_csv(MASK_ALIASES)}
     keep = draw_v0_sample(filings, universe) if args.v0 else None
     manifest_path, review_path = (MANIFEST, REVIEW) if args.v0 else (MANIFEST_FULL, REVIEW_FULL)
     rows, review = [], []
@@ -232,7 +234,7 @@ def main():
                            + f") x 2025-03-31 price ${price:.2f} "
                            f"from SPY N-PORT accession 0001752724-25-125179"),
             "price_symbol": price_symbols.get(f["cik"], ""),
-            "mask_aliases": "",
+            "mask_aliases": aliases.get(f["cik"], ""),
         })
         if len(classes) > 1:
             review.append({"ticker": ticker, "company": u["nport_name"], "share_classes": len(classes),

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ebb60d52cee4590bab3a16a88127a5c85260be5fedf09d9224316f2ad0988bb0",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:37:11.739540+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d8f3723b8caf6ed3bebe6c1ff437af7e",
+    "output_text": "{\"score\":0,\"evidence\":\"Expedia Group, Inc. is an online travel company, and our mission is to power global travel for everyone, everywhere.\",\"rationale\":\"The filing describes Expedia Group as an online travel company that facilitates travel bookings and services but does not indicate any dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model is based on digital platforms connecting travelers with travel suppliers globally, without mention of material reliance on physical imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35972,
+    "output_tokens": 113,
+    "cost_usd": 0.014569600000000002
+  }
+}

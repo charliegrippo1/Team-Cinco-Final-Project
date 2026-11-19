@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "778467186e64242cf23e795a4e038a10aca585febe2eea89df23cc48b27594bf",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:54:08.668925+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "67348e14b0eb4066f89c8a089f0923ea",
+    "output_text": "```json\n{\"score\":0,\"evidence\":\"We are a global provider of critical internet infrastructure and domain name registry services, enabling internet navigation for many of the world’s most recognized domain names.\",\"rationale\":\"The filing describes the company as a provider of internet infrastructure and domain name registry services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is primarily digital and service-based, with no operational reliance on imports or overseas manufacturing indicated.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22866,
+    "output_tokens": 100,
+    "cost_usd": 0.009306400000000001
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2101b7c08e5b160d820a76b4ea0e642e5978420ddf2d3109d7912910c4f3c12f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:21:50.852786+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c24a4bbc3f8f5c0059f4ca68e7b45860",
+    "output_text": "{\"score\":3,\"evidence\":\"In 2024, in our Solutions Group reportable segment, we primarily invested in buildings and equipment to support growth in certain countries in Asia Pacific, including China and Malaysia, the U.S. and certain countries in Latin America, primarily Mexico; in our Materials Group reportable segment, we primarily invested in buildings and equipment to support growth in the U.S., and certain countries in Europe, primarily France, and Asia Pacific, primarily China.\",\"rationale\":\"The filing identifies substantial investments in manufacturing facilities and equipment in multiple foreign countries including China and other Asia Pacific locations, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28676,
+    "output_tokens": 136,
+    "cost_usd": 0.011688
+  }
+}

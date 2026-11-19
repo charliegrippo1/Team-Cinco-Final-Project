@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7c2b7e35a901a61233a190882c190273c442de10d2775be606433816bfc9d99a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:10:47.355458+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "df92083f15bc697b33d9f5fe43ff0a07",
+    "output_text": "{\"score\":0,\"evidence\":\"The Charles Schwab Corporation (CSC) is a savings and loan holding company. CSC engages, through its subsidiaries (collectively referred to as Schwab or the Company), in wealth management, securities brokerage, banking, asset management, custody, and financial advisory services.\",\"rationale\":\"The filing describes Schwab as a financial services company focused on wealth management, brokerage, banking, and advisory services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is centered on financial products and services, not physical goods or manufacturing, and there is no evidence of operational dependence on imports or overseas production.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 56459,
+    "output_tokens": 136,
+    "cost_usd": 0.0228012
+  }
+}

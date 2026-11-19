@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5cad31f28b64d0d3b42fbc2085095d6fee4de7ae88f09caf7c4d3f9151a6fa26",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:22:00.470152+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fc0dfa6958c9b228b22286b8256a424a",
+    "output_text": "```json\n{\n  \"score\": 1,\n  \"evidence\": \"We serve markets in California and Hawaii from our quarry in British Columbia, Canada by means of a long-term marine shipping agreement with CSL Americas.\",\n  \"rationale\": \"The filing identifies specific imported goods or foreign-made inputs by mentioning shipments from a quarry in British Columbia, Canada, to U.S. markets via marine shipping. However, the evidence does not indicate that this dependence is substantial or central to the business, only that it exists as part of distribution logistics. Thus, the score reflects a specific but limited operational dependence on foreign-made inputs or overseas manufacturing.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34233,
+    "output_tokens": 131,
+    "cost_usd": 0.013902800000000002
+  }
+}

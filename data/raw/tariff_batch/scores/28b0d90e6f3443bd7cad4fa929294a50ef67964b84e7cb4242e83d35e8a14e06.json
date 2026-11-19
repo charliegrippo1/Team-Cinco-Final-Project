@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c665c070afcbef9ad77badd96d55e3c89342ef70629577748f644f24c9e235cb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:32:53.232634+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ecc862144d57833f267750b9c6db9a19",
+    "output_text": "```json\n{\n  \"score\": 0,\n  \"evidence\": \"We utilize independent subcontractors under fixed price contracts to perform construction work on our homes. We use many independent subcontractors in our various markets and we are not dependent on any single subcontractor or on a small number of subcontractors.\",\n  \"rationale\": \"The filing describes the company's homebuilding operations as relying on independent subcontractors and acquiring finished lots from third parties, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific identification of imported goods or overseas suppliers, nor any indication that such arrangements materially affect costs or operations. Tariffs or trade restrictions are not discussed as operational dependencies. Therefore, the evidence supports little or no meaningful dependence on imported or foreign-made inputs or overseas manufacturing.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 20159,
+    "output_tokens": 167,
+    "cost_usd": 0.008330800000000001
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ea9b18d78c739dda43c04238818eb5b3b4d042f6ec6df3fca8bd0366d8d8a6fe",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:40:41.603128+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4f0144b010935cba32fa76ec382fc8df",
+    "output_text": "{\"score\":3,\"evidence\":\"We directly imported approximately 13% of our purchases in fiscal 2024, but many of our domestic vendors directly import their products or components of their products. Changes to the price or flow of these goods for any reason, such as civil unrest or acts of war, currency fluctuations, disruptions in maritime lanes, port labor disputes and other issues, economic conditions and instability in the countries in which foreign suppliers are located, the financial instability of suppliers, suppliers’ failure to meet our standards, issues with labor practices of our suppliers or labor problems they may experience (such as strikes, stoppages or slowdowns, which could also increase labor costs during and following the disruption), the availability and cost of raw materials to suppliers, increased import duties or tariffs, merchandise quality or safety issues, shipping and transport availability and cost, increases in wage rates and taxes, transport security, foreign trade policies, trade sanctions, import limitations on certain types of goods or of goods containing certain materials from other countries, inflation and other factors relating to the suppliers and the countries in which they are located or from which they import, often are beyond our control and could adversely affect our operations and profitability. Furthermore, these risks may be amplified if we are unable to diversify our supply chain or rely too heavily on a single country to source our or our vendors’ products. These and other factors affecting our suppliers and our access to products could materially adversely affect our business and financial performance. As we or our domestic vendors increase the importation of merchandise or components from foreign vendors, these risks are likely to increase.\",\"rationale\":\"The filing states that approximately 13% of purchases are directly imported, and many domestic vendors also import products or components. It identifies numerous specific risks related to foreign sourcing, including tariffs, labor disputes, supply chain disruptions, and reliance on foreign suppliers. The text emphasizes that these risks could materially affect operations and profitability, indicating substantial reliance on imports and overseas manufacturing that could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26199,
+    "output_tokens": 411,
+    "cost_usd": 0.0111372
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cb54fba3c8fbb6b4ed4a01549469e6598946c6c4c8524fee85cce96e60c0309f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:14:12.460112+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "09ac0de9c6b16f92f248f928723f5be5",
+    "output_text": "```json\n{\n  \"score\": 1,\n  \"evidence\": \"Our international operations subject us to operational, financial, and data privacy risks. We provide services within and between foreign countries on an increasing basis. Our business outside of the United States is subject to various risks, including: •changes in tariffs, trade restrictions, trade agreements, and taxations; •difficulties in managing or overseeing foreign operations and agents; •limitations on the repatriation of funds because of foreign exchange controls; •different liability standards; •intellectual property laws of countries that do not protect our rights in our intellectual property, including but not limited to, our proprietary information systems, to the same extent as the laws of the United States; •issues related to non-compliance with laws, rules, and regulations in the countries in which we operate including the U.S. Foreign Corrupt Practices Act and similar regulations. Failure to comply could result in reputational harm, substantial penalties, and operational restrictions; and •global laws and regulations regarding the collection, use, processing, and transfer of personal information may impact our services by imposing restrictions on processing, increase legal claim liability, and increase regulatory scrutiny and fines.\",\n  \"rationale\": \"The filing identifies tariffs and trade restrictions as risks related to international operations but does not specify particular imported physical goods, foreign-made inputs, or overseas manufacturing dependencies. The company operates globally and faces general risks from tariffs and trade restrictions but does not show substantial or central reliance on imported goods or overseas manufacturing. Therefore, the score is 1, reflecting tariffs or trade restrictions appearing only as general risks without specific operational dependence.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27501,
+    "output_tokens": 332,
+    "cost_usd": 0.011531600000000001
+  }
+}

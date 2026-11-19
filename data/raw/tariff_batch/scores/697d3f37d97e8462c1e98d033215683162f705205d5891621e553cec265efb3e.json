@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9ada725cfe26ff5001b96d86a2f6a6e728269398e9c6f025fa7dfeee2b95350a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:29:42.452883+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b6845a466a202d1162a528048efd47a0",
+    "output_text": "{\"score\":0,\"evidence\":\"ANSYS, Inc. (Ansys, we, us, our), a corporation formed in 1994, develops and globally markets engineering simulation software and services widely used by engineers, designers, researchers and students across a broad spectrum of industries and academia, including high-tech, aerospace and defense (A&D), automotive, energy, industrial equipment, materials and chemicals, consumer products, healthcare and construction.\",\"rationale\":\"The filing describes Ansys as a developer and marketer of engineering simulation software and services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is software-focused, with distribution through direct sales and channel partners globally. There is no specific operational dependence on imports or overseas manufacturing identified.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37101,
+    "output_tokens": 156,
+    "cost_usd": 0.015090000000000003
+  }
+}

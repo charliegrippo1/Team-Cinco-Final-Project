@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3ae1575f3b2d53f75445bede1e9c1b028d70ff709a032379b72fffb1aec3119a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:55:29.586044+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c0922aeaee2f8cc2878e80be5a1b882b",
+    "output_text": "{\"score\":0,\"evidence\":\"We operate our business and achieve our goals according to a clear set of principles we call “The Quest Way,” which consists of the following: •Our Purpose, or why we exist, is to work together to create a healthier world, one life at a time. •Our Strategy, or how we grow, is to provide solutions that serve the evolving needs of our customers, based on our high quality, innovative, convenient and affordable services.\",\"rationale\":\"The filing describes Quest Diagnostics as a diagnostic information services provider with operations primarily in the U.S. It emphasizes laboratory testing services, data analytics, and healthcare IT solutions. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on domestic laboratory testing and diagnostic services, with some international operations but no indication that imports or overseas manufacturing are material or central to the business. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 44471,
+    "output_tokens": 202,
+    "cost_usd": 0.018111600000000002
+  }
+}

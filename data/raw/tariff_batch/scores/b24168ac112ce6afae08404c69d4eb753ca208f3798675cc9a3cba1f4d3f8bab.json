@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a66b256942a83db446e79f0332eda6de33103d698cd825e0085ce47066713223",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:04:18.920434+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "37eed644944db1f64c95ebc413006a10",
+    "output_text": "{\"score\":3,\"evidence\":\"We are subject to physical, financial and transition risks related to climate change, including potentially increased legislative and regulatory burdens and changing customer preferences, and we may be subject to lawsuits, all of which could impact our businesses and results of operations.\",\"rationale\":\"The filing identifies substantial reliance on imported physical goods and overseas manufacturing indirectly through risks related to supply chain disruptions, tariffs, and regulatory burdens associated with climate change and energy transition. It also discusses the importance of imported nuclear fuel and related contracts, and the impact of tariffs and trade restrictions as operational risks. While specific foreign suppliers or China are not explicitly detailed, the overall dependence on imported nuclear fuel and supply chain vulnerabilities could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43436,
+    "output_tokens": 154,
+    "cost_usd": 0.017620800000000002
+  }
+}

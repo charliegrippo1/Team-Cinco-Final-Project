@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "dbd4c4e96d47eafc356b2ed4517cd182ada8ba640a9318aac13be3000ed770c8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:23:16.710099+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "03288d4aeb5e1d9a3bbc0778a3d697ee",
+    "output_text": "{\"score\":0,\"evidence\":\"We provide marketing, communications and business transformation services that help marketers and brands succeed in today’s digital economy. Combining the power of creativity and technology, our approximately 53,300 employees and operations span all major world markets.\",\"rationale\":\"The filing describes a service-based business focused on marketing and communications with operations spanning many countries. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model is centered on services rather than physical products or manufacturing, so there is little or no meaningful dependence on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40493,
+    "output_tokens": 121,
+    "cost_usd": 0.0163908
+  }
+}

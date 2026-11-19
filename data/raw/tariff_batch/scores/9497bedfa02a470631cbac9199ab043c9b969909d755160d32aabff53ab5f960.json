@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2572120832ea4739ebaefdffc844fa1b1be1a6a1b920372362cb3cbb9f1dae62",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:27:45.835168+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "af1ba905a19cfcb28baa64ca09ee7c3b",
+    "output_text": "{\"score\":3,\"evidence\":\"We have other production, blending or distribution operations in Brazil, China, India and Paraguay. Our operations serve the top four nutrient-consuming countries in the world: China, India, U.S. and Brazil.\",\"rationale\":\"The filing identifies specific overseas manufacturing and production operations in Brazil, China, India and Paraguay, serving major nutrient-consuming countries. This indicates substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 50202,
+    "output_tokens": 104,
+    "cost_usd": 0.020247200000000003
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a268b5a9a703af9c9567bb9e9ae543415b74b301e0827da53444e5954ab00887",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:11:04.989997+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e6135dccd3f33e76e7f9583cd55c834f",
+    "output_text": "{\"score\":0,\"evidence\":\"CBRE is the world’s largest commercial real estate services and investments firm. Our competitive advantage comes from our considerable scale and ability to offer integrated solutions to real estate investors and occupiers in more than 100 countries.\",\"rationale\":\"The filing describes CBRE as a commercial real estate services and investment firm operating globally, focusing on services rather than manufacturing or importing physical goods. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is service-oriented, with no specific operational dependence on imports or overseas manufacturing identified.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33309,
+    "output_tokens": 120,
+    "cost_usd": 0.013515600000000001
+  }
+}

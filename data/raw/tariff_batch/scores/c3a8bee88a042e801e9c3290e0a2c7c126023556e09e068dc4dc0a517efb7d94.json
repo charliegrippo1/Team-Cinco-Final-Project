@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "23544884a3620297f37c0fba646f6dbc53c845fc0f273d81bc4e6576e2d38c3b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:23:52.728757+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fc943ab262950783c3881c2a09ee15ca",
+    "output_text": "{\"score\":0,\"evidence\":\"Texas Pacific Land Corporation (which, together with its subsidiaries as the context requires, may be referred to as “TPL,” the “Company,” “our,” “we,” or “us”) is a Delaware Corporation and one of the largest landowners in the State of Texas with approximately 873,000 surface acres of land, principally concentrated in the Permian Basin.\",\"rationale\":\"The filing describes the company as a landowner and royalty interest holder in Texas, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on land and resource management and water services within the Permian Basin, with no evidence of reliance on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18317,
+    "output_tokens": 148,
+    "cost_usd": 0.0075636
+  }
+}

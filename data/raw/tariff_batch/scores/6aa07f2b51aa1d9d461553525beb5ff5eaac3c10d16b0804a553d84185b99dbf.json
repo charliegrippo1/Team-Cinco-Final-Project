@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e901fe32ecfe2a534da6843637db9a7b05f725a4dce2937406d83e1a50902984",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:35:06.584577+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "be3c12e86967d990e60d5881d563f09c",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"A significant portion of the merchandise that we offer is sourced, directly or indirectly, from outside the U.S., with China as our single largest source of merchandise we import. Any trade disputes or changes in tax or trade policy between the U.S. and countries from which we source merchandise, such as the imposition of additional tariffs or duties on imported products, could require us to take certain actions, including raising prices on products we sell and seeking alternative sources of supply from vendors in other countries.\",\n  \"rationale\": \"The filing explicitly states that a significant portion of merchandise is sourced from outside the U.S., with China as the largest source, indicating substantial reliance on imported goods. It also discusses the material impact of tariffs and trade disputes on costs and operations, supporting a score of 3.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 20909,
+    "output_tokens": 178,
+    "cost_usd": 0.0086484
+  }
+}

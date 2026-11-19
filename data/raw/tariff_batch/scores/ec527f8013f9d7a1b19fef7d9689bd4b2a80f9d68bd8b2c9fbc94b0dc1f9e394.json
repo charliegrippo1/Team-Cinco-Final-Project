@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3a2da1d53e874ddc789cfbed1b730c82ae3f688cb9a750ac1accdecf51a29fd4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:05:52.275449+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "37f8562d9f45382d21260e16c8ec49c0",
+    "output_text": "{\"score\":2,\"evidence\":\"Additionally, an increase in tariffs, such as the tariffs announced on February 1, 2025 on imports to the United States from Canada and Mexico, and any similar or retaliatory tariffs or trade policies, could disrupt and increase the costs of our supply chains and those of our master franchisees in relation to certain products that we and they source internationally.\",\"rationale\":\"The filing identifies specific tariffs on imports from Canada and Mexico that could disrupt and increase supply chain costs, indicating some operational dependence on imported goods or overseas suppliers. However, the dependence is not described as substantial or central to the business, and no detailed extent of reliance on foreign-made inputs or overseas manufacturing is provided. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36628,
+    "output_tokens": 153,
+    "cost_usd": 0.014896000000000001
+  }
+}

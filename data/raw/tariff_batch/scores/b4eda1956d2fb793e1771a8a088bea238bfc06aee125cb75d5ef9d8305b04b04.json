@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1eb9061c01bff2443f4bae358727d6db244cf9e141ffb42a72c09a7dcca30903",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:43:12.472160+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4426977ff59bbc069cd7cb77d21ce386",
+    "output_text": "{\"score\":0,\"evidence\":\"Our software is primarily developed internally; however, we also use independent firms and contractors to perform some of our product development activities. Additionally, we acquire or license products and technologies developed by third parties.\",\"rationale\":\"The filing states that software is primarily developed internally, with some product development activities performed by independent firms and contractors, and that the company acquires or licenses third-party products and technologies. However, there is no specific mention of substantial reliance on imported physical goods, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations. The references to international locations relate to software development and localization, not physical goods or manufacturing. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43860,
+    "output_tokens": 153,
+    "cost_usd": 0.0177888
+  }
+}

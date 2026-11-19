@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a023dc3c7699f7682b375d4478b435c4aea08c47a506cb3b773a58628a1087e2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:06:31.349754+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f477c585e21c5795b0e5da8795202142",
+    "output_text": "{\"score\":0,\"evidence\":\"AvalonBay Communities, Inc. (the \\\"Company,\\\" \\\"we,\\\" \\\"our\\\" and \\\"us\\\" which terms, unless the context otherwise requires, refer to AvalonBay Communities, Inc. together with its subsidiaries), is a Maryland corporation that has elected to be treated as a real estate investment trust (\\\"REIT\\\") for federal income tax purposes. We develop, redevelop, acquire, own and operate apartment communities in New England, the New York/New Jersey metro area, the Mid-Atlantic, the Pacific Northwest, and Northern and Southern California, as well as in our expansion regions of Raleigh-Durham and Charlotte, North Carolina, Southeast Florida, Dallas and Austin, Texas, and Denver, Colorado.\",\"rationale\":\"The filing describes AvalonBay Communities as a REIT focused on developing, acquiring, owning, and operating apartment communities primarily in U.S. metropolitan areas. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is centered on real estate development and management within the U.S., with no specific operational reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34797,
+    "output_tokens": 244,
+    "cost_usd": 0.014309200000000003
+  }
+}

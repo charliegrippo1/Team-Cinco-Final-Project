@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "aada8c64cd96f1c96c3583513fe73cd2925262818115a1797a5c9851603135bf",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:54:40.643548+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5cd1730820a681f61182557ad75dabce",
+    "output_text": "{\"score\":2,\"evidence\":\"Additionally, we procure products from suppliers outside of the U.S., and we are subject to the risks associated with political or financial instability, military conflict, trade restrictions, tariffs, currency exchange rates, transport capacity and costs and other factors relating to foreign trade, including health and safety restrictions related to epidemics and pandemics, any or all of which could delay our receipt of products or increase our input costs.\",\"rationale\":\"The filing identifies that Sysco procures products from suppliers outside the U.S. and is subject to risks related to foreign trade, including tariffs and transport capacity, indicating specific imported goods and overseas suppliers. However, the evidence does not quantify the extent of this dependence or indicate that imports or overseas manufacturing are central to the business. Therefore, the dependence is identified but the evidence that it is substantial is limited, supporting a score of 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40108,
+    "output_tokens": 181,
+    "cost_usd": 0.0163328
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cf0d0d8bfa99bf993f44a722ff3025531f131002b1116745f24ae6dd283c628c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:28:01.529431+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "234d48a98584322a715368f149b38768",
+    "output_text": "{\"score\":3,\"evidence\":\"Today, our product lines include hundreds of thousands of diverse products, most of which we manufacture ourselves in multiple locations in North America, as well as a location each in the U.K. and China.\",\"rationale\":\"The filing states that most products are manufactured internally at multiple locations in North America plus one location each in the U.K. and China, indicating substantial reliance on overseas manufacturing, including China, which could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30062,
+    "output_tokens": 97,
+    "cost_usd": 0.01218
+  }
+}

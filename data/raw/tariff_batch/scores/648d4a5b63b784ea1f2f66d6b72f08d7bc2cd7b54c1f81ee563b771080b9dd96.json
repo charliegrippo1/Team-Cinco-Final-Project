@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3bb71d1cd8c9bff4037be848fbc42164d2356a05063cdbe29b0eb7332a81d451",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:42:14.917029+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1e47bac4e49ef07742cbf0ceeeda222a",
+    "output_text": "{\"score\":0,\"evidence\":\"Our hotels typically include meeting and banquet facilities, a variety of restaurants and lounges, swimming pools, exercise facilities and/or spas, gift shops and parking facilities, the combination of which enable them to serve business, leisure and group travelers.\",\"rationale\":\"The filing describes the hotels' amenities and operations but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of tariffs, trade restrictions, or supply chain reliance on foreign or imported goods, including China. Therefore, there is insufficient evidence to support any meaningful dependence on such arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53413,
+    "output_tokens": 125,
+    "cost_usd": 0.0215652
+  }
+}

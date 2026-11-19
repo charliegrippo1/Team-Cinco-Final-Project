@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "689a71c45a46775a2027d4941f5207b0267ce6c3a48234e1305df04f2eea5a5c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:14:42.476166+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e6600c17ff3e9c14a5886f62e0525f25",
+    "output_text": "{\"score\":0,\"evidence\":\"CoStar Group is a global leader of commercial and residential real estate information, analytics, and online marketplaces.\",\"rationale\":\"The filing describes CoStar Group as a provider of real estate information, analytics, and online marketplaces, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on digital services and data, not physical products or manufacturing. There is no evidence of operational dependence on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32543,
+    "output_tokens": 100,
+    "cost_usd": 0.013177200000000002
+  }
+}

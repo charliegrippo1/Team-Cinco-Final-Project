@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9615acbfa3fd52f828b921253b2f53ab00a69f5d4ae45a7973f2dbaaf12df269",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:07:15.435074+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2472741255471bd1cea872c92c6046f5",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"In South America, two global suppliers provide virtually all our aluminum can and end sheet requirements with certain requirements also being imported from Asia.\",\n  \"rationale\": \"The filing identifies specific imported inputs from Asia for the South America segment, indicating a substantial reliance on overseas suppliers that could materially affect costs or operations. The mention of imports from Asia (including China as part of Asia) supports a score of 3 rather than lower scores. While the dependence is not described as central to the entire business, it is significant enough to potentially impact operations materially.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 19388,
+    "output_tokens": 128,
+    "cost_usd": 0.00796
+  }
+}

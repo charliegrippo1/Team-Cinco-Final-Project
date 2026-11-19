@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b53289941d6754033b7f5c3cba112d1e6490febba26c046e3815f53187fa2143",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:09:36.980853+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "97234aec197cdd16fd9cec64afd02729",
+    "output_text": "```json\n{\"score\": 3, \"evidence\": \"We have principal manufacturing and distribution facilities in the United States in Arizona, California, Florida, Illinois, Indiana, Michigan, Minnesota, New Jersey, Puerto Rico, Tennessee, Texas, Utah, Virginia and Washington, and outside the United States in China, France, Germany, Ireland, Mexico, the Netherlands, Poland, Switzerland and Turkey. Damage to our facilities, to our suppliers’ or service providers’ facilities, or to our central distribution centers as a result of natural disasters, fires, explosions or otherwise, as well as issues in our manufacturing arising from a failure to follow specific internal protocols and procedures, compliance concerns relating to the quality systems regulation, equipment breakdown or malfunction, IT system failures or cybersecurity incidents, environmental hazard incidents or changes to environmental regulations or other factors, could adversely affect the availability of our products.\", \"rationale\": \"The filing identifies multiple overseas manufacturing and distribution locations including China, indicating substantial reliance on overseas manufacturing that could materially affect operations if disrupted.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27799,
+    "output_tokens": 209,
+    "cost_usd": 0.011454
+  }
+}

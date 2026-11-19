@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a71522e249451b61c1f58186b9ece2e5488d08c1f2513d1b19f6d658709310db",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:15:26.316380+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f107f7fe8329f884f7ea9fd36213a927",
+    "output_text": "{\"score\":4,\"evidence\":\"We manufacture our products within our own facilities located in Taiwan, Singapore, Japan, the United States, Malaysia, China, and India and also utilize subcontractors to perform certain manufacturing processes.\",\"rationale\":\"The filing states that manufacturing occurs in multiple foreign countries including China, Taiwan, Singapore, Japan, Malaysia, and India, indicating that overseas manufacturing is central to the business. This global manufacturing footprint supports that most products or critical inputs depend on these arrangements, justifying the highest score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35127,
+    "output_tokens": 108,
+    "cost_usd": 0.014223600000000001
+  }
+}

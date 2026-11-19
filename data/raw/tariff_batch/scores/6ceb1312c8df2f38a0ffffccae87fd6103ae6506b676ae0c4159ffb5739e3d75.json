@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "49b1c73e8353d9108a8b995f3283a86e8f8a6b5bcb289f40dad21303635ff17d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:16:08.644987+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "324482fdfad63c8ea584ca6a30064808",
+    "output_text": "{\"score\":3,\"evidence\":\"We outsource the manufacturing of our systems to a third-party contract manufacturer, Flex Ltd. (\\\"Flex\\\"), for building, assembling, and testing according to our specifications at Flex's facilities in Guadalajara, Mexico and Zhuhai, China. Flex also performs material procurement, assembly, system test, quality control, and direct shipment on our behalf.\",\"rationale\":\"The filing explicitly states that manufacturing is outsourced to Flex Ltd. with facilities in Mexico and China, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31355,
+    "output_tokens": 114,
+    "cost_usd": 0.0127244
+  }
+}

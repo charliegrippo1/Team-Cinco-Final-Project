@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d47aabb007355c1f31437df9f869ddbe3ad6651505fe5d0c66d0274bd79998c0",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:15:56.336484+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "0f13e969c5a4578c458607921451d90e",
+    "output_text": "{\"score\":3,\"evidence\":\"In addition to coffee, we also purchase significant amounts of dairy, particularly fluid milk, and to a lesser degree, plant-based dairy-free alternative products, such as oat milk and almond milk, to support the needs of our company-operated stores. We believe, based on the established relationship and historical performance of our dairy and plant-based dairy-free suppliers, that the risk of non-delivery of sufficient fluid milk and plant-based dairy-free alternatives to support our stores generally is remote.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs such as dairy and plant-based alternatives as significant inputs to Starbucks' operations. It also discusses reliance on suppliers and risks of non-delivery, indicating substantial reliance on these inputs that could materially affect costs or operations. While it does not state that imports or overseas manufacturing are central to the business, the dependence on these inputs is material enough to warrant a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36138,
+    "output_tokens": 190,
+    "cost_usd": 0.014759200000000002
+  }
+}

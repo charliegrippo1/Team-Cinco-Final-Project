@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "af89b9e84d3936dec066d9d37e848befdcc7fda1de058afa069de8f837303527",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:24:32.726246+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b4ab2e9ac67d2ec898ae599be2e77f0e",
+    "output_text": "{\"score\": 2, \"evidence\": \"Polymer resins and films, paper, inks, solvents, adhesives, aluminum, and chemicals constitute the major raw materials we use. These are purchased from a variety of global industry sources, and we are not significantly dependent on any one supplier for our raw materials. While we have experienced industry-wide shortages of certain raw materials in the past, we have been able to manage supply disruptions by working closely with our suppliers and customers.\", \"rationale\": \"The filing identifies specific imported goods and foreign-made inputs such as polymer resins, aluminum, and chemicals sourced globally, indicating dependence on imported physical goods and overseas suppliers. However, it also states no significant dependence on any one supplier and describes managing supply disruptions, suggesting the dependence is not substantial enough to materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28136,
+    "output_tokens": 167,
+    "cost_usd": 0.011521600000000002
+  }
+}

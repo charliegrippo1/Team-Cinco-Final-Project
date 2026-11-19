@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "45aa17c31eec9969b8e17645187ec3c6b745ddbdf5bc71dd03faf06c6cac9cdf",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:48:35.671906+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c7f95394cd65eabcf9a0195b8d932df5",
+    "output_text": "{\"score\":0,\"evidence\":\"Our business consists of two operating segments: Scores and Software.\",\"rationale\":\"The filing describes the company as a software and analytics provider with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software products and services delivered primarily via SaaS or on-premises software, with no indication of material reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36184,
+    "output_tokens": 99,
+    "cost_usd": 0.014632000000000001
+  }
+}

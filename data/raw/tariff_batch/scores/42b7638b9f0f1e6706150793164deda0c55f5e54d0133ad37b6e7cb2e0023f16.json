@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "882710b157cb3a129e701bf56b6495f6c3749842ec72b90d99899ffc2a3b2767",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:32:20.121936+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8bb5d2f730bd75bb75eda1836d9db586",
+    "output_text": "{\"score\":2,\"evidence\":\"We require the use of various raw materials in our manufacturing processes. We purchase a variety of manufactured component parts from various suppliers. We also purchase replacement parts, which are utilized in our various repair and overhaul operations. At times, we concentrate our orders among a few suppliers in order to strengthen our supplier relationships. Most of our raw materials and component parts are generally available from multiple suppliers at competitive prices.\",\"rationale\":\"The filing identifies specific imported goods and component parts purchased from various suppliers, indicating some dependence on foreign-made inputs. However, it does not provide evidence that this dependence is substantial or central to the business. The mention of supply chain disruptions and alternative suppliers suggests limited but notable reliance, consistent with a score of 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33575,
+    "output_tokens": 154,
+    "cost_usd": 0.013676400000000002
+  }
+}

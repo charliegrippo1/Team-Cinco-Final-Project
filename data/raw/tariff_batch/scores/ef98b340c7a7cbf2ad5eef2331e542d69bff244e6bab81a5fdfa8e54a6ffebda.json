@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f743308e807113aab8a3a27cdab693f63d99d3324a564d1aed7b28313e586169",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:22:29.391729+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "98380cab2385c8f659c8650dc0b3c7dd",
+    "output_text": "{\"score\": 0, \"evidence\": \"Moody's is a global integrated risk assessment firm that empowers organizations to anticipate, adapt and thrive in a new era of exponential risk. Our data, analytical solutions and insights help decision-makers identify opportunities and manage the risks of doing business with others.\", \"rationale\": \"The filing describes Moody's as a provider of data, analytics, and risk assessment services globally, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software, data, and services rather than physical products or manufacturing, and no specific foreign suppliers or imports are identified. Therefore, there is little or no meaningful dependence on such arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35378,
+    "output_tokens": 144,
+    "cost_usd": 0.014381600000000001
+  }
+}

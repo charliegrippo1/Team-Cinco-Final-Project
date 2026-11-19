@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5dfc34883f7deda654f466c93f80797fdbf58802adc5f88d390046e930c761da",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:47:45.215058+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8d81de032e9a4038569e5a9d62bd1247",
+    "output_text": "{\"score\":3,\"evidence\":\"Disk drive assembly and machine learning operations occur primarily at our facilities located in China and Thailand. We perform subassembly and component manufacturing operations at our facilities in China, Malaysia, Northern Ireland, Singapore, Thailand and the United States.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations including China, Thailand, Malaysia, Northern Ireland, and Singapore, indicating substantial reliance on overseas manufacturing. This reliance could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35450,
+    "output_tokens": 100,
+    "cost_usd": 0.014340000000000002
+  }
+}

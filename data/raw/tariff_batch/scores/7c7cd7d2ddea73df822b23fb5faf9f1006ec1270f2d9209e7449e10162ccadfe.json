@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "84180b23d2a1c02b92c836110045abece5ed2717cd2ec4773b5b1a86018d271d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T03:06:30.378527+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6fb52d63a6a1fe5503b1a26ea6fb2c11",
+    "output_text": "{\"score\":4,\"evidence\":\"In Fiscal 2024, approximately 96% of our products (by dollar value) were produced outside of the U.S., primarily in Asia, Europe, and Latin America, with approximately 19% of our products sourced from Vietnam and 15% from China.\",\"rationale\":\"The filing states that 96% of products are produced outside the U.S., primarily in Asia, Europe, and Latin America, with significant sourcing from Vietnam (19%) and China (15%). This indicates that imports and overseas manufacturing are central to the business, with most products dependent on these arrangements, justifying the highest score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 56362,
+    "output_tokens": 135,
+    "cost_usd": 0.0227608
+  }
+}

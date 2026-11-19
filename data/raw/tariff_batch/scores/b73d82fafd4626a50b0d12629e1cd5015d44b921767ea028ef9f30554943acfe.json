@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c19540347ee63e57954e4fec909dedc33a50b4c5d791887adf37596be091b974",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:50:27.953138+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c29837e2035c9d56f2f1fa07f8f5ae2e",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"The majority of products are manufactured by Snap-on and, in completing the product offering, other items are purchased from external manufacturers.\",\n  \"rationale\": \"The filing indicates that most products are manufactured internally, but some items are purchased from external manufacturers, implying some reliance on foreign-made inputs or imports. However, there is no detailed evidence that this dependence is substantial or central to the business. The mention of supply chain risks and sourcing initiatives suggests some exposure but not at a level that would materially affect operations or costs.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34690,
+    "output_tokens": 122,
+    "cost_usd": 0.0140712
+  }
+}

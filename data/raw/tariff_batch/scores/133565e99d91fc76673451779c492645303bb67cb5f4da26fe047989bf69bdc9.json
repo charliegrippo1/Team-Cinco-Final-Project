@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "004fcc949ab398a3ae5c841e1c1ee663f85fca62e963ca5dd2f81c923f3458c7",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:07:10.054795+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a3fc1193966f684225d55dae33c23976",
+    "output_text": "{\"score\":4,\"evidence\":\"Our global manufacturing footprint includes facilities in the United States, Malaysia, Vietnam, and India. During 2023, we commenced production of our Series 7TM (“Series 7”) modules at our third manufacturing facility in Ohio and our first manufacturing facility in India, which combine our thin film CdTe technology with a larger form factor and an innovative steel back rail mounting structure that reduces module installation time. During 2024, we commenced production of Series 7 modules at our first manufacturing facility in Alabama, bringing our total installed nameplate production capacity across all our facilities to approximately 21 GW. Additionally, we are in the process of expanding our manufacturing capacity by approximately 4 GW, including the construction of our fifth U.S. manufacturing facility, which is expected to commence operations in the second half of 2025.\",\"rationale\":\"The filing states that manufacturing is distributed globally across the U.S., Malaysia, Vietnam, and India, with multiple manufacturing facilities in the U.S. and ongoing expansions. This indicates that overseas manufacturing is central to the business, with most products dependent on these arrangements. China is mentioned as a source of crystalline silicon supply chains that the company does not rely on, but China is also referenced in trade and supply chain risks, confirming its relevance as a foreign production location. The scale and centrality of overseas manufacturing facilities and capacity expansions justify the highest score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 46966,
+    "output_tokens": 288,
+    "cost_usd": 0.019247200000000003
+  }
+}

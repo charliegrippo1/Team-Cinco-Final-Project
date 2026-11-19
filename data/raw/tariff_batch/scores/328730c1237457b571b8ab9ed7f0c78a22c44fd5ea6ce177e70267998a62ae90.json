@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "08bf929b2f049ae7641fb2c06b64940431a0522bbe26691ba8e378ff92dbf174",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:46:32.637305+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e43f91d0aa0edd4b4620b344be3e184b",
+    "output_text": "{\"score\":3,\"evidence\":\"Our devices are primarily manufactured by third-party contract manufacturers. For the majority of our products, we have the ability to use other manufacturers if a current vendor becomes unavailable or unable to meet our requirements. However, some of our products contain certain components for which there are very few qualified suppliers. Extended disruptions at these suppliers could impact our ability to manufacture devices on time to meet consumer demand.\",\"rationale\":\"The filing explicitly states that devices are primarily manufactured by third-party contract manufacturers and that some products contain components with very few qualified suppliers, indicating substantial reliance on overseas manufacturing and imported components that could materially affect operations if disrupted.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35477,
+    "output_tokens": 131,
+    "cost_usd": 0.014400400000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bb0131726276f023daddda8f6abb64a02ed5cc417ad82a56a5ecd12c75d1c61c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:14:46.667667+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4b6199305f640251a193d4103e9ca63b",
+    "output_text": "{\"score\":4,\"evidence\":\"During Fiscal 2024, we spent over $900 million on (i) the completion of planned expansions and execution of optimization initiatives, increasing total capacity in Mexico from approximately 42 million hectoliters to approximately 48 million hectoliters, and (ii) ongoing construction of the Veracruz Brewery. Expansion, optimization, and/or construction activities continue at our breweries in Mexico to support expected future business needs. We expect to spend approximately $3 billion over Fiscal 2025 through Fiscal 2028 on such activities.\",\"rationale\":\"The filing describes substantial ongoing and planned brewery expansion, optimization, and construction activities in Mexico, which is overseas manufacturing central to the business. The Mexican breweries produce the Mexican beer brands that are a significant part of the company's portfolio and sales. This indicates that imports or overseas manufacturing are central to the business, with most products or critical inputs dependent on these arrangements, justifying the highest score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38395,
+    "output_tokens": 195,
+    "cost_usd": 0.015670000000000003
+  }
+}

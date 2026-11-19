@@ -1,0 +1,11 @@
+cik,company,mask_aliases,why
+0000320193,Apple Inc,Apple,"short company name used 45 times in the filing text"
+0000732712,Verizon Communications Inc,Verizon,"short company name used 109 times"
+0000320187,NIKE Inc,NIKE,"short company name used 265 times (masking ignores case, so this also covers Nike)"
+0000087347,Schlumberger NV,Schlumberger,"former company name used 4 times (the ticker SLB, used 152 times, is masked already)"
+0000004447,Hess Corp,Hess,"short company name used 166 times"
+0000059478,Eli Lilly & Co,Eli Lilly|Lilly,"company names used 3 and 59 times"
+0000109198,TJX Cos Inc/The,TJX,"company name used 55 times (store brands such as TJ Maxx are not masked)"
+0000882835,Roper Technologies Inc,Roper,"short company name used 30 times"
+0000769397,Autodesk Inc,Autodesk,"short company name used 98 times"
+0001579241,Allegion plc,Allegion,"short company name used 66 times"

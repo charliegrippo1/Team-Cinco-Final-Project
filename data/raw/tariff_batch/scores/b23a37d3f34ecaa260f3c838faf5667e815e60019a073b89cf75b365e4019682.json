@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ab70ddb6d4e0afc2e5784834b84df6245296fa31065a4baef1c89c506a790960",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:47:58.146463+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9bd168d6fa53f3220a086786ae43acd1",
+    "output_text": "{\"score\":4,\"evidence\":\"Internationally, we also have manufacturing facilities in China and Germany, which allows us to increase the affordability of our vehicles for customers in local markets by reducing transportation and manufacturing costs and eliminating the impact of unfavorable tariffs.\",\"rationale\":\"The filing explicitly states that manufacturing facilities in China and Germany are part of the company's strategy to increase affordability by local production, indicating that overseas manufacturing is central to the business and most products or critical inputs depend on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32608,
+    "output_tokens": 98,
+    "cost_usd": 0.013200000000000002
+  }
+}

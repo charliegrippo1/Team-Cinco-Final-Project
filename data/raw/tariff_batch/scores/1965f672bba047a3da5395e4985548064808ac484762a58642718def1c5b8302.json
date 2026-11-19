@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "92b2e360f1ee8d455ff25ca1645b1ce16e8ab0a31fd86adbc14fbbf8ef22983b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:38:13.973401+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7e05a6319b15f5d7a5feb7e89c14a71d",
+    "output_text": "{\"score\":3,\"evidence\":\"Increased tariffs may increase the Company’s costs of goods sold and/or decrease consumer discretionary spending, which could have a material adverse effect on the Company’s business.\\n\\nThe Company manufactures its products in 19 countries and sells its products in approximately 180 countries. In addition, a significant percentage of the Company’s sourcing and upstream and downstream supply chain processes occur outside the U.S. or with vendors, suppliers, or customers located outside the U.S. Current U.S. government trade policy includes the imposition of tariffs on certain foreign goods. If the U.S. increases tariffs or other restrictions on foreign imports from Mexico, China or other countries, or any related countermeasures are taken, the Company’s business, financial condition, results of operations, and growth prospects may be adversely affected. Tariffs may increase the Company’s cost of goods sold, which could result in lower gross margins on certain products. Raising prices to account for any such increase in costs of goods may negatively impact the competitiveness, and in turn market share, of the Company’s products. If prices increase generally, consumer discretionary spending may decrease. In addition, as companies seek to avoid tariffs by routing impacted supply chains away from tariff-targeted jurisdictions, the Company may face supply chain disruption as global supply chains are reworked. In each case, increased tariffs on imports from Mexico, China, or other countries could materially and adversely affect the Company’s business, financial condition, results of operations, and prospects.\",\"rationale\":\"The filing identifies that the Company manufactures products in 19 countries and sources a significant percentage of its supply chain outside the U.S., including Mexico and China. It explicitly states that tariffs on imports from these countries could materially and adversely affect the Company's costs and operations, including supply chain disruptions and increased costs of goods sold. This indicates substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 24476,
+    "output_tokens": 395,
+    "cost_usd": 0.010422400000000002
+  }
+}

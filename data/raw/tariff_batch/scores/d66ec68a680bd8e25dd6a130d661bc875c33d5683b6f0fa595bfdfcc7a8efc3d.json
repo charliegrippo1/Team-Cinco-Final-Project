@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "211a1edb43a22ae7e44c4e9140d4ae33ef695791361c3cc99157c72fa04d9e40",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:16:21.450602+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "06658d60c25ac9887820f4a9374ec542",
+    "output_text": "{\"score\":0,\"evidence\":\"Our Company\\n\\nLas Vegas Sands Corp. (“LVSC,” or together with its subsidiaries “we” or the “Company”) is a Fortune 500 company and the leading global developer and operator of destination properties (“Integrated Resorts”) that feature premium accommodations, world-class gaming, entertainment and retail malls, convention and exhibition facilities, celebrity chef restaurants and other amenities.\",\"rationale\":\"The filing describes the company's business as operating integrated resorts with gaming, hospitality, retail, and convention facilities primarily in Macao and Singapore. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The focus is on services and property operations rather than manufacturing or import reliance. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 49218,
+    "output_tokens": 162,
+    "cost_usd": 0.019946400000000003
+  }
+}
