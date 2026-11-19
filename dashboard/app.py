@@ -2,9 +2,11 @@
 
 Run locally:  streamlit run dashboard/app.py
 
-Data: reads data/processed/tariff_firms.csv (the real pipeline output) if it
-exists. Otherwise it falls back to data/toy/tariff_firms_FAKE.csv and shows a
-red FAKE DATA banner. Column definitions: docs/DATA_CONTRACT.md.
+Data: reads the first file that exists, in this order:
+  outputs/v1/v1_tariff_firms.csv   the full-sample v1 run (run_all.py --full)
+  data/processed/tariff_firms.csv  the 10-firm v0 run (run_all.py)
+  data/toy/tariff_firms_FAKE.csv   fake rows, shown with a red FAKE DATA banner
+scripts/verify_dashboard.py uses the same order. Column definitions: docs/DATA_CONTRACT.md.
 
 Works at any sample size. With fewer than MIN_FOR_REGRESSIONS firms it shows
 every firm individually and holds back the sector-control regressions, which
@@ -24,7 +26,9 @@ import statsmodels.formula.api as smf
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parents[1]
-REAL = ROOT / "data" / "processed" / "tariff_firms.csv"
+V1 = ROOT / "outputs" / "v1" / "v1_tariff_firms.csv"
+V0 = ROOT / "data" / "processed" / "tariff_firms.csv"
+REAL = V1 if V1.exists() else V0
 FAKE = ROOT / "data" / "toy" / "tariff_firms_FAKE.csv"
 REPO = "https://github.com/charliegrippo1/Team-Cinco-Final-Project"
 
@@ -129,7 +133,7 @@ if is_fake:
 st.title("Who lost on Liberation Day?")
 st.markdown(
     "On **April 2, 2025**, after the market closed, the US announced sweeping new tariffs. "
-    "We ask: **did firms whose own 10-Ks reveal more dependence on imports and China fall more** "
+    "We ask: **did firms whose own 10-Ks reveal more dependence on imports and foreign production fall more** "
     "over the next two trading days?"
 )
 small = len(df_all) < MIN_FOR_REGRESSIONS
@@ -222,7 +226,7 @@ with tab_method:
         """
 1. **Universe:** S&P 500 members as of April 2, 2025, from SPY's SEC holdings filing (not today's list, to avoid survivorship bias).
 2. **10-Ks:** For each firm, the latest 10-K filed before April 2, 2025, from SEC EDGAR (Items 1, 1A and 7).
-3. **Exposure score:** An AI model reads the 10-K and scores tariff exposure 0–4 with a fixed rubric (below), quoting its evidence.
+3. **Exposure score:** An AI model (gpt-4.1-mini) reads the 10-K and scores import and foreign-production dependence 0–4 with a fixed rubric (below), quoting its evidence word for word. Filings over 350,000 characters are left out, never cut.
 4. **Hand check:** A teammate scores the same 10-Ks blind; we report how often they agree with the AI.
 5. **Returns:** Daily adjusted closes. Abnormal return = stock return − SPY return, summed over Apr 3–4.
 6. **Regression:** Return on exposure, with and without sector dummies, using robust standard errors.
@@ -232,13 +236,15 @@ with tab_method:
     st.table(pd.DataFrame({
         "Score": list(EXPOSURE_LABELS.values()),
         "Meaning": [
-            "Domestic; no meaningful imports or foreign supply chain",
-            "Boilerplate mention of trade policy only",
-            "Real but limited reliance on imported inputs or foreign sales",
-            "Material dependence on imports or foreign manufacturing",
-            "Core business built on imports, or large explicit China exposure",
+            "The 10-K supports little or no dependence on imports or overseas manufacturing",
+            "Tariffs or trade restrictions appear only as general risks",
+            "Specific imported goods, foreign inputs or overseas suppliers named, but not shown to be substantial",
+            "Substantial reliance on imports or overseas manufacturing that could materially affect costs",
+            "Imports or overseas manufacturing are central: most products or critical inputs depend on them",
         ],
     }).set_index("Score"))
+    st.caption("v1 rubric (specs_tried.md #21). Foreign sales alone do not raise the score; China is treated "
+               "like any other foreign source. If the 10-K gives too little evidence, the firm gets no score, not 0.")
 
     if df_all.hand_score.notna().any():
         hc = df_all.dropna(subset=["hand_score"])
@@ -256,9 +262,9 @@ with tab_method:
     st.subheader("Threats to validity")
     st.markdown(
         """
-- **AI already knowing the outcome:** the model may know which firms fell in April 2025. It sees only 10-K text and the rubric, and a re-run with company names hidden tests whether that changes the scores.
+- **AI already knowing the outcome:** the model may know which firms fell in April 2025. It sees only 10-K text and the rubric. Re-scoring 9 firms with their names hidden gave the same score for 8 and a one-point change for 1 (`outputs/v1/v1_masked_agreement.md`).
 - **Is exposure just industry?** The sector-dummy regressions test whether exposure still matters after controlling for sector.
-- **Missing firms:** firms whose 10-K text could not be extracted are not random (several big industrials are among them).
+- **Missing firms:** 408 of 500 firms are complete. 46 filings are too long to score (mostly big banks and insurers, so Financials is only 64% covered), 27 quotes were not in the filing, 3 got no score, and 16 firms have no prices (mostly acquired after the event). These losses are not random.
 - **Day-0 timing:** the announcement came after the close, so April 2 returns do not include the news.
 - **Other news:** China announced retaliatory tariffs on April 4, inside our window.
 - **Beta = 1 assumption:** the market-adjusted return assumes every stock moves one-for-one with SPY.

@@ -1,8 +1,8 @@
 """Check that the dashboard shows exactly what is in its data file.
 
-Opens dashboard/app.py in Streamlit's test browser (AppTest), with whatever is in
-data/processed/tariff_firms.csv (the v0 rows from run_all.py; previously the
-three-firm pilot). For every firm it checks:
+Opens dashboard/app.py in Streamlit's test browser (AppTest), with the same file the
+dashboard reads: outputs/v1/v1_tariff_firms.csv if it exists (full v1 run), otherwise
+data/processed/tariff_firms.csv (the v0 rows). For every firm it checks:
   - the Results table lists the firm with the same car_pp as the file
   - picking the firm in "Explore a firm" shows the same abnormal return and the
     same 10-K evidence quote as the file
@@ -22,10 +22,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    with (ROOT / "data/processed/tariff_firms.csv").open(encoding="utf-8", newline="") as stream:
+    v1 = ROOT / "outputs/v1/v1_tariff_firms.csv"   # same order as dashboard/app.py
+    data = v1 if v1.exists() else ROOT / "data/processed/tariff_firms.csv"
+    with data.open(encoding="utf-8", newline="") as stream:
         rows = list(csv.DictReader(stream))
     if not rows:
-        raise ValueError("data/processed/tariff_firms.csv is empty. Run python run_all.py first.")
+        raise ValueError(f"{data.relative_to(ROOT)} is empty. Run python run_all.py first.")
+    print(f"Checking the dashboard against {data.relative_to(ROOT)} ({len(rows)} firms)")
     if any(row["sample"] == "fake" for row in rows):
         raise ValueError("The dashboard data file holds fake rows.")
 
