@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6a815ae232441f946a810ec8e28c19c188db53c8a76e4891462124375bfcea6a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:56:04.648328+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6f194c3a890bf0c140e0441c8ed6b2eb",
+    "output_text": "{\"score\":0,\"evidence\":\"Virtually all of our operations in both our Towers and Fiber operating segments are located in the U.S.\",\"rationale\":\"The filing states that virtually all operations are located in the U.S., with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or foreign manufacturing identified, nor are tariffs or trade restrictions discussed as operational risks. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41972,
+    "output_tokens": 104,
+    "cost_usd": 0.016955200000000004
+  }
+}

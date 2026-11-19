@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADBE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:12.808245+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ADBE",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 524323800,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 226.2,
+            "regularMarketChangePercent": -3.969,
+            "fulldayPrice": 226.36,
+            "fulldayChange": -9.19,
+            "fulldayChangePercent": -3.902,
+            "fiftyTwoWeekHigh": 362.71,
+            "fiftyTwoWeekLow": 190.12,
+            "regularMarketDayHigh": 234.962,
+            "regularMarketDayLow": 225.06,
+            "regularMarketVolume": 4034403,
+            "longName": "Adobe Inc.",
+            "shortName": "Adobe Inc.",
+            "chartPreviousClose": 383.2,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  385.7799987792969,
+                  367.25,
+                  349.07000732421875
+                ],
+                "high": [
+                  388.0,
+                  376.010009765625,
+                  361.7300109863281
+                ],
+                "open": [
+                  378.2799987792969,
+                  371.8800048828125,
+                  359.0
+                ],
+                "low": [
+                  376.5400085449219,
+                  366.2900085449219,
+                  348.79998779296875
+                ],
+                "volume": [
+                  2859100,
+                  5324400,
+                  5867600
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  385.7799987792969,
+                  367.25,
+                  349.07000732421875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

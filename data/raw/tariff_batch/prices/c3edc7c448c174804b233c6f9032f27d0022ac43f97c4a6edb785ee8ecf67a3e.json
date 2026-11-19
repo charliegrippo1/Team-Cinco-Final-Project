@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/KHC?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:40.464329+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "KHC",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1436189400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 25.44,
+            "regularMarketChangePercent": 1.314,
+            "fulldayPrice": 25.45,
+            "fulldayChange": 0.34,
+            "fulldayChangePercent": 1.354,
+            "fiftyTwoWeekHigh": 28.09,
+            "fiftyTwoWeekLow": 21.035,
+            "regularMarketDayHigh": 25.615,
+            "regularMarketDayLow": 24.83,
+            "regularMarketVolume": 15194055,
+            "longName": "The Kraft Heinz Company",
+            "shortName": "The Kraft Heinz Company",
+            "chartPreviousClose": 30.34,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  30.1299991607666,
+                  30.809999465942383,
+                  29.68000030517578
+                ],
+                "volume": [
+                  8376200,
+                  11922600,
+                  16750600
+                ],
+                "open": [
+                  30.389999389648438,
+                  30.450000762939453,
+                  30.389999389648438
+                ],
+                "high": [
+                  30.549999237060547,
+                  31.1200008392334,
+                  31.149999618530273
+                ],
+                "low": [
+                  30.045000076293945,
+                  30.399999618530273,
+                  29.649999618530273
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  27.379980087280273,
+                  27.997913360595703,
+                  26.97105598449707
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

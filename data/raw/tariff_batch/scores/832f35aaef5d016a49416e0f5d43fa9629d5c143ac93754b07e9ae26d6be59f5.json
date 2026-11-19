@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d819f45de22976617e21afcdc34a32b0b4f4b49dbb497253b3a080a3381e5b50",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:55:30.495335+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5bac8e1d370347983ab3bd0625539d97",
+    "output_text": "{\"score\":0,\"evidence\":\"Franklin Resources, Inc. (“Franklin”) is a holding company with subsidiaries operating under our Franklin Templeton® and/or subsidiary brand names. Franklin’s common stock is traded on the New York Stock Exchange (the “NYSE”) under the ticker symbol “BEN” and is included in the Standard & Poor’s 500 Index. In this Annual Report, Franklin and its subsidiaries are collectively referred to as the “Company,” and words such as “we,” “us,” “our” and similar terms refer to the Company. We have one operating segment, investment management and related services.\",\"rationale\":\"The filing describes Franklin Resources as a holding company engaged in investment management and related services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is service-based and does not indicate operational reliance on imports or overseas production. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39085,
+    "output_tokens": 195,
+    "cost_usd": 0.015946000000000002
+  }
+}

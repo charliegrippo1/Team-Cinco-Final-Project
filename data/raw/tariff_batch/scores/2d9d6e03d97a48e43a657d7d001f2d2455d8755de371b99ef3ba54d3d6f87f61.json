@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8250fdc3317b298d1faf69b0b46dd79231e36c970474e96e6ae397aed9f22cff",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:05:33.937473+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "83b39c4faf60de6658b318ac4ea6be1d",
+    "output_text": "{\"score\":2,\"evidence\":\"\\\"Our metallic raw material cost consumed in our steel mills decreased $28 per net ton, or 7%, in 2024 compared to 2023, consistent with overall decreased domestic scrap pricing noted below in the metals recycling operations segment discussion.\\\"\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs, such as ferrous scrap and nonferrous metals, used as raw materials in steelmaking and aluminum operations. It also mentions operations and shipments in Mexico and the U.S., indicating some overseas manufacturing and supply chain involvement. However, the evidence does not establish that this dependence is substantial or central to the business, only that these inputs are part of operations with some volume and pricing impact. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27178,
+    "output_tokens": 158,
+    "cost_usd": 0.011124
+  }
+}

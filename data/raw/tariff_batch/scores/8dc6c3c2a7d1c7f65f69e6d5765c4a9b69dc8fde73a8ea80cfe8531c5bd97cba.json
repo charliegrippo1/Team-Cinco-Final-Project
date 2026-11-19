@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d350e5fa6f83e4f33b3b6dcefbd86fd4096223d3cd7c80f1d3319585c95da143",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:26:23.110031+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5243f1cb68356c37f2d7c17152a6f410",
+    "output_text": "{\"score\":3,\"evidence\":\"Additionally, our business operations outside the United States are subject to the usual risks of foreign operations, including possible changes in trade and foreign investment laws, international business laws and regulations, tax laws, currency exchange rates and economic and political conditions. The profitability of our international operations is generally lower than the profitability of our businesses in the United States, due to (i) the additional cost of operating in numerous and diverse foreign jurisdictions with varying laws and regulations, (ii) higher costs of importing certain raw materials and finished goods in some regions, (iii) the smaller scale of international operations where certain operating locations are smaller in size, and (iv) the additional reliance on distributors and agents in certain countries which can negatively impact our margins.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs, and overseas suppliers as factors increasing costs and impacting profitability in international operations. It highlights higher costs of importing raw materials and finished goods and reliance on distributors in foreign countries, indicating substantial reliance on imports and overseas manufacturing that could materially affect costs or operations. China is mentioned as part of Greater China operations, supporting inclusion in rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38426,
+    "output_tokens": 232,
+    "cost_usd": 0.0157416
+  }
+}

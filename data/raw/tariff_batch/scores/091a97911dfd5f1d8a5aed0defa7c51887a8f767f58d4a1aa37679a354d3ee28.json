@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7ec2b92898741dad8a406e383d981b3d3c6a04d083c14176b4f903bd3d92a218",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:08:34.755948+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "711c09e70bbf02fa757ed362d89e96e0",
+    "output_text": "{\"score\":3,\"evidence\":\"We purchase from a limited number of suppliers a significant amount of customer premise equipment, including wireless gateways and set-top boxes, network equipment, and services to provide our broadband and video services to residential and business customers. We also purchase from a limited number of suppliers a significant number of wireless devices.\",\"rationale\":\"The filing identifies specific imported goods and overseas suppliers for critical equipment such as wireless gateways, set-top boxes, network equipment, and wireless devices, indicating substantial reliance on these imports that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38724,
+    "output_tokens": 112,
+    "cost_usd": 0.0156688
+  }
+}

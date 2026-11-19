@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "4ad197d87ba1826fb15d25c55d1c9baa7676459cabe1e86d47c8ba33d3073fa0",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:14:23.729965+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "df6e09e2ba50d2d12b255e75ba25751c",
+    "output_text": "{\"score\":0,\"evidence\":\"UDR is a self-administered real estate investment trust, or REIT, that owns, operates, acquires, renovates, develops, redevelops, disposes of, and manages multifamily apartment communities in targeted markets located in the United States.\",\"rationale\":\"The filing describes UDR's business as owning and managing multifamily apartment communities in the U.S. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The focus is on real estate operations domestically, with no evidence of material reliance on imports or foreign manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41418,
+    "output_tokens": 126,
+    "cost_usd": 0.0167688
+  }
+}

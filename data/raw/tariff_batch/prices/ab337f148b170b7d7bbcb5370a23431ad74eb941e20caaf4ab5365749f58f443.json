@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDAY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:27.810897+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "WDAY",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1350048600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 177.45,
+            "regularMarketChangePercent": -2.927,
+            "fulldayPrice": 176.9,
+            "fulldayChange": -5.9,
+            "fulldayChangePercent": -3.228,
+            "fiftyTwoWeekHigh": 236.8,
+            "fiftyTwoWeekLow": 110.36,
+            "regularMarketDayHigh": 183.01,
+            "regularMarketDayLow": 175.31,
+            "regularMarketVolume": 1761052,
+            "longName": "Workday, Inc.",
+            "shortName": "Workday, Inc.",
+            "chartPreviousClose": 234.53,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  230.5,
+                  226.3000030517578,
+                  216.11000061035156
+                ],
+                "high": [
+                  236.99000549316406,
+                  232.6300048828125,
+                  227.88999938964844
+                ],
+                "volume": [
+                  1926200,
+                  5081600,
+                  4893600
+                ],
+                "open": [
+                  230.5,
+                  227.9600067138672,
+                  225.64999389648438
+                ],
+                "close": [
+                  235.38999938964844,
+                  228.3300018310547,
+                  217.13999938964844
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  235.38999938964844,
+                  228.3300018310547,
+                  217.13999938964844
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

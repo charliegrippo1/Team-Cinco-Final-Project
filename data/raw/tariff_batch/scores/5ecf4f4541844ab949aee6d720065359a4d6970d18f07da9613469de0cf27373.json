@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "62f62a2898479d241476e20076a00d659c3110a2273c92576d7b36632082c6b9",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:43:06.509243+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "cf65b64d02d72479083cf7147d4d5d71",
+    "output_text": "{\"score\":0,\"evidence\":\"Expand Energy is the largest independent natural gas producer in the U.S., based on net daily production, and is focused on responsibly developing an abundant supply of natural gas, oil and NGL to expand energy access for all. Our operations are located in Louisiana in the Haynesville and Bossier Shales (“Haynesville”), in Pennsylvania in the Marcellus Shale (“Northeast Appalachia”) and in West Virginia and Ohio in the Marcellus and Utica Shales (“Southwest Appalachia”) and include interests in approximately 8,000 gross natural gas and oil wells.\",\"rationale\":\"The filing describes Expand Energy's operations as located entirely within the United States, with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or foreign suppliers identified. Tariffs or trade restrictions are not discussed as operational risks. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41469,
+    "output_tokens": 205,
+    "cost_usd": 0.0169156
+  }
+}

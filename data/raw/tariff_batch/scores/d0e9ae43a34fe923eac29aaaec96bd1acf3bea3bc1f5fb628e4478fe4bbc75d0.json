@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "839e58b258123f282e0eeef26af570d3cdd02a22fc61ab92e6cc0b61a2e8239e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:49:29.714739+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6747eaea46ba656a0fe477a73366f776",
+    "output_text": "{\"score\":3,\"evidence\":\"PACCAR’s trucks are marketed under the Kenworth, Peterbilt and DAF nameplates. These trucks, which are built in three plants in the United States, three in Europe and one each in Australia, Brasil, Canada and Mexico, are used worldwide for over-the-road and off-highway hauling of commercial and consumer goods. The Company also designs and manufactures diesel engines, primarily for use in the Company’s trucks, at its facilities in Columbus, Mississippi; Eindhoven, the Netherlands; and Ponta Grossa, Brasil. PACCAR competes in the North American Class 8 market, primarily with Kenworth and Peterbilt conventional models. These trucks are assembled at facilities in Chillicothe, Ohio; Denton, Texas; Renton, Washington and Mexicali, Mexico. PACCAR also competes in the North American Class 6 to 7 markets primarily with Kenworth and Peterbilt conventional models. These trucks are assembled at facilities in Ste. Therese, Canada; Denton, Texas, and Mexicali, Mexico. PACCAR competes in the European light/medium market with DAF COE trucks assembled in the United Kingdom (U.K.) by Leyland, one of PACCAR’s wholly owned subsidiaries, and participates in the European heavy market with DAF COE trucks assembled in the Netherlands and the U.K. PACCAR competes in the Brazilian heavy truck market with DAF COE models assembled in Ponta Grossa in the state of Paraná, Brasil. PACCAR competes in the Australian medium and heavy truck markets with Kenworth conventional and COE models and certain DAF COE models assembled at its facility at Bayswater in the state of Victoria, Australia, and DAF COE models primarily assembled in the U.K.\",\"rationale\":\"The filing identifies multiple overseas manufacturing locations across Europe, Australia, Brasil, Canada, and Mexico where PACCAR assembles trucks and manufactures engines, showing substantial reliance on overseas manufacturing that could materially affect costs or operations. China is not specifically mentioned. This indicates a significant operational dependence on foreign manufacturing and imported components, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22413,
+    "output_tokens": 436,
+    "cost_usd": 0.009662800000000001
+  }
+}

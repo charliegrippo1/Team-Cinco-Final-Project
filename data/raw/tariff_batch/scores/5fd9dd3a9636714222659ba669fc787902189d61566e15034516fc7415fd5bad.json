@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "641271e8ad10706f7109b0927c5dc748d96a3b9f1090200511ede5c594498cf3",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:07:07.217272+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "30ae555de0d2218e9550c3299d06745e",
+    "output_text": "{\"score\":0,\"evidence\":\"Vistra is an integrated retail electricity and power generation company. We combine an innovative, customer-centric approach to retail sales with safe, reliable, diverse, and efficient power generation.\",\"rationale\":\"The filing describes Vistra as an integrated retail electricity and power generation company operating primarily in the U.S., with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The fuel sources listed (natural gas, nuclear, coal, solar, battery storage) are domestic energy sources, and there is no indication of reliance on imports or overseas manufacturing. Foreign sales are not discussed as increasing dependence. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 59211,
+    "output_tokens": 148,
+    "cost_usd": 0.0239212
+  }
+}

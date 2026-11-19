@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "db9480b66cd8f213d2700757139731c446ca13d67e2fabcf70c14969b7c89a88",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:18:56.405743+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b8158752492085f23b6cfc8e7d91cb6e",
+    "output_text": "{\"score\":3,\"evidence\":\"The Company depends on various components, compounds, raw materials, and energy (including oil and natural gas and their derivatives) supplied by others for the manufacturing of its products. Supplier relationships have been and could be interrupted in the future due to supplier material shortage, climate impacts and severe weather events, natural and other disasters, and other disruptive events such as military conflicts, or be terminated. In addition, some of our suppliers are limited- or sole-source suppliers, and our ability to meet our obligations to customers depends on the performance, product quality, and stability of such suppliers and the Company's ability to source adequate alternatives in a cost-effective manner. Any sustained interruption in the Company’s receipt of adequate supplies, supply chain disruptions impacting the distribution of products, or disruption to key manufacturing sites’ operations due to natural and other disasters or events, such as government actions relating to discharge or emission permits, strikes or other labor disruptions, or other legal or regulatory requirements, could have a material adverse effect on the Company and its ability to fulfill supply obligations to its customers.\",\"rationale\":\"The filing identifies specific dependence on imported physical goods and foreign-made inputs through supplier relationships, including limited- or sole-source suppliers, and notes that supply chain disruptions or interruptions could materially affect operations and costs. This indicates substantial reliance on overseas manufacturing or imports that could materially affect the company, justifying a score of 3. China is mentioned as part of geographic challenges impacting sales and operations, supporting inclusion in rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32177,
+    "output_tokens": 303,
+    "cost_usd": 0.013355600000000002
+  }
+}

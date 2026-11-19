@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "94e4de1c8eb37d8cf519bcac55eae2143b1ffe8091db954d598bcba1b5c90893",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:43:33.975933+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1559b4f140f072d8770819863aecf0a5",
+    "output_text": "{\"score\":3,\"evidence\":\"We outsource the manufacturing of our security appliance products to a variety of contract manufacturers and original design manufacturers. Our current manufacturing partners include Accton Technology (“Accton”), IBASE Technology, Inc. (“IBASE”), Micro-Star International Co. (“Micro-Star”), Senao Networks, Inc. (“Senao”), Wistron Corporation (“Wistron”), and a number of other manufacturers. Approximately 88% of our hardware is manufactured in Taiwan.\",\"rationale\":\"The filing identifies specific overseas contract manufacturers and that approximately 88% of hardware is manufactured in Taiwan, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 56748,
+    "output_tokens": 137,
+    "cost_usd": 0.022918400000000002
+  }
+}

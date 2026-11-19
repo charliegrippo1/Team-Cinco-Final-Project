@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMCI?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:50.773295+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "SMCI",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1175175000,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 24.37,
+            "regularMarketChangePercent": 0.953,
+            "fulldayPrice": 24.301,
+            "fulldayChange": 0.161,
+            "fulldayChangePercent": 0.668,
+            "fiftyTwoWeekHigh": 51.4,
+            "fiftyTwoWeekLow": 19.48,
+            "regularMarketDayHigh": 24.98,
+            "regularMarketDayLow": 23.76,
+            "regularMarketVolume": 26984333,
+            "longName": "Super Micro Computer, Inc.",
+            "shortName": "Super Micro Computer, Inc.",
+            "chartPreviousClose": 35.05,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  34.02000045776367,
+                  32.029998779296875,
+                  30.700000762939453
+                ],
+                "high": [
+                  36.04999923706055,
+                  33.15999984741211,
+                  31.190000534057617
+                ],
+                "low": [
+                  33.77000045776367,
+                  31.549999237060547,
+                  27.649999618530273
+                ],
+                "close": [
+                  35.09000015258789,
+                  32.31999969482422,
+                  29.81999969482422
+                ],
+                "volume": [
+                  39934500,
+                  45050100,
+                  54490200
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  35.09000015258789,
+                  32.31999969482422,
+                  29.81999969482422
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

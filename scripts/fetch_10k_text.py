@@ -174,18 +174,23 @@ def html_to_text(path):
     return maker.text()
 
 
-def exhibit13_text(cik, acc):
-    """Text of the filing's Exhibit 13 (annual report to shareholders), where some
-    firms put their MD&A or risk factors 'by reference'. Found via the filing index."""
+EXHIBITS = {"ex13": "EX-13", "ex99": "EX-99"}   # marker source -> exhibit type in the filing index
+
+
+def exhibit_text(cik, acc, source):
+    """Text of one exhibit type in the filing, where some firms put their MD&A or risk
+    factors 'by reference': Exhibit 13 (annual report to shareholders) or, e.g. Clorox,
+    Exhibit 99. Found via the filing index; several documents of the type are joined."""
+    kind = EXHIBITS[source]
     base = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}"
     index = sec_get(f"{base}/{acc}-index.htm", RAW / cik / f"{acc}-index.htm").read_text(errors="replace")
     docs = []
     for row in re.findall(r"<tr[^>]*>(.*?)</tr>", index, re.S):
         cells = [unescape(re.sub(r"<[^>]+>", " ", c)).split() for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
-        if len(cells) >= 4 and cells[3] and cells[3][0].upper().startswith("EX-13"):
+        if len(cells) >= 4 and cells[3] and cells[3][0].upper().startswith(kind):
             docs.append(cells[2][0])
     if not docs:
-        raise ValueError("marker says Exhibit 13, but the filing has no EX-13 document")
+        raise ValueError(f"marker says {kind}, but the filing has no {kind} document")
     return "\n\n".join(html_to_text(sec_get(f"{base}/{d}", RAW / cik / f"{acc}_{d}")) for d in docs)
 
 
@@ -227,9 +232,9 @@ def process(firm, markers):
     for item in ("1", "1A", "7"):
         marker = markers.get((cik, item))
         if marker:
-            if marker["source"] not in sources:          # only "ex13" is fetched on demand
-                assert marker["source"] == "ex13", f"unknown marker source {marker['source']}"
-                sources["ex13"] = exhibit13_text(cik, acc)
+            if marker["source"] not in sources:          # exhibits are fetched on demand
+                assert marker["source"] in EXHIBITS, f"unknown marker source {marker['source']}"
+                sources[marker["source"]] = exhibit_text(cik, acc, marker["source"])
             sections[item] = cut_by_marker(sources[marker["source"]], marker)
             methods.append(f"{item}:marker-{marker['source']}")
         else:

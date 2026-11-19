@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:02.002957+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CRL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 961767000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 333.25,
+            "regularMarketChangePercent": 0.328,
+            "fulldayPrice": 333.25,
+            "fulldayChange": 1.09,
+            "fulldayChangePercent": 0.328,
+            "fiftyTwoWeekHigh": 379.63,
+            "fiftyTwoWeekLow": 146.2,
+            "regularMarketDayHigh": 338.28,
+            "regularMarketDayLow": 330.405,
+            "regularMarketVolume": 516214,
+            "longName": "Charles River Laboratories International, Inc.",
+            "shortName": "Charles River Laboratories Inte",
+            "chartPreviousClose": 145.99,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  149.27999877929688,
+                  140.97999572753906,
+                  136.89999389648438
+                ],
+                "open": [
+                  143.97000122070312,
+                  146.3300018310547,
+                  137.99000549316406
+                ],
+                "low": [
+                  142.75999450683594,
+                  138.6999969482422,
+                  132.99000549316406
+                ],
+                "volume": [
+                  1192900,
+                  1012100,
+                  1666200
+                ],
+                "high": [
+                  150.16000366210938,
+                  146.3300018310547,
+                  140.14999389648438
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  149.27999877929688,
+                  140.97999572753906,
+                  136.89999389648438
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:53.693003+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "GEN",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 614611800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 30.47,
+            "regularMarketChangePercent": 3.218,
+            "fulldayPrice": 30.47,
+            "fulldayChange": 0.95,
+            "fulldayChangePercent": 3.218,
+            "fiftyTwoWeekHigh": 31.65,
+            "fiftyTwoWeekLow": 17.78,
+            "regularMarketDayHigh": 30.758,
+            "regularMarketDayLow": 29.31,
+            "regularMarketVolume": 6306220,
+            "longName": "Gen Digital Inc.",
+            "shortName": "Gen Digital Inc.",
+            "chartPreviousClose": 26.74,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  27.010000228881836,
+                  26.0,
+                  23.780000686645508
+                ],
+                "volume": [
+                  3476800,
+                  5702000,
+                  5276300
+                ],
+                "open": [
+                  26.469999313354492,
+                  26.270000457763672,
+                  24.989999771118164
+                ],
+                "high": [
+                  27.190000534057617,
+                  26.540000915527344,
+                  25.25
+                ],
+                "low": [
+                  26.149999618530273,
+                  25.850000381469727,
+                  23.709999084472656
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  26.153959274291992,
+                  25.17597198486328,
+                  23.026330947875977
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ULTA?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:50.923181+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ULTA",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1193319000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 648.51,
+            "regularMarketChangePercent": 1.262,
+            "fulldayPrice": 648.51,
+            "fulldayChange": 8.08,
+            "fulldayChangePercent": 1.262,
+            "fiftyTwoWeekHigh": 714.97,
+            "fiftyTwoWeekLow": 443.6,
+            "regularMarketDayHigh": 657.83,
+            "regularMarketDayLow": 632.02,
+            "regularMarketVolume": 412292,
+            "longName": "Ulta Beauty, Inc.",
+            "shortName": "Ulta Beauty, Inc.",
+            "chartPreviousClose": 373.91,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  800200,
+                  1598100,
+                  1531900
+                ],
+                "high": [
+                  386.7099914550781,
+                  372.55999755859375,
+                  371.489990234375
+                ],
+                "open": [
+                  373.1499938964844,
+                  365.29998779296875,
+                  358.7099914550781
+                ],
+                "low": [
+                  371.70001220703125,
+                  356.55999755859375,
+                  349.4100036621094
+                ],
+                "close": [
+                  382.510009765625,
+                  367.760009765625,
+                  359.3599853515625
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  382.510009765625,
+                  367.760009765625,
+                  359.3599853515625
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

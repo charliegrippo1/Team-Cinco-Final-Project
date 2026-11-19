@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bf795c50774e6f1f0cd1fd3fdd1247f9a66be960e1b3a789687da1bbd072e482",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:52:29.379884+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "05d7f1627462bf2d2303a1dc98ce64b4",
+    "output_text": "{\"score\":3,\"evidence\":\"Trade Policy. To the extent governments in various regions implement or intensify barriers to imports, such as erecting tariff or non-tariff barriers or manipulating their currency, and provide advantages to local exporters selling into the global marketplace, there can be a significant negative impact on manufacturers based in other markets. In addition, as governments consider an expanded use of tariffs as a lever in achieving a balance of trade, this new dynamic could have a substantial adverse effect on our business and the automotive sector. The new, substantial tariff increases on imports to the United States from Canada and Mexico (in addition to China) announced on February 1, 2025, should they be implemented and sustained for an extended period of time, would have a significant adverse effect, including financial, on the overall automotive industry, Ford, and our supply chain. We will continue to monitor and address the developing role that geopolitical, climate, and labor concerns are playing in trade relations.\",\"rationale\":\"The filing identifies specific tariffs on imports from Canada, Mexico, and China announced in 2025 that could have a significant adverse financial effect on Ford and the overall automotive industry, including its supply chain. This indicates substantial reliance on imported physical goods or overseas manufacturing that could materially affect costs or operations. The mention of China alongside other countries supports the rationale. Therefore, the score is 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 62956,
+    "output_tokens": 280,
+    "cost_usd": 0.0256304
+  }
+}

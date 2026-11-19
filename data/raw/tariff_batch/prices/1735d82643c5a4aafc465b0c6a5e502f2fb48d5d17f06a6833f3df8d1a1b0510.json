@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BBY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:53.830719+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BBY",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 482682600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 100.31,
+            "regularMarketChangePercent": 1.941,
+            "fulldayPrice": 100.31,
+            "fulldayChange": 1.91,
+            "fulldayChangePercent": 1.941,
+            "fiftyTwoWeekHigh": 106.83,
+            "fiftyTwoWeekLow": 55.1,
+            "regularMarketDayHigh": 101.47,
+            "regularMarketDayLow": 96.68,
+            "regularMarketVolume": 3614141,
+            "longName": "Best Buy Co., Inc.",
+            "shortName": "Best Buy Co., Inc.",
+            "chartPreviousClose": 74.37,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  75.7300033569336,
+                  62.220001220703125,
+                  60.439998626708984
+                ],
+                "volume": [
+                  2160700,
+                  10734600,
+                  8429600
+                ],
+                "high": [
+                  76.29000091552734,
+                  67.16000366210938,
+                  62.27000045776367
+                ],
+                "open": [
+                  73.5999984741211,
+                  66.30000305175781,
+                  59.2599983215332
+                ],
+                "low": [
+                  73.27999877929688,
+                  61.86000061035156,
+                  57.34000015258789
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  70.01228332519531,
+                  57.522308349609375,
+                  55.87669372558594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

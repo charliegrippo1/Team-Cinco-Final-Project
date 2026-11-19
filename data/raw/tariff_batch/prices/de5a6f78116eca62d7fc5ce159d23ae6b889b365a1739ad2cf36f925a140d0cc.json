@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/V?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:06.701016+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "V",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1205933400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 415.22,
+            "regularMarketChangePercent": -0.372,
+            "fulldayPrice": 414.55,
+            "fulldayChange": -2.22,
+            "fulldayChangePercent": -0.533,
+            "fiftyTwoWeekHigh": 442.23,
+            "fiftyTwoWeekLow": 293.89,
+            "regularMarketDayHigh": 417.9,
+            "regularMarketDayLow": 411.83,
+            "regularMarketVolume": 7128796,
+            "longName": "Visa Inc.",
+            "shortName": "Visa Inc.",
+            "chartPreviousClose": 346.35,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  343.04998779296875,
+                  331.0,
+                  312.1199951171875
+                ],
+                "open": [
+                  343.44000244140625,
+                  333.8999938964844,
+                  330.0
+                ],
+                "high": [
+                  348.20001220703125,
+                  344.739990234375,
+                  334.6499938964844
+                ],
+                "close": [
+                  346.3299865722656,
+                  339.3900146484375,
+                  313.1300048828125
+                ],
+                "volume": [
+                  5682500,
+                  8792900,
+                  13201700
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  341.7773742675781,
+                  334.92864990234375,
+                  309.0138244628906
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:48.159619+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1258122600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 133.86,
+            "regularMarketChangePercent": 0.247,
+            "fulldayPrice": 133.86,
+            "fulldayChange": 0.33,
+            "fulldayChangePercent": 0.247,
+            "fiftyTwoWeekHigh": 158.23,
+            "fiftyTwoWeekLow": 99.5,
+            "regularMarketDayHigh": 134.89,
+            "regularMarketDayLow": 131.608,
+            "regularMarketVolume": 1680428,
+            "longName": "Dollar General Corporation",
+            "shortName": "Dollar General Corporation",
+            "chartPreviousClose": 87.6,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  87.43000030517578,
+                  89.36000061035156,
+                  92.26000213623047
+                ],
+                "close": [
+                  90.19999694824219,
+                  94.41000366210938,
+                  92.62000274658203
+                ],
+                "volume": [
+                  4966300,
+                  11232400,
+                  10629000
+                ],
+                "low": [
+                  87.43000030517578,
+                  88.30000305175781,
+                  92.26000213623047
+                ],
+                "high": [
+                  90.55000305175781,
+                  95.0,
+                  97.8499984741211
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  86.96012115478516,
+                  91.0189208984375,
+                  89.29319763183594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

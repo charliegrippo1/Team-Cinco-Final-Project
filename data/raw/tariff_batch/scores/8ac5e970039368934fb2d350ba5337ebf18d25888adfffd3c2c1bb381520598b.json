@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "13ed3a52a0f4b41739fa81b4177e52d74933711d5b0e8ce439a94aaf36ec5adf",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:53:42.338473+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b14d596eb182ee2c0ae6d4a7fa3e4fd4",
+    "output_text": "{\"score\":3,\"evidence\":\"Our ability to meet our customers’ needs and achieve cost targets depends on our ability to maintain key manufacturing and supply arrangements, including execution of supply chain optimizations and certain sole supplier or sole manufacturing plant arrangements. The loss or disruption of such manufacturing and supply arrangements, including for issues such as labor disputes or controversies, loss or impairment of key manufacturing sites, discontinuity or disruptions in our internal information and data systems or those of our suppliers, cybersecurity incidents including but not limited to ransomware attacks, misuse of artificial intelligence and machine learning technologies, inability to procure sufficient raw or input materials (including water, recycled materials and materials that meet our labor standards), significant changes in trade policy, natural disasters, increasing severity or frequency of extreme weather events due to climate change or otherwise, acts of war or terrorism, disease outbreaks or other external factors over which we have no control, have at times interrupted and could, in the future, interrupt product supply and, if not effectively managed and remedied, could have an adverse impact on our business, financial condition, results of operations or cash flows.\",\"rationale\":\"The filing identifies specific risks related to supply chain disruptions, including inability to procure sufficient raw or input materials and significant changes in trade policy, which implies substantial reliance on imported physical goods, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations. The mention of trade policy changes and supply chain interruptions supports a score of 3 rather than 2 or 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27249,
+    "output_tokens": 301,
+    "cost_usd": 0.011381200000000001
+  }
+}

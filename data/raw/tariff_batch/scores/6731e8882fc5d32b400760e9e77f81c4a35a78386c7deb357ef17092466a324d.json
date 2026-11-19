@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e470721b54b0f317e18c6d3e8a51334fa8126db86d68fcfc8681584456dfd40a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:18:26.141837+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "718cb5992f24bfd4fd7f03f099c6e49b",
+    "output_text": "{\"score\":0,\"evidence\":\"Headquartered in Louisville, Kentucky, Humana Inc. and its subsidiaries, referred to throughout this document as “we,” “us,” “our,” the “Company” or “Humana,” is committed to putting health first – for our teammates, our customers, and our company.\",\"rationale\":\"The filing describes Humana as a health insurance and healthcare services company with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on insurance products and healthcare delivery primarily in the U.S., with no operational reliance on imports or overseas manufacturing indicated.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40261,
+    "output_tokens": 127,
+    "cost_usd": 0.016307600000000002
+  }
+}

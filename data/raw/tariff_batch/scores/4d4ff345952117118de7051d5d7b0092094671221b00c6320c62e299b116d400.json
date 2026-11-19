@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "88dee9031b381bb180299c168e9422bbc3e8b2e0011e5131ca4f326139a5109e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:27:16.699408+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b43d5d8ff3927fedb6206ea49b72705d",
+    "output_text": "{\"score\": 0, \"evidence\": \"Aon plc (which may be referred to as “Aon,” the “Company,” “we,” “us,” or “our”) is a leading global professional services firm providing a broad range of Risk Capital and Human Capital solutions.\", \"rationale\": \"The filing describes Aon as a professional services firm focused on risk and human capital solutions, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing identified, nor are tariffs or trade restrictions discussed as operational risks. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42795,
+    "output_tokens": 138,
+    "cost_usd": 0.0173388
+  }
+}

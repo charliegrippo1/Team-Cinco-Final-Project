@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5fd1f3628fa23829d4a3823e5bfe244c5bb01d4471f8909b086f5fa38b8faa6b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:46:32.277808+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "41f02325d89659a8f1c6ac1002889db1",
+    "output_text": "{\"score\":0,\"evidence\":\"Our products enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) and mixed reality (MR) headsets, augmented reality (AR), and wearables.\",\"rationale\":\"The filing describes the company's products as software and services accessed via devices but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no mention of tariffs, trade restrictions, or reliance on overseas suppliers or manufacturing. The mention of VR, MR, AR, and wearables indicates hardware products, but the filing does not specify that these are imported or manufactured overseas, nor that such arrangements are central or substantial to the business. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53764,
+    "output_tokens": 165,
+    "cost_usd": 0.021769600000000004
+  }
+}

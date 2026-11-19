@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a5a9441cc896933519757fb2ec61bb780123729dd62156ed20bb4babefcf867d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:05:18.745663+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "28fd064453ecce0e700fad079da27838",
+    "output_text": "{\"score\":0,\"evidence\":\"Uber Technologies, Inc. (“Uber,” the “Company,” “we,” “our,” or “us”) is a technology platform that uses a massive network, leading technology, operational excellence and product expertise to power movement from point A to point B. We develop and operate proprietary technology applications supporting a variety of offerings on our platform (“platform(s)” or “Platform(s)”).\",\"rationale\":\"The filing describes Uber as a technology platform connecting consumers with drivers, merchants, and shippers, but does not identify any specific imported physical goods, foreign-made inputs, or overseas manufacturing as part of its business model or operations. There is no mention of reliance on imports or overseas manufacturing, including China, and no operational dependence on such arrangements is indicated. The business is primarily service and technology based, with no evidence of material dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 63179,
+    "output_tokens": 180,
+    "cost_usd": 0.025559600000000002
+  }
+}

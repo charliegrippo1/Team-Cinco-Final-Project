@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5edccf0b7bbda31c4f2341da468120b16c41dfb64e995b2bc6b1b6fffd2002d7",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:20:07.563351+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d349586810fddf3682335a32ff57d8a5",
+    "output_text": "{\"score\":3,\"evidence\":\"In 2024, we experienced inflationary cost increases for certain raw materials as well as logistics and transportation costs. The ongoing volatile market for commodities has the potential to continue to drive price increases in our supply chain. In addition, the current U.S. administration has recently implemented tariffs and has announced the possibility of implementing additional, or increasing current, tariffs; these actions and any reactionary tariff adjustments by other countries may also contribute to inflationary cost increases.\",\"rationale\":\"The filing identifies specific imported goods and raw materials subject to inflationary cost increases and tariffs, indicating substantial reliance on imports and overseas manufacturing that could materially affect costs and operations. The mention of tariffs on products manufactured in countries including China supports this. However, the dependence is not described as central to the business or most products, so the score is 3 rather than 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28532,
+    "output_tokens": 178,
+    "cost_usd": 0.0116976
+  }
+}

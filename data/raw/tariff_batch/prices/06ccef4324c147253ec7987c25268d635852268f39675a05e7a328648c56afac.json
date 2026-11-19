@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:38.194834+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BRO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 350749800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 72.9,
+            "regularMarketChangePercent": 0.9,
+            "fulldayPrice": 72.9,
+            "fulldayChange": 0.65,
+            "fulldayChangePercent": 0.9,
+            "fiftyTwoWeekHigh": 82.58,
+            "fiftyTwoWeekLow": 53.81,
+            "regularMarketDayHigh": 73.16,
+            "regularMarketDayLow": 71.23,
+            "regularMarketVolume": 2108933,
+            "longName": "Brown & Brown, Inc.",
+            "shortName": "Brown & Brown, Inc.",
+            "chartPreviousClose": 124.11,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  124.2300033569336,
+                  124.43000030517578,
+                  115.01000213623047
+                ],
+                "volume": [
+                  2024400,
+                  1994600,
+                  2809400
+                ],
+                "open": [
+                  123.25,
+                  123.43000030517578,
+                  122.38999938964844
+                ],
+                "high": [
+                  124.51000213623047,
+                  125.68000030517578,
+                  124.13999938964844
+                ],
+                "low": [
+                  122.1500015258789,
+                  123.0999984741211,
+                  114.72000122070312
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  122.36821746826172,
+                  122.56521606445312,
+                  113.2863998413086
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

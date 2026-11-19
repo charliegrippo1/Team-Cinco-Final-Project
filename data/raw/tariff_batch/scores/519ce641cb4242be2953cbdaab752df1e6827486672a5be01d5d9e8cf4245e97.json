@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "28c59329fa0d01daa9ec364f7d41a3d148680383c35a59daa9a7c65fac5c4a21",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:53:26.366647+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "35837b2122d70f6114d159dc3854a1aa",
+    "output_text": "{\"score\":0,\"evidence\":\"We operate in an integrated global delivery model, with delivery centers worldwide to provide our full range of services to our clients. Our model leverages methodologies, tools, AI and other enablers to optimize delivery by enhancing people's capabilities through technology. We continue to modernize our delivery operations through lean processes, increased automation and integrated, AI-infused systems. Our employees are deployed at client sites, local or in-country delivery centers, regional delivery centers and offshore delivery centers, as required to best serve our clients.\",\"rationale\":\"The filing describes a global delivery model with centers worldwide and offshore delivery centers, but does not identify specific imported physical goods, foreign-made inputs, or overseas manufacturing as substantial or central to the business. The focus is on services and technology delivery rather than physical goods or manufacturing. Tariffs or trade restrictions are not mentioned as specific operational dependencies. Therefore, the evidence supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26698,
+    "output_tokens": 198,
+    "cost_usd": 0.010996000000000002
+  }
+}

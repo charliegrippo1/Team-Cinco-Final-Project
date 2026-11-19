@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b9f04b85b6e1a99772812b862f8f5373da44b61ce2e823c8ed802d721063a02e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:28:47.867709+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7d4012e768e5972455b5eb5301e8d65e",
+    "output_text": "{\"score\":3,\"evidence\":\"Nucor owns a 51% controlling economic and voting interest in Nucor-JFE Steel Mexico, S. de R.L. de C.V. (\\\"NJSM\\\"). NJSM is a joint venture with JFE Steel Corporation (\\\"JFE\\\") of Japan that operates a galvanized sheet steel plant in central Mexico with an annual capacity of approximately 400,000 tons, that is expected to supply the country’s automotive market.\",\"rationale\":\"The filing identifies a specific overseas manufacturing operation (a joint venture in Mexico producing galvanized sheet steel) that is part of Nucor's business and expected to supply a key market. This indicates substantial reliance on overseas manufacturing that could materially affect operations, supporting a score of 3. There is no indication that imports or overseas manufacturing are central to most products or critical inputs, so score 4 is not supported.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29284,
+    "output_tokens": 183,
+    "cost_usd": 0.0120064
+  }
+}

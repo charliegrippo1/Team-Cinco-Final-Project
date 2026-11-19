@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AME?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:32.702218+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AME",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 459091800,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 235.61,
+            "regularMarketChangePercent": 0.328,
+            "fulldayPrice": 235.61,
+            "fulldayChange": 0.77,
+            "fulldayChangePercent": 0.328,
+            "fiftyTwoWeekHigh": 261.16,
+            "fiftyTwoWeekLow": 188.47,
+            "regularMarketDayHigh": 238.1,
+            "regularMarketDayLow": 233.535,
+            "regularMarketVolume": 1021200,
+            "longName": "AMETEK, Inc.",
+            "shortName": "AMETEK, Inc.",
+            "chartPreviousClose": 171.89,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  168.8699951171875,
+                  166.91000366210938,
+                  156.41000366210938
+                ],
+                "close": [
+                  172.72000122070312,
+                  161.49000549316406,
+                  152.66000366210938
+                ],
+                "low": [
+                  168.75999450683594,
+                  161.02000427246094,
+                  151.13999938964844
+                ],
+                "high": [
+                  173.02000427246094,
+                  167.52000427246094,
+                  156.99000549316406
+                ],
+                "volume": [
+                  2488100,
+                  1873000,
+                  2753000
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  171.0945281982422,
+                  159.97024536132812,
+                  151.22332763671875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

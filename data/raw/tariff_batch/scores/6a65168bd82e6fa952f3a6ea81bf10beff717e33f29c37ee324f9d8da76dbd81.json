@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9584dc1b40d83820408eb8ff2f63e43b2dada5b9e9f897435bcfba30f92cb1cb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:10:45.818676+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2e3af7e2aa01c640d5cce68572f9d889",
+    "output_text": "{\"score\": 3, \"evidence\": \"We rely on manufacturers located in foreign countries, including China, for merchandise. Additionally, a portion of our domestically purchased merchandise is manufactured abroad. Our business may be materially adversely affected by risks associated with international trade, including the impact of current or potential tariffs by the U.S. with respect to certain consumer goods imported from China.\", \"rationale\": \"The filing identifies reliance on foreign manufacturers, including China, and notes that a portion of domestically purchased merchandise is manufactured abroad. It also discusses risks from tariffs and international trade affecting costs and operations. This indicates substantial reliance on imports and overseas manufacturing that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28915,
+    "output_tokens": 146,
+    "cost_usd": 0.011799600000000002
+  }
+}

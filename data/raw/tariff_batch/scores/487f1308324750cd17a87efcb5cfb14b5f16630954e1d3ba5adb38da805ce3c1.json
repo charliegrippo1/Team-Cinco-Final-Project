@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a929b289ebce35f1886023fd7bfda1a2356c8fca45b104028605ec715d7207e6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:30:18.312136+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "95f49ac5b143e9fccdeeda0a5c676109",
+    "output_text": "{\"score\":3,\"evidence\":\"During the last few years, there have also been significant changes to U.S. and other countries’ trade policies, export control laws, sanctions, legislation, treaties and tariffs, including, but not limited to, U.S. trade policies and tariffs affecting China and certain of the other countries in which we operate. These changes have, in certain cases, increased our costs of doing business. There is significant uncertainty about the future of trade relationships around the world, including potential changes to trade laws and regulations, trade policies, and tariffs.\",\"rationale\":\"The filing identifies specific tariffs and trade restrictions affecting China and other countries where the Company operates, indicating that these have increased costs of doing business. This shows substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations, consistent with a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40768,
+    "output_tokens": 172,
+    "cost_usd": 0.0165824
+  }
+}

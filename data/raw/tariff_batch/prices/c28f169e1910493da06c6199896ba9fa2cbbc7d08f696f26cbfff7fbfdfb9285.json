@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/XEL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:32.489068+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "XEL",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 80.65,
+            "regularMarketChangePercent": -0.087,
+            "fulldayPrice": 80.65,
+            "fulldayChange": -0.07,
+            "fulldayChangePercent": -0.087,
+            "fiftyTwoWeekHigh": 84.23,
+            "fiftyTwoWeekLow": 68.72,
+            "regularMarketDayHigh": 81.11,
+            "regularMarketDayLow": 80.15,
+            "regularMarketVolume": 8953175,
+            "longName": "Xcel Energy Inc.",
+            "shortName": "Xcel Energy Inc.",
+            "chartPreviousClose": 70.72,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  70.9000015258789,
+                  72.13999938964844,
+                  67.88999938964844
+                ],
+                "low": [
+                  70.05999755859375,
+                  71.1500015258789,
+                  67.77999877929688
+                ],
+                "open": [
+                  70.87000274658203,
+                  71.98999786376953,
+                  73.0
+                ],
+                "high": [
+                  71.30000305175781,
+                  72.63999938964844,
+                  73.0
+                ],
+                "volume": [
+                  2054700,
+                  3573500,
+                  5680800
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  67.66622161865234,
+                  68.84968566894531,
+                  64.79351806640625
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

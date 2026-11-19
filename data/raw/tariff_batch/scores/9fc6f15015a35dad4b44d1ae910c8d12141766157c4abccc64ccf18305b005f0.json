@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "91fb6cd95235659df7385cc8a5407301ca604d0d62357e2d41e4d5adde9f98eb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T03:12:38.595331+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ecf02572c5915d9f59e0ef877d2978cd",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a leading global media, streaming and entertainment company that creates premium content and experiences for audiences worldwide.\",\"rationale\":\"The filing describes a media and entertainment company focused on content creation and streaming services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of reliance on imports or overseas production affecting costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 56869,
+    "output_tokens": 83,
+    "cost_usd": 0.022880400000000002
+  }
+}

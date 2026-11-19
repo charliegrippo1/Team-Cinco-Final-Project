@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MHK?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:03.097773+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MHK",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 702138600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 148.44,
+            "regularMarketChangePercent": 2.755,
+            "fulldayPrice": 148.44,
+            "fulldayChange": 3.98,
+            "fulldayChangePercent": 2.755,
+            "fiftyTwoWeekHigh": 158.81,
+            "fiftyTwoWeekLow": 92.99,
+            "regularMarketDayHigh": 149.035,
+            "regularMarketDayLow": 142.0,
+            "regularMarketVolume": 1289096,
+            "longName": "Mohawk Industries, Inc.",
+            "shortName": "Mohawk Industries, Inc.",
+            "chartPreviousClose": 115.01,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  117.29000091552734,
+                  113.29000091552734,
+                  106.66999816894531
+                ],
+                "open": [
+                  113.54000091552734,
+                  112.61000061035156,
+                  104.88999938964844
+                ],
+                "low": [
+                  113.54000091552734,
+                  107.77999877929688,
+                  100.55999755859375
+                ],
+                "volume": [
+                  467900,
+                  1518200,
+                  981100
+                ],
+                "close": [
+                  117.1500015258789,
+                  107.83999633789062,
+                  105.6500015258789
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  117.1500015258789,
+                  107.83999633789062,
+                  105.6500015258789
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

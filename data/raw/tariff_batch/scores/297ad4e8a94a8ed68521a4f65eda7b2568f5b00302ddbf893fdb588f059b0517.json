@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e7c8789d868afc0fc19b92066abb5d6dbf2d2f7002ffeb047b5728e3de3a5612",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:26:18.904936+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4fe7c4da4fe5580fb4e5d7f1570d98af",
+    "output_text": "{\"score\":2,\"evidence\":\"We maintain an inventory of brand-name and generic pharmaceuticals in our home delivery pharmacies, specialty pharmacies and specialty distributor. Our specialty pharmacies and specialty distributor also carry biopharmaceutical products to meet the needs of our customers, including pharmaceuticals for the treatment of rare or chronic diseases; if a drug is not in our inventory, we can generally obtain it from a supplier within a reasonable amount of time.\\n\\nWe purchase pharmaceuticals either directly from manufacturers or through authorized wholesalers. Evernorth Health Services uses one wholesaler for approximately half of our pharmaceutical purchases, but holds contracts with other wholesalers if needs for an alternate source arise. Generic pharmaceuticals are generally purchased directly from manufacturers.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs (pharmaceuticals, biopharmaceutical products) and overseas suppliers (wholesalers, manufacturers) as part of its supply chain. It notes reliance on one wholesaler for about half of pharmaceutical purchases and contracts with others as alternates, indicating some dependence. However, the filing does not provide evidence that this dependence is substantial enough to materially affect costs or operations, nor that imports or overseas manufacturing are central to the business. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45963,
+    "output_tokens": 245,
+    "cost_usd": 0.0187772
+  }
+}

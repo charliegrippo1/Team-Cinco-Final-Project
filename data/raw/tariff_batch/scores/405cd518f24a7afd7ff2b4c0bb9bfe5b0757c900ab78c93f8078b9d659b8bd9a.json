@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cb1185bdadbd2a171a4652839b2f6d2a31bfe80908aecf5464fc93e861ae4fe0",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:17:04.552914+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d9971cec1940940bbaa790509cec02f3",
+    "output_text": "{\"score\":3,\"evidence\":\"Ameren Missouri owns and operates coal-fired energy centers. About 97% of Ameren Missouri’s coal is purchased from the Powder River Basin in Wyoming, which has a limited number of suppliers. Deliveries from the Powder River Basin have occasionally been restricted because of rail congestion, staffing and equipment issues, infrastructure maintenance, derailments, weather, and supplier financial hardship. As of December 31, 2024, coal inventory at the Labadie and Sioux energy centers were at targeted levels. Delays or disruptions in the delivery of coal, failure of our coal suppliers to provide adequate quantities or quality of coal, or lack of adequate inventories of coal, including low-sulfur coal used to comply with environmental regulations, could have adverse effects on Ameren Missouri’s electric generation operations. If Ameren Missouri is unable to obtain an adequate supply of coal under existing agreements, it may be required to purchase coal at higher prices or be forced to reduce generation at its coal-fired energy centers, which could adversely affect Ameren’s and Ameren Missouri’s results of operations, financial position, and liquidity.\",\"rationale\":\"The filing identifies specific imported physical goods (coal from the Powder River Basin in Wyoming) as critical inputs with a limited number of suppliers and notes that delivery restrictions and disruptions could adversely affect operations and costs. This indicates substantial reliance on these imported inputs that could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 59886,
+    "output_tokens": 294,
+    "cost_usd": 0.0244248
+  }
+}

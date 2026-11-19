@@ -1,0 +1,11 @@
+ticker,cik,gics_sector,status,reason
+AAPL,0000320193,Information Technology,complete,
+VZ,0000732712,Communication Services,complete,
+NKE,0000320187,Consumer Discretionary,complete,
+SLB,0000087347,Energy,complete,
+HES,0000004447,Energy,complete,
+LLY,0000059478,Health Care,complete,
+TJX,0000109198,Consumer Discretionary,complete,
+ROP,0000882835,Information Technology,complete,
+ADSK,0000769397,Information Technology,complete,
+ALLE,0001579241,Industrials,complete,

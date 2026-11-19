@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ae26cd11ecbd25613b4c3e1cb8c1e6a3b93e5a1f7dcfe5bf1ad25ec44e2f17fb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:56:44.520056+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b68927cd19456b3eec4b4486613a3233",
+    "output_text": "{\"score\":3,\"evidence\":\"We outsource the manufacturing of many of our hardware products to our key contract manufacturing partners that include Jabil and Benchmark Electronics Inc. Our contract manufacturing partners are responsible for significant material procurement, assembly, and testing. We continue to manage product design through pilot production for the subcontracted products, and we are directly involved in qualifying suppliers and key components used in all our products. We also utilize original design manufacturers for some of our products.\",\"rationale\":\"The filing states that manufacturing is outsourced to contract manufacturing partners responsible for material procurement, assembly, and testing, indicating substantial reliance on overseas manufacturing and imported components. Specific suppliers (Jabil and Benchmark Electronics) are identified, and the reliance on subcontractors for assembly and key components suggests that overseas manufacturing and imported inputs could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33646,
+    "output_tokens": 172,
+    "cost_usd": 0.0137336
+  }
+}

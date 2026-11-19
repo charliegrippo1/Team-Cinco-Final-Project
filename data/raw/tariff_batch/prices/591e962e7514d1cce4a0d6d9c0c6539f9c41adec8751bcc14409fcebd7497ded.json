@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/COO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:51.279500+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "COO",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 412007400,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 60.75,
+            "regularMarketChangePercent": 0.049,
+            "fulldayPrice": 60.75,
+            "fulldayChange": 0.03,
+            "fulldayChangePercent": 0.049,
+            "fiftyTwoWeekHigh": 89.83,
+            "fiftyTwoWeekLow": 51.01,
+            "regularMarketDayHigh": 61.315,
+            "regularMarketDayLow": 59.26,
+            "regularMarketVolume": 2198717,
+            "longName": "The Cooper Companies, Inc.",
+            "shortName": "The Cooper Companies, Inc.",
+            "chartPreviousClose": 81.27,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  80.52999877929688,
+                  77.91000366210938,
+                  73.33000183105469
+                ],
+                "close": [
+                  81.2300033569336,
+                  78.16999816894531,
+                  73.7699966430664
+                ],
+                "open": [
+                  80.7699966430664,
+                  79.94000244140625,
+                  76.72000122070312
+                ],
+                "high": [
+                  82.27999877929688,
+                  80.95999908447266,
+                  76.83000183105469
+                ],
+                "volume": [
+                  1813500,
+                  2485000,
+                  2661500
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  81.2300033569336,
+                  78.16999816894531,
+                  73.7699966430664
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

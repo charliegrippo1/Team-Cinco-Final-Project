@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TRGP?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:30.763129+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TRGP",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1291732200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 290.17,
+            "regularMarketChangePercent": -0.405,
+            "fulldayPrice": 290.17,
+            "fulldayChange": -1.18,
+            "fulldayChangePercent": -0.405,
+            "fiftyTwoWeekHigh": 316.6,
+            "fiftyTwoWeekLow": 166.18,
+            "regularMarketDayHigh": 294.22,
+            "regularMarketDayLow": 286.87,
+            "regularMarketVolume": 937848,
+            "longName": "Targa Resources Corp.",
+            "shortName": "Targa Resources, Inc.",
+            "chartPreviousClose": 203.07,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  206.08999633789062,
+                  196.3300018310547,
+                  174.89999389648438
+                ],
+                "open": [
+                  200.02000427246094,
+                  192.74000549316406,
+                  174.17999267578125
+                ],
+                "volume": [
+                  972000,
+                  4023300,
+                  7805700
+                ],
+                "low": [
+                  199.1199951171875,
+                  180.00999450683594,
+                  158.4600067138672
+                ],
+                "close": [
+                  205.72000122070312,
+                  180.72000122070312,
+                  161.19000244140625
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  198.26571655273438,
+                  174.17156982421875,
+                  155.34925842285156
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

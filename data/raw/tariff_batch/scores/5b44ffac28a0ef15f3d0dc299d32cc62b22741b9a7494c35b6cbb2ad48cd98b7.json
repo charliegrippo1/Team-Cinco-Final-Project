@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0bcfc1f8e559d28cb7b14b5761cacda9d575339b4cacf0b7d322e170a24e1a13",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:19:43.746876+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7ee76b3cb2f2248b54d5be21448d4359",
+    "output_text": "{\"score\":0,\"evidence\":\"Founded in 2011, CrowdStrike reinvented cybersecurity for the cloud and artificial intelligence (“AI”) era and transformed the way cybersecurity is delivered and experienced by customers.\",\"rationale\":\"The filing describes CrowdStrike as a cloud-native cybersecurity platform provider with AI-driven software solutions delivered via SaaS, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software and cloud services rather than physical products or manufacturing, and there is no specific operational dependence on imports or overseas suppliers. Therefore, the score is 0.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 55398,
+    "output_tokens": 122,
+    "cost_usd": 0.0223544
+  }
+}

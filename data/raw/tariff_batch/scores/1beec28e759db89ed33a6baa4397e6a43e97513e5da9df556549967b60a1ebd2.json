@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b49829fe920f695e93b9b469a23be5d9483343b3f7e8555845235338e02976e9",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:59:25.431688+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d2999c600faef1534bca5e725e4ff99c",
+    "output_text": "{\"score\":3,\"evidence\":\"We conduct our operations in facilities that are located worldwide, including but not limited to China, Mexico, Singapore, and the United States. Our global manufacturing production sites allow customers to manufacture products simultaneously in the optimal locations for their products. Our global presence is key to assessing and executing on our business opportunities.\",\"rationale\":\"The filing states that the company operates manufacturing facilities worldwide, including China, and emphasizes global manufacturing production sites that allow customers to manufacture products simultaneously in optimal locations. This indicates substantial reliance on overseas manufacturing that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33095,
+    "output_tokens": 125,
+    "cost_usd": 0.013438000000000002
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HUBB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:49.761463+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HUBB",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 76599000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 426.47,
+            "regularMarketChangePercent": 0.388,
+            "fulldayPrice": 426.47,
+            "fulldayChange": 1.65,
+            "fulldayChangePercent": 0.388,
+            "fiftyTwoWeekHigh": 565.5,
+            "fiftyTwoWeekLow": 403.82,
+            "regularMarketDayHigh": 431.77,
+            "regularMarketDayLow": 420.88,
+            "regularMarketVolume": 391199,
+            "longName": "Hubbell Incorporated",
+            "shortName": "Hubbell Inc",
+            "chartPreviousClose": 332.86,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  325.5299987792969,
+                  313.1300048828125,
+                  299.42498779296875
+                ],
+                "volume": [
+                  345287,
+                  1033709,
+                  1202143
+                ],
+                "open": [
+                  325.8900146484375,
+                  321.20001220703125,
+                  311.2099914550781
+                ],
+                "close": [
+                  341.6199951171875,
+                  321.3500061035156,
+                  315.94000244140625
+                ],
+                "high": [
+                  342.0899963378906,
+                  326.5199890136719,
+                  320.3500061035156
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  335.38385009765625,
+                  315.4838562011719,
+                  310.1725769042969
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

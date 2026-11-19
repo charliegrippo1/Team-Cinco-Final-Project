@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/FISV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:41:31.971694+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "FISV",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 528039000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 60.48,
+            "regularMarketChangePercent": -2.937,
+            "fulldayPrice": 60.29,
+            "fulldayChange": -2.02,
+            "fulldayChangePercent": -3.242,
+            "fiftyTwoWeekHigh": 70.41,
+            "fiftyTwoWeekLow": 43.87,
+            "regularMarketDayHigh": 62.34,
+            "regularMarketDayLow": 60.285,
+            "regularMarketVolume": 6513535,
+            "longName": "Fiserv, Inc.",
+            "shortName": "Fiserv, Inc.",
+            "chartPreviousClose": 222.01,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  227.0,
+                  222.6199951171875,
+                  211.27999877929688
+                ],
+                "low": [
+                  221.39999389648438,
+                  216.63999938964844,
+                  198.50999450683594
+                ],
+                "close": [
+                  226.14999389648438,
+                  216.89999389648438,
+                  198.60000610351562
+                ],
+                "volume": [
+                  4440000,
+                  3704800,
+                  4944200
+                ],
+                "open": [
+                  221.91000366210938,
+                  218.1699981689453,
+                  209.39999389648438
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  226.14999389648438,
+                  216.89999389648438,
+                  198.60000610351562
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

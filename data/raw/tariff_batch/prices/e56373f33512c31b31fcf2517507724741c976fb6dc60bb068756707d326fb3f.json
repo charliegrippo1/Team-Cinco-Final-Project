@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/EVRG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:52.256941+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "EVRG",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 87.19,
+            "regularMarketChangePercent": 0.172,
+            "fulldayPrice": 87.19,
+            "fulldayChange": 0.15,
+            "fulldayChangePercent": 0.172,
+            "fiftyTwoWeekHigh": 89.7,
+            "fiftyTwoWeekLow": 71.41,
+            "regularMarketDayHigh": 87.525,
+            "regularMarketDayLow": 86.54,
+            "regularMarketVolume": 2626416,
+            "longName": "Evergy, Inc.",
+            "shortName": "Evergy, Inc.",
+            "chartPreviousClose": 69.01,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  69.0999984741211,
+                  69.7300033569336,
+                  69.0
+                ],
+                "low": [
+                  68.5199966430664,
+                  69.13999938964844,
+                  65.7699966430664
+                ],
+                "volume": [
+                  1285200,
+                  1937300,
+                  4851200
+                ],
+                "close": [
+                  69.43000030517578,
+                  69.20999908447266,
+                  66.18000030517578
+                ],
+                "high": [
+                  69.5199966430664,
+                  70.30000305175781,
+                  69.22000122070312
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  65.7991943359375,
+                  65.59070587158203,
+                  62.719154357910156
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

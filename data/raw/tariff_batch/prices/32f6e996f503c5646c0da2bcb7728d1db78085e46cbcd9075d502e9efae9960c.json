@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TECH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:59.921816+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TECH",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 603037800,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 72.75,
+            "regularMarketChangePercent": 0.165,
+            "fulldayPrice": 72.75,
+            "fulldayChange": 0.12,
+            "fulldayChangePercent": 0.165,
+            "fiftyTwoWeekHigh": 72.88,
+            "fiftyTwoWeekLow": 43.2,
+            "regularMarketDayHigh": 72.81,
+            "regularMarketDayLow": 72.67,
+            "regularMarketVolume": 2628447,
+            "longName": "Bio-Techne Corporation",
+            "shortName": "Bio-Techne Corp",
+            "chartPreviousClose": 57.35,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  56.81999969482422,
+                  54.81999969482422,
+                  50.349998474121094
+                ],
+                "volume": [
+                  1455900,
+                  1989300,
+                  2931900
+                ],
+                "open": [
+                  57.040000915527344,
+                  56.93000030517578,
+                  53.0099983215332
+                ],
+                "high": [
+                  58.63999938964844,
+                  57.189998626708984,
+                  53.75
+                ],
+                "close": [
+                  58.380001068115234,
+                  54.86000061035156,
+                  51.720001220703125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  57.806610107421875,
+                  54.3211784362793,
+                  51.21202087402344
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NUE?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:39.331101+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NUE",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 250.42,
+            "regularMarketChangePercent": -0.659,
+            "fulldayPrice": 247.92,
+            "fulldayChange": -4.16,
+            "fulldayChangePercent": -1.65,
+            "fiftyTwoWeekHigh": 287.7,
+            "fiftyTwoWeekLow": 146.0,
+            "regularMarketDayHigh": 254.307,
+            "regularMarketDayLow": 249.24,
+            "regularMarketVolume": 1140837,
+            "longName": "Nucor Corporation",
+            "shortName": "Nucor Corporation",
+            "chartPreviousClose": 119.66,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  123.44999694824219,
+                  118.62999725341797,
+                  106.61000061035156
+                ],
+                "open": [
+                  118.05999755859375,
+                  118.37000274658203,
+                  106.20999908447266
+                ],
+                "volume": [
+                  2123600,
+                  4247500,
+                  3820000
+                ],
+                "low": [
+                  118.05999755859375,
+                  109.54000091552734,
+                  99.7699966430664
+                ],
+                "close": [
+                  123.02999877929688,
+                  109.79000091552734,
+                  103.22000122070312
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  120.6085205078125,
+                  107.62910461425781,
+                  101.18840789794922
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

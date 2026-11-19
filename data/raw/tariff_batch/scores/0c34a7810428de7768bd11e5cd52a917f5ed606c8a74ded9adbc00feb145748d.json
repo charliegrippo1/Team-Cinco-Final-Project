@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "24fbcf509ebe14b1c42cf136832be2687874bcf036a306e6da78de55f7291f25",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:55:37.584393+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "11ec581d859fb4043e9402f81ebba575",
+    "output_text": "{\"score\":0,\"evidence\":\"Alliant Energy’s utility business includes the operations of IPL (electric, gas and steam operations) and WPL (electric and gas operations), which are both reportable segments.\",\"rationale\":\"The filing describes Alliant Energy as a regulated utility operating primarily in the Midwest, providing electric and natural gas services through IPL and WPL. There is no mention of reliance on imported physical goods, foreign-made inputs, or overseas manufacturing. The operations and supply appear to be domestic and regulated, with no specific references to imports or overseas suppliers. Tariffs or trade restrictions are not discussed as operational dependencies. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39258,
+    "output_tokens": 144,
+    "cost_usd": 0.0159336
+  }
+}

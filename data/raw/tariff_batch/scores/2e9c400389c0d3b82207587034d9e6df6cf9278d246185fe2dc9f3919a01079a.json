@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "14602e1b955006ffaa66a27bf940ffd082c6fdaff883f927478ae7fa24bbaaec",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:55:09.031327+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3858c79e434cbb199623f229c33547b4",
+    "output_text": "{\"score\":3,\"evidence\":\"We utilize a total of 184 distribution facilities located in Canada, Central America, Chile, China, India, Mexico and Africa. Through these facilities, we process and distribute both imported and domestic products to the operating units of the Walmart International segment.\",\"rationale\":\"The filing identifies specific overseas manufacturing and imported goods processed through distribution facilities in multiple countries including China, indicating substantial reliance on imports and overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37245,
+    "output_tokens": 96,
+    "cost_usd": 0.015051600000000002
+  }
+}

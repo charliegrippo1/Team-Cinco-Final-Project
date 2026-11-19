@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7d022e0a56afdf90432e3915a1d2ce6f8644ecff1330e03cdd4c0b445f649788",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:04:04.907085+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a23c8d925ef9f3631d862580496d1b78",
+    "output_text": "{\"score\":0,\"evidence\":\"Citizens Financial Group, Inc. is headquartered in Providence, Rhode Island. We offer a broad range of retail and commercial banking products and services to individuals, small businesses, middle-market companies, large corporations and institutions.\",\"rationale\":\"The filing describes a financial services company focused on banking products and services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational reliance on imports or overseas production.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53720,
+    "output_tokens": 100,
+    "cost_usd": 0.021648
+  }
+}

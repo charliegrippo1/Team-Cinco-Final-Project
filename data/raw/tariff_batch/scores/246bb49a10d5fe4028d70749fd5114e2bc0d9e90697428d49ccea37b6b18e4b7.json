@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1475c89e70abf510ed2ea608ca84bfe64cdb3c96a1c83d3b3ac442a394630965",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:16:56.317961+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "aef5a96d1897e46e749e0ecf24ae2fa2",
+    "output_text": "{\"score\":3,\"evidence\":\"\\\"Middleton contracts with a third-party importer to supply substantially all of its cigars and sells substantially all of its cigars to customers in the United States.\\\"\",\"rationale\":\"The filing identifies a specific overseas supplier arrangement for Middleton's cigars, indicating reliance on imports. However, the extent of this dependence is limited to cigars supplied by a third-party importer, without evidence that this reliance is central or that most products depend on imports. Therefore, the dependence is substantial enough to potentially affect operations but not central to the business.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 48159,
+    "output_tokens": 116,
+    "cost_usd": 0.019449200000000003
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:18.367297+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "INTC",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 54.67,
+            "regularMarketChangePercent": -0.906,
+            "fulldayPrice": 54.176,
+            "fulldayChange": -0.994,
+            "fulldayChangePercent": -1.801,
+            "fiftyTwoWeekHigh": 142.35,
+            "fiftyTwoWeekLow": 32.89,
+            "regularMarketDayHigh": 56.0,
+            "regularMarketDayLow": 53.44,
+            "regularMarketVolume": 80113842,
+            "longName": "Intel Corporation",
+            "shortName": "Intel Corporation",
+            "chartPreviousClose": 22.05,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  21.979999542236328,
+                  22.43000030517578,
+                  19.850000381469727
+                ],
+                "open": [
+                  21.889999389648438,
+                  21.399999618530273,
+                  21.700000762939453
+                ],
+                "low": [
+                  21.700000762939453,
+                  20.860000610351562,
+                  19.700000762939453
+                ],
+                "volume": [
+                  58878800,
+                  242972100,
+                  175014700
+                ],
+                "high": [
+                  22.3799991607666,
+                  23.899999618530273,
+                  22.200000762939453
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  21.979999542236328,
+                  22.43000030517578,
+                  19.850000381469727
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

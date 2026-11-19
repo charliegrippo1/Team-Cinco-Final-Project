@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2b53fb21fcd39f617cc4838daaace797296b53215504b9ad4c6176fef667ff27",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:37:31.834534+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5a7eb74302fc93d47eb5df5471381e7c",
+    "output_text": "{\"score\":0,\"evidence\":\"Assurant, Inc. was incorporated as a Delaware corporation in 2004.\",\"rationale\":\"The filing provides no specific information about dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. It primarily describes the company's insurance and service business model, operations, and regulatory environment, without mentioning reliance on imports or overseas manufacturing. Therefore, there is insufficient evidence to assign a score above 0.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 49328,
+    "output_tokens": 89,
+    "cost_usd": 0.0198736
+  }
+}

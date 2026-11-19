@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PAYC?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:58.807156+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PAYC",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1397568600,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 243.48,
+            "regularMarketChangePercent": -1.783,
+            "fulldayPrice": 243.48,
+            "fulldayChange": -4.42,
+            "fulldayChangePercent": -1.783,
+            "fiftyTwoWeekHigh": 275.22,
+            "fiftyTwoWeekLow": 104.9,
+            "regularMarketDayHigh": 248.7,
+            "regularMarketDayLow": 241.2,
+            "regularMarketVolume": 456210,
+            "longName": "Paycom Software, Inc.",
+            "shortName": "Paycom Software, Inc.",
+            "chartPreviousClose": 220.9,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  215.55999755859375,
+                  206.4600067138672,
+                  194.9980010986328
+                ],
+                "close": [
+                  218.47999572753906,
+                  213.42999267578125,
+                  198.11000061035156
+                ],
+                "open": [
+                  217.91000366210938,
+                  211.61000061035156,
+                  208.35000610351562
+                ],
+                "high": [
+                  221.8730010986328,
+                  217.125,
+                  209.10000610351562
+                ],
+                "volume": [
+                  527700,
+                  817800,
+                  799500
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  215.77471923828125,
+                  210.78724670410156,
+                  195.65695190429688
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

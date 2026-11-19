@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "20100280eddc7159d3fb159f716f3bf4ee0719df6f9fcea3811d14449362eb62",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:14:31.640445+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "bdd29b99c7abaf191d77ef38a53c844f",
+    "output_text": "{\"score\":3,\"evidence\":\"We source raw materials, manufactured components, and replacement parts for our equipment, engines, and other products from leading suppliers both domestically and internationally. These materials and components include a variety of steel products, metal castings, forgings, plastics, hydraulics, electronics, and ready-to-assemble components made to certain specifications. We also source various goods and services used for production, logistics, offices, and research and development. We develop and maintain sourcing strategies for our purchased materials and emphasize long-term supplier relationships at the core of these strategies. We use a variety of agreements with suppliers intended to drive innovation, ensure availability and delivery of raw materials and components, manage costs on a globally competitive basis, protect our intellectual property, and minimize other supply-related risks. We are focused on proactively increasing the resiliency of our supply chain and actively monitoring supply chain risks to minimize the likelihood of business disruptions caused by the supply base, including supplier financial viability, capacity, business continuity, labor availability, quality, delivery, cybersecurity, weather-related events, and natural disasters. We have implemented mitigation efforts to minimize the impact of potential and actual supply chain disruptions on our customers. Examples include working with the supply base to prioritize allocations to improve material availability, multi-sourcing selected parts and materials, entering long-term contracts for some critical components, and using alternative freight carriers to expedite delivery.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs sourced internationally, and describes substantial reliance on global suppliers and supply chain risks that could materially affect costs or operations. This indicates a substantial reliance on imports and overseas inputs that could materially impact the business, justifying a score of 3. There is no indication that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so score 4 is not supported.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34217,
+    "output_tokens": 371,
+    "cost_usd": 0.0142804
+  }
+}

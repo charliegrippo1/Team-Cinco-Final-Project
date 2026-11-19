@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c38f886e005ca18c5f75ad5c20a5ea700efce1a74b49eab4fa57a5a9f80dd2ab",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:58:27.656943+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "33c12eea1f0244845c9741acee49d4d5",
+    "output_text": "{\"score\":2,\"evidence\":\"The products we sell are sourced from a wide variety of domestic and international vendors, and any future disruption in our supply chain or inability to find qualified vendors and access products that meet requisite quality and safety standards in a timely and efficient manner could adversely affect our business.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs as part of a global supply chain with domestic and international vendors, indicating some dependence on overseas suppliers. However, it does not provide evidence that this dependence is substantial or central to the business, so the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29606,
+    "output_tokens": 119,
+    "cost_usd": 0.012032800000000001
+  }
+}

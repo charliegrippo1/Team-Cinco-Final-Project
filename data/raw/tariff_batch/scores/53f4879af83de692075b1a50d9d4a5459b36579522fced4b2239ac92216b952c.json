@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "fe24de8f1748ccce3c5e033981d3ddec735b1062ccc43c635ed17c2ba0f04e11",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:42:23.121582+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d8e726eb278de7b3b09ca2b09429837e",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"We also have operations and business relationships outside the U.S. that comprise a portion of our manufacturing, supply, and distribution. Approximately 5,000 of our 12,700 employees as of December 31, 2024 were located in China.\",\n  \"rationale\": \"The filing identifies overseas manufacturing and operations, including a significant workforce in China, indicating substantial reliance on foreign manufacturing and supply chains that could materially affect costs or operations. While specific imported goods or inputs are not detailed, the presence of manufacturing outside the U.S. and in China supports a score of 3.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 17122,
+    "output_tokens": 137,
+    "cost_usd": 0.0070680000000000005
+  }
+}

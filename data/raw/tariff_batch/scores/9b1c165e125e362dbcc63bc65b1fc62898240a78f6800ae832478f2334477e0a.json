@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "43f7c75dc0fbac96b4fbbed7ffdc03337bbe0c03e200fb4153e6428147a8b978",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:27:08.688289+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2005eddbd04c79ca7a9c30aae37cbf70",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"Our Operations Depend on Production Facilities Throughout the World, a Majority of Which Are Located Outside the United States and Subject to Increased Risks of Disrupted Production, Causing Delays in Shipments and Loss of Customers and Revenue\\n\\nWe manage businesses with manufacturing facilities worldwide, a majority of which are located outside the United States, and also source certain materials globally. Emerging market sales represent over one-third of total sales and serving a global customer base requires that we place more materials sourcing and production in emerging markets to capitalize on market opportunities and maintain a best-cost position.\",\n  \"rationale\": \"The filing explicitly states that the company has manufacturing facilities worldwide, with a majority located outside the U.S., and sources materials globally. It also notes that serving a global customer base requires placing more materials sourcing and production in emerging markets to maintain a best-cost position. This indicates substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 24671,
+    "output_tokens": 206,
+    "cost_usd": 0.010198
+  }
+}

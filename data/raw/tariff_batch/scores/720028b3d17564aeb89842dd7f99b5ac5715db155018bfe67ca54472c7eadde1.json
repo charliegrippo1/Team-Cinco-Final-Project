@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "78963bf487c00983f59c47019c10bfaaca5ae13fb7ae146781eba7da9dc61080",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:55:55.792037+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a820118b5c68f3a8f33ae4d94b9cc257",
+    "output_text": "{\"score\":2,\"evidence\":\"This reportable segment has manufacturing facilities in North and South America, Europe, and Asia, with affiliated companies in Mexico and Japan.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations in Asia, Europe, and the Americas, indicating reliance on foreign manufacturing. However, it does not provide evidence that this dependence is substantial or central to the business, only that manufacturing is global and includes foreign sites.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 21747,
+    "output_tokens": 88,
+    "cost_usd": 0.008839600000000001
+  }
+}

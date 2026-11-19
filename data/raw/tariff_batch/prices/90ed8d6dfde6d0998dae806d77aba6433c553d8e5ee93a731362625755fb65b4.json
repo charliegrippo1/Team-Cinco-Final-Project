@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DECK?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:51.007195+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DECK",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 750691800,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 83.6,
+            "regularMarketChangePercent": 2.602,
+            "fulldayPrice": 83.6,
+            "fulldayChange": 2.12,
+            "fulldayChangePercent": 2.602,
+            "fiftyTwoWeekHigh": 122.29,
+            "fiftyTwoWeekLow": 77.2,
+            "regularMarketDayHigh": 83.974,
+            "regularMarketDayLow": 80.5,
+            "regularMarketVolume": 3229678,
+            "longName": "Deckers Outdoor Corporation",
+            "shortName": "Deckers Outdoor Corporation",
+            "chartPreviousClose": 113.35,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  119.19000244140625,
+                  102.87000274658203,
+                  108.61000061035156
+                ],
+                "close": [
+                  117.9800033569336,
+                  100.87999725341797,
+                  106.0199966430664
+                ],
+                "low": [
+                  111.44000244140625,
+                  96.80000305175781,
+                  93.72000122070312
+                ],
+                "volume": [
+                  2708800,
+                  8699700,
+                  8968500
+                ],
+                "open": [
+                  111.5,
+                  100.1500015258789,
+                  96.33999633789062
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  117.9800033569336,
+                  100.87999725341797,
+                  106.0199966430664
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

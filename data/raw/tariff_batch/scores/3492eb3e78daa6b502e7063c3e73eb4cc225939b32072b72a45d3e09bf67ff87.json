@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "91667954b0fd70eb2835038b870c9808478be5e0a9b6741c33c45998f170cc17",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:53:43.268923+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "093a09ef55ea11076b6292e4a9982f5c",
+    "output_text": "{\"score\":4,\"evidence\":\"Virginia Power has entered into fixed price contracts for the major offshore construction and equipment components. These contracts include services denominated in currencies other than the U.S. dollar for approximately \\u20ac2.6 billion and 5.1 billion kr., which have been included within the cost estimate above. In addition, certain of the fixed price contracts, approximately \\u20ac0.7 billion, contain commodity indexing provisions linked to steel. In May 2022, Virginia Power entered into forward purchase agreements with a notional amount of approximately \\u20ac3.2 billion to hedge its foreign currency rate risk exposure from certain fixed price contracts for the major offshore construction and equipment components of the CVOW Commercial Project.\",\"rationale\":\"The filing shows that imports and overseas manufacturing are central to the business, specifically for the CVOW Commercial Project offshore wind facility, with major offshore construction and equipment components contracted in foreign currencies (euros and Danish kroner) and hedged accordingly. This indicates that most critical inputs and products depend on overseas arrangements, including China as a foreign production location. Therefore, the highest score of 4 is justified.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 55299,
+    "output_tokens": 236,
+    "cost_usd": 0.022497200000000002
+  }
+}

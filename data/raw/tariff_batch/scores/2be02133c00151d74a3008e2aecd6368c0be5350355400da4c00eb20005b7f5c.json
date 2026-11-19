@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "875d4c1e7d80f2b2b14970cfe73f706390061ac1b40bca11c4744a33db51e1c5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:04:26.612495+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fd0d03bd9b524a0c133c65093efe80b6",
+    "output_text": "{\"score\":0,\"evidence\":\"Our mission is to make it easier for everyone to experience the world. We aim to provide consumers with a best-in-class experience offering the travel choices they want, with tailored planning, payment, language, and other options, seamlessly connecting them with our travel service provider partners.\",\"rationale\":\"The filing describes the company as an online travel reservation service provider that connects consumers with travel service providers; it does not mention any dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is service-based and digital, with no indication of material reliance on physical imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33381,
+    "output_tokens": 126,
+    "cost_usd": 0.013554
+  }
+}

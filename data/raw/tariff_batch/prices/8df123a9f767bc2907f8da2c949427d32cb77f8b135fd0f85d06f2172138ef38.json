@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/WY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:45.732993+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "WY",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 105283800,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 20.05,
+            "regularMarketChangePercent": -0.199,
+            "fulldayPrice": 20.05,
+            "fulldayChange": -0.04,
+            "fulldayChangePercent": -0.199,
+            "fiftyTwoWeekHigh": 27.75,
+            "fiftyTwoWeekLow": 18.26,
+            "regularMarketDayHigh": 20.205,
+            "regularMarketDayLow": 19.75,
+            "regularMarketVolume": 5572722,
+            "longName": "Weyerhaeuser Company",
+            "shortName": "Weyerhaeuser Company",
+            "chartPreviousClose": 29.14,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  29.239999771118164,
+                  29.06999969482422,
+                  27.559999465942383
+                ],
+                "high": [
+                  29.59000015258789,
+                  29.139999389648438,
+                  27.670000076293945
+                ],
+                "low": [
+                  29.0,
+                  27.389999389648438,
+                  26.06999969482422
+                ],
+                "close": [
+                  29.479999542236328,
+                  27.43000030517578,
+                  26.260000228881836
+                ],
+                "volume": [
+                  4215800,
+                  5364300,
+                  6634300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  27.985593795776367,
+                  26.03951644897461,
+                  24.92882537841797
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

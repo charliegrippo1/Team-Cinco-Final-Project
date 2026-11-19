@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "34c6af51113004166044484321dde43a68f474ef0b61ca90ea80b093789de4bf",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:11:03.721509+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "36d9739a2256f72baeeb21cb650ff564",
+    "output_text": "{\"score\":3,\"evidence\":\"On November 22, 2024, we completed our acquisition of Marathon Oil, an independent oil and gas exploration and production company with operations in multiple basins in the Lower 48, as well as Equatorial Guinea internationally.\",\"rationale\":\"The filing identifies specific overseas operations acquired through Marathon Oil, including Equatorial Guinea internationally, indicating substantial reliance on overseas production that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42884,
+    "output_tokens": 89,
+    "cost_usd": 0.017296000000000002
+  }
+}

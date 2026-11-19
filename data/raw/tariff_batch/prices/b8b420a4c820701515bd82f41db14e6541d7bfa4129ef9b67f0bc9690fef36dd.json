@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:13.198751+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "XOM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035812,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 160.58,
+            "regularMarketChangePercent": -3.965,
+            "fulldayPrice": 160.79,
+            "fulldayChange": -6.42,
+            "fulldayChangePercent": -3.839,
+            "fiftyTwoWeekHigh": 188.5,
+            "fiftyTwoWeekLow": 114.19,
+            "regularMarketDayHigh": 166.72,
+            "regularMarketDayLow": 160.55,
+            "regularMarketVolume": 17319772,
+            "longName": "ExxonMobil Holdings Corporation",
+            "shortName": "ExxonMobil Holdings Corporation",
+            "chartPreviousClose": 119.04,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  118.83999633789062,
+                  115.44999694824219,
+                  110.83000183105469
+                ],
+                "close": [
+                  118.66999816894531,
+                  112.43000030517578,
+                  104.33999633789062
+                ],
+                "low": [
+                  117.66000366210938,
+                  112.2300033569336,
+                  103.83000183105469
+                ],
+                "volume": [
+                  12614600,
+                  21204600,
+                  30841300
+                ],
+                "open": [
+                  118.38999938964844,
+                  114.37000274658203,
+                  109.87000274658203
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  112.51127624511719,
+                  106.5951156616211,
+                  98.92495727539062
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

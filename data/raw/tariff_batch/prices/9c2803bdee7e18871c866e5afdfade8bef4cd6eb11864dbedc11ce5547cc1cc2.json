@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PSA?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:28.665576+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PSA",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 343405800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 330.99,
+            "regularMarketChangePercent": 0.245,
+            "fulldayPrice": 330.99,
+            "fulldayChange": 0.81,
+            "fulldayChangePercent": 0.245,
+            "fiftyTwoWeekHigh": 345.89,
+            "fiftyTwoWeekLow": 256.54,
+            "regularMarketDayHigh": 333.582,
+            "regularMarketDayLow": 325.0,
+            "regularMarketVolume": 990508,
+            "longName": "Public Storage",
+            "shortName": "Public Storage",
+            "chartPreviousClose": 298.86,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  299.6199951171875,
+                  295.6400146484375,
+                  294.3500061035156
+                ],
+                "volume": [
+                  596800,
+                  1151300,
+                  1407100
+                ],
+                "high": [
+                  299.7200012207031,
+                  302.4800109863281,
+                  299.5299987792969
+                ],
+                "low": [
+                  292.9800109863281,
+                  292.54998779296875,
+                  283.9599914550781
+                ],
+                "close": [
+                  296.92999267578125,
+                  294.739990234375,
+                  284.5299987792969
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  279.3829650878906,
+                  277.3223571777344,
+                  267.7157287597656
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

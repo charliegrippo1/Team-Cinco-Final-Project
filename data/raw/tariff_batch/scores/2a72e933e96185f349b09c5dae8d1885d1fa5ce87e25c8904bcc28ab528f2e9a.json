@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "593f72e8e20daa602bed1007599b2afe754b657abf9a9b30424087ca1d9ec22e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:02:53.581862+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "cac968f14b06353b1ca008b66510c07a",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"Garmin believes one of its core technology competencies is its vertically integrated manufacturing capabilities at its facilities in Taiwan, the U.S., the Netherlands, Poland, and China. Garmin believes that operation of its own manufacturing facilities and distribution networks provides significant capability and flexibility to address the breadth and depth of resources necessary to serve its diverse products and markets.\",\n  \"rationale\": \"The filing identifies substantial reliance on vertically integrated manufacturing facilities located in multiple countries including Taiwan and China, indicating overseas manufacturing is material to operations. This reliance on foreign manufacturing could materially affect costs or operations, justifying a score of 3.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 24306,
+    "output_tokens": 139,
+    "cost_usd": 0.0099448
+  }
+}

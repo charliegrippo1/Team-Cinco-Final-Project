@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:05.958315+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BRK-B",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 831648600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 574.62,
+            "regularMarketChangePercent": -2.069,
+            "fulldayPrice": 574.25,
+            "fulldayChange": -12.51,
+            "fulldayChangePercent": -2.132,
+            "fiftyTwoWeekHigh": 596.92,
+            "fiftyTwoWeekLow": 464.01,
+            "regularMarketDayHigh": 583.72,
+            "regularMarketDayLow": 573.09,
+            "regularMarketVolume": 5406581,
+            "longName": "Berkshire Hathaway Inc.",
+            "shortName": "Berkshire Hathaway Inc. New",
+            "chartPreviousClose": 532.99,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  532.1300048828125,
+                  527.6199951171875,
+                  519.0
+                ],
+                "high": [
+                  539.0,
+                  538.7999877929688,
+                  521.0
+                ],
+                "low": [
+                  530.8200073242188,
+                  525.1400146484375,
+                  492.9800109863281
+                ],
+                "volume": [
+                  4079000,
+                  6410900,
+                  12605000
+                ],
+                "close": [
+                  537.719970703125,
+                  530.1599731445312,
+                  493.5400085449219
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  537.719970703125,
+                  530.1599731445312,
+                  493.5400085449219
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

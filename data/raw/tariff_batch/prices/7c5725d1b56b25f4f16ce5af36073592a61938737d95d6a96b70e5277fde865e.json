@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TKO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:59.176932+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TKO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 940339800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 190.13,
+            "regularMarketChangePercent": 1.149,
+            "fulldayPrice": 190.13,
+            "fulldayChange": 2.16,
+            "fulldayChangePercent": 1.149,
+            "fiftyTwoWeekHigh": 226.94,
+            "fiftyTwoWeekLow": 170.14,
+            "regularMarketDayHigh": 193.095,
+            "regularMarketDayLow": 186.32,
+            "regularMarketVolume": 878015,
+            "longName": "TKO Group Holdings, Inc.",
+            "shortName": "TKO Group Holdings, Inc.",
+            "chartPreviousClose": 152.99,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  1786800,
+                  1527100,
+                  2356000
+                ],
+                "low": [
+                  152.1199951171875,
+                  150.2899932861328,
+                  139.41000366210938
+                ],
+                "close": [
+                  158.5800018310547,
+                  150.44000244140625,
+                  139.5800018310547
+                ],
+                "open": [
+                  153.22999572753906,
+                  154.0,
+                  145.05999755859375
+                ],
+                "high": [
+                  159.0,
+                  158.13999938964844,
+                  146.91000366210938
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  155.15614318847656,
+                  147.19190979003906,
+                  136.56637573242188
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

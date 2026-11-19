@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:31.454119+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TEL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1181827800,
+            "regularMarketTime": 1795035710,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 212.09,
+            "regularMarketChangePercent": 0.341,
+            "fulldayPrice": 212.09,
+            "fulldayChange": 0.72,
+            "fulldayChangePercent": 0.341,
+            "fiftyTwoWeekHigh": 252.56,
+            "fiftyTwoWeekLow": 190.27,
+            "regularMarketDayHigh": 215.417,
+            "regularMarketDayLow": 210.52,
+            "regularMarketVolume": 1270518,
+            "longName": "TE Connectivity plc",
+            "shortName": "TE Connectivity plc",
+            "chartPreviousClose": 140.7,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  142.2899932861328,
+                  129.97999572753906,
+                  122.0
+                ],
+                "volume": [
+                  1555000,
+                  2922300,
+                  4119600
+                ],
+                "open": [
+                  139.35000610351562,
+                  136.9499969482422,
+                  127.08000183105469
+                ],
+                "high": [
+                  143.22000122070312,
+                  138.1699981689453,
+                  127.08000183105469
+                ],
+                "low": [
+                  139.35000610351562,
+                  129.9499969482422,
+                  120.98999786376953
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  139.64913940429688,
+                  127.56761169433594,
+                  119.7357177734375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

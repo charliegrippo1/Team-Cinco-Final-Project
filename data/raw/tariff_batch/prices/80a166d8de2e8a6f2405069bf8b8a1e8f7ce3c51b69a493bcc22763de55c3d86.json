@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MLM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:38.487041+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MLM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 761495400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 518.52,
+            "regularMarketChangePercent": 2.82,
+            "fulldayPrice": 511.48,
+            "fulldayChange": 7.18,
+            "fulldayChangePercent": 1.424,
+            "fiftyTwoWeekHigh": 710.97,
+            "fiftyTwoWeekLow": 464.92,
+            "regularMarketDayHigh": 522.02,
+            "regularMarketDayLow": 495.108,
+            "regularMarketVolume": 1088391,
+            "longName": "Martin Marietta Materials, Inc.",
+            "shortName": "Martin Marietta Materials, Inc.",
+            "chartPreviousClose": 484.56,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  496.07000732421875,
+                  486.1600036621094,
+                  483.510009765625
+                ],
+                "close": [
+                  492.4700012207031,
+                  484.9700012207031,
+                  470.70001220703125
+                ],
+                "volume": [
+                  340700,
+                  561100,
+                  889700
+                ],
+                "open": [
+                  478.8999938964844,
+                  475.489990234375,
+                  480.2699890136719
+                ],
+                "low": [
+                  478.8999938964844,
+                  470.54998779296875,
+                  464.3599853515625
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  488.3504943847656,
+                  480.9132385253906,
+                  466.7625732421875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

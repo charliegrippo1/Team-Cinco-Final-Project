@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "04cbb92d13f9da96c735dc1da92e169db833eaaa7a2a5fa1618c998e6e97775c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:00:30.325443+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d5a1540b15317aed530d46b698e7b027",
+    "output_text": "{\"score\":4,\"evidence\":\"Our optical fiber manufacturing facilities are in North Carolina, China, India and Poland. Cabling operations are in North Carolina, Poland and smaller regional locations. Our manufacturing operations for hardware and equipment products are in Texas, Mexico, Brazil, Germany, Poland and China.\",\"rationale\":\"The filing explicitly states that Corning's manufacturing operations for key products are spread across multiple countries including China, India, Poland, Mexico, Brazil, and Germany, indicating that overseas manufacturing is central to the business. The presence of multiple manufacturing facilities outside the U.S., including in China, for critical products such as optical fiber, cabling, hardware, and equipment supports a high dependence on overseas manufacturing arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27521,
+    "output_tokens": 145,
+    "cost_usd": 0.011240400000000001
+  }
+}

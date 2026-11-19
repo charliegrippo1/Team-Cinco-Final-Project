@@ -1,0 +1,93 @@
+ticker,stage,error
+NKE,score,Missing rationale or evidence is not an exact quote
+HES,prices,No cached prices for HES
+JPM,score,Oversize filing: 577211 characters exceeds 350000; excluded without truncation
+PG,score,Missing rationale or evidence is not an exact quote
+BAC,score,Oversize filing: 448340 characters exceeds 350000; excluded without truncation
+WFC,score,Oversize filing: 403759 characters exceeds 350000; excluded without truncation
+PEP,score,Oversize filing: 360743 characters exceeds 350000; excluded without truncation
+TMO,score,Missing rationale or evidence is not an exact quote
+ISRG,score,Oversize filing: 422354 characters exceeds 350000; excluded without truncation
+PLTR,score,Oversize filing: 384672 characters exceeds 350000; excluded without truncation
+GS,score,Oversize filing: 593711 characters exceeds 350000; excluded without truncation
+XOM,score,Model could not assign a supported score
+AXP,score,Oversize filing: 360259 characters exceeds 350000; excluded without truncation
+UNP,score,Missing rationale or evidence is not an exact quote
+BLK,score,Oversize filing: 358542 characters exceeds 350000; excluded without truncation
+COP,score,Missing rationale or evidence is not an exact quote
+BA,score,Missing rationale or evidence is not an exact quote
+VRTX,score,Oversize filing: 386598 characters exceeds 350000; excluded without truncation
+BMY,score,Missing rationale or evidence is not an exact quote
+CB,score,Oversize filing: 359500 characters exceeds 350000; excluded without truncation
+BX,score,Oversize filing: 528828 characters exceeds 350000; excluded without truncation
+SO,score,Oversize filing: 420839 characters exceeds 350000; excluded without truncation
+ICE,score,Oversize filing: 439334 characters exceeds 350000; excluded without truncation
+WELL,score,Oversize filing: 368579 characters exceeds 350000; excluded without truncation
+CVS,score,Oversize filing: 445147 characters exceeds 350000; excluded without truncation
+KKR,score,Oversize filing: 921811 characters exceeds 350000; excluded without truncation
+CTAS,score,Missing rationale or evidence is not an exact quote
+PNC,score,Oversize filing: 395686 characters exceeds 350000; excluded without truncation
+COF,score,Oversize filing: 440243 characters exceeds 350000; excluded without truncation
+REGN,score,Oversize filing: 384263 characters exceeds 350000; excluded without truncation
+ECL,score,Missing rationale or evidence is not an exact quote
+CEG,score,Missing rationale or evidence is not an exact quote
+APO,score,Oversize filing: 483072 characters exceeds 350000; excluded without truncation
+BK,score,Oversize filing: 477081 characters exceeds 350000; excluded without truncation
+TRV,score,Oversize filing: 484786 characters exceeds 350000; excluded without truncation
+NEM,score,Oversize filing: 431099 characters exceeds 350000; excluded without truncation
+FCX,score,Oversize filing: 431150 characters exceeds 350000; excluded without truncation
+JCI,score,Missing rationale or evidence is not an exact quote
+AIG,score,Oversize filing: 388709 characters exceeds 350000; excluded without truncation
+PSX,score,Missing rationale or evidence is not an exact quote
+MET,score,Oversize filing: 394041 characters exceeds 350000; excluded without truncation
+KVUE,prices,No cached prices for KVUE
+SRE,score,Oversize filing: 372748 characters exceeds 350000; excluded without truncation
+DFS,prices,No cached prices for DFS
+PRU,score,Oversize filing: 532076 characters exceeds 350000; excluded without truncation
+AXON,score,Missing rationale or evidence is not an exact quote
+ETR,score,Oversize filing: 452255 characters exceeds 350000; excluded without truncation
+ACGL,score,Oversize filing: 471096 characters exceeds 350000; excluded without truncation
+HIG,score,Oversize filing: 450135 characters exceeds 350000; excluded without truncation
+WEC,score,Oversize filing: 351009 characters exceeds 350000; excluded without truncation
+EA,prices,No cached prices for EA
+LULU,score,Missing rationale or evidence is not an exact quote
+VMC,score,Missing rationale or evidence is not an exact quote
+AVB,prices,No cached prices for AVB
+IP,score,Missing rationale or evidence is not an exact quote
+ANSS,prices,No cached prices for ANSS
+CHD,score,Model could not assign a supported score
+DXCM,score,Oversize filing: 354242 characters exceeds 350000; excluded without truncation
+FITB,score,Oversize filing: 387805 characters exceeds 350000; excluded without truncation
+STT,score,Oversize filing: 528971 characters exceeds 350000; excluded without truncation
+HSY,score,Missing rationale or evidence is not an exact quote
+EQR,prices,No cached prices for EQR
+WBD,prices,No cached prices for WBD
+CNP,score,Oversize filing: 398797 characters exceeds 350000; excluded without truncation
+CINF,score,Oversize filing: 357447 characters exceeds 350000; excluded without truncation
+K,prices,No cached prices for K
+CTRA,prices,No cached prices for CTRA
+PHM,score,Missing rationale or evidence is not an exact quote
+FE,score,Oversize filing: 389697 characters exceeds 350000; excluded without truncation
+RF,score,Oversize filing: 365832 characters exceeds 350000; excluded without truncation
+NTRS,score,Oversize filing: 388910 characters exceeds 350000; excluded without truncation
+NTAP,score,Missing rationale or evidence is not an exact quote
+EVRG,score,Missing rationale or evidence is not an exact quote
+DLTR,score,Missing rationale or evidence is not an exact quote
+TPR,score,Missing rationale or evidence is not an exact quote
+PNR,score,Missing rationale or evidence is not an exact quote
+ARE,score,Oversize filing: 474511 characters exceeds 350000; excluded without truncation
+HOLX,prices,No cached prices for HOLX
+SJM,score,Model could not assign a supported score
+JNPR,prices,No cached prices for JNPR
+TAP,score,Missing rationale or evidence is not an exact quote
+NWSA,score,Missing rationale or evidence is not an exact quote
+IPG,prices,No cached prices for IPG
+BXP,score,Oversize filing: 350656 characters exceeds 350000; excluded without truncation
+MRNA,score,Oversize filing: 429951 characters exceeds 350000; excluded without truncation
+DAY,prices,No cached prices for DAY
+AES,score,Oversize filing: 416283 characters exceeds 350000; excluded without truncation
+WBA,prices,No cached prices for WBA
+GNRC,score,Missing rationale or evidence is not an exact quote
+PARA,prices,No verified price series (see data/universe/price_fixes.csv)
+DVA,score,Oversize filing: 369959 characters exceeds 350000; excluded without truncation
+MGM,score,Missing rationale or evidence is not an exact quote

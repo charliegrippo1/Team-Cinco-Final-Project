@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DGX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:48.243733+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DGX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 850833000,
+            "regularMarketTime": 1795035713,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 259.69,
+            "regularMarketChangePercent": 1.303,
+            "fulldayPrice": 259.56,
+            "fulldayChange": 3.21,
+            "fulldayChangePercent": 1.252,
+            "fiftyTwoWeekHigh": 263.19,
+            "fiftyTwoWeekLow": 171.18,
+            "regularMarketDayHigh": 261.46,
+            "regularMarketDayLow": 253.151,
+            "regularMarketVolume": 1301884,
+            "longName": "Quest Diagnostics Incorporated",
+            "shortName": "Quest Diagnostics Incorporated",
+            "chartPreviousClose": 169.28,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  170.0,
+                  168.58999633789062,
+                  169.4600067138672
+                ],
+                "close": [
+                  167.9600067138672,
+                  170.6300048828125,
+                  164.17999267578125
+                ],
+                "high": [
+                  170.41000366210938,
+                  174.0,
+                  173.3000030517578
+                ],
+                "low": [
+                  167.25999450683594,
+                  167.0500030517578,
+                  163.8300018310547
+                ],
+                "volume": [
+                  940600,
+                  1828600,
+                  2505200
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  162.91046142578125,
+                  165.50021362304688,
+                  159.24412536621094
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

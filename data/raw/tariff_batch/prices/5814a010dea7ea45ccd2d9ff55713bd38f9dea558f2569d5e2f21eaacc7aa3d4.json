@@ -1,0 +1,119 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MTCH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:01.698031+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MTCH",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 727453800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 39.6,
+            "regularMarketChangePercent": -1.222,
+            "fulldayPrice": 39.6,
+            "fulldayChange": -0.49,
+            "fulldayChangePercent": -1.222,
+            "fiftyTwoWeekHigh": 46.67,
+            "fiftyTwoWeekLow": 28.81,
+            "regularMarketDayHigh": 40.675,
+            "regularMarketDayLow": 39.57,
+            "regularMarketVolume": 2622943,
+            "shortName": "Match Group, Inc.",
+            "chartPreviousClose": 31.41,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  31.729999542236328,
+                  31.270000457763672,
+                  30.229999542236328
+                ],
+                "low": [
+                  30.8799991607666,
+                  29.940000534057617,
+                  28.709999084472656
+                ],
+                "open": [
+                  30.8799991607666,
+                  30.329999923706055,
+                  29.34000015258789
+                ],
+                "volume": [
+                  3824200,
+                  7911700,
+                  10590600
+                ],
+                "close": [
+                  31.469999313354492,
+                  30.18000030517578,
+                  28.739999771118164
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  30.241491317749023,
+                  29.178010940551758,
+                  27.78582000732422
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

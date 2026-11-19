@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:05.385288+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MSFT",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 511108200,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 508.29,
+            "regularMarketChangePercent": 0.405,
+            "fulldayPrice": 507.08,
+            "fulldayChange": 0.84,
+            "fulldayChangePercent": 0.166,
+            "fiftyTwoWeekHigh": 559.15,
+            "fiftyTwoWeekLow": 349.2,
+            "regularMarketDayHigh": 510.44,
+            "regularMarketDayLow": 501.08,
+            "regularMarketVolume": 21349348,
+            "longName": "Microsoft Corporation",
+            "shortName": "Microsoft Corporation",
+            "chartPreviousClose": 382.19,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  385.0799865722656,
+                  377.4800109863281,
+                  374.5899963378906
+                ],
+                "volume": [
+                  16092600,
+                  30198000,
+                  49209900
+                ],
+                "open": [
+                  377.9700012207031,
+                  374.7900085449219,
+                  364.1300048828125
+                ],
+                "low": [
+                  376.6199951171875,
+                  369.3500061035156,
+                  359.4800109863281
+                ],
+                "close": [
+                  382.1400146484375,
+                  373.1099853515625,
+                  359.8399963378906
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  377.7060546875,
+                  368.7807922363281,
+                  355.664794921875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

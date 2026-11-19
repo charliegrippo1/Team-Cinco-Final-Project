@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "734874460ad56f688dd2016378d785f5bf3f7a5271ed59a4fc77713bf215fd35",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:26:08.307861+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "aea9c5709f28cfc716aa2d24cd641ff0",
+    "output_text": "{\"score\":0,\"evidence\":\"Equity Residential (“EQR”) is committed to creating communities where people thrive. The Company, a member of the S&P 500, is focused on the acquisition, development and management of residential properties located in and around dynamic cities that attract affluent long-term renters.\",\"rationale\":\"The filing describes Equity Residential as a real estate investment trust focused on residential properties in U.S. cities, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational reliance on imports or overseas production. The business is centered on property ownership and management, not manufacturing or importing physical goods.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27664,
+    "output_tokens": 134,
+    "cost_usd": 0.011280000000000002
+  }
+}

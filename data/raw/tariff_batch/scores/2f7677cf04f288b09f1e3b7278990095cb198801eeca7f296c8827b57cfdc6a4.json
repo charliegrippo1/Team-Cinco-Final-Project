@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5cafaf875119a3e4e22004ef22b092d4262e34d03a97f7e776b2e9e596920f2f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:48:04.897239+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "28a287283087a31db03b940351ec1301",
+    "output_text": "{\"score\":3,\"evidence\":\"We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging. We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.\",\"rationale\":\"The filing identifies specific overseas suppliers and manufacturing locations in Asia-Pacific, including Taiwan, South Korea, and China (Hon Hai Precision Industry Co., Ltd.), for critical semiconductor wafer fabrication, memory, packaging, assembly, testing, and packaging. This indicates substantial reliance on overseas manufacturing and imported inputs that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37536,
+    "output_tokens": 187,
+    "cost_usd": 0.0153136
+  }
+}

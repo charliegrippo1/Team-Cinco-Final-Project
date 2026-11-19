@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NRG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:47.917327+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NRG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1070375400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 93.66,
+            "regularMarketChangePercent": 2.071,
+            "fulldayPrice": 93.0,
+            "fulldayChange": 1.24,
+            "fulldayChangePercent": 1.351,
+            "fiftyTwoWeekHigh": 189.96,
+            "fiftyTwoWeekLow": 79.65,
+            "regularMarketDayHigh": 94.48,
+            "regularMarketDayLow": 91.54,
+            "regularMarketVolume": 2785564,
+            "longName": "NRG Energy, Inc.",
+            "shortName": "NRG Energy, Inc.",
+            "chartPreviousClose": 98.53,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  96.55999755859375,
+                  97.0,
+                  91.0
+                ],
+                "close": [
+                  102.87999725341797,
+                  92.7699966430664,
+                  83.61000061035156
+                ],
+                "high": [
+                  103.48999786376953,
+                  99.51000213623047,
+                  91.25
+                ],
+                "volume": [
+                  3301800,
+                  3435700,
+                  6877100
+                ],
+                "low": [
+                  96.45999908447266,
+                  92.37999725341797,
+                  82.01000213623047
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  100.45059967041016,
+                  90.579345703125,
+                  81.63565063476562
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8ca8b62a7f9c1e395ec6799d7f11bbedc80a68994a7e6bcc49cab95a26849f7c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:30:56.567015+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "bdaa034ad522f70c88434b1352bc3c2a",
+    "output_text": "{\"score\":3,\"evidence\":\"The Company uses a wide range of materials (primarily steel, copper and aluminum) and components (including semiconductors and other electronic components) in the global production of our products, which come from numerous suppliers around the world. Because not all of our business arrangements provide for guaranteed supply and some key parts may be available only from a single supplier or a limited group of suppliers, we are subject to supply and pricing risk. Our operations and those of our suppliers are subject to disruption for a variety of reasons, including supplier plant shutdowns or slowdowns, transportation delays, work stoppages, labor relations, labor shortages, global geopolitical instability, price inflation, governmental regulatory and enforcement actions, intellectual property claims against suppliers, financial issues such as supplier bankruptcy, information technology failures, and hazards such as fire, earthquakes, flooding, or other natural disasters. For example, during 2022 and 2023 we experienced the following supply chain issues, due to economic, political and other factors largely beyond our control: increased input material costs and component shortages; supply chain disruptions and delays and cost inflation. In addition, some of our subcontractors have experienced supply chain and labor disruptions, which have and could in the future impact our ability to timely complete projects and convert our backlog. Such disruptions have and could in the future interrupt our ability to manufacture or obtain certain products and components, thereby adversely impacting our ability to provide products to customers and realize expected profit margins. We could experience the reoccurrence of similar or new disruptions in the future, the effect of which will depend on our ability to successfully mitigate the impact of these disruptions. Any such disruption could materially and adversely affect our business, financial condition, results of operations and cash flows.\",\"rationale\":\"The filing identifies specific imported goods and components (steel, copper, aluminum, semiconductors, electronic components) sourced globally and details substantial supply chain disruptions and risks that have materially affected operations and costs. This indicates substantial reliance on imports and overseas suppliers that could materially affect costs or operations, supporting a score of 3. There is no indication that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so score 4 is not supported.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36078,
+    "output_tokens": 451,
+    "cost_usd": 0.015152800000000001
+  }
+}

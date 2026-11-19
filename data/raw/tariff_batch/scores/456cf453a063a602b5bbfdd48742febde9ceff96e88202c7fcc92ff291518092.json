@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2b7cba79a11d51c7c011f69b220584555a798d804c1da85d5b60a17a4bdedbea",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:23:58.119311+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3c05f6703f920b57a5071deb1ce32868",
+    "output_text": "{\"score\":0,\"evidence\":\"IQVIA is a leading global provider of clinical research services, commercial insights and healthcare intelligence to the life sciences and healthcare industries.\",\"rationale\":\"The filing describes IQVIA as a provider of clinical research services and healthcare intelligence, focusing on data, analytics, and technology solutions. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is service-oriented and information-based rather than manufacturing or goods-based. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 44173,
+    "output_tokens": 117,
+    "cost_usd": 0.0178564
+  }
+}

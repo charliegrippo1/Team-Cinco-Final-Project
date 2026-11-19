@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ESS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:47.431188+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ESS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 770995800,
+            "regularMarketTime": 1795035704,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 273.86,
+            "regularMarketChangePercent": 1.055,
+            "fulldayPrice": 273.86,
+            "fulldayChange": 2.86,
+            "fulldayChangePercent": 1.055,
+            "fiftyTwoWeekHigh": 303.35,
+            "fiftyTwoWeekLow": 238.46,
+            "regularMarketDayHigh": 274.04,
+            "regularMarketDayLow": 267.95,
+            "regularMarketVolume": 552797,
+            "longName": "Essex Property Trust, Inc.",
+            "shortName": "Essex Property Trust, Inc.",
+            "chartPreviousClose": 305.51,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  302.42999267578125,
+                  292.5899963378906,
+                  270.92999267578125
+                ],
+                "volume": [
+                  516000,
+                  627200,
+                  686900
+                ],
+                "high": [
+                  308.5199890136719,
+                  307.0,
+                  289.9100036621094
+                ],
+                "close": [
+                  307.20001220703125,
+                  294.3500061035156,
+                  271.0299987792969
+                ],
+                "open": [
+                  304.1300048828125,
+                  305.3699951171875,
+                  288.3800048828125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  289.993896484375,
+                  277.8636169433594,
+                  255.8497314453125
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8cb9b84c41e94295dac454b454a5adc7dd9d19e8bea97fd3c952496e03fa1bfd",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:03:10.893034+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5fadcd2280a89b2e6841139c5cc22bc8",
+    "output_text": "{\"score\":3,\"evidence\":\"Other than for certain of our RFFE modules and RF filter products, QCT utilizes a fabless production model, which means that we do not own or operate foundries for the production of silicon wafers from which our integrated circuits are made. Therefore, we primarily rely on third parties to perform the manufacturing and assembly, and most of the testing, of our integrated circuits based primarily on our proprietary designs and test programs. Our suppliers also are responsible for the procurement of most of the raw materials used in the production of our integrated circuits. Integrated circuits are die cut from silicon wafers that have completed the package assembly and test manufacturing processes. The semiconductor package supports the electrical contacts that connect the integrated circuit to a circuit board. Die cut from silicon wafers are the essential components of all our integrated circuits and a significant portion of the total integrated circuit cost. We employ both turnkey and two-stage manufacturing models to purchase our integrated circuits. Under the turnkey model, our foundry suppliers are responsible for delivering fully assembled and tested integrated circuits. Under the two-stage manufacturing model, we purchase die in singular or wafer form from semiconductor manufacturing foundries and contract with separate third parties for manufacturing services such as wafer bump, probe, assembly and the majority of our final test requirements. The primary foundry suppliers for our various digital, analog/mixed-signal, RF and PM integrated circuits include Taiwan Semiconductor Manufacturing Company (TSMC), Global Foundries, Samsung Electronics and Semiconductor Manufacturing International Corporation (SMIC). Our primary semiconductor assembly and test suppliers are Advanced Semiconductor Engineering, Amkor Technology, Siliconware Precision Industries and STATSChipPAC. The majority of our foundry and semiconductor assembly and test suppliers are located in the Asia-Pacific region.\",\"rationale\":\"The filing identifies specific overseas suppliers and foundries (TSMC, Global Foundries, Samsung, SMIC) and assembly/test suppliers primarily located in the Asia-Pacific region, indicating substantial reliance on overseas manufacturing and suppliers that could materially affect costs or operations. The fabless model with third-party foundries and assembly in Asia-Pacific is central to the business, but not all products are made overseas (some RFFE modules and RF filter products are internally fabricated). This supports a score of 3 rather than 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42385,
+    "output_tokens": 456,
+    "cost_usd": 0.0176836
+  }
+}

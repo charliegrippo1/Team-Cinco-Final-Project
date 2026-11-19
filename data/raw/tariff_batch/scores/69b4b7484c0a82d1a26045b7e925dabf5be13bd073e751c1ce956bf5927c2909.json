@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3b992b3b6a3dffb30c83196511d16ea662f9f646a72381962d9be6f596d9fdf6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:29:10.340594+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b912be38cc6f47e330c26186a910f7d4",
+    "output_text": "{\"score\":0,\"evidence\":\"Most of the supplies that we require are typically available from numerous sources at competitive prices. In addition, due to the large quantities that we purchase, we typically can obtain favorable prices for many of our supplies.\",\"rationale\":\"The filing states that most supplies are available from numerous sources at competitive prices and that the company typically obtains favorable prices due to large quantities purchased. There is no specific mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations. The text does not identify specific imported goods or overseas suppliers, nor does it indicate that imports or overseas manufacturing are central to the business. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43845,
+    "output_tokens": 149,
+    "cost_usd": 0.0177764
+  }
+}

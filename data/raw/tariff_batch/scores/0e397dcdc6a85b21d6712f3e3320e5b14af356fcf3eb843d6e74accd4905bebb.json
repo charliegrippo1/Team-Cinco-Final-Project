@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bb0e1bb24e76e4c5ef99ebe07f57a209600d4bdde1379000344c5492de9eab7b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:47:23.027054+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "08449a2f499350e1d5a038dc7067eae0",
+    "output_text": "{\"score\":0,\"evidence\":\"We provide a global data center platform that supports our customers’ digital infrastructure and enables our customers to interconnect with their customers and partners.\",\"rationale\":\"The filing describes the company as a global data center provider focusing on real estate and technology services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is centered on owning and operating data centers worldwide, not on manufacturing or importing physical goods. There is no specific operational dependence on imports or overseas manufacturing identified.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 55071,
+    "output_tokens": 109,
+    "cost_usd": 0.022202800000000005
+  }
+}

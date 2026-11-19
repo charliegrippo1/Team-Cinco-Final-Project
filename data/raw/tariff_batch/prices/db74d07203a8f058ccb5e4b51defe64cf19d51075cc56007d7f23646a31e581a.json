@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:21.325909+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "KKR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1279200600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 93.68,
+            "regularMarketChangePercent": -0.868,
+            "fulldayPrice": 93.68,
+            "fulldayChange": -0.82,
+            "fulldayChangePercent": -0.868,
+            "fiftyTwoWeekHigh": 144.84,
+            "fiftyTwoWeekLow": 82.67,
+            "regularMarketDayHigh": 94.96,
+            "regularMarketDayLow": 93.33,
+            "regularMarketVolume": 4320127,
+            "longName": "KKR & Co. Inc.",
+            "shortName": "KKR & Co. Inc.",
+            "chartPreviousClose": 117.84,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  121.6500015258789,
+                  111.75,
+                  97.0999984741211
+                ],
+                "low": [
+                  114.97000122070312,
+                  101.83999633789062,
+                  88.76000213623047
+                ],
+                "close": [
+                  120.9000015258789,
+                  102.55000305175781,
+                  92.79000091552734
+                ],
+                "volume": [
+                  4058600,
+                  13841800,
+                  19028000
+                ],
+                "open": [
+                  114.97000122070312,
+                  111.12000274658203,
+                  96.75
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  119.68645477294922,
+                  101.52064514160156,
+                  91.85861206054688
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

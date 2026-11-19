@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/WAB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:37.351105+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "WAB",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 803309400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 290.58,
+            "regularMarketChangePercent": 0.059,
+            "fulldayPrice": 290.58,
+            "fulldayChange": 0.17,
+            "fulldayChangePercent": 0.059,
+            "fiftyTwoWeekHigh": 307.96,
+            "fiftyTwoWeekLow": 194.93,
+            "regularMarketDayHigh": 293.17,
+            "regularMarketDayLow": 287.755,
+            "regularMarketVolume": 821010,
+            "longName": "Westinghouse Air Brake Technologies Corporation",
+            "shortName": "Westinghouse Air Brake Technolo",
+            "chartPreviousClose": 183.66,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  185.91000366210938,
+                  173.5800018310547,
+                  160.9499969482422
+                ],
+                "volume": [
+                  727000,
+                  1217500,
+                  1372300
+                ],
+                "high": [
+                  186.5399932861328,
+                  180.7899932861328,
+                  166.41000366210938
+                ],
+                "open": [
+                  180.97999572753906,
+                  178.72000122070312,
+                  166.41000366210938
+                ],
+                "low": [
+                  180.97999572753906,
+                  173.42999267578125,
+                  158.5399932861328
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  184.57557678222656,
+                  172.33407592773438,
+                  159.7947540283203
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

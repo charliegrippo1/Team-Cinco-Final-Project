@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SWKS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:58.648076+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "SWKS",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 463411800,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 82.43,
+            "regularMarketChangePercent": -4.073,
+            "fulldayPrice": 82.878,
+            "fulldayChange": -3.052,
+            "fulldayChangePercent": -3.552,
+            "fiftyTwoWeekHigh": 93.24,
+            "fiftyTwoWeekLow": 51.93,
+            "regularMarketDayHigh": 86.65,
+            "regularMarketDayLow": 82.26,
+            "regularMarketVolume": 2733243,
+            "longName": "Skyworks Solutions, Inc.",
+            "shortName": "Skyworks Solutions, Inc.",
+            "chartPreviousClose": 64.62,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  65.56999969482422,
+                  62.33000183105469,
+                  56.16999816894531
+                ],
+                "close": [
+                  64.80000305175781,
+                  56.7599983215332,
+                  52.779998779296875
+                ],
+                "low": [
+                  63.58000183105469,
+                  56.75,
+                  52.040000915527344
+                ],
+                "volume": [
+                  2025800,
+                  6468600,
+                  5965600
+                ],
+                "open": [
+                  63.599998474121094,
+                  62.06999969482422,
+                  56.130001068115234
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  61.55734634399414,
+                  53.91967010498047,
+                  50.138832092285156
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

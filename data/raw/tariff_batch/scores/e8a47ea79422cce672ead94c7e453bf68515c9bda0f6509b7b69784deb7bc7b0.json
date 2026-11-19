@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "fb46f6b0a580c69d55b3693bfc28503bd9855681d48be7f08407516ba69ce677",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:07:25.881652+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5501d31d96ecf8f2c0a6b8abccb351c1",
+    "output_text": "{\"score\":3,\"evidence\":\"Since that time, we have imported ammonia for upgrade into AN and other nitrogen products at the Billingham facility.\",\"rationale\":\"The filing states that ammonia production was idled at the Billingham facility in the UK and since then, ammonia has been imported for upgrading into ammonium nitrate and other products. This indicates substantial reliance on imported ammonia for production at this facility, which could materially affect costs or operations. The mention of imports for upgrading supports a score of 3, reflecting substantial reliance on imports that materially affect operations. China is not specifically mentioned in this context.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 52372,
+    "output_tokens": 122,
+    "cost_usd": 0.021144000000000003
+  }
+}

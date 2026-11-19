@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8e94b0bb26f1b960822343eb8d8cc5300c9f590deb900b2cb06f57877011b2a8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:42:43.421958+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fa801488b585832dffa1779a70ad2c2b",
+    "output_text": "{\"score\":0,\"evidence\":\"Essex is a self-administered and self-managed REIT that acquires, develops, redevelops, and manages apartment communities in selected residential areas located on the West Coast of the United States.\",\"rationale\":\"The filing describes Essex as a real estate investment trust focused on apartment communities on the U.S. West Coast, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of reliance on imports or overseas manufacturing in the business operations or supply chain.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30989,
+    "output_tokens": 112,
+    "cost_usd": 0.0125748
+  }
+}

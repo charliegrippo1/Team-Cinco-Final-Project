@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/KMX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:56.835334+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "KMX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 855066600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 51.0,
+            "regularMarketChangePercent": 1.533,
+            "fulldayPrice": 51.094,
+            "fulldayChange": 0.864,
+            "fulldayChangePercent": 1.721,
+            "fiftyTwoWeekHigh": 65.28,
+            "fiftyTwoWeekLow": 32.75,
+            "regularMarketDayHigh": 51.65,
+            "regularMarketDayLow": 49.35,
+            "regularMarketVolume": 2252784,
+            "longName": "CarMax, Inc.",
+            "shortName": "CarMax Inc",
+            "chartPreviousClose": 78.88,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  82.79000091552734,
+                  80.16999816894531,
+                  77.36000061035156
+                ],
+                "open": [
+                  78.04000091552734,
+                  79.29000091552734,
+                  74.23999786376953
+                ],
+                "low": [
+                  77.6500015258789,
+                  76.13999938964844,
+                  72.16000366210938
+                ],
+                "close": [
+                  82.7699966430664,
+                  76.45999908447266,
+                  75.72000122070312
+                ],
+                "volume": [
+                  4015200,
+                  4514400,
+                  3650400
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  82.7699966430664,
+                  76.45999908447266,
+                  75.72000122070312
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

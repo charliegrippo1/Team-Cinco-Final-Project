@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/EOG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:22.125955+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "EOG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 623511000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 149.69,
+            "regularMarketChangePercent": -3.37,
+            "fulldayPrice": 149.69,
+            "fulldayChange": -5.22,
+            "fulldayChangePercent": -3.37,
+            "fiftyTwoWeekHigh": 165.93,
+            "fiftyTwoWeekLow": 101.59,
+            "regularMarketDayHigh": 155.05,
+            "regularMarketDayLow": 149.43,
+            "regularMarketVolume": 3138449,
+            "longName": "EOG Resources, Inc.",
+            "shortName": "EOG Resources, Inc.",
+            "chartPreviousClose": 129.3,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  128.27999877929688,
+                  119.47000122070312,
+                  109.19999694824219
+                ],
+                "close": [
+                  129.97000122070312,
+                  119.88999938964844,
+                  110.55000305175781
+                ],
+                "high": [
+                  130.41000366210938,
+                  125.29000091552734,
+                  116.61000061035156
+                ],
+                "open": [
+                  128.27999877929688,
+                  122.73999786376953,
+                  115.58000183105469
+                ],
+                "volume": [
+                  1827400,
+                  5530300,
+                  8834600
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  122.61780548095703,
+                  113.1080093383789,
+                  104.2963638305664
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

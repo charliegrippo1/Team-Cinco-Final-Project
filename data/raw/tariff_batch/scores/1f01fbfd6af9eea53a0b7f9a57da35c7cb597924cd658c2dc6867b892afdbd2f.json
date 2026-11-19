@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cb0dab7f124d168eea308ce11fa1f52e581a3318f97d398139f19b98638bad16",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:32:54.900497+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6ded78dbbe7283c939ef21d7aaee137e",
+    "output_text": "{\"score\":0,\"evidence\":\"GoDaddy is a global leader serving a large market of entrepreneurs, developing and delivering easy-to-use solutions as a one-stop shop provider, alongside personalized guidance.\",\"rationale\":\"The filing describes GoDaddy as a provider of digital solutions and services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software, domain registration, hosting, and online commerce tools, which do not indicate reliance on physical imports or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing identified, nor are tariffs or trade restrictions discussed as operational risks. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 56872,
+    "output_tokens": 142,
+    "cost_usd": 0.022976000000000003
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/RSG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:28.143917+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "RSG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 899299800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 249.16,
+            "regularMarketChangePercent": -1.491,
+            "fulldayPrice": 249.16,
+            "fulldayChange": -3.77,
+            "fulldayChangePercent": -1.491,
+            "fiftyTwoWeekHigh": 256.79,
+            "fiftyTwoWeekLow": 196.41,
+            "regularMarketDayHigh": 252.24,
+            "regularMarketDayLow": 249.09,
+            "regularMarketVolume": 1204888,
+            "longName": "Republic Services, Inc.",
+            "shortName": "Republic Services, Inc.",
+            "chartPreviousClose": 243.72,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  240.33999633789062,
+                  241.86000061035156,
+                  235.07000732421875
+                ],
+                "close": [
+                  244.82000732421875,
+                  248.44000244140625,
+                  235.4199981689453
+                ],
+                "volume": [
+                  1866600,
+                  2745400,
+                  3157700
+                ],
+                "high": [
+                  245.0,
+                  249.72999572753906,
+                  249.0800018310547
+                ],
+                "open": [
+                  241.64999389648438,
+                  244.82000732421875,
+                  247.0
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  240.6753692626953,
+                  244.23406982421875,
+                  231.4344940185547
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

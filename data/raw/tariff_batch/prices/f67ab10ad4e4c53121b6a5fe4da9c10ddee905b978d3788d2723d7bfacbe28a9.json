@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/F?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:33.156674+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "F",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 76253400,
+            "regularMarketTime": 1795035639,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 11.28,
+            "regularMarketChangePercent": -0.529,
+            "fulldayPrice": 11.288,
+            "fulldayChange": -0.052,
+            "fulldayChangePercent": -0.454,
+            "fiftyTwoWeekHigh": 17.78,
+            "fiftyTwoWeekLow": 11.11,
+            "regularMarketDayHigh": 11.43,
+            "regularMarketDayLow": 11.23,
+            "regularMarketVolume": 36704727,
+            "longName": "Ford Motor Company",
+            "shortName": "Ford Motor Company",
+            "chartPreviousClose": 9.94,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  136908500,
+                  220271000,
+                  177466200
+                ],
+                "close": [
+                  10.149999618530273,
+                  9.539999961853027,
+                  9.579999923706055
+                ],
+                "high": [
+                  10.270000457763672,
+                  10.199999809265137,
+                  9.729999542236328
+                ],
+                "open": [
+                  9.84000015258789,
+                  9.989999771118164,
+                  9.319999694824219
+                ],
+                "low": [
+                  9.819999694824219,
+                  9.529999732971191,
+                  9.199999809265137
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  9.318724632263184,
+                  8.758683204650879,
+                  8.79540729522705
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "59394891d543ec6a59c2f574133b245246dba1e76ec8bb2dd656a026a62ea9a8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:04:28.489991+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c4171a0026d02e3f809d9c2ab2adb5d2",
+    "output_text": "{\"score\":0,\"evidence\":\"Our Company\\n\\nVerisk is a leading data, analytics, and technology provider serving clients in the insurance ecosystem. Using advanced technologies to collect and analyze billions of records, we draw on unique data assets, insurance industry knowledge, and technological expertise to provide valuable solutions that are integrated into client workflows.\",\"rationale\":\"The filing describes Verisk as a data, analytics, and technology provider primarily serving the insurance industry, focusing on software, data, and analytics solutions. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model is based on proprietary data and software solutions rather than physical goods or manufacturing, and no specific foreign suppliers or imports are identified. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34690,
+    "output_tokens": 166,
+    "cost_usd": 0.0141416
+  }
+}

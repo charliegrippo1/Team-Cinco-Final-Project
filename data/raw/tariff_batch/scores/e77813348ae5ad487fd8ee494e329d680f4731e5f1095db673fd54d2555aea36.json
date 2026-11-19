@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "351680d337b266a55cd12af448ed72114c88b806e7edbf9c8a71f8982ec2faed",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:12:56.967075+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4f1787154328894068d48c382fe02db1",
+    "output_text": "{\"score\":3,\"evidence\":\"We purchase many of the components, subassemblies, and raw materials used in our products from numerous suppliers worldwide. For reasons of quality assurance, scarcity and/or cost effectiveness, certain components, subassemblies, and raw materials used in our products are available only from one or a limited number of suppliers. We work closely with our suppliers to develop contingency plans to ensure continuity of quality and reliable supply. We have established long-term supply contracts with many of our suppliers, and in other instances, we developed an in-house capability to offset potential shortages caused by sole source suppliers. Due to the high standards and FDA requirements applicable to manufacturing our products, such as the FDA's Quality System Regulation and Good Manufacturing Practices, we may not be able to quickly establish additional or replacement sources for certain components or materials. In the event we are unable to obtain sufficient quantities of raw materials or components or subassemblies on commercially reasonable terms or in a timely manner, our ability to manufacture our products on a timely and cost-competitive basis may be compromised, which may have a material adverse effect on our business, financial condition and results of operations.\",\"rationale\":\"The filing identifies specific reliance on numerous worldwide suppliers for components, subassemblies, and raw materials, including sole source suppliers, and notes that inability to obtain sufficient quantities on reasonable terms or timely manner could materially affect manufacturing and operations. Overseas manufacturing locations are mentioned (Costa Rica and the UK), and supply chain risks are highlighted. This indicates substantial reliance on imports and overseas manufacturing that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42114,
+    "output_tokens": 325,
+    "cost_usd": 0.017365600000000002
+  }
+}

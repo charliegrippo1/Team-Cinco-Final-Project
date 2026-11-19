@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e4ac5596b56c838efdeee62fd0e9fb7cf29ffaab3d5096bca797bca581c19510",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:39:30.480855+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "62837635239634f8627a9cd94ca19154",
+    "output_text": "{\"score\":1,\"evidence\":\"Changes in trade policy, including the imposition of tariffs or the impacts of retaliatory tariffs;\",\"rationale\":\"The filing mentions changes in trade policy and tariffs as general risks without identifying specific imported goods, foreign-made inputs, or overseas suppliers, indicating only general risk awareness rather than operational dependence on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 68611,
+    "output_tokens": 73,
+    "cost_usd": 0.0275612
+  }
+}

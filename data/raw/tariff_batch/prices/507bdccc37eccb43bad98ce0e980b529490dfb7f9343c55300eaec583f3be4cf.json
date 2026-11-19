@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DOV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:42.994905+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DOV",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 202.69,
+            "regularMarketChangePercent": -0.163,
+            "fulldayPrice": 202.69,
+            "fulldayChange": -0.33,
+            "fulldayChangePercent": -0.163,
+            "fiftyTwoWeekHigh": 237.54,
+            "fiftyTwoWeekLow": 177.87,
+            "regularMarketDayHigh": 204.3,
+            "regularMarketDayLow": 201.555,
+            "regularMarketVolume": 894401,
+            "longName": "Dover Corporation",
+            "shortName": "Dover Corporation",
+            "chartPreviousClose": 176.47,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  172.77000427246094,
+                  162.22999572753906,
+                  150.60000610351562
+                ],
+                "volume": [
+                  870700,
+                  1320600,
+                  1607800
+                ],
+                "high": [
+                  179.5,
+                  172.2899932861328,
+                  158.44000244140625
+                ],
+                "open": [
+                  174.10000610351562,
+                  169.89999389648438,
+                  157.9600067138672
+                ],
+                "close": [
+                  179.02000427246094,
+                  162.72999572753906,
+                  153.5500030517578
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  176.1920928955078,
+                  160.159423828125,
+                  151.12445068359375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

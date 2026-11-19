@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "60e7d163435cf0d900f3d1163172b6a5bbe2af92f87a69b3969c6c3caac7e884",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:37:07.351828+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c926777b3935e03cd99ad95c6afa9870",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a premier consumer financial services company delivering one of the industry's most complete digitally-enabled product suites.\",\"rationale\":\"The filing describes a financial services company focused on consumer credit products and digital capabilities, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is centered on financial products and services, not physical goods or manufacturing, and no specific operational dependence on imports or overseas suppliers is identified.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 52464,
+    "output_tokens": 95,
+    "cost_usd": 0.021137600000000003
+  }
+}

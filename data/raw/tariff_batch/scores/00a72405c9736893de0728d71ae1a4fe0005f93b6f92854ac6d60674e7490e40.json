@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "419219a5be4773742d397763610a44ef9ce03ac96aca845cd9a5ab150e5d60ae",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:17:29.651207+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9299ef673759ba95f687f77f55529b04",
+    "output_text": "{\"score\":4,\"evidence\":\"Our main manufacturing facilities for ResMed-branded products are located in Tuas, Singapore; Sydney, Australia; Chatsworth, California; Johor Bahru, Malaysia; and Atlanta, Georgia. The principal factory for our Curative-branded products is in Suzhou, China. Our Narval-branded products are manufactured in Lyon, France.\",\"rationale\":\"The filing states that the company operates multiple main manufacturing facilities globally, including in Singapore, Australia, Malaysia, and China, with the principal factory for one brand located in Suzhou, China. This indicates that imports and overseas manufacturing are central to the business, with most products or critical inputs dependent on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 50176,
+    "output_tokens": 143,
+    "cost_usd": 0.020299200000000003
+  }
+}

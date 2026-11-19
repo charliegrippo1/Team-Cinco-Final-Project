@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "db4748ec50118ad01d924d203e583e54c0f3e4c2c38294ffed0df745c1c96c89",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:39:49.788908+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c898ade2a32e68ad132cfcdb519971ba",
+    "output_text": "```json\n{\n  \"score\": 4,\n  \"evidence\": \"Nearly all of our footwear and apparel products are manufactured outside the United States by independent contract manufacturers (\\\"contract manufacturers\\\"), many of which operate multiple factories. As of May 31, 2024, our contract manufacturers operated 96 finished goods footwear factories located in 11 countries. For fiscal 2024, NIKE Brand footwear finished goods were manufactured by 15 contract manufacturers, many of which operate multiple factories. The largest single finished goods footwear factory accounted for approximately 9% of total fiscal 2024 NIKE Brand footwear production. For fiscal 2024, factories in Vietnam, Indonesia and China manufactured approximately 50%, 27% and 18% of total NIKE Brand footwear, respectively. For fiscal 2024, four footwear contract manufacturers each accounted for greater than 10% of footwear production and in the aggregate accounted for approximately 57% of NIKE Brand footwear production. As of May 31, 2024, our contract manufacturers operated 285 finished goods apparel factories located in 33 countries. For fiscal 2024, NIKE Brand apparel finished goods were manufactured by 68 contract manufacturers, many of which operate multiple factories. The largest single finished goods apparel factory accounted for approximately 9% of total fiscal 2024 NIKE Brand apparel production. For fiscal 2024, factories in Vietnam, China and Cambodia manufactured approximately 28%, 16% and 15% of total NIKE Brand apparel, respectively.\",\n  \"rationale\": \"The filing explicitly states that nearly all footwear and apparel products are manufactured outside the U.S. by independent contractors, with a substantial portion produced in Vietnam, Indonesia, China, and Cambodia. Multiple factories and contract manufacturers are involved, with significant shares of production concentrated in these overseas locations. This indicates that imports and overseas manufacturing are central to the business, with most products dependent on these arrangements, justifying the highest dependence score of 4.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40926,
+    "output_tokens": 405,
+    "cost_usd": 0.0170184
+  }
+}

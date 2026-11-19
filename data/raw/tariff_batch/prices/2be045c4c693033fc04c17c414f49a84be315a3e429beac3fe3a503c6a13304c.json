@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MOS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:00.706822+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MOS",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 570205800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 19.93,
+            "regularMarketChangePercent": -3.905,
+            "fulldayPrice": 19.927,
+            "fulldayChange": -0.813,
+            "fulldayChangePercent": -3.919,
+            "fiftyTwoWeekHigh": 32.25,
+            "fiftyTwoWeekLow": 16.99,
+            "regularMarketDayHigh": 20.595,
+            "regularMarketDayLow": 19.71,
+            "regularMarketVolume": 9743871,
+            "longName": "The Mosaic Company",
+            "shortName": "Mosaic Company (The)",
+            "chartPreviousClose": 26.8,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  26.520000457763672,
+                  26.59000015258789,
+                  25.010000228881836
+                ],
+                "open": [
+                  26.25,
+                  25.399999618530273,
+                  24.969999313354492
+                ],
+                "low": [
+                  26.0,
+                  25.270000457763672,
+                  22.690000534057617
+                ],
+                "close": [
+                  26.469999313354492,
+                  25.959999084472656,
+                  23.450000762939453
+                ],
+                "volume": [
+                  3568800,
+                  7708200,
+                  10126900
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  25.20762062072754,
+                  24.72194480895996,
+                  22.331647872924805
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

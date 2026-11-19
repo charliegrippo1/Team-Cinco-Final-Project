@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HCA?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:24.664073+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HCA",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1299767400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 476.35,
+            "regularMarketChangePercent": -4.956,
+            "fulldayPrice": 476.35,
+            "fulldayChange": -24.84,
+            "fulldayChangePercent": -4.956,
+            "fiftyTwoWeekHigh": 556.52,
+            "fiftyTwoWeekLow": 353.99,
+            "regularMarketDayHigh": 498.22,
+            "regularMarketDayLow": 473.0,
+            "regularMarketVolume": 1604238,
+            "longName": "HCA Healthcare, Inc.",
+            "shortName": "HCA Healthcare, Inc.",
+            "chartPreviousClose": 345.73,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  342.04998779296875,
+                  345.1199951171875,
+                  330.2799987792969
+                ],
+                "volume": [
+                  1249400,
+                  1946900,
+                  2518300
+                ],
+                "open": [
+                  343.9200134277344,
+                  346.3500061035156,
+                  346.5
+                ],
+                "close": [
+                  347.0299987792969,
+                  349.1400146484375,
+                  331.6499938964844
+                ],
+                "high": [
+                  348.54998779296875,
+                  353.3500061035156,
+                  348.6600036621094
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  343.3894348144531,
+                  345.47735595703125,
+                  328.1707763671875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,5 @@
+cik,company,ticker,why
+0000831001,Citigroup Inc,C,"10-K cover lists no ticker (""See Exhibit 99.01""); SPY held Citigroup common stock (CUSIP 172967424), NYSE: C"
+0000815097,Carnival Corp,CCL,"cover lists CCL and CUK; CUK is Carnival plc's ADS, the S&P 500 security is Carnival Corp common (CUSIP 143658300), NYSE: CCL"
+0000813828,Paramount Global,PARA,"cover lists PARAA (class A) and PARA (class B); SPY held the class B shares (CUSIP 92556H206)"
+0000014693,Brown-Forman Corp,BF.B,"cover prints BFA and BFB without the dot; SPY held the class B shares (CUSIP 115637209), NYSE: BF.B"

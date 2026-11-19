@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c52d4a2615c4a5dab602daa20de6f532c8dae506b2021310647855c0cac8b3ef",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:49:25.060056+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "11ff03b9b074552c7b93b71cd6e4840d",
+    "output_text": "{\"score\":0,\"evidence\":\"Mastercard is a technology company in the global payments industry. We connect consumers, financial institutions, merchants, governments, digital partners, businesses and other organizations worldwide by enabling electronic payments and making those payment transactions secure, simple, smart and accessible.\",\"rationale\":\"The filing describes Mastercard as a technology company operating a global payments network and providing payment solutions and services. It does not mention any dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model is centered on electronic payments infrastructure and services rather than physical goods or manufacturing. Therefore, there is little or no meaningful dependence on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40374,
+    "output_tokens": 132,
+    "cost_usd": 0.0163608
+  }
+}

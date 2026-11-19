@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5f7f1201dbc48ac8e15fd6588ed69e7510d37ae5d51280589298da04756fae0a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:03:26.433243+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ef8559dbc7bbada59928c7e84f5fca94",
+    "output_text": "{\"score\": \"3\", \"evidence\": \"ExxonMobil has a diverse growth portfolio of exploration and development opportunities, which allows the Corporation to be selective in our investments, maximizing shareholder value and mitigating political and technical risks. ExxonMobil’s competitive strengths enable the Upstream’s business strategy, which is focused on developing an industry-leading portfolio underpinned by advantaged growth projects, applying ExxonMobil’s technology to enhance value and improve development efficiency, and leveraging the unique capabilities of the Company's global projects organization to deliver projects on time and in line with budgets. The Upstream capital program is focused on low cost-of-supply opportunities. ExxonMobil has a strong pipeline of development projects, including continued growth in Guyana and the Permian Basin, as well as LNG expansion opportunities in Qatar, Mozambique, Papua New Guinea, and the United States. As future development projects and drilling activities bring new production online, the Corporation expects a shift in the geographic mix and in the type of opportunities from which volumes are produced. Based on the current investment plans, the proportion of oil-equivalent production from the Americas is generally expected to increase over the next several years. Currently about two thirds of the Corporation's global production comes from unconventional, deepwater, and LNG resources. This proportion is generally expected to grow.\", \"rationale\": \"The filing identifies specific overseas suppliers and manufacturing locations, including LNG projects in Qatar, Mozambique, Papua New Guinea, and the United States, and significant production from Guyana and deepwater resources. It states that about two thirds of global production comes from unconventional, deepwater, and LNG resources, with this proportion expected to grow. This indicates substantial reliance on overseas production and foreign-made inputs that could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31503,
+    "output_tokens": 357,
+    "cost_usd": 0.0131724
+  }
+}

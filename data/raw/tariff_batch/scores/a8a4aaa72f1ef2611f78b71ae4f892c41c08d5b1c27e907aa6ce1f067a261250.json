@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "23b3dba0abd34043bed26b806917ec0551001c0458b2ea053fbebd894520e480",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:55:04.039704+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2b24660402c49ba73f39ed6d3ddbd0f6",
+    "output_text": "{\"score\":0,\"evidence\":\"Exelon is a utility services holding company engaged in the energy transmission and distribution businesses through its subsidiaries, ComEd, PECO, BGE, Pepco, DPL, and ACE.\",\"rationale\":\"The filing describes Exelon as a utility services holding company focused on energy transmission and distribution through its subsidiaries, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific evidence of reliance on imports or overseas manufacturing in the text provided.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 51078,
+    "output_tokens": 106,
+    "cost_usd": 0.0206008
+  }
+}

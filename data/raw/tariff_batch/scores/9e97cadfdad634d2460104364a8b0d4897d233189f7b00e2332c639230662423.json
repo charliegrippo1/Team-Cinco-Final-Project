@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "232b4eb489186ddc031ae039db60206d5a1d404cc31e607cb052ac614a656afa",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:12:43.529214+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "78bab2271d8d68343d77f3341f08f49f",
+    "output_text": "{\"score\":0,\"evidence\":\"Generally, the construction materials used in our operations have been readily available from numerous sources, and we have contracts exceeding one year with certain suppliers of building materials that are cancelable at our option.\",\"rationale\":\"The filing states that construction materials are readily available from numerous sources and does not identify specific imported goods, foreign-made inputs, or overseas suppliers. There is no indication that imports or overseas manufacturing are central or substantially relied upon. Tariffs and trade restrictions are mentioned only as general risks without specific operational dependence. Therefore, the filing supports little or no meaningful dependence on imported physical goods, foreign-made inputs, or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39878,
+    "output_tokens": 133,
+    "cost_usd": 0.016164
+  }
+}

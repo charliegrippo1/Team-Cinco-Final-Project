@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "671c51d33558513df0bb419134268c022924222852100bd1e1118e4194974499",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:01:34.456788+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9a637244b2218d08cdc6ef0fa53dedfd",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"In addition, many of our employees, contract manufacturers, suppliers, job functions, outsourcing activities and manufacturing facilities are located outside the U.S. Accordingly, our future results could be harmed by a variety of factors, including: interruption to transportation flows for delivery of parts to us and finished goods to our customers; changes in a specific country's or region's political, economic, social or other conditions; changes in diplomatic and trade relationships, including new tariffs, trade protection measures, import or export licensing requirements, trade embargoes and sanctions and other trade barriers; tariffs imposed by the U.S. on goods from other countries and tariffs imposed by other countries on U.S. goods, including the tariffs adopted by the U.S. government on various imports from China and by the Chinese government on certain U.S. goods; the impact of public health emergencies, pandemics, epidemics or other health outbreaks on the global economy, such as the COVID-19 pandemic; uncertainties regarding the collectability of accounts receivable; the imposition of governmental controls; diverse data privacy and protection requirements; supply interruptions, which could disrupt our ability to produce our products; increases in materials, energy, labor or other manufacturing-related costs or higher supply chain logistics costs; negative consequences from changes in or interpretation of laws and regulations, including those related to tax and import/export; difficulty in staffing and managing widespread operations; differing labor regulations; differing protection of intellectual property; unexpected changes in regulatory requirements; and geopolitical uncertainty or turmoil, including terrorism and war.\",\n  \"rationale\": \"The filing identifies specific overseas manufacturing facilities, contract manufacturers, suppliers, and outsourcing activities located outside the U.S., and highlights risks related to tariffs, trade restrictions, supply interruptions, and geopolitical issues including China tariffs. However, it does not provide clear evidence that imports or overseas manufacturing are central to the business or that most products depend on these arrangements. The dependence is more than general risk (score 1) but lacks strong evidence of substantial reliance (score 3). Therefore, a score of 2 is appropriate.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 21841,
+    "output_tokens": 429,
+    "cost_usd": 0.0094228
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ED?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:33.445225+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ED",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 119.27,
+            "regularMarketChangePercent": 0.784,
+            "fulldayPrice": 119.27,
+            "fulldayChange": 0.927,
+            "fulldayChangePercent": 0.784,
+            "fiftyTwoWeekHigh": 122.75,
+            "fiftyTwoWeekLow": 94.96,
+            "regularMarketDayHigh": 119.56,
+            "regularMarketDayLow": 117.11,
+            "regularMarketVolume": 3751623,
+            "longName": "Consolidated Edison, Inc.",
+            "shortName": "Consolidated Edison, Inc.",
+            "chartPreviousClose": 110.06,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  110.29000091552734,
+                  112.43000030517578,
+                  114.0
+                ],
+                "low": [
+                  109.05000305175781,
+                  111.38999938964844,
+                  108.12000274658203
+                ],
+                "volume": [
+                  2015200,
+                  4175500,
+                  6395600
+                ],
+                "close": [
+                  109.58000183105469,
+                  112.72000122070312,
+                  109.31999969482422
+                ],
+                "high": [
+                  110.83999633789062,
+                  113.44999694824219,
+                  114.87000274658203
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  104.30379486083984,
+                  107.2926025390625,
+                  104.05631256103516
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

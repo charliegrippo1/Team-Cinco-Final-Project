@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0b871fbfe38f8447e97315b67fecf12a8b1f3150ef0e6115f2ee5b904214c38d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:08:09.759313+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fd1a378d3df9329d5aa367bcabc9a311",
+    "output_text": "{\"score\":3,\"evidence\":\"During 2024, Wabtec continued to execute on our value creation framework by signing several key agreements including: a multi-year Tier 4 locomotive order in North America for over $600 million, a multi-year locomotive order in Kazakhstan for over $400 million, international orders for new locomotives for $401 million across six customers, and multi-year orders for new locomotives in Africa for approximately $525 million.\",\"rationale\":\"The filing identifies substantial reliance on imported goods and overseas manufacturing through large multi-year locomotive orders in multiple international locations including Kazakhstan and Africa, indicating that overseas manufacturing and imports could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29450,
+    "output_tokens": 136,
+    "cost_usd": 0.0119976
+  }
+}

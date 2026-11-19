@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/EBAY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:36.305537+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "EBAY",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 906643800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 121.46,
+            "regularMarketChangePercent": 2.42,
+            "fulldayPrice": 121.46,
+            "fulldayChange": 2.87,
+            "fulldayChangePercent": 2.42,
+            "fiftyTwoWeekHigh": 127.74,
+            "fiftyTwoWeekLow": 78.03,
+            "regularMarketDayHigh": 122.38,
+            "regularMarketDayLow": 117.94,
+            "regularMarketVolume": 4814908,
+            "longName": "eBay Inc.",
+            "shortName": "eBay Inc.",
+            "chartPreviousClose": 67.8,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  67.01000213623047,
+                  66.22000122070312,
+                  64.68000030517578
+                ],
+                "close": [
+                  67.41999816894531,
+                  66.36000061035156,
+                  62.400001525878906
+                ],
+                "high": [
+                  68.23999786376953,
+                  68.4800033569336,
+                  65.38999938964844
+                ],
+                "volume": [
+                  4153300,
+                  5972600,
+                  8339100
+                ],
+                "low": [
+                  66.68000030517578,
+                  65.23999786376953,
+                  62.349998474121094
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  66.09899139404297,
+                  65.05976104736328,
+                  61.1773567199707
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

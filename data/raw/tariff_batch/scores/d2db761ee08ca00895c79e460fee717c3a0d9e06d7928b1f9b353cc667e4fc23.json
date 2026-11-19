@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e18ddef8868649e1558493f0cb009dd4215565f648a8c518dde76fcaf996577a",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:19:29.937337+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4ceea556dadab416e2df6192884b037e",
+    "output_text": "{\"score\":3,\"evidence\":\"We currently, have operations and manufacture product in Mexico, Brazil, India and Malaysia, primarily for consumers in these regions, and also distribute and sell confectionery products in export markets of Asia, Latin America, Middle East, Europe, Africa and other regions.\",\"rationale\":\"The filing identifies specific overseas manufacturing operations in Mexico, Brazil, India, and Malaysia, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. The mention of distribution and sales in export markets alone does not increase the score. China is not specifically mentioned as a manufacturing location, so it is not highlighted in the rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28195,
+    "output_tokens": 129,
+    "cost_usd": 0.011484400000000002
+  }
+}

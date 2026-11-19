@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "710979692fdd6196ab65ee4aabfdb3822723424afaaa3b7707361390055803b3",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:51:07.826824+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8458b93219746cacea2adbd1e9f1dbff",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"We primarily utilize contract manufacturers for the assembly of our servers used in our technical infrastructure and devices we sell. We have agreements where we may purchase components directly from suppliers and then supply these components to contract manufacturers for use in the assembly of the servers and devices.\",\n  \"rationale\": \"The filing identifies specific use of contract manufacturers for assembling servers and devices, and mentions purchasing components from suppliers, indicating dependence on imported physical goods or overseas manufacturing. However, it does not provide evidence that this dependence is substantial or central to the business, so the score is 2.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32246,
+    "output_tokens": 132,
+    "cost_usd": 0.0131096
+  }
+}

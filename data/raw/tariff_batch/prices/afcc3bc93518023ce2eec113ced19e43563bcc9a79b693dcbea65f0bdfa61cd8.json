@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:21.177760+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PH",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 918.83,
+            "regularMarketChangePercent": -0.218,
+            "fulldayPrice": 918.83,
+            "fulldayChange": -2.01,
+            "fulldayChangePercent": -0.218,
+            "fiftyTwoWeekHigh": 1099.94,
+            "fiftyTwoWeekLow": 814.25,
+            "regularMarketDayHigh": 928.72,
+            "regularMarketDayLow": 914.37,
+            "regularMarketVolume": 505113,
+            "longName": "Parker-Hannifin Corporation",
+            "shortName": "Parker-Hannifin Corporation",
+            "chartPreviousClose": 609.86,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  785400,
+                  1788800,
+                  2254800
+                ],
+                "high": [
+                  630.760009765625,
+                  584.02001953125,
+                  538.27001953125
+                ],
+                "low": [
+                  595.1900024414062,
+                  553.4000244140625,
+                  510.0
+                ],
+                "close": [
+                  628.97998046875,
+                  556.7000122070312,
+                  517.22998046875
+                ],
+                "open": [
+                  598.7999877929688,
+                  576.1099853515625,
+                  528.5800170898438
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  619.2656860351562,
+                  548.1019897460938,
+                  509.24163818359375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

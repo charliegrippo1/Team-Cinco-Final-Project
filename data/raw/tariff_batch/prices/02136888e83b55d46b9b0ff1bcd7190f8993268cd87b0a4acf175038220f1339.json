@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRTX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:16.187525+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "VRTX",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 680362200,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 536.45,
+            "regularMarketChangePercent": 0.421,
+            "fulldayPrice": 536.45,
+            "fulldayChange": 2.25,
+            "fulldayChangePercent": 0.421,
+            "fiftyTwoWeekHigh": 568.67,
+            "fiftyTwoWeekLow": 412.27,
+            "regularMarketDayHigh": 542.76,
+            "regularMarketDayLow": 531.43,
+            "regularMarketVolume": 1289011,
+            "longName": "Vertex Pharmaceuticals Incorporated",
+            "shortName": "Vertex Pharmaceuticals Incorpor",
+            "chartPreviousClose": 484.74,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  480.4200134277344,
+                  480.010009765625,
+                  473.6400146484375
+                ],
+                "close": [
+                  483.489990234375,
+                  484.010009765625,
+                  474.6199951171875
+                ],
+                "high": [
+                  487.92999267578125,
+                  494.489990234375,
+                  499.07000732421875
+                ],
+                "open": [
+                  481.6400146484375,
+                  480.010009765625,
+                  484.3500061035156
+                ],
+                "volume": [
+                  988400,
+                  2063800,
+                  2884300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  483.489990234375,
+                  484.010009765625,
+                  474.6199951171875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

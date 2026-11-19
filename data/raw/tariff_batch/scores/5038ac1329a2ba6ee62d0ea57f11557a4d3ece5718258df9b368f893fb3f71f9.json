@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "dd0ffad4f864294c33add6bf08b17b85b83cf81737e7b5c3e7d4906e2e398985",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:29:00.441227+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "59dde16a1db9044f341d37e3c39f31f1",
+    "output_text": "{\"score\":2,\"evidence\":\"During 2024, Eversource sold its interest in the North East Offshore and South Fork Class B, Member LLC equity method investments and recognized an aggregate, net after-tax loss on the sale of its offshore wind investments of $524 million.\",\"rationale\":\"The filing identifies specific foreign offshore wind projects (including South Fork Wind) in which Eversource held interests and subsequently sold in 2024, recognizing a substantial loss. This indicates specific overseas manufacturing and imported physical goods dependence related to offshore wind projects, but the evidence does not establish that such dependence is central to the business or that most products or critical inputs depend on these arrangements. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 61018,
+    "output_tokens": 145,
+    "cost_usd": 0.0246392
+  }
+}

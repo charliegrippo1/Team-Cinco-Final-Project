@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a1fb744ce8254ce4a2268a62142f5560db608d89db767760983a43c3dd0f105b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:42:15.327961+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "05ef8e1d5517efd28177b8358ab2dc34",
+    "output_text": "{\"score\":0,\"evidence\":\"Our Marketplaces operate in over 30 countries, including the United States, and account for the vast majority of our revenue today.\",\"rationale\":\"The filing describes the company as operating marketplaces in over 30 countries but does not identify any specific reliance on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is primarily a platform connecting merchants, consumers, and delivery contractors, with no mention of substantial dependence on imports or overseas manufacturing. Foreign sales alone do not increase the score. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 54579,
+    "output_tokens": 124,
+    "cost_usd": 0.022030000000000004
+  }
+}

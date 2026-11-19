@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/COR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:28.365912+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "COR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 797002200,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 348.31,
+            "regularMarketChangePercent": -0.642,
+            "fulldayPrice": 348.31,
+            "fulldayChange": -2.25,
+            "fulldayChangePercent": -0.642,
+            "fiftyTwoWeekHigh": 377.54,
+            "fiftyTwoWeekLow": 244.82,
+            "regularMarketDayHigh": 349.803,
+            "regularMarketDayLow": 344.493,
+            "regularMarketVolume": 1204991,
+            "longName": "Cencora, Inc.",
+            "shortName": "Cencora, Inc.",
+            "chartPreviousClose": 277.41,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  276.44000244140625,
+                  280.0299987792969,
+                  276.010009765625
+                ],
+                "volume": [
+                  1406600,
+                  3339400,
+                  4404500
+                ],
+                "open": [
+                  277.0899963378906,
+                  281.70001220703125,
+                  291.29998779296875
+                ],
+                "close": [
+                  279.510009765625,
+                  289.3599853515625,
+                  278.3900146484375
+                ],
+                "high": [
+                  279.79998779296875,
+                  291.8299865722656,
+                  296.6499938964844
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  275.82415771484375,
+                  285.5442810058594,
+                  274.7189636230469
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

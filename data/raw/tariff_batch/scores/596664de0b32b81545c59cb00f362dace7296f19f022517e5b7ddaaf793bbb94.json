@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "da55e0a3f409583652413b3be7e0de7cfd389ece9befc6dc9820e40a2fefad8f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:31:25.457856+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "af4bfaafeb7f192293fa8dc6bddebd3c",
+    "output_text": "{\"score\":3,\"evidence\":\"We depend on a limited international source of supply for certain products, such as large research models, including NHPs. Disruptions to their continued supply from time to time arise from colony health problems (including as a result of the spread of diseases), export or import laws/restrictions or embargoes, tariffs, inflation, international trade regulations, foreign government or economic instability, severe weather conditions, increased competition among suppliers for models, disruptions to the air travel system, activist campaigns, commercial disputes, supplier insolvency, geopolitical disputes, or other ordinary course or unanticipated events. Any disruption of supply could materially harm our business if we cannot remove the disruption or are unable to secure an alternative or secondary supply source on comparable commercial terms.\",\"rationale\":\"The filing identifies specific imported goods (large research models including non-human primates) and overseas suppliers (Noveprim in Mauritius, Cambodia suppliers) as critical to the business. It describes substantial reliance on these imports and overseas manufacturing, including supply chain disruptions, government investigations affecting Cambodia-sourced primates, and the need to secure alternative supply sources. These factors indicate that overseas manufacturing and imports could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 49796,
+    "output_tokens": 250,
+    "cost_usd": 0.020318400000000004
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8254f02ea795ec6f90fd50271290aa7dda35052212c0f8f850c3b441c02cb494",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:04:03.748665+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5ead80065ff9bec80f6a54992cbf9f8d",
+    "output_text": "```json\n{\n  \"score\": 1,\n  \"evidence\": \"Industry trends, trade conditions and competition\\n\\nWe operate in over 60 countries in the competitive global logistics industry and our activities are closely tied to the global economy. International trade is influenced by many factors, including economic and political conditions in the United States and abroad, currency exchange rates, laws and policies relating to tariffs, trade restrictions, foreign investment, and taxation. Periodically, governments consider various changes to tariffs and impose trade restrictions and accords. The United States has imposed increased tariffs on China, and is considering imposing increased tariffs on imports from Canada, Mexico, and other countries. These measures will likely face retaliatory tariffs from these countries. The potential for further tariff increases and trade restrictions remains high, creating an unpredictable environment for international trade. Additionally, changes to import and export regulations may impact the flow of trade. We cannot predict how changes in tariffs, trade restrictions, and accords will affect our business.\",\n  \"rationale\": \"The filing identifies tariffs and trade restrictions, including those involving China, as general risks that could impact international trade and the company's business environment. However, it does not specify any substantial or central operational dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The company is a logistics service provider dependent on carriers and trade flows but does not indicate substantial reliance on specific foreign inputs or manufacturing. Therefore, the score is 1, reflecting tariffs or trade restrictions as general risks without specific operational dependence.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 23858,
+    "output_tokens": 305,
+    "cost_usd": 0.010031200000000002
+  }
+}

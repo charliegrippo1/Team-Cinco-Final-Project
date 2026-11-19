@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9bc876fe612e603fcfba19003fa9917ec5754116c77208d7e4d0d4b923577b5d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:22:48.857162+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3a014854eddd564181bd39c67e23bf66",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"While not our customary practice, we also import raw materials and intermediates, particularly for use at our manufacturing facilities in the emerging regions of the world. In most cases, those imports are priced in the currency of the supplier and, therefore, if that currency strengthens against the currency of our manufacturing facility, our margins may be lower.\",\n  \"rationale\": \"The filing identifies specific imported raw materials and intermediates used at manufacturing facilities in emerging regions, indicating a reliance on imports that could materially affect costs and operations. The mention of currency impacts on margins further supports operational dependence on these imports. However, the extent of this dependence is not described as central or majority, so the score is 3 rather than higher.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 23425,
+    "output_tokens": 162,
+    "cost_usd": 0.009629200000000001
+  }
+}

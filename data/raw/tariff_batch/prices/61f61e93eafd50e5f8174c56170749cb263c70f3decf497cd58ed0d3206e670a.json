@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CNP?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:43.437048+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CNP",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 39.88,
+            "regularMarketChangePercent": 0.201,
+            "fulldayPrice": 39.88,
+            "fulldayChange": 0.08,
+            "fulldayChangePercent": 0.201,
+            "fiftyTwoWeekHigh": 45.26,
+            "fiftyTwoWeekLow": 36.37,
+            "regularMarketDayHigh": 40.41,
+            "regularMarketDayLow": 39.733,
+            "regularMarketVolume": 6918676,
+            "longName": "CenterPoint Energy, Inc.",
+            "shortName": "CenterPoint Energy, Inc (Holdin",
+            "chartPreviousClose": 36.8,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  37.0,
+                  37.060001373291016,
+                  37.2599983215332
+                ],
+                "high": [
+                  37.279998779296875,
+                  37.70000076293945,
+                  37.650001525878906
+                ],
+                "low": [
+                  36.790000915527344,
+                  37.029998779296875,
+                  35.7599983215332
+                ],
+                "close": [
+                  36.93000030517578,
+                  37.36000061035156,
+                  36.08000183105469
+                ],
+                "volume": [
+                  5692200,
+                  5208000,
+                  9470400
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  35.68645477294922,
+                  36.10198211669922,
+                  34.865074157714844
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9848dd8570e9cd9c7175216d682c40fbef6f30f674f220e31b029d1a9bd4aabf",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:16:56.590936+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f9e7b54eca63db6b4ac30b47ccdef7db",
+    "output_text": "{\"score\":0,\"evidence\":\"We provide full spectrum technical and professional solutions to clients operating in a number of sectors and industries, including programs for various national, state and local governments, including advanced manufacturing, cities & places, energy, environmental, life sciences, transportation, water and other general industrial and consumer businesses and sectors.\",\"rationale\":\"The filing describes Jacobs as a provider of consulting, planning, design, and management services across various sectors but does not identify any specific imported physical goods, foreign-made inputs, or overseas manufacturing as part of its operations. There is no mention of reliance on imports or overseas manufacturing, nor any specific suppliers or tariffs impacting operations. The business is primarily service-based, focusing on consulting and advisory solutions, with no evidence of substantial dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 46486,
+    "output_tokens": 162,
+    "cost_usd": 0.0188536
+  }
+}

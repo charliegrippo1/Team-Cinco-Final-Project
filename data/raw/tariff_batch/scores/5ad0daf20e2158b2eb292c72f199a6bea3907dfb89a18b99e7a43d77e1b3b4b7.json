@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5ed6eab452f0cd50258b43794a2742ec3c24bc0fd4793748f5fe1a47709f0978",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:11:41.557958+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d881d6babe121dba92e98ae65a62927d",
+    "output_text": "{\"score\":0,\"evidence\":\"Our corporate headquarters are located at One Independent Drive, Suite 114, Jacksonville, Florida. Regency Centers, L.P. is a subsidiary through which Regency Centers Corporation conducts substantially all of its operations, and which owns, directly or indirectly, substantially all of its assets. Our business consists of acquiring, developing, owning, and operating income-producing retail real estate principally located in suburban trade areas with compelling demographics within the United States of America (\\\"USA\\\" or \\\"United States\\\").\",\"rationale\":\"The filing describes the company's business as owning and operating retail real estate primarily in the United States, with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. It explicitly states no operations outside the U.S. and no meaningful direct international supply chain exposure. Therefore, there is little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33672,
+    "output_tokens": 178,
+    "cost_usd": 0.013753600000000001
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ROST?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:31.546576+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ROST",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 492355800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 227.64,
+            "regularMarketChangePercent": 3.262,
+            "fulldayPrice": 228.35,
+            "fulldayChange": 7.9,
+            "fulldayChangePercent": 3.584,
+            "fiftyTwoWeekHigh": 257.0,
+            "fiftyTwoWeekLow": 158.87,
+            "regularMarketDayHigh": 231.04,
+            "regularMarketDayLow": 221.13,
+            "regularMarketVolume": 2918573,
+            "longName": "Ross Stores, Inc.",
+            "shortName": "Ross Stores, Inc.",
+            "chartPreviousClose": 129.11,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  133.08999633789062,
+                  133.85000610351562,
+                  136.4199981689453
+                ],
+                "close": [
+                  132.3699951171875,
+                  131.2100067138672,
+                  130.30999755859375
+                ],
+                "low": [
+                  127.68000030517578,
+                  128.58999633789062,
+                  129.58999633789062
+                ],
+                "volume": [
+                  2137400,
+                  4055400,
+                  5570300
+                ],
+                "open": [
+                  127.69999694824219,
+                  129.86000061035156,
+                  131.39999389648438
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  130.55368041992188,
+                  129.4095916748047,
+                  128.52194213867188
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

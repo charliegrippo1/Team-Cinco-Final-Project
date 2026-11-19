@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3f952a227b7f8be38812db03b3f9201b04715750550e06258859587bd857eb22",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": true,
+  "retrieved_utc": "2026-11-19T03:25:29.127605+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2b79d11bbbf3c702770375a622216ec2",
+    "output_text": "{\"score\":3,\"evidence\":\"Much of our U.S. based residential portfolio is manufactured in the Baja region of Mexico under the Maquiladora, Manufacturing and Export Services Industry (\\\"IMMEX\\\") program.\",\"rationale\":\"The filing identifies specific overseas manufacturing in Mexico for a significant portion of the U.S. residential portfolio, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. It also mentions sourcing approximately 20-25% of cost of goods sold from Mexico and less than 5% from China, supporting material dependence on foreign manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29076,
+    "output_tokens": 114,
+    "cost_usd": 0.0118128
+  }
+}

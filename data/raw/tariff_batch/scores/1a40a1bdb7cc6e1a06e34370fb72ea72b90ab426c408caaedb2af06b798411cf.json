@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ff89ad54a88be290356a468e776647158c118a424d439503f762fbaf57bccce8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:31:30.770338+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1ad38ce6496406fbd4ede5046368f374",
+    "output_text": "{\"score\":0,\"evidence\":\"Raymond James Financial, Inc. (“RJF” or the “firm”) is a leading diversified financial services company providing private client group, capital markets, asset management, banking and other services to individuals, corporations and municipalities.\",\"rationale\":\"The filing describes Raymond James Financial, Inc. as a financial services company providing services such as investment management, banking, and advisory services. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on financial services, primarily in the U.S. and other countries, but no operational dependence on imports or overseas manufacturing is indicated.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 67316,
+    "output_tokens": 133,
+    "cost_usd": 0.027139200000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ace44a55ef2c17e0a2df56bd1ea7e66b0020676a97252ac56bb9db06820ca38e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:59:06.997291+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7f2e20d2d6f877e6eddff2d7b6406d77",
+    "output_text": "{\"score\":2,\"evidence\":\"Additionally, we have invested in domestic manufacturing capabilities for certain critical transmission and power generation components, including high- and low-voltage power transformers. We believe continuing to develop these capabilities can help alleviate certain of our customers’ supply chain constraints and improve and control project timelines, as well as potentially reduce exposure to changes in global trade relationships around such components.\",\"rationale\":\"The filing identifies specific foreign-made inputs and imported components such as power transformers and solar panels, and notes investments in domestic manufacturing to alleviate supply chain constraints. However, it does not establish that dependence on imports or overseas manufacturing is substantial or central to the business. Tariffs and trade restrictions are mentioned as general risks. Therefore, the evidence supports a score of 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 46946,
+    "output_tokens": 154,
+    "cost_usd": 0.0190248
+  }
+}

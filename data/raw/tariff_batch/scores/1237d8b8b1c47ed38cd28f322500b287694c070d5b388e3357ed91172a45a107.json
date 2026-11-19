@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a8f949957f78780ce17e8059b1ae368452afb8efcc41be604365bac28c5b6196",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:35:50.919727+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b14896a6914d4d8715560d726b40d019",
+    "output_text": "{\"score\":3,\"evidence\":\"Gulfstream designs, develops and manufactures aircraft in Savannah, Georgia, including all large-cabin models. The mid-cabin G280 is assembled by a non-U.S. partner. All models are outfitted in Gulfstream’s and Jet Aviation’s facilities.\",\"rationale\":\"The filing identifies specific foreign manufacturing involvement, notably the mid-cabin G280 assembled by a non-U.S. partner, indicating substantial reliance on overseas manufacturing that could materially affect operations. Additionally, supplier quality issues and late deliveries impacted production, further evidencing operational dependence on foreign suppliers and manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 25554,
+    "output_tokens": 122,
+    "cost_usd": 0.0104168
+  }
+}

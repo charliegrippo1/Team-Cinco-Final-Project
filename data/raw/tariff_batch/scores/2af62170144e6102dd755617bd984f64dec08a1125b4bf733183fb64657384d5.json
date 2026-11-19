@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c9a68a227707d93101945c4469def5ed938d39376fc02c0837ec57ea48c4e113",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:23:35.220704+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d1dcc75e95059876af58a2f6174f16bd",
+    "output_text": "{\"score\":3,\"evidence\":\"We have regional fabrication facilities in our main markets for clear aligners, which are located in Juarez, Mexico; Ziyang, China; and Wroclaw, Poland. We believe this allows us to better serve our global customer base by being closer to our doctor customers and driving efficiencies in the business. We produce our handheld intraoral scanner wand, perform final scanner assembly and repair our scanners at our facilities in Ziyang, China and Petah Tikva, Israel and also perform final scanner assembly in Blonie, Poland and Juarez, Mexico; as well as service and repair certain scanners in Juarez, Mexico.\",\"rationale\":\"The filing identifies specific overseas manufacturing facilities in Mexico, China, and Poland that are central to the business, including manufacturing of clear aligners and intraoral scanners. This indicates substantial reliance on overseas manufacturing that could materially affect costs or operations, justifying a score of 3. China is explicitly mentioned as a key manufacturing location.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42380,
+    "output_tokens": 204,
+    "cost_usd": 0.017278400000000003
+  }
+}

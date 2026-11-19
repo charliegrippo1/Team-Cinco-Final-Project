@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a75c44c8cb1af9dbe2f9792d0f4ff6e7760fcce7cfa310a29c57858f00c53f95",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:50:52.227626+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a504eb0877c23eac1abe36b3f41eb9ee",
+    "output_text": "```json\n{\n  \"score\": 0,\n  \"evidence\": \"Realty Income (NYSE: O), an S&P 500 company, is real estate partner to the world's leading companies. Founded in 1969, we invest in diversified commercial real estate and as of December 31, 2024, have a portfolio of over 15,600 properties in all 50 states of the United States (\\\"U.S.\\\"), the United Kingdom (\\\"U.K.\\\"), and six other countries in Europe.\",\n  \"rationale\": \"The filing describes Realty Income as a real estate investment trust owning properties primarily in the U.S., U.K., and Europe, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on leasing real estate, not on manufacturing or importing goods. There is no specific operational dependence on imports or overseas manufacturing identified. Therefore, the score is 0.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38071,
+    "output_tokens": 195,
+    "cost_usd": 0.015540400000000001
+  }
+}

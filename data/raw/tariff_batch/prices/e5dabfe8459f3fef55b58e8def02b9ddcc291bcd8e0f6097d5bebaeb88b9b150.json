@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:54.008102+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AVY",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 187.84,
+            "regularMarketChangePercent": 1.382,
+            "fulldayPrice": 187.84,
+            "fulldayChange": 2.56,
+            "fulldayChangePercent": 1.382,
+            "fiftyTwoWeekHigh": 199.54,
+            "fiftyTwoWeekLow": 152.42,
+            "regularMarketDayHigh": 188.67,
+            "regularMarketDayLow": 181.8,
+            "regularMarketVolume": 724286,
+            "longName": "Avery Dennison Corporation",
+            "shortName": "Avery Dennison Corporation",
+            "chartPreviousClose": 179.56,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  177.69000244140625,
+                  173.88999938964844,
+                  168.77000427246094
+                ],
+                "close": [
+                  180.5800018310547,
+                  176.33999633789062,
+                  170.25
+                ],
+                "volume": [
+                  424800,
+                  1197400,
+                  1781100
+                ],
+                "high": [
+                  180.66000366210938,
+                  178.2899932861328,
+                  174.91000366210938
+                ],
+                "open": [
+                  177.7899932861328,
+                  176.5800018310547,
+                  173.6300048828125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  174.6460723876953,
+                  170.54539489746094,
+                  164.65548706054688
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c8562fcfe16a63934aaf5bca9dcdbe06d542e60e928b96d804c108fd9a6d56d8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:18:56.943866+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "43a328d19cfa8a0a37d05125cd924395",
+    "output_text": "{\"score\":3,\"evidence\":\"Our principal manufacturing activities occur in the U.S., Singapore, Israel, Germany, United Kingdom, Italy and China. Our supply chain strategy incorporates considerations for ethical labor practices, responsible minerals sourcing, and Responsible Business Alliance and SEMI guidelines, and there are increasing regulatory expectations on the environmental, social and/or geographic provenance of materials or components that may at times require us to incorporate further such considerations to our supply chain strategy.\",\"rationale\":\"The filing identifies multiple overseas manufacturing locations including China and other countries, indicating substantial reliance on overseas manufacturing. It also discusses supply chain strategies and regulatory expectations related to materials sourcing, implying that imported physical goods and foreign-made inputs are significant to operations. This level of detail supports a score of 3, reflecting substantial reliance on imports and overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 44518,
+    "output_tokens": 170,
+    "cost_usd": 0.018079200000000004
+  }
+}

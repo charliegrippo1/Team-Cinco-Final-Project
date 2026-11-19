@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "35723de816a10811a09e593c9cfddfca4ab6c9fcf24681e81e1c15f9df92befc",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:22:05.236114+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d1f09360a0acb30dde737e0cf2edf985",
+    "output_text": "{\"score\":3,\"evidence\":\"We have suppliers located outside the United States, including third-party packaging, assembly, and test facilities and semiconductor foundries located in the Asia-Pacific region. We also operate our own wafer processing facilities in Osaka, Japan, as well as packaging, assembly, and test facilities in Singapore and in Mexicali, Mexico.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations and third-party suppliers outside the U.S., including wafer processing in Japan and packaging/assembly/test in Singapore and Mexico, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 25057,
+    "output_tokens": 120,
+    "cost_usd": 0.0102148
+  }
+}

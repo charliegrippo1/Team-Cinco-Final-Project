@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AIG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:27.092955+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AIG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 94833000,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 80.62,
+            "regularMarketChangePercent": -0.788,
+            "fulldayPrice": 80.62,
+            "fulldayChange": -0.64,
+            "fulldayChangePercent": -0.788,
+            "fiftyTwoWeekHigh": 87.29,
+            "fiftyTwoWeekLow": 71.25,
+            "regularMarketDayHigh": 81.42,
+            "regularMarketDayLow": 80.37,
+            "regularMarketVolume": 3143106,
+            "longName": "American International Group, Inc.",
+            "shortName": "American International Group, I",
+            "chartPreviousClose": 86.81,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  86.0199966430664,
+                  86.0,
+                  84.16999816894531
+                ],
+                "high": [
+                  88.06999969482422,
+                  87.47000122070312,
+                  84.55999755859375
+                ],
+                "low": [
+                  85.81999969482422,
+                  85.62000274658203,
+                  78.2699966430664
+                ],
+                "volume": [
+                  4944200,
+                  6291100,
+                  6406300
+                ],
+                "close": [
+                  87.72000122070312,
+                  86.19999694824219,
+                  78.94999694824219
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  84.66458892822266,
+                  83.19752502441406,
+                  76.20006561279297
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

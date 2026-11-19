@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ecaa108e097d510e40a901c130651caa8d603bd2d7aa4ae39a368ecf1e2721fe",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:52:35.935634+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "02fd8cf7d1ec6390514f5452b03a633b",
+    "output_text": "{\"score\":0,\"evidence\":\"Visa is a global payments technology company that facilitates global commerce and money movement across more than 200 countries and territories among a global set of consumers, merchants, financial institutions and government entities through innovative technologies.\",\"rationale\":\"The filing describes Visa as a payments technology company facilitating money movement globally, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on digital payments and transaction processing services, not on physical goods or manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35311,
+    "output_tokens": 103,
+    "cost_usd": 0.0142892
+  }
+}

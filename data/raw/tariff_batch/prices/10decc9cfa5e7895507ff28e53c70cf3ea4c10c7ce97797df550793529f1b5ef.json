@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PNW?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:58.024063+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PNW",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 104.52,
+            "regularMarketChangePercent": 1.604,
+            "fulldayPrice": 104.52,
+            "fulldayChange": 1.65,
+            "fulldayChangePercent": 1.604,
+            "fiftyTwoWeekHigh": 111.16,
+            "fiftyTwoWeekLow": 86.18,
+            "regularMarketDayHigh": 104.83,
+            "regularMarketDayLow": 102.45,
+            "regularMarketVolume": 2324147,
+            "longName": "Pinnacle West Capital Corporation",
+            "shortName": "Pinnacle West Capital Corporati",
+            "chartPreviousClose": 95.28,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  94.51000213623047,
+                  95.04000091552734,
+                  90.48999786376953
+                ],
+                "close": [
+                  95.43000030517578,
+                  95.20999908447266,
+                  91.08999633789062
+                ],
+                "high": [
+                  95.83999633789062,
+                  96.5,
+                  95.87999725341797
+                ],
+                "volume": [
+                  668900,
+                  1073600,
+                  1787400
+                ],
+                "open": [
+                  95.5,
+                  95.72000122070312,
+                  95.30000305175781
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  89.31816101074219,
+                  89.11225891113281,
+                  85.25611877441406
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b31d26cb8ca5c879effbd2d6de35139fc1d9617e3e9f5d3902f831120040c273",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:21:11.136006+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d06405f02bf482cd57470d5e73e1e8c7",
+    "output_text": "{\"score\":2,\"evidence\":\"We obtain pharmaceutical and other products from manufacturers and our largest supplier accounted for 12% of our total purchases in fiscal 2024. The loss of a supplier could adversely affect our business if alternate sources of supply are unavailable. We believe that our relationships with our suppliers are generally sound. The ten largest suppliers in fiscal 2024 accounted for approximately 67% of our total purchases.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs through suppliers accounting for a significant portion of purchases (67% from top 10 suppliers, largest supplier 12%), indicating dependence on these arrangements. However, it does not provide evidence that this dependence is substantial enough to materially affect costs or operations, nor that imports or overseas manufacturing are central to the business. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37537,
+    "output_tokens": 168,
+    "cost_usd": 0.015283600000000001
+  }
+}

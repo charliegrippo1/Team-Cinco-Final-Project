@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "87c4fa3d2c575efe5fb521e46a97d48e38b31ae8fa1db211ccd85feb62411904",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:50:52.203410+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "60e7fa140a9534b41800c6ee0b35c2ba",
+    "output_text": "{\"score\":3,\"evidence\":\"We principally use third parties to manufacture the active pharmaceutical ingredient and the final product for our small molecule products and product candidates, including TECFIDERA, VUMERITY and FUMADERM, and the final drug product for our large molecule products and, to a lesser extent, product candidates.\",\"rationale\":\"The filing states that Biogen principally uses third parties to manufacture active pharmaceutical ingredients and final products for both small molecule and large molecule products, indicating substantial reliance on overseas or external manufacturing arrangements. This reliance on third-party manufacturers for critical inputs and final products could materially affect costs or operations if disrupted, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 65312,
+    "output_tokens": 136,
+    "cost_usd": 0.026342400000000002
+  }
+}

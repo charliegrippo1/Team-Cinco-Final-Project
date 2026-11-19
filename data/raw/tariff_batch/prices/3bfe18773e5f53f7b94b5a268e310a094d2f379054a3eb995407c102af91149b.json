@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/KLAC?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:19.320555+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "KLAC",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 339859800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 144.88,
+            "regularMarketChangePercent": 0.221,
+            "fulldayPrice": 144.88,
+            "fulldayChange": -0.56,
+            "fulldayChangePercent": -0.387,
+            "fiftyTwoWeekHigh": 307.37,
+            "fiftyTwoWeekLow": 107.196,
+            "regularMarketDayHigh": 147.718,
+            "regularMarketDayLow": 141.84,
+            "regularMarketVolume": 7994151,
+            "longName": "KLA Corporation",
+            "shortName": "KLA Corporation",
+            "chartPreviousClose": 68.246,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  66.72899627685547,
+                  65.22100067138672,
+                  59.25400161743164
+                ],
+                "close": [
+                  68.61900329589844,
+                  62.082000732421875,
+                  57.65299987792969
+                ],
+                "high": [
+                  69.56199645996094,
+                  65.69200134277344,
+                  60.0
+                ],
+                "volume": [
+                  7911000,
+                  15253000,
+                  20728000
+                ],
+                "low": [
+                  66.72899627685547,
+                  62.027000427246094,
+                  55.97600173950195
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  67.83646392822266,
+                  61.374019622802734,
+                  56.99552536010742
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

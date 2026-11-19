@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2286d41715445393b83fab5f7d6a6d2bac5c825712b5b7d1d77d222fb52bd037",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:01:46.942466+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "99ecd59dd5c11c672c0312db1201c03c",
+    "output_text": "{\"score\":3,\"evidence\":\"We purchase inventory primarily for distribution, some of which is also utilized in our manufacturing plants. The key materials we purchase include dimensional lumber, OSB and plywood, engineered wood, windows, doors, millwork, and siding. Our largest suppliers are national companies such as Boise Cascade Company, Weyerhaeuser Company, West Fraser Timber Co. Ltd., Specialty Building Products, James Hardie Industries plc, and Louisiana-Pacific Corp. We believe marketplace supply allows us to competitively source most of our requirements without reliance on any particular supplier and that our diversity of suppliers affords us purchasing flexibility.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs (e.g., lumber, OSB, plywood, engineered wood, windows, doors, millwork, siding) and names major suppliers, some of which are foreign companies. It also describes a substantial reliance on these materials for manufacturing and distribution, indicating that overseas suppliers materially affect costs and operations. However, it does not state that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so the score is 3 rather than 4. China is not specifically mentioned.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 25519,
+    "output_tokens": 240,
+    "cost_usd": 0.010591600000000001
+  }
+}

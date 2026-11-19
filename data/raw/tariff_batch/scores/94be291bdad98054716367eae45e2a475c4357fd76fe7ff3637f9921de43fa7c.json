@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "24b14137cdda0127bde846775cb714d162bfc42cf03f730b8817949543b9b2f6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:13:43.637139+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "381d6a7445015327a9ac575fc20ba88a",
+    "output_text": "{\"score\":0,\"evidence\":\"We provide products and platforms to the financial services industry and have several information processing systems that serve as the core foundation of our technology platform. We are committed to maintaining high levels of quality service through our skilled technical employees and the use of our technology within an environment that seeks continual improvement.\",\"rationale\":\"The filing describes Broadridge as a technology and services provider in financial services, focusing on software, data, and communications solutions. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model is technology-driven and service-oriented, with no specific operational reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on such arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35419,
+    "output_tokens": 148,
+    "cost_usd": 0.014404400000000001
+  }
+}

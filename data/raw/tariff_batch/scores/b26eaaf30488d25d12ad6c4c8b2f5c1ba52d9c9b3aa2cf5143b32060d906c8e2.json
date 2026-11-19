@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e229ef16f6a6acb2de94b78ac6b894862625d206b386d2e6f9e08db59505c660",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:47:58.680901+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1fd91fd6690dbc1658decb2f46ca2069",
+    "output_text": "{\"score\":4,\"evidence\":\"IMC International Metalworking Companies and its subsidiaries (“IMC”) is one of the three largest multinational manufacturers of consumable precision carbide metal cutting tools for applications in a broad range of industrial end markets. IMC’s primary manufacturing facilities are in Israel, the U.S., South Korea, Japan, Germany, Italy, Switzerland, India, China and Mexico.\",\"rationale\":\"The filing identifies IMC as a multinational manufacturer with primary manufacturing facilities in multiple foreign countries including China, Israel, South Korea, Japan, Germany, Italy, Switzerland, India, and Mexico. This indicates that overseas manufacturing is central to the business, with critical manufacturing operations dependent on foreign locations including China. This supports a score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53326,
+    "output_tokens": 151,
+    "cost_usd": 0.021572000000000004
+  }
+}

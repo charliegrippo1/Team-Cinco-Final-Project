@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:26.233266+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MAR",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 890663400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 425.9,
+            "regularMarketChangePercent": 0.748,
+            "fulldayPrice": 425.9,
+            "fulldayChange": 3.16,
+            "fulldayChangePercent": 0.748,
+            "fiftyTwoWeekHigh": 433.3,
+            "fiftyTwoWeekLow": 281.53,
+            "regularMarketDayHigh": 428.2,
+            "regularMarketDayLow": 423.255,
+            "regularMarketVolume": 981334,
+            "longName": "Marriott International, Inc.",
+            "shortName": "Marriott International",
+            "chartPreviousClose": 238.24,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  235.10000610351562,
+                  230.38999938964844,
+                  218.3300018310547
+                ],
+                "close": [
+                  242.55999755859375,
+                  224.6199951171875,
+                  214.5800018310547
+                ],
+                "low": [
+                  235.10000610351562,
+                  223.36000061035156,
+                  212.55999755859375
+                ],
+                "high": [
+                  244.02999877929688,
+                  230.5800018310547,
+                  222.66000366210938
+                ],
+                "volume": [
+                  1718800,
+                  3459900,
+                  3573900
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  239.32858276367188,
+                  221.6276092529297,
+                  211.7213592529297
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MPC?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:29.503570+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MPC",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1308922200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 373.86,
+            "regularMarketChangePercent": -5.234,
+            "fulldayPrice": 373.86,
+            "fulldayChange": -20.65,
+            "fulldayChangePercent": -5.234,
+            "fiftyTwoWeekHigh": 493.98,
+            "fiftyTwoWeekLow": 161.93,
+            "regularMarketDayHigh": 393.78,
+            "regularMarketDayLow": 369.0,
+            "regularMarketVolume": 2642623,
+            "longName": "Marathon Petroleum Corporation",
+            "shortName": "Marathon Petroleum Corporation",
+            "chartPreviousClose": 146.63,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  147.89999389648438,
+                  128.58999633789062,
+                  121.06999969482422
+                ],
+                "open": [
+                  144.85000610351562,
+                  140.0,
+                  124.66000366210938
+                ],
+                "low": [
+                  144.27000427246094,
+                  127.69000244140625,
+                  115.97000122070312
+                ],
+                "volume": [
+                  1654500,
+                  5076200,
+                  5833200
+                ],
+                "high": [
+                  148.1300048828125,
+                  140.67999267578125,
+                  126.0
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  143.8498992919922,
+                  125.06868743896484,
+                  117.75462341308594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

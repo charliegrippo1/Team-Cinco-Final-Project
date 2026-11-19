@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b625016462fd816ffc3b532f368d6aa103078b427371a0b23ac83a1e7ad1bc1e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:28:44.001325+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "57280bf94903a760f05e8ee4d88f8f4b",
+    "output_text": "{\"score\":3,\"evidence\":\"Our manufacturing activities for our test businesses are primarily conducted through subcontractors and outsourced contract manufacturers with significant operations in Malaysia. The manufacturing activities for our Robotics businesses are done primarily in our production facilities in Denmark and the U.S.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations (Malaysia for test businesses, Denmark for Robotics) indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26892,
+    "output_tokens": 87,
+    "cost_usd": 0.010896000000000001
+  }
+}

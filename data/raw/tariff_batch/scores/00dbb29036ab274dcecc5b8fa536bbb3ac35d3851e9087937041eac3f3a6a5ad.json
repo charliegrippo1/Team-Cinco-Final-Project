@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6cd10bec9e80042a61fc9b378e56c60cd4165e73c0a31e2a1c7c0f1de5b4d043",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:53:40.932396+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "233e9a58da170869df72753f713ad419",
+    "output_text": "{\"score\":3,\"evidence\":\"Further, the Company relies on global supply chains, and production and distribution processes, that are complex, and subject to increasing regulatory requirements that may affect sourcing, supply and pricing of materials used in the Company's products.\",\"rationale\":\"The filing states the Company relies on global supply chains and production processes that are complex and subject to regulatory requirements affecting sourcing and supply of materials, indicating substantial reliance on imports, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28694,
+    "output_tokens": 103,
+    "cost_usd": 0.0116424
+  }
+}

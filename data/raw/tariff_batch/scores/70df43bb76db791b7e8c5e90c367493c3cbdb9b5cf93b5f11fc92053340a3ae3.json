@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "eaaff47c65b5104597536e752d8e85bafc41866c6f06d82f105ef748ab0b1a9f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:37:13.627736+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f946823831c453cc2db425ec75c974bb",
+    "output_text": "{\"score\":3,\"evidence\":\"We rely on other companies to provide raw materials, chemicals, parts and components and subsystems for our products, produce hardware elements and sub-assemblies, provide software and intellectual property, provide information about the parts they supply to us, and perform some of the services we need for our operations or provide to our customers, and to do so in compliance with all applicable laws, regulations and contract terms, while maintaining strong values and cultures. Disruptions or performance problems with our subcontractors or other suppliers (referred to inclusively as suppliers), unanticipated cost growth for the products and services they provide, failure to meet regulatory or contractual requirements, unethical or illegal behavior, or a misalignment between our contractual obligations to our customers and our agreements with our suppliers, have had and may continue to have various adverse impacts on the company, including on our ability to meet our commitments to customers and financial expectations. This risk of delays and disruptions in the supply chain, and supply chain challenges more broadly, has been and continues to be heightened globally due to the current macroeconomic environment.\",\"rationale\":\"The filing identifies specific reliance on suppliers for raw materials, parts, components, and subsystems, and notes supply chain disruptions and challenges that have materially affected the company’s ability to meet commitments and financial expectations. This indicates substantial reliance on imported physical goods, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations, justifying a score of 3. China is treated like other foreign locations as per instructions, but no specific mention of China is made in this passage.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34014,
+    "output_tokens": 322,
+    "cost_usd": 0.014120800000000001
+  }
+}

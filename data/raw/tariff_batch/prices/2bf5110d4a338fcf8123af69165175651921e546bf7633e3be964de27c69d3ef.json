@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DXCM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:40.288356+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DXCM",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1113485400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 82.52,
+            "regularMarketChangePercent": 0.585,
+            "fulldayPrice": 82.52,
+            "fulldayChange": 0.48,
+            "fulldayChangePercent": 0.585,
+            "fiftyTwoWeekHigh": 92.59,
+            "fiftyTwoWeekLow": 56.72,
+            "regularMarketDayHigh": 83.05,
+            "regularMarketDayLow": 81.279,
+            "regularMarketVolume": 4249562,
+            "longName": "DexCom, Inc.",
+            "shortName": "DexCom, Inc.",
+            "chartPreviousClose": 67.32,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  68.5199966430664,
+                  65.01000213623047,
+                  61.04999923706055
+                ],
+                "open": [
+                  66.31999969482422,
+                  64.88999938964844,
+                  59.630001068115234
+                ],
+                "volume": [
+                  2561900,
+                  5404500,
+                  6552500
+                ],
+                "low": [
+                  66.31999969482422,
+                  61.47999954223633,
+                  57.52000045776367
+                ],
+                "close": [
+                  68.13999938964844,
+                  61.79999923706055,
+                  59.83000183105469
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  68.13999938964844,
+                  61.79999923706055,
+                  59.83000183105469
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

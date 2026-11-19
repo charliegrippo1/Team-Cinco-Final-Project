@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0fd4c6b866a6f5d8d3fc3150246eec342727b8bff9881ebb7b82c8acec6a9e3b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:36:29.113915+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "724d52df96f43c40151081bb6b5ff1ab",
+    "output_text": "{\"score\":0,\"evidence\":\"Globe Life Inc. is the holding company for a group of insurance companies that market primarily individual life and supplemental health insurance to lower middle to middle-income households throughout the United States.\",\"rationale\":\"The filing describes Globe Life as an insurance holding company marketing insurance products primarily within the United States, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational reliance on imports or overseas manufacturing, including China. The business is focused on insurance products and services, which do not involve physical goods import or overseas production.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35095,
+    "output_tokens": 122,
+    "cost_usd": 0.014233200000000001
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/RTX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:11.986972+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "RTX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -244546200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 197.45,
+            "regularMarketChangePercent": -0.278,
+            "fulldayPrice": 195.045,
+            "fulldayChange": -2.955,
+            "fulldayChangePercent": -1.493,
+            "fiftyTwoWeekHigh": 226.88,
+            "fiftyTwoWeekLow": 166.74,
+            "regularMarketDayHigh": 198.795,
+            "regularMarketDayLow": 194.36,
+            "regularMarketVolume": 4805758,
+            "longName": "RTX Corporation",
+            "shortName": "RTX Corporation",
+            "chartPreviousClose": 132.85,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  133.14999389648438,
+                  130.22999572753906,
+                  117.44999694824219
+                ],
+                "open": [
+                  131.36000061035156,
+                  131.0,
+                  126.0
+                ],
+                "low": [
+                  131.2100067138672,
+                  129.94000244140625,
+                  117.3499984741211
+                ],
+                "volume": [
+                  3352900,
+                  4605200,
+                  8526700
+                ],
+                "high": [
+                  133.67999267578125,
+                  133.7100067138672,
+                  126.37999725341797
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  129.9647216796875,
+                  127.1146011352539,
+                  114.64031982421875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

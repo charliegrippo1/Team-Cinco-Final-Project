@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CSGP?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:35.592810+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CSGP",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 899299800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 29.9,
+            "regularMarketChangePercent": -2.256,
+            "fulldayPrice": 29.9,
+            "fulldayChange": -0.69,
+            "fulldayChangePercent": -2.256,
+            "fiftyTwoWeekHigh": 70.57,
+            "fiftyTwoWeekLow": 25.89,
+            "regularMarketDayHigh": 30.75,
+            "regularMarketDayLow": 29.47,
+            "regularMarketVolume": 3755861,
+            "longName": "CoStar Group, Inc.",
+            "shortName": "CoStar Group, Inc.",
+            "chartPreviousClose": 79.18,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  78.0,
+                  76.11000061035156,
+                  72.55000305175781
+                ],
+                "close": [
+                  79.91999816894531,
+                  76.3499984741211,
+                  72.62000274658203
+                ],
+                "high": [
+                  80.30000305175781,
+                  79.80000305175781,
+                  76.0
+                ],
+                "open": [
+                  78.11000061035156,
+                  79.80000305175781,
+                  75.93000030517578
+                ],
+                "volume": [
+                  2448100,
+                  3957800,
+                  3882100
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  79.91999816894531,
+                  76.3499984741211,
+                  72.62000274658203
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

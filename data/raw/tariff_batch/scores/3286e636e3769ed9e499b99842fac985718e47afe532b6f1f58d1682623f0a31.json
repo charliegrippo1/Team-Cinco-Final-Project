@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "41695e7bd1a3c0613fcac896687c3a156c4d1a60607c52f21daa2afc2c525225",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:34:22.272136+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c270e2f726c94523d62a4bf3fd4af069",
+    "output_text": "{\"score\":2,\"evidence\":\"In addition, increased trade tension between the United States and other countries, including as a result of the imposition of tariffs, could lead to a decrease in cross border-travel, result in us paying higher prices for imported goods at our properties and result in countries adopting protectionist legislation that could impair our international operations.\",\"rationale\":\"The filing identifies specific imported goods and tariffs as risks that could increase costs, indicating some dependence on imported physical goods or foreign-made inputs. However, it does not provide evidence that this dependence is substantial or central to the business, so the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40187,
+    "output_tokens": 127,
+    "cost_usd": 0.016278
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "53845caa9d3792071caf4c47af174e22b07b0153bec0b9e3550a15ee731ababe",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:56:52.709856+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d19f9da1d4b82a7d10483572eee9a43e",
+    "output_text": "{\"score\":3,\"evidence\":\"We are advancing our market position through a balanced approach that includes organic growth and selective strategic investments. By effectively managing pricing and costs, we are driving margin expansion and profitability. Our success is rooted in a three-phase self-help transformation plan that continues to guide our progress over the coming years.\",\"rationale\":\"The filing identifies a new commercial HVAC factory in Mexico as part of the company's growth strategy, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. Additionally, the company owns a 50% interest in a joint venture in Mexico producing key products and mentions imports complementing this joint venture, supporting material dependence on foreign manufacturing. However, the company also manufactures in North America and does not indicate that imports or overseas manufacturing are central to most products, so the score is 3 rather than 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22795,
+    "output_tokens": 171,
+    "cost_usd": 0.009391600000000002
+  }
+}

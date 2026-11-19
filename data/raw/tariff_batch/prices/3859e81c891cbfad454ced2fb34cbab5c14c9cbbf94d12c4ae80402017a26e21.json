@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRSK?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:31.650712+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "VRSK",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1254922200,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 202.31,
+            "regularMarketChangePercent": -1.461,
+            "fulldayPrice": 202.31,
+            "fulldayChange": -3.0,
+            "fulldayChangePercent": -1.461,
+            "fiftyTwoWeekHigh": 227.16,
+            "fiftyTwoWeekLow": 155.94,
+            "regularMarketDayHigh": 206.0,
+            "regularMarketDayLow": 200.105,
+            "regularMarketVolume": 1204980,
+            "longName": "Verisk Analytics, Inc.",
+            "shortName": "Verisk Analytics, Inc.",
+            "chartPreviousClose": 298.61,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  294.94000244140625,
+                  298.45001220703125,
+                  284.3699951171875
+                ],
+                "open": [
+                  298.95001220703125,
+                  298.45001220703125,
+                  299.20001220703125
+                ],
+                "close": [
+                  299.7099914550781,
+                  305.0899963378906,
+                  284.989990234375
+                ],
+                "volume": [
+                  748900,
+                  1425300,
+                  2102300
+                ],
+                "high": [
+                  300.07000732421875,
+                  306.67999267578125,
+                  304.1600036621094
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  295.7928771972656,
+                  301.1025390625,
+                  281.2652587890625
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

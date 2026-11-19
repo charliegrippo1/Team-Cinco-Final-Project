@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/FICO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:30.238418+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "FICO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 553959000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 677.75,
+            "regularMarketChangePercent": 0.182,
+            "fulldayPrice": 677.75,
+            "fulldayChange": 1.23,
+            "fulldayChangePercent": 0.182,
+            "fiftyTwoWeekHigh": 1858.91,
+            "fiftyTwoWeekLow": 586.05,
+            "regularMarketDayHigh": 686.17,
+            "regularMarketDayLow": 664.86,
+            "regularMarketVolume": 467463,
+            "longName": "Fair Isaac Corporation",
+            "shortName": "Fair Isaac Corporation",
+            "chartPreviousClose": 1868.47,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  1889.8900146484375,
+                  1801.050048828125,
+                  1673.97998046875
+                ],
+                "low": [
+                  1824.510009765625,
+                  1797.8800048828125,
+                  1673.5899658203125
+                ],
+                "high": [
+                  1892.6300048828125,
+                  1853.530029296875,
+                  1765.0
+                ],
+                "volume": [
+                  105300,
+                  152500,
+                  300700
+                ],
+                "open": [
+                  1843.8299560546875,
+                  1820.0,
+                  1757.199951171875
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  1889.8900146484375,
+                  1801.050048828125,
+                  1673.97998046875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "de766769a003181af9d29576fee1002fa5356158bcba5967b8e6e92a531d7888",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": true,
+  "retrieved_utc": "2026-11-19T03:19:59.441232+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "47f71264b21b747bf47e6a84d834122d",
+    "output_text": "{\"score\":1,\"evidence\":\"We are a global technology company, and our non-US operations accounted for approximately 85% of our consolidated revenue in 2024, and 84% in 2023 and 2022. Geopolitical instability and unforeseen changes in any of the markets in which we operate could result in business disruptions or operational challenges that may adversely affect the demand for our products and services, or our reputation, our financial condition, and our results of operations and cash flows.\",\"rationale\":\"The filing indicates the Company operates globally with significant non-US revenue and acknowledges geopolitical and supply chain risks, but does not specify substantial or central dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. Tariffs and trade restrictions are mentioned only as general risks without operational dependence details.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18899,
+    "output_tokens": 162,
+    "cost_usd": 0.0078188
+  }
+}

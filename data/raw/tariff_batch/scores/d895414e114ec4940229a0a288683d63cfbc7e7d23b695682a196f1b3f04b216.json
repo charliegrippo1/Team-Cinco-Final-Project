@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "55d21b0233ea96242913db60f84a672bb305fb44c0cef80dd763c7ce2b9774b0",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:32:58.245414+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "04b4f851eb2e37e4cfcb63f6af09f4e9",
+    "output_text": "{\"score\":0,\"evidence\":\"We specialize in the ownership, management, and redevelopment of high quality retail and mixed-use properties located primarily in communities where we believe retail demand exceeds supply, in strategically selected metropolitan markets in the Mid-Atlantic and Northeast regions of the United States, California, and South Florida.\",\"rationale\":\"The filing describes the company's business as owning, managing, and redeveloping retail and mixed-use properties primarily in U.S. metropolitan markets, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing identified, nor are tariffs or trade restrictions discussed as operational risks. The business is focused on real estate investment and management, not on manufacturing or importing physical goods. Therefore, the evidence supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29411,
+    "output_tokens": 172,
+    "cost_usd": 0.012039600000000001
+  }
+}

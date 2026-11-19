@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7aa7627167ebab542d44c5d144a039c4eb5e195e3b7c3035e60b11cf624e75e4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:23:36.074554+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "220b808a00398f730418757ff4bc7b34",
+    "output_text": "{\"score\": 0, \"evidence\": \"Martin Marietta Materials, Inc. (the Company or Martin Marietta) is a natural resource-based building materials company. The Company supplies aggregates (crushed stone, sand and gravel) through its network of approximately 390 quarries, mines and distribution yards in 28 states, Canada and The Bahamas.\", \"rationale\": \"The filing describes the company’s operations as primarily domestic, with quarries and mines in the U.S., Canada and The Bahamas, and does not identify specific imported goods, foreign-made inputs, or overseas manufacturing that materially affect costs or operations. Foreign sales alone do not increase the score. There is no substantial reliance on imports or overseas manufacturing indicated.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41631,
+    "output_tokens": 147,
+    "cost_usd": 0.016887600000000003
+  }
+}

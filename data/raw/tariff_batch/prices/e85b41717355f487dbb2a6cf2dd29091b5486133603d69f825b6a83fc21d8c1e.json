@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/WYNN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:02.323080+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "WYNN",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1035552600,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 83.2,
+            "regularMarketChangePercent": 1.861,
+            "fulldayPrice": 83.2,
+            "fulldayChange": 1.52,
+            "fulldayChangePercent": 1.861,
+            "fiftyTwoWeekHigh": 134.72,
+            "fiftyTwoWeekLow": 70.79,
+            "regularMarketDayHigh": 84.65,
+            "regularMarketDayLow": 80.775,
+            "regularMarketVolume": 1612981,
+            "longName": "Wynn Resorts, Limited",
+            "shortName": "Wynn Resorts, Limited",
+            "chartPreviousClose": 82.73,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  81.54000091552734,
+                  72.87999725341797,
+                  70.08999633789062
+                ],
+                "volume": [
+                  2539900,
+                  5509100,
+                  8307700
+                ],
+                "open": [
+                  81.5,
+                  78.5,
+                  68.61000061035156
+                ],
+                "high": [
+                  83.31999969482422,
+                  78.62999725341797,
+                  71.2699966430664
+                ],
+                "low": [
+                  81.3499984741211,
+                  72.5,
+                  66.19999694824219
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  80.15663146972656,
+                  71.6435546875,
+                  68.90088653564453
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

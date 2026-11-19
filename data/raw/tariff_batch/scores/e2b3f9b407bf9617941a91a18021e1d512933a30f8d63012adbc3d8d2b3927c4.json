@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "07a9abc796fbdaad4358f32ec84b9375244ed569337e162164f5011fc28c16ee",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:20:43.767593+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "8d328f196cd0bd4ed445bf523e37d54b",
+    "output_text": "{\"score\":0,\"evidence\":\"Akamai's platforms, products and services rely on hardware equipment, including hundreds of thousands of servers deployed around the world. Disruptions in our supply chain have occurred in the past and could prevent us from purchasing needed equipment at attractive prices or at all. For example, we are experiencing continued volatility in certain server component costs that support the continued build out of our compute platform. In addition, from time to time, it has been, and may continue to be, more difficult to purchase equipment that is manufactured in areas that face disruptions to operations due to unrest, trade sanctions or other political activity, public health issues, safety issues, natural disasters or general economic conditions. For example, tariffs imposed by the United States on other countries and any resulting counter-tariffs will likely lead to increasing costs and supply chain disruptions. Failure to have adequate equipment, including server and other networking equipment, could harm the quality of our services, which could lead to the loss of customers and revenue.\",\"rationale\":\"The filing identifies specific imported goods and overseas manufacturing (hardware equipment, servers, server components) as critical to the business and notes supply chain disruptions and tariffs impacting costs and availability. However, it does not quantify the extent of dependence or state that imports or overseas manufacturing are central or that most products depend on them. The evidence supports a limited but material operational dependence that could affect costs or operations, consistent with a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37857,
+    "output_tokens": 294,
+    "cost_usd": 0.0156132
+  }
+}

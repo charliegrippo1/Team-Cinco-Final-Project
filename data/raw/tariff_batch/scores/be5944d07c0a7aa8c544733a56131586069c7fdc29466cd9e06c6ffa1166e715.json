@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "22075c2114e4d5656cb3f347edf0dbd4197dd53d77acd7afbcfff9b15d86660b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:16:55.456273+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "326061b90ebe89e280eec8dff33ea70d",
+    "output_text": "{\"score\":0,\"evidence\":\"Arthur J. Gallagher & Co. and its subsidiaries, collectively referred to herein as we, our, us or Gallagher, are engaged in providing insurance brokerage, reinsurance brokerage, consulting, and third-party property/casualty claims settlement and administration services to entities and individuals around the world.\",\"rationale\":\"The filing describes a services business focused on insurance brokerage, consulting, and claims administration, with no mention of importing physical goods, foreign-made inputs, or overseas manufacturing. The operations are primarily service-based, with offices globally but no indication of material reliance on imported physical goods or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 54556,
+    "output_tokens": 145,
+    "cost_usd": 0.022054400000000002
+  }
+}

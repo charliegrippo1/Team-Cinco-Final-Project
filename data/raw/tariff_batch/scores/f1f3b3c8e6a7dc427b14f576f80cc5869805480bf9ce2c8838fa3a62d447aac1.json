@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e84fc5d8ace1d03ced1a741c4ed58c4a3e4d93be160623a31bb6295da7618b01",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:47:01.866754+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "265489f1bc669892dadca7853029ba87",
+    "output_text": "{\"score\":0,\"evidence\":\"Truist Financial Corporation is a purpose-driven financial services company committed to inspiring and building better lives and communities. Headquartered in Charlotte, North Carolina, Truist has leading market share in many of the high-growth markets in the U.S. and offers a wide range of products and services through wholesale and consumer businesses, including consumer and small business banking, commercial and corporate banking, investment banking and capital markets, wealth management, payments, and specialized lending businesses.\",\"rationale\":\"The filing describes Truist as a financial services company focused on banking and related financial products and services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational reliance on imports or overseas manufacturing, nor mention of China or other foreign production locations. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 70243,
+    "output_tokens": 178,
+    "cost_usd": 0.028382000000000004
+  }
+}

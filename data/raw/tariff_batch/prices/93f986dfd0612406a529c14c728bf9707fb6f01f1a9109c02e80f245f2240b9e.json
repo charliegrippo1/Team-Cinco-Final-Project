@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:12.112348+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PLTR",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1601472600,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 156.67,
+            "regularMarketChangePercent": 0.07,
+            "fulldayPrice": 155.82,
+            "fulldayChange": -0.74,
+            "fulldayChangePercent": -0.473,
+            "fiftyTwoWeekHigh": 212.94,
+            "fiftyTwoWeekLow": 106.37,
+            "regularMarketDayHigh": 158.44,
+            "regularMarketDayLow": 153.5,
+            "regularMarketVolume": 14770291,
+            "longName": "Palantir Technologies Inc.",
+            "shortName": "Palantir Technologies Inc.",
+            "chartPreviousClose": 84.68,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  82.4000015258789,
+                  81.25,
+                  80.06999969482422
+                ],
+                "volume": [
+                  96563100,
+                  93878200,
+                  147323200
+                ],
+                "high": [
+                  88.40499877929688,
+                  85.68000030517578,
+                  80.9800033569336
+                ],
+                "close": [
+                  87.44999694824219,
+                  83.5999984741211,
+                  74.01000213623047
+                ],
+                "low": [
+                  82.30000305175781,
+                  81.01000213623047,
+                  71.93000030517578
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  87.44999694824219,
+                  83.5999984741211,
+                  74.01000213623047
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

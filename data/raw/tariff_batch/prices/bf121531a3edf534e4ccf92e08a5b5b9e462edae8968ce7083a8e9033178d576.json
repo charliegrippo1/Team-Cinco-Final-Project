@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMG?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:23.155464+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CMG",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1138285800,
+            "regularMarketTime": 1795035763,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 36.95,
+            "regularMarketChangePercent": 3.126,
+            "fulldayPrice": 36.645,
+            "fulldayChange": 0.815,
+            "fulldayChangePercent": 2.274,
+            "fiftyTwoWeekHigh": 41.42,
+            "fiftyTwoWeekLow": 27.31,
+            "regularMarketDayHigh": 37.09,
+            "regularMarketDayLow": 35.09,
+            "regularMarketVolume": 13481204,
+            "longName": "Chipotle Mexican Grill, Inc.",
+            "shortName": "Chipotle Mexican Grill, Inc.",
+            "chartPreviousClose": 51.67,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  52.31999969482422,
+                  50.779998779296875,
+                  49.279998779296875
+                ],
+                "low": [
+                  50.790000915527344,
+                  49.61000061035156,
+                  46.779998779296875
+                ],
+                "volume": [
+                  9922300,
+                  12639700,
+                  17916600
+                ],
+                "open": [
+                  50.810001373291016,
+                  50.06999969482422,
+                  48.790000915527344
+                ],
+                "close": [
+                  52.02000045776367,
+                  50.08000183105469,
+                  47.290000915527344
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  52.02000045776367,
+                  50.08000183105469,
+                  47.290000915527344
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

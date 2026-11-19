@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "4c49d82658031245bee1319fe0aa8a57974c55c3b7d7fb83b28521065492aa3e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:23:27.271564+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6a019a43e36f25b5cdee1d3d8fe915ab",
+    "output_text": "{\"score\":1,\"evidence\":\"Our operations are subject to national and international economic factors, as well as the local economic environments in which we operate. Changes in general economic conditions are beyond our control, and it may be difficult for us to adjust our business model. For example, we are affected by industrial production, inflation, unemployment, consumer spending and retail activity levels. We have been, and may in the future be, materially affected by adverse developments in these aspects of the economy. We have also been, and may in the future be, adversely impacted by changes in general economic conditions resulting from geopolitical uncertainty and/or conflicts in or arising from the countries and regions where we operate, including the European Union, Ukraine, the Russian Federation, the Middle East and the Trans-Pacific region. Changes in general economic conditions, or our inability to accurately forecast these changes or mitigate the impact of these conditions on our business, could materially adversely affect us.\",\"rationale\":\"The filing identifies tariffs and trade restrictions as general risks related to geopolitical uncertainty and economic conditions in various regions, including the Trans-Pacific region (which includes China), but does not specify particular imported goods, foreign-made inputs, or overseas manufacturing dependencies. Therefore, the dependence on imported physical goods or overseas manufacturing is acknowledged only as a general risk, supporting a score of 1.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37770,
+    "output_tokens": 266,
+    "cost_usd": 0.015533600000000002
+  }
+}

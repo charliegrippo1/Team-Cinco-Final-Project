@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cc75e19864d40e6ba0e628aeb099732ed15c0027d22aa3af596bce6bf17fee72",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:18:10.787027+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b95dcdfa247639571638394fa6d46bce",
+    "output_text": "{\"score\":1,\"evidence\":\"In addition, changes in U.S. trade policies, sanctions, practices, tariffs or taxes, import limitations, and other factors relating to foreign trade and port agreements could affect our ability to source products and our suppliers’ ability to source materials or provide products at current volumes and/or prices.\",\"rationale\":\"The filing identifies tariffs and trade restrictions as general risks affecting the ability to source products but does not specify particular imported goods, foreign-made inputs, or overseas manufacturing dependence. Therefore, the dependence is acknowledged as a general risk without specific operational dependence, supporting a score of 1.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28212,
+    "output_tokens": 124,
+    "cost_usd": 0.0114832
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LHX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:33.049010+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LHX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 378657000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 256.36,
+            "regularMarketChangePercent": -1.68,
+            "fulldayPrice": 256.36,
+            "fulldayChange": -4.38,
+            "fulldayChangePercent": -1.68,
+            "fiftyTwoWeekHigh": 379.23,
+            "fiftyTwoWeekLow": 232.34,
+            "regularMarketDayHigh": 261.134,
+            "regularMarketDayLow": 254.76,
+            "regularMarketVolume": 1453559,
+            "longName": "L3Harris Technologies, Inc.",
+            "shortName": "L3Harris Technologies, Inc.",
+            "chartPreviousClose": 209.75,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  208.05999755859375,
+                  210.72999572753906,
+                  207.72000122070312
+                ],
+                "low": [
+                  208.05999755859375,
+                  209.3300018310547,
+                  201.9499969482422
+                ],
+                "volume": [
+                  986200,
+                  1321800,
+                  3081600
+                ],
+                "high": [
+                  213.41000366210938,
+                  215.75,
+                  212.25
+                ],
+                "close": [
+                  211.89999389648438,
+                  209.94000244140625,
+                  202.05999755859375
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  206.5011749267578,
+                  204.59112548828125,
+                  196.91184997558594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

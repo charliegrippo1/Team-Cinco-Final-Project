@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9de4994a0fe2f62b787bc3e1287fdda0c85b3f91299fa802cdbdaa4825e0e11e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:54:31.008647+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "27a5e7f16aebae51e4bb624831c0ac6a",
+    "output_text": "{\"score\":3,\"evidence\":\"We purchase flavor ingredients, flavors, concentrates, sweeteners, juices, supplement ingredients, cans, bottles, caps, labels, trays, boxes and other ingredients for our non-alcohol products from ingredient suppliers, which are delivered to our various third-party bottlers and co-packers. In some cases, certain common supplies may be purchased by our various third-party bottlers and co-packers. Depending on the product, the third-party bottlers or co-packers add filtered water and/or other ingredients (including supplement ingredients) for the manufacture and packaging of the finished products into our approved containers in accordance with our recipes and formulas. Depending on the beverage, the bottler/packer may also add carbonation to the products as part of the production process.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs such as flavor ingredients, concentrates, sweeteners, cans, bottles, caps, labels, and other packaging materials sourced from ingredient suppliers delivered to third-party bottlers and co-packers. The company outsources manufacturing to third-party bottlers and co-packers both domestically and internationally. There is substantial reliance on these imported inputs and overseas manufacturing arrangements that could materially affect costs or operations. China is mentioned as a location of bottlers/distributors but not specifically in manufacturing or inputs, so it is noted but not central. Therefore, the score is 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 48128,
+    "output_tokens": 283,
+    "cost_usd": 0.019704000000000003
+  }
+}

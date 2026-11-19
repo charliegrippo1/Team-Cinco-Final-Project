@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8dd27f4614792c51dd30c770055216e7f6e382cada435bdf638d927e213aec75",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:30:49.936110+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "cc104cf924b462b024ae3da117685360",
+    "output_text": "```json\n{\n  \"score\": 1,\n  \"evidence\": \"The global geopolitical and trade environment has resulted in raw material inflation and potential for increased escalation of domestic and international tariffs and retaliatory trade policies. Further changes in U.S. trade policy (including new or additional increases in duties or tariffs) and retaliatory actions by U.S. trade partners, including sanctions against Russia and developments in U.S.-China trade relations, could result in a worsening of economic conditions.\",\n  \"rationale\": \"The filing identifies tariffs and trade restrictions as general risks, including mentions of U.S.-China trade relations, but does not specify particular imported goods, foreign-made inputs, or overseas manufacturing dependencies that are substantial or central to the business operations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30166,
+    "output_tokens": 153,
+    "cost_usd": 0.012311200000000001
+  }
+}

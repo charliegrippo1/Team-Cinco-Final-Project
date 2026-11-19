@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "26fed9c4175be9e6dfdb93cb03822d9f8e062a7745215d5640b3be180f085e10",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:06:13.080014+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1b46a5a80c313b28dd8bc460f41e23aa",
+    "output_text": "{\"score\": 3, \"evidence\": \"We also depend on contract manufacturing organizations (“CMOs”), inside and outside of the U.S., to perform manufacturing activities for the majority of our API and drug products. For most of our products, including our HIV and HCV products, we use multiple CMOs so that we have both primary and back-up suppliers and manufacturing sites.\", \"rationale\": \"The filing identifies specific reliance on multiple contract manufacturing organizations both inside and outside the U.S. for the majority of active pharmaceutical ingredients and drug products, including HIV and HCV products. This indicates substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35872,
+    "output_tokens": 138,
+    "cost_usd": 0.014569600000000002
+  }
+}

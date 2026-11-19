@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/EPAM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:59.842719+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "EPAM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1328711400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 154.16,
+            "regularMarketChangePercent": 0.013,
+            "fulldayPrice": 153.574,
+            "fulldayChange": -0.566,
+            "fulldayChangePercent": -0.368,
+            "fiftyTwoWeekHigh": 222.53,
+            "fiftyTwoWeekLow": 73.06,
+            "regularMarketDayHigh": 156.31,
+            "regularMarketDayLow": 153.27,
+            "regularMarketVolume": 701462,
+            "longName": "EPAM Systems, Inc.",
+            "shortName": "EPAM Systems, Inc.",
+            "chartPreviousClose": 167.53,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  170.1699981689453,
+                  163.39999389648438,
+                  151.10000610351562
+                ],
+                "open": [
+                  165.63999938964844,
+                  162.7100067138672,
+                  149.08999633789062
+                ],
+                "low": [
+                  165.63999938964844,
+                  152.7100067138672,
+                  144.0
+                ],
+                "close": [
+                  169.05999755859375,
+                  155.5500030517578,
+                  144.6699981689453
+                ],
+                "volume": [
+                  540800,
+                  963000,
+                  1329300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  169.05999755859375,
+                  155.5500030517578,
+                  144.6699981689453
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

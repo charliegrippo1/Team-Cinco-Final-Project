@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/RL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:00.326227+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "RL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 866122200,
+            "regularMarketTime": 1795035699,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 384.17,
+            "regularMarketChangePercent": 1.595,
+            "fulldayPrice": 384.17,
+            "fulldayChange": 6.03,
+            "fulldayChangePercent": 1.595,
+            "fiftyTwoWeekHigh": 421.6,
+            "fiftyTwoWeekLow": 317.23,
+            "regularMarketDayHigh": 387.68,
+            "regularMarketDayLow": 375.0,
+            "regularMarketVolume": 794872,
+            "longName": "Ralph Lauren Corporation",
+            "shortName": "Ralph Lauren Corporation",
+            "chartPreviousClose": 228.92,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  224.4600067138672,
+                  208.99000549316406,
+                  186.75999450683594
+                ],
+                "low": [
+                  223.72999572753906,
+                  193.0,
+                  181.25
+                ],
+                "volume": [
+                  1002500,
+                  3346600,
+                  3061000
+                ],
+                "close": [
+                  236.35000610351562,
+                  197.88999938964844,
+                  197.6199951171875
+                ],
+                "high": [
+                  238.08999633789062,
+                  212.86000061035156,
+                  205.83999633789062
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  232.38482666015625,
+                  194.57005310058594,
+                  194.30455017089844
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

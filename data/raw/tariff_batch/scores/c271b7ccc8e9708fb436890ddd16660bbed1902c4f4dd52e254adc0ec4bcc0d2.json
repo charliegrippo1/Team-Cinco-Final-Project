@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0e8c785b16c04655c820909fa57c7769a858a64cbf3aede5875155d66f5dde36",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:35:52.838297+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2d4cd6d71ea0b7254bde4b9076fa5c08",
+    "output_text": "{\"score\":0,\"evidence\":\"We currently own, lease or manage an aggregate of 53 domestic properties in 18 states with approximately 51,400 slot machines, video lottery terminals and e-tables, approximately 2,800 table games and approximately 45,600 hotel rooms as of December 31, 2024.\",\"rationale\":\"The filing describes the company as owning, leasing, or managing properties domestically, with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing identified. Foreign sales or operations are not discussed as a source of dependence on foreign inputs or manufacturing. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43094,
+    "output_tokens": 153,
+    "cost_usd": 0.017482400000000002
+  }
+}

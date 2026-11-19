@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TXN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:13.317358+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TXN",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 76253400,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 292.43,
+            "regularMarketChangePercent": -1.159,
+            "fulldayPrice": 292.43,
+            "fulldayChange": -3.62,
+            "fulldayChangePercent": -1.224,
+            "fiftyTwoWeekHigh": 334.03,
+            "fiftyTwoWeekLow": 152.73,
+            "regularMarketDayHigh": 299.415,
+            "regularMarketDayLow": 288.405,
+            "regularMarketVolume": 4901334,
+            "longName": "Texas Instruments Incorporated",
+            "shortName": "Texas Instruments Incorporated",
+            "chartPreviousClose": 177.99,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  178.19000244140625,
+                  164.1999969482422,
+                  151.38999938964844
+                ],
+                "volume": [
+                  4368900,
+                  11895300,
+                  14976900
+                ],
+                "open": [
+                  175.82000732421875,
+                  171.83999633789062,
+                  159.6699981689453
+                ],
+                "high": [
+                  179.92999267578125,
+                  174.19000244140625,
+                  161.07000732421875
+                ],
+                "low": [
+                  175.19000244140625,
+                  164.0,
+                  150.9600067138672
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  170.1562042236328,
+                  156.79693603515625,
+                  144.56448364257812
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

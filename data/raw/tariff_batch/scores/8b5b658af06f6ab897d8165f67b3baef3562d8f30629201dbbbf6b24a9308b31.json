@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b4caa0f46189cd418165d212fe878b0e9b045fe364ef4374aaba33ee49b7a84d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:32:01.945739+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "340c60c98e929c7ed25d8f84032dd197",
+    "output_text": "{\"score\":0,\"evidence\":\"Our products are designed to enable digital payments and simplify commerce experiences for consumers and merchants to make selling, shopping, and sending and receiving money simple, personalized, and secure, online or offline, including mobile.\",\"rationale\":\"The filing describes PayPal's business as a digital payments platform facilitating transactions online and offline, without any mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing identified, nor any mention of tariffs or trade restrictions affecting operations. The business is primarily technology and service-based, with no evidence of material reliance on physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36739,
+    "output_tokens": 135,
+    "cost_usd": 0.0149116
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NDSN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:57.888747+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NDSN",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322237800,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 322.34,
+            "regularMarketChangePercent": 0.823,
+            "fulldayPrice": 322.34,
+            "fulldayChange": 2.63,
+            "fulldayChangePercent": 0.823,
+            "fiftyTwoWeekHigh": 339.12,
+            "fiftyTwoWeekLow": 223.29,
+            "regularMarketDayHigh": 323.922,
+            "regularMarketDayLow": 318.625,
+            "regularMarketVolume": 204289,
+            "longName": "Nordson Corporation",
+            "shortName": "Nordson Corporation",
+            "chartPreviousClose": 200.95,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  203.7100067138672,
+                  197.77000427246094,
+                  180.86000061035156
+                ],
+                "low": [
+                  198.33999633789062,
+                  186.22999572753906,
+                  173.36000061035156
+                ],
+                "volume": [
+                  234700,
+                  450700,
+                  707500
+                ],
+                "open": [
+                  199.19000244140625,
+                  196.63999938964844,
+                  180.5800018310547
+                ],
+                "close": [
+                  203.35000610351562,
+                  186.38999938964844,
+                  176.72999572753906
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  199.3843536376953,
+                  182.75509643554688,
+                  173.28347778320312
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

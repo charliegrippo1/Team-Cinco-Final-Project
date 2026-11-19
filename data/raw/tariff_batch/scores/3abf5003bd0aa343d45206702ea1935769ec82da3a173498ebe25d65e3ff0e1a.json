@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "df5a12aadb0b67d9a901d45c4b7e6f0794937b9da9303a446e3c4b8e52306e66",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:43:01.457282+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2dc28ae66ac6d9514711c10cfdee8452",
+    "output_text": "{\"score\": 2, \"evidence\": \"Our Midstream operating segment, which is comprised of Hess Corporation’s approximate 38% consolidated ownership interest in Hess Midstream LP at December 31, 2024, provides fee-based services, including gathering, compressing and processing natural gas and fractionating NGL; gathering, terminaling, loading and transporting crude oil and NGL; storing and terminaling propane, and water handling services primarily in the Bakken shale play in the Williston Basin area of North Dakota.\", \"rationale\": \"The filing identifies specific imported goods and foreign-made inputs, such as FPSOs offshore Guyana and operations in Malaysia and the JDA, but does not provide strong evidence that these dependencies are substantial enough to materially affect costs or operations. The Midstream segment is focused on U.S. operations, primarily in North Dakota, indicating limited reliance on overseas manufacturing or imports. China is mentioned only in relation to a joint operating agreement partner, not as a source of critical inputs or manufacturing. Therefore, the dependence is more than general risk but less than substantial reliance.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35848,
+    "output_tokens": 222,
+    "cost_usd": 0.014694400000000002
+  }
+}

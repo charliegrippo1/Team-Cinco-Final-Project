@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "be4f9b4c7244b9ba22f97a5b72f46e089f525f323af9b0d65c2703e5b5f3476e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:45:27.405440+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f8a29df0b6cf3e63aa5b32c7b112e6e2",
+    "output_text": "{\"score\":0,\"evidence\":\"Our Company\\n\\nWynn Resorts, Limited (\\\"Wynn Resorts,\\\" \\\"Wynn,\\\" or together with its subsidiaries, \\\"we\\\" or the \\\"Company\\\") is a preeminent designer, developer, and operator of integrated resorts featuring luxury hotel rooms, high-end retail space, an array of dining and entertainment options, meeting and convention facilities, and gaming, all supported by an unparalleled focus on our guests, our people, and our community.\",\"rationale\":\"The filing describes Wynn Resorts as a designer, developer, and operator of integrated resorts with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no specific operational dependence on imports or overseas manufacturing arrangements described in the text.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42033,
+    "output_tokens": 153,
+    "cost_usd": 0.017058
+  }
+}

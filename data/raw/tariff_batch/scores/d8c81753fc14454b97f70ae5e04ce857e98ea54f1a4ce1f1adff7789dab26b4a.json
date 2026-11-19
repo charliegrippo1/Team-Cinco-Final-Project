@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "181efc6e436fefff5a7280cd0e5ba2cc577386684b36fd45999d856c18c57438",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T03:11:00.745786+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b7f47328feff2e71fb2df1eaaae6be63",
+    "output_text": "{\"score\":3,\"evidence\":\"We source a significant amount of our raw potatoes under both strategic, long-term grower relationships and short-term annual contracts. In the U.S., most of the potato crop used in our products is grown in Washington, Idaho, and Oregon. In Europe, growing regions for the necessary potatoes are concentrated in the Netherlands, Austria, Belgium, Germany, France, and the United Kingdom. We also have grower relationships in potato growing regions in Canada, China, Australia, and Argentina that support our processing facilities in those countries.\",\"rationale\":\"The filing identifies specific foreign production locations (Europe, Canada, China, Australia, Argentina) and foreign-made inputs (potatoes sourced from these regions) that support processing facilities in those countries. This indicates substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations, but does not state that imports or overseas manufacturing are central to the business or that most products depend on these arrangements. Therefore, a score of 3 is appropriate.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29650,
+    "output_tokens": 206,
+    "cost_usd": 0.0121896
+  }
+}

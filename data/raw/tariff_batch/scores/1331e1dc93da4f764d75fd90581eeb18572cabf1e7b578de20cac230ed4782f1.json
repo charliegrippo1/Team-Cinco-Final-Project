@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bc264a415d81d3f7d693a7d6f409cb3feb16367a6625e86eda1f60a52b8b1236",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:52:37.997989+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "69b6379197359a6f2e924a0d22aab2e5",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Generally, the construction materials used in our operations are readily available from numerous sources. However, the cost of certain building materials, especially lumber, steel, concrete, resin, copper, and petroleum-based materials, is influenced by changes in global commodity prices, national tariffs, and other trade factors. Additionally, the ability to consistently source qualified labor at reasonable prices remains challenging as labor supply growth has not kept pace with construction demand. To protect against changes in construction costs, labor and materials costs are generally established prior to or near the time when related sales contracts are signed with customers. In addition, we leverage our size by actively negotiating for certain materials on a national or regional basis to minimize costs. However, we cannot determine the extent to which necessary building materials and labor will be available at reasonable prices in the future. Additionally, the supply of certain building materials has been impacted by the combination of volatile consumer demand and periodic disruptions in the global supply chain.\",\n  \"rationale\": \"The filing identifies specific imported goods and foreign-made inputs such as lumber, steel, concrete, resin, copper, and petroleum-based materials, and notes that costs are influenced by global commodity prices, tariffs, and trade factors. It also mentions supply chain disruptions impacting availability. However, it does not provide evidence that this dependence is substantial or central to the business, only that it could affect costs. Therefore, the score is 2.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26198,
+    "output_tokens": 299,
+    "cost_usd": 0.010957600000000001
+  }
+}

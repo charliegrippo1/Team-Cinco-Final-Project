@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "fc36d7faf35c258b53bb77216473132018115082dada829b8a742d2988a76732",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:31:11.007260+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e795c186364c86f11b7fafcca71d2425",
+    "output_text": "{\"score\":2,\"evidence\":\"We manufacture (and contract for the manufacture of) our products from a wide variety of raw materials. We purchase and use large quantities of commodities, including dairy products, meat products, tomato products, sugar and other sweeteners, soybean and vegetable oils, coffee beans, wheat and processed grains, eggs, and other fruits and vegetables to manufacture our products. In addition, we purchase and use significant quantities of plastics, cardboard, resin, glass, and metal to package our products, and we use electricity, diesel fuel, and natural gas in the manufacturing and distribution of our products. For commodities that we use across many of our product categories we coordinate sourcing requirements and centralize procurement to leverage our scale. In addition, some of our product lines and brands separately source raw materials that are specific to their operations. We source these commodities from a variety of providers, ranging from large, international producers to smaller, local, independent sellers. Where appropriate, we seek to establish preferred purchaser status and have developed strategic partnerships with many of our suppliers with the objective of achieving favorable pricing and dependable supply for many of our commodities. The prices of raw materials that we use in our products are affected by external factors, such as global competition for resources, currency fluctuations, severe weather or global climate change, pandemics, geopolitical conflicts, consumer, industrial, or investment demand, and changes in governmental regulation and trade, tariffs, alternative energy, and agricultural programs.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs (commodities and packaging materials) sourced from a variety of providers including large international producers, indicating some dependence on imports and overseas suppliers. However, it does not establish that this dependence is substantial or central to the business, nor does it indicate that most products or critical inputs depend on these arrangements. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41523,
+    "output_tokens": 374,
+    "cost_usd": 0.0172076
+  }
+}

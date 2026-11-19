@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8fb45d7d9bee70b6e381a98a9e84255c56b1e56b8a45db8bdcba0493b357cedf",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:29:32.955349+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "dd66f840d961580b57b1365aeaa78134",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"The Company uses its integrated global network of elevators, trucks, railcars, barges and ships to move those crops from areas of supply to areas of demand, and transforms many of those raw commodities into a broad array of products serving customers spanning food, feed, fuel, industrial, and consumer products.\",\n  \"rationale\": \"The filing describes a global integrated network involving transportation and processing of raw commodities sourced worldwide, indicating substantial reliance on overseas supply chains and manufacturing. The mention of global elevators, railcars, barges, and ships to move crops from supply to demand areas supports material dependence on imports and overseas manufacturing that could materially affect costs or operations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30509,
+    "output_tokens": 150,
+    "cost_usd": 0.0124436
+  }
+}

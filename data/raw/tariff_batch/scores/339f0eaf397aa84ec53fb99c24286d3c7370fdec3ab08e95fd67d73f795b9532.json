@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8f9c53c60b290fe452d142a49400caf73f7aba74324d3e355fc70dc3afdaa9ec",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:38:45.477943+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a75b3a8114d4d9369f05bdfefb9616dd",
+    "output_text": "{\"score\":2,\"evidence\":\"We depend on various key suppliers and vendors to provide us, directly or through other suppliers, with equipment and services, such as fiber, switch and network equipment, smartphones and other wireless devices, customer service support and other services that we need in order to operate our business. For example, our smartphone and other device suppliers often rely on one vendor for the manufacture and supply of critical components, such as chipsets, used in their devices, and there are a limited number of companies capable of supplying the network infrastructure equipment on which we depend.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs such as smartphones, chipsets, and network infrastructure equipment supplied by a limited number of vendors, indicating some dependence on these foreign-made inputs. However, the filing does not provide evidence that this dependence is substantial or central to the business, so the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 37622,
+    "output_tokens": 183,
+    "cost_usd": 0.0153416
+  }
+}

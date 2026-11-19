@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/GDDY?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:41.427306+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "GDDY",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1427808600,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 103.08,
+            "regularMarketChangePercent": -3.402,
+            "fulldayPrice": 103.08,
+            "fulldayChange": -3.63,
+            "fulldayChangePercent": -3.402,
+            "fiftyTwoWeekHigh": 131.74,
+            "fiftyTwoWeekLow": 71.59,
+            "regularMarketDayHigh": 107.32,
+            "regularMarketDayLow": 102.76,
+            "regularMarketVolume": 1564900,
+            "longName": "GoDaddy Inc.",
+            "shortName": "GoDaddy Inc.",
+            "chartPreviousClose": 180.72,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  180.5,
+                  177.6699981689453,
+                  164.4199981689453
+                ],
+                "volume": [
+                  1340500,
+                  1838600,
+                  2819200
+                ],
+                "high": [
+                  182.6269989013672,
+                  180.0399932861328,
+                  174.7100067138672
+                ],
+                "open": [
+                  178.35000610351562,
+                  174.6699981689453,
+                  173.0
+                ],
+                "low": [
+                  178.27000427246094,
+                  174.38999938964844,
+                  163.75
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  180.5,
+                  177.6699981689453,
+                  164.4199981689453
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

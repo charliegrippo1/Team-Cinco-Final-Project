@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "afbd80c41137a7d5da2446cc7ed38f69e48b0549c9a475c603033b281134c5a3",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:50:55.541215+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4f0b47a9092891eacf93b99ee1b08cf8",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"In its effort to achieve best-cost manufacturing, AMETEK has operating facilities, as of December 31, 2024, in China, Czechia, Malaysia, Mexico, and Serbia. These facilities offer proximity to customers and provide opportunities for increasing international sales.\",\n  \"rationale\": \"The filing identifies specific overseas manufacturing locations including China, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. The mention of multiple foreign manufacturing sites supports a score of 3 rather than lower scores. However, the filing does not state that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so a score of 4 is not supported.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18022,
+    "output_tokens": 156,
+    "cost_usd": 0.0074584000000000004
+  }
+}

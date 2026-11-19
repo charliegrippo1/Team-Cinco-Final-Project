@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/IRM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:41.663998+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "IRM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 823185000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 111.78,
+            "regularMarketChangePercent": -0.009,
+            "fulldayPrice": 111.78,
+            "fulldayChange": -0.01,
+            "fulldayChangePercent": -0.009,
+            "fiftyTwoWeekHigh": 134.68,
+            "fiftyTwoWeekLow": 77.77,
+            "regularMarketDayHigh": 112.77,
+            "regularMarketDayLow": 110.21,
+            "regularMarketVolume": 1132637,
+            "longName": "Iron Mountain Incorporated",
+            "shortName": "Iron Mountain Incorporated (Del",
+            "chartPreviousClose": 86.89,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  86.05000305175781,
+                  84.66000366210938,
+                  81.23999786376953
+                ],
+                "close": [
+                  88.0999984741211,
+                  83.0999984741211,
+                  77.19000244140625
+                ],
+                "low": [
+                  85.52999877929688,
+                  82.56999969482422,
+                  77.13999938964844
+                ],
+                "high": [
+                  88.44999694824219,
+                  85.63999938964844,
+                  81.58999633789062
+                ],
+                "volume": [
+                  1309900,
+                  1967600,
+                  2802900
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  83.88694763183594,
+                  79.12606048583984,
+                  73.49869537353516
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

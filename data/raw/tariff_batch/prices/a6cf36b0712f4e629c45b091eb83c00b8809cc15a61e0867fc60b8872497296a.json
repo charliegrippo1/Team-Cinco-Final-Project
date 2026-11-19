@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AON?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:19.833442+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AON",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 328800600,
+            "regularMarketTime": 1795035649,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 332.47,
+            "regularMarketChangePercent": -0.696,
+            "fulldayPrice": 332.47,
+            "fulldayChange": -2.33,
+            "fulldayChangePercent": -0.696,
+            "fiftyTwoWeekHigh": 382.34,
+            "fiftyTwoWeekLow": 266.33,
+            "regularMarketDayHigh": 334.67,
+            "regularMarketDayLow": 329.15,
+            "regularMarketVolume": 963107,
+            "longName": "Aon plc",
+            "shortName": "Aon plc",
+            "chartPreviousClose": 398.81,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  397.8800048828125,
+                  392.2799987792969,
+                  389.42999267578125
+                ],
+                "high": [
+                  397.8800048828125,
+                  400.5899963378906,
+                  395.75
+                ],
+                "volume": [
+                  1013700,
+                  1219100,
+                  2392000
+                ],
+                "low": [
+                  390.2300109863281,
+                  391.3800048828125,
+                  373.7699890136719
+                ],
+                "close": [
+                  396.0299987792969,
+                  394.2900085449219,
+                  375.760009765625
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  391.4381103515625,
+                  389.71826171875,
+                  371.4031677246094
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

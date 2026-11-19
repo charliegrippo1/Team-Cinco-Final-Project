@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0f2fd726752d44d83f280f61e7b50c8f604bd7106a1c797986f13a932d95cc70",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T03:14:25.395911+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "766eb2b597273c190ed98d84ae0d5c3a",
+    "output_text": "{\"score\":3,\"evidence\":\"International or domestic geopolitical or other events, including the imposition of any tariffs or quotas by governmental authorities on any raw materials that we use in the production of our products, could adversely affect the supply and cost of these raw materials to us. While we do not currently expect our production operations to be directly impacted by conflicts around the world, changes in global grain and commodity pricing and availability may impact the markets where we operate.\",\"rationale\":\"The filing identifies specific imported raw materials and inputs (e.g., grain, agave, glass, barrels) whose supply and cost could be materially affected by tariffs or geopolitical events. It also discusses supply chain disruptions and the impact of tariffs on American whiskey exports, indicating substantial reliance on imported physical goods and overseas inputs that could materially affect costs or operations. However, it does not state that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so the score is 3 rather than 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30892,
+    "output_tokens": 202,
+    "cost_usd": 0.01268
+  }
+}

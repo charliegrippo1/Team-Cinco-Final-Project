@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f26247bfcce2654319f37b8e9126ab9cc082103c29e74577820a96056f8cdd93",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:26:41.670395+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "36f206a4ab0bdd993fdd92ddea592023",
+    "output_text": "{\"score\":3,\"evidence\":\"As an example, on February 1, 2025, the U.S. government announced a 25% tariff on product imports from certain countries, including Mexico and Canada, and 10% tariffs on product imports from certain countries, including China. These actions are expected to result in retaliatory measures on U.S. goods. If maintained, the newly announced tariffs and the potential escalation of trade disputes could pose a significant risk to our business and would affect our revenue and cost of goods sold.\",\"rationale\":\"The filing identifies specific tariffs imposed by the U.S. government on imports from countries including China, Mexico and Canada, which are expected to affect costs and operations. The tariffs are described as posing a significant risk to the business and impacting cost of goods sold, indicating substantial reliance on imports and overseas manufacturing that could materially affect costs or operations. This supports a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45840,
+    "output_tokens": 187,
+    "cost_usd": 0.0186352
+  }
+}

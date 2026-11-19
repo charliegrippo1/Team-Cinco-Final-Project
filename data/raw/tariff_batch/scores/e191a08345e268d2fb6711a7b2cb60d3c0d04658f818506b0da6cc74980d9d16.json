@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "14caf46a13c01b1cc4004b73c7febcf8c58e84b998657794b2e84c02038b7ced",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:47:42.622683+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "da9a105c27e85891556fb7e33fd75dbf",
+    "output_text": "{\"score\":3,\"evidence\":\"We have the following foreign operations: •Cobb-Vantress, a chicken breeding stock subsidiary, has business interests in Argentina, Brazil, China, the Dominican Republic, India, the Netherlands, New Zealand, Peru, the Philippines, Spain, Turkey, and the United Kingdom. •Tyson Asia-Pacific consists of vertically-integrated chicken production operations in Thailand, multi-protein further-processing operations in Malaysia, a beef production operation in Australia, a producer and distributor of value-added and cooked chicken and beef products in the Kingdom of Saudi Arabia, and joint venture interests in two non-consolidated poultry businesses in Malaysia and one in the Kingdom of Saudi Arabia. •Tyson China-Korea, with locations in China and South Korea, consists of vertically-integrated chicken production operations, multi-protein further-processing operations, and a joint venture interest in a non-consolidated chicken processing business. Tyson China also sells beef, pork, and chicken products imported from Tyson production facilities in the United States and other global operations. •Tyson Europe sells chicken products throughout the United Kingdom and Europe produced from our other global operations and co-packer arrangements. •Vibra Agroindustrial S.A., a joint venture in Brazil in which we have a minority interest, is a vertically-integrated chicken processing business. •Holding Agro Industrial S.A., a joint venture in Argentina and Uruguay in which we have a minority interest, is a vertically-integrated chicken processing business. •Tyson Mexico Trading Company, a Mexican subsidiary, sells chicken and prepared foods products primarily from our U.S. operations and co-packer arrangements.\",\"rationale\":\"The filing identifies multiple foreign operations involving vertically-integrated chicken production and processing in China, Thailand, Malaysia, Australia, Saudi Arabia, Brazil, Argentina, Uruguay, and Mexico. These operations include breeding, processing, and further-processing activities overseas, indicating substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations. China is explicitly mentioned as a location for vertically-integrated chicken production and processing, supporting the rationale for the score. However, the filing does not indicate that imports or overseas manufacturing are central to the entire business or that most products depend on these arrangements, so the score is 3 rather than 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31720,
+    "output_tokens": 458,
+    "cost_usd": 0.013420800000000002
+  }
+}

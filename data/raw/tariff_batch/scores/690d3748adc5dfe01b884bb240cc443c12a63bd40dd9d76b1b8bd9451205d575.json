@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e7cf494d2d25da4b106da7c6108740d3ab8c925e7a25b92fa30c99c4fc791033",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:40:25.741864+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e8ff704805276cdba38fc7f0a1147a59",
+    "output_text": "{\"score\":3,\"evidence\":\"The Chemicals segment consists of our 50% equity investment in Chevron Phillips Chemical Company LLC (CPChem), which is headquartered in The Woodlands, Texas. At December 31, 2024, CPChem owned or had joint venture interests in 30 manufacturing facilities located in Belgium, Colombia, Qatar, Saudi Arabia, Singapore and the United States.\",\"rationale\":\"The filing identifies specific overseas manufacturing facilities for CPChem in multiple countries including Belgium, Colombia, Qatar, Saudi Arabia, and Singapore, indicating substantial reliance on foreign manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 51677,
+    "output_tokens": 123,
+    "cost_usd": 0.020867600000000004
+  }
+}

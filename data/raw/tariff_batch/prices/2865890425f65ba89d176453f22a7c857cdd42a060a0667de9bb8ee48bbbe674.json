@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BAX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:50.522348+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BAX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 373041000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 26.16,
+            "regularMarketChangePercent": 1.553,
+            "fulldayPrice": 26.147,
+            "fulldayChange": 0.387,
+            "fulldayChangePercent": 1.502,
+            "fiftyTwoWeekHigh": 30.0,
+            "fiftyTwoWeekLow": 15.73,
+            "regularMarketDayHigh": 26.45,
+            "regularMarketDayLow": 25.52,
+            "regularMarketVolume": 4008530,
+            "longName": "Baxter International Inc.",
+            "shortName": "Baxter International Inc.",
+            "chartPreviousClose": 34.02,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  33.720001220703125,
+                  33.29999923706055,
+                  30.729999542236328
+                ],
+                "volume": [
+                  2491700,
+                  5555500,
+                  5995400
+                ],
+                "high": [
+                  33.83000183105469,
+                  33.599998474121094,
+                  31.190000534057617
+                ],
+                "low": [
+                  33.41999816894531,
+                  31.290000915527344,
+                  28.700000762939453
+                ],
+                "close": [
+                  33.650001525878906,
+                  31.350000381469727,
+                  28.790000915527344
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  33.16659164428711,
+                  30.899633407592773,
+                  28.37641143798828
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

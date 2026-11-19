@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cade53180c587f77941a4ea9552a01649e20de668d88c8284f348d9c60f7017d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:01:13.593539+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "daf49d8b458ccc7e87d442c21d0db204",
+    "output_text": "{\"score\":3,\"evidence\":\"For example, following a facility inspection in December 2023, the FDA issued a warning letter to Cardinal Health in April 2024 related to plastic syringes sourced from a third party manufacturer in China asserting these products did not have appropriate 510(k) clearance and restating some of the observations from the December 2023 inspection.\",\"rationale\":\"The filing identifies specific imported goods (plastic syringes) sourced from a third-party manufacturer in China and notes regulatory issues related to these imports, indicating substantial reliance on overseas manufacturing that could materially affect operations and costs.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33876,
+    "output_tokens": 123,
+    "cost_usd": 0.013747200000000001
+  }
+}

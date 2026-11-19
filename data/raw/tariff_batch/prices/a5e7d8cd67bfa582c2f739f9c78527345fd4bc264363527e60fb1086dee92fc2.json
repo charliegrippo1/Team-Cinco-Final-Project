@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LKQ?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:57.572951+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LKQ",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1065447000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 19.1,
+            "regularMarketChangePercent": 1.65,
+            "fulldayPrice": 19.499,
+            "fulldayChange": 0.709,
+            "fulldayChangePercent": 3.772,
+            "fiftyTwoWeekHigh": 37.13,
+            "fiftyTwoWeekLow": 16.85,
+            "regularMarketDayHigh": 19.36,
+            "regularMarketDayLow": 18.57,
+            "regularMarketVolume": 2854654,
+            "longName": "LKQ Corporation",
+            "shortName": "LKQ Corporation",
+            "chartPreviousClose": 42.97,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  2172600,
+                  2995300,
+                  3708600
+                ],
+                "close": [
+                  43.380001068115234,
+                  42.18000030517578,
+                  41.290000915527344
+                ],
+                "open": [
+                  42.599998474121094,
+                  43.380001068115234,
+                  41.56999969482422
+                ],
+                "high": [
+                  43.470001220703125,
+                  43.439998626708984,
+                  42.0
+                ],
+                "low": [
+                  42.439998626708984,
+                  41.529998779296875,
+                  40.650001525878906
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  40.85638427734375,
+                  39.726192474365234,
+                  38.88797378540039
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e3216420e15603c1d42a4b70e25437503af6008c0310b9047d5958305288704d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:32:39.162498+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2f5d911956552829f24b109925677eca",
+    "output_text": "```json\n{\"score\":2,\"evidence\":\"We rely on suppliers to secure commodities, particularly steel and non-ferrous metals, and third-party parts and components, including electronic components, required for the manufacture of our products. A disruption in deliveries from our suppliers or decreased availability of commodities and third-party parts and components could adversely affect our ability to meet our commitments to customers, impact pricing, increase our operating costs, or impact timing and delivery of products and services.\",\"rationale\":\"The filing identifies specific imported goods and third-party parts and components, including electronic components, as critical inputs sourced globally, indicating dependence on foreign-made inputs and overseas suppliers. However, the evidence does not establish that this dependence is substantial enough to materially affect costs or operations, nor that imports or overseas manufacturing are central to the business. Therefore, the score is 2.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31341,
+    "output_tokens": 172,
+    "cost_usd": 0.012811600000000001
+  }
+}

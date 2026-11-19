@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "dc092100cbbb917e43d25790ae51b69da906f7e683df5817918d9cb3e0e6dfd3",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:14:13.273235+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "0d2fc0a36a0e1a8b7d448878f0316ad4",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Eaton manages businesses with manufacturing facilities worldwide. Our manufacturing facilities and operations could be disrupted by a natural disaster, labor strike, war, geopolitical instability and/or conflict, political unrest, terrorist activity, economic upheaval, or public health concerns (for example, COVID-19). Any such disruption could cause delays in production and shipment of products and the loss of sales and customers, and insurance proceeds may not adequately compensate for losses.\",\n  \"rationale\": \"The filing identifies that Eaton has manufacturing facilities worldwide, implying reliance on overseas manufacturing. However, it does not specify the extent or criticality of these overseas operations or imported inputs. While risks to global manufacturing are noted, the evidence does not establish that imports or foreign-made inputs are central or that dependence is substantial enough to materially affect costs or operations. Therefore, a score of 2 is appropriate.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 18463,
+    "output_tokens": 189,
+    "cost_usd": 0.007687600000000001
+  }
+}

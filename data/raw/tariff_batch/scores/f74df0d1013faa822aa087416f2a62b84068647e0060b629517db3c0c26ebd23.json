@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d7baf13a6070aec5c02cd326eb79c82f9fff6bc48dd9117d92a8e40c9171573c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:53:39.185739+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "40fe1cce41ec94c858254aef92f86b58",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Government actions in various countries relating to tariffs, particularly China and the United States, have affected the costs of some of our merchandise. The degree of our exposure is dependent on (among other things) the type of goods, rates imposed, and timing of the tariffs.\",\n  \"rationale\": \"The filing identifies tariffs related to China and the U.S. affecting merchandise costs, indicating specific imported goods or foreign-made inputs are involved. However, it does not provide evidence that this dependence is substantial or central to the business, only that tariffs have affected costs. Therefore, the score reflects specific identified dependence but limited evidence of substantial reliance.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 17210,
+    "output_tokens": 145,
+    "cost_usd": 0.007116000000000001
+  }
+}

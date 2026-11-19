@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CPRT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:27.907520+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CPRT",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 763914600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 31.46,
+            "regularMarketChangePercent": 0.032,
+            "fulldayPrice": 31.46,
+            "fulldayChange": 0.0,
+            "fulldayChangePercent": 0.0,
+            "fiftyTwoWeekHigh": 41.79,
+            "fiftyTwoWeekLow": 25.72,
+            "regularMarketDayHigh": 32.78,
+            "regularMarketDayLow": 30.825,
+            "regularMarketVolume": 10963955,
+            "longName": "Copart, Inc.",
+            "shortName": "Copart, Inc.",
+            "chartPreviousClose": 57.21,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  56.59000015258789,
+                  55.68000030517578,
+                  56.63999938964844
+                ],
+                "low": [
+                  56.58000183105469,
+                  55.47999954223633,
+                  54.459999084472656
+                ],
+                "volume": [
+                  3927800,
+                  6392100,
+                  8771400
+                ],
+                "close": [
+                  57.470001220703125,
+                  56.63999938964844,
+                  54.5099983215332
+                ],
+                "high": [
+                  58.13999938964844,
+                  57.38999938964844,
+                  57.20000076293945
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  57.470001220703125,
+                  56.63999938964844,
+                  54.5099983215332
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

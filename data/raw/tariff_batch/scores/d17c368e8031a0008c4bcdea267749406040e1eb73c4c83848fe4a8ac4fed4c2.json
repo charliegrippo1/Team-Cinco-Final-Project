@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d29bbd6dccfd60844d39cc9ecb2bdaffbd136ec0e61bf06f2edce2f64785a247",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:26:58.440494+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "fb1e59d67b457106f5c0b94a2b1dd348",
+    "output_text": "{\"score\":3,\"evidence\":\"We own manufacturing facilities located in the United States, Malaysia, China, Brazil, India, Poland, and Ireland. See “Item 2 — Properties” for information about our manufacturing and distribution facilities.\\n\\nWe also utilize contract manufacturers throughout the world to manufacture or assemble our products under the Dell Technologies brand to provide operational flexibility, achieve cost efficiencies, deliver products faster, better serve our customers, and enhance our supply chain. When using contract manufacturers, we purchase components from suppliers and subsequently sell those components to the manufacturer.\",\"rationale\":\"The filing identifies manufacturing facilities in multiple countries including China and the use of contract manufacturers worldwide, indicating substantial reliance on overseas manufacturing and foreign-made inputs. This reliance could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43583,
+    "output_tokens": 161,
+    "cost_usd": 0.017690800000000003
+  }
+}

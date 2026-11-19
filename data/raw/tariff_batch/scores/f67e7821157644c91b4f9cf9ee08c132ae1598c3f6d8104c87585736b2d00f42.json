@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7dee3a6832672c40c3cc2cd53e7b2aa3a574a471309022deb10ab56c78b0b610",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:45:12.506996+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3c326ed2150fc394784cf0b49fb7a3e0",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Raw materials are purchased from third parties, and we consider the supply to be adequate to meet the needs of our businesses. See Item 1A, \\\"Risk Factors.\\\"\",\n  \"rationale\": \"The filing identifies specific imported goods and foreign-made inputs such as cellulose fiber, polypropylene, synthetics, chemicals, and superabsorbent materials used in manufacturing. It also mentions manufacturing facilities in 30 countries and sales in over 175 countries, including China. However, the filing states that raw materials are purchased from third parties with supply considered adequate, and while risks such as tariffs and currency fluctuations are noted, substantial reliance that could materially affect costs or operations is not clearly established. Therefore, the dependence is specific but evidence of substantial impact is limited.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22270,
+    "output_tokens": 170,
+    "cost_usd": 0.00918
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HLT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:26.150829+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HLT",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1386858600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 373.03,
+            "regularMarketChangePercent": 0.675,
+            "fulldayPrice": 373.03,
+            "fulldayChange": 2.87,
+            "fulldayChangePercent": 0.775,
+            "fiftyTwoWeekHigh": 381.34,
+            "fiftyTwoWeekLow": 263.95,
+            "regularMarketDayHigh": 375.265,
+            "regularMarketDayLow": 369.7,
+            "regularMarketVolume": 1563728,
+            "longName": "Hilton Worldwide Holdings Inc.",
+            "shortName": "Hilton Worldwide Holdings Inc.",
+            "chartPreviousClose": 227.28,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  232.0399932861328,
+                  223.32000732421875,
+                  216.16000366210938
+                ],
+                "close": [
+                  231.3800048828125,
+                  217.3800048828125,
+                  208.85000610351562
+                ],
+                "low": [
+                  224.1999969482422,
+                  215.99000549316406,
+                  207.2100067138672
+                ],
+                "open": [
+                  224.38999938964844,
+                  219.85000610351562,
+                  212.17999267578125
+                ],
+                "volume": [
+                  1508100,
+                  4213300,
+                  5071300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  230.66127014160156,
+                  216.7047576904297,
+                  208.20126342773438
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "74db1044ce212b17e97181d376cce3ea3a76120280bb5f110856b55a0ca33826",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:38:33.161993+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c94a20c87d2d81cdbe694f3535b2ccc0",
+    "output_text": "{\"score\":3,\"evidence\":\"FedEx Ground results include business optimization costs of $108 million in 2024 associated with our plan to drive efficiency and lower our overhead and support costs. See the “Business Optimization and Realignment Costs” section of this MD&A for more information.\",\"rationale\":\"The filing identifies specific operational initiatives (business optimization costs) tied to network rationalization and efficiency improvements that involve consolidating sortation facilities and optimizing linehaul networks, which imply substantial reliance on imported goods and overseas manufacturing could materially affect costs or operations. The mention of international operations and global network hubs, including in China, supports the rationale for a score of 3 rather than 2. However, imports or overseas manufacturing are not described as central to the business or most products dependent on these arrangements, so score 4 is not supported.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 56033,
+    "output_tokens": 169,
+    "cost_usd": 0.0226836
+  }
+}

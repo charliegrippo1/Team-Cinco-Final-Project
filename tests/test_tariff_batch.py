@@ -47,6 +47,37 @@ class BatchTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'exact quote'):
                 batch.score(self.firm, self.root, 'test')
 
+    def test_rubric_change_cannot_reuse_legacy_scores(self):
+        with patch.dict(batch.os.environ, {'OPENAI_API_KEY': 'test-only'}), patch.object(
+                batch, 'request_json', return_value=self.response()) as api:
+            batch.score(self.firm, self.root, 'test', rubric='v0')
+            self.assertEqual(api.call_args.args[1]['instructions'], batch.LEGACY_PROMPT)
+            with self.assertRaisesRegex(ValueError, 'No cached score'):
+                batch.score(self.firm, self.root, 'test', offline=True)
+            batch.score(self.firm, self.root, 'test')
+            self.assertEqual(api.call_count, 2)
+            self.assertEqual(api.call_args.args[1]['instructions'], batch.PROMPT)
+            batch.score(self.firm, self.root, 'test', offline=True, rubric='v0')
+            batch.score(self.firm, self.root, 'test', offline=True, rubric='v1')
+            self.assertEqual(api.call_count, 2)
+
+    def test_oversize_excluded_before_paid_call_and_counted(self):
+        self.text.write_text('é' * 350000, encoding='utf-8')
+        self.assertEqual(len(batch.scoring_text(self.firm, False)), 350000)
+        self.text.write_text('é' * 350001, encoding='utf-8')
+        path = self.root / 'manifest.csv'
+        batch.write(path, [self.firm])
+        args = SimpleNamespace(manifest=path, limit=None, cache=self.root, model='test',
+                               masked=False, offline=False, stage='all', output=self.root / 'out')
+        with patch.object(batch, 'request_json') as api, patch('builtins.print'):
+            self.assertEqual(batch.run(args), 1)
+            api.assert_not_called()
+        coverage = batch.read(args.output / 'coverage.csv')
+        self.assertEqual(coverage[0]['status'], 'excluded_oversize')
+        self.assertIn('350001', coverage[0]['reason'])
+        sectors = batch.read(args.output / 'coverage_by_sector.csv')
+        self.assertEqual(sectors[0]['excluded_oversize'], '1')
+
     def test_price_sessions_and_missing_close(self):
         data = dict(meta=dict(symbol='EXM'), timestamp=[1743638400, 1743724800, 1743811200],
                     indicators=dict(adjclose=[dict(adjclose=[100, 90, 81])]))
@@ -164,6 +195,30 @@ class BatchTests(unittest.TestCase):
             with patch.object(batch, 'parrot_request', return_value=self.parrot_reply(stitched)):
                 with self.assertRaisesRegex(ValueError, 'exact quote'):
                     batch.score(self.firm, self.root, 'b', backend='parrot')
+
+    def test_v1_quote_rule_specs_29(self):
+        # v1 accepts the same words with other spacing/quote marks, and stitched quotes whose
+        # every piece is in the filing; paraphrases and short fragments still fail; v0 is unchanged.
+        self.assertEqual(batch.quote_match('imports  most of its\ngoods', 'It imports most of its goods.'),
+                         'formatting')
+        self.assertEqual(batch.quote_match('the Company’s plants', "the Company's plants"), 'formatting')
+        text = 'We import most of our goods from China. Other text here. We also own plants in Mexico.'
+        self.assertEqual(batch.quote_match('We import most of our goods from China. We also own plants in Mexico.',
+                                           text), 'stitched')
+        self.assertEqual(batch.quote_match('We import most of our goods... We also own plants in Mexico.',
+                                           text), 'stitched')
+        self.assertIsNone(batch.quote_match('We import most of our goods from China. We own many plants abroad.',
+                                            text))
+        self.assertIsNone(batch.quote_match('We import most of our goods... Mexico.', text))
+        stitched = json.dumps(dict(score=4, evidence='We import most of our goods from China. '
+                                   'We also own plants in Mexico.', rationale='r'))
+        self.text.write_text(text, encoding='utf-8')
+        with patch.dict(batch.os.environ, {'EXPECTED_PARROT_API_KEY': 'test-only'}):
+            with patch.object(batch, 'parrot_request', return_value=self.parrot_reply(stitched)):
+                _, log = batch.score(self.firm, self.root, 'a', backend='parrot', rubric='v1')
+                self.assertEqual(log['quote_match'], 'stitched')
+                with self.assertRaisesRegex(ValueError, 'exact quote'):
+                    batch.score(self.firm, self.root, 'a', backend='parrot', rubric='v0')
 
     def test_parrot_backend_needs_its_own_key(self):
         with patch.dict(batch.os.environ, {}, clear=True):

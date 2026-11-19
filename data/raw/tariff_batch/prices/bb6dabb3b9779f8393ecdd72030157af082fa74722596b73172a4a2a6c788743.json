@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/KMB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:28.773500+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "KMB",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 107.24,
+            "regularMarketChangePercent": -0.841,
+            "fulldayPrice": 107.5,
+            "fulldayChange": -0.65,
+            "fulldayChangePercent": -0.601,
+            "fiftyTwoWeekHigh": 116.82,
+            "fiftyTwoWeekLow": 92.42,
+            "regularMarketDayHigh": 108.3,
+            "regularMarketDayLow": 106.88,
+            "regularMarketVolume": 5765352,
+            "longName": "Kimberly-Clark Corporation",
+            "shortName": "Kimberly-Clark Corporation",
+            "chartPreviousClose": 143.03,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  141.55999755859375,
+                  144.44000244140625,
+                  137.64999389648438
+                ],
+                "high": [
+                  143.75,
+                  147.1199951171875,
+                  147.0
+                ],
+                "close": [
+                  142.89999389648438,
+                  145.22000122070312,
+                  137.91000366210938
+                ],
+                "open": [
+                  142.97000122070312,
+                  145.0,
+                  145.82000732421875
+                ],
+                "volume": [
+                  1845500,
+                  2384900,
+                  2554900
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  133.36114501953125,
+                  135.52626037597656,
+                  128.7042236328125
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

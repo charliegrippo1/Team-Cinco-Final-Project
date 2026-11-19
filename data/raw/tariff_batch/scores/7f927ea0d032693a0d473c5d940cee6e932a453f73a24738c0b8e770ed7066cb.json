@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "efff2491c387de256d6432e95e97c0be215396d82a1fccf80109c4526e934ec8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:01:09.314035+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "88b3ff737e7d45fead8b854e75215b0e",
+    "output_text": "{\"score\":0,\"evidence\":\"Targa Resources Corp. (NYSE: TRGP) is a publicly traded Delaware corporation formed in October 2005. Targa is a leading provider of midstream services and is one of the largest independent infrastructure companies in North America. We own, operate, acquire, and develop a diversified portfolio of complementary domestic infrastructure assets.\",\"rationale\":\"The filing describes Targa Resources as a midstream infrastructure company operating primarily in North America with domestic assets. There is no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. The operations and assets described are all domestic, with no specific operational dependence on imports or foreign manufacturing. Foreign sales alone do not increase the score, and China or other foreign locations are not mentioned as relevant to supply or manufacturing. Therefore, the filing supports little or no meaningful dependence on imported physical goods, foreign-made inputs, or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 56356,
+    "output_tokens": 183,
+    "cost_usd": 0.0228352
+  }
+}

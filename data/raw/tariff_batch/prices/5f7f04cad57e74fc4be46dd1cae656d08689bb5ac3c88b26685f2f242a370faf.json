@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TER?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:55.479595+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TER",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 235.21,
+            "regularMarketChangePercent": 0.44,
+            "fulldayPrice": 233.97,
+            "fulldayChange": -0.21,
+            "fulldayChangePercent": -0.09,
+            "fiftyTwoWeekHigh": 487.91,
+            "fiftyTwoWeekLow": 151.52,
+            "regularMarketDayHigh": 240.455,
+            "regularMarketDayLow": 228.88,
+            "regularMarketVolume": 1912648,
+            "longName": "Teradyne, Inc.",
+            "shortName": "Teradyne, Inc.",
+            "chartPreviousClose": 82.61,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  81.75,
+                  78.69000244140625,
+                  71.0999984741211
+                ],
+                "low": [
+                  81.0999984741211,
+                  74.38999938964844,
+                  67.12000274658203
+                ],
+                "volume": [
+                  1732900,
+                  5073900,
+                  6747100
+                ],
+                "high": [
+                  84.88999938964844,
+                  79.7300033569336,
+                  72.43000030517578
+                ],
+                "close": [
+                  83.62000274658203,
+                  75.08999633789062,
+                  68.72000122070312
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  83.2477798461914,
+                  74.75575256347656,
+                  68.41410827636719
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

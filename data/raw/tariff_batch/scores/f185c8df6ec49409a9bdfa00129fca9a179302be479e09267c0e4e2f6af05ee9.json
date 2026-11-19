@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0d01edacdcda541934bd7f33a999f34a5554791b9a0dab4e102037e7d791f0b5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:31:28.197438+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1b63893d1ea2650337ba886e25251dc1",
+    "output_text": "{\"score\":3,\"evidence\":\"These products were, as of February 21, 2025, manufactured by us in 20 countries and marketed in more than 180 countries.\",\"rationale\":\"The filing states that the company's products are manufactured in 20 countries globally, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. This supports a score of 3, reflecting substantial reliance on imports, foreign-made inputs, or overseas manufacturing. China is treated like other foreign locations but is not specifically mentioned here.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 46621,
+    "output_tokens": 107,
+    "cost_usd": 0.018819600000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c835bec6ea06be7117ef33017795080f9e8990f771895fb1b13ccd65b5727d32",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:13:34.409035+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "58a20aa752c855a4c32795293efb302c",
+    "output_text": "{\"score\":0,\"evidence\":\"Our portfolio is competitively positioned and well-maintained. Pursuant to the terms of our lease agreements, which require our tenants to invest in our properties, and in line with our tenants’ commitment to build guest loyalty, we anticipate our tenants will continue to make strategic value-enhancing investments in our properties over time, helping to maintain their competitive position.\",\"rationale\":\"The filing describes a real estate investment trust leasing properties to tenants who operate gaming and entertainment facilities. The tenants are responsible for operations and capital expenditures, including improvements. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on domestic and Canadian real estate assets, with no specific operational dependence on imports or overseas manufacturing. Risks related to tariffs or trade restrictions are not discussed as operational dependencies. Therefore, the filing supports little or no meaningful dependence on imported goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 44842,
+    "output_tokens": 187,
+    "cost_usd": 0.018236000000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8161b235663129e8d85af13b1743e8a3a66656a22b404ec41a3e1d549c4c307f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:18:58.542424+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "82dd190707cd334539cec1f477e82358",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Although our products are manufactured in North America and we source the significant majority of our ingredients and raw materials from North America, global supply has at times been and may continue to be constrained, which has caused and may continue to cause the price of certain ingredients and raw materials used in our products to increase and/or we may experience disruptions to our operations. Additionally, although we have no direct operations in Russia, Ukraine, Israel, elsewhere in the Middle East, China, or Taiwan, we have experienced, or may experience, shortages in materials from these regions, increased costs for transportation, energy, and raw materials from and in these regions, and reduced consumer confidence and consumption in these regions due in part to the negative impact of military conflicts and rising tensions in these areas on the global economy.\",\n  \"rationale\": \"The filing identifies specific foreign regions, including China, as sources of materials and notes experienced or potential shortages and increased costs related to these regions. While manufacturing is primarily in North America, the mention of shortages and cost impacts from foreign-made inputs and global supply constraints indicates a measurable but not central dependence on imported physical goods or overseas inputs, supporting a score of 2.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28200,
+    "output_tokens": 254,
+    "cost_usd": 0.011686400000000001
+  }
+}

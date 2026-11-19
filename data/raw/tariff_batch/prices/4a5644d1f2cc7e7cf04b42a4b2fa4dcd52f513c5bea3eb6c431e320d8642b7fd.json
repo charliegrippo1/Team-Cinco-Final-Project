@@ -1,0 +1,119 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOLV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:58.229475+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "SOLV",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1711459800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 86.48,
+            "regularMarketChangePercent": 0.488,
+            "fulldayPrice": 86.48,
+            "fulldayChange": 0.42,
+            "fulldayChangePercent": 0.488,
+            "fiftyTwoWeekHigh": 94.16,
+            "fiftyTwoWeekLow": 62.38,
+            "regularMarketDayHigh": 87.41,
+            "regularMarketDayLow": 85.15,
+            "regularMarketVolume": 764898,
+            "longName": "Solventum Corporation",
+            "shortName": "Solventum Corporation",
+            "chartPreviousClose": 76.34,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  1370000,
+                  3105000,
+                  1873200
+                ],
+                "close": [
+                  76.62000274658203,
+                  70.19000244140625,
+                  66.19999694824219
+                ],
+                "open": [
+                  76.12999725341797,
+                  74.7300033569336,
+                  68.48999786376953
+                ],
+                "high": [
+                  77.75,
+                  74.7300033569336,
+                  69.1449966430664
+                ],
+                "low": [
+                  75.8499984741211,
+                  70.02999877929688,
+                  65.7300033569336
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  76.62000274658203,
+                  70.19000244140625,
+                  66.19999694824219
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

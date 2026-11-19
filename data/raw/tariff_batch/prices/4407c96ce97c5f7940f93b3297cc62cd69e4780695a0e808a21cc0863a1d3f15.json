@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/APTV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:54.995721+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "APTV",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1321540200,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 38.58,
+            "regularMarketChangePercent": 1.848,
+            "fulldayPrice": 38.58,
+            "fulldayChange": 0.7,
+            "fulldayChangePercent": 1.848,
+            "fiftyTwoWeekHigh": 88.93,
+            "fiftyTwoWeekLow": 37.43,
+            "regularMarketDayHigh": 39.46,
+            "regularMarketDayLow": 37.765,
+            "regularMarketVolume": 2884751,
+            "longName": "Aptiv PLC",
+            "shortName": "Aptiv PLC",
+            "chartPreviousClose": 59.15,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  58.27000045776367,
+                  55.20000076293945,
+                  50.099998474121094
+                ],
+                "high": [
+                  61.060001373291016,
+                  59.29999923706055,
+                  53.77000045776367
+                ],
+                "volume": [
+                  2254300,
+                  4064900,
+                  5974200
+                ],
+                "open": [
+                  58.7400016784668,
+                  58.58000183105469,
+                  53.06999969482422
+                ],
+                "close": [
+                  60.779998779296875,
+                  55.38999938964844,
+                  53.0
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  60.779998779296875,
+                  55.38999938964844,
+                  53.0
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

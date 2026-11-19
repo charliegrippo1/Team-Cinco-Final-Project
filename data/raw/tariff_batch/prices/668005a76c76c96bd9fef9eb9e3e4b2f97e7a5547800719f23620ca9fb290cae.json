@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/EW?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:31.358510+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "EW",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 954167400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 105.23,
+            "regularMarketChangePercent": -0.19,
+            "fulldayPrice": 105.23,
+            "fulldayChange": -0.2,
+            "fulldayChangePercent": -0.19,
+            "fiftyTwoWeekHigh": 108.0,
+            "fiftyTwoWeekLow": 74.66,
+            "regularMarketDayHigh": 106.56,
+            "regularMarketDayLow": 103.068,
+            "regularMarketVolume": 3922194,
+            "longName": "Edwards Lifesciences Corporation",
+            "shortName": "Edwards Lifesciences Corporatio",
+            "chartPreviousClose": 71.87,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  70.7300033569336,
+                  70.81999969482422,
+                  68.83000183105469
+                ],
+                "volume": [
+                  2865300,
+                  6930500,
+                  7511800
+                ],
+                "high": [
+                  72.36000061035156,
+                  73.26000213623047,
+                  71.72000122070312
+                ],
+                "close": [
+                  72.05000305175781,
+                  72.9800033569336,
+                  69.36000061035156
+                ],
+                "open": [
+                  70.81999969482422,
+                  71.0,
+                  71.43000030517578
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  72.05000305175781,
+                  72.9800033569336,
+                  69.36000061035156
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

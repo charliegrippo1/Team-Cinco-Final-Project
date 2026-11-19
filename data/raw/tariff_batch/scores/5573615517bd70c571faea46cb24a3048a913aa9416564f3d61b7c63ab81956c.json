@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cf2b01a42e0f4b79ad1613eecffff1555b0e0dbe4e0da4cec7ee189020b72bad",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:18:54.832487+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "90b2aa748307da6804a4a28692d63d52",
+    "output_text": "{\"score\":0,\"evidence\":\"Prologis, Inc. is a self-administered and self-managed REIT and is the sole general partner of Prologis, L.P. through which it holds substantially all of its assets.\",\"rationale\":\"The filing describes Prologis as a real estate investment trust focused on owning, managing, and developing logistics real estate properties globally. There is no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is centered on real estate ownership and management, not on manufacturing or importing physical goods. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31105,
+    "output_tokens": 131,
+    "cost_usd": 0.012651600000000002
+  }
+}

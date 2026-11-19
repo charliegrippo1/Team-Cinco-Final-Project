@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/KO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:08.400689+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "KO",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": -252322200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 98.09,
+            "regularMarketChangePercent": -0.709,
+            "fulldayPrice": 98.08,
+            "fulldayChange": -0.71,
+            "fulldayChangePercent": -0.719,
+            "fiftyTwoWeekHigh": 100.56,
+            "fiftyTwoWeekLow": 67.27,
+            "regularMarketDayHigh": 98.87,
+            "regularMarketDayLow": 97.16,
+            "regularMarketVolume": 16529975,
+            "longName": "The Coca-Cola Company",
+            "shortName": "Coca-Cola Company (The)",
+            "chartPreviousClose": 71.87,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  71.95999908447266,
+                  72.4800033569336,
+                  72.41999816894531
+                ],
+                "close": [
+                  71.33000183105469,
+                  73.18000030517578,
+                  69.93000030517578
+                ],
+                "volume": [
+                  14606500,
+                  24959600,
+                  26517300
+                ],
+                "low": [
+                  71.05000305175781,
+                  72.31999969482422,
+                  69.79000091552734
+                ],
+                "high": [
+                  72.36000061035156,
+                  73.94999694824219,
+                  73.01000213623047
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  68.46725463867188,
+                  70.24300384521484,
+                  67.12344360351562
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "55349f1b55558ff023724db34062e1cca11caea7fca962bcf74cbd2b06d84a03",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:08:12.734086+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "66a70f21e16e19ef6b0570895aa71505",
+    "output_text": "{\"score\":0,\"evidence\":\"FIS is a financial technology company providing solutions to financial institutions, businesses and developers.\",\"rationale\":\"The filing describes FIS as a financial technology company providing software and services to financial institutions and businesses, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software and technology solutions rather than physical goods or manufacturing. There is no specific operational dependence on imports or overseas manufacturing identified in the text.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33495,
+    "output_tokens": 99,
+    "cost_usd": 0.013556400000000001
+  }
+}

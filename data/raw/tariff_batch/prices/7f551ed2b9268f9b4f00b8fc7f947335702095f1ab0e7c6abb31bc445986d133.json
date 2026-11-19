@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DPZ?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:52.022486+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DPZ",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1089725400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 353.54,
+            "regularMarketChangePercent": 1.052,
+            "fulldayPrice": 353.54,
+            "fulldayChange": 4.789,
+            "fulldayChangePercent": 1.369,
+            "fiftyTwoWeekHigh": 442.35,
+            "fiftyTwoWeekLow": 282.0,
+            "regularMarketDayHigh": 354.915,
+            "regularMarketDayLow": 346.04,
+            "regularMarketVolume": 561571,
+            "longName": "Domino's Pizza, Inc.",
+            "shortName": "Domino's Pizza Inc",
+            "chartPreviousClose": 465.47,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  458.6600036621094,
+                  454.0,
+                  432.05999755859375
+                ],
+                "volume": [
+                  587700,
+                  740400,
+                  1057700
+                ],
+                "high": [
+                  470.3299865722656,
+                  475.9599914550781,
+                  455.4800109863281
+                ],
+                "close": [
+                  468.3500061035156,
+                  463.7799987792969,
+                  444.2099914550781
+                ],
+                "open": [
+                  462.17999267578125,
+                  455.8500061035156,
+                  453.6600036621094
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  454.90509033203125,
+                  450.4662170410156,
+                  431.4580383300781
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

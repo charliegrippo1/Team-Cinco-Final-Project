@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3e395609680b8cc72e028d56c2cf735f5c37477af9e495b3fbe5f4ce9157a87c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:02:19.040419+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4a0a3d98e474c2ef80ea49bd586d2679",
+    "output_text": "{\"score\":3,\"evidence\":\"Our internal manufacturing network has commercial production capabilities for bulk manufacturing, formulation, fill, finish, tableting and final device assembly. These activities are performed within the United States and its territory, including in our Puerto Rico, Rhode Island, Ohio and California facilities, as well as internationally in our Ireland, Netherlands and Singapore facilities. In addition, we use third-party contract manufacturers to supplement the capacity or capability of our commercial manufacturing network.\",\"rationale\":\"The filing identifies substantial reliance on overseas manufacturing, including facilities in Ireland, Netherlands and Singapore, alongside U.S. and Puerto Rico sites, and use of third-party contract manufacturers to supplement capacity. This indicates that overseas manufacturing is material to operations and could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 67472,
+    "output_tokens": 152,
+    "cost_usd": 0.027232000000000003
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "28047094cba0a98fa93577d69725853682937563bde8c977a825c525f2e3c0ef",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:32:42.055093+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f11340d83346a132cdaf061d491a9341",
+    "output_text": "{\"score\":2,\"evidence\":\"Our supply chain is also exposed to risks related to international operations. While we purchase our products primarily in the markets we serve (for example, products for US customers are sourced in the US), our vendor partners manufacture or purchase a significant portion of the products we sell outside of the US, primarily in Asia. Political, social or economic instability in Asia, or in other regions in which our vendor partners purchase or manufacture the products we sell, could cause disruptions in trade, including exports to the US.\",\"rationale\":\"The filing identifies that a significant portion of products sold are manufactured or purchased outside the US, primarily in Asia, indicating specific overseas manufacturing dependence. However, it does not quantify the extent of this reliance or state that imports or overseas manufacturing are central to the business. Thus, the dependence is more than limited risk but less than central, supporting a score of 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26379,
+    "output_tokens": 184,
+    "cost_usd": 0.010846000000000001
+  }
+}

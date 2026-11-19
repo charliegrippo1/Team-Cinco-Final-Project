@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/JBL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:53.047233+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "JBL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 736435800,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 247.4,
+            "regularMarketChangePercent": 1.556,
+            "fulldayPrice": 247.4,
+            "fulldayChange": 3.79,
+            "fulldayChangePercent": 1.556,
+            "fiftyTwoWeekHigh": 428.93,
+            "fiftyTwoWeekLow": 189.6,
+            "regularMarketDayHigh": 250.03,
+            "regularMarketDayLow": 241.88,
+            "regularMarketVolume": 595814,
+            "longName": "Jabil Inc.",
+            "shortName": "Jabil Inc.",
+            "chartPreviousClose": 136.42,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  139.67999267578125,
+                  131.85000610351562,
+                  119.04000091552734
+                ],
+                "close": [
+                  138.75,
+                  123.48999786376953,
+                  116.87999725341797
+                ],
+                "volume": [
+                  912300,
+                  2539600,
+                  3385100
+                ],
+                "low": [
+                  133.80999755859375,
+                  120.5199966430664,
+                  108.66000366210938
+                ],
+                "open": [
+                  134.08999633789062,
+                  130.02000427246094,
+                  117.9800033569336
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  138.42918395996094,
+                  123.20448303222656,
+                  116.6097412109375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

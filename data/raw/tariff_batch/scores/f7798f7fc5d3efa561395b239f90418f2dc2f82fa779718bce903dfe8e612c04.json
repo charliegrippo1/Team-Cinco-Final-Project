@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "57115066ce7a0f9ae5b27944a48c299fdcc95e75e6bc3115051d682f12057d5e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:29:11.796303+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d5bb00f3617e7b0766a182efc4e2d0bc",
+    "output_text": "{\"score\":2,\"evidence\":\"We have diversified our business by growing high-margin revenue streams that leverage our competitive advantages, including: •Our Maintenance, Repair and Overhaul (\\\"MRO\\\") operation, where we are well-positioned for growth through contractual agreements with jet engine manufacturers, including three next-generation engine platforms.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs through contractual agreements with jet engine manufacturers for MRO operations, indicating some dependence on foreign suppliers. However, the evidence does not establish that this dependence is substantial or central to the business, so a score of 2 is appropriate.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34941,
+    "output_tokens": 125,
+    "cost_usd": 0.014176400000000002
+  }
+}

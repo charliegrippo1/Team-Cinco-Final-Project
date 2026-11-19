@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "209c5589497aaddfa5324e6ccd3cd273117ecfdf37890c5be72b8ad789a0faf8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:23:59.133873+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3f6753674efa00fb70493dbe4d8d28cd",
+    "output_text": "{\"score\":3,\"evidence\":\"Some of our products require relatively scarce raw materials, such as rare earth minerals. Other important materials and components, on which certain of our products rely, include aluminum, titanium, specialty steel, carbon fiber and advanced microelectronics, such as semiconductors. We rely on other companies to provide materials, components and products and to perform a portion of the services that are provided to our customers under the terms of most of our contracts. Although long-term agreements have historically helped enable a continued supply of these materials, supply chain challenges, supplier disputes, regulatory restrictions, and inflationary pressures have caused certain parts’ shortages, extended lead times and pricing escalations affecting certain sources of supply. We are working with U.S. Government, customers and suppliers on phase-in of regulatory requirements for transitioning the supply chains for rare earth minerals and magnets to secure and compliant sources. The current availability of sources of supply meeting regulatory requirements and the ability to ensure compliance down to the mining level within the timeframes required by the regulations are challenges we continue to work with our multi-tier supplier base. At the same time, we are focused on minimizing the impact of these supply chain challenges on our programs. However, many of the challenges are industry wide or caused by geopolitical events and general economic conditions that are outside of our control. These supplier disruptions have resulted in delays and increased costs and have adversely affected our program performance and operating results. These dynamics are expected to continue in 2025.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs such as rare earth minerals, aluminum, titanium, specialty steel, carbon fiber, and advanced microelectronics (including semiconductors) as important materials. It also describes reliance on other companies for materials and components, supply chain challenges including regulatory restrictions, and efforts to transition supply chains to secure and compliant sources. The supply chain challenges have caused delays, increased costs, and adversely affected program performance, indicating substantial reliance on these inputs that could materially affect costs or operations. China is mentioned in the context of supply chain restrictions and regulatory requirements. This supports a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41362,
+    "output_tokens": 426,
+    "cost_usd": 0.017226400000000003
+  }
+}

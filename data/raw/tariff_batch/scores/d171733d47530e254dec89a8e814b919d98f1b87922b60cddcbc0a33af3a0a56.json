@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "50e2b94910b2f1d89b55cd336fed4bad7ba0eb2600b8231a30a7e934347f05aa",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:28:30.081386+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d5459be3c9281ff2ab77c835bd265b51",
+    "output_text": "{\"score\":3,\"evidence\":\"Our hardware, including all individual PCBs, custom ICs and FPGA-based prototyping components, is manufactured, assembled and tested by subcontractors before delivery to our customers.\",\"rationale\":\"The filing states that all hardware products are manufactured, assembled and tested by subcontractors, indicating substantial reliance on overseas manufacturing and foreign-made inputs. This reliance on subcontractors for physical goods and manufacturing could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38777,
+    "output_tokens": 98,
+    "cost_usd": 0.0156676
+  }
+}

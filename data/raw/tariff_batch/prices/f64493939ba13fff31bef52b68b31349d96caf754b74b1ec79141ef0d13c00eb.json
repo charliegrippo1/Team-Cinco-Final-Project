@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PANW?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:16.947541+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PANW",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1342791000,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 339.92,
+            "regularMarketChangePercent": 9.903,
+            "fulldayPrice": 365.3,
+            "fulldayChange": 56.01,
+            "fulldayChangePercent": 18.109,
+            "fiftyTwoWeekHigh": 432.33,
+            "fiftyTwoWeekLow": 139.57,
+            "regularMarketDayHigh": 342.07,
+            "regularMarketDayLow": 311.63,
+            "regularMarketVolume": 16467556,
+            "longName": "Palo Alto Networks, Inc.",
+            "shortName": "Palo Alto Networks, Inc.",
+            "chartPreviousClose": 171.31,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  168.27000427246094,
+                  165.42999267578125,
+                  158.9600067138672
+                ],
+                "volume": [
+                  3371800,
+                  7365400,
+                  9000500
+                ],
+                "high": [
+                  174.74000549316406,
+                  168.69000244140625,
+                  160.83999633789062
+                ],
+                "close": [
+                  173.17999267578125,
+                  165.1699981689453,
+                  153.57000732421875
+                ],
+                "low": [
+                  168.27000427246094,
+                  163.19000244140625,
+                  153.38999938964844
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  173.17999267578125,
+                  165.1699981689453,
+                  153.57000732421875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

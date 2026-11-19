@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3afc5a3eb4bc0fd314ee5ffa3e4b841861b74cb1aec318023ddfd77b7cd78bca",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:30:12.173054+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2426cab42d51046462e2a7fe0a72ae20",
+    "output_text": "{\"score\":2,\"evidence\":\"The ingredients and packaging materials required for the manufacture of our food and beverage products are purchased from various suppliers, substantially all of which are located in North America. During 2024, we experienced moderately elevated commodity and supply chain costs including the costs of labor, raw materials, energy, fuel, packaging materials and other inputs necessary for the production and distribution of our products. In addition, many of these items are subject to price fluctuations from a number of factors, including but not limited to climate change, changes in crop size, cattle cycles, herd and flock disease, crop disease, crop pests, product scarcity, demand for raw materials, commodity market speculation, energy costs, currency fluctuations, supplier capacities, government-sponsored agricultural programs and other government policy, import and export requirements (including tariffs), drought and excessive rain, temperature extremes and other adverse weather\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs as risks (including tariffs and import/export requirements) but indicates that suppliers are substantially all in North America and does not provide evidence that dependence on imports or overseas manufacturing is substantial or central to the business.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28138,
+    "output_tokens": 230,
+    "cost_usd": 0.011623200000000002
+  }
+}

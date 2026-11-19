@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CTAS?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:22.446470+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CTAS",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 430147800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 222.0,
+            "regularMarketChangePercent": -0.09,
+            "fulldayPrice": 222.0,
+            "fulldayChange": -0.2,
+            "fulldayChangePercent": -0.09,
+            "fiftyTwoWeekHigh": 233.46,
+            "fiftyTwoWeekLow": 161.16,
+            "regularMarketDayHigh": 225.306,
+            "regularMarketDayLow": 220.11,
+            "regularMarketVolume": 1699564,
+            "longName": "Cintas Corporation",
+            "shortName": "Cintas Corporation",
+            "chartPreviousClose": 207.87,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  205.8300018310547,
+                  201.60000610351562,
+                  190.13999938964844
+                ],
+                "open": [
+                  206.19000244140625,
+                  202.8300018310547,
+                  204.57000732421875
+                ],
+                "close": [
+                  208.6699981689453,
+                  204.85000610351562,
+                  190.3300018310547
+                ],
+                "high": [
+                  209.2100067138672,
+                  209.39999389648438,
+                  204.57000732421875
+                ],
+                "volume": [
+                  1613700,
+                  2244300,
+                  3969300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  205.32701110839844,
+                  201.56820678710938,
+                  187.28082275390625
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

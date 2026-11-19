@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "32b92dcd6b227f0939ea1c108a76939556d186838970867f15c1495473e07da1",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:36:27.430460+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "7e87af7e3458f94653a441b25eb2122c",
+    "output_text": "{\"score\":4,\"evidence\":\"GM’s Factory ZERO Detroit-Hamtramck Assembly Center is a fully dedicated EV facility which produces a variety of vehicles, including the GMC HUMMER EV Pickup and SUV, the Chevrolet Silverado EV and the recently launched Cadillac ESCALADE IQ, with globally sourced parts.\",\"rationale\":\"The filing explicitly states that GM's dedicated EV manufacturing facility produces vehicles with globally sourced parts, indicating that imports and overseas manufacturing are central to the business and most products or critical inputs depend on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40436,
+    "output_tokens": 105,
+    "cost_usd": 0.016342400000000003
+  }
+}

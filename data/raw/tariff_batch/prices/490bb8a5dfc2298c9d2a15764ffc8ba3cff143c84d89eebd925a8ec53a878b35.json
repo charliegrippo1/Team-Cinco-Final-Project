@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TYL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:42.017771+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TYL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 410.37,
+            "regularMarketChangePercent": 0.23,
+            "fulldayPrice": 411.0,
+            "fulldayChange": 1.57,
+            "fulldayChangePercent": 0.383,
+            "fiftyTwoWeekHigh": 481.57,
+            "fiftyTwoWeekLow": 270.71,
+            "regularMarketDayHigh": 413.05,
+            "regularMarketDayLow": 405.17,
+            "regularMarketVolume": 661793,
+            "longName": "Tyler Technologies, Inc.",
+            "shortName": "Tyler Technologies, Inc.",
+            "chartPreviousClose": 584.53,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  581.8099975585938,
+                  569.6799926757812,
+                  538.239990234375
+                ],
+                "high": [
+                  585.5599975585938,
+                  580.97998046875,
+                  562.239990234375
+                ],
+                "volume": [
+                  232000,
+                  281700,
+                  475600
+                ],
+                "low": [
+                  576.1300048828125,
+                  566.4500122070312,
+                  537.6099853515625
+                ],
+                "open": [
+                  578.7100219726562,
+                  575.0399780273438,
+                  562.0599975585938
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  581.8099975585938,
+                  569.6799926757812,
+                  538.239990234375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

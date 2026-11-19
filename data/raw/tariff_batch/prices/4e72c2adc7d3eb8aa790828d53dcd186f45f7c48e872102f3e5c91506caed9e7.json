@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ITW?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:23.510031+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ITW",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 100881000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 282.29,
+            "regularMarketChangePercent": 0.22,
+            "fulldayPrice": 285.643,
+            "fulldayChange": 3.973,
+            "fulldayChangePercent": 1.411,
+            "fiftyTwoWeekHigh": 303.16,
+            "fiftyTwoWeekLow": 239.24,
+            "regularMarketDayHigh": 285.18,
+            "regularMarketDayLow": 279.0,
+            "regularMarketVolume": 954498,
+            "longName": "Illinois Tool Works Inc.",
+            "shortName": "Illinois Tool Works Inc.",
+            "chartPreviousClose": 248.7,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  980200,
+                  1492500,
+                  2022700
+                ],
+                "close": [
+                  252.42999267578125,
+                  239.44000244140625,
+                  225.57000732421875
+                ],
+                "open": [
+                  246.75999450683594,
+                  246.66000366210938,
+                  233.49000549316406
+                ],
+                "low": [
+                  246.75999450683594,
+                  239.0399932861328,
+                  224.94000244140625
+                ],
+                "high": [
+                  253.22999572753906,
+                  249.58999633789062,
+                  235.64999389648438
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  243.1425018310547,
+                  230.6304473876953,
+                  217.27073669433594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

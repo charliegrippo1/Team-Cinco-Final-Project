@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "24868cd5975c5250906ebd6e3c1442dec553d42196739f4e906236f25f3dd91c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:05:09.554118+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "cb61da3db076ecbf6051bb6cadb3173a",
+    "output_text": "{\"score\":3,\"evidence\":\"We have manufacturing facilities in Germany, the United Kingdom, China, Italy, India and other countries.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations including China, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 27742,
+    "output_tokens": 56,
+    "cost_usd": 0.0111864
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8556519166ea7daef49152406f56bb201f181df320d873e51816158704ffeb51",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:43:57.161954+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "eba70e24e7344f04cacf2cd8cadd7fba",
+    "output_text": "{\"score\":0,\"evidence\":\"EPAM has used its software engineering expertise to become a leading global provider of digital engineering, cloud and artificial intelligence-enabled transformation services, and a leading business and experience consulting partner for global enterprises and ambitious start-ups.\",\"rationale\":\"The filing describes EPAM as a provider of software engineering and consulting services with a global delivery model but does not identify any specific imported physical goods, foreign-made inputs, or overseas manufacturing as part of its operations. The focus is on services and software development rather than physical goods or manufacturing. There is no mention of reliance on imports or overseas manufacturing that could materially affect costs or operations. Therefore, the filing supports little or no meaningful dependence on imported physical goods, foreign-made inputs, or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32071,
+    "output_tokens": 153,
+    "cost_usd": 0.013073200000000002
+  }
+}

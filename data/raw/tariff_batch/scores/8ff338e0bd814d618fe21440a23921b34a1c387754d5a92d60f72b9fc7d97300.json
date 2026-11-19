@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2fa34f2324fc1e3c789f7cc1de848a3349ca93543d32e7534bec0ec4c284b204",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:08:24.195456+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9d4338047958ae67a0fa6a72dbfc2aae",
+    "output_text": "{\"score\":3,\"evidence\":\"We source, both directly and indirectly, a portion of the products we sell from foreign manufacturers, with China and Mexico being the dominant import sources. Tax and trade policies, tariffs, and other regulations affecting trade between the United States and other countries, such as China and Mexico, increase the cost of our merchandise sourced from outside of the United States, which represents a large percentage of our private branded and national brand merchandise.\",\"rationale\":\"The filing identifies China and Mexico as dominant import sources and states that a large percentage of private branded and national brand merchandise is sourced from outside the United States, indicating substantial reliance on imports and foreign-made inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22282,
+    "output_tokens": 143,
+    "cost_usd": 0.0091416
+  }
+}

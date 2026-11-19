@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "cf8680368f292a8523286c57c330b7834db68686833e2b5783e6f1e32bf58330",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:02:34.204583+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3ee1cd1dd2bc8847f8c4cf363a954dfa",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"The businesses in our Plumbing Products segment manufacture products primarily in North America and Europe as well as in Asia and source products from Asia and other regions. Competition for our plumbing products is based largely on brand reputation, product features and innovation, product quality, customer service, breadth of product offering and price. Many of the faucet and showering products with which our products compete are manufactured by low-cost foreign manufacturers that contribute to price competition.\",\n  \"rationale\": \"The filing identifies specific overseas manufacturing and sourcing, including Asia and other regions, for plumbing products. It also notes competition from low-cost foreign manufacturers, indicating substantial reliance on imports and overseas manufacturing that could materially affect costs or operations. China is mentioned as a location of foreign manufacturers competing with the company. This supports a score of 3.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 16203,
+    "output_tokens": 177,
+    "cost_usd": 0.0067644
+  }
+}

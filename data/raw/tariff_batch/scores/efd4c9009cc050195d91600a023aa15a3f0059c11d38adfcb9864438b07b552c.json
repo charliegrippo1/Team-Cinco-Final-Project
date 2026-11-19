@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "e069485fbb5d55dddddbf2647d58290572cc19b611fb22c8d5c7ab30327e48a6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:58:56.280936+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "73390d6dac2afeac8b57aeea6a285cf3",
+    "output_text": "{\"score\":3,\"evidence\":\"In the case of fasteners and our private label non-fastener products, we have a large number of suppliers but these suppliers are heavily concentrated in a single geographic area, Asia. Within Asia, suppliers in China and Taiwan represent a significant source of product. Further, in many cases where we source directly from a North American supplier, the original country of origin of the acquired parts is the supplier's Asian facilities. As a result, the cost and effectiveness of our supply chain is dependent on relatively unfettered trade across geographic regions.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs, particularly fasteners and private label non-fastener products sourced heavily from Asia including China and Taiwan. It also states dependence on relatively unfettered trade across geographic regions, indicating substantial reliance on imports and overseas suppliers that could materially affect costs or operations. However, it does not state that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so score 3 is appropriate.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41041,
+    "output_tokens": 210,
+    "cost_usd": 0.0167524
+  }
+}

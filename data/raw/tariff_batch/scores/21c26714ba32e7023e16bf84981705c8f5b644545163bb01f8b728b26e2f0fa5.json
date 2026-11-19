@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a9f6c2a1bf7602d2940cf861c4959e91a29d573b24283da09813dc6610a398a7",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:05:27.443348+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "735a28b46bbb83e1f8426046ad7e7346",
+    "output_text": "{\"score\":2,\"evidence\":\"Any reductions or modifications to, or the elimination of, governmental incentives or policies that support clean energy, such as PTCs or ITCs, or the imposition of additional taxes, tariffs, duties or other costs or assessments on clean energy or the equipment necessary to generate, store or deliver it, such as policies in place that limit certain imports from China and other Southeast Asian countries, could result in, among other items, the lack of a satisfactory market for the development and/or financing of new clean energy projects, NEE and FPL abandoning the development of clean energy projects, a loss of investments in the projects and reduced project returns, any of which could have a material adverse effect on NEE's and FPL's business, financial condition, results of operations and prospects.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs (e.g., solar panels, batteries) and mentions policies limiting imports from China and Southeast Asia that have caused minor disruptions and could cause material disruptions in acquiring these inputs. However, the evidence does not establish that dependence on these imports or overseas manufacturing is central or substantial to the business, only that it exists and could affect costs or operations. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 44625,
+    "output_tokens": 254,
+    "cost_usd": 0.018256400000000002
+  }
+}

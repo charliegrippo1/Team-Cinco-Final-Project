@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "aed53dbac4323c52e8512029eae3dd4686f39404f89d5bd5c82ada75e9bc9586",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": true,
+  "retrieved_utc": "2026-11-19T03:21:50.709041+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e27d9053ff0a59974885721f13427450",
+    "output_text": "{\"score\":3,\"evidence\":\"Among these third parties, we, and the pharmaceutical industry generally, depend on China-based suppliers for portions of our supply chain. U.S. federal lawmakers are considering legislation that is intended to limit supply chain reliance on China, including the proposed BIOSECURE Act. In addition, historically, geopolitical tensions between the U.S. and China have led to the imposition of tariffs, sanctions, and certain other business restrictions between the U.S. and China.\",\"rationale\":\"The filing identifies specific reliance on China-based suppliers for portions of the supply chain and manufacturing inputs, indicating substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations. It also discusses geopolitical tensions and tariffs involving China, underscoring operational dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38702,
+    "output_tokens": 158,
+    "cost_usd": 0.0157336
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/FTNT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:24.885906+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "FTNT",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1258554600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 131.81,
+            "regularMarketChangePercent": 5.871,
+            "fulldayPrice": 134.0,
+            "fulldayChange": 9.5,
+            "fulldayChangePercent": 7.631,
+            "fiftyTwoWeekHigh": 197.13,
+            "fiftyTwoWeekLow": 73.55,
+            "regularMarketDayHigh": 133.3,
+            "regularMarketDayLow": 124.98,
+            "regularMarketVolume": 4879040,
+            "longName": "Fortinet, Inc.",
+            "shortName": "Fortinet, Inc.",
+            "chartPreviousClose": 96.67,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  98.08000183105469,
+                  89.44000244140625,
+                  84.70999908447266
+                ],
+                "open": [
+                  95.08000183105469,
+                  92.76000213623047,
+                  86.51000213623047
+                ],
+                "low": [
+                  95.0,
+                  89.33000183105469,
+                  84.27999877929688
+                ],
+                "volume": [
+                  3438300,
+                  8699100,
+                  11174900
+                ],
+                "high": [
+                  98.4000015258789,
+                  93.4800033569336,
+                  87.79000091552734
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  98.08000183105469,
+                  89.44000244140625,
+                  84.70999908447266
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

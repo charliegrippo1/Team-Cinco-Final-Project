@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a2f7e39a71a5ec2c0e2c019e34bb2341ad0757f6ee70d16496c91d475895d4f8",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:34:29.511957+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3e91daf6ed463e43e7e3a8a0f511fd3f",
+    "output_text": "{\"score\":3,\"evidence\":\"China represents a significant portion of our business and financial results and has an important role in our global supply chain. For example, our Chinese operations accounted for 16% of sales to external customers, 29% of total segment profit, and approximately 30% of our global production during 2024. In recent years, geopolitical tensions have increased, particularly between the United States and China. Among other issues, these geopolitical topics have resulted in increased tariffs and trade restrictions. The Chinese government and other governments have also increased their focus on domestic purchasing requirements. In addition, due to increasing political tensions and potential tariff increases, many companies are seeking increased flexibility in their supply chains that may result in reduced foreign investment in China. The Chinese economy remains under pressure and is impacted by challenges with the country's real estate market that affects domestic consumption and has historically been a source of funds for government stimulus. These risks, all of which will be exacerbated by trade wars and tariffs, could lead to reduced sales in China, as well as higher costs.\",\"rationale\":\"The filing identifies China as a significant production location accounting for approximately 30% of global production and 16% of sales, indicating substantial reliance on overseas manufacturing. It also details increased tariffs, trade restrictions, domestic purchasing requirements, and geopolitical tensions that could materially affect costs or operations. This evidence supports a score of 3, reflecting substantial reliance on imports, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28170,
+    "output_tokens": 304,
+    "cost_usd": 0.0117544
+  }
+}

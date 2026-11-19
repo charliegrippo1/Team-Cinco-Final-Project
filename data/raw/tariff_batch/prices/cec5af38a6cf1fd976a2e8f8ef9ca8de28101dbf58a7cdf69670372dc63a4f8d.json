@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:17.507731+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1182519000,
+            "regularMarketTime": 1795035808,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 115.71,
+            "regularMarketChangePercent": -0.661,
+            "fulldayPrice": 115.71,
+            "fulldayChange": -0.77,
+            "fulldayChangePercent": -0.661,
+            "fiftyTwoWeekHigh": 165.14,
+            "fiftyTwoWeekLow": 101.73,
+            "regularMarketDayHigh": 116.828,
+            "regularMarketDayLow": 114.83,
+            "regularMarketVolume": 3833690,
+            "longName": "Blackstone Inc.",
+            "shortName": "Blackstone Inc.",
+            "chartPreviousClose": 142.8,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  140.25999450683594,
+                  137.5,
+                  128.10000610351562
+                ],
+                "close": [
+                  147.66000366210938,
+                  133.10000610351562,
+                  125.04000091552734
+                ],
+                "high": [
+                  148.57000732421875,
+                  140.0,
+                  128.92999267578125
+                ],
+                "low": [
+                  140.25999450683594,
+                  132.6999969482422,
+                  119.22000122070312
+                ],
+                "volume": [
+                  4064300,
+                  11369100,
+                  13062200
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  138.73497009277344,
+                  125.0550308227539,
+                  117.48220825195312
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

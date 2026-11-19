@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "a0b670a5c4f623207e77512898000c720b6de8e1a1b58ebdd8e8862d29fe83b4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:07:48.666024+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "57a5ddc60c8ab41ba7259356425f0ec1",
+    "output_text": "{\"score\":3,\"evidence\":\"Our businesses are experiencing and may continue to experience manufacturing inefficiencies and production delays as a result of shortages and delays of critical components for our products and other issues related to our direct or indirect suppliers. Suppliers may be unable to quickly recover from natural disasters, acts of war, and other events beyond their control and may be subject to additional risks such as material or labor shortages, inflationary conditions or other financial problems that limit their ability to conduct their operations, resulting in their inability to perform as anticipated.\",\"rationale\":\"The filing identifies specific reliance on suppliers for critical components, with manufacturing inefficiencies and production delays caused by shortages and delays of these components. This indicates substantial reliance on imported physical goods or foreign-made inputs that could materially affect costs or operations, justifying a score of 3. China is not specifically mentioned, but foreign suppliers and global supply chain risks are noted.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 23375,
+    "output_tokens": 183,
+    "cost_usd": 0.0096428
+  }
+}

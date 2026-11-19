@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bd1aec7166e8cd32f261f5d6fbac0ccbd2d9369e99e4f2c16b3a6d941be77327",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:59:46.526228+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "15f94678c0bf06a85e5e7c190aa42a1c",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a talent- and innovation-led company with approximately 774,000 people serving clients in more than 120 countries.\",\"rationale\":\"The filing describes Accenture as a professional services company focused on talent and innovation with a global workforce, but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is service-oriented, with no mention of reliance on imports or overseas manufacturing for products or critical inputs.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36110,
+    "output_tokens": 99,
+    "cost_usd": 0.014602400000000001
+  }
+}

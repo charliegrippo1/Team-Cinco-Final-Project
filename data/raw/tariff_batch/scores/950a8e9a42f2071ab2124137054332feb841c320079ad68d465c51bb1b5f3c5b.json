@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "4def2d474f2bb59b7f68d01916dbb7de003e6bcfabe60f41ad0bf187af9a5f08",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:13:22.597100+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d948a8b7d3ff105b341618e135b37ad6",
+    "output_text": "{\"score\":3,\"evidence\":\"We manufacture products at manufacturing facilities located in various countries throughout the world. We purchase many of the components and raw materials used in manufacturing our products from numerous suppliers in various countries. Certain components and raw materials are available only from a sole supplier. We work closely with our suppliers and have plans and measures in place to help ensure continuity of supply while maintaining high quality and reliability. Generally, we have been able to obtain adequate supplies of such raw materials and components. However, due to the U.S. FDA’s manufacturing requirements and those of other regulatory authorities, we may not be able to quickly establish additional or replacement sources for certain components or materials if we experience a sudden or unexpected reduction or interruption in supply and are unable to develop alternative sources.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs sourced from numerous suppliers in various countries and highlights the substantial reliance on these imports and overseas manufacturing, noting risks of supply interruptions and regulatory constraints on quickly establishing alternative sources. This indicates substantial reliance that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38267,
+    "output_tokens": 221,
+    "cost_usd": 0.0156604
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:45.282090+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NVR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 490887000,
+            "regularMarketTime": 1795035707,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 5628.48,
+            "regularMarketChangePercent": -0.107,
+            "fulldayPrice": 5628.48,
+            "fulldayChange": -6.01,
+            "fulldayChangePercent": -0.107,
+            "fiftyTwoWeekHigh": 8200.0,
+            "fiftyTwoWeekLow": 5501.01,
+            "regularMarketDayHigh": 5739.23,
+            "regularMarketDayLow": 5559.0,
+            "regularMarketVolume": 54368,
+            "longName": "NVR, Inc.",
+            "shortName": "NVR, Inc.",
+            "chartPreviousClose": 7213.62,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  7175.0,
+                  7139.5498046875,
+                  7000.0
+                ],
+                "high": [
+                  7328.41015625,
+                  7208.31982421875,
+                  7743.7998046875
+                ],
+                "low": [
+                  7175.0,
+                  7015.41015625,
+                  7000.0
+                ],
+                "volume": [
+                  14600,
+                  33600,
+                  41800
+                ],
+                "close": [
+                  7302.06982421875,
+                  7109.990234375,
+                  7410.93017578125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  7302.06982421875,
+                  7109.990234375,
+                  7410.93017578125
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

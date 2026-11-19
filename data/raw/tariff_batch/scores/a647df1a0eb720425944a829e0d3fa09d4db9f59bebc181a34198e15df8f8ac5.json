@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "27bf323587fdfa598dd06e92f66c2c1aa08d4a1b995f36a7c91e72700502dc67",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:56:41.252542+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "22a3478270d271b3ba1e801443ccb01d",
+    "output_text": "{\"score\":3,\"evidence\":\"We rely on third-party manufacturing partners to produce most of our hardware products that we market and sell to customers and utilize internally to deliver Oracle Cloud Services, and we distribute most of our hardware products from these partners’ facilities. Our manufacturing processes are substantially based on standardization of components across product types and centralization of assembly and distribution centers. Production of our hardware products requires that we purchase materials, supplies, product subassemblies and full assemblies from a number of suppliers. For most of our hardware products, we have existing alternative sources of supply or such sources are readily available. However, we do rely on sole sources for certain hardware components. We monitor and evaluate potential risks of disruption within our supply chain operations. Refer to Risk Factors included in Item 1A within this Annual Report for additional discussion of the challenges we encounter with respect to the sources and availability of supplies for our hardware products and the related risks to our businesses.\",\"rationale\":\"The filing identifies substantial reliance on third-party manufacturing partners for hardware products, which are used both for sale and internally to deliver cloud services. It also notes reliance on sole sources for certain hardware components and the need to purchase materials and assemblies from multiple suppliers. This indicates substantial reliance on overseas manufacturing and imported physical goods, which could materially affect costs or operations, justifying a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38602,
+    "output_tokens": 274,
+    "cost_usd": 0.0158792
+  }
+}

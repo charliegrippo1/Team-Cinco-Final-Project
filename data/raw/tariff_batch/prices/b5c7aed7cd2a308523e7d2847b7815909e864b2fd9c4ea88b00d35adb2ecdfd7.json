@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:26.043281+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ALL",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 739114200,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 266.59,
+            "regularMarketChangePercent": -1.42,
+            "fulldayPrice": 266.59,
+            "fulldayChange": -3.84,
+            "fulldayChangePercent": -1.42,
+            "fiftyTwoWeekHigh": 281.11,
+            "fiftyTwoWeekLow": 191.13,
+            "regularMarketDayHigh": 268.74,
+            "regularMarketDayLow": 264.35,
+            "regularMarketVolume": 1382368,
+            "longName": "The Allstate Corporation",
+            "shortName": "Allstate Corporation (The)",
+            "chartPreviousClose": 207.5,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  203.77000427246094,
+                  202.27999877929688,
+                  186.22999572753906
+                ],
+                "high": [
+                  207.52999877929688,
+                  208.44000244140625,
+                  203.64999389648438
+                ],
+                "volume": [
+                  1674700,
+                  2010700,
+                  3352200
+                ],
+                "open": [
+                  206.63999938964844,
+                  202.47000122070312,
+                  202.35000610351562
+                ],
+                "close": [
+                  205.42999267578125,
+                  205.32000732421875,
+                  186.57000732421875
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  199.57827758789062,
+                  199.471435546875,
+                  181.25552368164062
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0db0859e50ec4edd789bb460ae1ec38da7e548992ecb74f93becd41578cdcd5e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:13:50.366013+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3b5558116204d437881624de423fcfbe",
+    "output_text": "{\"score\":2,\"evidence\":\"We periodically review our resource requirements and sources, as well as our relationships with key vendors, to best meet the needs of our business including global sourcing efforts and alternate supplier resourcing.\",\"rationale\":\"The filing mentions global sourcing efforts and alternate supplier resourcing, indicating some use of overseas suppliers or imported goods, but does not provide evidence that this dependence is substantial or central to the business. Therefore, the dependence is specific but limited in evidence of materiality, supporting a score of 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32646,
+    "output_tokens": 107,
+    "cost_usd": 0.013229600000000001
+  }
+}

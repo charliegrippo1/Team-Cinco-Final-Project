@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "3ed68ab548928793243065e9194cea489233cb5bbc01730309b9899c4fc688e5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:17:00.434473+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b046210b053bf3f34d430c82da1d0da9",
+    "output_text": "{\"score\":1,\"evidence\":\"Tariffs and immigration have recently been added to the list of concerns confronting the homebuilding industry. Our early evaluation suggests that steps we took in the past several years to move supply into the United States will reduce our exposure to the effect of increased tariffs.\",\"rationale\":\"The filing identifies tariffs as a general risk to the homebuilding industry and notes efforts to reduce exposure by moving supply into the U.S., but does not specify substantial reliance on imported physical goods, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41856,
+    "output_tokens": 115,
+    "cost_usd": 0.0169264
+  }
+}

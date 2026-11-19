@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2ca01c07fdd436ef002ba344c25c33840d21c88a1617bcf122a0afe7f23d8946",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:07:00.978143+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "daa66fa71ef73a4689f90899b954229e",
+    "output_text": "```json\n{\n  \"score\": 1,\n  \"evidence\": \"A Significant Portion of Our Revenues Involves Transportation of Commodities to and from International Markets – Although revenues from our operations are attributable to transportation services provided in the U.S., a significant portion of our revenues involves the transportation of commodities to and from international markets, including Mexico, Canada, and Southeast Asia, by various carriers and, at times, various modes of transportation. Significant and sustained interruptions of trade with Mexico, Canada, or countries in Southeast Asia, including China, could adversely affect customers and other entities that, directly or indirectly, purchase or rely on rail transportation services in the U.S. as part of their operations, and any such interruptions, including international armed conflicts such as the Russia-Ukraine and Israel-Hamas wars, could have a material adverse effect on our results of operations, financial condition, and liquidity. Any one or more of the following could cause a significant and sustained interruption of trade with Mexico, Canada, or countries in Southeast Asia: (a) a deterioration of security for international trade and businesses; (b) the adverse impact of new laws, rules, and regulations or the interpretation or enforcement of laws, rules, and regulations by government entities, courts, or regulatory bodies, including the United States-Mexico-Canada Agreement (USMCA) or other international trade agreements; (c) actions of taxing authorities that affect our customers doing business in or with foreign countries; (d) any significant adverse economic developments, such as extended periods of high inflation, material disruptions in the banking sector or in the capital markets of these foreign countries, and significant changes in the valuation of the currencies of these foreign countries that could materially affect the cost or value of imports or exports; (e) shifts in patterns of international trade, including as a result of changes to international trade agreements or policies, that adversely affect import and export markets; (f) a material reduction in foreign direct investment in these countries; and (g) public health crises, including the outbreak of pandemic or contagious disease, such as the coronavirus and its variant strains (COVID). An imposition of tariffs on imports or other changes to U.S. trade policy could cause demand for shipping from international markets to decrease, and if the declines are significant enough, it could have a material adverse effect on our results of operations, financial condition, and liquidity.\",\n  \"rationale\": \"The filing identifies specific international markets including China and mentions tariffs and trade restrictions as risks that could materially affect operations, but does not provide evidence of substantial or central operational dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. Therefore, the score is 1.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 23627,
+    "output_tokens": 546,
+    "cost_usd": 0.010324400000000001
+  }
+}

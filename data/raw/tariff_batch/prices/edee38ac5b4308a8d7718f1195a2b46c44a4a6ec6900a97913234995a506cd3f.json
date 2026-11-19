@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLD?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:17.415523+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PLD",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 880122600,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 125.22,
+            "regularMarketChangePercent": -0.271,
+            "fulldayPrice": 125.22,
+            "fulldayChange": -0.34,
+            "fulldayChangePercent": -0.271,
+            "fiftyTwoWeekHigh": 153.35,
+            "fiftyTwoWeekLow": 121.4,
+            "regularMarketDayHigh": 125.57,
+            "regularMarketDayLow": 124.3,
+            "regularMarketVolume": 3812075,
+            "longName": "Prologis, Inc.",
+            "shortName": "Prologis, Inc.",
+            "chartPreviousClose": 111.45,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  111.44999694824219,
+                  108.11000061035156,
+                  99.3499984741211
+                ],
+                "volume": [
+                  3230800,
+                  7613200,
+                  12661100
+                ],
+                "close": [
+                  112.33999633789062,
+                  101.58999633789062,
+                  98.2300033569336
+                ],
+                "low": [
+                  110.16000366210938,
+                  101.18000030517578,
+                  95.33999633789062
+                ],
+                "high": [
+                  112.55000305175781,
+                  109.37999725341797,
+                  100.31999969482422
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  106.93694305419922,
+                  96.70396423339844,
+                  93.50556945800781
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

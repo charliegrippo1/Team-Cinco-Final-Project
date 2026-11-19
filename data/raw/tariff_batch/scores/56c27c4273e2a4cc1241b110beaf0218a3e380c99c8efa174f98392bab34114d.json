@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "28ff809377288cefabe5d56555b87da7c8e144fecdfb63cb641b505640743fc4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:59:15.977795+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c854cf78ed994af2a4886abc232f4bc3",
+    "output_text": "{\"score\":3,\"evidence\":\"The Company obtains raw materials essential to its business from numerous suppliers worldwide. Most of the principal materials the Company uses in its manufacturing operations are available from more than one source. However, the Company obtains certain raw or intermediate materials primarily from only one source. The Company attempts, if possible, to mitigate the potential risk associated with raw materials, components and supplies through inventory and appropriate supplier management.\",\"rationale\":\"The filing identifies that Merck obtains raw materials from numerous suppliers worldwide, with some raw or intermediate materials primarily sourced from only one source, indicating substantial reliance on foreign-made inputs or overseas suppliers. This reliance could materially affect costs or operations if disrupted, supporting a score of 3. The filing does not indicate that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so a score of 4 is not supported. The mention of China is present but not specifically tied to manufacturing dependence in this passage.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 65484,
+    "output_tokens": 196,
+    "cost_usd": 0.0265072
+  }
+}

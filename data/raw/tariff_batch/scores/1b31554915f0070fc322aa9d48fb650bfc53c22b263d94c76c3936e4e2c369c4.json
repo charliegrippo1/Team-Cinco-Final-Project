@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f32773bf6ed9f8953d3646b15b866ed4ffbcac93659e59077682e9e6e3ca5afb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:23:06.615437+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "26fdb5661824bbdd925cb507a2ae8025",
+    "output_text": "{\"score\":4,\"evidence\":\"Dow operates manufacturing sites in 30 countries and employs approximately 36,000 people.\",\"rationale\":\"The filing states that Dow operates manufacturing sites in 30 countries, indicating a broad global manufacturing footprint. This level of overseas manufacturing is central to the business operations, implying that most products or critical inputs depend on these arrangements. The mention of China is not explicit, but China is treated like other foreign locations per instructions. Therefore, the dependence on overseas manufacturing is central to the business, justifying the highest score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 41592,
+    "output_tokens": 114,
+    "cost_usd": 0.0168192
+  }
+}

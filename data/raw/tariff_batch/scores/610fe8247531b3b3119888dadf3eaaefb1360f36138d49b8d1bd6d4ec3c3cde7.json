@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "9b2a9ef44c2d6405c9f7faa379753551983041c76a1408d0b27170215c6bc5fc",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:53:29.841544+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3e3f1bea968561d9ee3703401a7f4af6",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"A predominant portion of the apparel and other goods we sell (even when we purchase it domestically, often as excess inventory sold to us by a domestic vendor) is originally manufactured in other countries. In addition, we directly source a portion of the products sold in our stores from foreign vendors, predominantly in Asia (including China). We also buy products that originate from foreign sources indirectly through domestic vendors and manufacturers’ representatives.\",\n  \"rationale\": \"The filing explicitly states that a predominant portion of the goods sold are originally manufactured in other countries, with direct sourcing from foreign vendors predominantly in Asia including China, indicating substantial reliance on imported physical goods and foreign-made inputs that could materially affect costs or operations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 17801,
+    "output_tokens": 158,
+    "cost_usd": 0.007373200000000001
+  }
+}

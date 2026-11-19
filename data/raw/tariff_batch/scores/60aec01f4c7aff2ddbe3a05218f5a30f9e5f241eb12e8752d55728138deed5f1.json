@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c2e7c36e2de6b637144e50436e7af7992f4a977b558ff2c0bc312e0f0335ac2b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:16:54.820065+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "881c01bad476f818789b876508ca4267",
+    "output_text": "{\"score\":3,\"evidence\":\"The aftermarket products we distribute are purchased from independent manufacturers and distributors located primarily in North America and Asia, principally Taiwan. In 2024, approximately 49% of our aftermarket purchases were made from our top six vendors, with our largest vendor providing approximately 19% of our annual inventory purchases for the Wholesale - North America segment. This is primarily related to our acquisition of FinishMaster, where we obtained a strategic relationship with a supplier for paint and related products. This partnership will continue to play a key role in the expansion of our offerings for paint and related products. We believe we are one of the largest customers of each of these suppliers. Outside of this group, no other supplier provided more than 4% of our supply of aftermarket products in 2024. We purchased approximately 56% of our aftermarket products in 2024 from vendors located in the U.S.; however, we believe the majority of these products were manufactured in Taiwan, Mexico or other foreign countries, with the remaining aftermarket products being purchased directly from manufacturers in Taiwan and other Asian countries.\",\"rationale\":\"The filing identifies specific imported goods and overseas suppliers, including Taiwan and other Asian countries, as well as Mexico, as substantial sources of manufacturing for the company's aftermarket products. Approximately 56% of purchases are from U.S. vendors, but the majority of these products are manufactured overseas, indicating substantial reliance on foreign-made inputs and overseas manufacturing that could materially affect costs or operations. China is mentioned as a supplier location in the Specialty segment, supporting the inclusion of China in the rationale. This supports a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36164,
+    "output_tokens": 327,
+    "cost_usd": 0.014988800000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8b937320b3a4e867c62b10d8c0a3a029d00d93dbee949c3a22833bf3f3c8c4ca",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:39:52.129897+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d8b7ecfe10c442e9ead43eda85e016ef",
+    "output_text": "{\"score\":3,\"evidence\":\"Our Engineered Products segment's products are manufactured primarily in North America, Europe and Asia and are sold throughout the world directly and through a network of distributors.\",\"rationale\":\"The filing states that manufacturing occurs primarily in North America, Europe, and Asia, indicating substantial reliance on overseas manufacturing. This could materially affect costs or operations, consistent with a score of 3. China is included as part of Asia, supporting mention of China in the rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32558,
+    "output_tokens": 98,
+    "cost_usd": 0.01318
+  }
+}

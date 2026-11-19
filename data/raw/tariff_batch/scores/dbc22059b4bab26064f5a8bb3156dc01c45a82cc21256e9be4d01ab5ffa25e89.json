@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7b8ba477bdb3ac37b5f8abd1983afd675f913e6e552a72e8bc5d71bbb07970c6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:28:03.758814+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "909ce48d3e2a8cf1072fcaafefbfe2a0",
+    "output_text": "{\"score\":0,\"evidence\":\"Williams has operations in 12 supply areas that provide natural gas gathering, processing, and transmission services; NGLs fractionation, transportation, and storage services; and marketing services to approximately 800 customers. Williams owns an interest in and operates over 33,000 miles of pipelines in 24 states, 34 natural gas processing facilities, 9 NGL fractionation facilities, approximately 25 million barrels of NGL storage capacity, and 417 Bcf of natural gas storage capacity, and delivers natural gas that is used every day for clean-power generation, heating, and industrial use.\",\"rationale\":\"The filing describes Williams’ operations as located entirely in the United States with no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on domestic natural gas infrastructure and services, with no specific operational dependence on imports or foreign manufacturing. China or other foreign locations are not mentioned in this context. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 52713,
+    "output_tokens": 212,
+    "cost_usd": 0.021424400000000003
+  }
+}

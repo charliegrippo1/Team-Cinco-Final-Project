@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "832603dff35b3703b8c09cb929948629abb44cee78fcf51af8a37f0ac4433c01",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:20:55.025313+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f52e9c20a0da3ab3f835ba4343f6c9c8",
+    "output_text": "{\"score\":0,\"evidence\":\"Substantially all of the computers, peripherals, printers, scanners, operating system software, office automation software, and other equipment necessary for the implementation and provision of our software systems and services are presently available from several third-party sources. Hardware is purchased on original equipment manufacturer or distributor terms at discounts from retail. We have not experienced any significant supply problems.\",\"rationale\":\"The filing indicates that hardware and equipment are sourced from multiple third-party suppliers without significant supply problems, but does not identify specific imported goods, foreign-made inputs, or overseas manufacturing as material to operations. There is no mention of tariffs or trade restrictions impacting operations, nor is there evidence of substantial reliance on imports or overseas manufacturing. Therefore, the dependence on imported physical goods or overseas manufacturing appears minimal.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26474,
+    "output_tokens": 160,
+    "cost_usd": 0.0108456
+  }
+}

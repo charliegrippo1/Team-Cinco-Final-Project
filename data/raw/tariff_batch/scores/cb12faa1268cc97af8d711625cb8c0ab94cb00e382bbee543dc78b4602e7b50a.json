@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bdfd3160b562f27ea99ae3b39d167fb26bbc8395b4c25f6d32963196c3267adb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:04:14.414391+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "da23c9d843a6534b1265fb3caf2a6a3b",
+    "output_text": "{\"score\":2,\"evidence\":\"In our other international operations, inputs that are not locally available in adequate supply may be imported from other countries. The cost of these inputs may fluctuate widely due to external conditions such as weather, climate change, product scarcity, limited sources of supply, commodity market fluctuations, currency fluctuations, trade tariffs, pandemics, war, and changes in governmental agricultural and energy policies and regulations.\",\"rationale\":\"The filing identifies that in international operations, some inputs are imported when not locally available, indicating specific imported goods or foreign-made inputs are used. However, it does not indicate that such dependence is substantial or central to the business, nor does it specify reliance on overseas manufacturing. Thus, the dependence is present but limited in scale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34947,
+    "output_tokens": 152,
+    "cost_usd": 0.014222000000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "df88ce3be067ff8d068baa41ca8079aa5bd7777f89a18227b95008a2459bed76",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:06:42.007748+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "cdb080c583777a570068815300140ca1",
+    "output_text": "```json\n{\n  \"score\": 0,\n  \"evidence\": \"We own, operate, manage, provide lending to, acquire, develop and redevelop self-storage properties (“stores”). We operate and manage our business by evaluating the operating performance of the properties for our entire portfolio which includes wholly-owned stores, stores in which we have a partial ownership interest and managed stores.\",\n  \"rationale\": \"The filing describes a business focused on owning, operating, managing, and financing self-storage properties, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of reliance on imports or foreign manufacturing affecting costs or operations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 21091,
+    "output_tokens": 138,
+    "cost_usd": 0.0086572
+  }
+}

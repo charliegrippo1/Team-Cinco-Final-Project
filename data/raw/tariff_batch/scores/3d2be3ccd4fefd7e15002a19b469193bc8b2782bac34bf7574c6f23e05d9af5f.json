@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d79dd5c253a37e97329501f18059035600a0c706615932e84a51a93502330e33",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:14:46.448748+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "960826ea08470303c768205076e42c45",
+    "output_text": "{\"score\":0,\"evidence\":\"Marsh McLennan is the world's leading professional services firm in the areas of risk, strategy and people. We help clients build the confidence to thrive through the power of perspective of our four market-leading businesses.\",\"rationale\":\"The filing describes Marsh McLennan as a professional services firm focused on risk, strategy, and people advisory services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model is service-based and does not rely on physical goods or manufacturing, including in China or elsewhere. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43992,
+    "output_tokens": 131,
+    "cost_usd": 0.017806400000000003
+  }
+}

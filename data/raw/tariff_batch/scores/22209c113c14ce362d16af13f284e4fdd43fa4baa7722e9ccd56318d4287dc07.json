@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6c883726b141002beb7de581655c3d61cc42c91f398e073fa13d4f4f59d300a3",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:07:02.664666+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "38788ee55d9312c2d95cc0b9c8d452d1",
+    "output_text": "{\"score\":3,\"evidence\":\"Raw materials and component parts essential to our business are purchased from numerous suppliers worldwide in the ordinary course of business. While many of these materials are generally available, we have experienced and may in the future experience shortages of supply. Additionally, certain of these materials are secured from single source suppliers or on a spot basis and not pursuant to a contractual arrangement.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs as essential raw materials and component parts purchased worldwide, with some sourced from single suppliers or on a spot basis, indicating substantial reliance on overseas suppliers that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 52974,
+    "output_tokens": 127,
+    "cost_usd": 0.021392800000000003
+  }
+}

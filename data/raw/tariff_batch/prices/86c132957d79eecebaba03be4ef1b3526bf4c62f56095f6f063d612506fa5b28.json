@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LUV?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:47.013278+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LUV",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 315671400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 47.07,
+            "regularMarketChangePercent": 3.246,
+            "fulldayPrice": 47.07,
+            "fulldayChange": 1.48,
+            "fulldayChangePercent": 3.246,
+            "fiftyTwoWeekHigh": 55.11,
+            "fiftyTwoWeekLow": 31.15,
+            "regularMarketDayHigh": 47.59,
+            "regularMarketDayLow": 45.73,
+            "regularMarketVolume": 4366479,
+            "longName": "Southwest Airlines Co.",
+            "shortName": "Southwest Airlines Company",
+            "chartPreviousClose": 31.59,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  31.229999542236328,
+                  30.799999237060547,
+                  28.0
+                ],
+                "high": [
+                  32.060001373291016,
+                  31.010000228881836,
+                  28.1200008392334
+                ],
+                "volume": [
+                  10174700,
+                  18933600,
+                  23120200
+                ],
+                "low": [
+                  31.209999084472656,
+                  28.850000381469727,
+                  25.549999237060547
+                ],
+                "close": [
+                  31.860000610351562,
+                  28.860000610351562,
+                  25.8700008392334
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  30.94845962524414,
+                  28.03429412841797,
+                  25.129837036132812
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:17.020295+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CB",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 733069800,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 371.02,
+            "regularMarketChangePercent": -1.23,
+            "fulldayPrice": 371.02,
+            "fulldayChange": -4.62,
+            "fulldayChangePercent": -1.23,
+            "fiftyTwoWeekHigh": 384.26,
+            "fiftyTwoWeekLow": 291.03,
+            "regularMarketDayHigh": 374.61,
+            "regularMarketDayLow": 369.45,
+            "regularMarketVolume": 1987650,
+            "longName": "Chubb Limited",
+            "shortName": "Chubb Limited",
+            "chartPreviousClose": 301.4,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  302.05999755859375,
+                  306.9100036621094,
+                  299.2699890136719
+                ],
+                "close": [
+                  301.5400085449219,
+                  302.4599914550781,
+                  280.67999267578125
+                ],
+                "low": [
+                  298.1000061035156,
+                  298.8800048828125,
+                  279.55999755859375
+                ],
+                "open": [
+                  300.2099914550781,
+                  301.44000244140625,
+                  297.2200012207031
+                ],
+                "volume": [
+                  1536000,
+                  2114300,
+                  3195300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  297.81268310546875,
+                  298.7213134765625,
+                  277.2105407714844
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6e4604f42b2829aa6f22894b089ab3c76793ad4e6aac799a845da10401e3532f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:49:19.805217+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c4c6fab6b51a849286ca5dc9e85f6e3c",
+    "output_text": "{\"score\":3,\"evidence\":\"We have outsourced manufacturing operations to third parties located in Fremont, California; San Jose, California; San Antonio, Texas; Guadalajara, Mexico; Schiphol Airport, The Netherlands; Tiszaujvaros, Hungary; Wuxi, China; Taoyuan City, Taiwan; and Singapore. These operations include materials procurement, commodity management, component engineering, test engineering, manufacturing engineering, product assembly, product assurance, quality control, final test, and global logistics. We rely on a limited number of suppliers for materials, as well as several key subcontractors for the production of certain subassemblies and finished systems. We strive to have multiple suppliers qualified to provide critical components where possible and have our products manufactured in a number of locations to mitigate our supply chain risk. Our strategy has been to develop close relationships with our suppliers, maximizing the exchange of critical information and facilitating the implementation of joint quality programs. We use contract manufacturers for the production of major subassemblies and final system configuration. This manufacturing strategy minimizes capital investments and overhead expenditures while creating flexibility for rapid expansion.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations including China and Taiwan, and reliance on a limited number of suppliers and subcontractors for components and subassemblies. It describes a substantial outsourced manufacturing model that could materially affect costs or operations, indicating substantial reliance on overseas manufacturing and imported inputs.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35625,
+    "output_tokens": 280,
+    "cost_usd": 0.014698000000000001
+  }
+}

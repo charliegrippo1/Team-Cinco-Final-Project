@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "de0791d875feedbb99032f1f1e9b1c80847dfaca3534270c99c35ec8f5aa0ddd",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:32:56.704726+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a8a9ea5fe4096c1bcbc6c1891a0180aa",
+    "output_text": "{\"score\":3,\"evidence\":\"Our supply chain for manufacturing raw materials, API and drug product ready for distribution and commercialization is a multi-step international process. Establishing and managing the supply chain requires a significant financial commitment and the creation and maintenance of numerous third-party contractual relationships.\",\"rationale\":\"The filing describes a complex, multi-step international supply chain for manufacturing raw materials, active pharmaceutical ingredients (API), and drug products, indicating substantial reliance on overseas manufacturing and imported inputs. This reliance could materially affect costs or operations if disrupted, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 59081,
+    "output_tokens": 114,
+    "cost_usd": 0.0238148
+  }
+}

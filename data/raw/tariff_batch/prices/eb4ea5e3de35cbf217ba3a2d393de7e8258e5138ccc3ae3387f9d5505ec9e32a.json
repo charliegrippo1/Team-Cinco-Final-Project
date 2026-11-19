@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/TTWO?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:35.321620+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "TTWO",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 861111000,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 216.61,
+            "regularMarketChangePercent": 6.218,
+            "fulldayPrice": 220.44,
+            "fulldayChange": 16.51,
+            "fulldayChangePercent": 8.096,
+            "fiftyTwoWeekHigh": 265.94,
+            "fiftyTwoWeekLow": 183.86,
+            "regularMarketDayHigh": 222.65,
+            "regularMarketDayLow": 210.5,
+            "regularMarketVolume": 11993979,
+            "longName": "Take-Two Interactive Software, Inc.",
+            "shortName": "Take-Two Interactive Software, ",
+            "chartPreviousClose": 210.13,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  207.0,
+                  204.94000244140625,
+                  194.17999267578125
+                ],
+                "open": [
+                  207.8800048828125,
+                  205.4600067138672,
+                  205.10000610351562
+                ],
+                "close": [
+                  211.10000610351562,
+                  208.92999267578125,
+                  194.5800018310547
+                ],
+                "volume": [
+                  1602800,
+                  2324500,
+                  3684600
+                ],
+                "high": [
+                  212.72000122070312,
+                  211.5,
+                  208.3300018310547
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  211.10000610351562,
+                  208.92999267578125,
+                  194.5800018310547
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "44f0f04d62f9af72a8a82889be218d8646fbba4ffc0090304621ddbe4797c4d0",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:55:37.244438+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2782b3a805077e35f2450e9c98d68b9c",
+    "output_text": "{\"score\": 2, \"evidence\": \"To provide an exceptional cruise experience for our guests, we source significant quantities of goods and services from a global supply base. In addition, we incur significant capital expenditures for materials to support the refurbishment and enhancements of our vessels as well as to build new ships. We approach our spend strategically and look for suppliers who demonstrate the ability to help us leverage our scale in terms of cost, quality, service, innovation and sustainability. Our supply base is diverse and many of our suppliers provide goods and services across our portfolio of brands. We have continued to map our supply chains and evaluate risks, including the categories of products and services sourced and their geographic locations.\", \"rationale\": \"The filing identifies specific imported goods and foreign-made inputs as part of a global supply base and capital expenditures for shipbuilding and refurbishment, indicating some dependence on overseas suppliers and manufacturing. However, the extent of this dependence is not described as substantial or central to the business, and no specific operational impact is detailed. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28561,
+    "output_tokens": 214,
+    "cost_usd": 0.011766800000000001
+  }
+}

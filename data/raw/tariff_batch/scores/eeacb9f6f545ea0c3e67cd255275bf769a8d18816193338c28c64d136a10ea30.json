@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "93850d4ce23337645a1e2d87c045702cb8a099e687f227417c3c7684cb0c9421",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:39:23.222966+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "80af72cd58363fc0cddf26f06a4adfaf",
+    "output_text": "{\"score\":3,\"evidence\":\"Eastman has 36 manufacturing facilities and has equity interests in three manufacturing joint ventures in 12 countries that supply products to customers throughout the world. See \\\"Properties\\\" in Part I, Item 2 of this Annual Report on Form 10-K (this \\\"Annual Report\\\"). The Company's headquarters and largest manufacturing facility are located in Kingsport, Tennessee.\",\"rationale\":\"The filing identifies 36 manufacturing facilities and joint ventures in 12 countries, indicating substantial reliance on overseas manufacturing. The global footprint and multiple foreign manufacturing sites suggest that overseas manufacturing could materially affect costs or operations, justifying a score of 3. China is mentioned as a location for a joint venture manufacturing facility supplied from Kingsport, Tennessee, supporting inclusion of China in the rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 31603,
+    "output_tokens": 159,
+    "cost_usd": 0.012895600000000002
+  }
+}

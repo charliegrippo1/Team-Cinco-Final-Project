@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ec41472382e61b2497a5a02566ca4ded9b27cc99a5becbf8555f8132a9bdc8f4",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:14:30.291940+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ec0b96114aea0a0fb2c477d0268a40d9",
+    "output_text": "{\"score\":3,\"evidence\":\"The Company imports large quantities of finished goods, component parts and raw materials. Lead times for these items vary significantly and may be further impacted by global shortages of critical components. Global trade and supply chain constraints in the wake of geopolitical tensions and conflicts have adversely impacted, and could adversely impact again, the availability, pricing and lead times for products, component parts and raw materials and thus negatively impact the Company’s results of operations. Specifically, the Company sources materials from South Korea, China and Taiwan, and any future tensions or conflicts in such regions could cause material disruptions in the Company's supply chain which could, in turn, cause product shortages, delays in delivery and/or increases in the Company's cost incurred to produce and deliver products to its customers.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs sourced from South Korea, China, and Taiwan, and highlights that supply chain disruptions in these regions could materially affect costs and operations. This indicates substantial reliance on imports and overseas suppliers that could materially impact the Company, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38445,
+    "output_tokens": 217,
+    "cost_usd": 0.0157252
+  }
+}

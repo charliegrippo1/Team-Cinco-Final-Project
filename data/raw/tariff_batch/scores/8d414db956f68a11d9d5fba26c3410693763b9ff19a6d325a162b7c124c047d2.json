@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7593b32c19a901d705137306ad3ee88083101b38bc119e4c85c6fab8e1095528",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:49:17.838635+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "02ddec02179545aae0e3ea86557d86ca",
+    "output_text": "{\"score\":0,\"evidence\":\"Principal Financial Group, Inc. (“PFG”) is a leader in global financial services offering businesses, individuals and institutional clients a wide range of financial products and services, including retirement, asset management and workplace benefits and protection solutions through our diverse family of financial services companies.\",\"rationale\":\"The filing describes PFG as a financial services company offering financial products and services globally, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on financial products, asset management, insurance, and related services, which do not rely on physical imports or overseas manufacturing. Therefore, there is little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 57065,
+    "output_tokens": 145,
+    "cost_usd": 0.023058000000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "4b3115beba5416d2b906e615c831f8b078a8f11c892f239b13aa5bd2854c2c2c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:03:44.874320+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "08624997d791763edcd492056b3f0fa8",
+    "output_text": "{\"score\":4,\"evidence\":\"We utilize Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of wafers for our HPC, FPGA and Adaptive SoC products and GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes. Additionally, we utilize TSMC, United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd. for the production of our ICs in the form of programmable logic devices.\",\"rationale\":\"The filing explicitly states reliance on multiple overseas third-party manufacturers including TSMC (Taiwan), UMC, Samsung (South Korea), and GLOBALFOUNDRIES for wafer production and IC manufacturing, indicating that overseas manufacturing is central to the business. The assembly, test, mark and packaging are also outsourced to partners in the Asia-Pacific region. This demonstrates that most products or critical inputs depend on imported physical goods and overseas manufacturing, justifying the highest score of 4. China is mentioned as a location for assembly and test partners, supporting inclusion of China in the rationale.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39566,
+    "output_tokens": 224,
+    "cost_usd": 0.0161848
+  }
+}

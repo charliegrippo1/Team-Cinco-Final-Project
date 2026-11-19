@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f2c23b23e86dbfdf4f6613bbddf3db01e5e7c869e581ef0126ec942b7b5b7e6b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:13:29.921457+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "d59dbbfaf316683a6a681a0f86084cc0",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"We purchase a wide range of equipment, components, finished products, and materials used in our business. The raw materials essential to the manufacture of our products generally are available at competitive prices. We have a broad base of suppliers and subcontractors. We depend upon the ability of our suppliers and subcontractors to meet performance and quality specifications and delivery schedules. See Item 1A. Risk Factors for a discussion of risks associated with our reliance on third-party suppliers.\",\n  \"rationale\": \"The filing identifies reliance on a broad base of suppliers and subcontractors for equipment, components, finished products, and materials, indicating specific imported goods or foreign-made inputs are part of the supply chain. However, it does not provide detailed evidence that this dependence is substantial or central to the business, nor does it specify the extent of overseas manufacturing. Therefore, the dependence is more than general risk but less than substantial reliance, supporting a score of 2.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 20985,
+    "output_tokens": 206,
+    "cost_usd": 0.0087236
+  }
+}

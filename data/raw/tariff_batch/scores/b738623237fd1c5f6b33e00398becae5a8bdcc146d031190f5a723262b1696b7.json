@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "aa823eda65191dfe193432fbd9d0d949fe4252ba7c94a1a3da1d5675c51c7145",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:04:12.662354+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "246105e920e90e3e9825f900e8f98396",
+    "output_text": "{\"score\":0,\"evidence\":\"Physical retail and OEM partners represent a small portion of our distribution, which minimizes the impact of supply chain disruptions.\",\"rationale\":\"The filing mentions physical retail and OEM partners as a small portion of distribution, minimizing supply chain disruption impact, and does not identify specific imported goods, foreign-made inputs, or overseas manufacturing as material to operations or costs. There is no indication of substantial reliance or centrality of imports or overseas manufacturing, including China. Tariffs or trade restrictions are not specifically discussed as operational dependencies. Therefore, the filing supports little or no meaningful dependence on imported physical goods, foreign-made inputs, or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29057,
+    "output_tokens": 132,
+    "cost_usd": 0.011834
+  }
+}

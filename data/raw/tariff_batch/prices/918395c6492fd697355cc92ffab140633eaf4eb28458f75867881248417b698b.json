@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/INVH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:47.117255+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "INVH",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1485959400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 26.44,
+            "regularMarketChangePercent": -1.048,
+            "fulldayPrice": 26.44,
+            "fulldayChange": -0.28,
+            "fulldayChangePercent": -1.048,
+            "fiftyTwoWeekHigh": 30.893,
+            "fiftyTwoWeekLow": 24.25,
+            "regularMarketDayHigh": 26.67,
+            "regularMarketDayLow": 26.135,
+            "regularMarketVolume": 6074963,
+            "longName": "Invitation Homes Inc.",
+            "shortName": "Invitation Homes Inc.",
+            "chartPreviousClose": 34.55,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  34.34000015258789,
+                  33.875,
+                  32.439998626708984
+                ],
+                "high": [
+                  34.810001373291016,
+                  34.720001220703125,
+                  34.130001068115234
+                ],
+                "volume": [
+                  3360500,
+                  2766900,
+                  4671900
+                ],
+                "open": [
+                  34.59000015258789,
+                  34.349998474121094,
+                  33.779998779296875
+                ],
+                "close": [
+                  34.630001068115234,
+                  33.9900016784668,
+                  32.540000915527344
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  32.504215240478516,
+                  31.903507232666016,
+                  30.54251480102539
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

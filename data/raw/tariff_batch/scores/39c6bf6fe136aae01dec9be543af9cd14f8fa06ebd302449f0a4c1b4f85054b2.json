@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5cfd05fff19efe86744ba9381bad9a0a4c8eb9ead3d7a0ba70a5d8b760e7291b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:38:04.493818+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "2e6cf5c410a84e5c06e98f341916a2c6",
+    "output_text": "{\"score\":0,\"evidence\":\"Our supply of natural gas is provided by a variety of suppliers, including independent producers, and marketers. The gas is delivered into our systems by various pipeline companies, withdrawals of gas from proprietary and contracted storage assets, and base load and peaking arrangements, as needed.\",\"rationale\":\"The filing describes natural gas supply arrangements from various suppliers and delivery methods but does not indicate reliance on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on domestic natural gas distribution and pipeline operations within the U.S., primarily Texas and surrounding states, with no mention of imports or foreign manufacturing. Therefore, dependence on imported physical goods or overseas manufacturing is minimal or not meaningful.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22627,
+    "output_tokens": 144,
+    "cost_usd": 0.009281200000000002
+  }
+}

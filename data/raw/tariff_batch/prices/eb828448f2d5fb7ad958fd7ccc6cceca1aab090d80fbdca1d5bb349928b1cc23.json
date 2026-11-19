@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/STLD?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:49.970986+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "STLD",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 848673000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 222.69,
+            "regularMarketChangePercent": -0.872,
+            "fulldayPrice": 222.69,
+            "fulldayChange": -2.09,
+            "fulldayChangePercent": -0.93,
+            "fiftyTwoWeekHigh": 288.74,
+            "fiftyTwoWeekLow": 152.54,
+            "regularMarketDayHigh": 227.17,
+            "regularMarketDayLow": 221.45,
+            "regularMarketVolume": 822759,
+            "longName": "Steel Dynamics, Inc.",
+            "shortName": "Steel Dynamics, Inc.",
+            "chartPreviousClose": 124.0,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  122.97000122070312,
+                  121.6500015258789,
+                  111.16000366210938
+                ],
+                "high": [
+                  127.56999969482422,
+                  122.05999755859375,
+                  113.3499984741211
+                ],
+                "low": [
+                  122.36000061035156,
+                  115.91000366210938,
+                  105.63999938964844
+                ],
+                "close": [
+                  127.36000061035156,
+                  116.05999755859375,
+                  109.20999908447266
+                ],
+                "volume": [
+                  1263400,
+                  1878200,
+                  2180800
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  125.07560729980469,
+                  113.97828674316406,
+                  107.25115966796875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

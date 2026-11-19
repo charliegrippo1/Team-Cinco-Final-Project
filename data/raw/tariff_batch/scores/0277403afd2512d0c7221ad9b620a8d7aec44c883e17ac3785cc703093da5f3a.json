@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "bd7e446262043dc92c7499bae6269f68448b7ad81eda14cb114fa04b5d99e164",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:12:26.644740+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "5148d0429be196cc85653d0a939d9203",
+    "output_text": "{\"score\":3,\"evidence\":\"Manufacturing facilities are located in North America, Europe and Asia. The business sells to customers through direct sales personnel and independent distributors.\",\"rationale\":\"The filing identifies manufacturing facilities in multiple foreign locations including Asia (which includes China) and Europe, indicating substantial reliance on overseas manufacturing. The mention of multiple manufacturing locations outside the U.S. supports material operational dependence on overseas manufacturing that could materially affect costs or operations, consistent with a score of 3. There is no indication that imports or overseas manufacturing are central to the business or that most products depend on these arrangements, so a score of 4 is not supported.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42491,
+    "output_tokens": 131,
+    "cost_usd": 0.017206000000000003
+  }
+}

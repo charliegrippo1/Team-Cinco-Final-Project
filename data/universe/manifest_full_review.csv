@@ -1,0 +1,39 @@
+ticker,company,share_classes,shares_by_class,price_used,mktcap_usd_bn,why
+NKE,NIKE Inc,2,297897252|1201461692,63.48,95.18,several share classes added at one price; check conversion ratios
+META,Meta Platforms Inc,2,2189898148|343761117,576.36,1460.3,several share classes added at one price; check conversion ratios
+BRK.B,Berkshire Hathaway Inc,2,819283500|1338051639,532.58,1148.95,several share classes added at one price; check conversion ratios
+GOOGL,Alphabet Inc,3,5833000000|860000000|5497000000,154.64,1885.06,several share classes added at one price; check conversion ratios
+V,Visa Inc,4,1728105021|4835384|120338948|9595774,350.46,652.86,several share classes added at one price; check conversion ratios
+MA,Mastercard Inc,2,904889521|6818985,548.12,499.73,several share classes added at one price; check conversion ratios
+ACN,Accenture PLC,2,672684852|307754,312.04,210.0,several share classes added at one price; check conversion ratios
+PLTR,Palantir Technologies Inc,3,2248950826|95400680|1005000,84.4,197.95,several share classes added at one price; check conversion ratios
+CMCSA,Comcast Corp,2,3771578226|9444375,36.9,139.52,several share classes added at one price; check conversion ratios
+CME,CME Group Inc,5,360354174|625|813|1287|413,265.29,95.6,several share classes added at one price; check conversion ratios
+CRWD,Crowdstrike Holdings Inc,2,247873415|0,352.58,87.4,several share classes added at one price; check conversion ratios
+UPS,United Parcel Service Inc,2,114298155|739873795,109.99,93.95,several share classes added at one price; check conversion ratios
+REGN,Regeneron Pharmaceuticals Inc,2,1817146|107507536,634.23,69.34,several share classes added at one price; check conversion ratios
+DASH,DoorDash Inc,3,394485016|25611068|0,182.77,76.78,several share classes added at one price; check conversion ratios
+ABNB,Airbnb Inc,4,432876657|188462942|0|9200000,119.46,75.32,several share classes added at one price; check conversion ratios
+SPG,Simon Property Group Inc,2,326270138|8000,166.08,54.19,several share classes added at one price; check conversion ratios
+WDAY,Workday Inc,2,215000000|51000000,233.53,62.12,several share classes added at one price; check conversion ratios
+F,Ford Motor Co,2,3892595628|70852076,10.03,39.75,several share classes added at one price; check conversion ratios
+CHTR,Charter Communications Inc,2,141946426|1,368.53,52.31,several share classes added at one price; check conversion ratios
+STZ,Constellation Brands Inc,2,182952680|23661,183.52,33.58,several share classes added at one price; check conversion ratios
+DELL,Dell Technologies Inc,3,358710357|276762341|62368123,91.15,63.61,several share classes added at one price; check conversion ratios
+LEN,Lennar Corp,2,233511543|32009014,114.78,30.48,several share classes added at one price; check conversion ratios
+HSY,Hershey Co/The,2,147797121|54613514,171.03,34.62,several share classes added at one price; check conversion ratios
+MKC,McCormick & Co Inc/MD,2,15636290|252517977,82.31,22.07,several share classes added at one price; check conversion ratios
+EXPE,Expedia Group Inc,2,123333622|5523452,168.1,21.66,several share classes added at one price; check conversion ratios
+TSN,Tyson Foods Inc,2,285855466|70009005,63.81,22.71,several share classes added at one price; check conversion ratios
+EL,Estee Lauder Cos Inc/The,2,233177155|125542029,66.0,23.68,several share classes added at one price; check conversion ratios
+FOXA,Fox Corp,2,224646403|235581025,56.6,26.05,several share classes added at one price; check conversion ratios
+UHS,Universal Health Services Inc,4,6576475|57751199|661688|12614,187.9,12.21,several share classes added at one price; check conversion ratios
+ERIE,Erie Indemnity Co,2,46189068|2542,419.05,19.36,several share classes added at one price; check conversion ratios
+TAP,Molson Coors Beverage Co,2,2563034|190157977,60.87,11.73,several share classes added at one price; check conversion ratios
+NWSA,News Corp,2,378325803|190258938,27.22,15.48,several share classes added at one price; check conversion ratios
+TKO,TKO Group Holdings Inc,2,81553818|89616891,152.81,26.16,several share classes added at one price; check conversion ratios
+HRL,Hormel Foods Corp,2,549012922|0,30.94,16.99,several share classes added at one price; check conversion ratios
+RL,Ralph Lauren Corp,2,40628150|21881276,220.74,13.8,several share classes added at one price; check conversion ratios
+AOS,A O Smith Corp,2,25870069|118089097,65.36,9.41,several share classes added at one price; check conversion ratios
+PARA,Paramount Global,2,40702683|630007633,11.96,8.02,several share classes added at one price; check conversion ratios
+BF.B,Brown-Forman Corp,2,169123305|303536661,33.94,16.04,several share classes added at one price; check conversion ratios

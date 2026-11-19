@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8c906f18a638d8a8317e65f17bde3e5c8250c377d2bc8495693e54f0ea785b91",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:47:00.491576+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3c81346f89d11f18875cb4d3db3bd697",
+    "output_text": "{\"score\":2,\"evidence\":\"Aflac Japan’s investment strategy includes U.S. dollar-denominated investments. This program includes public investment-grade bonds as well as U.S. dollar-denominated investment-grade commercial mortgage loans, middle market loans, infrastructure debt, collateralized loan obligations and other loan types, high yield bond and public and private equities. The Company plans to continue adding other instruments denominated in U.S. dollars, including floating rate investments, to improve the portfolio diversification and/or return profile. Some of the U.S. dollar-denominated asset classes that the Company has added, and anticipates continuing to add, have less liquidity than investment-grade corporate bonds. Aflac Re's investment strategy also includes U.S. dollar-denominated investments that are presently comprised exclusively of public investment-grade bonds.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs, namely U.S. dollar-denominated investments including bonds, loans, and other securities, which are significant to Aflac Japan's investment portfolio. However, the evidence does not establish that this dependence is central to the business or that overseas manufacturing or imports materially affect costs or operations. The dependence is substantial enough to potentially affect financial results but not central to the business. China is not specifically mentioned in relation to foreign production or inputs.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 53081,
+    "output_tokens": 263,
+    "cost_usd": 0.0216532
+  }
+}

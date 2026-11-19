@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8d23dad5324b4def7e1cca818a6b1ff9eca93ada6afd67e006fd3947aef8b4fd",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:37:07.021010+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "0f2daa966e0e09ccfe59c6d55a5dcc2f",
+    "output_text": "{\"score\":1,\"evidence\":\"The introduction of or changes to tariffs on imported food products, such as produce and seafood, could increase our costs and possibly impact the supply of those products.\",\"rationale\":\"The filing identifies tariffs on imported food products as a general risk that could increase costs and impact supply, but does not specify particular imported goods, suppliers, or quantify the extent of dependence on imports or overseas manufacturing. Therefore, the dependence is acknowledged but limited in detail and impact.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 32789,
+    "output_tokens": 98,
+    "cost_usd": 0.013272400000000002
+  }
+}

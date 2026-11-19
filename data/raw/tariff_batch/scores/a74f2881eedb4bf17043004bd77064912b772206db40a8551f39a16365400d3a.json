@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "562d3b23ecc35c6d7037801e82aa0e79fa540bcdb3423e40c90ae9d4a4790e5c",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:33:38.784847+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "4ad1e4dac50e620f0e19381084f96ef3",
+    "output_text": "```json\n{\"score\":0,\"evidence\":\"We are an industry-leading human capital management (“HCM”) company delivering a full suite of technology and advisory services in human resources (“HR”), employee benefit solutions, insurance, and payroll processing.\",\"rationale\":\"The filing describes Paychex as a provider of technology and advisory services in HR, employee benefits, insurance, and payroll processing, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on software and services delivered primarily in the U.S. and parts of Europe, with no operational reliance on imports or overseas manufacturing indicated.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 23872,
+    "output_tokens": 129,
+    "cost_usd": 0.009755200000000002
+  }
+}

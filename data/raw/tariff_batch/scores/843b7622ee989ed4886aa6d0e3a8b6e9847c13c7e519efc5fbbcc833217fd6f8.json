@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "7e3b6a88de0a0df5930b3f37d4320000159d44d0e7c049741eccda4f8f755281",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:13:44.971644+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a80631730d6893d659a4272e6057e5a1",
+    "output_text": "{\"score\":3,\"evidence\":\"Our worldwide manufacturing activities consist primarily of assembly, integration and test of various proprietary and commercial parts, components and subassemblies that are used to manufacture systems. We utilize a distributed manufacturing model under which manufacturing and supply chain activities are conducted in various countries, including United States, Singapore, Japan, China, Korea, Taiwan, Israel and other countries in Asia and Europe.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations including China and other countries in Asia and Europe, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26265,
+    "output_tokens": 116,
+    "cost_usd": 0.0106916
+  }
+}

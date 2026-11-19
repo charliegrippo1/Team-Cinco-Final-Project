@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "abadcca149b49bd76d8cb55b7e510c2c8d5352dde2992fdce2f83f61782d271d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:08:08.923095+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "48b53ee1642fd4676d93e8d37c723587",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"U.S. exports and non-U.S. manufactured products are significant to our operations. U.S. exports represented 14% of our total sales in 2024, 13% in 2023, and 12% in 2022. Non-U.S. manufactured products and services, mainly in Europe and Asia, were 43% of our total sales in 2024, 42% in 2023, and 40% in 2022.\",\n  \"rationale\": \"The filing states that non-U.S. manufactured products and services, mainly in Europe and Asia (including China as part of Asia), accounted for 43% of total sales in 2024, indicating substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 20314,
+    "output_tokens": 178,
+    "cost_usd": 0.0084104
+  }
+}

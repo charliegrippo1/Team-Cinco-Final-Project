@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b20248bec888d3c263f280743752b68aad300a914553be08f0414ba9bec59f1d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:00:24.674872+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "626f9e1c11e8a8ff9427e5cd45c5006d",
+    "output_text": "{\"score\":2,\"evidence\":\"Our Company has relationships with a vast network of national pest control product distributors, manufacturers and other suppliers for pest and termite treatment products. We maintain a sufficient level of products, materials, and other supplies to fulfill our immediate servicing needs and to mitigate any potential short-term shortage in availability from our national network of suppliers. We also have qualified comparable products and materials for key categories to have alternatives ready as needed. However, at any time supply chain disruptions that are more than short-term in nature could impact our levels of products, materials and other supplies.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs through its relationships with national distributors and manufacturers for pest and termite treatment products, and mentions supply chain disruptions as a risk. However, it does not provide evidence that this dependence is substantial or central to the business, nor does it specify overseas manufacturing or quantify the reliance. Therefore, the dependence is identified but evidence of substantial impact is limited, supporting a score of 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 29073,
+    "output_tokens": 204,
+    "cost_usd": 0.0119556
+  }
+}

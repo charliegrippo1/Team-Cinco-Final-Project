@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MDLZ?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:19.622128+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MDLZ",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 992439000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 66.565,
+            "regularMarketChangePercent": -0.277,
+            "fulldayPrice": 66.565,
+            "fulldayChange": 0.142,
+            "fulldayChangePercent": 0.212,
+            "fiftyTwoWeekHigh": 68.92,
+            "fiftyTwoWeekLow": 51.2,
+            "regularMarketDayHigh": 66.964,
+            "regularMarketDayLow": 65.76,
+            "regularMarketVolume": 9372204,
+            "longName": "Mondelez International, Inc.",
+            "shortName": "Mondelez International, Inc.",
+            "chartPreviousClose": 67.65,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  67.70999908447266,
+                  69.0,
+                  69.12000274658203
+                ],
+                "low": [
+                  65.66999816894531,
+                  67.20999908447266,
+                  65.95999908447266
+                ],
+                "volume": [
+                  11356900,
+                  13777300,
+                  13787000
+                ],
+                "close": [
+                  66.12999725341797,
+                  67.9000015258789,
+                  66.30999755859375
+                ],
+                "open": [
+                  67.6500015258789,
+                  67.69000244140625,
+                  68.41000366210938
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  62.9104118347168,
+                  64.59423828125,
+                  63.08164596557617
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

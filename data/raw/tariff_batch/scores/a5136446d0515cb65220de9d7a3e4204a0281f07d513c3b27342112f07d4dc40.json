@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "18a3b33f4797fcf0c9ce081fd8bcaaa0676eca25fa9590e41f50fbcca1bd36b7",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:39:24.201409+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "c049992db473e1a2ac77e2a18d25d9bc",
+    "output_text": "{\"score\":0,\"evidence\":\"Corpay is a global corporate payments company that helps businesses and consumers better manage and pay their expenses. Corpay's suite of modern payment solutions help customers better manage vehicle-related expenses (e.g., fueling, tolls, car registrations and parking), lodging expenses (e.g., hotel and extended stay bookings) and corporate payments (e.g., domestic and international accounts payable and point of sale purchases).\",\"rationale\":\"The filing describes Corpay as a payments company providing digital payment solutions and services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on payment processing and related services rather than physical goods or manufacturing, and no specific operational dependence on imports or overseas manufacturing is indicated.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 48314,
+    "output_tokens": 156,
+    "cost_usd": 0.0195752
+  }
+}

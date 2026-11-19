@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "800abbb86e4e23a9e8414b16adfb929b20b4b60823e4176bdb0471dcf3a17aa6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:21:15.186101+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "74998f8be416956f151d143e76db9bba",
+    "output_text": "{\"score\":0,\"evidence\":\"Equifax Inc. is a global data, analytics and technology company. We provide information solutions for businesses, governments and consumers, and we provide human resources business process automation and outsourcing services for employers.\",\"rationale\":\"The filing describes Equifax as a data, analytics and technology company providing information solutions and services, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on data and technology services rather than physical goods or manufacturing, and no specific operational dependence on imports or overseas manufacturing is identified.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38832,
+    "output_tokens": 117,
+    "cost_usd": 0.01572
+  }
+}

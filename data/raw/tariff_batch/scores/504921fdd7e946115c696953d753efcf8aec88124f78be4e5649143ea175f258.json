@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d076f26934d783ea9ccd6d7e71041145234257a3c36481c6713ace49db5678e1",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:19:31.697577+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ff0594e465786e4b4dd1bd334fcc19b0",
+    "output_text": "{\"score\":0,\"evidence\":\"PPL, headquartered in Allentown, Pennsylvania, is a utility holding company, incorporated in 1994. PPL, through its regulated utility subsidiaries, delivers electricity to customers in Pennsylvania, Kentucky, Virginia, and Rhode Island; delivers natural gas to customers in Kentucky and Rhode Island; and generates electricity from power plants in Kentucky.\",\"rationale\":\"The filing describes PPL as a utility holding company operating regulated utilities delivering electricity and natural gas in U.S. states, with generation from power plants in Kentucky. There is no mention of imported physical goods, foreign-made inputs, or overseas manufacturing. The operations appear focused on domestic generation and regulated distribution, with no specific or substantial reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40642,
+    "output_tokens": 169,
+    "cost_usd": 0.016527200000000002
+  }
+}

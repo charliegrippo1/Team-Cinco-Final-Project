@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "5478eda57f63295afb2232e5835a6c8babc5217f4a71fa736dfadb9592ac68e2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:10:36.726676+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3faa8ec0bdd5a4fec0fe47553a573697",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"A variety of factors, many outside our control, affect our suppliers' ability to deliver quality merchandise to us at favorable prices and in a timely manner. These include raw material shortages, inadequate manufacturing capacity, labor strikes, shortages and disputes anywhere within the supply and distribution chain delivering products to us, tariff and customs legislation and enforcement, transportation disruptions, tax and other legislative uncertainties, public health emergencies and/or weather conditions.\",\n  \"rationale\": \"The filing identifies specific risks related to tariffs, customs legislation, and transportation disruptions affecting the supply chain, indicating dependence on imported goods or overseas suppliers. However, it does not quantify the extent of this dependence or state that imports or overseas manufacturing are central to the business. The mention of tariffs and trade restrictions as operational risks, along with supply chain modernization efforts, supports a score of 2, reflecting identified specific foreign-made inputs or overseas suppliers but limited evidence that dependence is substantial.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 25324,
+    "output_tokens": 202,
+    "cost_usd": 0.010452800000000002
+  }
+}

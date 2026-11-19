@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "92649b8d5106dad8417343ac53fdca82c6cd3692087db160818a8d6b52e8d2a6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:22:12.383705+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "10df045434ddac9f91bee208b6136406",
+    "output_text": "{\"score\":3,\"evidence\":\"Our manufacturing is primarily conducted through contract manufacturers and original design manufacturers with manufacturing locations in Malaysia, Mexico, Taiwan, and Vietnam. Our contract manufacturers and original design manufacturers are responsible for all phases of manufacturing from prototypes to full production, including activities such as material procurement, surface mount assembly, final assembly, test, control, shipment to our customers, and repairs.\",\"rationale\":\"The filing explicitly states that manufacturing is primarily conducted overseas through contract manufacturers and original design manufacturers located in Malaysia, Mexico, Taiwan, and Vietnam, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42214,
+    "output_tokens": 125,
+    "cost_usd": 0.0170856
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "b588f2687c2a109ce4f1dc4dec2ffd9930280427a9be0b2f33d5bcb9714bbcd0",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:33:40.805231+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "19db65650bedc164fc5d75b143f0fe53",
+    "output_text": "```json\n{\n  \"score\": 1,\n  \"evidence\": \"Rapid changes in government or political policies, including border or trade policies and tariffs, can also impact our customers operations and reduce their need for freight shipping, or may have an impact on the cost or availability of our equipment.\",\n  \"rationale\": \"The filing identifies tariffs and trade restrictions as general risks that could impact costs or operations but does not specify particular imported goods, foreign-made inputs, or overseas manufacturing dependencies. There is no detailed evidence of substantial reliance on imports or overseas manufacturing, only a general risk statement.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 14029,
+    "output_tokens": 122,
+    "cost_usd": 0.005806800000000001
+  }
+}

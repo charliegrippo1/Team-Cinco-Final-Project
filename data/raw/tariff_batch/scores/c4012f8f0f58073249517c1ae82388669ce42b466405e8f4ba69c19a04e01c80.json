@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "4843b065dfba9ce040b182db1afe7699c36c451f12cae7ea02325591a1dcaef2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:11:38.372802+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "e1eca7c035893519dc5f10d6f6067838",
+    "output_text": "{\"score\":0,\"evidence\":\"Brown & Brown is a diversified insurance agency, wholesale brokerage, insurance programs and service organization with origins dating from 1939 and is headquartered in Daytona Beach, Florida.\",\"rationale\":\"The filing describes Brown & Brown as an insurance intermediary and service organization without any mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on insurance products and services, primarily in the U.S., with some international operations, but no operational dependence on imports or overseas manufacturing is indicated.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36151,
+    "output_tokens": 109,
+    "cost_usd": 0.014634800000000002
+  }
+}

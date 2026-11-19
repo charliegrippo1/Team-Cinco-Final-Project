@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/APH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:20.946103+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "APH",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 689610600,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 76.33,
+            "regularMarketChangePercent": -0.039,
+            "fulldayPrice": 76.1,
+            "fulldayChange": -0.26,
+            "fulldayChangePercent": -0.34,
+            "fiftyTwoWeekHigh": 89.93,
+            "fiftyTwoWeekLow": 59.005,
+            "regularMarketDayHigh": 77.37,
+            "regularMarketDayLow": 75.09,
+            "regularMarketVolume": 11980023,
+            "longName": "Amphenol Corporation",
+            "shortName": "Amphenol Corporation",
+            "chartPreviousClose": 33.035,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  32.42499923706055,
+                  31.09000015258789,
+                  28.559999465942383
+                ],
+                "high": [
+                  34.04499816894531,
+                  32.404998779296875,
+                  30.28499984741211
+                ],
+                "volume": [
+                  11401000,
+                  19433600,
+                  30922000
+                ],
+                "open": [
+                  32.459999084472656,
+                  32.16999816894531,
+                  30.270000457763672
+                ],
+                "close": [
+                  33.95000076293945,
+                  31.329999923706055,
+                  29.545000076293945
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  33.60844039916992,
+                  31.014802932739258,
+                  29.247760772705078
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

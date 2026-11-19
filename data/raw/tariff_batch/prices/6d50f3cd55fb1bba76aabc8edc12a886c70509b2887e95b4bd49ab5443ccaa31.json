@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ABNB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:26.963695+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ABNB",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1607610600,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 180.21,
+            "regularMarketChangePercent": -0.403,
+            "fulldayPrice": 179.6,
+            "fulldayChange": -1.34,
+            "fulldayChangePercent": -0.741,
+            "fiftyTwoWeekHigh": 197.87,
+            "fiftyTwoWeekLow": 110.81,
+            "regularMarketDayHigh": 183.33,
+            "regularMarketDayLow": 179.064,
+            "regularMarketVolume": 3222553,
+            "longName": "Airbnb, Inc.",
+            "shortName": "Airbnb, Inc.",
+            "chartPreviousClose": 121.18,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  5184800,
+                  7950600,
+                  10259900
+                ],
+                "high": [
+                  124.58999633789062,
+                  117.18000030517578,
+                  110.41999816894531
+                ],
+                "close": [
+                  122.80000305175781,
+                  113.97000122070312,
+                  106.66000366210938
+                ],
+                "low": [
+                  119.08000183105469,
+                  111.80000305175781,
+                  104.7300033569336
+                ],
+                "open": [
+                  119.4800033569336,
+                  116.62000274658203,
+                  109.26000213623047
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  122.80000305175781,
+                  113.97000122070312,
+                  106.66000366210938
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

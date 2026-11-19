@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "685ba722eb40000e461140c5cee548162cd26135b7500f4aa714ba390d288b93",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:53:25.939559+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b04511dbc4dbaa397e56a7256c5e8a65",
+    "output_text": "{\"score\":1,\"evidence\":\"International trade disputes, including threatened or implemented tariffs imposed by the U.S. and threatened or implemented tariffs imposed by foreign countries in retaliation, could result in inflationary pressures that directly impact our costs, such as costs for steel, lumber and other materials applicable to our development and redevelopment projects.\",\"rationale\":\"The filing identifies tariffs and trade restrictions as general risks that could increase costs for materials used in development and redevelopment projects, but does not specify substantial or central dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. Therefore, the score is 1.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38723,
+    "output_tokens": 121,
+    "cost_usd": 0.0156828
+  }
+}

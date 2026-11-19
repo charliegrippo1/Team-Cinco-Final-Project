@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "352c361308b74c9451fe42f65a519f51910685b4a69fa6a92d6e6503f9c1b4b2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:04:13.727244+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "93a79060040ee604adbc5d74d30fc2e6",
+    "output_text": "{\"score\":0,\"evidence\":\"Healthpeak Properties, Inc. is a Standard & Poor’s (“S&P”) 500 company that owns, operates, and develops high-quality real estate focused on healthcare discovery and delivery in the United States (“U.S.”).\",\"rationale\":\"The filing describes the company as a U.S.-focused real estate owner and operator with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is centered on healthcare real estate in the U.S., with no evidence of reliance on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 50904,
+    "output_tokens": 116,
+    "cost_usd": 0.0205472
+  }
+}

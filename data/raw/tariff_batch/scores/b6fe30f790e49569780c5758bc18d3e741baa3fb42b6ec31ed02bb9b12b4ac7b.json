@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c56549db144af2c6b999422c032d88a9f94bb43b51aa90b4675eb1ecfc4c9dc2",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:30:03.207841+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6231e1f30633217e0798de46eae0fafd",
+    "output_text": "{\"score\":3,\"evidence\":\"We operate in many different countries. As of December 31, 2024, we had operations in 40 countries. As a result, we have previously been and remain vulnerable to risks in these countries, including: •the imposition of tariffs, quotas, import duties or other market barriers, (including the implementation of tariffs on U.S. imports by the current U.S. Administration and potential retaliatory tariffs), such as restrictions on repatriating cash from foreign countries; •responding to disruptions in existing trade agreements or increased trade tensions between countries or political and economic unions;\",\"rationale\":\"The filing identifies specific imported goods, foreign-made inputs, and overseas suppliers as risks, including tariffs and trade restrictions, and notes operations in 40 countries, indicating substantial reliance on overseas manufacturing and imports that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 47216,
+    "output_tokens": 177,
+    "cost_usd": 0.019169600000000002
+  }
+}

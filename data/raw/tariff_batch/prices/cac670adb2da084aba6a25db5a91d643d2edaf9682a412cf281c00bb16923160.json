@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/AWK?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:38.812670+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "AWK",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1208957400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 150.13,
+            "regularMarketChangePercent": 1.336,
+            "fulldayPrice": 150.13,
+            "fulldayChange": 1.98,
+            "fulldayChangePercent": 1.336,
+            "fiftyTwoWeekHigh": 153.69,
+            "fiftyTwoWeekLow": 120.57,
+            "regularMarketDayHigh": 150.61,
+            "regularMarketDayLow": 147.0,
+            "regularMarketVolume": 1400609,
+            "longName": "American Water Works Company, Inc.",
+            "shortName": "American Water Works Company, I",
+            "chartPreviousClose": 147.0,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  982400,
+                  2764800,
+                  3275400
+                ],
+                "high": [
+                  147.5,
+                  154.05999755859375,
+                  155.5
+                ],
+                "open": [
+                  147.2100067138672,
+                  148.9199981689453,
+                  155.0
+                ],
+                "low": [
+                  145.4499969482422,
+                  148.74000549316406,
+                  146.25999450683594
+                ],
+                "close": [
+                  146.19000244140625,
+                  151.9600067138672,
+                  147.22999572753906
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  139.81192016601562,
+                  145.3302001953125,
+                  140.8065643310547
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

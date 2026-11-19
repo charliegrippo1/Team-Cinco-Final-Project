@@ -1,0 +1,7 @@
+gics_sector,attempted,completed_stage,excluded_oversize,stage_coverage
+Communication Services,1,1,0,1.0
+Consumer Discretionary,2,2,0,1.0
+Energy,2,2,0,1.0
+Health Care,1,1,0,1.0
+Industrials,1,1,0,1.0
+Information Technology,3,3,0,1.0

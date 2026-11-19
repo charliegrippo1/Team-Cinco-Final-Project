@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8b678fb961bae98e747511102a42f6493090ad705b5bf7290ff82311605a5f70",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:40:57.709328+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "409043e32db4f5fa785c59ea5732df97",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"We purchase various raw materials and component parts for use in manufacturing our products and delivering our services. The principal raw materials we use include steel alloys, chromium, nickel, titanium, barite, beryllium, copper, lead, tungsten carbide, synthetic and natural diamonds, gels, sand and other proppants, printed circuit boards and other electronic components, and hydrocarbon-based chemical feed stocks. Raw materials that are essential to our business are normally readily available from multiple sources but may be subject to price volatility. We have seen prices stabilize for ferrous and non-ferrous metals and other raw materials, but availability of nickel based super alloys is constrained. Our procurement teams utilize advanced planning and may enter into strategic agreements with our global suppliers to minimize price impacts and other availability challenges. We anticipate some pricing and fulfillment volatility for certain raw materials, components, and certain logistics lanes to continue through 2025.\",\n  \"rationale\": \"The filing identifies specific imported raw materials and components essential to manufacturing, including metals and electronic components, and notes constrained availability of nickel-based super alloys. It also references global suppliers and logistics challenges, indicating substantial reliance on imported physical goods and overseas supply chains that could materially affect costs or operations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35687,
+    "output_tokens": 263,
+    "cost_usd": 0.014695600000000001
+  }
+}

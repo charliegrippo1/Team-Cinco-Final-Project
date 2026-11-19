@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d7c17c617d21f4161058503b93450269fd26f52f9143ce0d618226eb9682202b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:41:02.762202+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "58da8ba680c8a745f57638d94928fc04",
+    "output_text": "{\"score\":2,\"evidence\":\"Raw Materials\\nWe rely on third parties to provide raw materials. The most significant material we use is steel. Other materials we use in large quantities include paint, aluminum, pipe, electrical cables, electronic components, fittings, custom machine items, and sensors. In connection with our U.S. Government contracts, we are required to procure certain materials and component parts from supply sources approved by the U.S. Government. For long-term contracts, we generally solicit price quotations for many of our material requirements from multiple suppliers to ensure competitive pricing. While we have not generally been dependent upon any one supply source, we currently have only one supplier for certain component parts as a result of consolidation in the defense industry. We have experienced challenges with access to, and the pricing of, certain raw materials, components, and other supplies due to, in part, labor shortages and inflation. The inability to procure the necessary raw materials, components, and other supplies for our products on a timely and cost-effective basis has negatively affected, and could continue to negatively affect, our results of operations, financial condition, and/or cash flows. We endeavor to mitigate supply chain risk through various measures, such as negotiating long-term agreements with certain raw material suppliers and through price escalation provisions in certain customer contracts.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs such as steel, paint, aluminum, pipe, electrical cables, electronic components, fittings, custom machine items, and sensors, and notes challenges in access and pricing, indicating some dependence. However, it does not establish that this dependence is substantial or central to the business. Therefore, the score is 2.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40292,
+    "output_tokens": 336,
+    "cost_usd": 0.0166544
+  }
+}

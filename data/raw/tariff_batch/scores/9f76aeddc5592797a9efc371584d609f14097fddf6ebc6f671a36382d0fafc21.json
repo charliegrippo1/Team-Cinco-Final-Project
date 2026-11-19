@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2474ffa65e8222f758688730d021883100889ff0b6c826f9be3f25294bee25f5",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:53:14.307605+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3cda2cf01dcbdad6b69a7c3d16dfeb0c",
+    "output_text": "{\"score\":4,\"evidence\":\"We outsource the production of our products to independent manufacturers, which are primarily located in Asia. We generally purchase products from our manufacturers on the basis of individual purchase orders, rather than maintaining long-term purchase commitments, which provides us greater flexibility to adapt to changing consumer preferences, changes in international trade relations, and evolving inventory management requirements. Production by our independent manufacturers is performed in accordance with our detailed product specifications and rigorous quality control and operating compliance standards. We maintain a buying office in Hong Kong, as well as on-site supervisory offices in China, Indonesia, and Vietnam, which collectively serve as a strong link to our independent manufacturers. We believe our substantial regional presence enhances our manufacturing processes by providing predictability of material availability and ensuring adherence to quality control standards and final design specifications.\",\"rationale\":\"The filing states that production is outsourced to independent manufacturers primarily located in Asia, including China, Indonesia, and Vietnam, with buying offices and supervisory offices in these locations. This indicates that imports and overseas manufacturing are central to the business, with most products dependent on these arrangements, justifying the highest score of 4.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 35413,
+    "output_tokens": 228,
+    "cost_usd": 0.014530000000000001
+  }
+}

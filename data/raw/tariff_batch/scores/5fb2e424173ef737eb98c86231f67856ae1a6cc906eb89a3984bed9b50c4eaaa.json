@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "33c1a24da2b9a56dce00ee74837360d0de0a14397cd607f8a275b553b9f33d28",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:52:25.078112+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3bf1a08444f320efe12bf91a895b9a82",
+    "output_text": "{\"score\":4,\"evidence\":\"We purchase most of our merchandise from numerous foreign and domestic manufacturers and importers, the largest of which accounted for approximately 3% of our purchases during fiscal 2024. Approximately 18% of our products were produced in the U.S. in fiscal 2024. The remaining 82% of our merchandise purchases were sourced from foreign suppliers, with approximately 23% from China, 16% from India, 14% from Vietnam and 29% from the rest of the world.\",\"rationale\":\"The filing states that 82% of merchandise purchases are sourced from foreign suppliers, including 23% from China, indicating that imports and overseas manufacturing are central to the business and most products depend on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28865,
+    "output_tokens": 154,
+    "cost_usd": 0.011792400000000001
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:48.928976+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CLX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 108.39,
+            "regularMarketChangePercent": 1.584,
+            "fulldayPrice": 108.19,
+            "fulldayChange": 1.49,
+            "fulldayChangePercent": 1.396,
+            "fiftyTwoWeekHigh": 128.9,
+            "fiftyTwoWeekLow": 79.12,
+            "regularMarketDayHigh": 109.14,
+            "regularMarketDayLow": 105.49,
+            "regularMarketVolume": 2159099,
+            "longName": "The Clorox Company",
+            "shortName": "Clorox Company (The)",
+            "chartPreviousClose": 147.91,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  148.0500030517578,
+                  148.4600067138672,
+                  148.72000122070312
+                ],
+                "high": [
+                  148.33999633789062,
+                  150.60000610351562,
+                  150.83999633789062
+                ],
+                "low": [
+                  146.0500030517578,
+                  148.0399932861328,
+                  143.30999755859375
+                ],
+                "volume": [
+                  813000,
+                  1199500,
+                  2292900
+                ],
+                "close": [
+                  147.6199951171875,
+                  148.69000244140625,
+                  143.86000061035156
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  136.44229125976562,
+                  137.43128967285156,
+                  132.96702575683594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

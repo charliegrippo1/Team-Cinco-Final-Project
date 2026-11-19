@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/JBHT?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:57.265896+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "JBHT",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 438359400,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 227.4,
+            "regularMarketChangePercent": 1.405,
+            "fulldayPrice": 227.4,
+            "fulldayChange": 3.15,
+            "fulldayChangePercent": 1.405,
+            "fiftyTwoWeekHigh": 299.76,
+            "fiftyTwoWeekLow": 158.15,
+            "regularMarketDayHigh": 228.3,
+            "regularMarketDayLow": 223.515,
+            "regularMarketVolume": 956811,
+            "longName": "J.B. Hunt Transport Services, Inc.",
+            "shortName": "J.B. Hunt Transport Services, I",
+            "chartPreviousClose": 149.72,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  152.77999877929688,
+                  136.22999572753906,
+                  134.66000366210938
+                ],
+                "low": [
+                  147.49000549316406,
+                  135.4199981689453,
+                  127.3499984741211
+                ],
+                "high": [
+                  152.97000122070312,
+                  146.27000427246094,
+                  136.8000030517578
+                ],
+                "volume": [
+                  847800,
+                  1704500,
+                  2230400
+                ],
+                "open": [
+                  148.00999450683594,
+                  146.27000427246094,
+                  134.17999267578125
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  150.27166748046875,
+                  133.99339294433594,
+                  132.4491424560547
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

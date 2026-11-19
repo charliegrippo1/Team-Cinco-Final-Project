@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PGR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:13.018397+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PGR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 228.47,
+            "regularMarketChangePercent": -2.642,
+            "fulldayPrice": 228.47,
+            "fulldayChange": -6.2,
+            "fulldayChangePercent": -2.642,
+            "fiftyTwoWeekHigh": 241.02,
+            "fiftyTwoWeekLow": 189.2,
+            "regularMarketDayHigh": 232.36,
+            "regularMarketDayLow": 225.75,
+            "regularMarketVolume": 2657226,
+            "longName": "The Progressive Corporation",
+            "shortName": "Progressive Corporation (The)",
+            "chartPreviousClose": 284.29,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  283.0199890136719,
+                  278.30999755859375,
+                  276.1000061035156
+                ],
+                "close": [
+                  281.2300109863281,
+                  287.0,
+                  257.6400146484375
+                ],
+                "volume": [
+                  2710000,
+                  3831200,
+                  7338600
+                ],
+                "low": [
+                  276.2099914550781,
+                  277.25,
+                  256.55999755859375
+                ],
+                "high": [
+                  284.32000732421875,
+                  289.8800048828125,
+                  281.54998779296875
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  263.7494201660156,
+                  269.2565002441406,
+                  241.71165466308594
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

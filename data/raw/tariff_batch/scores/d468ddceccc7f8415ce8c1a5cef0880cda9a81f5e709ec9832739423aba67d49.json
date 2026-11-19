@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "566268595530caa9e5f285cf106b88d527c2b23a97d3553548f36daf56040c65",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:55:50.465923+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "9dcd5b938567c6e2ddfff6d4d589f503",
+    "output_text": "{\"score\": 3, \"evidence\": \"Our global and balanced manufacturing footprint provides us with the flexibility and agility to benefit from economies of scale and global supply chain agreements, enabling us to grow our business and expand margins. We are continuously modernizing and optimizing our supply chain operations while better connecting with and serving our customers. Our end-to-end, digitally connected supply chain ecosystem is designed to optimize the flexibility and agility of our route-to-market. Reliability and resiliency remain our priority throughout our fit-for-purpose supply chain, ensuring that we can deliver our products to our customers and consumers whenever and wherever they need them.\", \"rationale\": \"The filing describes a global manufacturing footprint and supply chain that is continuously modernized and optimized, indicating substantial reliance on overseas manufacturing and global supply chain agreements that could materially affect costs or operations. The mention of a 'global and balanced manufacturing footprint' and 'global supply chain agreements' supports a score of 3, reflecting substantial reliance on imports, foreign-made inputs, or overseas manufacturing. China is mentioned as a key market but not singled out as uniquely critical in this passage.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 58734,
+    "output_tokens": 224,
+    "cost_usd": 0.023852000000000005
+  }
+}

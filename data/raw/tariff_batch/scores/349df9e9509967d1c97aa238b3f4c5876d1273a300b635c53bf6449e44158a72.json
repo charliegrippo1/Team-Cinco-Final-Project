@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ef9c01925be95c55f081ac9ef9c0283544f971e6295794f04fa5bb0d1e65d15b",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:08:31.348366+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ce06f6d445c4b7121c860a0a9c12f3e5",
+    "output_text": "{\"score\":3,\"evidence\":\"In recent years, global supply chains, including ours, have experienced significant disruption from material availability and supplier performance, as well as extended lead times, pricing volatility, inflationary pressures and labor issues. We and our subcontractors and suppliers have also experienced difficulties in the timely procurement of necessary materials and components, including microelectronics. Current geopolitical conditions, including sanctions and other trade restrictive activities and strained inter-country relations, have contributed to issues procuring necessary materials and components. For example, some materials and components in our supply chain have previously been sourced from areas now under sanctions or other trade restrictions, such as specialty metals from Russia and certain equipment from China, or are currently sourced from areas which are at risk of sanctions or other trade restrictive actions, not just by the United States but by other nations or groups, such as the European Union.\",\"rationale\":\"The filing identifies specific imported goods and overseas suppliers, including materials from China and Russia, and describes substantial reliance on these supply chains with disruptions materially affecting operations and costs. This indicates a substantial reliance on imports and overseas manufacturing that could materially affect costs or operations, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 28607,
+    "output_tokens": 236,
+    "cost_usd": 0.011820400000000002
+  }
+}

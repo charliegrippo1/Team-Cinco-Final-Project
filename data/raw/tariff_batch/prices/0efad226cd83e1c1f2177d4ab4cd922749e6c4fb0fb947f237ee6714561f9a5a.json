@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/WM?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:20.041466+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "WM",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 582989400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 241.21,
+            "regularMarketChangePercent": -0.61,
+            "fulldayPrice": 241.21,
+            "fulldayChange": -1.48,
+            "fulldayChangePercent": -0.61,
+            "fiftyTwoWeekHigh": 248.13,
+            "fiftyTwoWeekLow": 200.58,
+            "regularMarketDayHigh": 242.5,
+            "regularMarketDayLow": 238.96,
+            "regularMarketVolume": 1888318,
+            "longName": "Waste Management, Inc.",
+            "shortName": "Waste Management, Inc.",
+            "chartPreviousClose": 233.79,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  232.92999267578125,
+                  233.9600067138672,
+                  235.0800018310547
+                ],
+                "high": [
+                  234.8800048828125,
+                  239.32000732421875,
+                  236.47000122070312
+                ],
+                "low": [
+                  230.47999572753906,
+                  233.10000610351562,
+                  225.05999755859375
+                ],
+                "close": [
+                  234.55999755859375,
+                  236.8300018310547,
+                  225.1999969482422
+                ],
+                "volume": [
+                  1411300,
+                  2216100,
+                  4183200
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  229.049560546875,
+                  231.2662353515625,
+                  219.90945434570312
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

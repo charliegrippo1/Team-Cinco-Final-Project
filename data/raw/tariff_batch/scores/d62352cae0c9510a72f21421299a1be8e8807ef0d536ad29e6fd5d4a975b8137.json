@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6b469582aebf0b0989d467edd9b467611fc8b432ab5eee96664c81bde95764ae",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:24:58.734569+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "b655a690586ca78ea1070325fdb46eb7",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"Our principal manufacturing facilities are located in the United States, the People’s Republic of China, Germany, Ireland, Israel, Italy, Mexico, the Netherlands and the United Kingdom.\",\n  \"rationale\": \"The filing identifies substantial reliance on overseas manufacturing facilities, including in China, Germany, Ireland, and other countries, indicating that overseas manufacturing could materially affect costs or operations.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 20635,
+    "output_tokens": 93,
+    "cost_usd": 0.0084028
+  }
+}

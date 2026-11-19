@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "19ca34d7a09ee39c29593eb2168b8a222f4609c4009c2f228de84df392931b67",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:35:36.119180+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "eae7064500f327672fde458104154922",
+    "output_text": "{\"score\":3,\"evidence\":\"Our major sales, distribution, and production facilities are located in North America, Europe, and China. Additional facilities are based in Australia, Central America, Thailand, and South Africa.\",\"rationale\":\"The filing identifies major production facilities in China and other foreign locations, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 34189,
+    "output_tokens": 75,
+    "cost_usd": 0.013795600000000002
+  }
+}

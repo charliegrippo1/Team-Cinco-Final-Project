@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/DASH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:24.472527+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "DASH",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1607524200,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 166.8,
+            "regularMarketChangePercent": 1.146,
+            "fulldayPrice": 166.8,
+            "fulldayChange": 1.89,
+            "fulldayChangePercent": 1.146,
+            "fiftyTwoWeekHigh": 239.0,
+            "fiftyTwoWeekLow": 143.3,
+            "regularMarketDayHigh": 170.5,
+            "regularMarketDayLow": 163.635,
+            "regularMarketVolume": 5060095,
+            "longName": "DoorDash, Inc.",
+            "shortName": "DoorDash, Inc.",
+            "chartPreviousClose": 182.42,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  192.69000244140625,
+                  182.1199951171875,
+                  170.22500610351562
+                ],
+                "volume": [
+                  5384800,
+                  7251900,
+                  6515500
+                ],
+                "open": [
+                  180.11000061035156,
+                  179.5,
+                  165.64999389648438
+                ],
+                "low": [
+                  179.49000549316406,
+                  173.35000610351562,
+                  162.55999755859375
+                ],
+                "close": [
+                  189.25,
+                  173.99000549316406,
+                  163.16000366210938
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  189.25,
+                  173.99000549316406,
+                  163.16000366210938
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

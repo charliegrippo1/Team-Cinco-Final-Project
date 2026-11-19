@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BKR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:30.863624+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BKR",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 544714200,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 47.3,
+            "regularMarketChangePercent": -0.337,
+            "fulldayPrice": 47.3,
+            "fulldayChange": -0.16,
+            "fulldayChangePercent": -0.337,
+            "fiftyTwoWeekHigh": 70.41,
+            "fiftyTwoWeekLow": 44.26,
+            "regularMarketDayHigh": 48.14,
+            "regularMarketDayLow": 46.79,
+            "regularMarketVolume": 6927721,
+            "longName": "Baker Hughes Company",
+            "shortName": "Baker Hughes Company",
+            "chartPreviousClose": 44.8,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  44.02000045776367,
+                  40.380001068115234,
+                  35.279998779296875
+                ],
+                "high": [
+                  45.0,
+                  42.61000061035156,
+                  39.68000030517578
+                ],
+                "open": [
+                  44.189998626708984,
+                  42.310001373291016,
+                  39.290000915527344
+                ],
+                "close": [
+                  44.91999816894531,
+                  40.86000061035156,
+                  35.40999984741211
+                ],
+                "volume": [
+                  7060900,
+                  11060500,
+                  20974600
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  43.51300811767578,
+                  39.580177307128906,
+                  34.30088424682617
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

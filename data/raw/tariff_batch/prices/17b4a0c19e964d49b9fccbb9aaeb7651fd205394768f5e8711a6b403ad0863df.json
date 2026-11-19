@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/WMB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:22.028589+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "WMB",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 378657000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 67.23,
+            "regularMarketChangePercent": -0.341,
+            "fulldayPrice": 67.23,
+            "fulldayChange": -0.23,
+            "fulldayChangePercent": -0.341,
+            "fiftyTwoWeekHigh": 80.08,
+            "fiftyTwoWeekLow": 58.09,
+            "regularMarketDayHigh": 68.025,
+            "regularMarketDayLow": 66.795,
+            "regularMarketVolume": 5899938,
+            "longName": "The Williams Companies, Inc.",
+            "shortName": "Williams Companies, Inc. (The)",
+            "chartPreviousClose": 60.57,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  61.650001525878906,
+                  60.970001220703125,
+                  58.540000915527344
+                ],
+                "open": [
+                  59.90999984741211,
+                  59.09000015258789,
+                  57.060001373291016
+                ],
+                "low": [
+                  59.90999984741211,
+                  58.47999954223633,
+                  53.54999923706055
+                ],
+                "close": [
+                  61.599998474121094,
+                  59.029998779296875,
+                  54.56999969482422
+                ],
+                "volume": [
+                  6932100,
+                  11517900,
+                  18980300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  58.78229522705078,
+                  56.329856872558594,
+                  52.0738639831543
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

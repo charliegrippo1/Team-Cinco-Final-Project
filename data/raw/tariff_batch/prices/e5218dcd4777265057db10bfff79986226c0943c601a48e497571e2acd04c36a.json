@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/FCX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:26.320713+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "FCX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 805383000,
+            "regularMarketTime": 1795035651,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 51.45,
+            "regularMarketChangePercent": -6.962,
+            "fulldayPrice": 51.49,
+            "fulldayChange": -3.81,
+            "fulldayChangePercent": -6.89,
+            "fiftyTwoWeekHigh": 80.24,
+            "fiftyTwoWeekLow": 38.85,
+            "regularMarketDayHigh": 52.63,
+            "regularMarketDayLow": 50.46,
+            "regularMarketVolume": 28449885,
+            "longName": "Freeport-McMoRan Inc.",
+            "shortName": "Freeport-McMoRan, Inc.",
+            "chartPreviousClose": 38.13,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  38.220001220703125,
+                  35.9900016784668,
+                  31.31999969482422
+                ],
+                "low": [
+                  37.40999984741211,
+                  33.41999816894531,
+                  28.489999771118164
+                ],
+                "volume": [
+                  13166400,
+                  31999800,
+                  44734500
+                ],
+                "open": [
+                  37.599998474121094,
+                  35.97999954223633,
+                  31.149999618530273
+                ],
+                "close": [
+                  38.20000076293945,
+                  33.5099983215332,
+                  29.149999618530273
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  37.4212532043457,
+                  32.82686233520508,
+                  28.55574607849121
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

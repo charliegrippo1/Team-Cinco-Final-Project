@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "210d248b8b52590bd3848b2798297f43385c709f4c3fd6231661907c9e7770fb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:05:04.861332+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f6a6a8cd351afadeeeb17c046d516dba",
+    "output_text": "{\"score\":3,\"evidence\":\"At December 31, 2024, the Company has subsidiaries in about 50 countries worldwide and manufacturing operations in about 24 countries.\",\"rationale\":\"The filing states that DuPont has manufacturing operations in about 24 countries worldwide, indicating substantial reliance on overseas manufacturing that could materially affect costs or operations. This supports a score of 3 rather than 4, as imports or overseas manufacturing are important but not described as central or most products dependent on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 39393,
+    "output_tokens": 102,
+    "cost_usd": 0.0159204
+  }
+}

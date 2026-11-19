@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/HSIC?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:00.541997+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "HSIC",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 815409000,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 85.69,
+            "regularMarketChangePercent": 3.316,
+            "fulldayPrice": 85.69,
+            "fulldayChange": 2.75,
+            "fulldayChangePercent": 3.316,
+            "fiftyTwoWeekHigh": 92.18,
+            "fiftyTwoWeekLow": 68.7,
+            "regularMarketDayHigh": 86.11,
+            "regularMarketDayLow": 82.18,
+            "regularMarketVolume": 2083073,
+            "longName": "Henry Schein, Inc.",
+            "shortName": "Henry Schein, Inc.",
+            "chartPreviousClose": 69.07,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "volume": [
+                  1172700,
+                  1250200,
+                  2362500
+                ],
+                "open": [
+                  68.30000305175781,
+                  68.51000213623047,
+                  65.55000305175781
+                ],
+                "high": [
+                  69.70999908447266,
+                  69.22000122070312,
+                  66.36000061035156
+                ],
+                "low": [
+                  68.30000305175781,
+                  66.12000274658203,
+                  63.0
+                ],
+                "close": [
+                  69.25,
+                  66.58999633789062,
+                  65.47000122070312
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  69.25,
+                  66.58999633789062,
+                  65.47000122070312
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

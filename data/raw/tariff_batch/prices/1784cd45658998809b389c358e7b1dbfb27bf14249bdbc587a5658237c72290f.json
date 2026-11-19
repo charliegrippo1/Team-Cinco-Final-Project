@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SBAC?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:43.552036+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "SBAC",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 929539800,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 173.41,
+            "regularMarketChangePercent": -0.659,
+            "fulldayPrice": 173.41,
+            "fulldayChange": -1.15,
+            "fulldayChangePercent": -0.659,
+            "fiftyTwoWeekHigh": 224.46,
+            "fiftyTwoWeekLow": 156.6,
+            "regularMarketDayHigh": 175.33,
+            "regularMarketDayLow": 171.33,
+            "regularMarketVolume": 1116428,
+            "longName": "SBA Communications Corporation",
+            "shortName": "SBA Communications Corporation",
+            "chartPreviousClose": 220.42,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  217.33999633789062,
+                  224.42999267578125,
+                  219.75999450683594
+                ],
+                "open": [
+                  219.3699951171875,
+                  224.74000549316406,
+                  231.60000610351562
+                ],
+                "volume": [
+                  708000,
+                  1610200,
+                  2220100
+                ],
+                "high": [
+                  220.6999969482422,
+                  234.85000610351562,
+                  234.4199981689453
+                ],
+                "close": [
+                  219.33999633789062,
+                  230.8699951171875,
+                  219.91000366210938
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  210.4062042236328,
+                  221.46658325195312,
+                  210.95297241210938
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

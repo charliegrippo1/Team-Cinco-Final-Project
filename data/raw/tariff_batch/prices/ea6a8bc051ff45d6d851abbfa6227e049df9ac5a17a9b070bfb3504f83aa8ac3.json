@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LEN?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:40.107552+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LEN",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 322151400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 82.91,
+            "regularMarketChangePercent": 0.692,
+            "fulldayPrice": 79.728,
+            "fulldayChange": -2.612,
+            "fulldayChangePercent": -3.172,
+            "fiftyTwoWeekHigh": 133.76,
+            "fiftyTwoWeekLow": 71.78,
+            "regularMarketDayHigh": 84.61,
+            "regularMarketDayLow": 81.04,
+            "regularMarketVolume": 3499986,
+            "longName": "Lennar Corporation",
+            "shortName": "Lennar Corporation",
+            "chartPreviousClose": 114.51,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  115.80000305175781,
+                  113.2300033569336,
+                  115.88999938964844
+                ],
+                "open": [
+                  112.91000366210938,
+                  112.4000015258789,
+                  106.94999694824219
+                ],
+                "volume": [
+                  2427000,
+                  4722000,
+                  7946200
+                ],
+                "low": [
+                  112.55000305175781,
+                  108.18000030517578,
+                  106.19999694824219
+                ],
+                "close": [
+                  115.66000366210938,
+                  108.4000015258789,
+                  111.02999877929688
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  111.63668823242188,
+                  104.62923431396484,
+                  107.16773223876953
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

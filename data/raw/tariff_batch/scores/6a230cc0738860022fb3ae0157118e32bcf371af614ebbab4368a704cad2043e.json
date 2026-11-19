@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "2309f0534c3f6b7c7fa2204e17a7b82c718aff2e5925de14442032254e3c03d3",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:15:51.150669+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f68c4ba30e43d0f71c7211102fd94446",
+    "output_text": "{\"score\":3,\"evidence\":\"OxyChem owns and operates manufacturing plants at 21 domestic sites in Alabama, Georgia, Illinois, Kansas, Louisiana, Michigan, New Jersey, Ohio, Tennessee and Texas and at two international sites in Canada and Chile.\",\"rationale\":\"The filing identifies specific international manufacturing sites for OxyChem in Canada and Chile, indicating some overseas manufacturing. However, the majority of manufacturing plants are domestic, and there is no evidence that imports or overseas manufacturing are central to the business or that most products depend on these arrangements. Thus, the dependence is substantial enough to potentially affect operations but not central to the business, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45130,
+    "output_tokens": 136,
+    "cost_usd": 0.0182696
+  }
+}

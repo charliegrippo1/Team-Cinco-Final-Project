@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "89aaceaf6d748ca1969c34c3af68d59db881f2223e635d6685e5f1c6eff74061",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:02:49.992911+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a13f9a0b561c39fcb97ccf47615e26bb",
+    "output_text": "{\"score\":0,\"evidence\":\"Founded in 1995 in San Jose, California, eBay Inc. is a global commerce leader that connects people and builds communities to create economic opportunity for all. Our technology empowers millions of buyers and sellers in more than 190 markets around the world, providing everyone the opportunity to grow and thrive.\",\"rationale\":\"The filing describes eBay as a global commerce platform connecting buyers and sellers worldwide but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model is based on a marketplace platform rather than manufacturing or importing goods. There is no mention of tariffs or trade restrictions as operational dependencies, nor is there evidence of substantial reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 36888,
+    "output_tokens": 163,
+    "cost_usd": 0.015016000000000002
+  }
+}

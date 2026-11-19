@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:39.241890+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BR",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1174570200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 184.9,
+            "regularMarketChangePercent": -1.951,
+            "fulldayPrice": 184.9,
+            "fulldayChange": -3.68,
+            "fulldayChangePercent": -1.951,
+            "fiftyTwoWeekHigh": 233.1,
+            "fiftyTwoWeekLow": 133.83,
+            "regularMarketDayHigh": 189.83,
+            "regularMarketDayLow": 184.12,
+            "regularMarketVolume": 1030963,
+            "longName": "Broadridge Financial Solutions, Inc.",
+            "shortName": "Broadridge Financial Solutions,",
+            "chartPreviousClose": 244.72,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  246.25,
+                  239.91000366210938,
+                  225.0399932861328
+                ],
+                "low": [
+                  242.07000732421875,
+                  239.05999755859375,
+                  224.6999969482422
+                ],
+                "high": [
+                  247.00999450683594,
+                  246.22000122070312,
+                  236.1300048828125
+                ],
+                "volume": [
+                  534800,
+                  825700,
+                  740600
+                ],
+                "open": [
+                  242.6300048828125,
+                  240.9499969482422,
+                  235.47999572753906
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  238.93438720703125,
+                  232.78274536132812,
+                  218.35450744628906
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "0555bb5da229dbfcfec07c8f1e97301d08981c72fe2296e00614e31192f89b28",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:05:56.828651+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "377567971d47b000372894682f3db906",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"The Company’s products and services are available worldwide, with manufacturing operations in more than 20 countries. The businesses located outside the U.S. are primarily based in Germany, India, the Netherlands, the United Kingdom, Italy, Switzerland, Canada and China.\",\n  \"rationale\": \"The filing identifies manufacturing operations in over 20 countries including China and India, indicating substantial overseas manufacturing. Multiple segments and businesses maintain operations in foreign countries such as China, India, and Europe, showing reliance on overseas manufacturing that could materially affect costs or operations. While specific imported goods or inputs are not detailed, the global manufacturing footprint and multiple foreign production sites support a score of 3.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 22983,
+    "output_tokens": 153,
+    "cost_usd": 0.009438
+  }
+}

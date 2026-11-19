@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "d0664d833e3d4a0e648e274ee0287ee3d7d19372d4402463434db5ef77eafc9d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:57:46.673062+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "67d746204a4e6a88db32ffd2db232adf",
+    "output_text": "{\"score\":3,\"evidence\":\"We rely on contract manufacturers for our manufacturing needs. We presently use a variety of independent third-party companies to provide services related to printed-circuit board assembly, in-circuit test, product repair, and product assembly.\",\"rationale\":\"The filing states Cisco relies on contract manufacturers and independent third-party companies for manufacturing services, indicating substantial reliance on overseas manufacturing and foreign-made inputs that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 40832,
+    "output_tokens": 90,
+    "cost_usd": 0.0164768
+  }
+}

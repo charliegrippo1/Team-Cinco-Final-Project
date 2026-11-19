@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f52b0a653f74e0d361c3dbccb0e7449739151af901398fa32c94ac5c16e76872",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:52:16.895678+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "04621d6ce572362e89cdf1db0ea1259b",
+    "output_text": "{\"score\":3,\"evidence\":\"Imported crude oil accounted for approximately 60 percent of Chevron’s U.S. refinery inputs in both 2024 and 2023.\",\"rationale\":\"The filing states that imported crude oil makes up about 60% of U.S. refinery inputs, indicating substantial reliance on imported physical goods that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 43330,
+    "output_tokens": 74,
+    "cost_usd": 0.0174504
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NCLH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:40:00.940559+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "NCLH",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1358519400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 17.99,
+            "regularMarketChangePercent": 2.158,
+            "fulldayPrice": 17.922,
+            "fulldayChange": 0.312,
+            "fulldayChangePercent": 1.771,
+            "fiftyTwoWeekHigh": 25.13,
+            "fiftyTwoWeekLow": 13.63,
+            "regularMarketDayHigh": 18.495,
+            "regularMarketDayLow": 17.557,
+            "regularMarketVolume": 15172206,
+            "longName": "Norwegian Cruise Line Holdings Ltd.",
+            "shortName": "Norwegian Cruise Line Holdings ",
+            "chartPreviousClose": 19.06,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  18.649999618530273,
+                  16.239999771118164,
+                  14.5
+                ],
+                "volume": [
+                  13937400,
+                  29515400,
+                  19510100
+                ],
+                "open": [
+                  18.68000030517578,
+                  18.18000030517578,
+                  15.699999809265137
+                ],
+                "close": [
+                  19.5,
+                  16.309999465942383,
+                  15.6899995803833
+                ],
+                "high": [
+                  19.59000015258789,
+                  18.280000686645508,
+                  15.890000343322754
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  19.5,
+                  16.309999465942383,
+                  15.6899995803833
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

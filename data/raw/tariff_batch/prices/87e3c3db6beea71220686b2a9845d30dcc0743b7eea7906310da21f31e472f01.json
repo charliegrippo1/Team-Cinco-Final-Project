@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/GWW?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:30.619914+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "GWW",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 1448.12,
+            "regularMarketChangePercent": -1.284,
+            "fulldayPrice": 1448.12,
+            "fulldayChange": -18.84,
+            "fulldayChangePercent": -1.284,
+            "fiftyTwoWeekHigh": 1521.41,
+            "fiftyTwoWeekLow": 906.52,
+            "regularMarketDayHigh": 1466.687,
+            "regularMarketDayLow": 1446.0,
+            "regularMarketVolume": 335519,
+            "longName": "W.W. Grainger, Inc.",
+            "shortName": "W.W. Grainger, Inc.",
+            "chartPreviousClose": 994.06,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  982.6400146484375,
+                  955.010009765625,
+                  939.4600219726562
+                ],
+                "volume": [
+                  255200,
+                  388400,
+                  451500
+                ],
+                "open": [
+                  984.8599853515625,
+                  955.8900146484375,
+                  959.7000122070312
+                ],
+                "high": [
+                  1006.7000122070312,
+                  977.5999755859375,
+                  975.0999755859375
+                ],
+                "close": [
+                  1004.9199829101562,
+                  973.4099731445312,
+                  942.4299926757812
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  990.4317016601562,
+                  959.3759155273438,
+                  928.8427124023438
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

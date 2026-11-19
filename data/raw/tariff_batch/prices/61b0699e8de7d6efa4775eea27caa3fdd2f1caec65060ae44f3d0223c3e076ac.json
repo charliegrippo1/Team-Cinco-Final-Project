@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/WRB?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:45.442555+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "WRB",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 120231000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 76.93,
+            "regularMarketChangePercent": -0.825,
+            "fulldayPrice": 76.93,
+            "fulldayChange": -0.64,
+            "fulldayChangePercent": -0.825,
+            "fiftyTwoWeekHigh": 79.26,
+            "fiftyTwoWeekLow": 62.87,
+            "regularMarketDayHigh": 77.815,
+            "regularMarketDayLow": 76.505,
+            "regularMarketVolume": 1370464,
+            "longName": "W. R. Berkley Corporation",
+            "shortName": "W.R. Berkley Corporation",
+            "chartPreviousClose": 70.25,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  69.75,
+                  70.29000091552734,
+                  65.43000030517578
+                ],
+                "high": [
+                  70.3499984741211,
+                  70.88999938964844,
+                  69.66999816894531
+                ],
+                "volume": [
+                  2246100,
+                  2311100,
+                  2853200
+                ],
+                "open": [
+                  70.0,
+                  68.86000061035156,
+                  68.62999725341797
+                ],
+                "low": [
+                  69.1500015258789,
+                  68.86000061035156,
+                  65.23999786376953
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  67.23123168945312,
+                  67.7517318725586,
+                  63.06723403930664
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

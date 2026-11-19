@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ee29975461e5b178936ec3712eb4918fe17a58cfc7368804e96b7b22e4b79beb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:03:41.138715+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "6b11d547b95408297593a763b2fd2b7a",
+    "output_text": "{\"score\":0,\"evidence\":\"Discover Financial Services (the “Company”) is a digital banking and payment services company.\",\"rationale\":\"The filing describes Discover Financial Services as a digital banking and payment services company with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is focused on financial products and payment networks primarily in the U.S., with no specific operational dependence on imports or overseas manufacturing identified. Foreign sales alone do not increase the score, and China or other foreign production locations are not mentioned in this context. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 60734,
+    "output_tokens": 130,
+    "cost_usd": 0.024501600000000002
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "1c70fab831fc18895c3e2457c695dea401d49cf209ab8bb1eee78ffa507f321e",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:32:27.626649+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f1a5121d31bc63b7fee3a60f269a8fa5",
+    "output_text": "{\"score\":2,\"evidence\":\"As of December 31, 2024, the aggregate cost of our ships on order, excluding any ships on order by our Partner Brands, was approximately $7.8 billion, of which we had deposited $815 million. Approximately 43.4% of the aggregate cost was exposed to fluctuations in the Euro exchange rate at December 31, 2024.\",\"rationale\":\"The filing identifies specific ships on order and associated costs, including deposits and exposure to foreign currency fluctuations, indicating dependence on overseas shipbuilding and foreign suppliers. However, it does not establish that imports or overseas manufacturing are central to the business or that most products or critical inputs depend on these arrangements, so the dependence is substantial but not central.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 42739,
+    "output_tokens": 153,
+    "cost_usd": 0.017340400000000002
+  }
+}

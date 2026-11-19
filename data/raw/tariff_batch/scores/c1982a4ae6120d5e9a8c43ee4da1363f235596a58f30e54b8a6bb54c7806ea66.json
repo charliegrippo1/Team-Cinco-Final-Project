@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "dd4edccb247bad129ecf2471be1757b900421bdd0b4a5fb65a6060a08967dd06",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-18T23:59:53.751392+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "ef9b72c75f3d81c7bf91ec5344cace51",
+    "output_text": "```json\n{\"score\": 1, \"evidence\": \"Disruptions in operations or price volatility in a market can also result from governmental actions (whether proposed or realized, unilateral or bilateral), such as price, foreign exchange or trade-related tariffs or controls, trade policies and regulations, sanctions and counter sanctions, government-mandated closure of our, our franchisees’ or our suppliers’ operations, and asset seizures.\", \"rationale\": \"The filing identifies tariffs and trade restrictions as general risks that could disrupt operations, but does not specify particular imported goods, foreign-made inputs, or overseas manufacturing dependencies that are substantial or central to the business.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26188,
+    "output_tokens": 133,
+    "cost_usd": 0.010688000000000001
+  }
+}

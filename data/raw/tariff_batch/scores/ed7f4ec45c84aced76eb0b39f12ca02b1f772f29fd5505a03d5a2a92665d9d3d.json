@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "006707009114f126c605d28934c40f8e38953cdf07e8954de27ec3e5146ce61f",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:05:54.507348+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f97a2146be618ba93f8239ef88d3d0bf",
+    "output_text": "{\"score\":0,\"evidence\":\"We are a provider of credit ratings, benchmarks, analytics and workflow solutions in the global capital, commodity and automotive markets. The capital markets include asset managers, investment banks, commercial banks, insurance companies, exchanges, trading firms and issuers; the commodity markets include producers, consumers, traders and intermediaries within energy, chemicals, shipping, metals, carbon and agriculture; and the automotive markets include manufacturers, suppliers, dealerships, service shops and customers.\",\"rationale\":\"The filing describes S&P Global as a provider of data, analytics, and workflow solutions in financial, commodity, and automotive markets, but does not identify any specific dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is primarily information and analytics services, with no mention of physical goods or overseas manufacturing operations. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 48962,
+    "output_tokens": 185,
+    "cost_usd": 0.019880800000000004
+  }
+}

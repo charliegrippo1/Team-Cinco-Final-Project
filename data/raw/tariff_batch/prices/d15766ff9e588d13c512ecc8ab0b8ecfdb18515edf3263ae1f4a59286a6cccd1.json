@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/BSX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:13.986178+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "BSX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 706282200,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 43.64,
+            "regularMarketChangePercent": 1.418,
+            "fulldayPrice": 43.409,
+            "fulldayChange": 0.379,
+            "fulldayChangePercent": 0.88,
+            "fiftyTwoWeekHigh": 101.91,
+            "fiftyTwoWeekLow": 39.57,
+            "regularMarketDayHigh": 44.32,
+            "regularMarketDayLow": 42.5,
+            "regularMarketVolume": 13209088,
+            "longName": "Boston Scientific Corporation",
+            "shortName": "Boston Scientific Corporation",
+            "chartPreviousClose": 101.24,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  100.05000305175781,
+                  98.5,
+                  89.69999694824219
+                ],
+                "open": [
+                  99.70999908447266,
+                  96.94000244140625,
+                  94.7300033569336
+                ],
+                "low": [
+                  98.44000244140625,
+                  96.6500015258789,
+                  89.6500015258789
+                ],
+                "volume": [
+                  11755600,
+                  10996700,
+                  22572300
+                ],
+                "high": [
+                  101.0199966430664,
+                  99.86000061035156,
+                  95.88999938964844
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  100.05000305175781,
+                  98.5,
+                  89.69999694824219
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f80932dc3f11349a5a370dfe6d309f4a6811be86de5f8ba98cd896ef3c2276a1",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:24:44.338554+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "17302a8ecec0439c7abceb6c82f38355",
+    "output_text": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Certain raw materials, such as cashews, are sourced internationally, which may cause additional risks to pricing and availability.\",\n  \"rationale\": \"The filing identifies specific imported goods (cashews) sourced internationally, indicating some dependence on foreign-made inputs. However, the evidence does not demonstrate that this dependence is substantial or central to the business, nor does it specify reliance on overseas manufacturing. Thus, the score reflects limited but identified dependence.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 23451,
+    "output_tokens": 106,
+    "cost_usd": 0.009550000000000001
+  }
+}

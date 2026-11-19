@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "ecb2e169c7e83a74cc51061b96c62433f69b7d48acba290e2d454e279009cccb",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:08:48.142908+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "612dc60785098147f7039fe4a6bf0f0a",
+    "output_text": "```json\n{\"score\": 0, \"evidence\": \"Jack Henry & Associates, Inc.® is a well-rounded financial technology company that strengthens connections between financial institutions and the people and businesses they serve.\", \"rationale\": \"The filing describes the company as a financial technology provider with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. There is no evidence of operational reliance on such arrangements, nor mention of tariffs or trade restrictions affecting operations.\"}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 21954,
+    "output_tokens": 99,
+    "cost_usd": 0.00894
+  }
+}

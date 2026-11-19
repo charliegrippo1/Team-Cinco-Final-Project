@@ -1,0 +1,5 @@
+cik,company,ticker,price_symbol,why
+0000798354,Fiserv Inc,FI,FISV,"same company renamed its ticker after the event; Yahoo no longer serves FI. FISV's 2025-04-02 close 226.15 vs SPY N-PORT 2025-03-31 price 220.83"
+0001390777,Bank of New York Mellon Corp/The,BK,BNY,"same company renamed its ticker; Yahoo no longer serves BK. BNY's 2025-04-02 close 84.22 vs SPY N-PORT 2025-03-31 price 83.87"
+0000062709,Marsh & McLennan Cos Inc,MMC,MRSH,"same company renamed its ticker; Yahoo no longer serves MMC. MRSH's 2025-04-02 close 243.64 vs SPY N-PORT 2025-03-31 price 244.03"
+0000813828,Paramount Global,PARA,none,"after Paramount's merger the PARA symbol was reused: Yahoo's PARA is Parabolic Technologies (2025-04-02 close 214.00 vs Paramount's 11.96). No verified Paramount series, so no price: the firm is a disclosed price failure"

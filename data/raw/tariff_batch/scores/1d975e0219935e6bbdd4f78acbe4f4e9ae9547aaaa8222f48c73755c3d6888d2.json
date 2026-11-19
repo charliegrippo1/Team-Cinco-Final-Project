@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "f8b3f86fef55dae7cdad818da67d81941ff2bf9da892ea91eefa1a93c00cf988",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:31:52.749471+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "1a08097125858263594be019b5a64408",
+    "output_text": "{\"score\":0,\"evidence\":\"TKO Group Holdings is a premium sports and sports entertainment company that operates leading combat sport and sports entertainment companies. TKO owns and manages valuable sports and entertainment intellectual property, positioning the business in what we believe is one of the most attractive parts of the fast-growing global sports and entertainment ecosystem.\",\"rationale\":\"The filing describes TKO as a sports and entertainment company focused on intellectual property and content distribution, with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business model centers on media rights, live events, sponsorships, and consumer products licensing, without specific operational reliance on imports or overseas manufacturing. Therefore, the filing supports little or no meaningful dependence on imported physical goods or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 51494,
+    "output_tokens": 154,
+    "cost_usd": 0.020844
+  }
+}

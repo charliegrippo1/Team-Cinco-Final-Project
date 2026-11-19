@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/ODFL?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:37.256842+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "ODFL",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 688311000,
+            "regularMarketTime": 1795035600,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 175.11,
+            "regularMarketChangePercent": 1.897,
+            "fulldayPrice": 175.11,
+            "fulldayChange": 3.26,
+            "fulldayChangePercent": 1.897,
+            "fiftyTwoWeekHigh": 252.03,
+            "fiftyTwoWeekLow": 126.01,
+            "regularMarketDayHigh": 176.61,
+            "regularMarketDayLow": 171.76,
+            "regularMarketVolume": 1525914,
+            "longName": "Old Dominion Freight Line, Inc.",
+            "shortName": "Old Dominion Freight Line, Inc.",
+            "chartPreviousClose": 167.09,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  164.47000122070312,
+                  153.02000427246094,
+                  147.05999755859375
+                ],
+                "close": [
+                  170.10000610351562,
+                  155.75,
+                  152.05999755859375
+                ],
+                "high": [
+                  170.5800018310547,
+                  165.6199951171875,
+                  155.77999877929688
+                ],
+                "open": [
+                  164.66000366210938,
+                  162.52999877929688,
+                  153.1699981689453
+                ],
+                "volume": [
+                  904900,
+                  2683400,
+                  3326300
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  168.44384765625,
+                  154.23353576660156,
+                  150.5794677734375
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

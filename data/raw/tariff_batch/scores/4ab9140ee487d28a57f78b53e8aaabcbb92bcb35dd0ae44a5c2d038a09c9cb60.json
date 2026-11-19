@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "acd68e9b035ca84a00d2381e33c328f002d668da023aabb2c28c47be2798ecd6",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T00:25:01.462758+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "409c391f586aa607d6b0712c2a78935c",
+    "output_text": "```json\n{\n  \"score\": 3,\n  \"evidence\": \"Tariffs, export controls, additional taxes, trade barriers, sanctions, the termination or modification of trade agreements, trade zones, and other duty mitigation initiatives, and any reciprocal retaliatory actions, can increase our manufacturing costs, decrease margins, reduce the competitiveness of our products, disrupt our supply chain operations, or inhibit our ability to sell products or provide services, which has had and in the future could have a material adverse effect on our business, results of operations, or financial conditions.\",\n  \"rationale\": \"The filing identifies specific tariffs, export controls, trade barriers, and sanctions as factors that can materially affect manufacturing costs, margins, supply chain operations, and the ability to sell products or provide services. This indicates substantial reliance on imported goods, overseas manufacturing, or foreign-made inputs that could materially affect operations and costs, justifying a score of 3. The mention of China in the context of export controls further supports this assessment.\"\n}\n```",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 30322,
+    "output_tokens": 206,
+    "cost_usd": 0.0124584
+  }
+}

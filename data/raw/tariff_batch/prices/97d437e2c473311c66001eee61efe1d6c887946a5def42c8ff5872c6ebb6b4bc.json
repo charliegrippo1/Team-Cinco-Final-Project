@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CHTR?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:34.599908+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "CHTR",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1262701800,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 139.19,
+            "regularMarketChangePercent": 0.498,
+            "fulldayPrice": 139.19,
+            "fulldayChange": 0.69,
+            "fulldayChangePercent": 0.498,
+            "fiftyTwoWeekHigh": 254.11,
+            "fiftyTwoWeekLow": 101.11,
+            "regularMarketDayHigh": 141.22,
+            "regularMarketDayLow": 135.5,
+            "regularMarketVolume": 2070016,
+            "longName": "Charter Communications, Inc.",
+            "shortName": "Charter Communications, Inc.",
+            "chartPreviousClose": 370.91,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  379.2699890136719,
+                  368.3999938964844,
+                  338.2900085449219
+                ],
+                "open": [
+                  370.79998779296875,
+                  378.2799987792969,
+                  365.0
+                ],
+                "high": [
+                  379.9599914550781,
+                  385.8800048828125,
+                  368.9200134277344
+                ],
+                "volume": [
+                  923300,
+                  1445400,
+                  1834000
+                ],
+                "low": [
+                  370.1300048828125,
+                  368.05999755859375,
+                  337.5400085449219
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  379.2699890136719,
+                  368.3999938964844,
+                  338.2900085449219
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

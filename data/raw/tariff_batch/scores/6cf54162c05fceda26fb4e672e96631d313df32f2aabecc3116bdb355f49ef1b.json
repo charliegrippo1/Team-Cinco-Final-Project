@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "8a48a1938fe7315ec9c77c9e7d7ad31f14caf493198052eceb1a22788be2ba28",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T02:00:12.366645+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "f46a0063a8d72995db5e5ccc84726dbe",
+    "output_text": "{\"score\":4,\"evidence\":\"Our products are currently produced in facilities primarily located in the Asia-Pacific region, including China, Taiwan, Vietnam, Malaysia, and Mexico. The EMSs and JDMs produce our products to our design specifications. We maintain control over portions of the supply chain, including supplier selection and price negotiations for key components. The manufacturers generally purchase all the components and subassemblies used in the production of our products.\",\"rationale\":\"The filing states that the company's products are manufactured primarily in Asia-Pacific facilities including China, and that contract manufacturers purchase all components and subassemblies, indicating that imports and overseas manufacturing are central to the business and most products depend on these arrangements.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 26153,
+    "output_tokens": 141,
+    "cost_usd": 0.0106868
+  }
+}

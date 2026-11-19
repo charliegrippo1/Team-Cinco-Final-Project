@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c5ac471b0472f23777ba5e5246759b9d02c02f9668b75b805840ab9245ac0d3d",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:46:25.895900+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "a23e7f659559f413245ca0ae944c3d92",
+    "output_text": "{\"score\": 0, \"evidence\": \"Molina Healthcare, Inc., a FORTUNE 500 company, provides managed healthcare services under the Medicaid and Medicare programs, and through the state insurance marketplaces (the “Marketplace”).\", \"rationale\": \"The filing describes Molina Healthcare as a managed healthcare services provider operating primarily in government-sponsored programs (Medicaid, Medicare, Marketplace) with no mention of dependence on imported physical goods, foreign-made inputs, or overseas manufacturing. The business is service-based and domestic, with no evidence of reliance on imports or overseas manufacturing.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 38512,
+    "output_tokens": 116,
+    "cost_usd": 0.0155904
+  }
+}

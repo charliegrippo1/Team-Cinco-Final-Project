@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "c125f51278930fe103905650b108baccd50a312caadd46af7e76722240d1a160",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:35:25.111925+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "3a43c00d17cbff2dc5d2cd3415ea2cdc",
+    "output_text": "{\"score\":3,\"evidence\":\"Our manufacturing operations employ a wide variety of raw materials, including electronic components, steel, plastics and other petroleum-based products, aluminum, and copper. Prices of oil and gas affect our costs for freight and utilities. We purchase raw materials from a large number of independent sources around the world. Tariffs affect our costs for impacted materials or components we import into the United States. Based on allocation of annual spend among our various suppliers, no single supplier is material. However, some components that require particular specifications or qualifications are dependent on a single supplier or a limited number of suppliers that can readily provide such components. We utilize a number of techniques to address potential disruption in and other risks relating to our supply chain, including in certain cases the use of safety stock, alternative materials that meet the quality and regulatory requirements, and qualification of multiple supply sources. While the remediation efforts taken by certain jurisdictions in response to events, such as the COVID-19 pandemic and the disruptions from the Ukraine/Russia conflict, have raised material and shipping costs, our supply chain was responsive to these dynamics, and we implemented solutions, including through FBS and working collaboratively with our suppliers, to effectively support our operations, and help countermeasure production material shortages and distribution limitations.\",\"rationale\":\"The filing identifies specific imported goods and foreign-made inputs (electronic components, steel, plastics, aluminum, copper) sourced globally and notes tariffs affect costs for imported materials. It also describes reliance on single or limited suppliers for certain components and supply chain risks that could materially affect costs or operations. This indicates substantial reliance on imports and overseas suppliers that could materially impact the business, supporting a score of 3.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 33349,
+    "output_tokens": 339,
+    "cost_usd": 0.013882000000000002
+  }
+}

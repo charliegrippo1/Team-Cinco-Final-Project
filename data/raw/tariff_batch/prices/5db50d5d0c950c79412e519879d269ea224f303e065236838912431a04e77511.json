@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/VMC?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:37.445702+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "VMC",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 99153000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 279.74,
+            "regularMarketChangePercent": 1.679,
+            "fulldayPrice": 279.74,
+            "fulldayChange": 4.62,
+            "fulldayChangePercent": 1.679,
+            "fiftyTwoWeekHigh": 331.09,
+            "fiftyTwoWeekLow": 237.03,
+            "regularMarketDayHigh": 280.685,
+            "regularMarketDayLow": 272.65,
+            "regularMarketVolume": 821172,
+            "longName": "Vulcan Materials Company",
+            "shortName": "Vulcan Materials Company (Holdi",
+            "chartPreviousClose": 237.27,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  234.05999755859375,
+                  228.5,
+                  225.1300048828125
+                ],
+                "open": [
+                  234.05999755859375,
+                  228.5,
+                  231.3000030517578
+                ],
+                "high": [
+                  242.3800048828125,
+                  238.19000244140625,
+                  235.82000732421875
+                ],
+                "volume": [
+                  708100,
+                  2269600,
+                  2850900
+                ],
+                "close": [
+                  240.10000610351562,
+                  237.17999267578125,
+                  230.74000549316406
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  237.05885314941406,
+                  234.1758270263672,
+                  227.81741333007812
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

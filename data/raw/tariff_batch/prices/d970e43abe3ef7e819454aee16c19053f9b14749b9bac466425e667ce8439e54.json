@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/MNST?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:32.019565+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "MNST",
+            "exchangeName": "NMS",
+            "fullExchangeName": "NasdaqGS",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 502986600,
+            "regularMarketTime": 1795035601,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 44.91,
+            "regularMarketChangePercent": 1.058,
+            "fulldayPrice": 44.91,
+            "fulldayChange": 0.47,
+            "fulldayChangePercent": 1.058,
+            "fiftyTwoWeekHigh": 50.17,
+            "fiftyTwoWeekLow": 35.43,
+            "regularMarketDayHigh": 45.327,
+            "regularMarketDayLow": 44.115,
+            "regularMarketVolume": 10875748,
+            "longName": "Monster Beverage Corporation",
+            "shortName": "Monster Beverage Corporation",
+            "chartPreviousClose": 29.52,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "high": [
+                  29.709999084472656,
+                  30.170000076293945,
+                  30.0
+                ],
+                "volume": [
+                  9265600,
+                  17076000,
+                  20772600
+                ],
+                "low": [
+                  29.30500030517578,
+                  29.309999465942383,
+                  28.5
+                ],
+                "close": [
+                  29.68000030517578,
+                  29.825000762939453,
+                  28.540000915527344
+                ],
+                "open": [
+                  29.524999618530273,
+                  29.385000228881836,
+                  29.7549991607666
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  29.68000030517578,
+                  29.825000762939453,
+                  28.540000915527344
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

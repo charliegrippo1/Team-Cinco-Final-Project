@@ -1,0 +1,19 @@
+{
+  "requested_model": "gpt-4.1-mini",
+  "backend": "parrot",
+  "input_sha256": "6621a0e633a85fd0de8861c522d56f9152436b35355b2e7a81f9c057d792ca20",
+  "prompt_sha256": "3b27223625af885ab57fc5d1cff950af7b7ec9591f4135a2ae6092ff15beb205",
+  "masked": false,
+  "retrieved_utc": "2026-11-19T01:16:38.875264+00:00",
+  "response": {
+    "status": "completed",
+    "model": "gpt-4.1-mini",
+    "id": "188d9321016a371155b1e2cf13ccc3dc",
+    "output_text": "{\"score\":3,\"evidence\":\"We sell our products into many countries and we also source many components and materials for our products from and manufacture our products in various countries. Future tariffs and tariffs already implemented could have negative impact on our business, results of operations and financial condition. It may be time-consuming and expensive for us to alter our business operations in order to adapt to any such change. Further, additional tariffs, the scope and duration of which, if implemented, remains uncertain, which have been proposed or threatened and the potential escalation of a trade war and retaliatory measures could have a material adverse effect on our business, results of operations and financial condition.\",\"rationale\":\"The filing identifies specific overseas manufacturing locations including China and other countries, and explicitly discusses tariffs and trade restrictions as risks that could materially affect the business, indicating substantial reliance on imports, foreign-made inputs, or overseas manufacturing that could materially affect costs or operations.\"}",
+    "service": "openai",
+    "system_prompt": "",
+    "input_tokens": 45075,
+    "output_tokens": 186,
+    "cost_usd": 0.0183276
+  }
+}

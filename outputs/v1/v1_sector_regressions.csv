@@ -1,0 +1,51 @@
+outcome,model,term,coef,std_err_hc3,p,n,adjusted_r2,status
+car_pp,exposure,Intercept,1.300757,0.447207,0.00383,408,0.012076,ok
+car_pp,exposure,exposure_score,-0.520116,0.216676,0.016825,408,0.012076,ok
+car_pp,sector,Intercept,1.355534,0.878275,0.123529,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Consumer Discretionary],-0.177296,1.239347,0.886319,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Consumer Staples],5.89269,1.398532,3.1e-05,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Energy],-10.324312,1.537713,0.0,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Financials],-2.035051,1.150866,0.077782,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Health Care],2.422014,1.138753,0.034045,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Industrials],-1.620885,1.014,0.110726,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Information Technology],-5.079094,1.129314,9e-06,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Materials],-2.400809,1.503732,0.111158,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Real Estate],1.353435,1.19518,0.258145,408,0.319806,ok
+car_pp,sector,C(gics_sector)[T.Utilities],3.428406,1.538016,0.026366,408,0.319806,ok
+car_pp,sector_exposure,Intercept,2.464416,1.102212,0.025916,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Consumer Discretionary],0.564322,1.430689,0.693468,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Consumer Staples],7.40459,1.55269,3e-06,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Energy],-10.291698,1.632198,0.0,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Financials],-2.873304,1.334938,0.031971,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Health Care],3.583078,1.31731,0.006816,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Industrials],-0.758939,1.218766,0.533833,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Information Technology],-4.005335,1.257423,0.00156,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Materials],-0.947148,1.593922,0.552701,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Real Estate],0.39508,1.372688,0.773639,408,0.354426,ok
+car_pp,sector_exposure,C(gics_sector)[T.Utilities],3.520319,1.703516,0.039431,408,0.354426,ok
+car_pp,sector_exposure,exposure_score,-0.978425,0.20861,4e-06,408,0.354426,ok
+apr3_pp,exposure,Intercept,1.123386,0.361465,0.002017,408,0.021715,ok
+apr3_pp,exposure,exposure_score,-0.553543,0.178476,0.00206,408,0.021715,ok
+apr3_pp,sector,Intercept,1.267584,1.001732,0.206473,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Consumer Discretionary],-2.898451,1.277764,0.023843,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Consumer Staples],4.189321,1.350359,0.002057,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Energy],-5.836334,1.404637,4e-05,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Financials],-1.121121,1.231869,0.363323,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Health Care],2.026597,1.131713,0.074098,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Industrials],-2.071688,1.10895,0.062477,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Information Technology],-4.096326,1.17737,0.000559,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Materials],-1.817756,1.288314,0.15904,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Real Estate],0.274819,1.278591,0.829925,408,0.255521,ok
+apr3_pp,sector,C(gics_sector)[T.Utilities],3.085656,1.37169,0.025026,408,0.255521,ok
+apr3_pp,sector_exposure,Intercept,2.229165,1.194675,0.062792,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Consumer Discretionary],-2.255347,1.434908,0.116802,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Consumer Staples],5.500384,1.511931,0.000311,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Energy],-5.808052,1.489926,0.000114,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Financials],-1.848023,1.407593,0.189978,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Health Care],3.033429,1.31198,0.021284,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Industrials],-1.324241,1.295721,0.3074,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Information Technology],-3.165202,1.314605,0.016509,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Materials],-0.557196,1.456889,0.702328,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Real Estate],-0.556231,1.436326,0.698772,408,0.29376,ok
+apr3_pp,sector_exposure,C(gics_sector)[T.Utilities],3.16536,1.551078,0.041939,408,0.29376,ok
+apr3_pp,sector_exposure,exposure_score,-0.848454,0.176334,2e-06,408,0.29376,ok

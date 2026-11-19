@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/LH?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:47.717127+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "LH",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 638721000,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 370.78,
+            "regularMarketChangePercent": 0.69,
+            "fulldayPrice": 370.78,
+            "fulldayChange": 2.54,
+            "fulldayChangePercent": 0.69,
+            "fiftyTwoWeekHigh": 375.1,
+            "fiftyTwoWeekLow": 245.0,
+            "regularMarketDayHigh": 371.275,
+            "regularMarketDayLow": 363.0,
+            "regularMarketVolume": 689929,
+            "longName": "Labcorp Holdings Inc.",
+            "shortName": "Labcorp Holdings Inc.",
+            "chartPreviousClose": 232.65,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "open": [
+                  233.19000244140625,
+                  234.86000061035156,
+                  231.5
+                ],
+                "close": [
+                  236.3699951171875,
+                  233.4600067138672,
+                  225.0
+                ],
+                "high": [
+                  237.3000030517578,
+                  238.38999938964844,
+                  233.74000549316406
+                ],
+                "volume": [
+                  776700,
+                  1123400,
+                  1424200
+                ],
+                "low": [
+                  231.64999389648438,
+                  232.50999450683594,
+                  222.27999877929688
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  232.71957397460938,
+                  229.8545379638672,
+                  221.5251922607422
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

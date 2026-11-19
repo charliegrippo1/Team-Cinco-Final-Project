@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/PSX?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:27.413287+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "PSX",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1334237400,
+            "regularMarketTime": 1795035603,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 244.83,
+            "regularMarketChangePercent": -4.709,
+            "fulldayPrice": 244.83,
+            "fulldayChange": -12.1,
+            "fulldayChangePercent": -4.709,
+            "fiftyTwoWeekHigh": 299.39,
+            "fiftyTwoWeekLow": 127.16,
+            "regularMarketDayHigh": 256.17,
+            "regularMarketDayLow": 242.67,
+            "regularMarketVolume": 4405476,
+            "longName": "Phillips 66",
+            "shortName": "Phillips 66",
+            "chartPreviousClose": 124.35,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "start": 1794992400,
+                "end": 1795012200,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "start": 1795012200,
+                "end": 1795035600,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "start": 1795035600,
+                "end": 1795050000,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "close": [
+                  124.05999755859375,
+                  107.18000030517578,
+                  98.80999755859375
+                ],
+                "low": [
+                  122.54000091552734,
+                  106.6500015258789,
+                  95.66999816894531
+                ],
+                "high": [
+                  124.20999908447266,
+                  118.77999877929688,
+                  103.37999725341797
+                ],
+                "volume": [
+                  2216600,
+                  6785500,
+                  6421200
+                ],
+                "open": [
+                  123.0,
+                  117.45999908447266,
+                  102.63999938964844
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  118.1761245727539,
+                  102.09671020507812,
+                  94.1236801147461
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}

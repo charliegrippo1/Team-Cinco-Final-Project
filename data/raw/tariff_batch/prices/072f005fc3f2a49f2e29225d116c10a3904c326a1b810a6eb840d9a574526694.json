@@ -1,0 +1,120 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SW?period1=1743552000&period2=1743811200&interval=1d",
+  "retrieved_utc": "2026-11-18T22:39:44.683708+00:00",
+  "response": {
+    "chart": {
+      "result": [
+        {
+          "meta": {
+            "currency": "USD",
+            "symbol": "SW",
+            "exchangeName": "NYQ",
+            "fullExchangeName": "NYSE",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 1213709400,
+            "regularMarketTime": 1795035602,
+            "hasPrePostMarketData": true,
+            "gmtoffset": -18000,
+            "timezone": "EST",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketPrice": 40.33,
+            "regularMarketChangePercent": 0.498,
+            "fulldayPrice": 40.33,
+            "fulldayChange": 0.2,
+            "fulldayChangePercent": 0.498,
+            "fiftyTwoWeekHigh": 52.65,
+            "fiftyTwoWeekLow": 32.729,
+            "regularMarketDayHigh": 41.815,
+            "regularMarketDayLow": 39.9,
+            "regularMarketVolume": 3784446,
+            "longName": "Smurfit Westrock Plc",
+            "shortName": "Smurfit WestRock plc",
+            "chartPreviousClose": 45.62,
+            "priceHint": 2,
+            "currentTradingPeriod": {
+              "pre": {
+                "timezone": "EST",
+                "end": 1795012200,
+                "start": 1794992400,
+                "gmtoffset": -18000
+              },
+              "regular": {
+                "timezone": "EST",
+                "end": 1795035600,
+                "start": 1795012200,
+                "gmtoffset": -18000
+              },
+              "post": {
+                "timezone": "EST",
+                "end": 1795050000,
+                "start": 1795035600,
+                "gmtoffset": -18000
+              }
+            },
+            "dataGranularity": "1d",
+            "range": "",
+            "validRanges": [
+              "1d",
+              "5d",
+              "1mo",
+              "3mo",
+              "6mo",
+              "1y",
+              "2y",
+              "5y",
+              "10y",
+              "ytd",
+              "max"
+            ]
+          },
+          "timestamp": [
+            1743600600,
+            1743687000,
+            1743773400
+          ],
+          "indicators": {
+            "quote": [
+              {
+                "low": [
+                  45.04999923706055,
+                  42.58000183105469,
+                  39.220001220703125
+                ],
+                "volume": [
+                  3665500,
+                  6127500,
+                  5923500
+                ],
+                "high": [
+                  47.119998931884766,
+                  44.599998474121094,
+                  42.2400016784668
+                ],
+                "close": [
+                  47.060001373291016,
+                  42.709999084472656,
+                  41.060001373291016
+                ],
+                "open": [
+                  45.099998474121094,
+                  44.20000076293945,
+                  40.86000061035156
+                ]
+              }
+            ],
+            "adjclose": [
+              {
+                "adjclose": [
+                  44.36568069458008,
+                  40.26472473144531,
+                  38.709197998046875
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}
